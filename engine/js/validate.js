@@ -156,7 +156,14 @@
     }
 
     if (slide.type === 'reflection') {
-      if (!slide.prompt) err(where, 'Reflection slide has no "prompt".');
+      var hasFields = Array.isArray(slide.fields) && slide.fields.length;
+      if (!slide.prompt && !hasFields) err(where, 'Reflection slide has no "prompt" and no "fields".');
+      if (hasFields) {
+        slide.fields.forEach(function (f, i) {
+          if (!f.prompt) err(where, 'Reflection field ' + (i + 1) + ' has no "prompt".');
+          if (!f.id) warn(where, 'Reflection field ' + (i + 1) + ' has no "id"; answers key off the array index instead, which breaks if fields are reordered.');
+        });
+      }
       if (slide.graded) warn(where, 'Reflection slides are captured, not graded. Remove "graded".');
     }
 

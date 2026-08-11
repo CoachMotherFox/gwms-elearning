@@ -1,16 +1,16 @@
 window.GWMS_COURSE_BUNDLE = window.GWMS_COURSE_BUNDLE || {};
-window.GWMS_COURSE_BUNDLE["session-01"] =
+window.GWMS_COURSE_BUNDLE["session-07"] =
 {
-  "id": "session-01",
-  "title": "Session 1 — Arrival",
+  "id": "session-07",
+  "title": "Session 7 — Crack",
   "lang": "en",
   "rightsHolder": "Jamey Phoenix Bethea, Conceptual Combat Academy",
   "meta": {
-    "session": 1,
+    "session": 7,
     "sessionOf": 36,
     "stage": "The Descent",
-    "week": 1,
-    "theme": "Arrival",
+    "week": 3,
+    "theme": "Crack",
     "neighborhood": "The Roads",
     "block": "Block 4 — Cleanup, eLearning, IRF",
     "casel": [
@@ -18,17 +18,22 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
       "Self-Management"
     ],
     "bloom": "Apply",
-    "card": "Foundations (safety)",
-    "domain": null,
-    "keyCondition": "Safe contact, the tap is understood.",
-    "probingQuestion": "What makes a place feel safe to you?",
-    "grapplingTlo": null,
-    "grapplingElos": [],
-    "caselTlo": null,
-    "caselElos": [],
-    "connection": null,
-    "_source": "GWMS Curriculum Guide — Session 1 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives).",
-    "_todo": "Session 1's Lesson and Intervention Guide carries only the game paragraph. Grappling TLO/ELOs, CASEL TLO/ELOs and the connection line are absent there, so they are absent here and the module states none of them."
+    "card": "Controlling the Legs",
+    "domain": "Enter",
+    "keyCondition": "Take the base first, destabilize before advancing.",
+    "probingQuestion": "What happens to your mask when you're losing?",
+    "grapplingTlo": "By the end of this session, the participant will apply base and framing while under a passing attempt as the guard is beaten.",
+    "grapplingElos": [
+      "Recognize when the guard is being passed.",
+      "Reset to a safe position after being passed."
+    ],
+    "caselTlo": "By the end of this session, the participant will name what shows up when they lose, the reaction under the mask.",
+    "caselElos": [
+      "Notice their reaction to losing the position.",
+      "Name what comes out under pressure."
+    ],
+    "connection": "When your guard gets passed, the mask cracks and something real shows. Getting passed on the mat and cracking under pressure are the same moment, felt in the body first.",
+    "_source": "GWMS Curriculum Guide — Session 7 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
@@ -37,10 +42,10 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
       "title": "Today",
       "slides": [
         {
-          "id": "s01-question",
+          "id": "s07-question",
           "type": "text-image",
-          "eyebrow": "Session 1 · Probing question",
-          "title": "What makes a place feel safe to you?",
+          "eyebrow": "Session 7 · Probing question",
+          "title": "What happens to your mask when you're losing?",
           "body": [
             {
               "kind": "lead",
@@ -49,7 +54,7 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
             {
               "kind": "callout",
               "label": "Where this sits",
-              "text": "Session 1 of 36. The Descent, Week 1, Arrival. On the mat that stage runs The Roads."
+              "text": "Session 7 of 36. The Descent, Week 3, Crack. On the mat that stage runs The Roads."
             }
           ],
           "alternates": [
@@ -64,18 +69,18 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
           ]
         },
         {
-          "id": "s01-game",
+          "id": "s07-game",
           "type": "text-image",
           "eyebrow": "The game",
-          "title": "Dirty Feet",
+          "title": "Closed Guard Opening, Hands on Body",
           "body": [
             {
               "kind": "lead",
-              "text": "Guard passing game, one standing, one on the ground. The ground player keeps their feet on the standing player, controlling distance and preventing entry. The standing player works to beat the feet and close to chest-to-chest. No fixed win condition, the coach calls the switch and roles swap."
+              "text": "Now you are the one trying to get past. Win by opening the guard: hands on the body, break it down, clear the feet. Light pressure only, nobody gets crushed."
             },
             {
               "kind": "paragraph",
-              "text": "It trains real guard skills: distance management, framing, and closing the gap under pressure. Nobody gets put on their back hard, which is the whole reason it fits day one."
+              "text": "This is where the guard, the mask, starts getting beaten."
             }
           ],
           "reveals": [
@@ -85,11 +90,11 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Safe contact, the tap is understood."
+                  "text": "Take the base first, destabilize before advancing."
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Card: Foundations (safety)."
+                  "text": "Card: Controlling the Legs. Domain: Enter."
                 }
               ]
             },
@@ -115,7 +120,7 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
           ]
         },
         {
-          "id": "s01-check",
+          "id": "s07-check",
           "type": "quiz",
           "eyebrow": "Quick check",
           "title": "How you win it",
@@ -123,12 +128,12 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Dirty Feet, what counts as the win?",
+          "question": "In Closed Guard Opening, Hands on Body, what counts as the win?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "The coach calls the switch and the roles swap — there is no fixed win condition",
+              "text": "Opening the guard — hands on the body, break it down, clear the feet",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
@@ -150,20 +155,105 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
       ]
     },
     {
+      "id": "lesson",
+      "title": "The lesson",
+      "slides": [
+        {
+          "id": "s07-grappling",
+          "type": "text-image",
+          "eyebrow": "On the mat",
+          "title": "What you were working on",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "By the end of this session, the participant will apply base and framing while under a passing attempt as the guard is beaten."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Which broke down into"
+            },
+            {
+              "kind": "list",
+              "ordered": true,
+              "items": [
+                "Recognize when the guard is being passed.",
+                "Reset to a safe position after being passed."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s07-casel",
+          "type": "text-image",
+          "eyebrow": "The other half",
+          "title": "And the part that was not about grappling",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "By the end of this session, the participant will name what shows up when they lose, the reaction under the mask."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Which broke down into"
+            },
+            {
+              "kind": "list",
+              "ordered": true,
+              "items": [
+                "Notice their reaction to losing the position.",
+                "Name what comes out under pressure."
+              ]
+            },
+            {
+              "kind": "callout",
+              "label": "CASEL",
+              "text": "Self-Awareness · Self-Management"
+            }
+          ]
+        },
+        {
+          "id": "s07-connection",
+          "type": "reveal",
+          "eyebrow": "The connection",
+          "title": "Where those two meet",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "When your guard gets passed, the mask cracks and something real shows. Getting passed on the mat and cracking under pressure are the same moment, felt in the body first."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "stage-arc",
+              "label": "Where this sits in The Descent",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Passing past a partner's guard to what it protects is the same act as looking under the mask to the real self. The Descent digs, on the mat and in the person."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "close",
       "title": "Before you go",
       "slides": [
         {
-          "id": "s01-reflection",
+          "id": "s07-reflection",
           "type": "reflection",
           "eyebrow": "Reflection",
           "title": "Your answer",
-          "prompt": "What makes a place feel safe to you?",
+          "prompt": "What happens to your mask when you're losing?",
           "hint": "Nobody is grading this and nobody else sees it. A few words is plenty.",
           "placeholder": "Whatever comes to mind…"
         },
         {
-          "id": "s01-irf",
+          "id": "s07-irf",
           "type": "reflection",
           "eyebrow": "Before you go",
           "title": "Instruction Rating Form",
@@ -189,7 +279,7 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
             {
               "kind": "callout",
               "label": "Next session",
-              "text": "Session 2: How do you show up when nobody here knows you yet?"
+              "text": "Session 8: What slips out of you when you get tired and stop performing?"
             }
           ],
           "_todo": "Unit 4 routes IRF responses through a Google Form backend or basic LMS. This engine has no backend, so answers stay on the device. Wire the submit target before the pilot."

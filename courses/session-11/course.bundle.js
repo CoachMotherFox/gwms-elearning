@@ -1,14 +1,16 @@
+window.GWMS_COURSE_BUNDLE = window.GWMS_COURSE_BUNDLE || {};
+window.GWMS_COURSE_BUNDLE["session-11"] =
 {
-  "id": "session-02",
-  "title": "Session 2 — Arrival",
+  "id": "session-11",
+  "title": "Session 11 — Reveal",
   "lang": "en",
   "rightsHolder": "Jamey Phoenix Bethea, Conceptual Combat Academy",
   "meta": {
-    "session": 2,
+    "session": 11,
     "sessionOf": 36,
     "stage": "The Descent",
-    "week": 1,
-    "theme": "Arrival",
+    "week": 4,
+    "theme": "Reveal",
     "neighborhood": "The Roads",
     "block": "Block 4 — Cleanup, eLearning, IRF",
     "casel": [
@@ -16,22 +18,22 @@
       "Self-Management"
     ],
     "bloom": "Apply",
-    "card": "Taking the Base",
-    "domain": "Enter",
-    "keyCondition": "A connection the partner has to answer.",
-    "probingQuestion": "How do you show up when nobody here knows you yet?",
-    "grapplingTlo": "By the end of this session, the participant will demonstrate safe contact entry with an unfamiliar partner.",
+    "card": "Controlling the Legs",
+    "domain": "Arrive",
+    "keyCondition": "Land the pin and hold the arrival for a three-count.",
+    "probingQuestion": "What part of you have you been hiding, even from yourself?",
+    "grapplingTlo": "By the end of this session, the participant will apply the pass to arrive in a pin with the control conditions true.",
     "grapplingElos": [
-      "Make controlled first contact with a new partner.",
-      "Stay safe while closing distance."
+      "Complete the pass into a controlled chest position.",
+      "Hold the arrival for a three-count."
     ],
-    "caselTlo": "By the end of this session, the participant will name their default entrance behavior when new, without judging it.",
+    "caselTlo": "By the end of this session, the participant will acknowledge, to themselves at minimum, one part they have hidden even from themselves.",
     "caselElos": [
-      "Notice how they enter a new space.",
-      "Name that entrance behavior plainly."
+      "Look at one hidden part.",
+      "Keep it private if chosen."
     ],
-    "connection": "How you make first contact on the mat, cautious, rushed, stiff, is your entrance. Naming how you show up when nobody knows you yet is the same pattern, seen off the mat.",
-    "_source": "GWMS Curriculum Guide — Session 2 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+    "connection": "Arriving past the guard puts you in contact with what was most protected. Naming the Shadow does the same inside you. Both reach the thing that was hidden deepest.",
+    "_source": "GWMS Curriculum Guide — Session 11 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
@@ -40,10 +42,10 @@
       "title": "Today",
       "slides": [
         {
-          "id": "s02-question",
+          "id": "s11-question",
           "type": "text-image",
-          "eyebrow": "Session 2 · Probing question",
-          "title": "How do you show up when nobody here knows you yet?",
+          "eyebrow": "Session 11 · Probing question",
+          "title": "What part of you have you been hiding, even from yourself?",
           "body": [
             {
               "kind": "lead",
@@ -52,7 +54,7 @@
             {
               "kind": "callout",
               "label": "Where this sits",
-              "text": "Session 2 of 36. The Descent, Week 1, Arrival. On the mat that stage runs The Roads."
+              "text": "Session 11 of 36. The Descent, Week 4, Reveal. On the mat that stage runs The Roads."
             }
           ],
           "alternates": [
@@ -67,18 +69,18 @@
           ]
         },
         {
-          "id": "s02-game",
+          "id": "s11-game",
           "type": "text-image",
           "eyebrow": "The game",
-          "title": "Overhook-Underhook Starting Position Game",
+          "title": "Half Guard Side-Position Game",
           "body": [
             {
               "kind": "lead",
-              "text": "Both players stand and tie up, one arm over, one arm under. The win is one thing: connect your hands anywhere on your partner's body. No takedowns, no slamming, stay light and standing."
+              "text": "The top player completes the pass and lands the pin. Win by getting under one elbow and connecting your hands, then holding it for a three-count."
             },
             {
               "kind": "paragraph",
-              "text": "You are learning to make a connection the other person has to answer, which is the first thing that happens when you meet a stranger on the mat."
+              "text": "You have arrived past the guard. What was hidden is now out in the open."
             }
           ],
           "reveals": [
@@ -88,11 +90,11 @@
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "A connection the partner has to answer."
+                  "text": "Land the pin and hold the arrival for a three-count."
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Card: Taking the Base. Domain: Enter."
+                  "text": "Card: Controlling the Legs. Domain: Arrive."
                 }
               ]
             },
@@ -118,7 +120,7 @@
           ]
         },
         {
-          "id": "s02-check",
+          "id": "s11-check",
           "type": "quiz",
           "eyebrow": "Quick check",
           "title": "How you win it",
@@ -126,12 +128,12 @@
             "role": "formative",
             "scored": false
           },
-          "question": "In Overhook-Underhook Starting Position Game, what counts as the win?",
+          "question": "In Half Guard Side-Position Game, what counts as the win?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Connecting your hands anywhere on your partner's body",
+              "text": "Getting under one elbow, connecting your hands, and holding it for a three-count",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
@@ -157,14 +159,14 @@
       "title": "The lesson",
       "slides": [
         {
-          "id": "s02-grappling",
+          "id": "s11-grappling",
           "type": "text-image",
           "eyebrow": "On the mat",
           "title": "What you were working on",
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will demonstrate safe contact entry with an unfamiliar partner."
+              "text": "By the end of this session, the participant will apply the pass to arrive in a pin with the control conditions true."
             },
             {
               "kind": "heading",
@@ -175,21 +177,21 @@
               "kind": "list",
               "ordered": true,
               "items": [
-                "Make controlled first contact with a new partner.",
-                "Stay safe while closing distance."
+                "Complete the pass into a controlled chest position.",
+                "Hold the arrival for a three-count."
               ]
             }
           ]
         },
         {
-          "id": "s02-casel",
+          "id": "s11-casel",
           "type": "text-image",
           "eyebrow": "The other half",
           "title": "And the part that was not about grappling",
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will name their default entrance behavior when new, without judging it."
+              "text": "By the end of this session, the participant will acknowledge, to themselves at minimum, one part they have hidden even from themselves."
             },
             {
               "kind": "heading",
@@ -200,8 +202,8 @@
               "kind": "list",
               "ordered": true,
               "items": [
-                "Notice how they enter a new space.",
-                "Name that entrance behavior plainly."
+                "Look at one hidden part.",
+                "Keep it private if chosen."
               ]
             },
             {
@@ -212,14 +214,14 @@
           ]
         },
         {
-          "id": "s02-connection",
+          "id": "s11-connection",
           "type": "reveal",
           "eyebrow": "The connection",
           "title": "Where those two meet",
           "body": [
             {
               "kind": "lead",
-              "text": "How you make first contact on the mat, cautious, rushed, stiff, is your entrance. Naming how you show up when nobody knows you yet is the same pattern, seen off the mat."
+              "text": "Arriving past the guard puts you in contact with what was most protected. Naming the Shadow does the same inside you. Both reach the thing that was hidden deepest."
             }
           ],
           "reveals": [
@@ -242,16 +244,16 @@
       "title": "Before you go",
       "slides": [
         {
-          "id": "s02-reflection",
+          "id": "s11-reflection",
           "type": "reflection",
           "eyebrow": "Reflection",
           "title": "Your answer",
-          "prompt": "How do you show up when nobody here knows you yet?",
-          "hint": "Nobody is grading this and nobody else sees it. A few words is plenty.",
+          "prompt": "What part of you have you been hiding, even from yourself?",
+          "hint": "You do not have to write anything here. Looking at it yourself is the whole task. If you do write, nobody else sees it.",
           "placeholder": "Whatever comes to mind…"
         },
         {
-          "id": "s02-irf",
+          "id": "s11-irf",
           "type": "reflection",
           "eyebrow": "Before you go",
           "title": "Instruction Rating Form",
@@ -277,7 +279,7 @@
             {
               "kind": "callout",
               "label": "Next session",
-              "text": "Session 3: What are you like before you trust the room?"
+              "text": "Session 12: If the mask came off in here, who would we meet?"
             }
           ],
           "_todo": "Unit 4 routes IRF responses through a Google Form backend or basic LMS. This engine has no backend, so answers stay on the device. Wire the submit target before the pilot."
@@ -286,3 +288,4 @@
     }
   ]
 }
+;

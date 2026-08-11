@@ -62,6 +62,8 @@ index.html            redirect to the engine (so the folder opens by double-clic
   check.js            command-line accessibility + integrity check
 /docs
   DESIGN-RATIONALE.md how each build decision maps to the AECT rubric
+  MODULE-STRUCTURE.md what a session module contains, and why
+/courses/_curriculum      transcribed curriculum fields (not read by the engine)
 ```
 
 Content model mirrors Articulate Storyline — **Course → Scenes → Slides → Interactions** — not for file compatibility, but because it's a proven structure and it keeps that door open.
@@ -70,7 +72,15 @@ Content model mirrors Articulate Storyline — **Course → Scenes → Slides �
 
 ## Authoring a course
 
-A course is a folder with a `course.json`. Write it by hand; run `node tools/check.js` when you're done.
+Session modules are generated from the transcribed curriculum:
+
+```bash
+node tools/build-sessions.js
+```
+
+Edit `courses/_curriculum/*.json`, re-run, then `sh tools/bundle.sh`. See [docs/MODULE-STRUCTURE.md](docs/MODULE-STRUCTURE.md).
+
+A one-off course is a folder with a hand-written `course.json`. Run `node tools/check.js` when you're done.
 
 ```json
 {

@@ -385,6 +385,9 @@ fieldset.assess__set { border: 0; padding: 0; margin: 0; min-width: 0; }
   background: var(--bg); resize: vertical;
 }
 .reflect textarea:focus-visible { outline: 3px solid var(--focus); outline-offset: 1px; }
+.reflect__group { margin-bottom: 1.15rem; }
+.reflect__group:last-of-type { margin-bottom: 0; }
+.reflect__group .assess__q { font-size: 1em; margin-bottom: .4rem; }
 .reflect__foot { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem; margin-top: .75rem; }
 .reflect__saved { font-size: .82rem; color: var(--ok); font-weight: 600; }
 .privacy-note { font-size: .78rem; color: var(--ink-muted); margin: .75rem 0 0; }

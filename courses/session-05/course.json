@@ -1,14 +1,14 @@
 {
-  "id": "session-02",
-  "title": "Session 2 — Arrival",
+  "id": "session-05",
+  "title": "Session 5 — Mask",
   "lang": "en",
   "rightsHolder": "Jamey Phoenix Bethea, Conceptual Combat Academy",
   "meta": {
-    "session": 2,
+    "session": 5,
     "sessionOf": 36,
     "stage": "The Descent",
-    "week": 1,
-    "theme": "Arrival",
+    "week": 2,
+    "theme": "Mask",
     "neighborhood": "The Roads",
     "block": "Block 4 — Cleanup, eLearning, IRF",
     "casel": [
@@ -16,22 +16,22 @@
       "Self-Management"
     ],
     "bloom": "Apply",
-    "card": "Taking the Base",
-    "domain": "Enter",
-    "keyCondition": "A connection the partner has to answer.",
-    "probingQuestion": "How do you show up when nobody here knows you yet?",
-    "grapplingTlo": "By the end of this session, the participant will demonstrate safe contact entry with an unfamiliar partner.",
+    "card": "Controlling the Legs",
+    "domain": "Enter, retainer's side",
+    "keyCondition": "Follow the passer, keep the legs between you as the angle changes.",
+    "probingQuestion": "What version of you shows up here, and where did you learn it?",
+    "grapplingTlo": "By the end of this session, the participant will apply guard retention while the partner changes angles.",
     "grapplingElos": [
-      "Make controlled first contact with a new partner.",
-      "Stay safe while closing distance."
+      "Follow the partner and keep the legs between you.",
+      "Reset guard when it is threatened."
     ],
-    "caselTlo": "By the end of this session, the participant will name their default entrance behavior when new, without judging it.",
+    "caselTlo": "By the end of this session, the participant will connect their mask to where or who they learned it from, without being required to share the story.",
     "caselElos": [
-      "Notice how they enter a new space.",
-      "Name that entrance behavior plainly."
+      "Trace the performed self to an origin.",
+      "Keep the story optional."
     ],
-    "connection": "How you make first contact on the mat, cautious, rushed, stiff, is your entrance. Naming how you show up when nobody knows you yet is the same pattern, seen off the mat.",
-    "_source": "GWMS Curriculum Guide — Session 2 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+    "connection": "The guard you keep was drilled into you somewhere, and so was the mask. Both are learned defenses. Tracing where you learned to guard is the same move on and off the mat.",
+    "_source": "GWMS Curriculum Guide — Session 5 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
@@ -40,10 +40,10 @@
       "title": "Today",
       "slides": [
         {
-          "id": "s02-question",
+          "id": "s05-question",
           "type": "text-image",
-          "eyebrow": "Session 2 · Probing question",
-          "title": "How do you show up when nobody here knows you yet?",
+          "eyebrow": "Session 5 · Probing question",
+          "title": "What version of you shows up here, and where did you learn it?",
           "body": [
             {
               "kind": "lead",
@@ -52,7 +52,7 @@
             {
               "kind": "callout",
               "label": "Where this sits",
-              "text": "Session 2 of 36. The Descent, Week 1, Arrival. On the mat that stage runs The Roads."
+              "text": "Session 5 of 36. The Descent, Week 2, Mask. On the mat that stage runs The Roads."
             }
           ],
           "alternates": [
@@ -67,18 +67,18 @@
           ]
         },
         {
-          "id": "s02-game",
+          "id": "s05-game",
           "type": "text-image",
           "eyebrow": "The game",
-          "title": "Overhook-Underhook Starting Position Game",
+          "title": "Open Guard Multiple Connection Game",
           "body": [
             {
               "kind": "lead",
-              "text": "Both players stand and tie up, one arm over, one arm under. The win is one thing: connect your hands anywhere on your partner's body. No takedowns, no slamming, stay light and standing."
+              "text": "The bottom player keeps the legs working while the top player circles and changes angles. Win by keeping your connections, feet and hands, on the partner as they move."
             },
             {
               "kind": "paragraph",
-              "text": "You are learning to make a connection the other person has to answer, which is the first thing that happens when you meet a stranger on the mat."
+              "text": "You are learning to hold a boundary while the other person keeps shifting, not just when they stay still, which is where a learned defense comes from."
             }
           ],
           "reveals": [
@@ -88,11 +88,11 @@
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "A connection the partner has to answer."
+                  "text": "Follow the passer, keep the legs between you as the angle changes."
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Card: Taking the Base. Domain: Enter."
+                  "text": "Card: Controlling the Legs. Domain: Enter, retainer's side."
                 }
               ]
             },
@@ -118,7 +118,7 @@
           ]
         },
         {
-          "id": "s02-check",
+          "id": "s05-check",
           "type": "quiz",
           "eyebrow": "Quick check",
           "title": "How you win it",
@@ -126,12 +126,12 @@
             "role": "formative",
             "scored": false
           },
-          "question": "In Overhook-Underhook Starting Position Game, what counts as the win?",
+          "question": "In Open Guard Multiple Connection Game, what counts as the win?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Connecting your hands anywhere on your partner's body",
+              "text": "Keeping your connections, feet and hands, on the partner as they move",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
@@ -157,14 +157,14 @@
       "title": "The lesson",
       "slides": [
         {
-          "id": "s02-grappling",
+          "id": "s05-grappling",
           "type": "text-image",
           "eyebrow": "On the mat",
           "title": "What you were working on",
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will demonstrate safe contact entry with an unfamiliar partner."
+              "text": "By the end of this session, the participant will apply guard retention while the partner changes angles."
             },
             {
               "kind": "heading",
@@ -175,21 +175,21 @@
               "kind": "list",
               "ordered": true,
               "items": [
-                "Make controlled first contact with a new partner.",
-                "Stay safe while closing distance."
+                "Follow the partner and keep the legs between you.",
+                "Reset guard when it is threatened."
               ]
             }
           ]
         },
         {
-          "id": "s02-casel",
+          "id": "s05-casel",
           "type": "text-image",
           "eyebrow": "The other half",
           "title": "And the part that was not about grappling",
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will name their default entrance behavior when new, without judging it."
+              "text": "By the end of this session, the participant will connect their mask to where or who they learned it from, without being required to share the story."
             },
             {
               "kind": "heading",
@@ -200,8 +200,8 @@
               "kind": "list",
               "ordered": true,
               "items": [
-                "Notice how they enter a new space.",
-                "Name that entrance behavior plainly."
+                "Trace the performed self to an origin.",
+                "Keep the story optional."
               ]
             },
             {
@@ -212,14 +212,14 @@
           ]
         },
         {
-          "id": "s02-connection",
+          "id": "s05-connection",
           "type": "reveal",
           "eyebrow": "The connection",
           "title": "Where those two meet",
           "body": [
             {
               "kind": "lead",
-              "text": "How you make first contact on the mat, cautious, rushed, stiff, is your entrance. Naming how you show up when nobody knows you yet is the same pattern, seen off the mat."
+              "text": "The guard you keep was drilled into you somewhere, and so was the mask. Both are learned defenses. Tracing where you learned to guard is the same move on and off the mat."
             }
           ],
           "reveals": [
@@ -242,16 +242,16 @@
       "title": "Before you go",
       "slides": [
         {
-          "id": "s02-reflection",
+          "id": "s05-reflection",
           "type": "reflection",
           "eyebrow": "Reflection",
           "title": "Your answer",
-          "prompt": "How do you show up when nobody here knows you yet?",
+          "prompt": "What version of you shows up here, and where did you learn it?",
           "hint": "Nobody is grading this and nobody else sees it. A few words is plenty.",
           "placeholder": "Whatever comes to mind…"
         },
         {
-          "id": "s02-irf",
+          "id": "s05-irf",
           "type": "reflection",
           "eyebrow": "Before you go",
           "title": "Instruction Rating Form",
@@ -277,7 +277,7 @@
             {
               "kind": "callout",
               "label": "Next session",
-              "text": "Session 3: What are you like before you trust the room?"
+              "text": "Session 6: What does your mask protect you from?"
             }
           ],
           "_todo": "Unit 4 routes IRF responses through a Google Form backend or basic LMS. This engine has no backend, so answers stay on the device. Wire the submit target before the pilot."

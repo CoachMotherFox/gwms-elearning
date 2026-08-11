@@ -1,16 +1,16 @@
 window.GWMS_COURSE_BUNDLE = window.GWMS_COURSE_BUNDLE || {};
-window.GWMS_COURSE_BUNDLE["session-01"] =
+window.GWMS_COURSE_BUNDLE["session-09"] =
 {
-  "id": "session-01",
-  "title": "Session 1 — Arrival",
+  "id": "session-09",
+  "title": "Session 9 — Crack",
   "lang": "en",
   "rightsHolder": "Jamey Phoenix Bethea, Conceptual Combat Academy",
   "meta": {
-    "session": 1,
+    "session": 9,
     "sessionOf": 36,
     "stage": "The Descent",
-    "week": 1,
-    "theme": "Arrival",
+    "week": 3,
+    "theme": "Crack",
     "neighborhood": "The Roads",
     "block": "Block 4 — Cleanup, eLearning, IRF",
     "casel": [
@@ -18,17 +18,22 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
       "Self-Management"
     ],
     "bloom": "Apply",
-    "card": "Foundations (safety)",
-    "domain": null,
-    "keyCondition": "Safe contact, the tap is understood.",
-    "probingQuestion": "What makes a place feel safe to you?",
-    "grapplingTlo": null,
-    "grapplingElos": [],
-    "caselTlo": null,
-    "caselElos": [],
-    "connection": null,
-    "_source": "GWMS Curriculum Guide — Session 1 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives).",
-    "_todo": "Session 1's Lesson and Intervention Guide carries only the game paragraph. Grappling TLO/ELOs, CASEL TLO/ELOs and the connection line are absent there, so they are absent here and the module states none of them."
+    "card": "Controlling the Legs",
+    "domain": "Enter",
+    "keyCondition": "Clear the checkpoints in order, name where the guard breaks.",
+    "probingQuestion": "When you crack, what's the first thing that shows?",
+    "grapplingTlo": "By the end of this session, the participant will apply passing and identify the checkpoint where the guard breaks.",
+    "grapplingElos": [
+      "Clear checkpoints in order.",
+      "Name the checkpoint that gave way."
+    ],
+    "caselTlo": "By the end of this session, the participant will identify their personal tell, the first reliable sign they have cracked.",
+    "caselElos": [
+      "Name their first reliable crack signal.",
+      "Connect catching it early to a different choice."
+    ],
+    "connection": "The checkpoint where a guard always breaks is a tell, and so is the first thing that shows when you crack. Finding the exact break point on the mat is the same precision as knowing your own tell.",
+    "_source": "GWMS Curriculum Guide — Session 9 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
@@ -37,10 +42,10 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
       "title": "Today",
       "slides": [
         {
-          "id": "s01-question",
+          "id": "s09-question",
           "type": "text-image",
-          "eyebrow": "Session 1 · Probing question",
-          "title": "What makes a place feel safe to you?",
+          "eyebrow": "Session 9 · Probing question",
+          "title": "When you crack, what's the first thing that shows?",
           "body": [
             {
               "kind": "lead",
@@ -49,7 +54,7 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
             {
               "kind": "callout",
               "label": "Where this sits",
-              "text": "Session 1 of 36. The Descent, Week 1, Arrival. On the mat that stage runs The Roads."
+              "text": "Session 9 of 36. The Descent, Week 3, Crack. On the mat that stage runs The Roads."
             }
           ],
           "alternates": [
@@ -64,18 +69,18 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
           ]
         },
         {
-          "id": "s01-game",
+          "id": "s09-game",
           "type": "text-image",
           "eyebrow": "The game",
-          "title": "Dirty Feet",
+          "title": "Knee Pit Touchdown Game",
           "body": [
             {
               "kind": "lead",
-              "text": "Guard passing game, one standing, one on the ground. The ground player keeps their feet on the standing player, controlling distance and preventing entry. The standing player works to beat the feet and close to chest-to-chest. No fixed win condition, the coach calls the switch and roles swap."
+              "text": "The top player clears the checkpoints in order. Win by touching both knee pits while keeping the feet off."
             },
             {
               "kind": "paragraph",
-              "text": "It trains real guard skills: distance management, framing, and closing the gap under pressure. Nobody gets put on their back hard, which is the whole reason it fits day one."
+              "text": "You are learning exactly where a guard breaks, your partner's and your own, which is the same as knowing your tell."
             }
           ],
           "reveals": [
@@ -85,11 +90,11 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Safe contact, the tap is understood."
+                  "text": "Clear the checkpoints in order, name where the guard breaks."
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Card: Foundations (safety)."
+                  "text": "Card: Controlling the Legs. Domain: Enter."
                 }
               ]
             },
@@ -115,7 +120,7 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
           ]
         },
         {
-          "id": "s01-check",
+          "id": "s09-check",
           "type": "quiz",
           "eyebrow": "Quick check",
           "title": "How you win it",
@@ -123,12 +128,12 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Dirty Feet, what counts as the win?",
+          "question": "In Knee Pit Touchdown Game, what counts as the win?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "The coach calls the switch and the roles swap — there is no fixed win condition",
+              "text": "Touching both knee pits while keeping the feet off",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
@@ -150,20 +155,105 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
       ]
     },
     {
+      "id": "lesson",
+      "title": "The lesson",
+      "slides": [
+        {
+          "id": "s09-grappling",
+          "type": "text-image",
+          "eyebrow": "On the mat",
+          "title": "What you were working on",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "By the end of this session, the participant will apply passing and identify the checkpoint where the guard breaks."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Which broke down into"
+            },
+            {
+              "kind": "list",
+              "ordered": true,
+              "items": [
+                "Clear checkpoints in order.",
+                "Name the checkpoint that gave way."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s09-casel",
+          "type": "text-image",
+          "eyebrow": "The other half",
+          "title": "And the part that was not about grappling",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "By the end of this session, the participant will identify their personal tell, the first reliable sign they have cracked."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Which broke down into"
+            },
+            {
+              "kind": "list",
+              "ordered": true,
+              "items": [
+                "Name their first reliable crack signal.",
+                "Connect catching it early to a different choice."
+              ]
+            },
+            {
+              "kind": "callout",
+              "label": "CASEL",
+              "text": "Self-Awareness · Self-Management"
+            }
+          ]
+        },
+        {
+          "id": "s09-connection",
+          "type": "reveal",
+          "eyebrow": "The connection",
+          "title": "Where those two meet",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "The checkpoint where a guard always breaks is a tell, and so is the first thing that shows when you crack. Finding the exact break point on the mat is the same precision as knowing your own tell."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "stage-arc",
+              "label": "Where this sits in The Descent",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Passing past a partner's guard to what it protects is the same act as looking under the mask to the real self. The Descent digs, on the mat and in the person."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "close",
       "title": "Before you go",
       "slides": [
         {
-          "id": "s01-reflection",
+          "id": "s09-reflection",
           "type": "reflection",
           "eyebrow": "Reflection",
           "title": "Your answer",
-          "prompt": "What makes a place feel safe to you?",
+          "prompt": "When you crack, what's the first thing that shows?",
           "hint": "Nobody is grading this and nobody else sees it. A few words is plenty.",
           "placeholder": "Whatever comes to mind…"
         },
         {
-          "id": "s01-irf",
+          "id": "s09-irf",
           "type": "reflection",
           "eyebrow": "Before you go",
           "title": "Instruction Rating Form",
@@ -189,7 +279,7 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
             {
               "kind": "callout",
               "label": "Next session",
-              "text": "Session 2: How do you show up when nobody here knows you yet?"
+              "text": "Session 10: What's under the version you show people?"
             }
           ],
           "_todo": "Unit 4 routes IRF responses through a Google Form backend or basic LMS. This engine has no backend, so answers stay on the device. Wire the submit target before the pilot."

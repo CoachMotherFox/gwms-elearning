@@ -491,55 +491,102 @@
     }
   };
 
-  /* ---- reflection (captured, never graded) ---- */
+  /* ---- reflection (captured, never graded) ----
+     One prompt, or several on one screen via `fields`. The multi-field form is
+     what the IRF needs: Unit 4 of the curriculum guide puts all three IRF
+     questions on the last screen of the module, not on three screens. ------- */
+
+  /** Reflection answers are stored as {fieldId: text}. Older single-prompt
+      saves were plain strings, so normalise on read. */
+  function reflectionAnswers(slide, progress) {
+    var raw = progress.reflections[slide.id];
+    if (typeof raw === 'string') return { main: raw };
+    return raw || {};
+  }
+
+  function reflectionFields(slide) {
+    if (Array.isArray(slide.fields) && slide.fields.length) return slide.fields;
+    return [{ id: 'main', prompt: slide.prompt || '', hint: slide.hint, placeholder: slide.placeholder }];
+  }
+
   TYPES.reflection = {
     label: 'Reflection',
     body: TYPES['text-image'].body,
     interactive: function (slide, ctx) {
-      var id = uid('reflect');
-      var saved = ctx.progress.reflections[slide.id] || '';
+      var fields = reflectionFields(slide);
+      var answers = reflectionAnswers(slide, ctx.progress);
+      var multi = fields.length > 1;
 
-      var area = el('textarea', {
-        id: id,
-        rows: 6,
-        placeholder: slide.placeholder || '',
-        spellcheck: 'true'
-      });
-      area.value = saved;
+      var savedFlag = el('span.reflect__saved', { text: 'Saved', role: 'status' });
+      var saveBtn = el('button.btn', { type: 'button', text: multi ? 'Save my answers' : 'Save my answer' });
+      var areas = [];
 
-      var savedFlag = el('span.reflect__saved', { text: 'Saved', hidden: !saved, role: 'status' });
-      var saveBtn = el('button.btn', { type: 'button', text: 'Save my answer' });
+      function anyText() {
+        return areas.some(function (a) { return a.el.value.trim(); });
+      }
 
       var timer = null;
       function persist(announceIt) {
-        ctx.progress.reflections[slide.id] = area.value;
+        var out = {};
+        areas.forEach(function (a) { out[a.id] = a.el.value; });
+        ctx.progress.reflections[slide.id] = out;
         ctx.save();
-        savedFlag.hidden = !area.value.trim();
+        savedFlag.hidden = !anyText();
         ctx.refreshGate();
-        if (announceIt) U.announce('Your answer is saved on this device.');
+        if (announceIt) U.announce('Saved on this device.');
       }
-      area.addEventListener('input', function () {
-        savedFlag.hidden = true;
-        clearTimeout(timer);
-        timer = setTimeout(function () { persist(false); }, 700);
+
+      var fieldNodes = fields.map(function (f, i) {
+        var fid = f.id || ('f' + i);
+        var domId = uid('reflect');
+        var area = el('textarea', {
+          id: domId,
+          rows: multi ? 3 : 6,
+          placeholder: f.placeholder || '',
+          spellcheck: 'true'
+        });
+        area.value = answers[fid] || '';
+        area.addEventListener('input', function () {
+          savedFlag.hidden = true;
+          clearTimeout(timer);
+          timer = setTimeout(function () { persist(false); }, 700);
+        });
+        areas.push({ id: fid, el: area });
+
+        return el('div.reflect__group', {}, [
+          el('label.assess__q.reflect__field', { for: domId }, U.inline(f.prompt || '')),
+          f.hint ? el('span.reflect__hint', {}, U.inline(f.hint)) : null,
+          area
+        ]);
       });
+
+      savedFlag.hidden = !anyText();
       saveBtn.addEventListener('click', function () { clearTimeout(timer); persist(true); });
 
       return el('section.assess.reflect', {}, [
-        el('p.assess__kind', { text: 'Reflection — not graded' }),
-        el('label.assess__q.reflect__field', { for: id }, U.inline(slide.prompt || '')),
-        slide.hint ? el('span.reflect__hint', {}, U.inline(slide.hint)) : null,
-        area,
+        el('p.assess__kind', { text: slide.kindLabel || 'Reflection — not graded' }),
+        fieldNodes,
         el('div.reflect__foot', {}, [saveBtn, savedFlag]),
         el('p.privacy-note', {
-          text: 'What you write stays in this browser. It is not sent anywhere and it clears when this tab closes.'
+          text: slide.privacyNote ||
+            'What you write stays in this browser. It is not sent anywhere and it clears when this tab closes.'
         })
       ]);
     },
     isComplete: function (slide, progress) {
-      return !!(progress.reflections[slide.id] || '').trim();
+      var answers = reflectionAnswers(slide, progress);
+      var fields = reflectionFields(slide);
+      // requireAll is what the IRF needs — no student leaves before completing it.
+      if (slide.requireAll) {
+        return fields.every(function (f, i) { return (answers[f.id || ('f' + i)] || '').trim(); });
+      }
+      return fields.some(function (f, i) { return (answers[f.id || ('f' + i)] || '').trim(); });
     },
-    gateMessage: function () { return 'Write something before moving on. Anything counts.'; }
+    gateMessage: function (slide) {
+      return slide.requireAll
+        ? 'Answer all of these before you finish. Short answers are fine.'
+        : 'Write something before moving on. Anything counts.';
+    }
   };
 
   /* ---- branching decision point ---- */
