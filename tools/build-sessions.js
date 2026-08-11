@@ -34,18 +34,10 @@ const IRF = [
   { id: 'didnt', prompt: 'What did not work?' }
 ];
 
-/* Program-level rules that make the same two distractors wrong in every
-   Descent session: the Roads carry no finishes, and nobody gets slammed. */
-const WRONG = [
-  {
-    text: 'Submitting your partner',
-    feedback: 'Not in the Roads. These are the two path domains, Enter and Arrive, and they carry no finish — the path delivers you into a pin and the pin owns the finish.'
-  },
-  {
-    text: 'Putting your partner down hard',
-    feedback: 'Never. Everything runs at light resistance, and the tap is honored instantly, every time.'
-  }
-];
+/* The two wrong answers on the check are program rules, not invention, and
+   they differ by stage: the Roads carry no finish at all, while the Chest Pin
+   and Back Pin do carry owned finishes that must release on the tap. Each
+   stage supplies its own pair in courses/_curriculum/. */
 
 function pad(n) { return String(n).padStart(2, '0'); }
 
@@ -120,7 +112,7 @@ function screenGame(s) {
   return slide;
 }
 
-function screenCheck(s) {
+function screenCheck(s, stage) {
   return {
     id: `s${pad(s.n)}-check`,
     type: 'quiz',
@@ -132,8 +124,8 @@ function screenCheck(s) {
     retry: true,
     options: [
       { text: s.gameWin, correct: true, feedback: 'That is the win condition, and nothing else scores.' },
-      WRONG[0],
-      WRONG[1]
+      stage.wrongAnswers[0],
+      stage.wrongAnswers[1]
     ],
     correctHead: "That's it.",
     correctText: 'That is the whole win condition for today.',
@@ -176,7 +168,7 @@ function screenCasel(s, stage) {
 
 function screenConnection(s, stage) {
   if (!s.connection) return null;
-  return {
+  const slide = {
     id: `s${pad(s.n)}-connection`,
     type: 'reveal',
     eyebrow: 'The connection',
@@ -188,6 +180,10 @@ function screenConnection(s, stage) {
       content: [{ kind: 'paragraph', text: stage.connection }]
     }]
   };
+  if (s.note) {
+    slide.body.push({ kind: 'callout', label: 'Worth saying plainly', text: s.note });
+  }
+  return slide;
 }
 
 function screenReflection(s) {
@@ -235,7 +231,7 @@ function buildCourse(s, stage, sessions, hasAudio) {
   const today = [
     screenQuestion(s, stage, hasAudio),
     screenGame(s),
-    screenCheck(s)
+    screenCheck(s, stage)
   ];
 
   const lesson = [

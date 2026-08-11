@@ -1,18 +1,34 @@
 {
   "_source": "Transcribed from the GWMS Curriculum Guide in Notion. Per-session fields come from that session's Lesson and Intervention Guide (Unit 7). Card, domain and keyCondition come from the GWMS Technical Map. Nothing here is authored — if a field is empty, the guide is empty.",
-
   "stage": {
     "name": "The Descent",
     "sessions": "1 to 12",
     "neighborhood": "The Roads",
-    "casel": ["Self-Awareness", "Self-Management"],
+    "casel": [
+      "Self-Awareness",
+      "Self-Management"
+    ],
     "bloom": "Apply",
-    "themes": ["Arrival", "Mask", "Crack", "Reveal"],
+    "themes": [
+      "Arrival",
+      "Mask",
+      "Crack",
+      "Reveal"
+    ],
     "grapplingTlo": "By the end of the Descent, participants will apply the Roads to move from a standing start through the guard into a controlled pin, using safe falling and the tap throughout.",
     "caselTlo": "By the end of the Descent, participants will identify their own persona and shadow, naming the mask they perform, what cracks it under pressure, and one true thing underneath.",
-    "connection": "Passing past a partner's guard to what it protects is the same act as looking under the mask to the real self. The Descent digs, on the mat and in the person."
+    "connection": "Passing past a partner's guard to what it protects is the same act as looking under the mask to the real self. The Descent digs, on the mat and in the person.",
+    "wrongAnswers": [
+      {
+        "text": "Submitting your partner",
+        "feedback": "Not in the Roads. These are the two path domains, Enter and Arrive, and they carry no finish — the path delivers you into a pin and the pin owns the finish."
+      },
+      {
+        "text": "Putting your partner down hard",
+        "feedback": "Never. Everything runs at light resistance, and the tap is honored instantly, every time."
+      }
+    ]
   },
-
   "sessions": [
     {
       "n": 1,
@@ -46,9 +62,15 @@
       "gameNote": "You are learning to make a connection the other person has to answer, which is the first thing that happens when you meet a stranger on the mat.",
       "gameWin": "Connecting your hands anywhere on your partner's body",
       "grapplingTlo": "By the end of this session, the participant will demonstrate safe contact entry with an unfamiliar partner.",
-      "grapplingElos": ["Make controlled first contact with a new partner.", "Stay safe while closing distance."],
+      "grapplingElos": [
+        "Make controlled first contact with a new partner.",
+        "Stay safe while closing distance."
+      ],
       "caselTlo": "By the end of this session, the participant will name their default entrance behavior when new, without judging it.",
-      "caselElos": ["Notice how they enter a new space.", "Name that entrance behavior plainly."],
+      "caselElos": [
+        "Notice how they enter a new space.",
+        "Name that entrance behavior plainly."
+      ],
       "connection": "How you make first contact on the mat, cautious, rushed, stiff, is your entrance. Naming how you show up when nobody knows you yet is the same pattern, seen off the mat."
     },
     {
@@ -64,9 +86,15 @@
       "gameNote": "You are learning to break a person's base by changing angles instead of shoving straight into them, the same thing you do when you walk into a new room and find your footing.",
       "gameWin": "Getting under an elbow and hooking on",
       "grapplingTlo": "By the end of this session, the participant will identify the takedown starting position and keep safe contact under light movement.",
-      "grapplingElos": ["Identify the neutral standing start.", "Keep safe contact as the partner moves."],
+      "grapplingElos": [
+        "Identify the neutral standing start.",
+        "Keep safe contact as the partner moves."
+      ],
       "caselTlo": "By the end of this session, the participant will name one thing they do to protect themselves before they trust a space, and name it as a strength.",
-      "caselElos": ["Name one protective habit.", "Frame it as smart, not weak."],
+      "caselElos": [
+        "Name one protective habit.",
+        "Frame it as smart, not weak."
+      ],
       "connection": "Staying safe and guarded on the mat before you trust a partner is the same guard you run before you trust a room. Both are smart. Naming it is the work."
     },
     {
@@ -82,9 +110,15 @@
       "gameNote": "This is guard retention: holding a barrier between you and someone else. Same job the mask does.",
       "gameWin": "The bottom player keeping their feet on the other person and not letting them in",
       "grapplingTlo": "By the end of this session, the participant will apply guard retention to keep a partner from passing the legs.",
-      "grapplingElos": ["Keep or recover guard against a light pass.", "Frame to hold distance."],
+      "grapplingElos": [
+        "Keep or recover guard against a light pass.",
+        "Frame to hold distance."
+      ],
       "caselTlo": "By the end of this session, the participant will name one way they perform differently when watched.",
-      "caselElos": ["Notice the watched self versus the private self.", "Name one performed behavior."],
+      "caselElos": [
+        "Notice the watched self versus the private self.",
+        "Name one performed behavior."
+      ],
       "connection": "Keeping your guard is keeping a boundary between you and the other person. The mask does the same job socially. Retention on the mat and the performed self are two versions of the same guard."
     },
     {
@@ -100,9 +134,15 @@
       "gameNote": "You are learning to hold a boundary while the other person keeps shifting, not just when they stay still, which is where a learned defense comes from.",
       "gameWin": "Keeping your connections, feet and hands, on the partner as they move",
       "grapplingTlo": "By the end of this session, the participant will apply guard retention while the partner changes angles.",
-      "grapplingElos": ["Follow the partner and keep the legs between you.", "Reset guard when it is threatened."],
+      "grapplingElos": [
+        "Follow the partner and keep the legs between you.",
+        "Reset guard when it is threatened."
+      ],
       "caselTlo": "By the end of this session, the participant will connect their mask to where or who they learned it from, without being required to share the story.",
-      "caselElos": ["Trace the performed self to an origin.", "Keep the story optional."],
+      "caselElos": [
+        "Trace the performed self to an origin.",
+        "Keep the story optional."
+      ],
       "connection": "The guard you keep was drilled into you somewhere, and so was the mask. Both are learned defenses. Tracing where you learned to guard is the same move on and off the mat."
     },
     {
@@ -118,9 +158,15 @@
       "gameNote": "You are learning to feel the exact moment your guard is about to be beaten, which is the same as noticing what your mask is protecting.",
       "gameWin": "Keeping the connection that protects the space behind your legs",
       "grapplingTlo": "By the end of this session, the participant will apply guard retention to protect the space behind the legs.",
-      "grapplingElos": ["Hold the frame that protects the pin space.", "Notice when the guard is about to be beaten."],
+      "grapplingElos": [
+        "Hold the frame that protects the pin space.",
+        "Notice when the guard is about to be beaten."
+      ],
       "caselTlo": "By the end of this session, the participant will name what their mask defends against.",
-      "caselElos": ["Name the mask's function.", "Keep the depth optional."],
+      "caselElos": [
+        "Name the mask's function.",
+        "Keep the depth optional."
+      ],
       "connection": "Your guard protects the space behind your legs. Your mask protects something too. Naming what the guard defends is the same as naming what the mask hides."
     },
     {
@@ -136,9 +182,15 @@
       "gameNote": "This is where the guard, the mask, starts getting beaten.",
       "gameWin": "Opening the guard — hands on the body, break it down, clear the feet",
       "grapplingTlo": "By the end of this session, the participant will apply base and framing while under a passing attempt as the guard is beaten.",
-      "grapplingElos": ["Recognize when the guard is being passed.", "Reset to a safe position after being passed."],
+      "grapplingElos": [
+        "Recognize when the guard is being passed.",
+        "Reset to a safe position after being passed."
+      ],
       "caselTlo": "By the end of this session, the participant will name what shows up when they lose, the reaction under the mask.",
-      "caselElos": ["Notice their reaction to losing the position.", "Name what comes out under pressure."],
+      "caselElos": [
+        "Notice their reaction to losing the position.",
+        "Name what comes out under pressure."
+      ],
       "connection": "When your guard gets passed, the mask cracks and something real shows. Getting passed on the mat and cracking under pressure are the same moment, felt in the body first."
     },
     {
@@ -154,9 +206,15 @@
       "gameNote": "You are learning to clear one gate at a time when everyone is a little tired, which is when the real reactions start to leak out.",
       "gameWin": "Shin-to-body contact inside or outside the knees, feet off",
       "grapplingTlo": "By the end of this session, the participant will apply the first passing checkpoints against a tired, lighter guard.",
-      "grapplingElos": ["Clear one checkpoint, the feet or the knees.", "Keep control while passing."],
+      "grapplingElos": [
+        "Clear one checkpoint, the feet or the knees.",
+        "Keep control while passing."
+      ],
       "caselTlo": "By the end of this session, the participant will name what comes out when they are too tired to perform.",
-      "caselElos": ["Notice the honest reaction under fatigue.", "Name it without judgment."],
+      "caselElos": [
+        "Notice the honest reaction under fatigue.",
+        "Name it without judgment."
+      ],
       "connection": "When you and your partner tire, the fakery drops on both sides, the passer and the guard. What slips out when you are too tired to perform is the truest thing, on the mat and off."
     },
     {
@@ -172,9 +230,15 @@
       "gameNote": "You are learning exactly where a guard breaks, your partner's and your own, which is the same as knowing your tell.",
       "gameWin": "Touching both knee pits while keeping the feet off",
       "grapplingTlo": "By the end of this session, the participant will apply passing and identify the checkpoint where the guard breaks.",
-      "grapplingElos": ["Clear checkpoints in order.", "Name the checkpoint that gave way."],
+      "grapplingElos": [
+        "Clear checkpoints in order.",
+        "Name the checkpoint that gave way."
+      ],
       "caselTlo": "By the end of this session, the participant will identify their personal tell, the first reliable sign they have cracked.",
-      "caselElos": ["Name their first reliable crack signal.", "Connect catching it early to a different choice."],
+      "caselElos": [
+        "Name their first reliable crack signal.",
+        "Connect catching it early to a different choice."
+      ],
       "connection": "The checkpoint where a guard always breaks is a tell, and so is the first thing that shows when you crack. Finding the exact break point on the mat is the same precision as knowing your own tell."
     },
     {
@@ -190,9 +254,15 @@
       "gameNote": "You are getting past the defense to what it was hiding, on the mat and under the mask.",
       "gameWin": "Touching one side outside the legs, then going around to chest contact",
       "grapplingTlo": "By the end of this session, the participant will apply the pass to advance past the legs toward a pin.",
-      "grapplingElos": ["Clear the checkpoints to get past the legs.", "Reach chest contact past the guard."],
+      "grapplingElos": [
+        "Clear the checkpoints to get past the legs.",
+        "Reach chest contact past the guard."
+      ],
       "caselTlo": "By the end of this session, the participant will name one true thing about themselves that lives under the performance.",
-      "caselElos": ["Look beneath the performed self.", "Name one true thing under it."],
+      "caselElos": [
+        "Look beneath the performed self.",
+        "Name one true thing under it."
+      ],
       "connection": "Getting past the legs reveals what the guard was hiding. Looking under your mask reveals the real self. Passing and revealing are the same move: getting past the defense to what is behind it."
     },
     {
@@ -208,9 +278,15 @@
       "gameNote": "You have arrived past the guard. What was hidden is now out in the open.",
       "gameWin": "Getting under one elbow, connecting your hands, and holding it for a three-count",
       "grapplingTlo": "By the end of this session, the participant will apply the pass to arrive in a pin with the control conditions true.",
-      "grapplingElos": ["Complete the pass into a controlled chest position.", "Hold the arrival for a three-count."],
+      "grapplingElos": [
+        "Complete the pass into a controlled chest position.",
+        "Hold the arrival for a three-count."
+      ],
       "caselTlo": "By the end of this session, the participant will acknowledge, to themselves at minimum, one part they have hidden even from themselves.",
-      "caselElos": ["Look at one hidden part.", "Keep it private if chosen."],
+      "caselElos": [
+        "Look at one hidden part.",
+        "Keep it private if chosen."
+      ],
       "connection": "Arriving past the guard puts you in contact with what was most protected. Naming the Shadow does the same inside you. Both reach the thing that was hidden deepest.",
       "privateOk": true
     },
@@ -227,9 +303,15 @@
       "gameNote": "This is the whole Descent on the mat, from arrival to the real self revealed.",
       "gameWin": "Getting it down, past the legs, and arriving in a pin — the whole trip in one round",
       "grapplingTlo": "By the end of this session, the participant will apply the Roads from a standing start through to a pin arrival.",
-      "grapplingElos": ["Enter, pass, and arrive in one sequence.", "Give and honor the tap throughout."],
+      "grapplingElos": [
+        "Enter, pass, and arrive in one sequence.",
+        "Give and honor the tap throughout."
+      ],
       "caselTlo": "By the end of this session, the participant will offer, to the degree they choose, a picture of the real self the Descent uncovered.",
-      "caselElos": ["Describe the real self, seen.", "Bring it into the room to be witnessed."],
+      "caselElos": [
+        "Describe the real self, seen.",
+        "Bring it into the room to be witnessed."
+      ],
       "connection": "Running the whole Roads from standing to a pin is the mat's version of the whole Descent, from arrival to the real self revealed. This session integrates both journeys into one.",
       "stageClose": true
     }
