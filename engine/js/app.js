@@ -462,7 +462,7 @@
 
     // Header
     var meta = course.meta || {};
-    $('#course-eyebrow').textContent = [meta.neighborhood, meta.week ? 'Week ' + meta.week : null, meta.theme]
+    $('#course-eyebrow').textContent = [meta.stage || meta.neighborhood, meta.week ? 'Week ' + meta.week : null, meta.theme]
       .filter(Boolean).join(' · ');
     $('#course-title').textContent = course.title || course.id;
     document.title = (course.title || course.id) + ' — GWMS';

@@ -8,14 +8,23 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
 
   "meta": {
     "session": 1,
-    "neighborhood": "The Descent",
+    "sessionOf": 36,
+    "stage": "The Descent",
     "week": 1,
     "theme": "Arrival",
+    "neighborhood": "The Roads",
     "block": "Block 4 — Cleanup, eLearning, IRF",
+    "casel": ["Self-Awareness", "Self-Management"],
+    "card": "Foundations (safety)",
+    "keyCondition": "Safe contact, the tap is understood.",
     "probingQuestion": "What makes a place feel safe to you?",
-    "tlo": null,
-    "elos": [],
-    "_todo": "TLO and ELOs come from the Session 1 source document. The engine renders nothing for null/empty values, so no placeholder text reaches a learner."
+    "grapplingTlo": null,
+    "grapplingElos": [],
+    "caselTlo": null,
+    "caselElos": [],
+    "connection": null,
+    "_source": "Notion: 'Session 1: Lesson and Intervention Guide', 'The Descent: Probing Questions (Sessions 1 to 12)', 'GWMS Technical Map: First Hours, All 36 Sessions'.",
+    "_todo": "Session 1's Lesson and Intervention Guide in Notion is a stub — it contains only the game paragraph. Every other session's guide carries Grappling TLO/ELOs, CASEL TLO/ELOs, and a connection line (see Session 2 for the complete shape). Those four fields stay null until Session 1's guide is finished. The engine renders nothing for null/empty values, so no placeholder text reaches a learner."
   },
 
   "_scope": "Phase 1 test scene. Three slides, proving the engine end to end with real Session 1 content only. The full Session 1 build (60+ pages, from the Google Sites prototype) is not represented here.",
@@ -49,7 +58,7 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
             {
               "kind": "callout",
               "label": "Where this sits",
-              "text": "Session 1 sits in The Descent, Week 1. The theme is Arrival."
+              "text": "Session 1 of 36. The Descent, Week 1, Arrival. On the mat that stage runs The Roads."
             }
           ]
         },
