@@ -1,0 +1,462 @@
+window.GWMS_COURSE_BUNDLE = window.GWMS_COURSE_BUNDLE || {};
+window.GWMS_COURSE_BUNDLE["session-02"] =
+{
+  "id": "session-02",
+  "title": "Session 2 — Arrival",
+  "lang": "en",
+  "rightsHolder": "Jamey Phoenix Bethea, Conceptual Combat Academy",
+
+  "meta": {
+    "session": 2,
+    "sessionOf": 36,
+    "stage": "The Descent",
+    "week": 1,
+    "theme": "Arrival",
+    "neighborhood": "The Roads",
+    "block": "Block 4 — Cleanup, eLearning, IRF",
+    "casel": ["Self-Awareness", "Self-Management"],
+    "card": "Taking the Base",
+    "domain": "Enter",
+    "keyCondition": "A connection the partner has to answer.",
+    "probingQuestion": "How do you show up when nobody here knows you yet?",
+    "grapplingTlo": "By the end of this session, the participant will demonstrate safe contact entry with an unfamiliar partner.",
+    "grapplingElos": [
+      "Make controlled first contact with a new partner.",
+      "Stay safe while closing distance."
+    ],
+    "caselTlo": "By the end of this session, the participant will name their default entrance behavior when new, without judging it.",
+    "caselElos": [
+      "Notice how they enter a new space.",
+      "Name that entrance behavior plainly."
+    ],
+    "connection": "How you make first contact on the mat, cautious, rushed, stiff, is your entrance. Naming how you show up when nobody knows you yet is the same pattern, seen off the mat.",
+    "_source": "Notion — 'Session 2: Lesson and Intervention Guide' (complete); 'GWMS Technical Map: First Hours, All 36 Sessions'; 'GWMS Etiquette Reference'."
+  },
+
+  "_template": "14-Screen Template. See docs/MODULE-TEMPLATE.md. Session 2 is the reference build — its Lesson and Intervention Guide carries all six objective fields, so every screen below is sourced.",
+
+  "scenes": [
+    {
+      "id": "today",
+      "title": "Today",
+      "slides": [
+
+        {
+          "id": "s01-question",
+          "type": "text-image",
+          "eyebrow": "Session 2 · Probing question",
+          "title": "How do you show up when nobody here knows you yet?",
+          "alternates": [
+            {
+              "mode": "audio",
+              "label": "Listen",
+              "src": "assets/probing-question.m4a",
+              "transcriptIsBody": true,
+              "own": true,
+              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+            }
+          ],
+          "body": [
+            {
+              "kind": "lead",
+              "text": "That is the probing question for Session 2. It runs through the whole session: the grappling class, rolling and recovery, and the lesson."
+            },
+            {
+              "kind": "callout",
+              "label": "Where this sits",
+              "text": "Session 2 of 36. The Descent, Week 1, Arrival. On the mat that stage runs The Roads."
+            }
+          ]
+        },
+
+        {
+          "id": "s02-game",
+          "type": "text-image",
+          "eyebrow": "Screen 2 · The game",
+          "title": "Overhook–Underhook",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "Both players stand and tie up. One arm over, one arm under."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The win is one thing: connect your hands anywhere on your partner's body. No takedowns, no slamming. Stay light and standing."
+            }
+          ],
+          "image": {
+            "src": "assets/overhook-underhook-placeholder.svg",
+            "alt": "Diagram of the Overhook-Underhook starting position: two players standing chest to chest, each with one arm hooked over the partner's arm and one hooked under.",
+            "caption": "Placeholder diagram — to be replaced with the Session 2 source image.",
+            "own": true
+          },
+          "imagePosition": "after",
+          "reveals": [
+            {
+              "id": "why",
+              "label": "What this game trains",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "You are learning to make a connection the other person has to answer, which is the first thing that happens when you meet a stranger on the mat."
+                }
+              ]
+            }
+          ]
+        },
+
+        {
+          "id": "s03-check-game",
+          "type": "quiz",
+          "eyebrow": "Screen 3 · Quick check",
+          "title": "How you win it",
+          "assessment": { "role": "formative", "scored": false },
+          "question": "In the Overhook–Underhook game, what counts as the win?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Connecting your hands anywhere on your partner's body",
+              "correct": true,
+              "feedback": "Anywhere. That's the whole win condition."
+            },
+            {
+              "text": "Taking your partner down",
+              "feedback": "No takedowns in this one. Light and standing the whole time."
+            },
+            {
+              "text": "Getting both arms under",
+              "feedback": "That's a different game. Here it's one over, one under, and the win is connecting your hands."
+            }
+          ],
+          "correctHead": "That's it.",
+          "correctText": "One over, one under, hands connected. Nothing else scores.",
+          "incorrectHead": "Not quite.",
+          "incorrectText": "Read the note under your choice, then try again.",
+          "revealText": "The right answer is marked above, with the reason."
+        },
+
+        {
+          "id": "s04-condition",
+          "type": "reveal",
+          "eyebrow": "Screen 4 · The key condition",
+          "title": "What had to be true first",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "Every session is built around one key condition — the one thing that has to be true before anything else gets built."
+            },
+            {
+              "kind": "callout",
+              "label": "Session 2 key condition",
+              "text": "A connection the partner has to answer."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Not a connection they can ignore. Once you tie up, they have to do something about it. That is what makes it contact and not just standing near someone."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "tap-brief",
+              "label": "Still true every session: the tap",
+              "content": [
+                {
+                  "kind": "list",
+                  "ordered": true,
+                  "items": ["Tap your partner's body", "Tap the mat", "Say stop"]
+                },
+                { "kind": "paragraph", "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately." }
+              ]
+            }
+          ]
+        },
+
+        {
+          "id": "s05-check-condition",
+          "type": "quiz",
+          "eyebrow": "Screen 5 · Quick check",
+          "title": "First contact",
+          "assessment": { "role": "formative", "scored": false },
+          "question": "Why does the tie-up count as real contact?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Because your partner has to answer it",
+              "correct": true,
+              "feedback": "Once you're connected, they have to do something about it. That's the key condition for today."
+            },
+            {
+              "text": "Because it scores a point",
+              "feedback": "Nothing scores until your hands connect — and even then it's a game, not a match."
+            },
+            {
+              "text": "Because it's the strongest grip in grappling",
+              "feedback": "It isn't about strength. It's about making a connection the other person can't ignore."
+            }
+          ],
+          "correctHead": "Right.",
+          "correctText": "A connection the partner has to answer. That's the condition the whole game is built on.",
+          "incorrectHead": "Not quite.",
+          "incorrectText": "Read the note under your choice, then try again.",
+          "revealText": "The right answer is marked above, with the reason."
+        }
+      ]
+    },
+
+    {
+      "id": "bridge",
+      "title": "The bridge",
+      "slides": [
+
+        {
+          "id": "s06-mat",
+          "type": "text-image",
+          "eyebrow": "Screen 6 · From the mat",
+          "title": "What you did first",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "In today's rolling you worked with people who still barely know you."
+            },
+            {
+              "kind": "paragraph",
+              "text": "When you met a new partner, what did you do first? Did you go hard to prove something, hang back to stay safe, or joke to cut the tension?"
+            },
+            {
+              "kind": "callout",
+              "label": "Not a test",
+              "text": "None of those is the wrong one. This is noticing, not grading."
+            }
+          ]
+        },
+
+        {
+          "id": "s07-connection",
+          "type": "reveal",
+          "eyebrow": "Screen 7 · The connection",
+          "title": "That's your entrance",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "How you make first contact on the mat — cautious, rushed, stiff — is your entrance."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Naming how you show up when nobody knows you yet is the same pattern, seen off the mat."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "same-everywhere",
+              "label": "Where else this shows up",
+              "content": [
+                { "kind": "paragraph", "text": "That entrance on the mat is the same one you use everywhere new. First day somewhere. A room full of people you don't know. Anywhere you're unknown." }
+              ]
+            },
+            {
+              "id": "last-session",
+              "label": "How this follows from Session 1",
+              "content": [
+                { "kind": "paragraph", "text": "Session 1 asked what safety is. This one asks what you actually do when you're new — the face you lead with when nobody knows you." }
+              ]
+            }
+          ]
+        },
+
+        {
+          "id": "s08-decision",
+          "type": "branch",
+          "eyebrow": "Screen 8 · Your call",
+          "title": "So what did you do?",
+          "body": [
+            {
+              "kind": "paragraph",
+              "text": "Think back to the first partner you tied up with today."
+            }
+          ],
+          "question": "When you met them, what did you do first?",
+          "options": [
+            {
+              "id": "hard",
+              "text": "Went hard",
+              "sub": "Came in strong, showed them something.",
+              "target": "s09-named",
+              "feedback": "Noted."
+            },
+            {
+              "id": "back",
+              "text": "Hung back",
+              "sub": "Stayed careful until you knew what you were dealing with.",
+              "target": "s09-named",
+              "feedback": "Noted."
+            },
+            {
+              "id": "joke",
+              "text": "Made a joke",
+              "sub": "Cut the tension first.",
+              "target": "s09-named",
+              "feedback": "Noted."
+            },
+            {
+              "id": "dunno",
+              "text": "Honestly, I didn't notice",
+              "sub": "It just happened.",
+              "target": "s10-didnt-notice",
+              "feedback": "That's a real answer."
+            }
+          ]
+        },
+
+        {
+          "id": "s09-named",
+          "type": "text-image",
+          "eyebrow": "Screen 9",
+          "title": "You just named your entrance",
+          "next": "s11-reflection",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "That's it. That's the thing this session was after."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Going hard, hanging back, joking — all three are entrances. None of them is the wrong one. You've used yours plenty of times before today; the only new part is that you can see it now."
+            },
+            {
+              "kind": "callout",
+              "label": "One question to sit with",
+              "text": "Does that match how you want people to meet you?"
+            }
+          ]
+        },
+
+        {
+          "id": "s10-didnt-notice",
+          "type": "text-image",
+          "eyebrow": "Screen 10",
+          "title": "That's a real answer",
+          "next": "s11-reflection",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "Most people don't notice. That's what makes it a default."
+            },
+            {
+              "kind": "paragraph",
+              "text": "It runs on its own, which is exactly why it's worth catching. Next session you'll have another new partner and another chance to watch yourself do it."
+            },
+            {
+              "kind": "callout",
+              "label": "Nothing owed",
+              "text": "Passing on this is fine. Presence is participation."
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": "your-turn",
+      "title": "Your turn",
+      "slides": [
+
+        {
+          "id": "s11-reflection",
+          "type": "reflection",
+          "eyebrow": "Screen 11 · Reflection",
+          "title": "Your answer",
+          "prompt": "How do you show up when nobody here knows you yet?",
+          "hint": "One word or one line is plenty. Loud, quiet, funny, invisible — whatever it actually is. Nobody is grading this and nobody else sees it.",
+          "placeholder": "Whatever it actually is…",
+          "body": [
+            {
+              "kind": "paragraph",
+              "text": "Plain words. No need to make it sound good."
+            }
+          ]
+        },
+
+        {
+          "id": "s12-summative",
+          "type": "quiz",
+          "eyebrow": "Screen 12 · End-of-session check",
+          "title": "The one thing from today",
+          "assessment": { "role": "summative", "scored": true },
+          "question": "What was today's session actually asking you to do?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Notice how you show up when you're new, and name it without judging it",
+              "correct": true,
+              "feedback": "That's the whole task. Notice it, name it plainly, leave the verdict out of it."
+            },
+            {
+              "text": "Fix the way you come across to people",
+              "feedback": "Not yet, and maybe not ever. This session is about seeing the pattern, not changing it."
+            },
+            {
+              "text": "Work out whether your entrance is a good one or a bad one",
+              "feedback": "No. A plain observation counts as a win here. It's data, not a verdict."
+            },
+            {
+              "text": "Win the tie-up against a stranger",
+              "feedback": "That was the game, not the point. The game was there to show you the pattern."
+            }
+          ],
+          "correctHead": "That's the whole thing.",
+          "correctText": "Notice it. Name it plainly. No judging.",
+          "incorrectHead": "Close, but no.",
+          "incorrectText": "Read the note under your choice and try again.",
+          "revealText": "The answer is marked above. Notice it, name it, don't judge it."
+        },
+
+        {
+          "id": "s13-next",
+          "type": "text-image",
+          "eyebrow": "Screen 13 · Next time",
+          "title": "Session 3",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "Next session's question: What are you like before you trust the room?"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Everybody has an entrance, and now you can see yours. Next time closes out Week 1."
+            }
+          ]
+        },
+
+        {
+          "id": "s14-close",
+          "type": "text-image",
+          "eyebrow": "Screen 14 · Before you go",
+          "title": "One more thing",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "That's the eLearning for Session 2."
+            },
+            {
+              "kind": "callout",
+              "label": "The IRF",
+              "text": "Three questions on the tablet, then you're out the door. Everybody does it, every session."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "What happened today on the mat?",
+                "What worked?",
+                "What did not work?"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+;
