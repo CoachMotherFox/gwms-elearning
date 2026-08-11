@@ -40,7 +40,8 @@ If the send fails — no wifi, dead hotspot — it goes into a queue in `localSt
 More setup, but delivery is confirmed, the columns are yours, and it writes into a Sheet you already own.
 
 1. New Google Sheet. **Extensions → Apps Script**.
-2. Replace `Code.gs` with this, set `TOKEN` to any random string:
+2. Replace `Code.gs` with this, set `TOKEN` to any random string.
+   (If `irf.json` already has a token, paste **`docs/apps-script/Code.gs`** instead — it is generated with that token already filled in, so there is nothing to retype.)
 
 ```javascript
 const SHEET_NAME = 'IRF';
