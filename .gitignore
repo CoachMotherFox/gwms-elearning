@@ -1,0 +1,11 @@
+# Local tooling state, not project content
+.claude/settings.local.json
+
+# macOS
+.DS_Store
+
+# Note: courses/*/course.bundle.js IS tracked on purpose. The bundles are what
+# make engine/index.html work when the folder is opened from disk rather than
+# served, which is how a reviewer will most likely open it. Re-run
+# `sh tools/bundle.sh` after editing any course.json; `node tools/check.js`
+# warns when a bundle is older than its source.

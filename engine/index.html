@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>GWMS eLearning</title>
+<meta name="description" content="GWMS custom e-learning engine — Block 4 eLearning component.">
+<link rel="stylesheet" href="css/engine.css?v=2">
+</head>
+<body class="is-booting">
+
+<a class="skip-link" href="#main">Skip to slide content</a>
+
+<!-- Screen-reader announcements for slide changes and feedback -->
+<div id="live-polite" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+<div id="live-assertive" class="sr-only" aria-live="assertive" aria-atomic="true"></div>
+
+<header class="appbar">
+  <div class="appbar__inner">
+    <button type="button" class="iconbtn" id="btn-menu" aria-haspopup="dialog">
+      <span class="iconbtn__glyph" aria-hidden="true">
+        <svg viewBox="0 0 20 20" width="20" height="20" focusable="false"><path d="M2 4h16M2 10h16M2 16h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" fill="none"/></svg>
+      </span>
+      <span class="iconbtn__label">Contents</span>
+    </button>
+
+    <div class="appbar__title">
+      <span class="appbar__eyebrow" id="course-eyebrow"></span>
+      <span class="appbar__name" id="course-title">Loading&hellip;</span>
+    </div>
+
+    <button type="button" class="iconbtn" id="btn-prefs" aria-haspopup="dialog">
+      <span class="iconbtn__glyph" aria-hidden="true">
+        <svg viewBox="0 0 20 20" width="20" height="20" focusable="false"><path d="M3 6h14M3 10h14M3 14h14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" fill="none"/><circle cx="7" cy="6" r="2.4" fill="currentColor"/><circle cx="13" cy="10" r="2.4" fill="currentColor"/><circle cx="6" cy="14" r="2.4" fill="currentColor"/></svg>
+      </span>
+      <span class="iconbtn__label">Display</span>
+    </button>
+  </div>
+
+  <div class="progress" id="progress"
+       role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"
+       aria-label="Course progress">
+    <div class="progress__fill" id="progress-fill"></div>
+  </div>
+</header>
+
+<main id="main" class="stage" tabindex="-1">
+  <div class="slide" id="slide-root">
+    <p class="loading">Loading course&hellip;</p>
+  </div>
+</main>
+
+<nav class="slidebar" aria-label="Slide navigation">
+  <div class="slidebar__inner">
+    <button type="button" class="btn btn--ghost" id="btn-prev">
+      <span aria-hidden="true">&larr;</span> Back
+    </button>
+    <p class="slidebar__status" id="slide-status"></p>
+    <button type="button" class="btn btn--primary" id="btn-next">
+      Next <span aria-hidden="true">&rarr;</span>
+    </button>
+  </div>
+  <p class="slidebar__gate" id="slide-gate" hidden></p>
+</nav>
+
+<!-- ============ Contents / scene menu ============ -->
+<dialog class="sheet" id="dlg-menu" aria-labelledby="dlg-menu-title">
+  <div class="sheet__head">
+    <h2 id="dlg-menu-title">Contents</h2>
+    <button type="button" class="closebtn" data-close="dlg-menu">Close</button>
+  </div>
+  <div class="sheet__body">
+    <nav id="menu-scenes" aria-label="Scenes and slides"></nav>
+    <div class="sheet__foot">
+      <button type="button" class="linkbtn" id="btn-credits">Credits &amp; licences</button>
+      <button type="button" class="linkbtn" id="btn-privacy">Your data</button>
+      <button type="button" class="linkbtn" id="btn-check">Accessibility check</button>
+    </div>
+  </div>
+</dialog>
+
+<!-- ============ Display preferences ============ -->
+<dialog class="sheet" id="dlg-prefs" aria-labelledby="dlg-prefs-title">
+  <div class="sheet__head">
+    <h2 id="dlg-prefs-title">Display</h2>
+    <button type="button" class="closebtn" data-close="dlg-prefs">Close</button>
+  </div>
+  <div class="sheet__body">
+    <p class="sheet__intro">Set this up however it reads easiest for you. Your choices stay on this device.</p>
+
+    <fieldset class="prefset">
+      <legend>Text size</legend>
+      <div class="segmented" role="radiogroup" aria-label="Text size" data-pref="textSize">
+        <label><input type="radio" name="textSize" value="normal"> <span>Normal</span></label>
+        <label><input type="radio" name="textSize" value="large"> <span>Large</span></label>
+        <label><input type="radio" name="textSize" value="xlarge"> <span>Largest</span></label>
+      </div>
+    </fieldset>
+
+    <fieldset class="prefset">
+      <legend>Line spacing</legend>
+      <div class="segmented" role="radiogroup" aria-label="Line spacing" data-pref="lineSpacing">
+        <label><input type="radio" name="lineSpacing" value="normal"> <span>Normal</span></label>
+        <label><input type="radio" name="lineSpacing" value="loose"> <span>Loose</span></label>
+      </div>
+    </fieldset>
+
+    <fieldset class="prefset">
+      <legend>Typeface</legend>
+      <div class="segmented" role="radiogroup" aria-label="Typeface" data-pref="typeface">
+        <label><input type="radio" name="typeface" value="default"> <span>Default</span></label>
+        <label><input type="radio" name="typeface" value="legible"> <span>High legibility</span></label>
+      </div>
+    </fieldset>
+
+    <fieldset class="prefset">
+      <legend>Theme</legend>
+      <div class="segmented" role="radiogroup" aria-label="Theme" data-pref="theme">
+        <label><input type="radio" name="theme" value="system"> <span>System</span></label>
+        <label><input type="radio" name="theme" value="light"> <span>Light</span></label>
+        <label><input type="radio" name="theme" value="dark"> <span>Dark</span></label>
+      </div>
+    </fieldset>
+
+    <fieldset class="prefset">
+      <legend>Motion</legend>
+      <div class="segmented" role="radiogroup" aria-label="Motion" data-pref="motion">
+        <label><input type="radio" name="motion" value="system"> <span>System</span></label>
+        <label><input type="radio" name="motion" value="reduced"> <span>Reduce</span></label>
+      </div>
+    </fieldset>
+  </div>
+</dialog>
+
+<!-- ============ Generic info sheet (credits / privacy / check) ============ -->
+<dialog class="sheet" id="dlg-info" aria-labelledby="dlg-info-title">
+  <div class="sheet__head">
+    <h2 id="dlg-info-title">Information</h2>
+    <button type="button" class="closebtn" data-close="dlg-info">Close</button>
+  </div>
+  <div class="sheet__body" id="dlg-info-body"></div>
+</dialog>
+
+<script src="js/util.js?v=2"></script>
+<script src="js/storage.js?v=2"></script>
+<script src="js/validate.js?v=2"></script>
+<script src="js/slides.js?v=2"></script>
+<script src="js/navigation.js?v=2"></script>
+<script src="js/app.js?v=2"></script>
+</body>
+</html>

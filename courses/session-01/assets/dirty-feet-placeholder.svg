@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" width="800" height="450">
+  <title>Placeholder diagram: Dirty Feet</title>
+  <desc>Schematic placeholder to be replaced with the Session 1 source photograph or diagram.</desc>
+
+  <rect width="800" height="450" fill="#F2EFEA"/>
+  <rect x="0.5" y="0.5" width="799" height="449" fill="none" stroke="#B9B2A8"/>
+
+  <!-- mat line -->
+  <line x1="60" y1="352" x2="740" y2="352" stroke="#B9B2A8" stroke-width="2"/>
+
+  <!-- ground player (left, on their back/seated) -->
+  <g fill="none" stroke="#1B1A18" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="150" cy="300" r="26" fill="#1B1A18" stroke="none"/>
+    <path d="M176 314 L262 322"/>            <!-- torso -->
+    <path d="M262 322 L330 268"/>            <!-- upper leg -->
+    <path d="M262 322 L332 316"/>            <!-- second leg -->
+    <path d="M190 300 L250 268"/>            <!-- arm / frame -->
+  </g>
+  <!-- feet contact -->
+  <g fill="#A23A18">
+    <circle cx="340" cy="262" r="13"/>
+    <circle cx="342" cy="314" r="13"/>
+  </g>
+
+  <!-- standing player (right) -->
+  <g fill="none" stroke="#1B1A18" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="560" cy="150" r="26" fill="#1B1A18" stroke="none"/>
+    <path d="M560 176 L560 268"/>            <!-- torso -->
+    <path d="M560 268 L528 352"/>            <!-- leg -->
+    <path d="M560 268 L596 352"/>            <!-- leg -->
+    <path d="M560 200 L500 250"/>            <!-- arm reaching in -->
+    <path d="M560 200 L618 244"/>            <!-- arm -->
+  </g>
+
+  <!-- distance measure -->
+  <g stroke="#A23A18" stroke-width="2.5" fill="none">
+    <path d="M358 200 L500 200"/>
+    <path d="M358 200 l14 -8 M358 200 l14 8"/>
+    <path d="M500 200 l-14 -8 M500 200 l-14 8"/>
+  </g>
+  <text x="429" y="184" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#A23A18">distance</text>
+
+  <!-- labels -->
+  <g font-family="Georgia, serif" font-size="19" fill="#57534C">
+    <text x="60" y="390">Ground player</text>
+    <text x="60" y="414" font-size="16">feet on, holding the gap</text>
+    <text x="740" y="390" text-anchor="end">Standing player</text>
+    <text x="740" y="414" text-anchor="end" font-size="16">working to close it</text>
+  </g>
+
+  <g font-family="Georgia, serif" font-size="16" fill="#57534C">
+    <text x="60" y="52" font-size="13" letter-spacing="2">PLACEHOLDER</text>
+    <text x="60" y="76">Replace with the Session 1 source photograph or diagram.</text>
+  </g>
+</svg>
