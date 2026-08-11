@@ -1,0 +1,290 @@
+window.GWMS_COURSE_BUNDLE = window.GWMS_COURSE_BUNDLE || {};
+window.GWMS_COURSE_BUNDLE["session-32"] =
+{
+  "id": "session-32",
+  "title": "Session 32 — Legacy",
+  "lang": "en",
+  "rightsHolder": "Jamey Phoenix Bethea, Conceptual Combat Academy",
+  "meta": {
+    "session": 32,
+    "sessionOf": 36,
+    "stage": "The Return",
+    "week": 11,
+    "theme": "Legacy",
+    "neighborhood": "Back Pin",
+    "block": "Block 4 — Cleanup, eLearning, IRF",
+    "casel": [
+      "Responsible Decision-Making"
+    ],
+    "bloom": "Apply and Analyze",
+    "card": "The Back Pin",
+    "domain": "Finish, Arm Lock from back",
+    "keyCondition": "The shoulder anchored and the wrist controlled before extension, released on the tap.",
+    "probingQuestion": "What standard are you setting for whoever comes next?",
+    "grapplingTlo": "By the end of this session, the participant will apply the arm lock from the back with control, and analyze how their conduct sets the room's standard.",
+    "grapplingElos": [
+      "Secure the back arm lock under control, releasing on the tap.",
+      "Identify one way their conduct sets a standard others follow."
+    ],
+    "caselTlo": "By the end of this session, the participant will name the standard they set for whoever comes after them.",
+    "caselElos": [
+      "Identify the standard their behavior currently sets.",
+      "Name whether it is the one they want to set."
+    ],
+    "connection": "How you carry yourself in the room, how you finish, how you treat a new partner, quietly sets the bar for everyone watching. The standard you set for whoever comes next in life works the same way. Your conduct is the standard.",
+    "_source": "GWMS Curriculum Guide — Session 32 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+  },
+  "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
+  "scenes": [
+    {
+      "id": "today",
+      "title": "Today",
+      "slides": [
+        {
+          "id": "s32-question",
+          "type": "text-image",
+          "eyebrow": "Session 32 · Probing question",
+          "title": "What standard are you setting for whoever comes next?",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "That is the question for this session. It runs through the whole session: the grappling class, rolling and recovery, and the lesson."
+            },
+            {
+              "kind": "callout",
+              "label": "Where this sits",
+              "text": "Session 32 of 36. The Return, Week 11, Legacy. On the mat that stage runs Back Pin."
+            }
+          ],
+          "alternates": [
+            {
+              "mode": "audio",
+              "label": "Listen",
+              "src": "assets/probing-question.m4a",
+              "transcriptIsBody": true,
+              "own": true,
+              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+            }
+          ]
+        },
+        {
+          "id": "s32-game",
+          "type": "text-image",
+          "eyebrow": "The game",
+          "title": "Chest to Back to Precursor Transitions Game",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "The arm lock from the back. Move through the precursor grips, shoulder anchored and wrist controlled before any extension, released on the tap."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Your conduct here, controlled and clean, is the standard the next person copies."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "key-condition",
+              "label": "What had to be true first",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "The shoulder anchored and the wrist controlled before extension, released on the tap."
+                },
+                {
+                  "kind": "paragraph",
+                  "text": "Card: The Back Pin. Domain: Finish, Arm Lock from back."
+                }
+              ]
+            },
+            {
+              "id": "the-tap",
+              "label": "Still true every session: the tap",
+              "content": [
+                {
+                  "kind": "list",
+                  "ordered": true,
+                  "items": [
+                    "Tap your partner's body",
+                    "Tap the mat",
+                    "Say stop"
+                  ]
+                },
+                {
+                  "kind": "paragraph",
+                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s32-check",
+          "type": "quiz",
+          "eyebrow": "Quick check",
+          "title": "How you win it",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "In Chest to Back to Precursor Transitions Game, what counts as the win?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Moving through the precursor grips with the shoulder anchored and the wrist controlled before any extension",
+              "correct": true,
+              "feedback": "That is the win condition, and nothing else scores."
+            },
+            {
+              "text": "Holding the finish after your partner taps",
+              "feedback": "Never. Every finish is released instantly on the tap, every time. The tap is law."
+            },
+            {
+              "text": "Hurting your partner because you can",
+              "feedback": "That is the one thing the Back Pin exists to teach you not to do. Total control with the choice not to harm is the core of the whole program."
+            }
+          ],
+          "correctHead": "That's it.",
+          "correctText": "That is the whole win condition for today.",
+          "incorrectHead": "Not quite.",
+          "incorrectText": "Read the note under your choice, then try again.",
+          "revealText": "The right answer is marked above, with the reason."
+        }
+      ]
+    },
+    {
+      "id": "lesson",
+      "title": "The lesson",
+      "slides": [
+        {
+          "id": "s32-grappling",
+          "type": "text-image",
+          "eyebrow": "On the mat",
+          "title": "What you were working on",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "By the end of this session, the participant will apply the arm lock from the back with control, and analyze how their conduct sets the room's standard."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Which broke down into"
+            },
+            {
+              "kind": "list",
+              "ordered": true,
+              "items": [
+                "Secure the back arm lock under control, releasing on the tap.",
+                "Identify one way their conduct sets a standard others follow."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s32-casel",
+          "type": "text-image",
+          "eyebrow": "The other half",
+          "title": "And the part that was not about grappling",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "By the end of this session, the participant will name the standard they set for whoever comes after them."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Which broke down into"
+            },
+            {
+              "kind": "list",
+              "ordered": true,
+              "items": [
+                "Identify the standard their behavior currently sets.",
+                "Name whether it is the one they want to set."
+              ]
+            },
+            {
+              "kind": "callout",
+              "label": "CASEL",
+              "text": "Responsible Decision-Making"
+            }
+          ]
+        },
+        {
+          "id": "s32-connection",
+          "type": "reveal",
+          "eyebrow": "The connection",
+          "title": "Where those two meet",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "How you carry yourself in the room, how you finish, how you treat a new partner, quietly sets the bar for everyone watching. The standard you set for whoever comes next in life works the same way. Your conduct is the standard."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "stage-arc",
+              "label": "Where this sits in The Return",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Total control with the choice not to harm is the core of the whole program, turned into a decision the participant carries out the door."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "title": "Before you go",
+      "slides": [
+        {
+          "id": "s32-reflection",
+          "type": "reflection",
+          "eyebrow": "Reflection",
+          "title": "Your answer",
+          "prompt": "What standard are you setting for whoever comes next?",
+          "hint": "Nobody is grading this and nobody else sees it. A few words is plenty.",
+          "placeholder": "Whatever comes to mind…"
+        },
+        {
+          "id": "s32-irf",
+          "type": "reflection",
+          "eyebrow": "Before you go",
+          "title": "Instruction Rating Form",
+          "kindLabel": "IRF — every participant, every session",
+          "fields": [
+            {
+              "id": "mat",
+              "prompt": "What happened today on the mat?"
+            },
+            {
+              "id": "worked",
+              "prompt": "What worked?"
+            },
+            {
+              "id": "didnt",
+              "prompt": "What did not work?"
+            }
+          ],
+          "requireAll": true,
+          "required": true,
+          "privacyNote": "These three answers are how the program checks whether the session worked. They are about the session, not about you.",
+          "body": [
+            {
+              "kind": "callout",
+              "label": "Next session",
+              "text": "Session 33: If someone watched how you carry yourself, what would they learn?"
+            }
+          ],
+          "_todo": "Unit 4 routes IRF responses through a Google Form backend or basic LMS. This engine has no backend, so answers stay on the device. Wire the submit target before the pilot."
+        }
+      ]
+    }
+  ]
+}
+;

@@ -1,0 +1,295 @@
+window.GWMS_COURSE_BUNDLE = window.GWMS_COURSE_BUNDLE || {};
+window.GWMS_COURSE_BUNDLE["session-31"] =
+{
+  "id": "session-31",
+  "title": "Session 31 — Legacy",
+  "lang": "en",
+  "rightsHolder": "Jamey Phoenix Bethea, Conceptual Combat Academy",
+  "meta": {
+    "session": 31,
+    "sessionOf": 36,
+    "stage": "The Return",
+    "week": 11,
+    "theme": "Legacy",
+    "neighborhood": "Back Pin",
+    "block": "Block 4 — Cleanup, eLearning, IRF",
+    "casel": [
+      "Responsible Decision-Making"
+    ],
+    "bloom": "Apply and Analyze",
+    "card": "The Back Pin",
+    "domain": "Finish, Back Strangle",
+    "keyCondition": "The locking hand closes behind the plane of the head, the choking elbow on the chin line, released on the tap.",
+    "probingQuestion": "What do you want to leave behind you here?",
+    "grapplingTlo": "By the end of this session, the participant will apply an owned back-pin finish, the back strangle, with control, and analyze what kind of training partner they have been.",
+    "grapplingElos": [
+      "Secure the back strangle under light resistance, releasing on the tap.",
+      "Name what kind of partner they have been to the room."
+    ],
+    "caselTlo": "By the end of this session, the participant will name what they want to leave behind them.",
+    "caselElos": [
+      "Identify the mark they want to leave.",
+      "Connect it to how they act now."
+    ],
+    "connection": "The finish is the sharpest power in the system, and how you use it, controlled, releasing on the tap, is what people remember about rolling with you. What you leave behind in life is built the same way, out of how you treat people when you hold the power.",
+    "_source": "GWMS Curriculum Guide — Session 31 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+  },
+  "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
+  "scenes": [
+    {
+      "id": "today",
+      "title": "Today",
+      "slides": [
+        {
+          "id": "s31-question",
+          "type": "text-image",
+          "eyebrow": "Session 31 · Probing question",
+          "title": "What do you want to leave behind you here?",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "That is the question for this session. It runs through the whole session: the grappling class, rolling and recovery, and the lesson."
+            },
+            {
+              "kind": "callout",
+              "label": "Where this sits",
+              "text": "Session 31 of 36. The Return, Week 11, Legacy. On the mat that stage runs Back Pin."
+            }
+          ],
+          "alternates": [
+            {
+              "mode": "audio",
+              "label": "Listen",
+              "src": "assets/probing-question.m4a",
+              "transcriptIsBody": true,
+              "own": true,
+              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+            }
+          ]
+        },
+        {
+          "id": "s31-game",
+          "type": "text-image",
+          "eyebrow": "The game",
+          "title": "Build to Rear Strangle Game",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "The back strangle, the sharpest finish in the system. Build the locking grip behind the plane of the head, elbow on the chin line, and release the instant your partner taps."
+            },
+            {
+              "kind": "paragraph",
+              "text": "How you use the finish, controlled and clean, is what people remember about rolling with you. That is legacy."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "key-condition",
+              "label": "What had to be true first",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "The locking hand closes behind the plane of the head, the choking elbow on the chin line, released on the tap."
+                },
+                {
+                  "kind": "paragraph",
+                  "text": "Card: The Back Pin. Domain: Finish, Back Strangle."
+                }
+              ]
+            },
+            {
+              "id": "the-tap",
+              "label": "Still true every session: the tap",
+              "content": [
+                {
+                  "kind": "list",
+                  "ordered": true,
+                  "items": [
+                    "Tap your partner's body",
+                    "Tap the mat",
+                    "Say stop"
+                  ]
+                },
+                {
+                  "kind": "paragraph",
+                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s31-check",
+          "type": "quiz",
+          "eyebrow": "Quick check",
+          "title": "How you win it",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "In Build to Rear Strangle Game, what counts as the win?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Building the locking grip behind the plane of the head — and releasing the instant your partner taps",
+              "correct": true,
+              "feedback": "That is the win condition, and nothing else scores."
+            },
+            {
+              "text": "Holding the finish after your partner taps",
+              "feedback": "Never. Every finish is released instantly on the tap, every time. The tap is law."
+            },
+            {
+              "text": "Hurting your partner because you can",
+              "feedback": "That is the one thing the Back Pin exists to teach you not to do. Total control with the choice not to harm is the core of the whole program."
+            }
+          ],
+          "correctHead": "That's it.",
+          "correctText": "That is the whole win condition for today.",
+          "incorrectHead": "Not quite.",
+          "incorrectText": "Read the note under your choice, then try again.",
+          "revealText": "The right answer is marked above, with the reason."
+        }
+      ]
+    },
+    {
+      "id": "lesson",
+      "title": "The lesson",
+      "slides": [
+        {
+          "id": "s31-grappling",
+          "type": "text-image",
+          "eyebrow": "On the mat",
+          "title": "What you were working on",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "By the end of this session, the participant will apply an owned back-pin finish, the back strangle, with control, and analyze what kind of training partner they have been."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Which broke down into"
+            },
+            {
+              "kind": "list",
+              "ordered": true,
+              "items": [
+                "Secure the back strangle under light resistance, releasing on the tap.",
+                "Name what kind of partner they have been to the room."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "s31-casel",
+          "type": "text-image",
+          "eyebrow": "The other half",
+          "title": "And the part that was not about grappling",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "By the end of this session, the participant will name what they want to leave behind them."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Which broke down into"
+            },
+            {
+              "kind": "list",
+              "ordered": true,
+              "items": [
+                "Identify the mark they want to leave.",
+                "Connect it to how they act now."
+              ]
+            },
+            {
+              "kind": "callout",
+              "label": "CASEL",
+              "text": "Responsible Decision-Making"
+            }
+          ]
+        },
+        {
+          "id": "s31-connection",
+          "type": "reveal",
+          "eyebrow": "The connection",
+          "title": "Where those two meet",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "The finish is the sharpest power in the system, and how you use it, controlled, releasing on the tap, is what people remember about rolling with you. What you leave behind in life is built the same way, out of how you treat people when you hold the power."
+            },
+            {
+              "kind": "callout",
+              "label": "Worth saying plainly",
+              "text": "The jaw-based counters stay out of the curriculum until the Therapeutic Manager clears them. Coaches do not teach them."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "stage-arc",
+              "label": "Where this sits in The Return",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Total control with the choice not to harm is the core of the whole program, turned into a decision the participant carries out the door."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "title": "Before you go",
+      "slides": [
+        {
+          "id": "s31-reflection",
+          "type": "reflection",
+          "eyebrow": "Reflection",
+          "title": "Your answer",
+          "prompt": "What do you want to leave behind you here?",
+          "hint": "Nobody is grading this and nobody else sees it. A few words is plenty.",
+          "placeholder": "Whatever comes to mind…"
+        },
+        {
+          "id": "s31-irf",
+          "type": "reflection",
+          "eyebrow": "Before you go",
+          "title": "Instruction Rating Form",
+          "kindLabel": "IRF — every participant, every session",
+          "fields": [
+            {
+              "id": "mat",
+              "prompt": "What happened today on the mat?"
+            },
+            {
+              "id": "worked",
+              "prompt": "What worked?"
+            },
+            {
+              "id": "didnt",
+              "prompt": "What did not work?"
+            }
+          ],
+          "requireAll": true,
+          "required": true,
+          "privacyNote": "These three answers are how the program checks whether the session worked. They are about the session, not about you.",
+          "body": [
+            {
+              "kind": "callout",
+              "label": "Next session",
+              "text": "Session 32: What standard are you setting for whoever comes next?"
+            }
+          ],
+          "_todo": "Unit 4 routes IRF responses through a Google Form backend or basic LMS. This engine has no backend, so answers stay on the device. Wire the submit target before the pilot."
+        }
+      ]
+    }
+  ]
+}
+;

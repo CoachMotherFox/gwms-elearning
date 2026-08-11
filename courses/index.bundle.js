@@ -124,6 +124,66 @@ window.GWMS_COURSE_INDEX =
       "summary": "Week 8, Repair. “What does repair cost you, and is it worth paying?” Game: Hunt for Hips and Shoulders (Perpendicular Start)."
     },
     {
+      "id": "session-25",
+      "title": "Session 25 — Emergence — The Return",
+      "summary": "Week 9, Emergence. “What's actually different in you now?” Game: Back Take, Maintain Chest to Back Contact."
+    },
+    {
+      "id": "session-26",
+      "title": "Session 26 — Emergence — The Return",
+      "summary": "Week 9, Emergence. “How do you know the change is real and not just talk?” Game: Chest to Back Control Game."
+    },
+    {
+      "id": "session-27",
+      "title": "Session 27 — Emergence — The Return",
+      "summary": "Week 9, Emergence. “What can you do now that the old you couldn't?” Game: Back to Chest Control Transition Game."
+    },
+    {
+      "id": "session-28",
+      "title": "Session 28 — Contribution — The Return",
+      "summary": "Week 10, Contribution. “Who needs what you've learned?” Game: Chest-to-Back Position Maintenance."
+    },
+    {
+      "id": "session-29",
+      "title": "Session 29 — Contribution — The Return",
+      "summary": "Week 10, Contribution. “What can you give that actually costs you something?” Game: Back Control Elbow Management, No Hooks."
+    },
+    {
+      "id": "session-30",
+      "title": "Session 30 — Contribution — The Return",
+      "summary": "Week 10, Contribution. “How do you use your strength without taking someone else's?” Game: Back Control Turn-Over Game."
+    },
+    {
+      "id": "session-31",
+      "title": "Session 31 — Legacy — The Return",
+      "summary": "Week 11, Legacy. “What do you want to leave behind you here?” Game: Build to Rear Strangle Game."
+    },
+    {
+      "id": "session-32",
+      "title": "Session 32 — Legacy — The Return",
+      "summary": "Week 11, Legacy. “What standard are you setting for whoever comes next?” Game: Chest to Back to Precursor Transitions Game."
+    },
+    {
+      "id": "session-33",
+      "title": "Session 33 — Legacy — The Return",
+      "summary": "Week 11, Legacy. “If someone watched how you carry yourself, what would they learn?” Game: Chest-to-Back Connection Maintenance."
+    },
+    {
+      "id": "session-34",
+      "title": "Session 34 — Celebration — The Return",
+      "summary": "Week 12, Celebration. “What did this cost you, and what did you get for it?” Game: Back Control with Multiple Arm Escape Options."
+    },
+    {
+      "id": "session-35",
+      "title": "Session 35 — Celebration — The Return",
+      "summary": "Week 12, Celebration. “Who did you become?” Game: Chest to Back No Hooks Game."
+    },
+    {
+      "id": "session-36",
+      "title": "Session 36 — Celebration — The Return",
+      "summary": "Week 12, Celebration. “What do you carry out this door?” Game: First to Chest-to-Back: Find, Maintain, and Submit."
+    },
+    {
       "id": "engine-demo",
       "title": "Engine demo — every slide type",
       "summary": "Not course content. Exercises every slide type and assessment strategy."

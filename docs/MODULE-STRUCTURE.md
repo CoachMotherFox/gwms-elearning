@@ -31,7 +31,15 @@ One screen per curriculum field, in the guide's own order.
 
 **A session with no field gets no screen.** Session 1's Lesson and Intervention Guide has only the game paragraph — no TLOs, no ELOs, no connection — so Session 1 is five screens, not eight, and states none of the objectives it does not have.
 
-The two wrong answers on the check are the same every Descent session and are program rules, not invention: the Roads carry no finish (Unit 4: *"Two domains, no finish"*), and nothing is applied hard (*"the tap is honored instantly, every time"*).
+The two wrong answers on the check are program rules, not invention, and they are set per stage because the rules differ:
+
+| Stage | Wrong answers |
+|---|---|
+| The Descent | Submitting your partner (the Roads carry no finish) · Putting your partner down hard |
+| The Initiation | Holding the finish after the tap · Overpowering instead of adjusting |
+| The Return | Holding the finish after the tap · Hurting your partner because you can |
+
+A session's `note` field — the guides' explicit caveats, like *staying is the skill but leaving a harmful situation is not failure* (Sessions 17, 23) or *costly giving is not self-erasure* (Session 29) — renders as a callout on the connection screen rather than being dropped.
 
 ## Building
 
