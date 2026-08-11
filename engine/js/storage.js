@@ -1,9 +1,10 @@
 /* ==========================================================================
    GWMS eLearning Engine — storage.js
 
-   Deliberate ethical position (AECT required element: ethical use of ed tech):
-   nothing leaves the device. There is no backend, no account, no analytics
-   beacon, no third-party script.
+   There is no account, no login, no analytics beacon and no third-party
+   script. The only thing that ever leaves the device is the IRF submission on
+   the last screen, sent on a deliberate press and carrying no identifier —
+   see irf.js. Everything below is device-local.
 
      - Learner work (answers, reflections, visited slides) -> sessionStorage.
        It is wiped when the browser tab closes. A shared training-site tablet
@@ -67,6 +68,7 @@
       reflections: {},  // slideId -> text
       choices: {},      // slideId -> chosen branch option id
       reveals: {},      // slideId -> [interaction ids opened]
+      submitted: {},    // slideId -> { status, at }  (IRF sends)
       current: null     // slide id
     };
   }

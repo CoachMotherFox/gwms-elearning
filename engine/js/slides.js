@@ -509,6 +509,18 @@
     return [{ id: 'main', prompt: slide.prompt || '', hint: slide.hint, placeholder: slide.placeholder }];
   }
 
+  /** The note under a writing box must match what actually happens to it. */
+  function defaultPrivacyNote(slide) {
+    var sends = GWMS.irf && GWMS.irf.isConfigured();
+    if (!sends) {
+      return 'What you write stays in this browser. It is not sent anywhere and it clears when this tab closes.';
+    }
+    if (slide.submit) {
+      return 'Pressing send shares this with the program. No name goes with it — nobody can tell which answers are yours.';
+    }
+    return 'This is shared with the program on the last screen, with no name attached. Nothing is sent until you press send there.';
+  }
+
   TYPES.reflection = {
     label: 'Reflection',
     body: TYPES['text-image'].body,
@@ -563,26 +575,81 @@
       savedFlag.hidden = !anyText();
       saveBtn.addEventListener('click', function () { clearTimeout(timer); persist(true); });
 
-      return el('section.assess.reflect', {}, [
+      var section = el('section.assess.reflect', {}, [
         el('p.assess__kind', { text: slide.kindLabel || 'Reflection — not graded' }),
-        fieldNodes,
-        el('div.reflect__foot', {}, [saveBtn, savedFlag]),
-        el('p.privacy-note', {
-          text: slide.privacyNote ||
-            'What you write stays in this browser. It is not sent anywhere and it clears when this tab closes.'
-        })
+        fieldNodes
       ]);
+
+      // --- Submitting screen (the IRF) --------------------------------------
+      if (slide.submit && GWMS.irf && GWMS.irf.isConfigured()) {
+        var sendBtn = el('button.btn.btn--primary', { type: 'button', text: slide.sendLabel || 'Send it' });
+        var status = el('p.sendstatus', { role: 'status', 'aria-live': 'polite' });
+        var already = ctx.progress.submitted[slide.id];
+
+        function paintStatus(state) {
+          clear(status);
+          status.className = 'sendstatus sendstatus--' + state.status;
+          var text = {
+            sent: 'Sent. You’re done.',
+            handed: 'Sent. You’re done.',
+            queued: 'Saved on this device. It will send by itself next time there’s a connection.',
+            local: 'Saved on this device.',
+            sending: 'Sending…'
+          }[state.status] || '';
+          status.appendChild(document.createTextNode(text));
+          sendBtn.disabled = state.status === 'sending';
+          sendBtn.hidden = state.status === 'sent' || state.status === 'handed';
+        }
+
+        sendBtn.addEventListener('click', function () {
+          clearTimeout(timer);
+          persist(false);
+          paintStatus({ status: 'sending' });
+          U.announce('Sending your answers.');
+
+          var payload = ctx.buildIrfPayload(slide, areas);
+          GWMS.irf.submit(payload).then(function (res) {
+            ctx.progress.submitted[slide.id] = { status: res.status, at: new Date().toISOString() };
+            ctx.save();
+            paintStatus(res);
+            ctx.refreshGate();
+            U.announce(res.status === 'queued'
+              ? 'Saved on this device. It will send when there is a connection.'
+              : 'Sent. You are done.');
+          });
+        });
+
+        if (already) paintStatus(already);
+        section.appendChild(el('div.reflect__foot', {}, [sendBtn, saveBtn, savedFlag]));
+        section.appendChild(status);
+      } else {
+        section.appendChild(el('div.reflect__foot', {}, [saveBtn, savedFlag]));
+      }
+
+      section.appendChild(el('p.privacy-note', {
+        text: slide.privacyNote || defaultPrivacyNote(slide)
+      }));
+      return section;
     },
     isComplete: function (slide, progress) {
       var answers = reflectionAnswers(slide, progress);
       var fields = reflectionFields(slide);
       // requireAll is what the IRF needs — no student leaves before completing it.
-      if (slide.requireAll) {
-        return fields.every(function (f, i) { return (answers[f.id || ('f' + i)] || '').trim(); });
+      var written = slide.requireAll
+        ? fields.every(function (f, i) { return (answers[f.id || ('f' + i)] || '').trim(); })
+        : fields.some(function (f, i) { return (answers[f.id || ('f' + i)] || '').trim(); });
+
+      if (!written) return false;
+      if (slide.submit && GWMS.irf && GWMS.irf.isConfigured()) {
+        return !!progress.submitted[slide.id];
       }
-      return fields.some(function (f, i) { return (answers[f.id || ('f' + i)] || '').trim(); });
+      return true;
     },
-    gateMessage: function (slide) {
+    gateMessage: function (slide, progress) {
+      var answers = reflectionAnswers(slide, progress);
+      var fields = reflectionFields(slide);
+      var written = fields.every(function (f, i) { return (answers[f.id || ('f' + i)] || '').trim(); });
+      if (slide.submit && written) return 'Press send, then you’re done.';
       return slide.requireAll
         ? 'Answer all of these before you finish. Short answers are fine.'
         : 'Write something before moving on. Anything counts.';
@@ -697,9 +764,9 @@
     return type.isComplete ? type.isComplete(slide, progress) : true;
   }
 
-  function gateMessage(slide) {
+  function gateMessage(slide, progress) {
     var type = TYPES[slide.type] || TYPES['text-image'];
-    if (type.gateMessage) return type.gateMessage(slide);
+    if (type.gateMessage) return type.gateMessage(slide, progress);
     return 'Open everything on this slide to continue.';
   }
 

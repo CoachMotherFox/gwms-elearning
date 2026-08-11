@@ -17,7 +17,9 @@
     courseBase: '',
     progress: null,
     nav: null,
-    issues: []
+    issues: [],
+    index: null,
+    irfConfig: null
   };
 
   /* ======================================================================
@@ -203,7 +205,10 @@
   function dataPanel() {
     var p = state.progress;
     var answered = Object.keys(p.answers).length;
-    var written = Object.keys(p.reflections).filter(function (k) { return (p.reflections[k] || '').trim(); }).length;
+    var sends = GWMS.irf.isConfigured();
+    var cfg = GWMS.irf.describe();
+    var pending = GWMS.irf.pendingCount();
+    var sharesReflection = sends && state.irfConfig && state.irfConfig.includeReflection !== false;
 
     var clearWork = el('button.btn.btn--wide', { type: 'button', text: 'Erase my answers and start over' });
     clearWork.addEventListener('click', function () {
@@ -225,22 +230,57 @@
       U.announce('Display settings reset.');
     });
 
+    var items = [];
+
+    if (sends) {
+      items.push(el('li', {}, [
+        el('b', { text: 'What gets sent to the program' }),
+        el('span', {
+          text: 'When you press send on the last screen: which session it was, the time, your three answers about the session' +
+            (sharesReflection ? ', and what you wrote for the session question' : '') + '.'
+        })
+      ]));
+      items.push(el('li', {}, [
+        el('b', { text: 'What does not get sent' }),
+        el('span', {
+          text: 'Your name. There is no login, no account, and nothing on this device that says who you are, so nothing sent can be traced back to you' +
+            (cfg && cfg.participantCode ? ' beyond the code this site assigns.' : '.')
+        })
+      ]));
+      items.push(el('li', {}, [
+        el('b', { text: 'When it gets sent' }),
+        el('span', { text: 'Only when you press send. Nothing goes anywhere while you are typing, and nothing on the earlier screens is sent at all.' })
+      ]));
+      if (pending) {
+        items.push(el('li', {}, [
+          el('b', { text: 'Waiting to send' }),
+          el('span', { text: pending + ' set(s) of answers are still on this device because there was no connection. They send by themselves next time there is one.' })
+        ]));
+      }
+    } else {
+      items.push(el('li', {}, [
+        el('b', { text: 'Your answers and writing' }),
+        el('span', { text: 'Kept in this browser tab only (' + answered + ' check' + (answered === 1 ? '' : 's') + ' answered). They are erased when you close the tab, and they are not sent anywhere.' })
+      ]));
+    }
+
+    items.push(el('li', {}, [
+      el('b', { text: 'On this device' }),
+      el('span', { text: 'Your place in the module and your answers sit in this browser tab and clear when it closes. Text size, theme and typeface are remembered so you do not have to set them again.' })
+    ]));
+
+    items.push(el('li', {}, [
+      el('b', { text: 'Third parties' }),
+      el('span', { text: hasEmbeds() ? 'This course embeds video from an outside host, which may see that the video was played.' : 'No trackers, no analytics, no third-party fonts or scripts.' })
+    ]));
+
     return [
-      el('p.sheet__intro', { text: 'This course has no login, no server, and no analytics. Nothing you do here is sent anywhere.' }),
-      el('ul.info-list', {}, [
-        el('li', {}, [
-          el('b', { text: 'Your answers and writing' }),
-          el('span', { text: 'Kept in this browser tab only (' + answered + ' check' + (answered === 1 ? '' : 's') + ' answered, ' + written + ' reflection' + (written === 1 ? '' : 's') + ' written). They are erased automatically when you close the tab, so the next person to pick up this device will not see them.' })
-        ]),
-        el('li', {}, [
-          el('b', { text: 'Your display settings' }),
-          el('span', { text: 'Text size, theme and typeface are remembered on this device so you do not have to set them again. No other information is stored.' })
-        ]),
-        el('li', {}, [
-          el('b', { text: 'Third parties' }),
-          el('span', { text: hasEmbeds() ? 'This course embeds video from an outside host. That host may see that the video was played. Everything else stays on this device.' : 'No third-party scripts, fonts, or trackers are loaded.' })
-        ])
-      ]),
+      el('p.sheet__intro', {
+        text: sends
+          ? 'There is no login and no account. The program collects what is below to find out whether the sessions are working — not to keep tabs on anybody.'
+          : 'This course has no login, no server, and no analytics. Nothing you do here is sent anywhere.'
+      }),
+      el('ul.info-list', {}, items),
       el('div', { style: 'display:grid;gap:.5rem;margin-top:1.25rem' }, [clearWork, clearSettings])
     ];
   }
@@ -372,7 +412,7 @@
 
     if (blocked) {
       gate.hidden = false;
-      gate.textContent = GWMS.slides.gateMessage(slide);
+      gate.textContent = GWMS.slides.gateMessage(slide, state.progress);
       nextBtn.setAttribute('aria-describedby', 'slide-gate');
     } else {
       gate.hidden = true;
@@ -383,6 +423,36 @@
     $('#btn-prev').disabled = !state.nav.hasPrev();
   }
 
+  /* The one place a payload is assembled. Everything in it is either session
+     metadata or something the learner typed on this module. No identifiers. */
+  function buildIrfPayload(slide, areas) {
+    var m = state.course.meta || {};
+    var answers = {};
+    areas.forEach(function (a) { answers[a.id] = a.el.value.trim(); });
+
+    var payload = {
+      courseId: state.course.id,
+      session: m.session || null,
+      stage: m.stage || null,
+      week: m.week || null,
+      theme: m.theme || null,
+      submittedAt: new Date().toISOString(),
+      answers: answers
+    };
+
+    var cfg = GWMS.irf.describe();
+    if (cfg && state.irfConfig && state.irfConfig.includeReflection !== false && slide.reflectionFrom) {
+      var raw = state.progress.reflections[slide.reflectionFrom];
+      var text = (typeof raw === 'string') ? raw : (raw && raw.main) || '';
+      payload.probingQuestion = m.probingQuestion || null;
+      payload.reflection = text.trim();
+    }
+    if (state.irfConfig && state.irfConfig.participantCode) {
+      payload.participantCode = state.irfConfig.participantCode;
+    }
+    return payload;
+  }
+
   function paintSlide(entry, meta) {
     var ctx = {
       course: state.course,
@@ -391,7 +461,8 @@
       progress: state.progress,
       nav: state.nav,
       save: function () { GWMS.storage.saveProgress(state.course.id, state.progress); },
-      refreshGate: refreshGate
+      refreshGate: refreshGate,
+      buildIrfPayload: buildIrfPayload
     };
 
     var host = $('#slide-root');
@@ -539,16 +610,25 @@
     $('#btn-privacy').addEventListener('click', function () { showInfo('Your data', dataPanel()); });
     $('#btn-check').addEventListener('click', function () { showInfo('Accessibility check', checkPanel()); });
 
-    loadCourse(courseId)
+    // The index carries the IRF destination, so it loads first. A missing or
+    // unreadable index is not fatal: the module still runs, and the IRF falls
+    // back to staying on the device.
+    loadCourseIndex()
+      .then(function (index) {
+        state.index = index;
+        state.irfConfig = (index && index.irf) || null;
+        GWMS.irf.configure(state.irfConfig);
+        if (GWMS.irf.isConfigured()) GWMS.irf.flush();
+        return loadCourse(courseId);
+      })
       .then(function (course) {
         startCourse(course, false);
-        return loadCourseIndex();
-      })
-      .then(function (index) {
-        if (!index || !index.courses || index.courses.length < 2) return;
-        var btn = el('button.linkbtn', { type: 'button', text: 'All sessions' });
-        btn.addEventListener('click', function () { showInfo('All sessions', sessionsPanel(index)); });
-        $('#dlg-menu .sheet__foot').appendChild(btn);
+        var index = state.index;
+        if (index && index.courses && index.courses.length >= 2) {
+          var btn = el('button.linkbtn', { type: 'button', text: 'All sessions' });
+          btn.addEventListener('click', function () { showInfo('All sessions', sessionsPanel(index)); });
+          $('#dlg-menu .sheet__foot').appendChild(btn);
+        }
       })
       .catch(function (err) { fatal(courseId, err); });
   }

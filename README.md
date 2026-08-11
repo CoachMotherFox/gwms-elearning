@@ -4,7 +4,7 @@ A browser-based course engine for the **eLearning component of Block 4** in Grap
 
 Plain HTML, CSS and JavaScript. No database, no build toolchain, no dependencies, no backend. It runs by opening `engine/index.html` from disk, or by hosting the folder on any static file server.
 
-This is not the Instruction Rating Form (that stays a separate tablet form) and it does not replace the in-person lesson.
+Per Unit 4 of the curriculum guide, the IRF is the last screen of each module — see [docs/IRF-BACKEND.md](docs/IRF-BACKEND.md) for where responses land. The engine does not replace the in-person lesson.
 
 ---
 
@@ -47,6 +47,7 @@ index.html            redirect to the engine (so the folder opens by double-clic
     util.js           DOM helpers, screen-reader announcements
     storage.js        sessionStorage for learner work, localStorage for prefs
     validate.js       accessibility + integrity checker, contrast audit
+    irf.js            IRF submission, offline queue, retry on boot
     slides.js         slide type registry, block renderer, interactions
     navigation.js     flat slide order, branching, history, contents menu
     app.js            boot, course loading, preferences, dialogs, keyboard
@@ -235,5 +236,6 @@ Run on every course load, and by `node tools/check.js`:
 ## Notes
 
 - Bump the `?v=` on the `<link>` and `<script>` tags in `engine/index.html` when you deploy changed CSS or JS, so browsers don't serve a stale copy.
-- Learner work lives in `sessionStorage` and is gone when the tab closes. Display preferences live in `localStorage`. Both are erasable from **Contents → Your data**.
+- Learner work lives in `sessionStorage` and is gone when the tab closes. Display preferences and the IRF retry queue live in `localStorage`. All erasable from **Contents → Your data**.
+- The IRF is the only thing that leaves the device, on a deliberate press, carrying no identifier. Configure the destination in `courses/_curriculum/irf.json`; shipped as `none`, which sends nothing.
 - Out of scope for Phase 1, by decision: SCORM/xAPI export, a visual authoring UI, accounts, and any analytics.

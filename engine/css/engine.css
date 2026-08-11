@@ -390,6 +390,11 @@ fieldset.assess__set { border: 0; padding: 0; margin: 0; min-width: 0; }
 .reflect__group .assess__q { font-size: 1em; margin-bottom: .4rem; }
 .reflect__foot { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem; margin-top: .75rem; }
 .reflect__saved { font-size: .82rem; color: var(--ok); font-weight: 600; }
+.sendstatus { margin: .75rem 0 0; font-size: .9rem; font-weight: 600; }
+.sendstatus--sending { color: var(--ink-muted); }
+.sendstatus--sent, .sendstatus--handed { color: var(--ok); }
+.sendstatus--queued, .sendstatus--local { color: var(--ink-muted); font-weight: 400; }
+
 .privacy-note { font-size: .78rem; color: var(--ink-muted); margin: .75rem 0 0; }
 
 /* Branch */

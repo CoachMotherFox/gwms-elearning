@@ -13,7 +13,7 @@ How the four Required Elements of the Multimedia eLearning Environment artifact 
 | 36 sessions, iterated over a full program cycle | Per-seat authoring licences and re-publishing 36 packages per revision is the wrong cost curve. Editing one JSON file and reloading is the right one. |
 | Delivered on shared tablets at a training site, on whatever network exists that night | The whole course is static files. It works offline, off a USB stick, off a phone, off any static host. No runtime, no plugin, no login. |
 | Block 4 is 30 minutes shared between room reset, eLearning, and the IRF | The eLearning slice is minutes long. Loading an LMS shell around it costs more than it delivers. |
-| Trauma-informed program with adolescent minors | Building it means the data model is a choice, not a vendor default. Nothing is collected because nothing was built to collect it. |
+| Trauma-informed program with adolescent minors | Building it means the data model is a choice, not a vendor default. Exactly one thing is collected, it is named on screen, and turning it off is one line. |
 | Accessibility is scored (AECT 3.5, 3.6) | Owning the markup means alt text, captions, focus order, and contrast are enforced by the engine rather than hoped for in an exported package. |
 
 ### Why the Storyline content model anyway
@@ -41,13 +41,13 @@ Four distinct strategies are supported, and can be mixed within a single scene.
 |---|---|---|
 | **Formative knowledge check** (mid-scene) | `quiz` with `assessment.role: "formative"` | Single or multiple select. Immediate per-option feedback. On a wrong first attempt only the learner's own choice is annotated; the correct answer is withheld until they get it or exhaust `maxAttempts`, so a retry is a real second attempt rather than a copy of the revealed answer. |
 | **Summative check** (end of scene) | `quiz` with `assessment.role: "summative"` | Same mechanics, labelled and reported separately in the completion summary. |
-| **Reflection / open response** | `reflection` | Free text, autosaved, explicitly **not graded**. Captured for the learner's own use, never scored, never transmitted. Can gate progression on *having written something*, never on *what* was written. |
+| **Reflection / open response** | `reflection` | Free text, autosaved, explicitly **not graded** and never scored. Sent with the IRF at the end, anonymously, and the screen says so. Can gate progression on *having written something*, never on *what* was written. |
 | **Scenario / decision** | `branch` | The learner's choice changes which slide comes next. Assessment by consequence rather than by answer key — appropriate for material where the point is judgement under pressure, not recall. |
 
 Two supporting mechanics:
 
 - **Gating.** `"required": true` holds Next until the slide's own completion rule is met — a check answered, a reflection written, every reveal opened. Used sparingly and always with a visible reason, not a silent dead end.
-- **Completion summary.** Finishing shows checks correct, reflections written, slides seen, and points the learner at the IRF, which stays a separate instrument.
+- **The IRF closes every module.** Unit 4 puts all three IRF questions on the last screen with none of them optional, so the engine gates Finish on all three being answered and sent. It is the program's own instrument, not a fifth assessment strategy invented here.
 
 The validator emits a warning when a course uses only one strategy — the rubric expectation is enforced by the tooling rather than left to memory across 36 sessions.
 
@@ -55,19 +55,21 @@ The validator emits a warning when a course uses only one strategy — the rubri
 
 ## Required Element 3 — Ethical use of educational technology
 
-The population is adolescent boys in a trauma-informed program, often on shared devices. The data model is the ethics position.
+The population is adolescent boys in a trauma-informed program, often on shared devices, many court-referred. The data model is the ethics position.
 
-**Nothing leaves the device.** There is no backend, no account, no login, no analytics beacon, no third-party script, no font CDN, no tracking pixel. This is verifiable by reading the eight files in `/engine` — there is no network code in the engine except loading the course itself.
+**One thing leaves the device, and only one.** The IRF submission on the last screen. Unit 4 requires it — *"IRF responses log through a Google Form backend or basic LMS"* — and an instrument Unit 1 counts as participation documentation is worthless if it dies with the tab. It carries the session, the timestamp, the three IRF answers, and the learner's reflection. It carries no name, no login, no device id, and nothing that links two sessions to one boy.
 
-**Learner work is deliberately ephemeral.** Answers, reflections, and progress go to `sessionStorage`, which the browser destroys when the tab closes. On a shared training-site tablet, one boy's reflection is not waiting for the next boy who picks it up. This is a choice with a cost — a learner who closes the tab loses their place — and the trade was made in favour of the learner's privacy.
+**It leaves on a press, not on a keystroke.** Everything is sent from one screen, once, when the learner presses send. Nothing is shipped quietly while they are still typing, and nothing from the earlier screens goes anywhere on its own. The note under every writing box states what will happen to it — and the notes are generated from whether a destination is actually configured, so they cannot drift out of true. With no destination set, the engine says nothing is sent, and nothing is.
 
-**Preferences persist, disclosures don't.** Text size, theme, and typeface go to `localStorage` so an accessibility setting doesn't have to be re-entered every session. Those are settings, not disclosures.
+**A failed send never traps a learner.** No wifi means the response queues in `localStorage` and retries on the next load, keeping its original timestamp. The Finish button unlocks either way. Holding a boy at the door over the site's hotspot is not something this program does.
 
-**It is disclosed in plain language, to the learner.** **Contents → Your data** states what is kept, where, for how long, and why, and offers two buttons: erase my answers, reset my display settings. Reflection slides repeat it inline at the point of writing. No policy link, no legalese.
+**Sending the reflection is a program decision, made by the program director, and it has a cost.** The reflection is the boy's own writing about the session's probing question. It is anonymous in the strict sense — nothing in the payload identifies anyone. But in a cohort of ten, a timestamped free-text answer about a hidden part of yourself is not always unrecognisable to the coach who was in the room, and the guides themselves lean on privacy as the mechanism that makes the honesty possible: Session 11 says *private acknowledgment is a complete success*, Session 20 that *privacy is what makes this level of honesty possible*. Collection is still defensible — it is exactly the data that shows whether the sessions land — but it is a trade, not a free win. `includeReflection: false` in `courses/_curriculum/irf.json` sends only the three IRF answers and nothing else, and it is one line.
 
-**Third-party media is named.** Embedded video is the only case where anything is requested from outside; where it is used, the "Your data" panel says so explicitly, and YouTube URLs are rewritten to the no-cookie host.
+**No accounts, no analytics, no third parties.** There is no login, no analytics beacon, no tracking pixel, no font CDN. The only network call the engine makes beyond loading its own course file is that single IRF post.
 
-**Intellectual property is tracked at the asset level.** Every image, video, and audio file carries either `"own": true` or a `credit` block with holder, title, licence, and source URL. Credits render beside the asset and collect into **Contents → Credits & licences**. The validator warns on any asset with neither — an uncredited third-party asset cannot quietly reach a learner.
+**Everything is disclosed to the learner, in plain language.** **Contents → Your data** lists what is sent, what is not, when, and what stays on the device, plus buttons to erase their answers and reset their display settings.
+
+**Intellectual property is tracked at the asset level.** Every image, video, and audio file carries either `"own": true` or a `credit` block with holder, title, licence, and source URL. Credits render beside the asset and collect into **Contents → Credits & licences**. The validator warns on any asset with neither.
 
 **No surveillance of learners by facilitators.** There is no dashboard, no completion report, no per-learner record. Instructional feedback is gathered by the IRF, which every student completes knowingly. The eLearning component does not watch anyone.
 

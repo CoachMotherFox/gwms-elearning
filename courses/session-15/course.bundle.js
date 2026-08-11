@@ -249,7 +249,7 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
           "eyebrow": "Reflection",
           "title": "Your answer",
           "prompt": "Who are you with other people, now that you've met yourself?",
-          "hint": "Nobody is grading this and nobody else sees it. A few words is plenty.",
+          "hint": "Nothing here is graded. A few words is plenty.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -274,7 +274,9 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
           ],
           "requireAll": true,
           "required": true,
-          "privacyNote": "These three answers are how the program checks whether the session worked. They are about the session, not about you.",
+          "submit": true,
+          "sendLabel": "Send it",
+          "reflectionFrom": "s15-reflection",
           "body": [
             {
               "kind": "callout",
@@ -282,7 +284,7 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
               "text": "Session 16: What do you do when someone pushes back?"
             }
           ],
-          "_todo": "Unit 4 routes IRF responses through a Google Form backend or basic LMS. This engine has no backend, so answers stay on the device. Wire the submit target before the pilot."
+          "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]
     }

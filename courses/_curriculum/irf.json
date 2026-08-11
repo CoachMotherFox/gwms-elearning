@@ -1,0 +1,18 @@
+{
+  "_doc": "Where IRF responses land. Setup: docs/IRF-BACKEND.md. Edit this file, then run: node tools/build-sessions.js && sh tools/bundle.sh",
+  "transport": "none",
+  "url": "",
+  "token": "",
+  "includeReflection": true,
+  "participantCode": null,
+  "fields": {
+    "_doc": "googleForm transport only \u2014 entry.NNN ids read off the live form. Ignored by appsScript.",
+    "session": "",
+    "submittedAt": "",
+    "mat": "",
+    "worked": "",
+    "didnt": "",
+    "probingQuestion": "",
+    "reflection": ""
+  }
+}
