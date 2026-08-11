@@ -43,9 +43,33 @@
 
   var OUTBOX_KEY = 'gwms.irf.outbox';
   var MAX_OUTBOX = 200;
-  var TIMEOUT_MS = 12000;
+
+  /* Apps Script is slow when cold — a first request of the evening routinely
+     takes 10-20s before the container is warm, and it redirects once more on
+     top of that. A short timeout here does not fail fast, it invents failures
+     and queues duplicates of rows that actually landed. */
+  var TIMEOUT_MS = 45000;
 
   var config = null;
+
+  /* One request at a time.
+     Apps Script answers a POST with a 302 to a single-use echo URL. Two
+     requests in flight — the boot-time flush and a learner pressing send —
+     race on those keys and one comes back 404. Everything therefore queues
+     behind this chain. */
+  var chain = Promise.resolve();
+  function serial(fn) {
+    var run = chain.then(fn, fn);
+    chain = run.then(function () {}, function () {});
+    return run;
+  }
+
+  /* Stable per submission, generated once and carried through every retry, so
+     the sheet can drop a duplicate if a row lands and the reply is lost. */
+  function submissionId() {
+    if (window.crypto && window.crypto.randomUUID) return window.crypto.randomUUID();
+    return 'sub-' + Date.now().toString(36) + '-' + Math.floor(Math.random() * 1e9).toString(36);
+  }
 
   function configure(cfg) {
     config = (cfg && cfg.transport && cfg.transport !== 'none') ? cfg : null;
@@ -79,18 +103,29 @@
 
   /* ---------- transports ---------- */
 
-  function withTimeout(promise) {
-    return new Promise(function (resolve, reject) {
-      var done = false;
-      var timer = setTimeout(function () {
-        if (!done) { done = true; reject(new Error('Timed out')); }
-      }, TIMEOUT_MS);
-      promise.then(function (v) {
-        if (!done) { done = true; clearTimeout(timer); resolve(v); }
-      }, function (e) {
-        if (!done) { done = true; clearTimeout(timer); reject(e); }
+  /**
+   * Give the caller an AbortSignal and a matching timeout.
+   *
+   * The signal matters more than the timeout. Racing a promise against a timer
+   * leaves the request running: it can still succeed after we have given up,
+   * writing a row, while the outbox queues the same response for a retry that
+   * writes it a second time. Aborting means "queued" is the truth — the
+   * request is genuinely dead and the only copy is the one on this device.
+   */
+  function runWithTimeout(fn) {
+    var controller = (typeof AbortController !== 'undefined') ? new AbortController() : null;
+    var timedOut = false;
+    var timer = setTimeout(function () {
+      timedOut = true;
+      if (controller) controller.abort();
+    }, TIMEOUT_MS);
+
+    return fn(controller ? controller.signal : undefined)
+      .then(function (v) { clearTimeout(timer); return v; })
+      .catch(function (e) {
+        clearTimeout(timer);
+        throw timedOut ? new Error('Timed out after ' + Math.round(TIMEOUT_MS / 1000) + 's') : e;
       });
-    });
   }
 
   /**
@@ -117,12 +152,13 @@
     if (map.participantCode && payload.participantCode) {
       body.append(map.participantCode, payload.participantCode);
     }
+    if (map.submissionId && payload.submissionId) {
+      body.append(map.submissionId, payload.submissionId);
+    }
 
-    return withTimeout(fetch(config.url, {
-      method: 'POST',
-      mode: 'no-cors',
-      body: body
-    })).then(function () { return { confirmed: false }; });
+    return runWithTimeout(function (signal) {
+      return fetch(config.url, { method: 'POST', mode: 'no-cors', body: body, signal: signal });
+    }).then(function () { return { confirmed: false }; });
   }
 
   /**
@@ -130,24 +166,38 @@
    * Script does not answer. The script reads the raw body as JSON.
    */
   function sendAppsScript(payload) {
-    return withTimeout(fetch(config.url, {
-      method: 'POST',
-      headers: { 'Content-Type': 'text/plain;charset=utf-8' },
-      body: JSON.stringify(payload)
+    return runWithTimeout(function (signal) {
+      return fetch(config.url, {
+        method: 'POST',
+        // text/plain dodges the CORS preflight, which Apps Script does not answer.
+        headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+        body: JSON.stringify(payload),
+        signal: signal
+      });
     }).then(function (r) {
       if (!r.ok) throw new Error('HTTP ' + r.status);
-      return r.json().catch(function () { return { ok: true }; });
-    }).then(function (data) {
+      return r.text();
+    }).then(function (text) {
+      var data;
+      try { data = JSON.parse(text); } catch (e) {
+        // Apps Script serves an HTML sign-in page when the deployment is not
+        // set to "Anyone". Say that, rather than "invalid JSON".
+        throw new Error(/<!DOCTYPE|<html/i.test(text)
+          ? 'Got a sign-in page instead of a result — set the Web App deployment access to "Anyone"'
+          : 'Unexpected reply from the sheet');
+      }
       if (data && data.ok === false) throw new Error(data.error || 'Rejected by the sheet');
       return { confirmed: true };
-    }));
+    });
   }
 
   function transport(payload) {
     if (!config) return Promise.reject(new Error('No IRF transport configured'));
-    if (config.transport === 'googleForm') return sendGoogleForm(payload);
-    if (config.transport === 'appsScript') return sendAppsScript(payload);
-    return Promise.reject(new Error('Unknown IRF transport "' + config.transport + '"'));
+    return serial(function () {
+      if (config.transport === 'googleForm') return sendGoogleForm(payload);
+      if (config.transport === 'appsScript') return sendAppsScript(payload);
+      return Promise.reject(new Error('Unknown IRF transport "' + config.transport + '"'));
+    });
   }
 
   /* ---------- public ---------- */
@@ -165,13 +215,36 @@
     // a stray scraper from writing rows into the sheet. It is not a secret in
     // any real sense — it ships in the page — it just raises the floor.
     if (config.token) payload.token = config.token;
+    if (!payload.submissionId) payload.submissionId = submissionId();
 
-    return transport(payload).then(function (res) {
+    return attempt(payload, 3).then(function (res) {
       return { status: res.confirmed ? 'sent' : 'handed' };
     }).catch(function (err) {
       enqueue(payload);
       console.warn('[GWMS] IRF send failed, queued for retry:', err.message);
       return { status: 'queued', error: err.message };
+    });
+  }
+
+  function delay(ms) {
+    return new Promise(function (r) { setTimeout(r, ms); });
+  }
+
+  /**
+   * Apps Script's redirect target intermittently 404s on a cold container.
+   * That is a lost reply, not a failed write: the 302 is only issued after
+   * doPost has run, so the row has very probably landed already. Retrying is
+   * therefore both the right move and a duplicate risk — which is why
+   * submissionId is stable across attempts and the sheet drops repeats.
+   * Without that dedupe in the deployed script, prefer one attempt.
+   */
+  function attempt(payload, tries) {
+    return transport(payload).catch(function (err) {
+      if (tries <= 1) throw err;
+      console.warn('[GWMS] IRF attempt failed (' + err.message + '), retrying…');
+      return delay(tries === 3 ? 1500 : 4000).then(function () {
+        return attempt(payload, tries - 1);
+      });
     });
   }
 

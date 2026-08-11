@@ -29,7 +29,7 @@ One payload, on one deliberate press of **Send it**, from the last screen only.
 }
 ```
 
-No name, no login, no device id, nothing that links two sessions to one boy. Set `"includeReflection": false` to send only the three IRF answers.
+It also carries a random `submissionId`, stable across retries, so a row that lands while the reply is lost is not written twice. No name, no login, no device id, nothing that links two sessions to one participant. Set `"includeReflection": false` to send only the three IRF answers.
 
 If the send fails — no wifi, dead hotspot — it goes into a queue in `localStorage` and retries on the next load, keeping its original timestamp. **A failed send never blocks a participant from finishing.** Holding a boy at the door over the site's wifi is not a thing this program does.
 
@@ -47,21 +47,36 @@ const SHEET_NAME = 'IRF';
 const TOKEN = 'change-me';               // must match irf.json
 const HEADERS = ['Received', 'Submitted', 'Session', 'Stage', 'Week', 'Theme',
                  'Probing question', 'Reflection',
-                 'What happened on the mat', 'What worked', 'What did not work', 'Code'];
+                 'What happened on the mat', 'What worked', 'What did not work',
+                 'Code', 'Submission id'];
 
 function doPost(e) {
+  const lock = LockService.getScriptLock();
+  lock.waitLock(20000);                   // serialise concurrent writes
   try {
     const d = JSON.parse(e.postData.contents);
     if (TOKEN && d.token !== TOKEN) return out_({ ok: false, error: 'bad token' });
+
+    const sh = sheet_();
+
+    // A retry after a lost reply must not write the row twice. The client
+    // keeps submissionId stable across retries, so drop anything already seen.
+    if (d.submissionId && seen_(sh, d.submissionId)) {
+      return out_({ ok: true, duplicate: true });
+    }
+
     const a = d.answers || {};
-    sheet_().appendRow([
+    sh.appendRow([
       new Date(), d.submittedAt || '', d.session || '', d.stage || '',
       d.week || '', d.theme || '', d.probingQuestion || '', d.reflection || '',
-      a.mat || '', a.worked || '', a.didnt || '', d.participantCode || ''
+      a.mat || '', a.worked || '', a.didnt || '', d.participantCode || '',
+      d.submissionId || ''
     ]);
     return out_({ ok: true });
   } catch (err) {
     return out_({ ok: false, error: String(err) });
+  } finally {
+    lock.releaseLock();
   }
 }
 
@@ -78,8 +93,17 @@ function sheet_() {
   if (sh.getLastRow() === 0) { sh.appendRow(HEADERS); sh.setFrozenRows(1); }
   return sh;
 }
+
+function seen_(sh, id) {
+  const last = sh.getLastRow();
+  if (last < 2) return false;
+  const col = HEADERS.indexOf('Submission id') + 1;
+  const ids = sh.getRange(2, col, last - 1, 1).getValues();
+  return ids.some(function (r) { return r[0] === id; });
+}
 ```
 
+3. **Deploy
 3. **Deploy → New deployment → Web app.** Execute as **Me**. Who has access: **Anyone**. Copy the `/exec` URL.
 4. Put it in `courses/_curriculum/irf.json`:
 
@@ -119,7 +143,8 @@ Zero setup beyond the Form, and the Form already writes to a Sheet. The trade: t
     "worked": "entry.444444444",
     "didnt": "entry.555555555",
     "probingQuestion": "entry.666666666",
-    "reflection": "entry.777777777"
+    "reflection": "entry.777777777",
+    "submissionId": "entry.888888888"
   }
 }
 ```
@@ -137,3 +162,16 @@ Unit 1 also says IRF data serves as documentation of participation for the juven
 ## Testing without Google
 
 Any endpoint that accepts a POST and answers `{"ok":true}` works. Point `url` at it, run a session, and watch the rows arrive. That is how the transport, the offline queue, and the boot-time retry in this repo were verified.
+
+
+---
+
+## Notes from wiring up the live endpoint
+
+Three things that bit during setup and are now handled in `engine/js/irf.js`:
+
+- **Apps Script is slow cold.** A first request can take 10–20s before the container warms. The timeout is 45s. A short one does not fail fast, it invents failures and queues duplicates of rows that landed.
+- **A timeout must abort the request.** Racing a promise against a timer leaves the fetch running, so it can succeed after the engine gave up and queued a retry — two rows. The transport uses `AbortController`, so "queued" means the request is genuinely dead.
+- **Never two requests at once.** Apps Script answers a POST with a 302 to a single-use URL. The boot-time flush and a learner pressing send raced on those keys and one came back **404**. All IRF requests are now serialised.
+
+`curl` is a poor test here: following the redirect returns Google's HTML wrapper rather than the JSON, even when the write succeeded. Test from the browser, or check the Sheet.

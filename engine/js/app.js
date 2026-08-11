@@ -293,7 +293,13 @@
     });
     var answered = quizzes.filter(function (q) { return p.answers[q.id]; });
     var right = answered.filter(function (q) { return p.answers[q.id].correct; });
-    var written = Object.keys(p.reflections).filter(function (k) { return (p.reflections[k] || '').trim(); }).length;
+    // A reflection is a string for a single-prompt slide and a {fieldId: text}
+    // object for a multi-field one like the IRF. Count either shape.
+    var written = Object.keys(p.reflections).filter(function (k) {
+      var v = p.reflections[k];
+      if (typeof v === 'string') return v.trim();
+      return v && Object.keys(v).some(function (f) { return (v[f] || '').trim(); });
+    }).length;
 
     var backBtn = el('button.btn.btn--wide', { type: 'button', text: 'Back to contents' });
     backBtn.addEventListener('click', function () {
