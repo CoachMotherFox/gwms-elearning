@@ -20,6 +20,7 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
     "card": "The Back Pin",
     "domain": "Integrate",
     "keyCondition": "Flow between back control and the owned finishes, tap honored.",
+    "gameName": "Chest-to-Back Connection Maintenance",
     "probingQuestion": "If someone watched how you carry yourself, what would they learn?",
     "grapplingTlo": "By the end of this session, the participant will integrate back-pin control and finishing in open rolling, and analyze what a watcher would learn from how they train.",
     "looksBackAt": 21,

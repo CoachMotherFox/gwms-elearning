@@ -21,6 +21,7 @@ window.GWMS_COURSE_BUNDLE["session-09"] =
     "card": "Controlling the Legs",
     "domain": "Enter",
     "keyCondition": "Clear the checkpoints in order, name where the guard breaks.",
+    "gameName": "Knee Pit Touchdown Game, played from the passing side (same game as Session 6, opposite role, intentional repeat)",
     "probingQuestion": "When you crack, what's the first thing that shows?",
     "grapplingTlo": "By the end of this session, the participant will apply passing and identify the checkpoint where the guard breaks.",
     "looksBackAt": 3,
@@ -102,7 +103,7 @@ window.GWMS_COURSE_BUNDLE["session-09"] =
           "id": "s09-game",
           "type": "text-image",
           "eyebrow": "The game",
-          "title": "Knee Pit Touchdown Game",
+          "title": "Knee Pit Touchdown Game, played from the passing side",
           "body": [
             {
               "kind": "lead",
@@ -158,7 +159,7 @@ window.GWMS_COURSE_BUNDLE["session-09"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Knee Pit Touchdown Game, what counts as the win?",
+          "question": "In Knee Pit Touchdown Game, played from the passing side, what counts as the win?",
           "select": "single",
           "retry": true,
           "options": [

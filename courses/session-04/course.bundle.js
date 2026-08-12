@@ -21,6 +21,7 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
     "card": "Controlling the Legs",
     "domain": "Enter, from the retainer's side",
     "keyCondition": "Keep a frame and the feet between you and the passer.",
+    "gameName": "Keep Feet Off, Belly Up Open Guard Introduction",
     "probingQuestion": "Who are you when people are watching?",
     "grapplingTlo": "By the end of this session, the participant will apply guard retention to keep a partner from passing the legs.",
     "looksBackAt": 1,

@@ -21,6 +21,7 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
     "card": "The Chest Pin",
     "domain": "Control",
     "keyCondition": "Chest on chest with hips and shoulders covered, three-count.",
+    "gameName": "Chest to Chest Under Elbows Maintenance",
     "probingQuestion": "What happens in you when someone makes real contact?",
     "grapplingTlo": "By the end of this session, the participant will apply chest-to-chest control to make and hold contact with a partner under light resistance.",
     "looksBackAt": 10,

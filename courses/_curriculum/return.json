@@ -1,13 +1,19 @@
 {
   "_source": "Transcribed from the GWMS Curriculum Guide in Notion. Per-session fields come from that session's Lesson and Intervention Guide (Unit 7). Card, domain and keyCondition come from the GWMS Technical Map. Where the two name the game differently, the Lesson and Intervention Guide wins, because it is the per-session authority.",
-
   "stage": {
     "name": "The Return",
     "sessions": "25 to 36",
     "neighborhood": "Back Pin",
-    "casel": ["Responsible Decision-Making"],
+    "casel": [
+      "Responsible Decision-Making"
+    ],
     "bloom": "Apply and Analyze",
-    "themes": ["Emergence", "Contribution", "Legacy", "Celebration"],
+    "themes": [
+      "Emergence",
+      "Contribution",
+      "Legacy",
+      "Celebration"
+    ],
     "grapplingTlo": "By the end of the Return, participants will apply and integrate back-pin control and finishing, holding total control without harm, and analyze the distance traveled since Session 1.",
     "caselTlo": "By the end of the Return, participants will apply responsible decision-making to name what changed, contribute to others, set a standard for who comes next, and choose what to carry forward, analyzing the cost and worth of those choices.",
     "connection": "Total control with the choice not to harm is the core of the whole program, turned into a decision the participant carries out the door.",
@@ -22,191 +28,298 @@
       }
     ]
   },
-
   "sessions": [
     {
-      "n": 25, "week": 9, "theme": "Emergence",
+      "n": 25,
+      "week": 9,
+      "theme": "Emergence",
       "probingQuestion": "What's actually different in you now?",
-      "card": "The Back Pin", "domain": "Control",
+      "card": "The Back Pin",
+      "domain": "Control",
       "keyCondition": "Chest on back with hips, shoulders, and the ear-to-mat head wedge held together, three-count.",
       "gameName": "Back Take, Maintain Chest to Back Contact",
       "gameText": "Take the back and hold it, chest on their back, for a three-count against light resistance.",
       "gameNote": "Twelve weeks ago you could not hold this position. That you can now is change you can feel, not just talk about.",
       "gameWin": "Holding chest-on-back contact for a three-count against light resistance",
       "grapplingTlo": "By the end of this session, the participant will apply back-pin control to take and hold the back, and analyze what they can do now that they could not at the start.",
-      "grapplingElos": ["Take and hold the back-pin position for a three-count against light resistance.", "Identify one control skill they hold now that they did not in the Descent."],
+      "grapplingElos": [
+        "Take and hold the back-pin position for a three-count against light resistance.",
+        "Identify one control skill they hold now that they did not in the Descent."
+      ],
       "caselTlo": "By the end of this session, the participant will name what is actually different in them now and locate the change rather than perform it.",
-      "caselElos": ["Name one real change in themselves since Session 1.", "Distinguish a change they can demonstrate from one they only talk about."],
+      "caselElos": [
+        "Name one real change in themselves since Session 1.",
+        "Distinguish a change they can demonstrate from one they only talk about."
+      ],
       "connection": "Taking the back is a position you literally could not hold twelve weeks ago. It is proof of change you can feel. Naming what is different in you works the same way. Real change is something you can show, not just say."
     },
     {
-      "n": 26, "week": 9, "theme": "Emergence",
+      "n": 26,
+      "week": 9,
+      "theme": "Emergence",
       "probingQuestion": "How do you know the change is real and not just talk?",
-      "card": "The Back Pin", "domain": "Control",
+      "card": "The Back Pin",
+      "domain": "Control",
       "keyCondition": "Keep the back against a live partner running 4S.",
       "gameName": "Chest to Back Control Game",
       "gameText": "Hold the back against a partner actively trying to get out. Win by staying chest to back while they fight to get flat or turn in.",
       "gameNote": "A change that only holds when it is easy is not real yet. This tests it under pressure.",
       "gameWin": "Staying chest to back while the partner fights to get flat or turn in",
       "grapplingTlo": "By the end of this session, the participant will apply back-pin control under active resistance and analyze whether the change holds when it is tested.",
-      "grapplingElos": ["Keep the back for a three-count while the partner actively works to escape.", "Notice whether their control holds under pressure or slips."],
+      "grapplingElos": [
+        "Keep the back for a three-count while the partner actively works to escape.",
+        "Notice whether their control holds under pressure or slips."
+      ],
       "caselTlo": "By the end of this session, the participant will test whether a claimed change is real by checking it against pressure, and name the evidence.",
-      "caselElos": ["Identify how they would know a change is real.", "Name one piece of evidence that the change holds under stress."],
+      "caselElos": [
+        "Identify how they would know a change is real.",
+        "Name one piece of evidence that the change holds under stress."
+      ],
       "connection": "A change that only works when it is easy is not a change yet. Holding the back against a fighting partner tests it. Who you have become is proven the same way: by whether it holds when things are hard."
     },
     {
-      "n": 27, "week": 9, "theme": "Emergence",
+      "n": 27,
+      "week": 9,
+      "theme": "Emergence",
       "probingQuestion": "What can you do now that the old you couldn't?",
-      "card": "The Back Pin", "domain": "Control",
+      "card": "The Back Pin",
+      "domain": "Control",
       "keyCondition": "Secure the back from a dynamic start.",
       "gameName": "Back to Chest Control Transition Game",
       "gameText": "Take the back from a live scramble and reach a controlling position while staying on top.",
       "gameNote": "Name the exact thing you can do here now that you could not before. Not better. The specific thing.",
       "gameWin": "Taking the back from a live scramble and reaching a controlling position while staying on top",
       "grapplingTlo": "By the end of this session, the participant will apply back-pin control from a live scramble and analyze the specific capability they gained since the Descent.",
-      "grapplingElos": ["Secure the back from a dynamic exchange.", "Name a specific mat skill they own now that they did not before."],
+      "grapplingElos": [
+        "Secure the back from a dynamic exchange.",
+        "Name a specific mat skill they own now that they did not before."
+      ],
       "caselTlo": "By the end of this session, the participant will name a specific capability they have now that the old self lacked.",
-      "caselElos": ["Identify one concrete new capability.", "Connect it to a real situation where it matters."],
+      "caselElos": [
+        "Identify one concrete new capability.",
+        "Connect it to a real situation where it matters."
+      ],
       "connection": "There is a specific thing you can do on the mat now that you could not, and you can name it exactly. Your growth off the mat has the same specificity. Not “I am better,” but “I can do this now.”"
     },
     {
-      "n": 28, "week": 10, "theme": "Contribution",
+      "n": 28,
+      "week": 10,
+      "theme": "Contribution",
       "probingQuestion": "Who needs what you've learned?",
-      "card": "The Back Pin", "domain": "Control",
+      "card": "The Back Pin",
+      "domain": "Control",
       "keyCondition": "Maintain control while guiding a newer partner, not just finishing them.",
-      "gameName": "Chest-to-Back Position Maintenance",
+      "gameName": "Chest-to-Back Position Maintenance, run as a coaching round",
       "gameText": "Hold the back, but run it as a coaching round: guide a newer partner through the position instead of just finishing them.",
       "gameNote": "You stop being the one getting helped and start being the help.",
       "gameWin": "Keeping control while guiding a newer partner through the position",
       "grapplingTlo": "By the end of this session, the participant will apply back-pin control while helping a newer partner learn, and analyze how coaching differs from winning.",
-      "grapplingElos": ["Guide a less-experienced partner through the back-pin position instead of only finishing them.", "Notice the difference between coaching a partner and beating them."],
+      "grapplingElos": [
+        "Guide a less-experienced partner through the back-pin position instead of only finishing them.",
+        "Notice the difference between coaching a partner and beating them."
+      ],
       "caselTlo": "By the end of this session, the participant will identify who needs what they have learned, turning the work outward.",
-      "caselElos": ["Name one person or group who could use what they have gained.", "Name one thing they could offer them."],
+      "caselElos": [
+        "Name one person or group who could use what they have gained.",
+        "Name one thing they could offer them."
+      ],
       "connection": "Helping a newer partner instead of just tapping them is the first act of contribution on the mat. Turning your growth toward someone who needs it is the same move in life. You stop being the one getting helped and start being the help.",
       "note": "Not everyone is ready to give yet, and that is fine. Nothing here is owed."
     },
     {
-      "n": 29, "week": 10, "theme": "Contribution",
+      "n": 29,
+      "week": 10,
+      "theme": "Contribution",
       "probingQuestion": "What can you give that actually costs you something?",
-      "card": "The Back Pin", "domain": "Control",
+      "card": "The Back Pin",
+      "domain": "Control",
       "keyCondition": "Hold control while giving the partner room to work the escape.",
       "gameName": "Back Control Elbow Management, No Hooks",
       "gameText": "Hold the back with no hooks in, managing the elbows, and give the bottom partner room to work their escape. Win by keeping control while letting them fight.",
       "gameNote": "Real giving costs you the easy finish.",
       "gameWin": "Keeping control while deliberately giving the partner room to work",
       "grapplingTlo": "By the end of this session, the participant will apply back-pin control while letting a partner work and learn, and analyze what it costs to give that up.",
-      "grapplingElos": ["Hold back-pin control while deliberately giving the partner room to work.", "Name what it costs to help instead of dominate."],
+      "grapplingElos": [
+        "Hold back-pin control while deliberately giving the partner room to work.",
+        "Name what it costs to help instead of dominate."
+      ],
       "caselTlo": "By the end of this session, the participant will name a contribution that costs them something real.",
-      "caselElos": ["Distinguish easy giving from costly giving.", "Name one thing worth giving that costs them."],
+      "caselElos": [
+        "Distinguish easy giving from costly giving.",
+        "Name one thing worth giving that costs them."
+      ],
       "connection": "Letting a partner work when you could just finish them costs you the easy win. Real contribution off the mat costs something too, time, comfort, pride. The giving that counts is the kind you feel.",
       "note": "Costly giving is not self-erasure. Giving until there is nothing left of you is not the target."
     },
     {
-      "n": 30, "week": 10, "theme": "Contribution",
+      "n": 30,
+      "week": 10,
+      "theme": "Contribution",
       "probingQuestion": "How do you use your strength without taking someone else's?",
-      "card": "The Back Pin", "domain": "Control",
+      "card": "The Back Pin",
+      "domain": "Control",
       "keyCondition": "Total coverage with the partner completely safe.",
       "gameName": "Back Control Turn-Over Game",
       "gameText": "Total control from the back, turning the partner over while keeping them completely safe.",
       "gameNote": "You have their back, all the power there is, and you choose not to hurt them. That is the whole thing: strength used for someone, not over them.",
       "gameWin": "Turning the partner over from total back control while keeping them completely safe",
       "grapplingTlo": "By the end of this session, the participant will apply dominant back-pin control without hurting the partner, and analyze the choice to control without harm.",
-      "grapplingElos": ["Maintain total back control while keeping the partner completely safe.", "Name the moment control could become harm, and the choice not to cross it."],
+      "grapplingElos": [
+        "Maintain total back control while keeping the partner completely safe.",
+        "Name the moment control could become harm, and the choice not to cross it."
+      ],
       "caselTlo": "By the end of this session, the participant will name how they use their strength in service rather than over others.",
-      "caselElos": ["Distinguish power in service from power over.", "Name one way to use their strength without diminishing someone else."],
+      "caselElos": [
+        "Distinguish power in service from power over.",
+        "Name one way to use their strength without diminishing someone else."
+      ],
       "connection": "You can have someone's back completely and choose not to hurt them. That is the whole system: the power to hurt, and the choice not to. Using your strength for people instead of over them is that same choice, made in your life."
     },
     {
-      "n": 31, "week": 11, "theme": "Legacy",
+      "n": 31,
+      "week": 11,
+      "theme": "Legacy",
       "probingQuestion": "What do you want to leave behind you here?",
-      "card": "The Back Pin", "domain": "Finish, Back Strangle",
+      "card": "The Back Pin",
+      "domain": "Finish, Back Strangle",
       "keyCondition": "The locking hand closes behind the plane of the head, the choking elbow on the chin line, released on the tap.",
       "gameName": "Build to Rear Strangle Game",
       "gameText": "The back strangle, the sharpest finish in the system. Build the locking grip behind the plane of the head, elbow on the chin line, and release the instant your partner taps.",
       "gameNote": "How you use the finish, controlled and clean, is what people remember about rolling with you. That is legacy.",
       "gameWin": "Building the locking grip behind the plane of the head — and releasing the instant your partner taps",
       "grapplingTlo": "By the end of this session, the participant will apply an owned back-pin finish, the back strangle, with control, and analyze what kind of training partner they have been.",
-      "grapplingElos": ["Secure the back strangle under light resistance, releasing on the tap.", "Name what kind of partner they have been to the room."],
+      "grapplingElos": [
+        "Secure the back strangle under light resistance, releasing on the tap.",
+        "Name what kind of partner they have been to the room."
+      ],
       "caselTlo": "By the end of this session, the participant will name what they want to leave behind them.",
-      "caselElos": ["Identify the mark they want to leave.", "Connect it to how they act now."],
+      "caselElos": [
+        "Identify the mark they want to leave.",
+        "Connect it to how they act now."
+      ],
       "connection": "The finish is the sharpest power in the system, and how you use it, controlled, releasing on the tap, is what people remember about rolling with you. What you leave behind in life is built the same way, out of how you treat people when you hold the power.",
       "note": "The jaw-based counters stay out of the curriculum until the Therapeutic Manager clears them. Coaches do not teach them."
     },
     {
-      "n": 32, "week": 11, "theme": "Legacy",
+      "n": 32,
+      "week": 11,
+      "theme": "Legacy",
       "probingQuestion": "What standard are you setting for whoever comes next?",
-      "card": "The Back Pin", "domain": "Finish, Arm Lock from back",
+      "card": "The Back Pin",
+      "domain": "Finish, Arm Lock from back",
       "keyCondition": "The shoulder anchored and the wrist controlled before extension, released on the tap.",
       "gameName": "Chest to Back to Precursor Transitions Game",
       "gameText": "The arm lock from the back. Move through the precursor grips, shoulder anchored and wrist controlled before any extension, released on the tap.",
       "gameNote": "Your conduct here, controlled and clean, is the standard the next person copies.",
       "gameWin": "Moving through the precursor grips with the shoulder anchored and the wrist controlled before any extension",
       "grapplingTlo": "By the end of this session, the participant will apply the arm lock from the back with control, and analyze how their conduct sets the room's standard.",
-      "grapplingElos": ["Secure the back arm lock under control, releasing on the tap.", "Identify one way their conduct sets a standard others follow."],
+      "grapplingElos": [
+        "Secure the back arm lock under control, releasing on the tap.",
+        "Identify one way their conduct sets a standard others follow."
+      ],
       "caselTlo": "By the end of this session, the participant will name the standard they set for whoever comes after them.",
-      "caselElos": ["Identify the standard their behavior currently sets.", "Name whether it is the one they want to set."],
+      "caselElos": [
+        "Identify the standard their behavior currently sets.",
+        "Name whether it is the one they want to set."
+      ],
       "connection": "How you carry yourself in the room, how you finish, how you treat a new partner, quietly sets the bar for everyone watching. The standard you set for whoever comes next in life works the same way. Your conduct is the standard."
     },
     {
-      "n": 33, "week": 11, "theme": "Legacy",
+      "n": 33,
+      "week": 11,
+      "theme": "Legacy",
       "probingQuestion": "If someone watched how you carry yourself, what would they learn?",
-      "card": "The Back Pin", "domain": "Integrate",
+      "card": "The Back Pin",
+      "domain": "Integrate",
       "keyCondition": "Flow between back control and the owned finishes, tap honored.",
       "gameName": "Chest-to-Back Connection Maintenance",
       "gameText": "Flow between back control and the owned finishes in live rolling, tap honored.",
       "gameNote": "Newer people learn more from watching you roll than from anything you say. This is the lesson you are teaching without a word.",
       "gameWin": "Flowing between back control and the owned finishes with the tap honored",
       "grapplingTlo": "By the end of this session, the participant will integrate back-pin control and finishing in open rolling, and analyze what a watcher would learn from how they train.",
-      "grapplingElos": ["Flow between back control and owned finishes in live rolling, releasing on the tap.", "Name what a newer student would learn watching them roll."],
+      "grapplingElos": [
+        "Flow between back control and owned finishes in live rolling, releasing on the tap.",
+        "Name what a newer student would learn watching them roll."
+      ],
       "caselTlo": "By the end of this session, the participant will name what someone would learn from watching how they carry themselves.",
-      "caselElos": ["Identify the lesson their conduct teaches without words.", "Decide if it is the lesson they want to teach."],
+      "caselElos": [
+        "Identify the lesson their conduct teaches without words.",
+        "Decide if it is the lesson they want to teach."
+      ],
       "connection": "Newer people learn more from watching how you roll than from anything you say. How you carry yourself in life teaches the same way, silently, to whoever is watching. You are a lesson whether you mean to be or not.",
       "note": "This is about influence, not being scrutinised. Nobody is grading how you carry yourself."
     },
     {
-      "n": 34, "week": 12, "theme": "Celebration",
+      "n": 34,
+      "week": 12,
+      "theme": "Celebration",
       "probingQuestion": "What did this cost you, and what did you get for it?",
-      "card": "The Back Pin", "domain": "Integrate",
+      "card": "The Back Pin",
+      "domain": "Integrate",
       "keyCondition": "Play both roles, control on top and 4S escape underneath.",
-      "gameName": "Back Control with Multiple Arm Escape Options",
+      "gameName": "Back Control with Multiple Arm Escape Options (deliberate capstone-week exception, Intermediate tier)",
       "gameText": "Play both roles. On the back, control and finish. Underneath, work the arm escapes against a live grip.",
       "gameNote": "Twelve weeks of getting tapped and rebuilt, and now you can do both sides. That is the honest ledger.",
       "gameWin": "Playing both roles — controlling and finishing on top, working the escapes underneath",
       "grapplingTlo": "By the end of this session, the participant will integrate the full back-pin game in open rolling, and analyze what twelve weeks of training cost and gave them.",
-      "grapplingElos": ["Roll open from the back-pin game, controlling and finishing with the tap honored.", "Name what the training cost and what it gave."],
+      "grapplingElos": [
+        "Roll open from the back-pin game, controlling and finishing with the tap honored.",
+        "Name what the training cost and what it gave."
+      ],
       "caselTlo": "By the end of this session, the participant will name the honest cost and reward of the whole program.",
-      "caselElos": ["Identify what the twelve weeks cost them.", "Identify what they got for it."],
+      "caselElos": [
+        "Identify what the twelve weeks cost them.",
+        "Identify what they got for it."
+      ],
       "connection": "Twelve weeks of getting tapped, cracked, and rebuilt cost something and gave something. Rolling now, you can feel both in your body. The honest ledger of what this cost and what you got is the first step of the return.",
       "note": "Grief and pride both belong here. Neither one cancels the other."
     },
     {
-      "n": 35, "week": 12, "theme": "Celebration",
+      "n": 35,
+      "week": 12,
+      "theme": "Celebration",
       "probingQuestion": "Who did you become?",
-      "card": "The Back Pin", "domain": "Integrate",
+      "card": "The Back Pin",
+      "domain": "Integrate",
       "keyCondition": "Control and composure in live rolling.",
-      "gameName": "Chest to Back No Hooks Game",
+      "gameName": "Chest to Back No Hooks Game (same capstone-week exception as 34)",
       "gameText": "The full back game, live, with no hooks handed to you. Control and composure, start to finish.",
       "gameNote": "The person rolling now is not the one from Session 1, and you can see it.",
       "gameWin": "Rolling the full back game with control and composure, start to finish",
       "grapplingTlo": "By the end of this session, the participant will demonstrate the full back-pin game as the person they have become, and analyze the distance from Session 1.",
-      "grapplingElos": ["Roll the back-pin game with control and composure.", "Name the distance between the Session 1 self and now."],
+      "grapplingElos": [
+        "Roll the back-pin game with control and composure.",
+        "Name the distance between the Session 1 self and now."
+      ],
       "caselTlo": "By the end of this session, the participant will name who they became over the program.",
-      "caselElos": ["Describe the person they are now.", "Contrast that with who walked in on Session 1."],
+      "caselElos": [
+        "Describe the person they are now.",
+        "Contrast that with who walked in on Session 1."
+      ],
       "connection": "The person rolling now is not the one who walked in on Session 1, and you can see the difference in how you move. Naming who you became is the return itself. Not who you were told to be, the one you built."
     },
     {
-      "n": 36, "week": 12, "theme": "Celebration",
+      "n": 36,
+      "week": 12,
+      "theme": "Celebration",
       "probingQuestion": "What do you carry out this door?",
-      "card": "The Back Pin", "domain": "Integrate",
+      "card": "The Back Pin",
+      "domain": "Integrate",
       "keyCondition": "A final live roll, tap honored, then the walk out the door.",
-      "gameName": "First to Chest-to-Back: Find, Maintain, and Submit",
+      "gameName": "First to Chest-to-Back: Find, Maintain, and Submit (same capstone-week exception as 34 and 35)",
       "gameText": "The last roll of the program. Find the back, maintain it, submit with the tap honored, then you walk out the door.",
       "gameNote": "The mat was never the point. What you carry out of it is.",
       "gameWin": "Finding the back, maintaining it, and submitting with the tap honored",
       "grapplingTlo": "By the end of this session, the participant will demonstrate the integrated back-pin game a final time, and analyze what of the training carries beyond the room.",
-      "grapplingElos": ["Complete a final live roll, controlling and finishing with the tap honored.", "Name what of the mat carries into life."],
+      "grapplingElos": [
+        "Complete a final live roll, controlling and finishing with the tap honored.",
+        "Name what of the mat carries into life."
+      ],
       "caselTlo": "By the end of this session, the participant will name what they carry out of the program into the rest of their life.",
-      "caselElos": ["Identify what they take with them.", "Commit to one way they will use it."],
+      "caselElos": [
+        "Identify what they take with them.",
+        "Commit to one way they will use it."
+      ],
       "connection": "The last roll ends, and then you walk out the door. What you carry out, control, mercy, the ability to stay, the real self, is the whole point. The mat was never the destination. What you carry out of it is.",
       "stageClose": true,
       "programClose": true

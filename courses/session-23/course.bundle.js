@@ -21,6 +21,7 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
     "card": "The Chest Pin",
     "domain": "Integrate",
     "keyCondition": "Complete a hard round without disengaging, both roles.",
+    "gameName": "Guard Recovery with Passing Resistance Game",
     "probingQuestion": "Can you stay when leaving would be easier?",
     "grapplingTlo": "By the end of this session, the participant will stay with a difficult training partnership and keep working rather than switching out.",
     "looksBackAt": 17,

@@ -20,6 +20,7 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
     "card": "The Back Pin",
     "domain": "Control",
     "keyCondition": "Maintain control while guiding a newer partner, not just finishing them.",
+    "gameName": "Chest-to-Back Position Maintenance, run as a coaching round",
     "probingQuestion": "Who needs what you've learned?",
     "grapplingTlo": "By the end of this session, the participant will apply back-pin control while helping a newer partner learn, and analyze how coaching differs from winning.",
     "looksBackAt": 25,
@@ -101,7 +102,7 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
           "id": "s28-game",
           "type": "text-image",
           "eyebrow": "The game",
-          "title": "Chest-to-Back Position Maintenance",
+          "title": "Chest-to-Back Position Maintenance, run as a coaching round",
           "body": [
             {
               "kind": "lead",
@@ -157,7 +158,7 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Chest-to-Back Position Maintenance, what counts as the win?",
+          "question": "In Chest-to-Back Position Maintenance, run as a coaching round, what counts as the win?",
           "select": "single",
           "retry": true,
           "options": [

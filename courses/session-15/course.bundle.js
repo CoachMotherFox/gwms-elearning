@@ -21,6 +21,7 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
     "card": "The Chest Pin",
     "domain": "Control",
     "keyCondition": "Keep chest contact continuous.",
+    "gameName": "Mount, Stay Under Both Elbows (Continuous)",
     "probingQuestion": "Who are you with other people, now that you've met yourself?",
     "grapplingTlo": "By the end of this session, the participant will establish and keep chest-pin control from a neutral start, rolling as the real self rather than a performance.",
     "looksBackAt": 3,
@@ -102,7 +103,7 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
           "id": "s15-game",
           "type": "text-image",
           "eyebrow": "The game",
-          "title": "Mount, Stay Under Both Elbows (Continuous)",
+          "title": "Mount, Stay Under Both Elbows",
           "body": [
             {
               "kind": "lead",
@@ -158,7 +159,7 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Mount, Stay Under Both Elbows (Continuous), what counts as the win?",
+          "question": "In Mount, Stay Under Both Elbows, what counts as the win?",
           "select": "single",
           "retry": true,
           "options": [

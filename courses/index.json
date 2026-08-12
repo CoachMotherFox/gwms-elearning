@@ -5,7 +5,7 @@
     {
       "id": "session-01",
       "title": "Session 1 — Arrival — The Descent",
-      "summary": "Week 1, Arrival. “What makes a place feel safe to you?” Game: Dirty Feet."
+      "summary": "Week 1, Arrival. “What makes a place feel safe to you?” Game: Kids Dirty Feet / Dragon Tag Game (mud and guard version, locked win condition)."
     },
     {
       "id": "session-02",
@@ -30,7 +30,7 @@
     {
       "id": "session-06",
       "title": "Session 6 — Mask — The Descent",
-      "summary": "Week 2, Mask. “What does your mask protect you from?” Game: Guard Retention Connection Game."
+      "summary": "Week 2, Mask. “What does your mask protect you from?” Game: Knee Pit Touchdown Game, played from the retaining side."
     },
     {
       "id": "session-07",
@@ -45,7 +45,7 @@
     {
       "id": "session-09",
       "title": "Session 9 — Crack — The Descent",
-      "summary": "Week 3, Crack. “When you crack, what's the first thing that shows?” Game: Knee Pit Touchdown Game."
+      "summary": "Week 3, Crack. “When you crack, what's the first thing that shows?” Game: Knee Pit Touchdown Game, played from the passing side (same game as Session 6, opposite role, intentional repeat)."
     },
     {
       "id": "session-10",
@@ -90,7 +90,7 @@
     {
       "id": "session-18",
       "title": "Session 18 — Friction — The Initiation",
-      "summary": "Week 6, Friction. “What does your friction do to the people across from you?” Game: Hip Control Breakdown Game."
+      "summary": "Week 6, Friction. “What does your friction do to the people across from you?” Game: Hip Control Breakdown Game, run with an intensity constraint."
     },
     {
       "id": "session-19",
@@ -140,7 +140,7 @@
     {
       "id": "session-28",
       "title": "Session 28 — Contribution — The Return",
-      "summary": "Week 10, Contribution. “Who needs what you've learned?” Game: Chest-to-Back Position Maintenance."
+      "summary": "Week 10, Contribution. “Who needs what you've learned?” Game: Chest-to-Back Position Maintenance, run as a coaching round."
     },
     {
       "id": "session-29",
@@ -170,17 +170,17 @@
     {
       "id": "session-34",
       "title": "Session 34 — Celebration — The Return",
-      "summary": "Week 12, Celebration. “What did this cost you, and what did you get for it?” Game: Back Control with Multiple Arm Escape Options."
+      "summary": "Week 12, Celebration. “What did this cost you, and what did you get for it?” Game: Back Control with Multiple Arm Escape Options (deliberate capstone-week exception, Intermediate tier)."
     },
     {
       "id": "session-35",
       "title": "Session 35 — Celebration — The Return",
-      "summary": "Week 12, Celebration. “Who did you become?” Game: Chest to Back No Hooks Game."
+      "summary": "Week 12, Celebration. “Who did you become?” Game: Chest to Back No Hooks Game (same capstone-week exception as 34)."
     },
     {
       "id": "session-36",
       "title": "Session 36 — Celebration — The Return",
-      "summary": "Week 12, Celebration. “What do you carry out this door?” Game: First to Chest-to-Back: Find, Maintain, and Submit."
+      "summary": "Week 12, Celebration. “What do you carry out this door?” Game: First to Chest-to-Back: Find, Maintain, and Submit (same capstone-week exception as 34 and 35)."
     },
     {
       "id": "engine-demo",

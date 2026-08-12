@@ -19,6 +19,7 @@
     "card": "The Chest Pin",
     "domain": "Finish, top seat Arm Lock",
     "keyCondition": "Both control points active and the fulcrum set before any extension, released on the tap.",
+    "gameName": "Arm Lock Breaking Position Game",
     "probingQuestion": "When something breaks, what part is yours to own?",
     "grapplingTlo": "By the end of this session, the participant will apply a second owned chest-pin finish, an arm lock, with control, and name one thing they did wrong in a round without excuse.",
     "looksBackAt": 9,

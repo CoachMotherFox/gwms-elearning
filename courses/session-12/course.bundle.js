@@ -21,6 +21,7 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
     "card": "The Roads, integrated",
     "domain": "Enter and Arrive",
     "keyCondition": "Enter, pass, and arrive in one sequence, tap honored throughout.",
+    "gameName": "Open Guard Takedown and Escape Game",
     "probingQuestion": "If the mask came off in here, who would we meet?",
     "grapplingTlo": "By the end of this session, the participant will apply the Roads from a standing start through to a pin arrival.",
     "looksBackAt": 6,

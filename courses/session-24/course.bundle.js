@@ -21,6 +21,7 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
     "card": "The Chest Pin",
     "domain": "Integrate",
     "keyCondition": "Flow between control and the owned finishes, tap honored.",
+    "gameName": "Hunt for Hips and Shoulders (Perpendicular Start)",
     "probingQuestion": "What does repair cost you, and is it worth paying?",
     "grapplingTlo": "By the end of this session, the participant will integrate chest-pin control and finishing in open rolling, using the whole neighborhood in live flow.",
     "looksBackAt": 12,
@@ -102,7 +103,7 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
           "id": "s24-game",
           "type": "text-image",
           "eyebrow": "The game",
-          "title": "Hunt for Hips and Shoulders (Perpendicular Start)",
+          "title": "Hunt for Hips and Shoulders",
           "body": [
             {
               "kind": "lead",
@@ -158,7 +159,7 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Hunt for Hips and Shoulders (Perpendicular Start), what counts as the win?",
+          "question": "In Hunt for Hips and Shoulders, what counts as the win?",
           "select": "single",
           "retry": true,
           "options": [

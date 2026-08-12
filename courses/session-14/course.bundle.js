@@ -21,6 +21,7 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
     "card": "The Chest Pin",
     "domain": "Control",
     "keyCondition": "Keep the coverage as the partner moves.",
+    "gameName": "Chest-to-Chest Elbow Control Game",
     "probingQuestion": "How much of someone else do you actually let in?",
     "grapplingTlo": "By the end of this session, the participant will apply chest-pin control while reading and adjusting to a partner's movement, keeping the pin as the partner works to create space.",
     "looksBackAt": 8,

@@ -128,6 +128,16 @@ function screenQuestion(s, stage, hasAudio) {
   return slide;
 }
 
+/* Some corrected game names carry a trailing note aimed at the curriculum
+   author, not the learner: "(mud and guard version, locked win condition)",
+   "(same capstone-week exception as 34)". The full verbatim name stays in the
+   curriculum data and in course meta, and the learner-facing title and quiz
+   drop that trailing parenthetical. Qualifiers that are not parenthetical,
+   like "played from the retaining side", are part of the name and stay. */
+function gameTitle(name) {
+  return String(name).replace(/\s*\([^()]*\)\s*$/, '').trim();
+}
+
 function screenGame(s) {
   const body = [{ kind: 'lead', text: s.gameText }];
   if (s.gameNote) body.push({ kind: 'paragraph', text: s.gameNote });
@@ -136,7 +146,7 @@ function screenGame(s) {
     id: `s${pad(s.n)}-game`,
     type: 'text-image',
     eyebrow: 'The game',
-    title: s.gameName,
+    title: gameTitle(s.gameName),
     body
   };
 
@@ -173,7 +183,7 @@ function screenCheck(s, stage) {
     eyebrow: 'Quick check',
     title: 'How you win it',
     assessment: { role: 'formative', scored: false },
-    question: `In ${s.gameName}, what counts as the win?`,
+    question: `In ${gameTitle(s.gameName)}, what counts as the win?`,
     select: 'single',
     retry: true,
     options: [
@@ -392,6 +402,7 @@ function buildCourse(s, stage, sessions, hasAudio, allSessions) {
       card: s.card,
       domain: s.domain,
       keyCondition: s.keyCondition,
+      gameName: s.gameName,
       probingQuestion: s.probingQuestion,
       grapplingTlo: s.grapplingTlo,
       looksBackAt: lookbackN,

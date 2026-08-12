@@ -21,6 +21,7 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
     "card": "Taking the Base",
     "domain": "Enter",
     "keyCondition": "Change direction to break the base, no straight pushes.",
+    "gameName": "Hand Fight with Progression Game",
     "probingQuestion": "What are you like before you trust the room?",
     "grapplingTlo": "By the end of this session, the participant will identify the takedown starting position and keep safe contact under light movement.",
     "looksBackAt": 1,

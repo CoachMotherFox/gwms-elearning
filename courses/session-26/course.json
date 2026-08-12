@@ -18,6 +18,7 @@
     "card": "The Back Pin",
     "domain": "Control",
     "keyCondition": "Keep the back against a live partner running 4S.",
+    "gameName": "Chest to Back Control Game",
     "probingQuestion": "How do you know the change is real and not just talk?",
     "grapplingTlo": "By the end of this session, the participant will apply back-pin control under active resistance and analyze whether the change holds when it is tested.",
     "looksBackAt": 20,

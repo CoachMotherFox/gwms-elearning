@@ -21,6 +21,7 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
     "card": "Foundations (safety)",
     "domain": null,
     "keyCondition": "Safe contact, the tap is understood.",
+    "gameName": "Kids Dirty Feet / Dragon Tag Game (mud and guard version, locked win condition)",
     "probingQuestion": "What makes a place feel safe to you?",
     "grapplingTlo": null,
     "looksBackAt": null,
@@ -68,15 +69,15 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
           "id": "s01-game",
           "type": "text-image",
           "eyebrow": "The game",
-          "title": "Dirty Feet",
+          "title": "Kids Dirty Feet / Dragon Tag Game",
           "body": [
             {
               "kind": "lead",
-              "text": "Guard passing game, one standing, one on the ground. The ground player keeps their feet on the standing player, controlling distance and preventing entry. The standing player works to beat the feet and close to chest-to-chest. No fixed win condition, the coach calls the switch and roles swap."
+              "text": "One partner lies on the ground. They put their feet on the standing partner to keep them out, like they are covered in mud and don't want to get the other person dirty. The standing partner's job is to clear those feet out of the way and get all the way to chest-to-chest contact. Go slow and light, nobody gets put on their back hard today. Switch roles so everyone plays both parts."
             },
             {
               "kind": "paragraph",
-              "text": "It trains real guard skills: distance management, framing, and closing the gap under pressure. Nobody gets put on their back hard, which is the whole reason it fits day one."
+              "text": "The tap is law. If anyone taps, for any reason, stop immediately."
             }
           ],
           "reveals": [
@@ -124,12 +125,12 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Dirty Feet, what counts as the win?",
+          "question": "In Kids Dirty Feet / Dragon Tag Game, what counts as the win?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "The coach calls the switch and the roles swap — there is no fixed win condition",
+              "text": "Clearing the feet out of the way and getting all the way to chest-to-chest contact",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },

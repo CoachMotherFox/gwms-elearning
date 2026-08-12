@@ -21,6 +21,7 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
     "card": "Controlling the Legs",
     "domain": "Enter",
     "keyCondition": "Take the base first, destabilize before advancing.",
+    "gameName": "Closed Guard Opening, Hands on Body",
     "probingQuestion": "What happens to your mask when you're losing?",
     "grapplingTlo": "By the end of this session, the participant will apply base and framing while under a passing attempt as the guard is beaten.",
     "looksBackAt": 4,

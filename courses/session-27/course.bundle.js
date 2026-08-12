@@ -20,6 +20,7 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
     "card": "The Back Pin",
     "domain": "Control",
     "keyCondition": "Secure the back from a dynamic start.",
+    "gameName": "Back to Chest Control Transition Game",
     "probingQuestion": "What can you do now that the old you couldn't?",
     "grapplingTlo": "By the end of this session, the participant will apply back-pin control from a live scramble and analyze the specific capability they gained since the Descent.",
     "looksBackAt": 15,

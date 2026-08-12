@@ -21,6 +21,7 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
     "card": "The Chest Pin",
     "domain": "Integrate, escape side",
     "keyCondition": "A frame comes before the bridge, reset cleanly after the break.",
+    "gameName": "Riding Bottom Position Game",
     "probingQuestion": "What breaks in you when a connection breaks?",
     "grapplingTlo": "By the end of this session, the participant will recognize when chest-pin control breaks and reset to a safe position without panic or retaliation.",
     "looksBackAt": 16,

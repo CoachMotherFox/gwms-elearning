@@ -21,6 +21,7 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
     "card": "The Chest Pin",
     "domain": "Finish, top seat strangle",
     "keyCondition": "The choking-side arm is trapped before the frame closes, released on the tap.",
+    "gameName": "Mount Head and Arm Trap Game",
     "probingQuestion": "Have you ever broken something with someone and left it broken?",
     "grapplingTlo": "By the end of this session, the participant will apply one owned chest-pin finish, a strangle, with full control, releasing the instant the partner taps.",
     "looksBackAt": 14,

@@ -20,6 +20,7 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
     "card": "The Back Pin",
     "domain": "Finish, Arm Lock from back",
     "keyCondition": "The shoulder anchored and the wrist controlled before extension, released on the tap.",
+    "gameName": "Chest to Back to Precursor Transitions Game",
     "probingQuestion": "What standard are you setting for whoever comes next?",
     "grapplingTlo": "By the end of this session, the participant will apply the arm lock from the back with control, and analyze how their conduct sets the room's standard.",
     "looksBackAt": 26,

@@ -21,6 +21,7 @@ window.GWMS_COURSE_BUNDLE["session-02"] =
     "card": "Taking the Base",
     "domain": "Enter",
     "keyCondition": "A connection the partner has to answer.",
+    "gameName": "Overhook-Underhook Starting Position Game",
     "probingQuestion": "How do you show up when nobody here knows you yet?",
     "grapplingTlo": "By the end of this session, the participant will demonstrate safe contact entry with an unfamiliar partner.",
     "looksBackAt": 1,

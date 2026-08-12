@@ -19,6 +19,7 @@
     "card": "Controlling the Legs",
     "domain": "Enter, retainer's side",
     "keyCondition": "Protect the space behind the legs.",
+    "gameName": "Knee Pit Touchdown Game, played from the retaining side",
     "probingQuestion": "What does your mask protect you from?",
     "grapplingTlo": "By the end of this session, the participant will apply guard retention to protect the space behind the legs.",
     "looksBackAt": 3,
@@ -100,15 +101,15 @@
           "id": "s06-game",
           "type": "text-image",
           "eyebrow": "The game",
-          "title": "Guard Retention Connection Game",
+          "title": "Knee Pit Touchdown Game, played from the retaining side",
           "body": [
             {
               "kind": "lead",
-              "text": "The bottom player holds the frame that protects the space behind their legs. Win by keeping that connection and not letting the top player clear it."
+              "text": "One partner, the passer, tries to touch both of the other partner's knee pits with their own feet off the ground. The retaining partner's job is to keep their knees and feet moving so the passer cannot land both touches. Switch roles so everyone feels both jobs."
             },
             {
               "kind": "paragraph",
-              "text": "You are learning to feel the exact moment your guard is about to be beaten, which is the same as noticing what your mask is protecting."
+              "text": "Stay light. The tap is law."
             }
           ],
           "reveals": [
@@ -156,12 +157,12 @@
             "role": "formative",
             "scored": false
           },
-          "question": "In Guard Retention Connection Game, what counts as the win?",
+          "question": "In Knee Pit Touchdown Game, played from the retaining side, what counts as the win?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Keeping the connection that protects the space behind your legs",
+              "text": "Keeping your knees and feet moving so the passer cannot land both touches",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },

@@ -21,6 +21,7 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
     "card": "The Chest Pin",
     "domain": "Integrate",
     "keyCondition": "Re-engage and re-establish the pin after a scramble.",
+    "gameName": "Perpendicular Chest-to-Chest Pin Game",
     "probingQuestion": "What does it take for you to say sorry and mean it?",
     "grapplingTlo": "By the end of this session, the participant will reset with a partner after a hard exchange and re-establish chest-pin control cleanly.",
     "looksBackAt": 19,

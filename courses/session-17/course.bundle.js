@@ -21,6 +21,7 @@ window.GWMS_COURSE_BUNDLE["session-17"] =
     "card": "The Chest Pin",
     "domain": "Control",
     "keyCondition": "Isolate a limb and keep it isolated while the partner works to reconnect it.",
+    "gameName": "Wrist Pin Game",
     "probingQuestion": "Can you stay present when it gets uncomfortable?",
     "grapplingTlo": "By the end of this session, the participant will stay in a hard chest-pin exchange under discomfort instead of bailing out of the position.",
     "looksBackAt": 11,

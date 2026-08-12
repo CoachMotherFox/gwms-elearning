@@ -21,6 +21,7 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
     "card": "Controlling the Legs",
     "domain": "Enter",
     "keyCondition": "Clear the first checkpoint, feet or knees.",
+    "gameName": "Feet-Off Guard Passing Game",
     "probingQuestion": "What slips out of you when you get tired and stop performing?",
     "grapplingTlo": "By the end of this session, the participant will apply the first passing checkpoints against a tired, lighter guard.",
     "looksBackAt": 2,

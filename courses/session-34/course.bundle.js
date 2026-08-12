@@ -20,6 +20,7 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
     "card": "The Back Pin",
     "domain": "Integrate",
     "keyCondition": "Play both roles, control on top and 4S escape underneath.",
+    "gameName": "Back Control with Multiple Arm Escape Options (deliberate capstone-week exception, Intermediate tier)",
     "probingQuestion": "What did this cost you, and what did you get for it?",
     "grapplingTlo": "By the end of this session, the participant will integrate the full back-pin game in open rolling, and analyze what twelve weeks of training cost and gave them.",
     "looksBackAt": 31,

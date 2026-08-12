@@ -19,6 +19,7 @@
     "card": "The Chest Pin",
     "domain": "Control",
     "keyCondition": "Firm control that keeps the partner safe, adjust to the tap.",
+    "gameName": "Hip Control Breakdown Game, run with an intensity constraint",
     "probingQuestion": "What does your friction do to the people across from you?",
     "grapplingTlo": "By the end of this session, the participant will apply chest-pin control at an intensity that keeps the partner safe, controlling their own force deliberately.",
     "looksBackAt": 6,
@@ -100,7 +101,7 @@
           "id": "s18-game",
           "type": "text-image",
           "eyebrow": "The game",
-          "title": "Hip Control Breakdown Game",
+          "title": "Hip Control Breakdown Game, run with an intensity constraint",
           "body": [
             {
               "kind": "lead",
@@ -156,7 +157,7 @@
             "role": "formative",
             "scored": false
           },
-          "question": "In Hip Control Breakdown Game, what counts as the win?",
+          "question": "In Hip Control Breakdown Game, run with an intensity constraint, what counts as the win?",
           "select": "single",
           "retry": true,
           "options": [

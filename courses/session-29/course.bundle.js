@@ -20,6 +20,7 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
     "card": "The Back Pin",
     "domain": "Control",
     "keyCondition": "Hold control while giving the partner room to work the escape.",
+    "gameName": "Back Control Elbow Management, No Hooks",
     "probingQuestion": "What can you give that actually costs you something?",
     "grapplingTlo": "By the end of this session, the participant will apply back-pin control while letting a partner work and learn, and analyze what it costs to give that up.",
     "looksBackAt": 23,

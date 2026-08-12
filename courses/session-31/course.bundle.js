@@ -20,6 +20,7 @@ window.GWMS_COURSE_BUNDLE["session-31"] =
     "card": "The Back Pin",
     "domain": "Finish, Back Strangle",
     "keyCondition": "The locking hand closes behind the plane of the head, the choking elbow on the chin line, released on the tap.",
+    "gameName": "Build to Rear Strangle Game",
     "probingQuestion": "What do you want to leave behind you here?",
     "grapplingTlo": "By the end of this session, the participant will apply an owned back-pin finish, the back strangle, with control, and analyze what kind of training partner they have been.",
     "looksBackAt": 28,

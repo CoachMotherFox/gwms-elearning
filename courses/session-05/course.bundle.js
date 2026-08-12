@@ -21,6 +21,7 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
     "card": "Controlling the Legs",
     "domain": "Enter, retainer's side",
     "keyCondition": "Follow the passer, keep the legs between you as the angle changes.",
+    "gameName": "Open Guard Multiple Connection Game",
     "probingQuestion": "What version of you shows up here, and where did you learn it?",
     "grapplingTlo": "By the end of this session, the participant will apply guard retention while the partner changes angles.",
     "looksBackAt": 2,

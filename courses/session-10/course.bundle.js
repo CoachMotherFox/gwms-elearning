@@ -21,6 +21,7 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
     "card": "Controlling the Legs",
     "domain": "Enter to Arrive",
     "keyCondition": "Reach chest contact past the guard.",
+    "gameName": "Around-the-Legs Passing Game",
     "probingQuestion": "What's under the version you show people?",
     "grapplingTlo": "By the end of this session, the participant will apply the pass to advance past the legs toward a pin.",
     "looksBackAt": 7,

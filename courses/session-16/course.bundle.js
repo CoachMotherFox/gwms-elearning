@@ -21,6 +21,7 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
     "card": "The Chest Pin",
     "domain": "Control",
     "keyCondition": "Hold the pin against active resistance, the partner running 4S.",
+    "gameName": "Mounted and Side Control Pin Game",
     "probingQuestion": "What do you do when someone pushes back?",
     "grapplingTlo": "By the end of this session, the participant will maintain chest-pin control against a partner's active resistance.",
     "looksBackAt": 13,
