@@ -276,6 +276,39 @@
       "title": "Before you go",
       "slides": [
         {
+          "id": "s31-summative",
+          "type": "quiz",
+          "eyebrow": "End-of-session check",
+          "title": "What today was asking of you",
+          "assessment": {
+            "role": "summative",
+            "scored": true
+          },
+          "question": "Which one was this session actually asking you to do?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Name who you became over the program.",
+              "feedback": "That is Session 35's target, not today's."
+            },
+            {
+              "text": "Identify who needs what you have learned, turning the work outward.",
+              "feedback": "That is Session 28's target, not today's."
+            },
+            {
+              "text": "Name what you want to leave behind you.",
+              "correct": true,
+              "feedback": "That was the target for today."
+            }
+          ],
+          "correctHead": "That's the one.",
+          "correctText": "That was the point of the whole session, on the mat and off it.",
+          "incorrectHead": "Not today.",
+          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
+          "revealText": "Today's target is marked above."
+        },
+        {
           "id": "s31-reflection",
           "type": "reflection",
           "eyebrow": "Reflection",

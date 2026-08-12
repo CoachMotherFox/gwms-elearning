@@ -272,6 +272,39 @@
       "title": "Before you go",
       "slides": [
         {
+          "id": "s21-summative",
+          "type": "quiz",
+          "eyebrow": "End-of-session check",
+          "title": "What today was asking of you",
+          "assessment": {
+            "role": "summative",
+            "scored": true
+          },
+          "question": "Which one was this session actually asking you to do?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Identify your own part when something breaks, separate from the other person's.",
+              "correct": true,
+              "feedback": "That was the target for today."
+            },
+            {
+              "text": "Name what repair costs you and weigh whether it is worth paying.",
+              "feedback": "That is Session 24's target, not today's."
+            },
+            {
+              "text": "Practice staying present in discomfort and name what makes you want to bail.",
+              "feedback": "That is Session 17's target, not today's."
+            }
+          ],
+          "correctHead": "That's the one.",
+          "correctText": "That was the point of the whole session, on the mat and off it.",
+          "incorrectHead": "Not today.",
+          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
+          "revealText": "Today's target is marked above."
+        },
+        {
           "id": "s21-reflection",
           "type": "reflection",
           "eyebrow": "Reflection",

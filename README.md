@@ -67,7 +67,7 @@ index.html            redirect to the engine (so the folder opens by double-clic
 /courses/_curriculum      transcribed curriculum fields (not read by the engine)
 ```
 
-Content model mirrors Articulate Storyline — **Course → Scenes → Slides → Interactions** — not for file compatibility, but because it's a proven structure and it keeps that door open.
+The content model is **Course → Scenes → Slides → Interactions** — the structure commercial authoring tools converged on, borrowed because it is proven and instantly readable to an instructional designer. The engine itself is custom and self-contained: nothing is authored in, exported from, or dependent on a commercial tool.
 
 ---
 

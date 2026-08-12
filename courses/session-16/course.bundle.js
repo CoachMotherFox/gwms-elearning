@@ -274,6 +274,39 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
       "title": "Before you go",
       "slides": [
         {
+          "id": "s16-summative",
+          "type": "quiz",
+          "eyebrow": "End-of-session check",
+          "title": "What today was asking of you",
+          "assessment": {
+            "role": "summative",
+            "scored": true
+          },
+          "question": "Which one was this session actually asking you to do?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Name what breaks in you when a connection ruptures.",
+              "feedback": "That is Session 19's target, not today's."
+            },
+            {
+              "text": "Name what repair costs you and weigh whether it is worth paying.",
+              "feedback": "That is Session 24's target, not today's."
+            },
+            {
+              "text": "Name what you do when another person pushes back, and judge whether it serves you.",
+              "correct": true,
+              "feedback": "That was the target for today."
+            }
+          ],
+          "correctHead": "That's the one.",
+          "correctText": "That was the point of the whole session, on the mat and off it.",
+          "incorrectHead": "Not today.",
+          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
+          "revealText": "Today's target is marked above."
+        },
+        {
           "id": "s16-reflection",
           "type": "reflection",
           "eyebrow": "Reflection",

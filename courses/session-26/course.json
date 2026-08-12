@@ -271,6 +271,39 @@
       "title": "Before you go",
       "slides": [
         {
+          "id": "s26-summative",
+          "type": "quiz",
+          "eyebrow": "End-of-session check",
+          "title": "What today was asking of you",
+          "assessment": {
+            "role": "summative",
+            "scored": true
+          },
+          "question": "Which one was this session actually asking you to do?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Name who you became over the program.",
+              "feedback": "That is Session 35's target, not today's."
+            },
+            {
+              "text": "Test whether a claimed change is real by checking it against pressure, and name the evidence.",
+              "correct": true,
+              "feedback": "That was the target for today."
+            },
+            {
+              "text": "Name how you use your strength in service rather than over others.",
+              "feedback": "That is Session 30's target, not today's."
+            }
+          ],
+          "correctHead": "That's the one.",
+          "correctText": "That was the point of the whole session, on the mat and off it.",
+          "incorrectHead": "Not today.",
+          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
+          "revealText": "Today's target is marked above."
+        },
+        {
           "id": "s26-reflection",
           "type": "reflection",
           "eyebrow": "Reflection",

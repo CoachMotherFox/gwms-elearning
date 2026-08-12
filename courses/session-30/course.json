@@ -271,6 +271,39 @@
       "title": "Before you go",
       "slides": [
         {
+          "id": "s30-summative",
+          "type": "quiz",
+          "eyebrow": "End-of-session check",
+          "title": "What today was asking of you",
+          "assessment": {
+            "role": "summative",
+            "scored": true
+          },
+          "question": "Which one was this session actually asking you to do?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Name how you use your strength in service rather than over others.",
+              "correct": true,
+              "feedback": "That was the target for today."
+            },
+            {
+              "text": "Name the honest cost and reward of the whole program.",
+              "feedback": "That is Session 34's target, not today's."
+            },
+            {
+              "text": "Name a specific capability you have now that the old self lacked.",
+              "feedback": "That is Session 27's target, not today's."
+            }
+          ],
+          "correctHead": "That's the one.",
+          "correctText": "That was the point of the whole session, on the mat and off it.",
+          "incorrectHead": "Not today.",
+          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
+          "revealText": "Today's target is marked above."
+        },
+        {
           "id": "s30-reflection",
           "type": "reflection",
           "eyebrow": "Reflection",

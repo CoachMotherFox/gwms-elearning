@@ -6,7 +6,7 @@ How the four Required Elements of the Multimedia eLearning Environment artifact 
 
 ## Required Element 1 — Rationale for tool choices
 
-### Why a custom engine rather than Articulate Storyline, Rise, or an LMS
+### Why a custom engine was built instead of licensing an authoring tool
 
 | Constraint | Consequence |
 |---|---|
@@ -16,9 +16,11 @@ How the four Required Elements of the Multimedia eLearning Environment artifact 
 | Trauma-informed program with adolescent minors | Building it means the data model is a choice, not a vendor default. Exactly one thing is collected, it is named on screen, and turning it off is one line. |
 | Accessibility is scored (AECT 3.5, 3.6) | Owning the markup means alt text, captions, focus order, and contrast are enforced by the engine rather than hoped for in an exported package. |
 
-### Why the Storyline content model anyway
+### Why the content model still looks familiar
 
-**Course → Scenes → Slides → Interactions** is Storyline's structure, adopted deliberately. It is a proven organisation of e-learning content, it is what an instructional designer joining this project will already recognise, and it keeps a future migration to Storyline open — the tree maps across without a rethink.
+**Course → Scenes → Slides → Interactions** is the structure commercial authoring tools converged on, and it was adopted deliberately rather than reinvented. It is a proven way to organise e-learning content and it is what an instructional designer joining this project already reads without explanation.
+
+Borrowing the vocabulary is where the resemblance ends. The engine is custom and self-contained: nothing is authored in, exported from, or dependent on a commercial tool, and the delivered artifact is the repository itself.
 
 ### Why plain HTML, CSS and JavaScript
 
@@ -35,19 +37,20 @@ How the four Required Elements of the Multimedia eLearning Environment artifact 
 
 ## Required Element 2 — Multiple assessment strategies
 
-Four distinct strategies are supported, and can be mixed within a single scene.
+**Every one of the 36 modules ships four**, and the engine supports a fifth for courses that want it.
 
 | Strategy | Slide type | How it behaves |
 |---|---|---|
 | **Formative knowledge check** (mid-scene) | `quiz` with `assessment.role: "formative"` | Single or multiple select. Immediate per-option feedback. On a wrong first attempt only the learner's own choice is annotated; the correct answer is withheld until they get it or exhaust `maxAttempts`, so a retry is a real second attempt rather than a copy of the revealed answer. |
-| **Summative check** (end of scene) | `quiz` with `assessment.role: "summative"` | Same mechanics, labelled and reported separately in the completion summary. |
+| **Summative check** (end of module) | `quiz` with `assessment.role: "summative"` | Asks which target the session was actually driving at. The right answer is that session's own CASEL TLO; the two wrong answers are the CASEL TLOs of other sessions in the same stage — real targets, just not today's, so the distractors are plausible by construction and nothing is authored to create them. |
+| **Spaced retrieval** | `reveal` (the look-back screen) | Opens each module with an earlier session's probing question on an expanding one, two and four week lag, asks the learner to recall their own answer before reading on, and hides that session's connection line behind a disclosure they have to open. Retrieval, not review. |
 | **Reflection / open response** | `reflection` | Free text, autosaved, explicitly **not graded** and never scored. Sent with the IRF at the end, anonymously, and the screen says so. Can gate progression on *having written something*, never on *what* was written. |
-| **Scenario / decision** | `branch` | The learner's choice changes which slide comes next. Assessment by consequence rather than by answer key — appropriate for material where the point is judgement under pressure, not recall. |
+| **Scenario / decision** | `branch` | Supported by the engine but not used in the 36 generated modules. The learner's choice changes which slide comes next — assessment by consequence rather than answer key. Available where a session's guide gives material that warrants it. |
 
 Two supporting mechanics:
 
 - **Gating.** `"required": true` holds Next until the slide's own completion rule is met — a check answered, a reflection written, every reveal opened. Used sparingly and always with a visible reason, not a silent dead end.
-- **The IRF closes every module.** Unit 4 puts all three IRF questions on the last screen with none of them optional, so the engine gates Finish on all three being answered and sent. It is the program's own instrument, not a fifth assessment strategy invented here.
+- **The IRF closes every module.** Unit 4 puts all three IRF questions on the last screen with none of them optional, so the engine gates Finish on all three being answered and sent. It is the program's own instrument, evaluating the teaching rather than the learner, which is why it is counted separately from the four above.
 
 The validator emits a warning when a course uses only one strategy — the rubric expectation is enforced by the tooling rather than left to memory across 36 sessions.
 

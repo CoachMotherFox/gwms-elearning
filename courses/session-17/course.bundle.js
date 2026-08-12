@@ -279,6 +279,39 @@ window.GWMS_COURSE_BUNDLE["session-17"] =
       "title": "Before you go",
       "slides": [
         {
+          "id": "s17-summative",
+          "type": "quiz",
+          "eyebrow": "End-of-session check",
+          "title": "What today was asking of you",
+          "assessment": {
+            "role": "summative",
+            "scored": true
+          },
+          "question": "Which one was this session actually asking you to do?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Name one thing that happens in you when another person makes real contact, and connect it to how you meet people in real life.",
+              "feedback": "That is Session 13's target, not today's."
+            },
+            {
+              "text": "Practice staying present in discomfort and name what makes you want to bail.",
+              "correct": true,
+              "feedback": "That was the target for today."
+            },
+            {
+              "text": "Name a rupture you left unrepaired, without being required to share it.",
+              "feedback": "That is Session 20's target, not today's."
+            }
+          ],
+          "correctHead": "That's the one.",
+          "correctText": "That was the point of the whole session, on the mat and off it.",
+          "incorrectHead": "Not today.",
+          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
+          "revealText": "Today's target is marked above."
+        },
+        {
           "id": "s17-reflection",
           "type": "reflection",
           "eyebrow": "Reflection",

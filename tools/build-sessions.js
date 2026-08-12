@@ -240,6 +240,70 @@ function screenConnection(s, stage) {
   return slide;
 }
 
+/* ------------------------------------------------------------- summative
+
+   AECT 3.3 wants a summative measure alongside the formative checkpoint, and
+   it has to test whether the session's point landed, not whether a game rule
+   was memorised.
+
+   So the question is "what was this session asking of you", the right answer
+   is that session's own CASEL TLO, and the wrong answers are the CASEL TLOs of
+   two other sessions in the same stage. Every option is real curriculum, which
+   makes the distractors plausible by construction — they are genuine targets,
+   just not today's — and means nothing here is authored.
+
+   The only transform is mechanical: strip the "By the end of this session, the
+   participant will" stem and put it in second person, so an option reads as an
+   instruction to the learner rather than a spec written about them.          */
+
+function asTask(tlo) {
+  let t = String(tlo).replace(/^By the end of this session,\s*the participant will\s*/i, '');
+  t = t.replace(/\btheir\b/g, 'your').replace(/\bthey\b/g, 'you').replace(/\bthem\b/g, 'you');
+  t = t.replace(/\bthemselves\b/g, 'yourself').replace(/\bthey are\b/g, 'you are');
+  return t.charAt(0).toUpperCase() + t.slice(1);
+}
+
+function screenSummative(s, stage, sessions) {
+  if (!s.caselTlo) return null;
+
+  const pool = sessions.filter((x) => x.n !== s.n && x.caselTlo);
+  if (pool.length < 2) return null;
+
+  // Deterministic picks, so a rebuild produces the same paper every time.
+  const a = pool[s.n % pool.length];
+  const b = pool[(s.n + Math.floor(pool.length / 2)) % pool.length];
+  const wrong = (b.n === a.n) ? [a, pool[(s.n + 1) % pool.length]] : [a, b];
+
+  const options = [
+    { text: asTask(s.caselTlo), correct: true, feedback: 'That was the target for today.' },
+    ...wrong.map((w) => ({
+      text: asTask(w.caselTlo),
+      feedback: `That is Session ${w.n}'s target, not today's.`
+    }))
+  ];
+
+  // Move the right answer off the top, varied by session.
+  const shift = s.n % options.length;
+  const ordered = options.slice(shift).concat(options.slice(0, shift));
+
+  return {
+    id: `s${pad(s.n)}-summative`,
+    type: 'quiz',
+    eyebrow: 'End-of-session check',
+    title: 'What today was asking of you',
+    assessment: { role: 'summative', scored: true },
+    question: 'Which one was this session actually asking you to do?',
+    select: 'single',
+    retry: true,
+    options: ordered,
+    correctHead: "That's the one.",
+    correctText: 'That was the point of the whole session, on the mat and off it.',
+    incorrectHead: 'Not today.',
+    incorrectText: 'That is a real target from this stage, just not this session. Try again.',
+    revealText: "Today's target is marked above."
+  };
+}
+
 function screenReflection(s) {
   const slide = {
     id: `s${pad(s.n)}-reflection`,
@@ -301,9 +365,10 @@ function buildCourse(s, stage, sessions, hasAudio, allSessions) {
   ].filter(Boolean);
 
   const close = [
+    screenSummative(s, stage, sessions),
     screenReflection(s),
     screenIRF(s, next)
-  ];
+  ].filter(Boolean);
 
   const scenes = [{ id: 'today', title: 'Today', slides: today }];
   if (lesson.length) scenes.push({ id: 'lesson', title: 'The lesson', slides: lesson });

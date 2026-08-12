@@ -278,6 +278,39 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
       "title": "Before you go",
       "slides": [
         {
+          "id": "s29-summative",
+          "type": "quiz",
+          "eyebrow": "End-of-session check",
+          "title": "What today was asking of you",
+          "assessment": {
+            "role": "summative",
+            "scored": true
+          },
+          "question": "Which one was this session actually asking you to do?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Test whether a claimed change is real by checking it against pressure, and name the evidence.",
+              "feedback": "That is Session 26's target, not today's."
+            },
+            {
+              "text": "Name a contribution that costs you something real.",
+              "correct": true,
+              "feedback": "That was the target for today."
+            },
+            {
+              "text": "Name what someone would learn from watching how you carry yourself.",
+              "feedback": "That is Session 33's target, not today's."
+            }
+          ],
+          "correctHead": "That's the one.",
+          "correctText": "That was the point of the whole session, on the mat and off it.",
+          "incorrectHead": "Not today.",
+          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
+          "revealText": "Today's target is marked above."
+        },
+        {
           "id": "s29-reflection",
           "type": "reflection",
           "eyebrow": "Reflection",

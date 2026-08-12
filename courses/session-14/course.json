@@ -272,6 +272,39 @@
       "title": "Before you go",
       "slides": [
         {
+          "id": "s14-summative",
+          "type": "quiz",
+          "eyebrow": "End-of-session check",
+          "title": "What today was asking of you",
+          "assessment": {
+            "role": "summative",
+            "scored": true
+          },
+          "question": "Which one was this session actually asking you to do?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Name what it takes for you to give a real apology.",
+              "feedback": "That is Session 22's target, not today's."
+            },
+            {
+              "text": "Identify how much you open up to another person and name one thing that makes letting someone in hard.",
+              "correct": true,
+              "feedback": "That was the target for today."
+            },
+            {
+              "text": "Practice staying present in discomfort and name what makes you want to bail.",
+              "feedback": "That is Session 17's target, not today's."
+            }
+          ],
+          "correctHead": "That's the one.",
+          "correctText": "That was the point of the whole session, on the mat and off it.",
+          "incorrectHead": "Not today.",
+          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
+          "revealText": "Today's target is marked above."
+        },
+        {
           "id": "s14-reflection",
           "type": "reflection",
           "eyebrow": "Reflection",

@@ -272,6 +272,39 @@
       "title": "Before you go",
       "slides": [
         {
+          "id": "s12-summative",
+          "type": "quiz",
+          "eyebrow": "End-of-session check",
+          "title": "What today was asking of you",
+          "assessment": {
+            "role": "summative",
+            "scored": true
+          },
+          "question": "Which one was this session actually asking you to do?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Offer, to the degree you choose, a picture of the real self the Descent uncovered.",
+              "correct": true,
+              "feedback": "That was the target for today."
+            },
+            {
+              "text": "Name one way you perform differently when watched.",
+              "feedback": "That is Session 4's target, not today's."
+            },
+            {
+              "text": "Identify your personal tell, the first reliable sign you have cracked.",
+              "feedback": "That is Session 9's target, not today's."
+            }
+          ],
+          "correctHead": "That's the one.",
+          "correctText": "That was the point of the whole session, on the mat and off it.",
+          "incorrectHead": "Not today.",
+          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
+          "revealText": "Today's target is marked above."
+        },
+        {
           "id": "s12-reflection",
           "type": "reflection",
           "eyebrow": "Reflection",

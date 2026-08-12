@@ -274,6 +274,39 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
       "title": "Before you go",
       "slides": [
         {
+          "id": "s08-summative",
+          "type": "quiz",
+          "eyebrow": "End-of-session check",
+          "title": "What today was asking of you",
+          "assessment": {
+            "role": "summative",
+            "scored": true
+          },
+          "question": "Which one was this session actually asking you to do?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Connect your mask to where or who you learned it from, without being required to share the story.",
+              "feedback": "That is Session 5's target, not today's."
+            },
+            {
+              "text": "Name what comes out when you are too tired to perform.",
+              "correct": true,
+              "feedback": "That was the target for today."
+            },
+            {
+              "text": "Acknowledge, to yourself at minimum, one part you have hidden even from yourself.",
+              "feedback": "That is Session 11's target, not today's."
+            }
+          ],
+          "correctHead": "That's the one.",
+          "correctText": "That was the point of the whole session, on the mat and off it.",
+          "incorrectHead": "Not today.",
+          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
+          "revealText": "Today's target is marked above."
+        },
+        {
           "id": "s08-reflection",
           "type": "reflection",
           "eyebrow": "Reflection",

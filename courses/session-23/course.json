@@ -277,6 +277,39 @@
       "title": "Before you go",
       "slides": [
         {
+          "id": "s23-summative",
+          "type": "quiz",
+          "eyebrow": "End-of-session check",
+          "title": "What today was asking of you",
+          "assessment": {
+            "role": "summative",
+            "scored": true
+          },
+          "question": "Which one was this session actually asking you to do?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Name what breaks in you when a connection ruptures.",
+              "feedback": "That is Session 19's target, not today's."
+            },
+            {
+              "text": "Name what makes you want to leave a hard relationship and one reason to stay.",
+              "correct": true,
+              "feedback": "That was the target for today."
+            },
+            {
+              "text": "Identify how much you open up to another person and name one thing that makes letting someone in hard.",
+              "feedback": "That is Session 14's target, not today's."
+            }
+          ],
+          "correctHead": "That's the one.",
+          "correctText": "That was the point of the whole session, on the mat and off it.",
+          "incorrectHead": "Not today.",
+          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
+          "revealText": "Today's target is marked above."
+        },
+        {
           "id": "s23-reflection",
           "type": "reflection",
           "eyebrow": "Reflection",

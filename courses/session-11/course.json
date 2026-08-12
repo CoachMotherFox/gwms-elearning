@@ -272,6 +272,39 @@
       "title": "Before you go",
       "slides": [
         {
+          "id": "s11-summative",
+          "type": "quiz",
+          "eyebrow": "End-of-session check",
+          "title": "What today was asking of you",
+          "assessment": {
+            "role": "summative",
+            "scored": true
+          },
+          "question": "Which one was this session actually asking you to do?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Name what comes out when you are too tired to perform.",
+              "feedback": "That is Session 8's target, not today's."
+            },
+            {
+              "text": "Acknowledge, to yourself at minimum, one part you have hidden even from yourself.",
+              "correct": true,
+              "feedback": "That was the target for today."
+            },
+            {
+              "text": "Name one thing you do to protect yourself before you trust a space, and name it as a strength.",
+              "feedback": "That is Session 3's target, not today's."
+            }
+          ],
+          "correctHead": "That's the one.",
+          "correctText": "That was the point of the whole session, on the mat and off it.",
+          "incorrectHead": "Not today.",
+          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
+          "revealText": "Today's target is marked above."
+        },
+        {
           "id": "s11-reflection",
           "type": "reflection",
           "eyebrow": "Reflection",
