@@ -20,26 +20,57 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
     "bloom": "Apply",
     "card": "Controlling the Legs",
     "domain": "Enter, retainer's side",
-    "keyCondition": "Follow the passer, keep the legs between you as the angle changes.",
+    "keyCondition": "Follow the passer. Keep your legs between you as the angle changes.",
     "gameName": "Open Guard Multiple Connection Game",
     "probingQuestion": "What version of you shows up here, and where did you learn it?",
-    "grapplingTlo": "By the end of this session, the participant will apply guard retention while the partner changes angles.",
+    "grapplingTlo": "By the end of this session, the participant will keep guard retention while their partner changes angles.",
     "looksBackAt": 2,
     "grapplingElos": [
       "Follow the partner and keep the legs between you.",
-      "Reset guard when it is threatened."
+      "Reset guard when it is in danger."
     ],
-    "caselTlo": "By the end of this session, the participant will connect their mask to where or who they learned it from, without being required to share the story.",
+    "caselTlo": "By the end of this session, the participant will trace their mask back to where or who they learned it from, without having to share the story.",
     "caselElos": [
-      "Trace the performed self to an origin.",
+      "Trace their mask back to where it came from.",
       "Keep the story optional."
     ],
-    "connection": "The guard you keep was drilled into you somewhere, and so was the mask. Both are learned defenses. Tracing where you learned to guard is the same move on and off the mat.",
-    "takeaway": "The mask made sense where you got it, and that means it is a choice, not a life sentence.",
+    "connection": "The guard you keep was drilled into you somewhere, and so was the mask. Both are learned defenses. Finding where you learned to guard is the same move on and off the mat.",
+    "takeaway": "The mask made sense where you learned it. That means it is a choice, not a life sentence.",
     "_source": "GWMS Curriculum Guide — Session 5 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
+    {
+      "id": "start",
+      "title": "Welcome",
+      "slides": [
+        {
+          "id": "s05-welcome",
+          "type": "text-image",
+          "eyebrow": "Welcome",
+          "title": "Welcome to GWMS Online",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "This is Session 5 of 36: Mask."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
+            },
+            {
+              "kind": "callout",
+              "label": "Where this sits",
+              "text": "Session 5 of 36. The Descent, Week 2, Mask. On the mat that stage runs The Roads."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Take your time. There are no wrong answers when you write about yourself."
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "today",
       "title": "Today",
@@ -47,17 +78,12 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
         {
           "id": "s05-question",
           "type": "text-image",
-          "eyebrow": "Session 5 · Probing question",
+          "eyebrow": "Session 5 · Today's question",
           "title": "What version of you shows up here, and where did you learn it?",
           "body": [
             {
               "kind": "lead",
-              "text": "That is the question for this session. It runs through the whole session: the grappling class, rolling and recovery, and the lesson."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 5 of 36. The Descent, Week 2, Mask. On the mat that stage runs The Roads."
+              "text": "This is your question for today. Keep it in mind during the game and the lesson."
             }
           ],
           "alternates": [
@@ -108,21 +134,21 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
           "body": [
             {
               "kind": "lead",
-              "text": "The bottom player keeps the legs working while the top player circles and changes angles. Win by keeping your connections, feet and hands, on the partner as they move."
+              "text": "The bottom player keeps the legs working while the top player circles and changes angles. Win by keeping your connections, feet and hands, on your partner as they move."
             },
             {
               "kind": "paragraph",
-              "text": "You are learning to hold a boundary while the other person keeps shifting, not just when they stay still, which is where a learned defense comes from."
+              "text": "You are learning to hold a boundary while the other person keeps moving, not just when they stand still. That is where a learned defense comes from."
             }
           ],
           "reveals": [
             {
               "id": "key-condition",
-              "label": "What had to be true first",
+              "label": "What you need first",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Follow the passer, keep the legs between you as the angle changes."
+                  "text": "Follow the passer. Keep your legs between you as the angle changes."
                 }
               ]
             },
@@ -141,7 +167,7 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -167,15 +193,15 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not in the Roads. These are the two path domains, Enter and Arrive, and they carry no finish — the path delivers you into a pin and the pin owns the finish."
+              "feedback": "Not part of the Roads. Enter and Arrive are the two path steps here, and neither one ends in a submission. The path leads you into a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
-              "feedback": "Never. Everything runs at light resistance, and the tap is honored instantly, every time."
+              "feedback": "Never. Everyone goes light, and the tap always stops it right away, every time."
             }
           ],
           "correctHead": "That's it.",
-          "correctText": "That is the whole win condition for today.",
+          "correctText": "That is how you win today.",
           "incorrectHead": "Not quite.",
           "incorrectText": "Read the note under your choice, then try again.",
           "revealText": "The right answer is marked above, with the reason."
@@ -194,19 +220,19 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Apply guard retention while the partner changes angles."
+              "text": "Keep guard retention while your partner changes angles."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
                 "Follow the partner and keep the legs between you.",
-                "Reset guard when it is threatened."
+                "Reset guard when it is in danger."
               ]
             }
           ]
@@ -214,23 +240,23 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
         {
           "id": "s05-casel",
           "type": "text-image",
-          "eyebrow": "The other half",
-          "title": "And the part that was not about grappling",
+          "eyebrow": "Off the mat",
+          "title": "The part that was not about grappling",
           "body": [
             {
               "kind": "lead",
-              "text": "Connect your mask to where or who you learned it from, without being required to share the story."
+              "text": "Trace your mask back to where or who you learned it from, without having to share the story."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Trace the performed self to an origin.",
+                "Trace your mask back to where it came from.",
                 "Keep the story optional."
               ]
             }
@@ -244,7 +270,7 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
           "body": [
             {
               "kind": "lead",
-              "text": "The guard you keep was drilled into you somewhere, and so was the mask. Both are learned defenses. Tracing where you learned to guard is the same move on and off the mat."
+              "text": "The guard you keep was drilled into you somewhere, and so was the mask. Both are learned defenses. Finding where you learned to guard is the same move on and off the mat."
             }
           ],
           "reveals": [
@@ -254,7 +280,7 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Passing past a partner's guard to what it protects is the same act as looking under the mask to the real self. The Descent digs, on the mat and in the person."
+                  "text": "Getting past a partner's guard to what it protects is the same act as looking under a mask to the real person. The Descent digs deep, on the mat and inside you."
                 }
               ]
             }
@@ -274,11 +300,11 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
           "body": [
             {
               "kind": "lead",
-              "text": "The bottom player keeps the legs working while the top player circles and changes angles. Win by keeping your connections, feet and hands, on the partner as they move."
+              "text": "The bottom player keeps the legs working while the top player circles and changes angles. Win by keeping your connections, feet and hands, on your partner as they move."
             },
             {
               "kind": "paragraph",
-              "text": "You are learning to hold a boundary while the other person keeps shifting, not just when they stay still, which is where a learned defense comes from."
+              "text": "You are learning to hold a boundary while the other person keeps moving, not just when they stand still. That is where a learned defense comes from."
             }
           ],
           "reveals": [
@@ -294,7 +320,7 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
             },
             {
               "id": "tap-again",
-              "label": "And the rule under all of it",
+              "label": "And the rule that never changes",
               "content": [
                 {
                   "kind": "list",
@@ -307,7 +333,7 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -327,7 +353,7 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
           "retry": true,
           "options": [
             {
-              "text": "Connect your mask to where or who you learned it from, without being required to share the story.",
+              "text": "Trace your mask back to where or who you learned it from, without having to share the story.",
               "correct": true,
               "feedback": "That was the target for today."
             },
@@ -336,7 +362,7 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
               "feedback": "That is Session 8's target, not today's."
             },
             {
-              "text": "Name your default entrance behavior when new, without judging it.",
+              "text": "Name how you act when you are new somewhere, without judging it.",
               "feedback": "That is Session 2's target, not today's."
             }
           ],
@@ -360,7 +386,7 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
           "type": "reflection",
           "eyebrow": "Before you go",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — every participant, every session",
+          "kindLabel": "IRF — everyone fills this out, every session",
           "fields": [
             {
               "id": "mat",

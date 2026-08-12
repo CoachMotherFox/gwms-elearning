@@ -36,23 +36,49 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
     {
+      "id": "start",
+      "title": "Welcome",
+      "slides": [
+        {
+          "id": "s01-welcome",
+          "type": "text-image",
+          "eyebrow": "Welcome",
+          "title": "Welcome to GWMS Online",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "This is Session 1 of 36: Arrival."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Today you will do a game, a quick check on it, and a few questions about yourself."
+            },
+            {
+              "kind": "callout",
+              "label": "Where this sits",
+              "text": "Session 1 of 36. The Descent, Week 1, Arrival. On the mat that stage runs The Roads."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Take your time. There are no wrong answers when you write about yourself."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "today",
       "title": "Today",
       "slides": [
         {
           "id": "s01-question",
           "type": "text-image",
-          "eyebrow": "Session 1 · Probing question",
+          "eyebrow": "Session 1 · Today's question",
           "title": "What makes a place feel safe to you?",
           "body": [
             {
               "kind": "lead",
-              "text": "That is the question for this session. It runs through the whole session: the grappling class, rolling and recovery, and the lesson."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 1 of 36. The Descent, Week 1, Arrival. On the mat that stage runs The Roads."
+              "text": "This is your question for today. Keep it in mind during the game and the lesson."
             }
           ],
           "alternates": [
@@ -74,17 +100,17 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
           "body": [
             {
               "kind": "lead",
-              "text": "One partner lies on the ground. They put their feet on the standing partner to keep them out, like they are covered in mud and don't want to get the other person dirty. The standing partner's job is to clear those feet out of the way and get all the way to chest-to-chest contact. Go slow and light, nobody gets put on their back hard today. Switch roles so everyone plays both parts."
+              "text": "One partner lies on the ground. They put their feet on the standing partner to keep them out. It's like they are covered in mud and don't want to get the other person dirty. The standing partner's job is to move those feet out of the way and get all the way to chest-to-chest contact. Go slow and stay light. No one gets put on their back hard today. Switch roles so everyone tries both parts."
             },
             {
               "kind": "paragraph",
-              "text": "The tap is law. If anyone taps, for any reason, stop immediately."
+              "text": "The tap is law. If anyone taps, for any reason, stop right away."
             }
           ],
           "reveals": [
             {
               "id": "key-condition",
-              "label": "What had to be true first",
+              "label": "What you need first",
               "content": [
                 {
                   "kind": "paragraph",
@@ -107,7 +133,7 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -133,15 +159,15 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not in the Roads. These are the two path domains, Enter and Arrive, and they carry no finish — the path delivers you into a pin and the pin owns the finish."
+              "feedback": "Not part of the Roads. Enter and Arrive are the two path steps here, and neither one ends in a submission. The path leads you into a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
-              "feedback": "Never. Everything runs at light resistance, and the tap is honored instantly, every time."
+              "feedback": "Never. Everyone goes light, and the tap always stops it right away, every time."
             }
           ],
           "correctHead": "That's it.",
-          "correctText": "That is the whole win condition for today.",
+          "correctText": "That is how you win today.",
           "incorrectHead": "Not quite.",
           "incorrectText": "Read the note under your choice, then try again.",
           "revealText": "The right answer is marked above, with the reason."
@@ -160,11 +186,11 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
           "body": [
             {
               "kind": "lead",
-              "text": "One partner lies on the ground. They put their feet on the standing partner to keep them out, like they are covered in mud and don't want to get the other person dirty. The standing partner's job is to clear those feet out of the way and get all the way to chest-to-chest contact. Go slow and light, nobody gets put on their back hard today. Switch roles so everyone plays both parts."
+              "text": "One partner lies on the ground. They put their feet on the standing partner to keep them out. It's like they are covered in mud and don't want to get the other person dirty. The standing partner's job is to move those feet out of the way and get all the way to chest-to-chest contact. Go slow and stay light. No one gets put on their back hard today. Switch roles so everyone tries both parts."
             },
             {
               "kind": "paragraph",
-              "text": "The tap is law. If anyone taps, for any reason, stop immediately."
+              "text": "The tap is law. If anyone taps, for any reason, stop right away."
             }
           ],
           "reveals": [
@@ -180,7 +206,7 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
             },
             {
               "id": "tap-again",
-              "label": "And the rule under all of it",
+              "label": "And the rule that never changes",
               "content": [
                 {
                   "kind": "list",
@@ -193,7 +219,7 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -213,7 +239,7 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
           "type": "reflection",
           "eyebrow": "Before you go",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — every participant, every session",
+          "kindLabel": "IRF — everyone fills this out, every session",
           "fields": [
             {
               "id": "mat",

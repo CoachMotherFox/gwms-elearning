@@ -20,26 +20,57 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
     "bloom": "Apply",
     "card": "The Chest Pin",
     "domain": "Control",
-    "keyCondition": "Hold the pin against active resistance, the partner running 4S.",
+    "keyCondition": "Hold the pin while the partner fights back hard, running 4S.",
     "gameName": "Mounted and Side Control Pin Game",
     "probingQuestion": "What do you do when someone pushes back?",
-    "grapplingTlo": "By the end of this session, the participant will maintain chest-pin control against a partner's active resistance.",
+    "grapplingTlo": "By the end of this session, the participant will keep chest-pin control while a partner fights back hard.",
     "looksBackAt": 13,
     "grapplingElos": [
-      "Keep the pin for a three-count while the partner actively resists and works to escape.",
-      "Respond to resistance with base and adjustment, not panic or raw force."
+      "Keep the pin for a three-count while the partner fights back and tries to escape.",
+      "Respond to resistance by staying balanced and adjusting, not by panicking or using raw force."
     ],
-    "caselTlo": "By the end of this session, the participant will name what they do when another person pushes back, and judge whether it serves them.",
+    "caselTlo": "By the end of this session, the participant will name what they do when another person pushes back, and say if that habit helps them or hurts them.",
     "caselElos": [
-      "Identify their default response to pushback.",
-      "Judge whether that response helps or hurts the relationship."
+      "Name their usual response to pushback.",
+      "Say whether that response helps or hurts the relationship."
     ],
     "connection": "A partner resisting the pin is pushback made physical. What you do when they fight the pin is usually what you do when people push back in life. Both reward staying calm and adjusting over forcing harder.",
-    "takeaway": "Pushback is normal, and your response to it is a choice, not a reflex you are stuck with.",
+    "takeaway": "Pushback is normal. Your response to it is a choice, not a reflex you're stuck with.",
     "_source": "GWMS Curriculum Guide — Session 16 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
+    {
+      "id": "start",
+      "title": "Welcome",
+      "slides": [
+        {
+          "id": "s16-welcome",
+          "type": "text-image",
+          "eyebrow": "Welcome",
+          "title": "Welcome to GWMS Online",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "This is Session 16 of 36: Friction."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
+            },
+            {
+              "kind": "callout",
+              "label": "Where this sits",
+              "text": "Session 16 of 36. The Initiation, Week 6, Friction. On the mat that stage runs Chest Pin."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Take your time. There are no wrong answers when you write about yourself."
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "today",
       "title": "Today",
@@ -47,17 +78,12 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
         {
           "id": "s16-question",
           "type": "text-image",
-          "eyebrow": "Session 16 · Probing question",
+          "eyebrow": "Session 16 · Today's question",
           "title": "What do you do when someone pushes back?",
           "body": [
             {
               "kind": "lead",
-              "text": "That is the question for this session. It runs through the whole session: the grappling class, rolling and recovery, and the lesson."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 16 of 36. The Initiation, Week 6, Friction. On the mat that stage runs Chest Pin."
+              "text": "This is your question for today. Keep it in mind during the game and the lesson."
             }
           ],
           "alternates": [
@@ -94,7 +120,7 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Contact does something to all of us, and now you can feel yours."
+                  "text": "Contact does something to all of us. Now you can feel yours."
                 }
               ]
             }
@@ -108,21 +134,21 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
           "body": [
             {
               "kind": "lead",
-              "text": "The top player holds the pin against a partner actively working to escape. Win with hip coverage, under the elbow, and hands connected, all at once, held against real resistance."
+              "text": "The top player holds the pin while the partner works hard to escape. Win by covering the hips, staying under the elbow, and keeping hands connected, all at once, against real resistance."
             },
             {
               "kind": "paragraph",
-              "text": "Pushback is the trial. Staying calm and adjusting beats forcing harder."
+              "text": "Pushback is the test. Staying calm and adjusting beats forcing harder."
             }
           ],
           "reveals": [
             {
               "id": "key-condition",
-              "label": "What had to be true first",
+              "label": "What you need first",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Hold the pin against active resistance, the partner running 4S."
+                  "text": "Hold the pin while the partner fights back hard, running 4S."
                 }
               ]
             },
@@ -141,7 +167,7 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -167,15 +193,15 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Every finish is released instantly on the tap, every time. The tap is law."
+              "feedback": "Never. Let go the instant your partner taps. Every single time. The tap is law."
             },
             {
               "text": "Overpowering your partner with force",
-              "feedback": "You keep the pin by feeling your partner and adjusting, not by clamping and squeezing. Staying calm and adjusting beats forcing harder."
+              "feedback": "You keep the pin by feeling your partner and moving with them, not by clamping down and squeezing hard. Staying calm beats forcing harder."
             }
           ],
           "correctHead": "That's it.",
-          "correctText": "That is the whole win condition for today.",
+          "correctText": "That is how you win today.",
           "incorrectHead": "Not quite.",
           "incorrectText": "Read the note under your choice, then try again.",
           "revealText": "The right answer is marked above, with the reason."
@@ -194,19 +220,19 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Maintain chest-pin control against a partner's active resistance."
+              "text": "Keep chest-pin control while a partner fights back hard."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Keep the pin for a three-count while the partner actively resists and works to escape.",
-                "Respond to resistance with base and adjustment, not panic or raw force."
+                "Keep the pin for a three-count while the partner fights back and tries to escape.",
+                "Respond to resistance by staying balanced and adjusting, not by panicking or using raw force."
               ]
             }
           ]
@@ -214,24 +240,24 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
         {
           "id": "s16-casel",
           "type": "text-image",
-          "eyebrow": "The other half",
-          "title": "And the part that was not about grappling",
+          "eyebrow": "Off the mat",
+          "title": "The part that was not about grappling",
           "body": [
             {
               "kind": "lead",
-              "text": "Name what you do when another person pushes back, and judge whether it serves you."
+              "text": "Name what you do when another person pushes back, and say if that habit helps you or hurts you."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Identify your default response to pushback.",
-                "Judge whether that response helps or hurts the relationship."
+                "Name your usual response to pushback.",
+                "Say whether that response helps or hurts the relationship."
               ]
             }
           ]
@@ -254,7 +280,7 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Chest-to-chest contact, friction, break, and reset on the mat is contact, friction, rupture, and repair between people. The Initiation tests the real self against others."
+                  "text": "Chest-to-chest contact on the mat is like contact with people. Friction on the mat is like friction with people. A break on the mat is like a rupture between people. A reset on the mat is like repair between people. The Initiation tests the real you against other people."
                 }
               ]
             }
@@ -274,11 +300,11 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
           "body": [
             {
               "kind": "lead",
-              "text": "The top player holds the pin against a partner actively working to escape. Win with hip coverage, under the elbow, and hands connected, all at once, held against real resistance."
+              "text": "The top player holds the pin while the partner works hard to escape. Win by covering the hips, staying under the elbow, and keeping hands connected, all at once, against real resistance."
             },
             {
               "kind": "paragraph",
-              "text": "Pushback is the trial. Staying calm and adjusting beats forcing harder."
+              "text": "Pushback is the test. Staying calm and adjusting beats forcing harder."
             }
           ],
           "reveals": [
@@ -294,7 +320,7 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
             },
             {
               "id": "tap-again",
-              "label": "And the rule under all of it",
+              "label": "And the rule that never changes",
               "content": [
                 {
                   "kind": "list",
@@ -307,7 +333,7 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -327,16 +353,16 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
           "retry": true,
           "options": [
             {
-              "text": "Name what you do when another person pushes back, and judge whether it serves you.",
+              "text": "Name what you do when another person pushes back, and say if that habit helps you or hurts you.",
               "correct": true,
               "feedback": "That was the target for today."
             },
             {
-              "text": "Name what breaks in you when a connection ruptures.",
+              "text": "Name what breaks inside you when a connection breaks.",
               "feedback": "That is Session 19's target, not today's."
             },
             {
-              "text": "Name what repair costs you and weigh whether it is worth paying.",
+              "text": "Name what repair costs you, and decide if it's worth paying that cost.",
               "feedback": "That is Session 24's target, not today's."
             }
           ],
@@ -360,7 +386,7 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
           "type": "reflection",
           "eyebrow": "Before you go",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — every participant, every session",
+          "kindLabel": "IRF — everyone fills this out, every session",
           "fields": [
             {
               "id": "mat",

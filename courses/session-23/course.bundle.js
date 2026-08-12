@@ -20,26 +20,57 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
     "bloom": "Apply",
     "card": "The Chest Pin",
     "domain": "Integrate",
-    "keyCondition": "Complete a hard round without disengaging, both roles.",
+    "keyCondition": "Finish a hard round without giving up, in both roles.",
     "gameName": "Guard Recovery with Passing Resistance Game",
     "probingQuestion": "Can you stay when leaving would be easier?",
-    "grapplingTlo": "By the end of this session, the participant will stay with a difficult training partnership and keep working rather than switching out.",
+    "grapplingTlo": "By the end of this session, the participant will stay with a hard training partner and keep working instead of asking to switch.",
     "looksBackAt": 17,
     "grapplingElos": [
-      "Complete a hard round with a tough partner without disengaging or asking to switch.",
-      "Keep control and composure when the partnership is frustrating."
+      "Finish a hard round with a tough partner without giving up or asking to switch.",
+      "Keep control and stay calm when the partnership is frustrating."
     ],
     "caselTlo": "By the end of this session, the participant will name what makes them want to leave a hard relationship and one reason to stay.",
     "caselElos": [
-      "Identify their exit urge in a hard relationship.",
+      "Notice their own urge to leave a hard relationship.",
       "Name one thing worth staying for."
     ],
     "connection": "Staying with a hard partner on the mat instead of switching is commitment made physical. Staying in a hard relationship when leaving is easier is the same choice. Both build the muscle of not bailing on people.",
-    "takeaway": "Staying is a choice you can make on purpose, and you just practiced it.",
+    "takeaway": "Staying is a choice you can make on purpose. You just practiced it.",
     "_source": "GWMS Curriculum Guide — Session 23 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
+    {
+      "id": "start",
+      "title": "Welcome",
+      "slides": [
+        {
+          "id": "s23-welcome",
+          "type": "text-image",
+          "eyebrow": "Welcome",
+          "title": "Welcome to GWMS Online",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "This is Session 23 of 36: Repair."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
+            },
+            {
+              "kind": "callout",
+              "label": "Where this sits",
+              "text": "Session 23 of 36. The Initiation, Week 8, Repair. On the mat that stage runs Chest Pin."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Take your time. There are no wrong answers when you write about yourself."
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "today",
       "title": "Today",
@@ -47,17 +78,12 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
         {
           "id": "s23-question",
           "type": "text-image",
-          "eyebrow": "Session 23 · Probing question",
+          "eyebrow": "Session 23 · Today's question",
           "title": "Can you stay when leaving would be easier?",
           "body": [
             {
               "kind": "lead",
-              "text": "That is the question for this session. It runs through the whole session: the grappling class, rolling and recovery, and the lesson."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 23 of 36. The Initiation, Week 8, Repair. On the mat that stage runs Chest Pin."
+              "text": "This is your question for today. Keep it in mind during the game and the lesson."
             }
           ],
           "alternates": [
@@ -94,7 +120,7 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "You can stay in discomfort, you just did it."
+                  "text": "You can stay when things feel uncomfortable. You just did it."
                 }
               ]
             }
@@ -108,7 +134,7 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Full live, both roles, against a tough partner. Win, on top, by locking hands and holding the pin against real resistance."
+              "text": "Roll live, both roles, against a tough partner. On top, win by locking hands and holding the pin against real resistance."
             },
             {
               "kind": "paragraph",
@@ -118,11 +144,11 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
           "reveals": [
             {
               "id": "key-condition",
-              "label": "What had to be true first",
+              "label": "What you need first",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Complete a hard round without disengaging, both roles."
+                  "text": "Finish a hard round without giving up, in both roles."
                 }
               ]
             },
@@ -141,7 +167,7 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -167,15 +193,15 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Every finish is released instantly on the tap, every time. The tap is law."
+              "feedback": "Never. Let go the instant your partner taps. Every single time. The tap is law."
             },
             {
               "text": "Overpowering your partner with force",
-              "feedback": "You keep the pin by feeling your partner and adjusting, not by clamping and squeezing. Staying calm and adjusting beats forcing harder."
+              "feedback": "You keep the pin by feeling your partner and moving with them, not by clamping down and squeezing hard. Staying calm beats forcing harder."
             }
           ],
           "correctHead": "That's it.",
-          "correctText": "That is the whole win condition for today.",
+          "correctText": "That is how you win today.",
           "incorrectHead": "Not quite.",
           "incorrectText": "Read the note under your choice, then try again.",
           "revealText": "The right answer is marked above, with the reason."
@@ -194,19 +220,19 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Stay with a difficult training partnership and keep working rather than switching out."
+              "text": "Stay with a hard training partner and keep working instead of asking to switch."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Complete a hard round with a tough partner without disengaging or asking to switch.",
-                "Keep control and composure when the partnership is frustrating."
+                "Finish a hard round with a tough partner without giving up or asking to switch.",
+                "Keep control and stay calm when the partnership is frustrating."
               ]
             }
           ]
@@ -214,8 +240,8 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
         {
           "id": "s23-casel",
           "type": "text-image",
-          "eyebrow": "The other half",
-          "title": "And the part that was not about grappling",
+          "eyebrow": "Off the mat",
+          "title": "The part that was not about grappling",
           "body": [
             {
               "kind": "lead",
@@ -224,13 +250,13 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Identify your exit urge in a hard relationship.",
+                "Notice your own urge to leave a hard relationship.",
                 "Name one thing worth staying for."
               ]
             }
@@ -248,8 +274,8 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
             },
             {
               "kind": "callout",
-              "label": "Worth saying plainly",
-              "text": "Staying is the skill, but leaving a harmful relationship is not failure. Never taught as an absolute."
+              "label": "Said simply",
+              "text": "Staying is the skill. But leaving a harmful relationship is not failure. This is never an all-or-nothing rule."
             }
           ],
           "reveals": [
@@ -259,7 +285,7 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Chest-to-chest contact, friction, break, and reset on the mat is contact, friction, rupture, and repair between people. The Initiation tests the real self against others."
+                  "text": "Chest-to-chest contact on the mat is like contact with people. Friction on the mat is like friction with people. A break on the mat is like a rupture between people. A reset on the mat is like repair between people. The Initiation tests the real you against other people."
                 }
               ]
             }
@@ -279,7 +305,7 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Full live, both roles, against a tough partner. Win, on top, by locking hands and holding the pin against real resistance."
+              "text": "Roll live, both roles, against a tough partner. On top, win by locking hands and holding the pin against real resistance."
             },
             {
               "kind": "paragraph",
@@ -299,7 +325,7 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
             },
             {
               "id": "tap-again",
-              "label": "And the rule under all of it",
+              "label": "And the rule that never changes",
               "content": [
                 {
                   "kind": "list",
@@ -312,7 +338,7 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -337,11 +363,11 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
               "feedback": "That was the target for today."
             },
             {
-              "text": "Identify how much you open up to another person and name one thing that makes letting someone in hard.",
+              "text": "Say how much you open up to another person, and name one thing that makes letting someone in hard.",
               "feedback": "That is Session 14's target, not today's."
             },
             {
-              "text": "Name what breaks in you when a connection ruptures.",
+              "text": "Name what breaks inside you when a connection breaks.",
               "feedback": "That is Session 19's target, not today's."
             }
           ],
@@ -365,7 +391,7 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
           "type": "reflection",
           "eyebrow": "Before you go",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — every participant, every session",
+          "kindLabel": "IRF — everyone fills this out, every session",
           "fields": [
             {
               "id": "mat",

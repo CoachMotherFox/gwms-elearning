@@ -19,10 +19,10 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
     "bloom": "Apply and Analyze",
     "card": "The Back Pin",
     "domain": "Control",
-    "keyCondition": "Hold control while giving the partner room to work the escape.",
+    "keyCondition": "Hold control, but give your partner room to work their escape.",
     "gameName": "Back Control Elbow Management, No Hooks",
     "probingQuestion": "What can you give that actually costs you something?",
-    "grapplingTlo": "By the end of this session, the participant will apply back-pin control while letting a partner work and learn, and analyze what it costs to give that up.",
+    "grapplingTlo": "By the end of this session, the participant will use back-pin control while letting a partner work and learn, and name what it costs to give that up.",
     "looksBackAt": 23,
     "grapplingElos": [
       "Hold back-pin control while deliberately giving the partner room to work.",
@@ -30,15 +30,46 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
     ],
     "caselTlo": "By the end of this session, the participant will name a contribution that costs them something real.",
     "caselElos": [
-      "Distinguish easy giving from costly giving.",
+      "Tell apart easy giving from giving that costs something.",
       "Name one thing worth giving that costs them."
     ],
-    "connection": "Letting a partner work when you could just finish them costs you the easy win. Real contribution off the mat costs something too, time, comfort, pride. The giving that counts is the kind you feel.",
+    "connection": "Letting a partner work when you could just finish them costs you the easy win. Giving something real off the mat costs something too, time, comfort, pride. The giving that counts is the kind you feel.",
     "takeaway": "The giving that costs is the giving that counts.",
     "_source": "GWMS Curriculum Guide — Session 29 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
+    {
+      "id": "start",
+      "title": "Welcome",
+      "slides": [
+        {
+          "id": "s29-welcome",
+          "type": "text-image",
+          "eyebrow": "Welcome",
+          "title": "Welcome to GWMS Online",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "This is Session 29 of 36: Contribution."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
+            },
+            {
+              "kind": "callout",
+              "label": "Where this sits",
+              "text": "Session 29 of 36. The Return, Week 10, Contribution. On the mat that stage runs Back Pin."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Take your time. There are no wrong answers when you write about yourself."
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "today",
       "title": "Today",
@@ -46,17 +77,12 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
         {
           "id": "s29-question",
           "type": "text-image",
-          "eyebrow": "Session 29 · Probing question",
+          "eyebrow": "Session 29 · Today's question",
           "title": "What can you give that actually costs you something?",
           "body": [
             {
               "kind": "lead",
-              "text": "That is the question for this session. It runs through the whole session: the grappling class, rolling and recovery, and the lesson."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 29 of 36. The Return, Week 10, Contribution. On the mat that stage runs Back Pin."
+              "text": "This is your question for today. Keep it in mind during the game and the lesson."
             }
           ],
           "alternates": [
@@ -93,7 +119,7 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Staying is a choice you can make on purpose, and you just practiced it."
+                  "text": "Staying is a choice you can make on purpose. You just practiced it."
                 }
               ]
             }
@@ -107,7 +133,7 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Hold the back with no hooks in, managing the elbows, and give the bottom partner room to work their escape. Win by keeping control while letting them fight."
+              "text": "Hold the back with no hooks in. Manage the elbows, and give the bottom partner room to work their escape. Win by keeping control while you let them fight."
             },
             {
               "kind": "paragraph",
@@ -117,11 +143,11 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
           "reveals": [
             {
               "id": "key-condition",
-              "label": "What had to be true first",
+              "label": "What you need first",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Hold control while giving the partner room to work the escape."
+                  "text": "Hold control, but give your partner room to work their escape."
                 }
               ]
             },
@@ -140,7 +166,7 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -166,15 +192,15 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Every finish is released instantly on the tap, every time. The tap is law."
+              "feedback": "Never. You let go the second your partner taps. Every single time. The tap is law."
             },
             {
               "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing the Back Pin exists to teach you not to do. Total control with the choice not to harm is the core of the whole program."
+              "feedback": "That is the one thing the Back Pin teaches you never to do. Total control, plus the choice not to hurt someone, is the heart of the whole program."
             }
           ],
           "correctHead": "That's it.",
-          "correctText": "That is the whole win condition for today.",
+          "correctText": "That is how you win today.",
           "incorrectHead": "Not quite.",
           "incorrectText": "Read the note under your choice, then try again.",
           "revealText": "The right answer is marked above, with the reason."
@@ -193,12 +219,12 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Apply back-pin control while letting a partner work and learn, and analyze what it costs to give that up."
+              "text": "Use back-pin control while letting a partner work and learn, and name what it costs to give that up."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
@@ -213,8 +239,8 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
         {
           "id": "s29-casel",
           "type": "text-image",
-          "eyebrow": "The other half",
-          "title": "And the part that was not about grappling",
+          "eyebrow": "Off the mat",
+          "title": "The part that was not about grappling",
           "body": [
             {
               "kind": "lead",
@@ -223,13 +249,13 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Distinguish easy giving from costly giving.",
+                "Tell apart easy giving from giving that costs something.",
                 "Name one thing worth giving that costs you."
               ]
             }
@@ -243,12 +269,12 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Letting a partner work when you could just finish them costs you the easy win. Real contribution off the mat costs something too, time, comfort, pride. The giving that counts is the kind you feel."
+              "text": "Letting a partner work when you could just finish them costs you the easy win. Giving something real off the mat costs something too, time, comfort, pride. The giving that counts is the kind you feel."
             },
             {
               "kind": "callout",
-              "label": "Worth saying plainly",
-              "text": "Costly giving is not self-erasure. Giving until there is nothing left of you is not the target."
+              "label": "Said simply",
+              "text": "Giving that costs you is not the same as erasing yourself. Giving until nothing is left of you is not the goal."
             }
           ],
           "reveals": [
@@ -258,7 +284,7 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Total control with the choice not to harm is the core of the whole program, turned into a decision the participant carries out the door."
+                  "text": "Total control, plus the choice not to hurt someone, is the heart of the whole program. Now you carry that choice out the door."
                 }
               ]
             }
@@ -278,7 +304,7 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Hold the back with no hooks in, managing the elbows, and give the bottom partner room to work their escape. Win by keeping control while letting them fight."
+              "text": "Hold the back with no hooks in. Manage the elbows, and give the bottom partner room to work their escape. Win by keeping control while you let them fight."
             },
             {
               "kind": "paragraph",
@@ -298,7 +324,7 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
             },
             {
               "id": "tap-again",
-              "label": "And the rule under all of it",
+              "label": "And the rule that never changes",
               "content": [
                 {
                   "kind": "list",
@@ -311,7 +337,7 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -340,7 +366,7 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
               "feedback": "That is Session 33's target, not today's."
             },
             {
-              "text": "Test whether a claimed change is real by checking it against pressure, and name the evidence.",
+              "text": "Test if a claimed change is real by checking it under pressure, and name the proof.",
               "feedback": "That is Session 26's target, not today's."
             }
           ],
@@ -364,7 +390,7 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
           "type": "reflection",
           "eyebrow": "Before you go",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — every participant, every session",
+          "kindLabel": "IRF — everyone fills this out, every session",
           "fields": [
             {
               "id": "mat",

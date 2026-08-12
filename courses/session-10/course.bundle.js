@@ -23,23 +23,54 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
     "keyCondition": "Reach chest contact past the guard.",
     "gameName": "Around-the-Legs Passing Game",
     "probingQuestion": "What's under the version you show people?",
-    "grapplingTlo": "By the end of this session, the participant will apply the pass to advance past the legs toward a pin.",
+    "grapplingTlo": "By the end of this session, the participant will pass the legs and move toward a pin.",
     "looksBackAt": 7,
     "grapplingElos": [
       "Clear the checkpoints to get past the legs.",
       "Reach chest contact past the guard."
     ],
-    "caselTlo": "By the end of this session, the participant will name one true thing about themselves that lives under the performance.",
+    "caselTlo": "By the end of this session, the participant will name one true thing about themselves that lives under the act they put on.",
     "caselElos": [
-      "Look beneath the performed self.",
+      "Look under the self they perform for others.",
       "Name one true thing under it."
     ],
-    "connection": "Getting past the legs reveals what the guard was hiding. Looking under your mask reveals the real self. Passing and revealing are the same move: getting past the defense to what is behind it.",
+    "connection": "Getting past the legs shows what the guard was hiding. Looking under your mask shows the real you. Passing and revealing are the same move: get past the defense to what is behind it.",
     "takeaway": "What is under the mask is not worse than the mask, it is just true.",
     "_source": "GWMS Curriculum Guide — Session 10 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
+    {
+      "id": "start",
+      "title": "Welcome",
+      "slides": [
+        {
+          "id": "s10-welcome",
+          "type": "text-image",
+          "eyebrow": "Welcome",
+          "title": "Welcome to GWMS Online",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "This is Session 10 of 36: Reveal."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
+            },
+            {
+              "kind": "callout",
+              "label": "Where this sits",
+              "text": "Session 10 of 36. The Descent, Week 4, Reveal. On the mat that stage runs The Roads."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Take your time. There are no wrong answers when you write about yourself."
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "today",
       "title": "Today",
@@ -47,17 +78,12 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
         {
           "id": "s10-question",
           "type": "text-image",
-          "eyebrow": "Session 10 · Probing question",
+          "eyebrow": "Session 10 · Today's question",
           "title": "What's under the version you show people?",
           "body": [
             {
               "kind": "lead",
-              "text": "That is the question for this session. It runs through the whole session: the grappling class, rolling and recovery, and the lesson."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 10 of 36. The Descent, Week 4, Reveal. On the mat that stage runs The Roads."
+              "text": "This is your question for today. Keep it in mind during the game and the lesson."
             }
           ],
           "alternates": [
@@ -94,7 +120,7 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Losing cracks the mask, and what comes out is information, not failure."
+                  "text": "Losing cracks the mask. What comes out tells you something. It is not failure."
                 }
               ]
             }
@@ -118,7 +144,7 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
           "reveals": [
             {
               "id": "key-condition",
-              "label": "What had to be true first",
+              "label": "What you need first",
               "content": [
                 {
                   "kind": "paragraph",
@@ -141,7 +167,7 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -167,15 +193,15 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not in the Roads. These are the two path domains, Enter and Arrive, and they carry no finish — the path delivers you into a pin and the pin owns the finish."
+              "feedback": "Not part of the Roads. Enter and Arrive are the two path steps here, and neither one ends in a submission. The path leads you into a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
-              "feedback": "Never. Everything runs at light resistance, and the tap is honored instantly, every time."
+              "feedback": "Never. Everyone goes light, and the tap always stops it right away, every time."
             }
           ],
           "correctHead": "That's it.",
-          "correctText": "That is the whole win condition for today.",
+          "correctText": "That is how you win today.",
           "incorrectHead": "Not quite.",
           "incorrectText": "Read the note under your choice, then try again.",
           "revealText": "The right answer is marked above, with the reason."
@@ -194,12 +220,12 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Apply the pass to advance past the legs toward a pin."
+              "text": "Pass the legs and move toward a pin."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
@@ -214,23 +240,23 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
         {
           "id": "s10-casel",
           "type": "text-image",
-          "eyebrow": "The other half",
-          "title": "And the part that was not about grappling",
+          "eyebrow": "Off the mat",
+          "title": "The part that was not about grappling",
           "body": [
             {
               "kind": "lead",
-              "text": "Name one true thing about yourself that lives under the performance."
+              "text": "Name one true thing about yourself that lives under the act you put on."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Look beneath the performed self.",
+                "Look under the self you perform for others.",
                 "Name one true thing under it."
               ]
             }
@@ -244,7 +270,7 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Getting past the legs reveals what the guard was hiding. Looking under your mask reveals the real self. Passing and revealing are the same move: getting past the defense to what is behind it."
+              "text": "Getting past the legs shows what the guard was hiding. Looking under your mask shows the real you. Passing and revealing are the same move: get past the defense to what is behind it."
             }
           ],
           "reveals": [
@@ -254,7 +280,7 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Passing past a partner's guard to what it protects is the same act as looking under the mask to the real self. The Descent digs, on the mat and in the person."
+                  "text": "Getting past a partner's guard to what it protects is the same act as looking under a mask to the real person. The Descent digs deep, on the mat and inside you."
                 }
               ]
             }
@@ -294,7 +320,7 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
             },
             {
               "id": "tap-again",
-              "label": "And the rule under all of it",
+              "label": "And the rule that never changes",
               "content": [
                 {
                   "kind": "list",
@@ -307,7 +333,7 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -327,12 +353,12 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
           "retry": true,
           "options": [
             {
-              "text": "Name one true thing about yourself that lives under the performance.",
+              "text": "Name one true thing about yourself that lives under the act you put on.",
               "correct": true,
               "feedback": "That was the target for today."
             },
             {
-              "text": "Name your default entrance behavior when new, without judging it.",
+              "text": "Name how you act when you are new somewhere, without judging it.",
               "feedback": "That is Session 2's target, not today's."
             },
             {
@@ -360,7 +386,7 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
           "type": "reflection",
           "eyebrow": "Before you go",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — every participant, every session",
+          "kindLabel": "IRF — everyone fills this out, every session",
           "fields": [
             {
               "id": "mat",

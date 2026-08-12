@@ -18,26 +18,57 @@
     "bloom": "Apply",
     "card": "The Chest Pin",
     "domain": "Finish, top seat Arm Lock",
-    "keyCondition": "Both control points active and the fulcrum set before any extension, released on the tap.",
+    "keyCondition": "Both hands controlling the wrist, set before you straighten the arm. Release the instant your partner taps.",
     "gameName": "Arm Lock Breaking Position Game",
     "probingQuestion": "When something breaks, what part is yours to own?",
-    "grapplingTlo": "By the end of this session, the participant will apply a second owned chest-pin finish, an arm lock, with control, and name one thing they did wrong in a round without excuse.",
+    "grapplingTlo": "By the end of this session, the participant will apply a second owned chest-pin finish, an arm lock, with control, and name one mistake they made in a round without making excuses.",
     "looksBackAt": 9,
     "grapplingElos": [
-      "Secure an owned chest-pin arm lock with control, releasing on the tap.",
+      "Get an owned chest-pin arm lock locked in with control, and release on the tap.",
       "Name one mistake they made in a round honestly, without blaming the partner."
     ],
-    "caselTlo": "By the end of this session, the participant will identify their own part when something breaks, separate from the other person's.",
+    "caselTlo": "By the end of this session, the participant will say which part of a break is their share, separate from the other person's share.",
     "caselElos": [
-      "Distinguish their share of a rupture from the other person's.",
-      "Name one thing that is theirs to own."
+      "Tell apart their share of a rupture from the other person's share.",
+      "Name the one piece of it that belongs to them."
     ],
-    "connection": "On the mat you can name your own mistake in a round without blaming your partner. Owning your part of a rupture works the same way. Accountability starts with separating your piece from theirs.",
+    "connection": "On the mat you can name your own mistake in a round without blaming your partner. Owning your part of a rupture works the same way. It starts with separating your piece from theirs.",
     "takeaway": "Owning your part is the doorway to repair.",
     "_source": "GWMS Curriculum Guide — Session 21 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
+    {
+      "id": "start",
+      "title": "Welcome",
+      "slides": [
+        {
+          "id": "s21-welcome",
+          "type": "text-image",
+          "eyebrow": "Welcome",
+          "title": "Welcome to GWMS Online",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "This is Session 21 of 36: Rupture."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
+            },
+            {
+              "kind": "callout",
+              "label": "Where this sits",
+              "text": "Session 21 of 36. The Initiation, Week 7, Rupture. On the mat that stage runs Chest Pin."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Take your time. There are no wrong answers when you write about yourself."
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "today",
       "title": "Today",
@@ -45,17 +76,12 @@
         {
           "id": "s21-question",
           "type": "text-image",
-          "eyebrow": "Session 21 · Probing question",
+          "eyebrow": "Session 21 · Today's question",
           "title": "When something breaks, what part is yours to own?",
           "body": [
             {
               "kind": "lead",
-              "text": "That is the question for this session. It runs through the whole session: the grappling class, rolling and recovery, and the lesson."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 21 of 36. The Initiation, Week 7, Rupture. On the mat that stage runs Chest Pin."
+              "text": "This is your question for today. Keep it in mind during the game and the lesson."
             }
           ],
           "alternates": [
@@ -106,7 +132,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "The second owned finish, an arm lock. Separate the hands and get two connections to the wrist, both control points set before any extension, released on the tap."
+              "text": "This is the second finish you own: an arm lock. Separate your partner's hands and get two grips on the wrist. Set both control points before you straighten the arm. Release the instant they tap."
             },
             {
               "kind": "paragraph",
@@ -116,11 +142,11 @@
           "reveals": [
             {
               "id": "key-condition",
-              "label": "What had to be true first",
+              "label": "What you need first",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Both control points active and the fulcrum set before any extension, released on the tap."
+                  "text": "Both hands controlling the wrist, set before you straighten the arm. Release the instant your partner taps."
                 }
               ]
             },
@@ -139,7 +165,7 @@
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -159,21 +185,21 @@
           "retry": true,
           "options": [
             {
-              "text": "Separating the hands and getting two connections to the wrist, control set before any extension",
+              "text": "Separating the hands and getting two grips on the wrist, with control set before straightening the arm",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Every finish is released instantly on the tap, every time. The tap is law."
+              "feedback": "Never. Let go the instant your partner taps. Every single time. The tap is law."
             },
             {
               "text": "Overpowering your partner with force",
-              "feedback": "You keep the pin by feeling your partner and adjusting, not by clamping and squeezing. Staying calm and adjusting beats forcing harder."
+              "feedback": "You keep the pin by feeling your partner and moving with them, not by clamping down and squeezing hard. Staying calm beats forcing harder."
             }
           ],
           "correctHead": "That's it.",
-          "correctText": "That is the whole win condition for today.",
+          "correctText": "That is how you win today.",
           "incorrectHead": "Not quite.",
           "incorrectText": "Read the note under your choice, then try again.",
           "revealText": "The right answer is marked above, with the reason."
@@ -192,18 +218,18 @@
           "body": [
             {
               "kind": "lead",
-              "text": "Apply a second owned chest-pin finish, an arm lock, with control, and name one thing you did wrong in a round without excuse."
+              "text": "Apply a second owned chest-pin finish, an arm lock, with control, and name one mistake you made in a round without making excuses."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Secure an owned chest-pin arm lock with control, releasing on the tap.",
+                "Get an owned chest-pin arm lock locked in with control, and release on the tap.",
                 "Name one mistake you made in a round honestly, without blaming the partner."
               ]
             }
@@ -212,24 +238,24 @@
         {
           "id": "s21-casel",
           "type": "text-image",
-          "eyebrow": "The other half",
-          "title": "And the part that was not about grappling",
+          "eyebrow": "Off the mat",
+          "title": "The part that was not about grappling",
           "body": [
             {
               "kind": "lead",
-              "text": "Identify your own part when something breaks, separate from the other person's."
+              "text": "Say which part of a break is your share, separate from the other person's share."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Distinguish your share of a rupture from the other person's.",
-                "Name one thing that is theirs to own."
+                "Tell apart your share of a rupture from the other person's share.",
+                "Name the one piece of it that belongs to you."
               ]
             }
           ]
@@ -242,7 +268,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "On the mat you can name your own mistake in a round without blaming your partner. Owning your part of a rupture works the same way. Accountability starts with separating your piece from theirs."
+              "text": "On the mat you can name your own mistake in a round without blaming your partner. Owning your part of a rupture works the same way. It starts with separating your piece from theirs."
             }
           ],
           "reveals": [
@@ -252,7 +278,7 @@
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Chest-to-chest contact, friction, break, and reset on the mat is contact, friction, rupture, and repair between people. The Initiation tests the real self against others."
+                  "text": "Chest-to-chest contact on the mat is like contact with people. Friction on the mat is like friction with people. A break on the mat is like a rupture between people. A reset on the mat is like repair between people. The Initiation tests the real you against other people."
                 }
               ]
             }
@@ -272,7 +298,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "The second owned finish, an arm lock. Separate the hands and get two connections to the wrist, both control points set before any extension, released on the tap."
+              "text": "This is the second finish you own: an arm lock. Separate your partner's hands and get two grips on the wrist. Set both control points before you straighten the arm. Release the instant they tap."
             },
             {
               "kind": "paragraph",
@@ -286,13 +312,13 @@
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Separating the hands and getting two connections to the wrist, control set before any extension"
+                  "text": "Separating the hands and getting two grips on the wrist, with control set before straightening the arm"
                 }
               ]
             },
             {
               "id": "tap-again",
-              "label": "And the rule under all of it",
+              "label": "And the rule that never changes",
               "content": [
                 {
                   "kind": "list",
@@ -305,7 +331,7 @@
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -325,16 +351,16 @@
           "retry": true,
           "options": [
             {
-              "text": "Identify your own part when something breaks, separate from the other person's.",
+              "text": "Say which part of a break is your share, separate from the other person's share.",
               "correct": true,
               "feedback": "That was the target for today."
             },
             {
-              "text": "Name what repair costs you and weigh whether it is worth paying.",
+              "text": "Name what repair costs you, and decide if it's worth paying that cost.",
               "feedback": "That is Session 24's target, not today's."
             },
             {
-              "text": "Practice staying present in discomfort and name what makes you want to bail.",
+              "text": "Practice staying present when things feel uncomfortable, and name what makes you want to bail.",
               "feedback": "That is Session 17's target, not today's."
             }
           ],
@@ -358,7 +384,7 @@
           "type": "reflection",
           "eyebrow": "Before you go",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — every participant, every session",
+          "kindLabel": "IRF — everyone fills this out, every session",
           "fields": [
             {
               "id": "mat",

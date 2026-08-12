@@ -23,23 +23,54 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
     "keyCondition": "Land the pin and hold the arrival for a three-count.",
     "gameName": "Half Guard Side-Position Game",
     "probingQuestion": "What part of you have you been hiding, even from yourself?",
-    "grapplingTlo": "By the end of this session, the participant will apply the pass to arrive in a pin with the control conditions true.",
+    "grapplingTlo": "By the end of this session, the participant will pass the guard and arrive in a full pin.",
     "looksBackAt": 5,
     "grapplingElos": [
-      "Complete the pass into a controlled chest position.",
+      "Finish the pass into a controlled chest position.",
       "Hold the arrival for a three-count."
     ],
-    "caselTlo": "By the end of this session, the participant will acknowledge, to themselves at minimum, one part they have hidden even from themselves.",
+    "caselTlo": "By the end of this session, the participant will admit, at least to themselves, one part they have hidden even from themselves.",
     "caselElos": [
       "Look at one hidden part.",
-      "Keep it private if chosen."
+      "Keep it private if they choose."
     ],
-    "connection": "Arriving past the guard puts you in contact with what was most protected. Naming the Shadow does the same inside you. Both reach the thing that was hidden deepest.",
+    "connection": "Arriving past the guard puts you in touch with what was most protected. Naming the Shadow does the same thing inside you. Both reach the thing that was hidden deepest.",
     "takeaway": "Naming the hidden part, even silently, is the bravest thing the mat asks of you.",
     "_source": "GWMS Curriculum Guide — Session 11 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
+    {
+      "id": "start",
+      "title": "Welcome",
+      "slides": [
+        {
+          "id": "s11-welcome",
+          "type": "text-image",
+          "eyebrow": "Welcome",
+          "title": "Welcome to GWMS Online",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "This is Session 11 of 36: Reveal."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
+            },
+            {
+              "kind": "callout",
+              "label": "Where this sits",
+              "text": "Session 11 of 36. The Descent, Week 4, Reveal. On the mat that stage runs The Roads."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Take your time. There are no wrong answers when you write about yourself."
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "today",
       "title": "Today",
@@ -47,17 +78,12 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
         {
           "id": "s11-question",
           "type": "text-image",
-          "eyebrow": "Session 11 · Probing question",
+          "eyebrow": "Session 11 · Today's question",
           "title": "What part of you have you been hiding, even from yourself?",
           "body": [
             {
               "kind": "lead",
-              "text": "That is the question for this session. It runs through the whole session: the grappling class, rolling and recovery, and the lesson."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 11 of 36. The Descent, Week 4, Reveal. On the mat that stage runs The Roads."
+              "text": "This is your question for today. Keep it in mind during the game and the lesson."
             }
           ],
           "alternates": [
@@ -94,7 +120,7 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "The mask made sense where you got it, and that means it is a choice, not a life sentence."
+                  "text": "The mask made sense where you learned it. That means it is a choice, not a life sentence."
                 }
               ]
             }
@@ -108,7 +134,7 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
           "body": [
             {
               "kind": "lead",
-              "text": "The top player completes the pass and lands the pin. Win by getting under one elbow and connecting your hands, then holding it for a three-count."
+              "text": "The top player finishes the pass and lands the pin. Win by getting under one elbow and connecting your hands, then holding it for a three-count."
             },
             {
               "kind": "paragraph",
@@ -118,7 +144,7 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
           "reveals": [
             {
               "id": "key-condition",
-              "label": "What had to be true first",
+              "label": "What you need first",
               "content": [
                 {
                   "kind": "paragraph",
@@ -141,7 +167,7 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -167,15 +193,15 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not in the Roads. These are the two path domains, Enter and Arrive, and they carry no finish — the path delivers you into a pin and the pin owns the finish."
+              "feedback": "Not part of the Roads. Enter and Arrive are the two path steps here, and neither one ends in a submission. The path leads you into a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
-              "feedback": "Never. Everything runs at light resistance, and the tap is honored instantly, every time."
+              "feedback": "Never. Everyone goes light, and the tap always stops it right away, every time."
             }
           ],
           "correctHead": "That's it.",
-          "correctText": "That is the whole win condition for today.",
+          "correctText": "That is how you win today.",
           "incorrectHead": "Not quite.",
           "incorrectText": "Read the note under your choice, then try again.",
           "revealText": "The right answer is marked above, with the reason."
@@ -194,18 +220,18 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Apply the pass to arrive in a pin with the control conditions true."
+              "text": "Pass the guard and arrive in a full pin."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Complete the pass into a controlled chest position.",
+                "Finish the pass into a controlled chest position.",
                 "Hold the arrival for a three-count."
               ]
             }
@@ -214,24 +240,24 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
         {
           "id": "s11-casel",
           "type": "text-image",
-          "eyebrow": "The other half",
-          "title": "And the part that was not about grappling",
+          "eyebrow": "Off the mat",
+          "title": "The part that was not about grappling",
           "body": [
             {
               "kind": "lead",
-              "text": "Acknowledge, to yourself at minimum, one part you have hidden even from yourself."
+              "text": "Admit, at least to yourself, one part you have hidden even from yourself."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
                 "Look at one hidden part.",
-                "Keep it private if chosen."
+                "Keep it private if you choose."
               ]
             }
           ]
@@ -244,7 +270,7 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Arriving past the guard puts you in contact with what was most protected. Naming the Shadow does the same inside you. Both reach the thing that was hidden deepest."
+              "text": "Arriving past the guard puts you in touch with what was most protected. Naming the Shadow does the same thing inside you. Both reach the thing that was hidden deepest."
             }
           ],
           "reveals": [
@@ -254,7 +280,7 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Passing past a partner's guard to what it protects is the same act as looking under the mask to the real self. The Descent digs, on the mat and in the person."
+                  "text": "Getting past a partner's guard to what it protects is the same act as looking under a mask to the real person. The Descent digs deep, on the mat and inside you."
                 }
               ]
             }
@@ -274,7 +300,7 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
           "body": [
             {
               "kind": "lead",
-              "text": "The top player completes the pass and lands the pin. Win by getting under one elbow and connecting your hands, then holding it for a three-count."
+              "text": "The top player finishes the pass and lands the pin. Win by getting under one elbow and connecting your hands, then holding it for a three-count."
             },
             {
               "kind": "paragraph",
@@ -294,7 +320,7 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
             },
             {
               "id": "tap-again",
-              "label": "And the rule under all of it",
+              "label": "And the rule that never changes",
               "content": [
                 {
                   "kind": "list",
@@ -307,7 +333,7 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -327,12 +353,12 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
           "retry": true,
           "options": [
             {
-              "text": "Acknowledge, to yourself at minimum, one part you have hidden even from yourself.",
+              "text": "Admit, at least to yourself, one part you have hidden even from yourself.",
               "correct": true,
               "feedback": "That was the target for today."
             },
             {
-              "text": "Name one thing you do to protect yourself before you trust a space, and name it as a strength.",
+              "text": "Name one thing you do to protect yourself before you trust a space, and call it a strength.",
               "feedback": "That is Session 3's target, not today's."
             },
             {
@@ -360,7 +386,7 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
           "type": "reflection",
           "eyebrow": "Before you go",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — every participant, every session",
+          "kindLabel": "IRF — everyone fills this out, every session",
           "fields": [
             {
               "id": "mat",

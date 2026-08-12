@@ -19,26 +19,57 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
     "bloom": "Apply and Analyze",
     "card": "The Back Pin",
     "domain": "Control",
-    "keyCondition": "Total coverage with the partner completely safe.",
+    "keyCondition": "Full control, with your partner completely safe.",
     "gameName": "Back Control Turn-Over Game",
     "probingQuestion": "How do you use your strength without taking someone else's?",
-    "grapplingTlo": "By the end of this session, the participant will apply dominant back-pin control without hurting the partner, and analyze the choice to control without harm.",
+    "grapplingTlo": "By the end of this session, the participant will use full back-pin control without hurting the partner, and name the choice to control without harm.",
     "looksBackAt": 18,
     "grapplingElos": [
-      "Maintain total back control while keeping the partner completely safe.",
+      "Keep total back control while keeping the partner completely safe.",
       "Name the moment control could become harm, and the choice not to cross it."
     ],
-    "caselTlo": "By the end of this session, the participant will name how they use their strength in service rather than over others.",
+    "caselTlo": "By the end of this session, the participant will name how they use their strength to help others, not to control them.",
     "caselElos": [
-      "Distinguish power in service from power over.",
-      "Name one way to use their strength without diminishing someone else."
+      "Tell apart power that helps from power that controls.",
+      "Name one way to use their strength without putting someone else down."
     ],
-    "connection": "You can have someone's back completely and choose not to hurt them. That is the whole system: the power to hurt, and the choice not to. Using your strength for people instead of over them is that same choice, made in your life.",
-    "takeaway": "Total control with the choice not to harm is the entire point, and you just held it in your hands.",
+    "connection": "You can have full control of someone's back and still choose not to hurt them. That is the whole system: the power to hurt, and the choice not to. Using your strength for people instead of over them is that same choice, made in your life.",
+    "takeaway": "Total control, plus the choice not to hurt someone, that is the whole point. You just held it in your hands.",
     "_source": "GWMS Curriculum Guide — Session 30 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
+    {
+      "id": "start",
+      "title": "Welcome",
+      "slides": [
+        {
+          "id": "s30-welcome",
+          "type": "text-image",
+          "eyebrow": "Welcome",
+          "title": "Welcome to GWMS Online",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "This is Session 30 of 36: Contribution."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
+            },
+            {
+              "kind": "callout",
+              "label": "Where this sits",
+              "text": "Session 30 of 36. The Return, Week 10, Contribution. On the mat that stage runs Back Pin."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Take your time. There are no wrong answers when you write about yourself."
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "today",
       "title": "Today",
@@ -46,17 +77,12 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
         {
           "id": "s30-question",
           "type": "text-image",
-          "eyebrow": "Session 30 · Probing question",
+          "eyebrow": "Session 30 · Today's question",
           "title": "How do you use your strength without taking someone else's?",
           "body": [
             {
               "kind": "lead",
-              "text": "That is the question for this session. It runs through the whole session: the grappling class, rolling and recovery, and the lesson."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 30 of 36. The Return, Week 10, Contribution. On the mat that stage runs Back Pin."
+              "text": "This is your question for today. Keep it in mind during the game and the lesson."
             }
           ],
           "alternates": [
@@ -93,7 +119,7 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Friction is fine, harm is a choice, and the control is yours."
+                  "text": "Friction is fine. Harm is a choice. The control is yours."
                 }
               ]
             }
@@ -107,21 +133,21 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Total control from the back, turning the partner over while keeping them completely safe."
+              "text": "Take total control from the back. Turn the partner over while keeping them completely safe."
             },
             {
               "kind": "paragraph",
-              "text": "You have their back, all the power there is, and you choose not to hurt them. That is the whole thing: strength used for someone, not over them."
+              "text": "You have their back. You hold all the power there is. And you choose not to hurt them. That is the whole point: strength used for someone, not over them."
             }
           ],
           "reveals": [
             {
               "id": "key-condition",
-              "label": "What had to be true first",
+              "label": "What you need first",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Total coverage with the partner completely safe."
+                  "text": "Full control, with your partner completely safe."
                 }
               ]
             },
@@ -140,7 +166,7 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -166,15 +192,15 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Every finish is released instantly on the tap, every time. The tap is law."
+              "feedback": "Never. You let go the second your partner taps. Every single time. The tap is law."
             },
             {
               "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing the Back Pin exists to teach you not to do. Total control with the choice not to harm is the core of the whole program."
+              "feedback": "That is the one thing the Back Pin teaches you never to do. Total control, plus the choice not to hurt someone, is the heart of the whole program."
             }
           ],
           "correctHead": "That's it.",
-          "correctText": "That is the whole win condition for today.",
+          "correctText": "That is how you win today.",
           "incorrectHead": "Not quite.",
           "incorrectText": "Read the note under your choice, then try again.",
           "revealText": "The right answer is marked above, with the reason."
@@ -193,18 +219,18 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Apply dominant back-pin control without hurting the partner, and analyze the choice to control without harm."
+              "text": "Use full back-pin control without hurting the partner, and name the choice to control without harm."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Maintain total back control while keeping the partner completely safe.",
+                "Keep total back control while keeping the partner completely safe.",
                 "Name the moment control could become harm, and the choice not to cross it."
               ]
             }
@@ -213,24 +239,24 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
         {
           "id": "s30-casel",
           "type": "text-image",
-          "eyebrow": "The other half",
-          "title": "And the part that was not about grappling",
+          "eyebrow": "Off the mat",
+          "title": "The part that was not about grappling",
           "body": [
             {
               "kind": "lead",
-              "text": "Name how you use your strength in service rather than over others."
+              "text": "Name how you use your strength to help others, not to control you."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Distinguish power in service from power over.",
-                "Name one way to use your strength without diminishing someone else."
+                "Tell apart power that helps from power that controls.",
+                "Name one way to use your strength without putting someone else down."
               ]
             }
           ]
@@ -243,7 +269,7 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
           "body": [
             {
               "kind": "lead",
-              "text": "You can have someone's back completely and choose not to hurt them. That is the whole system: the power to hurt, and the choice not to. Using your strength for people instead of over them is that same choice, made in your life."
+              "text": "You can have full control of someone's back and still choose not to hurt them. That is the whole system: the power to hurt, and the choice not to. Using your strength for people instead of over them is that same choice, made in your life."
             }
           ],
           "reveals": [
@@ -253,7 +279,7 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Total control with the choice not to harm is the core of the whole program, turned into a decision the participant carries out the door."
+                  "text": "Total control, plus the choice not to hurt someone, is the heart of the whole program. Now you carry that choice out the door."
                 }
               ]
             }
@@ -273,11 +299,11 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Total control from the back, turning the partner over while keeping them completely safe."
+              "text": "Take total control from the back. Turn the partner over while keeping them completely safe."
             },
             {
               "kind": "paragraph",
-              "text": "You have their back, all the power there is, and you choose not to hurt them. That is the whole thing: strength used for someone, not over them."
+              "text": "You have their back. You hold all the power there is. And you choose not to hurt them. That is the whole point: strength used for someone, not over them."
             }
           ],
           "reveals": [
@@ -293,7 +319,7 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
             },
             {
               "id": "tap-again",
-              "label": "And the rule under all of it",
+              "label": "And the rule that never changes",
               "content": [
                 {
                   "kind": "list",
@@ -306,7 +332,7 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -326,7 +352,7 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
           "retry": true,
           "options": [
             {
-              "text": "Name how you use your strength in service rather than over others.",
+              "text": "Name how you use your strength to help others, not to control you.",
               "correct": true,
               "feedback": "That was the target for today."
             },
@@ -335,7 +361,7 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
               "feedback": "That is Session 34's target, not today's."
             },
             {
-              "text": "Name a specific capability you have now that the old self lacked.",
+              "text": "Name one exact skill you have now that you did not have before.",
               "feedback": "That is Session 27's target, not today's."
             }
           ],
@@ -359,7 +385,7 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
           "type": "reflection",
           "eyebrow": "Before you go",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — every participant, every session",
+          "kindLabel": "IRF — everyone fills this out, every session",
           "fields": [
             {
               "id": "mat",

@@ -20,6 +20,7 @@ One screen per curriculum field, in the guide's own order.
 
 | Scene | Screen | Type | Comes from |
 |---|---|---|---|
+| Welcome | Welcome to GWMS Online | `text-image` | not the guide — instructor direction, 2026-08-12, so no module opens straight into a question |
 | Today | Probing question | `text-image` | stage question page (+ audio path) |
 | Today | Look back | `reveal` | an earlier session's probing question and connection line (omitted for Session 1) |
 | Today | The game | `text-image` | L&I Guide → the game; reveals carry the Technical Map key condition and the tap |

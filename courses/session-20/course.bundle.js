@@ -20,26 +20,57 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
     "bloom": "Apply",
     "card": "The Chest Pin",
     "domain": "Finish, top seat strangle",
-    "keyCondition": "The choking-side arm is trapped before the frame closes, released on the tap.",
+    "keyCondition": "Trap the choking-side arm before the frame closes. Release the instant your partner taps.",
     "gameName": "Mount Head and Arm Trap Game",
     "probingQuestion": "Have you ever broken something with someone and left it broken?",
-    "grapplingTlo": "By the end of this session, the participant will apply one owned chest-pin finish, a strangle, with full control, releasing the instant the partner taps.",
+    "grapplingTlo": "By the end of this session, the participant will apply one owned chest-pin finish, a strangle, with full control, and release the instant their partner taps.",
     "looksBackAt": 14,
     "grapplingElos": [
-      "Secure one owned chest-pin finish under light resistance.",
+      "Get one owned chest-pin finish locked in against light resistance.",
       "Release instantly and completely on the partner's tap, every time."
     ],
-    "caselTlo": "By the end of this session, the participant will name a rupture they left unrepaired, without being required to share it.",
+    "caselTlo": "By the end of this session, the participant will name a rupture they left unrepaired, without having to share it out loud.",
     "caselElos": [
-      "Acknowledge a broken connection they never repaired.",
+      "Admit there's a broken connection they never fixed.",
       "Notice what leaving it broken has cost them."
     ],
     "connection": "A finish you can apply and release on the tap is power you control. Leaving a break unrepaired is choosing not to release, not to reset. The tap is the invitation to repair. This week asks whether you take it.",
-    "takeaway": "Naming the unrepaired break is the first move toward repair.",
+    "takeaway": "Naming the break you never fixed is the first step toward repair.",
     "_source": "GWMS Curriculum Guide — Session 20 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
+    {
+      "id": "start",
+      "title": "Welcome",
+      "slides": [
+        {
+          "id": "s20-welcome",
+          "type": "text-image",
+          "eyebrow": "Welcome",
+          "title": "Welcome to GWMS Online",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "This is Session 20 of 36: Rupture."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
+            },
+            {
+              "kind": "callout",
+              "label": "Where this sits",
+              "text": "Session 20 of 36. The Initiation, Week 7, Rupture. On the mat that stage runs Chest Pin."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Take your time. There are no wrong answers when you write about yourself."
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "today",
       "title": "Today",
@@ -47,17 +78,12 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
         {
           "id": "s20-question",
           "type": "text-image",
-          "eyebrow": "Session 20 · Probing question",
+          "eyebrow": "Session 20 · Today's question",
           "title": "Have you ever broken something with someone and left it broken?",
           "body": [
             {
               "kind": "lead",
-              "text": "That is the question for this session. It runs through the whole session: the grappling class, rolling and recovery, and the lesson."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 20 of 36. The Initiation, Week 7, Rupture. On the mat that stage runs Chest Pin."
+              "text": "This is your question for today. Keep it in mind during the game and the lesson."
             }
           ],
           "alternates": [
@@ -94,7 +120,7 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Letting people in is a dial you control, and you just found yours."
+                  "text": "Letting people in is like a dial you control. You just found yours."
                 }
               ]
             }
@@ -108,21 +134,21 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
           "body": [
             {
               "kind": "lead",
-              "text": "The first owned finish, a strangle. Trap the head and one arm, hands locked. The choking-side arm has to be trapped before the frame closes, and you release the instant your partner taps, every time."
+              "text": "This is the first finish you own: a strangle. Trap the head and one arm, hands locked together. Trap the choking-side arm before the frame closes. Release the instant your partner taps. Every single time."
             },
             {
               "kind": "paragraph",
-              "text": "Power you can apply and then let go of. The tap is the invitation to repair, and this week asks whether you take it."
+              "text": "This is power you can use and then let go of. The tap is an invitation to repair. This week asks if you take it."
             }
           ],
           "reveals": [
             {
               "id": "key-condition",
-              "label": "What had to be true first",
+              "label": "What you need first",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "The choking-side arm is trapped before the frame closes, released on the tap."
+                  "text": "Trap the choking-side arm before the frame closes. Release the instant your partner taps."
                 }
               ]
             },
@@ -141,7 +167,7 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -167,15 +193,15 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Every finish is released instantly on the tap, every time. The tap is law."
+              "feedback": "Never. Let go the instant your partner taps. Every single time. The tap is law."
             },
             {
               "text": "Overpowering your partner with force",
-              "feedback": "You keep the pin by feeling your partner and adjusting, not by clamping and squeezing. Staying calm and adjusting beats forcing harder."
+              "feedback": "You keep the pin by feeling your partner and moving with them, not by clamping down and squeezing hard. Staying calm beats forcing harder."
             }
           ],
           "correctHead": "That's it.",
-          "correctText": "That is the whole win condition for today.",
+          "correctText": "That is how you win today.",
           "incorrectHead": "Not quite.",
           "incorrectText": "Read the note under your choice, then try again.",
           "revealText": "The right answer is marked above, with the reason."
@@ -194,18 +220,18 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Apply one owned chest-pin finish, a strangle, with full control, releasing the instant the partner taps."
+              "text": "Apply one owned chest-pin finish, a strangle, with full control, and release the instant your partner taps."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Secure one owned chest-pin finish under light resistance.",
+                "Get one owned chest-pin finish locked in against light resistance.",
                 "Release instantly and completely on the partner's tap, every time."
               ]
             }
@@ -214,23 +240,23 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
         {
           "id": "s20-casel",
           "type": "text-image",
-          "eyebrow": "The other half",
-          "title": "And the part that was not about grappling",
+          "eyebrow": "Off the mat",
+          "title": "The part that was not about grappling",
           "body": [
             {
               "kind": "lead",
-              "text": "Name a rupture you left unrepaired, without being required to share it."
+              "text": "Name a rupture you left unrepaired, without having to share it out loud."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Acknowledge a broken connection you never repaired.",
+                "Admit there's a broken connection you never fixed.",
                 "Notice what leaving it broken has cost you."
               ]
             }
@@ -254,7 +280,7 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Chest-to-chest contact, friction, break, and reset on the mat is contact, friction, rupture, and repair between people. The Initiation tests the real self against others."
+                  "text": "Chest-to-chest contact on the mat is like contact with people. Friction on the mat is like friction with people. A break on the mat is like a rupture between people. A reset on the mat is like repair between people. The Initiation tests the real you against other people."
                 }
               ]
             }
@@ -274,11 +300,11 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
           "body": [
             {
               "kind": "lead",
-              "text": "The first owned finish, a strangle. Trap the head and one arm, hands locked. The choking-side arm has to be trapped before the frame closes, and you release the instant your partner taps, every time."
+              "text": "This is the first finish you own: a strangle. Trap the head and one arm, hands locked together. Trap the choking-side arm before the frame closes. Release the instant your partner taps. Every single time."
             },
             {
               "kind": "paragraph",
-              "text": "Power you can apply and then let go of. The tap is the invitation to repair, and this week asks whether you take it."
+              "text": "This is power you can use and then let go of. The tap is an invitation to repair. This week asks if you take it."
             }
           ],
           "reveals": [
@@ -294,7 +320,7 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
             },
             {
               "id": "tap-again",
-              "label": "And the rule under all of it",
+              "label": "And the rule that never changes",
               "content": [
                 {
                   "kind": "list",
@@ -307,7 +333,7 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -327,7 +353,7 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
           "retry": true,
           "options": [
             {
-              "text": "Name a rupture you left unrepaired, without being required to share it.",
+              "text": "Name a rupture you left unrepaired, without having to share it out loud.",
               "correct": true,
               "feedback": "That was the target for today."
             },
@@ -336,7 +362,7 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
               "feedback": "That is Session 23's target, not today's."
             },
             {
-              "text": "Name what you do when another person pushes back, and judge whether it serves you.",
+              "text": "Name what you do when another person pushes back, and say if that habit helps you or hurts you.",
               "feedback": "That is Session 16's target, not today's."
             }
           ],
@@ -360,7 +386,7 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
           "type": "reflection",
           "eyebrow": "Before you go",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — every participant, every session",
+          "kindLabel": "IRF — everyone fills this out, every session",
           "fields": [
             {
               "id": "mat",

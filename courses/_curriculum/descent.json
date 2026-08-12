@@ -17,15 +17,15 @@
     ],
     "grapplingTlo": "By the end of the Descent, participants will apply the Roads to move from a standing start through the guard into a controlled pin, using safe falling and the tap throughout.",
     "caselTlo": "By the end of the Descent, participants will identify their own persona and shadow, naming the mask they perform, what cracks it under pressure, and one true thing underneath.",
-    "connection": "Passing past a partner's guard to what it protects is the same act as looking under the mask to the real self. The Descent digs, on the mat and in the person.",
+    "connection": "Getting past a partner's guard to what it protects is the same act as looking under a mask to the real person. The Descent digs deep, on the mat and inside you.",
     "wrongAnswers": [
       {
         "text": "Submitting your partner",
-        "feedback": "Not in the Roads. These are the two path domains, Enter and Arrive, and they carry no finish — the path delivers you into a pin and the pin owns the finish."
+        "feedback": "Not part of the Roads. Enter and Arrive are the two path steps here, and neither one ends in a submission. The path leads you into a pin, not a finish."
       },
       {
         "text": "Putting your partner down hard",
-        "feedback": "Never. Everything runs at light resistance, and the tap is honored instantly, every time."
+        "feedback": "Never. Everyone goes light, and the tap always stops it right away, every time."
       }
     ]
   },
@@ -39,8 +39,8 @@
       "domain": null,
       "keyCondition": "Safe contact, the tap is understood.",
       "gameName": "Kids Dirty Feet / Dragon Tag Game (mud and guard version, locked win condition)",
-      "gameText": "One partner lies on the ground. They put their feet on the standing partner to keep them out, like they are covered in mud and don't want to get the other person dirty. The standing partner's job is to clear those feet out of the way and get all the way to chest-to-chest contact. Go slow and light, nobody gets put on their back hard today. Switch roles so everyone plays both parts.",
-      "gameNote": "The tap is law. If anyone taps, for any reason, stop immediately.",
+      "gameText": "One partner lies on the ground. They put their feet on the standing partner to keep them out. It's like they are covered in mud and don't want to get the other person dirty. The standing partner's job is to move those feet out of the way and get all the way to chest-to-chest contact. Go slow and stay light. No one gets put on their back hard today. Switch roles so everyone tries both parts.",
+      "gameNote": "The tap is law. If anyone taps, for any reason, stop right away.",
       "gameWin": "Clearing the feet out of the way and getting all the way to chest-to-chest contact",
       "grapplingTlo": null,
       "grapplingElos": [],
@@ -57,22 +57,22 @@
       "probingQuestion": "How do you show up when nobody here knows you yet?",
       "card": "Taking the Base",
       "domain": "Enter",
-      "keyCondition": "A connection the partner has to answer.",
+      "keyCondition": "Make a connection your partner has to answer.",
       "gameName": "Overhook-Underhook Starting Position Game",
-      "gameText": "Both players stand and tie up, one arm over, one arm under. The win is one thing: connect your hands anywhere on your partner's body. No takedowns, no slamming, stay light and standing.",
-      "gameNote": "You are learning to make a connection the other person has to answer, which is the first thing that happens when you meet a stranger on the mat.",
+      "gameText": "Both players stand and tie up. One arm goes over, one arm goes under. There is one way to win: connect your hands anywhere on your partner's body. No takedowns. No slamming. Stay light and stay standing.",
+      "gameNote": "You are learning to make a connection the other person has to answer. That is the first thing that happens when you meet a stranger on the mat.",
       "gameWin": "Connecting your hands anywhere on your partner's body",
-      "grapplingTlo": "By the end of this session, the participant will demonstrate safe contact entry with an unfamiliar partner.",
+      "grapplingTlo": "By the end of this session, the participant will show safe first contact with a partner they do not know.",
       "grapplingElos": [
         "Make controlled first contact with a new partner.",
         "Stay safe while closing distance."
       ],
-      "caselTlo": "By the end of this session, the participant will name their default entrance behavior when new, without judging it.",
+      "caselTlo": "By the end of this session, the participant will name how they act when they are new somewhere, without judging it.",
       "caselElos": [
         "Notice how they enter a new space.",
-        "Name that entrance behavior plainly."
+        "Name that behavior in plain words."
       ],
-      "connection": "How you make first contact on the mat, cautious, rushed, stiff, is your entrance. Naming how you show up when nobody knows you yet is the same pattern, seen off the mat.",
+      "connection": "How you make first contact on the mat, careful, rushed, or stiff, is your entrance. Naming how you show up when nobody knows you yet is the same pattern, seen off the mat.",
       "takeaway": "Everybody has an entrance, and now you can see yours."
     },
     {
@@ -82,23 +82,23 @@
       "probingQuestion": "What are you like before you trust the room?",
       "card": "Taking the Base",
       "domain": "Enter",
-      "keyCondition": "Change direction to break the base, no straight pushes.",
+      "keyCondition": "Change direction to break the base. No straight pushes.",
       "gameName": "Hand Fight with Progression Game",
-      "gameText": "Standing, hands free. Fight for position and win by getting under an elbow and hooking on. Nobody gets slammed down.",
-      "gameNote": "You are learning to break a person's base by changing angles instead of shoving straight into them, the same thing you do when you walk into a new room and find your footing.",
+      "gameText": "Stand with hands free. Fight for position. Win by getting under an elbow and hooking on. No one gets slammed down.",
+      "gameNote": "You are learning to break a person's base by changing angles, not by shoving straight at them. You do the same thing when you walk into a new room and find your footing.",
       "gameWin": "Getting under an elbow and hooking on",
-      "grapplingTlo": "By the end of this session, the participant will identify the takedown starting position and keep safe contact under light movement.",
+      "grapplingTlo": "By the end of this session, the participant will find the neutral standing start and keep safe contact while their partner moves.",
       "grapplingElos": [
-        "Identify the neutral standing start.",
+        "Find the neutral standing start.",
         "Keep safe contact as the partner moves."
       ],
-      "caselTlo": "By the end of this session, the participant will name one thing they do to protect themselves before they trust a space, and name it as a strength.",
+      "caselTlo": "By the end of this session, the participant will name one thing they do to protect themselves before they trust a space, and call it a strength.",
       "caselElos": [
         "Name one protective habit.",
-        "Frame it as smart, not weak."
+        "Call it smart, not weak."
       ],
-      "connection": "Staying safe and guarded on the mat before you trust a partner is the same guard you run before you trust a room. Both are smart. Naming it is the work.",
-      "takeaway": "The guard is smart, and next week we look at the face that guard wears, the mask."
+      "connection": "Staying safe and guarded on the mat before you trust a partner is the same guard you use before you trust a room. Both are smart. Naming it is the work.",
+      "takeaway": "The guard is smart. Next week we look at the face that guard wears: the mask."
     },
     {
       "n": 4,
@@ -109,21 +109,21 @@
       "domain": "Enter, from the retainer's side",
       "keyCondition": "Keep a frame and the feet between you and the passer.",
       "gameName": "Keep Feet Off, Belly Up Open Guard Introduction",
-      "gameText": "One player sits back, belly up, legs and feet in front of them. The other tries to get past. The bottom player wins by keeping their feet on the other person and not letting them in.",
-      "gameNote": "This is guard retention: holding a barrier between you and someone else. Same job the mask does.",
+      "gameText": "One player sits back, belly up, with legs and feet out in front. The other player tries to get past. The bottom player wins by keeping their feet on the other person and not letting them in.",
+      "gameNote": "This is guard retention. You hold a barrier between you and someone else. The mask does the same job.",
       "gameWin": "The bottom player keeping their feet on the other person and not letting them in",
-      "grapplingTlo": "By the end of this session, the participant will apply guard retention to keep a partner from passing the legs.",
+      "grapplingTlo": "By the end of this session, the participant will use guard retention to stop a partner from passing their legs.",
       "grapplingElos": [
-        "Keep or recover guard against a light pass.",
+        "Keep or get back guard against a light pass.",
         "Frame to hold distance."
       ],
-      "caselTlo": "By the end of this session, the participant will name one way they perform differently when watched.",
+      "caselTlo": "By the end of this session, the participant will name one way they act differently when people are watching them.",
       "caselElos": [
-        "Notice the watched self versus the private self.",
-        "Name one performed behavior."
+        "Notice how they act differently when watched, versus alone.",
+        "Name one behavior they perform for others."
       ],
-      "connection": "Keeping your guard is keeping a boundary between you and the other person. The mask does the same job socially. Retention on the mat and the performed self are two versions of the same guard.",
-      "takeaway": "Everybody wears a face for the crowd, and now yours has a name."
+      "connection": "Keeping your guard means keeping a boundary between you and the other person. The mask does the same job with people. Guard retention on the mat and the mask you wear are the same thing.",
+      "takeaway": "Everybody wears a face for the crowd. Now yours has a name."
     },
     {
       "n": 5,
@@ -132,23 +132,23 @@
       "probingQuestion": "What version of you shows up here, and where did you learn it?",
       "card": "Controlling the Legs",
       "domain": "Enter, retainer's side",
-      "keyCondition": "Follow the passer, keep the legs between you as the angle changes.",
+      "keyCondition": "Follow the passer. Keep your legs between you as the angle changes.",
       "gameName": "Open Guard Multiple Connection Game",
-      "gameText": "The bottom player keeps the legs working while the top player circles and changes angles. Win by keeping your connections, feet and hands, on the partner as they move.",
-      "gameNote": "You are learning to hold a boundary while the other person keeps shifting, not just when they stay still, which is where a learned defense comes from.",
+      "gameText": "The bottom player keeps the legs working while the top player circles and changes angles. Win by keeping your connections, feet and hands, on your partner as they move.",
+      "gameNote": "You are learning to hold a boundary while the other person keeps moving, not just when they stand still. That is where a learned defense comes from.",
       "gameWin": "Keeping your connections, feet and hands, on the partner as they move",
-      "grapplingTlo": "By the end of this session, the participant will apply guard retention while the partner changes angles.",
+      "grapplingTlo": "By the end of this session, the participant will keep guard retention while their partner changes angles.",
       "grapplingElos": [
         "Follow the partner and keep the legs between you.",
-        "Reset guard when it is threatened."
+        "Reset guard when it is in danger."
       ],
-      "caselTlo": "By the end of this session, the participant will connect their mask to where or who they learned it from, without being required to share the story.",
+      "caselTlo": "By the end of this session, the participant will trace their mask back to where or who they learned it from, without having to share the story.",
       "caselElos": [
-        "Trace the performed self to an origin.",
+        "Trace their mask back to where it came from.",
         "Keep the story optional."
       ],
-      "connection": "The guard you keep was drilled into you somewhere, and so was the mask. Both are learned defenses. Tracing where you learned to guard is the same move on and off the mat.",
-      "takeaway": "The mask made sense where you got it, and that means it is a choice, not a life sentence."
+      "connection": "The guard you keep was drilled into you somewhere, and so was the mask. Both are learned defenses. Finding where you learned to guard is the same move on and off the mat.",
+      "takeaway": "The mask made sense where you learned it. That means it is a choice, not a life sentence."
     },
     {
       "n": 6,
@@ -159,21 +159,21 @@
       "domain": "Enter, retainer's side",
       "keyCondition": "Protect the space behind the legs.",
       "gameName": "Knee Pit Touchdown Game, played from the retaining side",
-      "gameText": "One partner, the passer, tries to touch both of the other partner's knee pits with their own feet off the ground. The retaining partner's job is to keep their knees and feet moving so the passer cannot land both touches. Switch roles so everyone feels both jobs.",
+      "gameText": "One partner, the passer, tries to touch both of the other partner's knee pits with their own feet off the ground. The other partner's job is to keep their knees and feet moving so the passer cannot land both touches. Switch roles so everyone tries both jobs.",
       "gameNote": "Stay light. The tap is law.",
       "gameWin": "Keeping your knees and feet moving so the passer cannot land both touches",
-      "grapplingTlo": "By the end of this session, the participant will apply guard retention to protect the space behind the legs.",
+      "grapplingTlo": "By the end of this session, the participant will use guard retention to protect the space behind their legs.",
       "grapplingElos": [
         "Hold the frame that protects the pin space.",
         "Notice when the guard is about to be beaten."
       ],
       "caselTlo": "By the end of this session, the participant will name what their mask defends against.",
       "caselElos": [
-        "Name the mask's function.",
-        "Keep the depth optional."
+        "Name what the mask does.",
+        "Share only as much as they want."
       ],
       "connection": "Your guard protects the space behind your legs. Your mask protects something too. Naming what the guard defends is the same as naming what the mask hides.",
-      "takeaway": "The mask has a job, and next week we find out what happens to it under pressure."
+      "takeaway": "The mask has a job. Next week we find out what happens to it under pressure."
     },
     {
       "n": 7,
@@ -182,14 +182,14 @@
       "probingQuestion": "What happens to your mask when you're losing?",
       "card": "Controlling the Legs",
       "domain": "Enter",
-      "keyCondition": "Take the base first, destabilize before advancing.",
+      "keyCondition": "Take the base first. Break their balance before you move forward.",
       "gameName": "Closed Guard Opening, Hands on Body",
-      "gameText": "Now you are the one trying to get past. Win by opening the guard: hands on the body, break it down, clear the feet. Light pressure only, nobody gets crushed.",
+      "gameText": "Now you are the one trying to get past. Win by opening the guard. Put your hands on the body, break it down, clear the feet. Use light pressure only. No one gets crushed.",
       "gameNote": "This is where the guard, the mask, starts getting beaten.",
       "gameWin": "Opening the guard — hands on the body, break it down, clear the feet",
-      "grapplingTlo": "By the end of this session, the participant will apply base and framing while under a passing attempt as the guard is beaten.",
+      "grapplingTlo": "By the end of this session, the participant will use base and framing to defend their guard while a partner tries to pass it.",
       "grapplingElos": [
-        "Recognize when the guard is being passed.",
+        "Notice when the guard is being passed.",
         "Reset to a safe position after being passed."
       ],
       "caselTlo": "By the end of this session, the participant will name what shows up when they lose, the reaction under the mask.",
@@ -197,8 +197,8 @@
         "Notice their reaction to losing the position.",
         "Name what comes out under pressure."
       ],
-      "connection": "When your guard gets passed, the mask cracks and something real shows. Getting passed on the mat and cracking under pressure are the same moment, felt in the body first.",
-      "takeaway": "Losing cracks the mask, and what comes out is information, not failure."
+      "connection": "When your guard gets passed, the mask cracks and something real shows. Getting passed on the mat and cracking under pressure are the same moment. You feel it in your body first.",
+      "takeaway": "Losing cracks the mask. What comes out tells you something. It is not failure."
     },
     {
       "n": 8,
@@ -209,20 +209,20 @@
       "domain": "Enter",
       "keyCondition": "Clear the first checkpoint, feet or knees.",
       "gameName": "Feet-Off Guard Passing Game",
-      "gameText": "The top player works to clear the first checkpoint. Win with shin-to-body contact inside or outside the knees, feet off.",
-      "gameNote": "You are learning to clear one gate at a time when everyone is a little tired, which is when the real reactions start to leak out.",
+      "gameText": "The top player works to clear the first checkpoint. Win with shin-to-body contact, inside or outside the knees, feet off the ground.",
+      "gameNote": "You are learning to clear one gate at a time when everyone is a little tired. That is when the real reactions start to show.",
       "gameWin": "Shin-to-body contact inside or outside the knees, feet off",
-      "grapplingTlo": "By the end of this session, the participant will apply the first passing checkpoints against a tired, lighter guard.",
+      "grapplingTlo": "By the end of this session, the participant will pass the first checkpoints against a tired, lighter guard.",
       "grapplingElos": [
         "Clear one checkpoint, the feet or the knees.",
         "Keep control while passing."
       ],
       "caselTlo": "By the end of this session, the participant will name what comes out when they are too tired to perform.",
       "caselElos": [
-        "Notice the honest reaction under fatigue.",
-        "Name it without judgment."
+        "Notice the honest reaction when they are tired.",
+        "Name it without judging it."
       ],
-      "connection": "When you and your partner tire, the fakery drops on both sides, the passer and the guard. What slips out when you are too tired to perform is the truest thing, on the mat and off.",
+      "connection": "When you and your partner get tired, the fake stuff drops on both sides, the passer and the guard. What slips out when you are too tired to perform is the truest thing about you, on the mat and off.",
       "takeaway": "What shows up when you are empty is often the truest thing about you."
     },
     {
@@ -232,22 +232,22 @@
       "probingQuestion": "When you crack, what's the first thing that shows?",
       "card": "Controlling the Legs",
       "domain": "Enter",
-      "keyCondition": "Clear the checkpoints in order, name where the guard breaks.",
+      "keyCondition": "Clear the checkpoints in order. Name where the guard breaks.",
       "gameName": "Knee Pit Touchdown Game, played from the passing side (same game as Session 6, opposite role, intentional repeat)",
-      "gameText": "The top player clears the checkpoints in order. Win by touching both knee pits while keeping the feet off.",
-      "gameNote": "You are learning exactly where a guard breaks, your partner's and your own, which is the same as knowing your tell.",
+      "gameText": "The top player clears the checkpoints in order. Win by touching both knee pits while keeping your feet off the ground.",
+      "gameNote": "You are learning exactly where a guard breaks, your partner's and your own. That is the same as knowing your tell.",
       "gameWin": "Touching both knee pits while keeping the feet off",
-      "grapplingTlo": "By the end of this session, the participant will apply passing and identify the checkpoint where the guard breaks.",
+      "grapplingTlo": "By the end of this session, the participant will pass the guard and find the checkpoint where it breaks.",
       "grapplingElos": [
         "Clear checkpoints in order.",
         "Name the checkpoint that gave way."
       ],
-      "caselTlo": "By the end of this session, the participant will identify their personal tell, the first reliable sign they have cracked.",
+      "caselTlo": "By the end of this session, the participant will name their personal tell, the first sure sign they have cracked.",
       "caselElos": [
-        "Name their first reliable crack signal.",
-        "Connect catching it early to a different choice."
+        "Name their first sure sign they have cracked.",
+        "See how catching it early lets them choose differently."
       ],
-      "connection": "The checkpoint where a guard always breaks is a tell, and so is the first thing that shows when you crack. Finding the exact break point on the mat is the same precision as knowing your own tell.",
+      "connection": "The checkpoint where a guard always breaks is a tell, and so is the first thing that shows when you crack. Finding the exact break point on the mat is the same skill as knowing your own tell.",
       "takeaway": "Knowing your tell is power, because you can catch yourself."
     },
     {
@@ -262,17 +262,17 @@
       "gameText": "The top player gets past the legs. Win by touching one side outside the legs, then going around to chest contact.",
       "gameNote": "You are getting past the defense to what it was hiding, on the mat and under the mask.",
       "gameWin": "Touching one side outside the legs, then going around to chest contact",
-      "grapplingTlo": "By the end of this session, the participant will apply the pass to advance past the legs toward a pin.",
+      "grapplingTlo": "By the end of this session, the participant will pass the legs and move toward a pin.",
       "grapplingElos": [
         "Clear the checkpoints to get past the legs.",
         "Reach chest contact past the guard."
       ],
-      "caselTlo": "By the end of this session, the participant will name one true thing about themselves that lives under the performance.",
+      "caselTlo": "By the end of this session, the participant will name one true thing about themselves that lives under the act they put on.",
       "caselElos": [
-        "Look beneath the performed self.",
+        "Look under the self they perform for others.",
         "Name one true thing under it."
       ],
-      "connection": "Getting past the legs reveals what the guard was hiding. Looking under your mask reveals the real self. Passing and revealing are the same move: getting past the defense to what is behind it.",
+      "connection": "Getting past the legs shows what the guard was hiding. Looking under your mask shows the real you. Passing and revealing are the same move: get past the defense to what is behind it.",
       "takeaway": "What is under the mask is not worse than the mask, it is just true."
     },
     {
@@ -284,20 +284,20 @@
       "domain": "Arrive",
       "keyCondition": "Land the pin and hold the arrival for a three-count.",
       "gameName": "Half Guard Side-Position Game",
-      "gameText": "The top player completes the pass and lands the pin. Win by getting under one elbow and connecting your hands, then holding it for a three-count.",
+      "gameText": "The top player finishes the pass and lands the pin. Win by getting under one elbow and connecting your hands, then holding it for a three-count.",
       "gameNote": "You have arrived past the guard. What was hidden is now out in the open.",
       "gameWin": "Getting under one elbow, connecting your hands, and holding it for a three-count",
-      "grapplingTlo": "By the end of this session, the participant will apply the pass to arrive in a pin with the control conditions true.",
+      "grapplingTlo": "By the end of this session, the participant will pass the guard and arrive in a full pin.",
       "grapplingElos": [
-        "Complete the pass into a controlled chest position.",
+        "Finish the pass into a controlled chest position.",
         "Hold the arrival for a three-count."
       ],
-      "caselTlo": "By the end of this session, the participant will acknowledge, to themselves at minimum, one part they have hidden even from themselves.",
+      "caselTlo": "By the end of this session, the participant will admit, at least to themselves, one part they have hidden even from themselves.",
       "caselElos": [
         "Look at one hidden part.",
-        "Keep it private if chosen."
+        "Keep it private if they choose."
       ],
-      "connection": "Arriving past the guard puts you in contact with what was most protected. Naming the Shadow does the same inside you. Both reach the thing that was hidden deepest.",
+      "connection": "Arriving past the guard puts you in touch with what was most protected. Naming the Shadow does the same thing inside you. Both reach the thing that was hidden deepest.",
       "privateOk": true,
       "takeaway": "Naming the hidden part, even silently, is the bravest thing the mat asks of you."
     },
@@ -308,22 +308,22 @@
       "probingQuestion": "If the mask came off in here, who would we meet?",
       "card": "The Roads, integrated",
       "domain": "Enter and Arrive",
-      "keyCondition": "Enter, pass, and arrive in one sequence, tap honored throughout.",
+      "keyCondition": "Enter, pass, and arrive in one sequence. Honor the tap the whole time.",
       "gameName": "Open Guard Takedown and Escape Game",
-      "gameText": "The whole trip in one round. From a standing or seated start, get it down, get past the legs, arrive in a pin. Both players play, the bottom can put the top down and stand up, and the tap is honored the whole way.",
+      "gameText": "The whole trip happens in one round. From a standing or seated start, get it down, get past the legs, and arrive in a pin. Both players get a turn. The bottom player can put the top player down and stand up. The tap is honored the whole way.",
       "gameNote": "This is the whole Descent on the mat, from arrival to the real self revealed.",
       "gameWin": "Getting it down, past the legs, and arriving in a pin — the whole trip in one round",
-      "grapplingTlo": "By the end of this session, the participant will apply the Roads from a standing start through to a pin arrival.",
+      "grapplingTlo": "By the end of this session, the participant will run the Roads from a standing start all the way to a pin.",
       "grapplingElos": [
         "Enter, pass, and arrive in one sequence.",
         "Give and honor the tap throughout."
       ],
-      "caselTlo": "By the end of this session, the participant will offer, to the degree they choose, a picture of the real self the Descent uncovered.",
+      "caselTlo": "By the end of this session, the participant will share, as much as they choose, a picture of the real self the Descent uncovered.",
       "caselElos": [
-        "Describe the real self, seen.",
-        "Bring it into the room to be witnessed."
+        "Describe the real self, now seen.",
+        "Bring it into the room so others can see it."
       ],
-      "connection": "Running the whole Roads from standing to a pin is the mat's version of the whole Descent, from arrival to the real self revealed. This session integrates both journeys into one.",
+      "connection": "Running the whole Roads from standing to a pin is the mat's version of the whole Descent, from arrival to the real self revealed. This session brings both journeys together into one.",
       "stageClose": true,
       "takeaway": "You showed up, cracked, and stayed, and the room met the real you."
     }

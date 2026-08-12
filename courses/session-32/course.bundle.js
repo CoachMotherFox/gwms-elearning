@@ -19,26 +19,57 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
     "bloom": "Apply and Analyze",
     "card": "The Back Pin",
     "domain": "Finish, Arm Lock from back",
-    "keyCondition": "The shoulder anchored and the wrist controlled before extension, released on the tap.",
+    "keyCondition": "Anchor the shoulder and control the wrist before you extend. Release on the tap.",
     "gameName": "Chest to Back to Precursor Transitions Game",
     "probingQuestion": "What standard are you setting for whoever comes next?",
-    "grapplingTlo": "By the end of this session, the participant will apply the arm lock from the back with control, and analyze how their conduct sets the room's standard.",
+    "grapplingTlo": "By the end of this session, the participant will use the arm lock from the back with control, and name how their actions set the standard for the room.",
     "looksBackAt": 26,
     "grapplingElos": [
-      "Secure the back arm lock under control, releasing on the tap.",
-      "Identify one way their conduct sets a standard others follow."
+      "Get the back arm lock with control, and release on the tap.",
+      "Name one way their actions set a standard others follow."
     ],
     "caselTlo": "By the end of this session, the participant will name the standard they set for whoever comes after them.",
     "caselElos": [
-      "Identify the standard their behavior currently sets.",
+      "Name the standard their behavior sets right now.",
       "Name whether it is the one they want to set."
     ],
-    "connection": "How you carry yourself in the room, how you finish, how you treat a new partner, quietly sets the bar for everyone watching. The standard you set for whoever comes next in life works the same way. Your conduct is the standard.",
-    "takeaway": "Your conduct is the standard, so choose it on purpose.",
+    "connection": "How you carry yourself in the room, how you finish, how you treat a new partner, quietly sets the bar for everyone watching. The standard you set for whoever comes next in life works the same way. How you act is the standard.",
+    "takeaway": "How you act is the standard, so choose it on purpose.",
     "_source": "GWMS Curriculum Guide — Session 32 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
+    {
+      "id": "start",
+      "title": "Welcome",
+      "slides": [
+        {
+          "id": "s32-welcome",
+          "type": "text-image",
+          "eyebrow": "Welcome",
+          "title": "Welcome to GWMS Online",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "This is Session 32 of 36: Legacy."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
+            },
+            {
+              "kind": "callout",
+              "label": "Where this sits",
+              "text": "Session 32 of 36. The Return, Week 11, Legacy. On the mat that stage runs Back Pin."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Take your time. There are no wrong answers when you write about yourself."
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "today",
       "title": "Today",
@@ -46,17 +77,12 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
         {
           "id": "s32-question",
           "type": "text-image",
-          "eyebrow": "Session 32 · Probing question",
+          "eyebrow": "Session 32 · Today's question",
           "title": "What standard are you setting for whoever comes next?",
           "body": [
             {
               "kind": "lead",
-              "text": "That is the question for this session. It runs through the whole session: the grappling class, rolling and recovery, and the lesson."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 32 of 36. The Return, Week 11, Legacy. On the mat that stage runs Back Pin."
+              "text": "This is your question for today. Keep it in mind during the game and the lesson."
             }
           ],
           "alternates": [
@@ -107,21 +133,21 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
           "body": [
             {
               "kind": "lead",
-              "text": "The arm lock from the back. Move through the precursor grips, shoulder anchored and wrist controlled before any extension, released on the tap."
+              "text": "The arm lock from the back. Move through the setup grips. Anchor the shoulder and control the wrist before you extend. Release on the tap."
             },
             {
               "kind": "paragraph",
-              "text": "Your conduct here, controlled and clean, is the standard the next person copies."
+              "text": "How you act here, controlled and clean, is the standard the next person copies."
             }
           ],
           "reveals": [
             {
               "id": "key-condition",
-              "label": "What had to be true first",
+              "label": "What you need first",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "The shoulder anchored and the wrist controlled before extension, released on the tap."
+                  "text": "Anchor the shoulder and control the wrist before you extend. Release on the tap."
                 }
               ]
             },
@@ -140,7 +166,7 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -160,21 +186,21 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
           "retry": true,
           "options": [
             {
-              "text": "Moving through the precursor grips with the shoulder anchored and the wrist controlled before any extension",
+              "text": "Moving through the setup grips with the shoulder anchored and the wrist controlled before any extension",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Every finish is released instantly on the tap, every time. The tap is law."
+              "feedback": "Never. You let go the second your partner taps. Every single time. The tap is law."
             },
             {
               "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing the Back Pin exists to teach you not to do. Total control with the choice not to harm is the core of the whole program."
+              "feedback": "That is the one thing the Back Pin teaches you never to do. Total control, plus the choice not to hurt someone, is the heart of the whole program."
             }
           ],
           "correctHead": "That's it.",
-          "correctText": "That is the whole win condition for today.",
+          "correctText": "That is how you win today.",
           "incorrectHead": "Not quite.",
           "incorrectText": "Read the note under your choice, then try again.",
           "revealText": "The right answer is marked above, with the reason."
@@ -193,19 +219,19 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Apply the arm lock from the back with control, and analyze how your conduct sets the room's standard."
+              "text": "Use the arm lock from the back with control, and name how your actions set the standard for the room."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Secure the back arm lock under control, releasing on the tap.",
-                "Identify one way your conduct sets a standard others follow."
+                "Get the back arm lock with control, and release on the tap.",
+                "Name one way your actions set a standard others follow."
               ]
             }
           ]
@@ -213,8 +239,8 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
         {
           "id": "s32-casel",
           "type": "text-image",
-          "eyebrow": "The other half",
-          "title": "And the part that was not about grappling",
+          "eyebrow": "Off the mat",
+          "title": "The part that was not about grappling",
           "body": [
             {
               "kind": "lead",
@@ -223,13 +249,13 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Identify the standard your behavior currently sets.",
+                "Name the standard your behavior sets right now.",
                 "Name whether it is the one you want to set."
               ]
             }
@@ -243,7 +269,7 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
           "body": [
             {
               "kind": "lead",
-              "text": "How you carry yourself in the room, how you finish, how you treat a new partner, quietly sets the bar for everyone watching. The standard you set for whoever comes next in life works the same way. Your conduct is the standard."
+              "text": "How you carry yourself in the room, how you finish, how you treat a new partner, quietly sets the bar for everyone watching. The standard you set for whoever comes next in life works the same way. How you act is the standard."
             }
           ],
           "reveals": [
@@ -253,7 +279,7 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Total control with the choice not to harm is the core of the whole program, turned into a decision the participant carries out the door."
+                  "text": "Total control, plus the choice not to hurt someone, is the heart of the whole program. Now you carry that choice out the door."
                 }
               ]
             }
@@ -273,11 +299,11 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
           "body": [
             {
               "kind": "lead",
-              "text": "The arm lock from the back. Move through the precursor grips, shoulder anchored and wrist controlled before any extension, released on the tap."
+              "text": "The arm lock from the back. Move through the setup grips. Anchor the shoulder and control the wrist before you extend. Release on the tap."
             },
             {
               "kind": "paragraph",
-              "text": "Your conduct here, controlled and clean, is the standard the next person copies."
+              "text": "How you act here, controlled and clean, is the standard the next person copies."
             }
           ],
           "reveals": [
@@ -287,13 +313,13 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Moving through the precursor grips with the shoulder anchored and the wrist controlled before any extension"
+                  "text": "Moving through the setup grips with the shoulder anchored and the wrist controlled before any extension"
                 }
               ]
             },
             {
               "id": "tap-again",
-              "label": "And the rule under all of it",
+              "label": "And the rule that never changes",
               "content": [
                 {
                   "kind": "list",
@@ -306,7 +332,7 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -359,7 +385,7 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
           "type": "reflection",
           "eyebrow": "Before you go",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — every participant, every session",
+          "kindLabel": "IRF — everyone fills this out, every session",
           "fields": [
             {
               "id": "mat",

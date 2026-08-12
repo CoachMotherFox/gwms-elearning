@@ -20,26 +20,57 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
     "bloom": "Apply",
     "card": "The Roads, integrated",
     "domain": "Enter and Arrive",
-    "keyCondition": "Enter, pass, and arrive in one sequence, tap honored throughout.",
+    "keyCondition": "Enter, pass, and arrive in one sequence. Honor the tap the whole time.",
     "gameName": "Open Guard Takedown and Escape Game",
     "probingQuestion": "If the mask came off in here, who would we meet?",
-    "grapplingTlo": "By the end of this session, the participant will apply the Roads from a standing start through to a pin arrival.",
+    "grapplingTlo": "By the end of this session, the participant will run the Roads from a standing start all the way to a pin.",
     "looksBackAt": 6,
     "grapplingElos": [
       "Enter, pass, and arrive in one sequence.",
       "Give and honor the tap throughout."
     ],
-    "caselTlo": "By the end of this session, the participant will offer, to the degree they choose, a picture of the real self the Descent uncovered.",
+    "caselTlo": "By the end of this session, the participant will share, as much as they choose, a picture of the real self the Descent uncovered.",
     "caselElos": [
-      "Describe the real self, seen.",
-      "Bring it into the room to be witnessed."
+      "Describe the real self, now seen.",
+      "Bring it into the room so others can see it."
     ],
-    "connection": "Running the whole Roads from standing to a pin is the mat's version of the whole Descent, from arrival to the real self revealed. This session integrates both journeys into one.",
+    "connection": "Running the whole Roads from standing to a pin is the mat's version of the whole Descent, from arrival to the real self revealed. This session brings both journeys together into one.",
     "takeaway": "You showed up, cracked, and stayed, and the room met the real you.",
     "_source": "GWMS Curriculum Guide — Session 12 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
+    {
+      "id": "start",
+      "title": "Welcome",
+      "slides": [
+        {
+          "id": "s12-welcome",
+          "type": "text-image",
+          "eyebrow": "Welcome",
+          "title": "Welcome to GWMS Online",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "This is Session 12 of 36: Reveal."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
+            },
+            {
+              "kind": "callout",
+              "label": "Where this sits",
+              "text": "Session 12 of 36. The Descent, Week 4, Reveal. On the mat that stage runs The Roads."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Take your time. There are no wrong answers when you write about yourself."
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "today",
       "title": "Today",
@@ -47,17 +78,12 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
         {
           "id": "s12-question",
           "type": "text-image",
-          "eyebrow": "Session 12 · Probing question",
+          "eyebrow": "Session 12 · Today's question",
           "title": "If the mask came off in here, who would we meet?",
           "body": [
             {
               "kind": "lead",
-              "text": "That is the question for this session. It runs through the whole session: the grappling class, rolling and recovery, and the lesson."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 12 of 36. The Descent, Week 4, Reveal. On the mat that stage runs The Roads."
+              "text": "This is your question for today. Keep it in mind during the game and the lesson."
             }
           ],
           "alternates": [
@@ -94,7 +120,7 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "The mask has a job, and next week we find out what happens to it under pressure."
+                  "text": "The mask has a job. Next week we find out what happens to it under pressure."
                 }
               ]
             }
@@ -108,7 +134,7 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
           "body": [
             {
               "kind": "lead",
-              "text": "The whole trip in one round. From a standing or seated start, get it down, get past the legs, arrive in a pin. Both players play, the bottom can put the top down and stand up, and the tap is honored the whole way."
+              "text": "The whole trip happens in one round. From a standing or seated start, get it down, get past the legs, and arrive in a pin. Both players get a turn. The bottom player can put the top player down and stand up. The tap is honored the whole way."
             },
             {
               "kind": "paragraph",
@@ -118,11 +144,11 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
           "reveals": [
             {
               "id": "key-condition",
-              "label": "What had to be true first",
+              "label": "What you need first",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Enter, pass, and arrive in one sequence, tap honored throughout."
+                  "text": "Enter, pass, and arrive in one sequence. Honor the tap the whole time."
                 }
               ]
             },
@@ -141,7 +167,7 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -167,15 +193,15 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not in the Roads. These are the two path domains, Enter and Arrive, and they carry no finish — the path delivers you into a pin and the pin owns the finish."
+              "feedback": "Not part of the Roads. Enter and Arrive are the two path steps here, and neither one ends in a submission. The path leads you into a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
-              "feedback": "Never. Everything runs at light resistance, and the tap is honored instantly, every time."
+              "feedback": "Never. Everyone goes light, and the tap always stops it right away, every time."
             }
           ],
           "correctHead": "That's it.",
-          "correctText": "That is the whole win condition for today.",
+          "correctText": "That is how you win today.",
           "incorrectHead": "Not quite.",
           "incorrectText": "Read the note under your choice, then try again.",
           "revealText": "The right answer is marked above, with the reason."
@@ -194,12 +220,12 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Apply the Roads from a standing start through to a pin arrival."
+              "text": "Run the Roads from a standing start all the way to a pin."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
@@ -214,24 +240,24 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
         {
           "id": "s12-casel",
           "type": "text-image",
-          "eyebrow": "The other half",
-          "title": "And the part that was not about grappling",
+          "eyebrow": "Off the mat",
+          "title": "The part that was not about grappling",
           "body": [
             {
               "kind": "lead",
-              "text": "Offer, to the degree you choose, a picture of the real self the Descent uncovered."
+              "text": "Share, as much as you choose, a picture of the real self the Descent uncovered."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Describe the real self, seen.",
-                "Bring it into the room to be witnessed."
+                "Describe the real self, now seen.",
+                "Bring it into the room so others can see it."
               ]
             }
           ]
@@ -244,7 +270,7 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Running the whole Roads from standing to a pin is the mat's version of the whole Descent, from arrival to the real self revealed. This session integrates both journeys into one."
+              "text": "Running the whole Roads from standing to a pin is the mat's version of the whole Descent, from arrival to the real self revealed. This session brings both journeys together into one."
             }
           ],
           "reveals": [
@@ -254,7 +280,7 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Passing past a partner's guard to what it protects is the same act as looking under the mask to the real self. The Descent digs, on the mat and in the person."
+                  "text": "Getting past a partner's guard to what it protects is the same act as looking under a mask to the real person. The Descent digs deep, on the mat and inside you."
                 }
               ]
             }
@@ -274,7 +300,7 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
           "body": [
             {
               "kind": "lead",
-              "text": "The whole trip in one round. From a standing or seated start, get it down, get past the legs, arrive in a pin. Both players play, the bottom can put the top down and stand up, and the tap is honored the whole way."
+              "text": "The whole trip happens in one round. From a standing or seated start, get it down, get past the legs, and arrive in a pin. Both players get a turn. The bottom player can put the top player down and stand up. The tap is honored the whole way."
             },
             {
               "kind": "paragraph",
@@ -294,7 +320,7 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
             },
             {
               "id": "tap-again",
-              "label": "And the rule under all of it",
+              "label": "And the rule that never changes",
               "content": [
                 {
                   "kind": "list",
@@ -307,7 +333,7 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -327,16 +353,16 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
           "retry": true,
           "options": [
             {
-              "text": "Offer, to the degree you choose, a picture of the real self the Descent uncovered.",
+              "text": "Share, as much as you choose, a picture of the real self the Descent uncovered.",
               "correct": true,
               "feedback": "That was the target for today."
             },
             {
-              "text": "Name one way you perform differently when watched.",
+              "text": "Name one way you act differently when people are watching you.",
               "feedback": "That is Session 4's target, not today's."
             },
             {
-              "text": "Identify your personal tell, the first reliable sign you have cracked.",
+              "text": "Name your personal tell, the first sure sign you have cracked.",
               "feedback": "That is Session 9's target, not today's."
             }
           ],
@@ -360,7 +386,7 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
           "type": "reflection",
           "eyebrow": "Before you go",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — every participant, every session",
+          "kindLabel": "IRF — everyone fills this out, every session",
           "fields": [
             {
               "id": "mat",

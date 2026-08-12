@@ -19,26 +19,57 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
     "bloom": "Apply and Analyze",
     "card": "The Back Pin",
     "domain": "Control",
-    "keyCondition": "Chest on back with hips, shoulders, and the ear-to-mat head wedge held together, three-count.",
+    "keyCondition": "Chest on their back, with hips, shoulders, and head wedge locked together. Hold for a three-count.",
     "gameName": "Back Take, Maintain Chest to Back Contact",
     "probingQuestion": "What's actually different in you now?",
-    "grapplingTlo": "By the end of this session, the participant will apply back-pin control to take and hold the back, and analyze what they can do now that they could not at the start.",
+    "grapplingTlo": "By the end of this session, the participant will use back-pin control to take and hold the back, and name what they can do now that they could not do at the start.",
     "looksBackAt": 22,
     "grapplingElos": [
       "Take and hold the back-pin position for a three-count against light resistance.",
-      "Identify one control skill they hold now that they did not in the Descent."
+      "Name one control skill they have now that they did not have in the Descent."
     ],
-    "caselTlo": "By the end of this session, the participant will name what is actually different in them now and locate the change rather than perform it.",
+    "caselTlo": "By the end of this session, the participant will name what is really different in them now, and find real proof of the change instead of just talking about it.",
     "caselElos": [
       "Name one real change in themselves since Session 1.",
-      "Distinguish a change they can demonstrate from one they only talk about."
+      "Tell apart a change they can show from one they only talk about."
     ],
-    "connection": "Taking the back is a position you literally could not hold twelve weeks ago. It is proof of change you can feel. Naming what is different in you works the same way. Real change is something you can show, not just say.",
+    "connection": "Twelve weeks ago, you could not hold this position at all. Now you can. That is proof of change you can feel. Naming what is different in you works the same way. Real change is something you can show, not just say.",
     "takeaway": "Change you can show is real change.",
     "_source": "GWMS Curriculum Guide — Session 25 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
+    {
+      "id": "start",
+      "title": "Welcome",
+      "slides": [
+        {
+          "id": "s25-welcome",
+          "type": "text-image",
+          "eyebrow": "Welcome",
+          "title": "Welcome to GWMS Online",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "This is Session 25 of 36: Emergence."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
+            },
+            {
+              "kind": "callout",
+              "label": "Where this sits",
+              "text": "Session 25 of 36. The Return, Week 9, Emergence. On the mat that stage runs Back Pin."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Take your time. There are no wrong answers when you write about yourself."
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "today",
       "title": "Today",
@@ -46,17 +77,12 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
         {
           "id": "s25-question",
           "type": "text-image",
-          "eyebrow": "Session 25 · Probing question",
+          "eyebrow": "Session 25 · Today's question",
           "title": "What's actually different in you now?",
           "body": [
             {
               "kind": "lead",
-              "text": "That is the question for this session. It runs through the whole session: the grappling class, rolling and recovery, and the lesson."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 25 of 36. The Return, Week 9, Emergence. On the mat that stage runs Back Pin."
+              "text": "This is your question for today. Keep it in mind during the game and the lesson."
             }
           ],
           "alternates": [
@@ -107,21 +133,21 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Take the back and hold it, chest on their back, for a three-count against light resistance."
+              "text": "Take the back and hold it. Keep your chest on their back for a three-count. Use light resistance."
             },
             {
               "kind": "paragraph",
-              "text": "Twelve weeks ago you could not hold this position. That you can now is change you can feel, not just talk about."
+              "text": "Twelve weeks ago, you could not hold this position. Now you can. That is change you can feel, not just talk about."
             }
           ],
           "reveals": [
             {
               "id": "key-condition",
-              "label": "What had to be true first",
+              "label": "What you need first",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Chest on back with hips, shoulders, and the ear-to-mat head wedge held together, three-count."
+                  "text": "Chest on their back, with hips, shoulders, and head wedge locked together. Hold for a three-count."
                 }
               ]
             },
@@ -140,7 +166,7 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -166,15 +192,15 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Every finish is released instantly on the tap, every time. The tap is law."
+              "feedback": "Never. You let go the second your partner taps. Every single time. The tap is law."
             },
             {
               "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing the Back Pin exists to teach you not to do. Total control with the choice not to harm is the core of the whole program."
+              "feedback": "That is the one thing the Back Pin teaches you never to do. Total control, plus the choice not to hurt someone, is the heart of the whole program."
             }
           ],
           "correctHead": "That's it.",
-          "correctText": "That is the whole win condition for today.",
+          "correctText": "That is how you win today.",
           "incorrectHead": "Not quite.",
           "incorrectText": "Read the note under your choice, then try again.",
           "revealText": "The right answer is marked above, with the reason."
@@ -193,19 +219,19 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Apply back-pin control to take and hold the back, and analyze what you can do now that you could not at the start."
+              "text": "Use back-pin control to take and hold the back, and name what you can do now that you could not do at the start."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
                 "Take and hold the back-pin position for a three-count against light resistance.",
-                "Identify one control skill you hold now that you did not in the Descent."
+                "Name one control skill you have now that you did not have in the Descent."
               ]
             }
           ]
@@ -213,24 +239,24 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
         {
           "id": "s25-casel",
           "type": "text-image",
-          "eyebrow": "The other half",
-          "title": "And the part that was not about grappling",
+          "eyebrow": "Off the mat",
+          "title": "The part that was not about grappling",
           "body": [
             {
               "kind": "lead",
-              "text": "Name what is actually different in you now and locate the change rather than perform it."
+              "text": "Name what is really different in you now, and find real proof of the change instead of just talking about it."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
                 "Name one real change in yourself since Session 1.",
-                "Distinguish a change you can demonstrate from one you only talk about."
+                "Tell apart a change you can show from one you only talk about."
               ]
             }
           ]
@@ -243,7 +269,7 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Taking the back is a position you literally could not hold twelve weeks ago. It is proof of change you can feel. Naming what is different in you works the same way. Real change is something you can show, not just say."
+              "text": "Twelve weeks ago, you could not hold this position at all. Now you can. That is proof of change you can feel. Naming what is different in you works the same way. Real change is something you can show, not just say."
             }
           ],
           "reveals": [
@@ -253,7 +279,7 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Total control with the choice not to harm is the core of the whole program, turned into a decision the participant carries out the door."
+                  "text": "Total control, plus the choice not to hurt someone, is the heart of the whole program. Now you carry that choice out the door."
                 }
               ]
             }
@@ -273,11 +299,11 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Take the back and hold it, chest on their back, for a three-count against light resistance."
+              "text": "Take the back and hold it. Keep your chest on their back for a three-count. Use light resistance."
             },
             {
               "kind": "paragraph",
-              "text": "Twelve weeks ago you could not hold this position. That you can now is change you can feel, not just talk about."
+              "text": "Twelve weeks ago, you could not hold this position. Now you can. That is change you can feel, not just talk about."
             }
           ],
           "reveals": [
@@ -293,7 +319,7 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
             },
             {
               "id": "tap-again",
-              "label": "And the rule under all of it",
+              "label": "And the rule that never changes",
               "content": [
                 {
                   "kind": "list",
@@ -306,7 +332,7 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -326,7 +352,7 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
           "retry": true,
           "options": [
             {
-              "text": "Name what is actually different in you now and locate the change rather than perform it.",
+              "text": "Name what is really different in you now, and find real proof of the change instead of just talking about it.",
               "correct": true,
               "feedback": "That was the target for today."
             },
@@ -359,7 +385,7 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
           "type": "reflection",
           "eyebrow": "Before you go",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — every participant, every session",
+          "kindLabel": "IRF — everyone fills this out, every session",
           "fields": [
             {
               "id": "mat",

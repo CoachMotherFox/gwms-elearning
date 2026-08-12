@@ -17,18 +17,18 @@
     "bloom": "Apply and Analyze",
     "card": "The Back Pin",
     "domain": "Integrate",
-    "keyCondition": "Flow between back control and the owned finishes, tap honored.",
+    "keyCondition": "Move between back control and your finishes. Always honor the tap.",
     "gameName": "Chest-to-Back Connection Maintenance",
     "probingQuestion": "If someone watched how you carry yourself, what would they learn?",
-    "grapplingTlo": "By the end of this session, the participant will integrate back-pin control and finishing in open rolling, and analyze what a watcher would learn from how they train.",
+    "grapplingTlo": "By the end of this session, the participant will put back-pin control and finishing together in open rolling, and name what a watcher would learn from how they train.",
     "looksBackAt": 21,
     "grapplingElos": [
-      "Flow between back control and owned finishes in live rolling, releasing on the tap.",
+      "Move between back control and their finishes in live rolling, and release on the tap.",
       "Name what a newer student would learn watching them roll."
     ],
     "caselTlo": "By the end of this session, the participant will name what someone would learn from watching how they carry themselves.",
     "caselElos": [
-      "Identify the lesson their conduct teaches without words.",
+      "Name the lesson their actions teach without words.",
       "Decide if it is the lesson they want to teach."
     ],
     "connection": "Newer people learn more from watching how you roll than from anything you say. How you carry yourself in life teaches the same way, silently, to whoever is watching. You are a lesson whether you mean to be or not.",
@@ -38,23 +38,49 @@
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
     {
+      "id": "start",
+      "title": "Welcome",
+      "slides": [
+        {
+          "id": "s33-welcome",
+          "type": "text-image",
+          "eyebrow": "Welcome",
+          "title": "Welcome to GWMS Online",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "This is Session 33 of 36: Legacy."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
+            },
+            {
+              "kind": "callout",
+              "label": "Where this sits",
+              "text": "Session 33 of 36. The Return, Week 11, Legacy. On the mat that stage runs Back Pin."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Take your time. There are no wrong answers when you write about yourself."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "today",
       "title": "Today",
       "slides": [
         {
           "id": "s33-question",
           "type": "text-image",
-          "eyebrow": "Session 33 · Probing question",
+          "eyebrow": "Session 33 · Today's question",
           "title": "If someone watched how you carry yourself, what would they learn?",
           "body": [
             {
               "kind": "lead",
-              "text": "That is the question for this session. It runs through the whole session: the grappling class, rolling and recovery, and the lesson."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 33 of 36. The Return, Week 11, Legacy. On the mat that stage runs Back Pin."
+              "text": "This is your question for today. Keep it in mind during the game and the lesson."
             }
           ],
           "alternates": [
@@ -105,7 +131,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "Flow between back control and the owned finishes in live rolling, tap honored."
+              "text": "Move between back control and your finishes during live rolling. Always honor the tap."
             },
             {
               "kind": "paragraph",
@@ -115,11 +141,11 @@
           "reveals": [
             {
               "id": "key-condition",
-              "label": "What had to be true first",
+              "label": "What you need first",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Flow between back control and the owned finishes, tap honored."
+                  "text": "Move between back control and your finishes. Always honor the tap."
                 }
               ]
             },
@@ -138,7 +164,7 @@
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -158,21 +184,21 @@
           "retry": true,
           "options": [
             {
-              "text": "Flowing between back control and the owned finishes with the tap honored",
+              "text": "Moving between back control and your finishes with the tap honored",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Every finish is released instantly on the tap, every time. The tap is law."
+              "feedback": "Never. You let go the second your partner taps. Every single time. The tap is law."
             },
             {
               "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing the Back Pin exists to teach you not to do. Total control with the choice not to harm is the core of the whole program."
+              "feedback": "That is the one thing the Back Pin teaches you never to do. Total control, plus the choice not to hurt someone, is the heart of the whole program."
             }
           ],
           "correctHead": "That's it.",
-          "correctText": "That is the whole win condition for today.",
+          "correctText": "That is how you win today.",
           "incorrectHead": "Not quite.",
           "incorrectText": "Read the note under your choice, then try again.",
           "revealText": "The right answer is marked above, with the reason."
@@ -191,18 +217,18 @@
           "body": [
             {
               "kind": "lead",
-              "text": "Integrate back-pin control and finishing in open rolling, and analyze what a watcher would learn from how you train."
+              "text": "Put back-pin control and finishing together in open rolling, and name what a watcher would learn from how you train."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Flow between back control and owned finishes in live rolling, releasing on the tap.",
+                "Move between back control and your finishes in live rolling, and release on the tap.",
                 "Name what a newer student would learn watching you roll."
               ]
             }
@@ -211,8 +237,8 @@
         {
           "id": "s33-casel",
           "type": "text-image",
-          "eyebrow": "The other half",
-          "title": "And the part that was not about grappling",
+          "eyebrow": "Off the mat",
+          "title": "The part that was not about grappling",
           "body": [
             {
               "kind": "lead",
@@ -221,13 +247,13 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Identify the lesson your conduct teaches without words.",
+                "Name the lesson your actions teach without words.",
                 "Decide if it is the lesson you want to teach."
               ]
             }
@@ -245,8 +271,8 @@
             },
             {
               "kind": "callout",
-              "label": "Worth saying plainly",
-              "text": "This is about influence, not being scrutinised. Nobody is grading how you carry yourself."
+              "label": "Said simply",
+              "text": "This is about influence, not being watched and judged. Nobody is grading how you carry yourself."
             }
           ],
           "reveals": [
@@ -256,7 +282,7 @@
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Total control with the choice not to harm is the core of the whole program, turned into a decision the participant carries out the door."
+                  "text": "Total control, plus the choice not to hurt someone, is the heart of the whole program. Now you carry that choice out the door."
                 }
               ]
             }
@@ -276,7 +302,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "Flow between back control and the owned finishes in live rolling, tap honored."
+              "text": "Move between back control and your finishes during live rolling. Always honor the tap."
             },
             {
               "kind": "paragraph",
@@ -290,13 +316,13 @@
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Flowing between back control and the owned finishes with the tap honored"
+                  "text": "Moving between back control and your finishes with the tap honored"
                 }
               ]
             },
             {
               "id": "tap-again",
-              "label": "And the rule under all of it",
+              "label": "And the rule that never changes",
               "content": [
                 {
                   "kind": "list",
@@ -309,7 +335,7 @@
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -334,11 +360,11 @@
               "feedback": "That was the target for today."
             },
             {
-              "text": "Name what is actually different in you now and locate the change rather than perform it.",
+              "text": "Name what is really different in you now, and find real proof of the change instead of just talking about it.",
               "feedback": "That is Session 25's target, not today's."
             },
             {
-              "text": "Name how you use your strength in service rather than over others.",
+              "text": "Name how you use your strength to help others, not to control you.",
               "feedback": "That is Session 30's target, not today's."
             }
           ],
@@ -362,7 +388,7 @@
           "type": "reflection",
           "eyebrow": "Before you go",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — every participant, every session",
+          "kindLabel": "IRF — everyone fills this out, every session",
           "fields": [
             {
               "id": "mat",

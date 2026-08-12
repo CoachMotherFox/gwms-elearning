@@ -20,26 +20,57 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
     "bloom": "Apply",
     "card": "The Chest Pin",
     "domain": "Integrate",
-    "keyCondition": "Re-engage and re-establish the pin after a scramble.",
+    "keyCondition": "Get back in and rebuild the pin after a scramble.",
     "gameName": "Perpendicular Chest-to-Chest Pin Game",
     "probingQuestion": "What does it take for you to say sorry and mean it?",
-    "grapplingTlo": "By the end of this session, the participant will reset with a partner after a hard exchange and re-establish chest-pin control cleanly.",
+    "grapplingTlo": "By the end of this session, the participant will reset with a partner after a hard round and rebuild chest-pin control cleanly.",
     "looksBackAt": 19,
     "grapplingElos": [
-      "Re-engage and re-establish a chest pin after a scramble or reversal.",
-      "Roll with a partner right after a heated exchange without carrying it over."
+      "Get back in and rebuild a chest pin after a scramble or reversal.",
+      "Roll with a partner right after a heated round, without carrying a grudge into it."
     ],
     "caselTlo": "By the end of this session, the participant will name what it takes for them to give a real apology.",
     "caselElos": [
-      "Identify what a real apology requires of them.",
-      "Distinguish a real apology from a dodge."
+      "Name what a real apology takes from them.",
+      "Tell apart a real apology from a dodge."
     ],
-    "connection": "Resetting and rolling clean with someone right after a hard round is the body's version of squaring up. A real apology is the same reset: you re-engage instead of carrying the grudge.",
+    "connection": "Resetting and rolling clean with someone right after a hard round is like squaring up with words. A real apology is the same kind of reset: you get back in instead of carrying the grudge.",
     "takeaway": "Real repair has parts, and now you can name them.",
     "_source": "GWMS Curriculum Guide — Session 22 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
+    {
+      "id": "start",
+      "title": "Welcome",
+      "slides": [
+        {
+          "id": "s22-welcome",
+          "type": "text-image",
+          "eyebrow": "Welcome",
+          "title": "Welcome to GWMS Online",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "This is Session 22 of 36: Repair."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
+            },
+            {
+              "kind": "callout",
+              "label": "Where this sits",
+              "text": "Session 22 of 36. The Initiation, Week 8, Repair. On the mat that stage runs Chest Pin."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Take your time. There are no wrong answers when you write about yourself."
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "today",
       "title": "Today",
@@ -47,17 +78,12 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
         {
           "id": "s22-question",
           "type": "text-image",
-          "eyebrow": "Session 22 · Probing question",
+          "eyebrow": "Session 22 · Today's question",
           "title": "What does it take for you to say sorry and mean it?",
           "body": [
             {
               "kind": "lead",
-              "text": "That is the question for this session. It runs through the whole session: the grappling class, rolling and recovery, and the lesson."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 22 of 36. The Initiation, Week 8, Repair. On the mat that stage runs Chest Pin."
+              "text": "This is your question for today. Keep it in mind during the game and the lesson."
             }
           ],
           "alternates": [
@@ -94,7 +120,7 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Rupture is information, and you survived naming it."
+                  "text": "A rupture teaches you something. You survived naming it."
                 }
               ]
             }
@@ -108,7 +134,7 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
           "body": [
             {
               "kind": "lead",
-              "text": "After a scramble, re-establish the pin cleanly. Win by covering the hips, getting under the elbow, and connecting your hands again."
+              "text": "After a scramble, rebuild the pin cleanly. Win by covering the hips, getting under the elbow, and connecting your hands again."
             },
             {
               "kind": "paragraph",
@@ -118,11 +144,11 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
           "reveals": [
             {
               "id": "key-condition",
-              "label": "What had to be true first",
+              "label": "What you need first",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Re-engage and re-establish the pin after a scramble."
+                  "text": "Get back in and rebuild the pin after a scramble."
                 }
               ]
             },
@@ -141,7 +167,7 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -167,15 +193,15 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Every finish is released instantly on the tap, every time. The tap is law."
+              "feedback": "Never. Let go the instant your partner taps. Every single time. The tap is law."
             },
             {
               "text": "Overpowering your partner with force",
-              "feedback": "You keep the pin by feeling your partner and adjusting, not by clamping and squeezing. Staying calm and adjusting beats forcing harder."
+              "feedback": "You keep the pin by feeling your partner and moving with them, not by clamping down and squeezing hard. Staying calm beats forcing harder."
             }
           ],
           "correctHead": "That's it.",
-          "correctText": "That is the whole win condition for today.",
+          "correctText": "That is how you win today.",
           "incorrectHead": "Not quite.",
           "incorrectText": "Read the note under your choice, then try again.",
           "revealText": "The right answer is marked above, with the reason."
@@ -194,19 +220,19 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Reset with a partner after a hard exchange and re-establish chest-pin control cleanly."
+              "text": "Reset with a partner after a hard round and rebuild chest-pin control cleanly."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Re-engage and re-establish a chest pin after a scramble or reversal.",
-                "Roll with a partner right after a heated exchange without carrying it over."
+                "Get back in and rebuild a chest pin after a scramble or reversal.",
+                "Roll with a partner right after a heated round, without carrying a grudge into it."
               ]
             }
           ]
@@ -214,8 +240,8 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
         {
           "id": "s22-casel",
           "type": "text-image",
-          "eyebrow": "The other half",
-          "title": "And the part that was not about grappling",
+          "eyebrow": "Off the mat",
+          "title": "The part that was not about grappling",
           "body": [
             {
               "kind": "lead",
@@ -224,14 +250,14 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Identify what a real apology requires of you.",
-                "Distinguish a real apology from a dodge."
+                "Name what a real apology takes from you.",
+                "Tell apart a real apology from a dodge."
               ]
             }
           ]
@@ -244,7 +270,7 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Resetting and rolling clean with someone right after a hard round is the body's version of squaring up. A real apology is the same reset: you re-engage instead of carrying the grudge."
+              "text": "Resetting and rolling clean with someone right after a hard round is like squaring up with words. A real apology is the same kind of reset: you get back in instead of carrying the grudge."
             }
           ],
           "reveals": [
@@ -254,7 +280,7 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Chest-to-chest contact, friction, break, and reset on the mat is contact, friction, rupture, and repair between people. The Initiation tests the real self against others."
+                  "text": "Chest-to-chest contact on the mat is like contact with people. Friction on the mat is like friction with people. A break on the mat is like a rupture between people. A reset on the mat is like repair between people. The Initiation tests the real you against other people."
                 }
               ]
             }
@@ -274,7 +300,7 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
           "body": [
             {
               "kind": "lead",
-              "text": "After a scramble, re-establish the pin cleanly. Win by covering the hips, getting under the elbow, and connecting your hands again."
+              "text": "After a scramble, rebuild the pin cleanly. Win by covering the hips, getting under the elbow, and connecting your hands again."
             },
             {
               "kind": "paragraph",
@@ -294,7 +320,7 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
             },
             {
               "id": "tap-again",
-              "label": "And the rule under all of it",
+              "label": "And the rule that never changes",
               "content": [
                 {
                   "kind": "list",
@@ -307,7 +333,7 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -332,11 +358,11 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
               "feedback": "That was the target for today."
             },
             {
-              "text": "Name one thing that happens in you when another person makes real contact, and connect it to how you meet people in real life.",
+              "text": "Name what you feel when someone makes real contact with you, and say how that connects to meeting people in real life.",
               "feedback": "That is Session 13's target, not today's."
             },
             {
-              "text": "Name the effect your conflict style has on other people and one adjustment you can make.",
+              "text": "Name how your conflict style affects other people, and one change you can make.",
               "feedback": "That is Session 18's target, not today's."
             }
           ],
@@ -360,7 +386,7 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
           "type": "reflection",
           "eyebrow": "Before you go",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — every participant, every session",
+          "kindLabel": "IRF — everyone fills this out, every session",
           "fields": [
             {
               "id": "mat",

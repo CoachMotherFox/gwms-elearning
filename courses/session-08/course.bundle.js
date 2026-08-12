@@ -23,7 +23,7 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
     "keyCondition": "Clear the first checkpoint, feet or knees.",
     "gameName": "Feet-Off Guard Passing Game",
     "probingQuestion": "What slips out of you when you get tired and stop performing?",
-    "grapplingTlo": "By the end of this session, the participant will apply the first passing checkpoints against a tired, lighter guard.",
+    "grapplingTlo": "By the end of this session, the participant will pass the first checkpoints against a tired, lighter guard.",
     "looksBackAt": 2,
     "grapplingElos": [
       "Clear one checkpoint, the feet or the knees.",
@@ -31,15 +31,46 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
     ],
     "caselTlo": "By the end of this session, the participant will name what comes out when they are too tired to perform.",
     "caselElos": [
-      "Notice the honest reaction under fatigue.",
-      "Name it without judgment."
+      "Notice the honest reaction when they are tired.",
+      "Name it without judging it."
     ],
-    "connection": "When you and your partner tire, the fakery drops on both sides, the passer and the guard. What slips out when you are too tired to perform is the truest thing, on the mat and off.",
+    "connection": "When you and your partner get tired, the fake stuff drops on both sides, the passer and the guard. What slips out when you are too tired to perform is the truest thing about you, on the mat and off.",
     "takeaway": "What shows up when you are empty is often the truest thing about you.",
     "_source": "GWMS Curriculum Guide — Session 8 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
+    {
+      "id": "start",
+      "title": "Welcome",
+      "slides": [
+        {
+          "id": "s08-welcome",
+          "type": "text-image",
+          "eyebrow": "Welcome",
+          "title": "Welcome to GWMS Online",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "This is Session 8 of 36: Crack."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
+            },
+            {
+              "kind": "callout",
+              "label": "Where this sits",
+              "text": "Session 8 of 36. The Descent, Week 3, Crack. On the mat that stage runs The Roads."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Take your time. There are no wrong answers when you write about yourself."
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "today",
       "title": "Today",
@@ -47,17 +78,12 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
         {
           "id": "s08-question",
           "type": "text-image",
-          "eyebrow": "Session 8 · Probing question",
+          "eyebrow": "Session 8 · Today's question",
           "title": "What slips out of you when you get tired and stop performing?",
           "body": [
             {
               "kind": "lead",
-              "text": "That is the question for this session. It runs through the whole session: the grappling class, rolling and recovery, and the lesson."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 8 of 36. The Descent, Week 3, Crack. On the mat that stage runs The Roads."
+              "text": "This is your question for today. Keep it in mind during the game and the lesson."
             }
           ],
           "alternates": [
@@ -108,17 +134,17 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
           "body": [
             {
               "kind": "lead",
-              "text": "The top player works to clear the first checkpoint. Win with shin-to-body contact inside or outside the knees, feet off."
+              "text": "The top player works to clear the first checkpoint. Win with shin-to-body contact, inside or outside the knees, feet off the ground."
             },
             {
               "kind": "paragraph",
-              "text": "You are learning to clear one gate at a time when everyone is a little tired, which is when the real reactions start to leak out."
+              "text": "You are learning to clear one gate at a time when everyone is a little tired. That is when the real reactions start to show."
             }
           ],
           "reveals": [
             {
               "id": "key-condition",
-              "label": "What had to be true first",
+              "label": "What you need first",
               "content": [
                 {
                   "kind": "paragraph",
@@ -141,7 +167,7 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -167,15 +193,15 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not in the Roads. These are the two path domains, Enter and Arrive, and they carry no finish — the path delivers you into a pin and the pin owns the finish."
+              "feedback": "Not part of the Roads. Enter and Arrive are the two path steps here, and neither one ends in a submission. The path leads you into a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
-              "feedback": "Never. Everything runs at light resistance, and the tap is honored instantly, every time."
+              "feedback": "Never. Everyone goes light, and the tap always stops it right away, every time."
             }
           ],
           "correctHead": "That's it.",
-          "correctText": "That is the whole win condition for today.",
+          "correctText": "That is how you win today.",
           "incorrectHead": "Not quite.",
           "incorrectText": "Read the note under your choice, then try again.",
           "revealText": "The right answer is marked above, with the reason."
@@ -194,12 +220,12 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Apply the first passing checkpoints against a tired, lighter guard."
+              "text": "Pass the first checkpoints against a tired, lighter guard."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
@@ -214,8 +240,8 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
         {
           "id": "s08-casel",
           "type": "text-image",
-          "eyebrow": "The other half",
-          "title": "And the part that was not about grappling",
+          "eyebrow": "Off the mat",
+          "title": "The part that was not about grappling",
           "body": [
             {
               "kind": "lead",
@@ -224,14 +250,14 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Notice the honest reaction under fatigue.",
-                "Name it without judgment."
+                "Notice the honest reaction when you are tired.",
+                "Name it without judging it."
               ]
             }
           ]
@@ -244,7 +270,7 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
           "body": [
             {
               "kind": "lead",
-              "text": "When you and your partner tire, the fakery drops on both sides, the passer and the guard. What slips out when you are too tired to perform is the truest thing, on the mat and off."
+              "text": "When you and your partner get tired, the fake stuff drops on both sides, the passer and the guard. What slips out when you are too tired to perform is the truest thing about you, on the mat and off."
             }
           ],
           "reveals": [
@@ -254,7 +280,7 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Passing past a partner's guard to what it protects is the same act as looking under the mask to the real self. The Descent digs, on the mat and in the person."
+                  "text": "Getting past a partner's guard to what it protects is the same act as looking under a mask to the real person. The Descent digs deep, on the mat and inside you."
                 }
               ]
             }
@@ -274,11 +300,11 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
           "body": [
             {
               "kind": "lead",
-              "text": "The top player works to clear the first checkpoint. Win with shin-to-body contact inside or outside the knees, feet off."
+              "text": "The top player works to clear the first checkpoint. Win with shin-to-body contact, inside or outside the knees, feet off the ground."
             },
             {
               "kind": "paragraph",
-              "text": "You are learning to clear one gate at a time when everyone is a little tired, which is when the real reactions start to leak out."
+              "text": "You are learning to clear one gate at a time when everyone is a little tired. That is when the real reactions start to show."
             }
           ],
           "reveals": [
@@ -294,7 +320,7 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
             },
             {
               "id": "tap-again",
-              "label": "And the rule under all of it",
+              "label": "And the rule that never changes",
               "content": [
                 {
                   "kind": "list",
@@ -307,7 +333,7 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -332,11 +358,11 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
               "feedback": "That was the target for today."
             },
             {
-              "text": "Acknowledge, to yourself at minimum, one part you have hidden even from yourself.",
+              "text": "Admit, at least to yourself, one part you have hidden even from yourself.",
               "feedback": "That is Session 11's target, not today's."
             },
             {
-              "text": "Connect your mask to where or who you learned it from, without being required to share the story.",
+              "text": "Trace your mask back to where or who you learned it from, without having to share the story.",
               "feedback": "That is Session 5's target, not today's."
             }
           ],
@@ -360,7 +386,7 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
           "type": "reflection",
           "eyebrow": "Before you go",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — every participant, every session",
+          "kindLabel": "IRF — everyone fills this out, every session",
           "fields": [
             {
               "id": "mat",

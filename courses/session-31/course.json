@@ -17,26 +17,57 @@
     "bloom": "Apply and Analyze",
     "card": "The Back Pin",
     "domain": "Finish, Back Strangle",
-    "keyCondition": "The locking hand closes behind the plane of the head, the choking elbow on the chin line, released on the tap.",
+    "keyCondition": "The locking hand closes behind the head. The choking elbow sits on the chin line. Release it the instant they tap.",
     "gameName": "Build to Rear Strangle Game",
     "probingQuestion": "What do you want to leave behind you here?",
-    "grapplingTlo": "By the end of this session, the participant will apply an owned back-pin finish, the back strangle, with control, and analyze what kind of training partner they have been.",
+    "grapplingTlo": "By the end of this session, the participant will use the back strangle with control, and name what kind of training partner they have been.",
     "looksBackAt": 28,
     "grapplingElos": [
-      "Secure the back strangle under light resistance, releasing on the tap.",
+      "Get the back strangle against light resistance, and release on the tap.",
       "Name what kind of partner they have been to the room."
     ],
     "caselTlo": "By the end of this session, the participant will name what they want to leave behind them.",
     "caselElos": [
-      "Identify the mark they want to leave.",
+      "Name the mark they want to leave.",
       "Connect it to how they act now."
     ],
-    "connection": "The finish is the sharpest power in the system, and how you use it, controlled, releasing on the tap, is what people remember about rolling with you. What you leave behind in life is built the same way, out of how you treat people when you hold the power.",
+    "connection": "The finish is the sharpest power in the system. How you use it, controlled, releasing on the tap, is what people remember about rolling with you. What you leave behind in life is built the same way, out of how you treat people when you hold the power.",
     "takeaway": "Legacy is built from how you act now, not someday.",
     "_source": "GWMS Curriculum Guide — Session 31 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
+    {
+      "id": "start",
+      "title": "Welcome",
+      "slides": [
+        {
+          "id": "s31-welcome",
+          "type": "text-image",
+          "eyebrow": "Welcome",
+          "title": "Welcome to GWMS Online",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "This is Session 31 of 36: Legacy."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
+            },
+            {
+              "kind": "callout",
+              "label": "Where this sits",
+              "text": "Session 31 of 36. The Return, Week 11, Legacy. On the mat that stage runs Back Pin."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Take your time. There are no wrong answers when you write about yourself."
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "today",
       "title": "Today",
@@ -44,17 +75,12 @@
         {
           "id": "s31-question",
           "type": "text-image",
-          "eyebrow": "Session 31 · Probing question",
+          "eyebrow": "Session 31 · Today's question",
           "title": "What do you want to leave behind you here?",
           "body": [
             {
               "kind": "lead",
-              "text": "That is the question for this session. It runs through the whole session: the grappling class, rolling and recovery, and the lesson."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 31 of 36. The Return, Week 11, Legacy. On the mat that stage runs Back Pin."
+              "text": "This is your question for today. Keep it in mind during the game and the lesson."
             }
           ],
           "alternates": [
@@ -105,7 +131,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "The back strangle, the sharpest finish in the system. Build the locking grip behind the plane of the head, elbow on the chin line, and release the instant your partner taps."
+              "text": "The back strangle is the sharpest finish in the system. Build the locking grip behind the head, elbow on the chin line. Release it the instant your partner taps."
             },
             {
               "kind": "paragraph",
@@ -115,11 +141,11 @@
           "reveals": [
             {
               "id": "key-condition",
-              "label": "What had to be true first",
+              "label": "What you need first",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "The locking hand closes behind the plane of the head, the choking elbow on the chin line, released on the tap."
+                  "text": "The locking hand closes behind the head. The choking elbow sits on the chin line. Release it the instant they tap."
                 }
               ]
             },
@@ -138,7 +164,7 @@
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -158,21 +184,21 @@
           "retry": true,
           "options": [
             {
-              "text": "Building the locking grip behind the plane of the head — and releasing the instant your partner taps",
+              "text": "Building the locking grip behind the head, and releasing the instant your partner taps",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Every finish is released instantly on the tap, every time. The tap is law."
+              "feedback": "Never. You let go the second your partner taps. Every single time. The tap is law."
             },
             {
               "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing the Back Pin exists to teach you not to do. Total control with the choice not to harm is the core of the whole program."
+              "feedback": "That is the one thing the Back Pin teaches you never to do. Total control, plus the choice not to hurt someone, is the heart of the whole program."
             }
           ],
           "correctHead": "That's it.",
-          "correctText": "That is the whole win condition for today.",
+          "correctText": "That is how you win today.",
           "incorrectHead": "Not quite.",
           "incorrectText": "Read the note under your choice, then try again.",
           "revealText": "The right answer is marked above, with the reason."
@@ -191,18 +217,18 @@
           "body": [
             {
               "kind": "lead",
-              "text": "Apply an owned back-pin finish, the back strangle, with control, and analyze what kind of training partner you have been."
+              "text": "Use the back strangle with control, and name what kind of training partner you have been."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Secure the back strangle under light resistance, releasing on the tap.",
+                "Get the back strangle against light resistance, and release on the tap.",
                 "Name what kind of partner you have been to the room."
               ]
             }
@@ -211,8 +237,8 @@
         {
           "id": "s31-casel",
           "type": "text-image",
-          "eyebrow": "The other half",
-          "title": "And the part that was not about grappling",
+          "eyebrow": "Off the mat",
+          "title": "The part that was not about grappling",
           "body": [
             {
               "kind": "lead",
@@ -221,13 +247,13 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Identify the mark you want to leave.",
+                "Name the mark you want to leave.",
                 "Connect it to how you act now."
               ]
             }
@@ -241,12 +267,12 @@
           "body": [
             {
               "kind": "lead",
-              "text": "The finish is the sharpest power in the system, and how you use it, controlled, releasing on the tap, is what people remember about rolling with you. What you leave behind in life is built the same way, out of how you treat people when you hold the power."
+              "text": "The finish is the sharpest power in the system. How you use it, controlled, releasing on the tap, is what people remember about rolling with you. What you leave behind in life is built the same way, out of how you treat people when you hold the power."
             },
             {
               "kind": "callout",
-              "label": "Worth saying plainly",
-              "text": "The jaw-based counters stay out of the curriculum until the Therapeutic Manager clears them. Coaches do not teach them."
+              "label": "Said simply",
+              "text": "The jaw-based counters are not taught yet. They wait until the Therapeutic Manager approves them. Coaches do not teach them."
             }
           ],
           "reveals": [
@@ -256,7 +282,7 @@
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Total control with the choice not to harm is the core of the whole program, turned into a decision the participant carries out the door."
+                  "text": "Total control, plus the choice not to hurt someone, is the heart of the whole program. Now you carry that choice out the door."
                 }
               ]
             }
@@ -276,7 +302,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "The back strangle, the sharpest finish in the system. Build the locking grip behind the plane of the head, elbow on the chin line, and release the instant your partner taps."
+              "text": "The back strangle is the sharpest finish in the system. Build the locking grip behind the head, elbow on the chin line. Release it the instant your partner taps."
             },
             {
               "kind": "paragraph",
@@ -290,13 +316,13 @@
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Building the locking grip behind the plane of the head — and releasing the instant your partner taps"
+                  "text": "Building the locking grip behind the head, and releasing the instant your partner taps"
                 }
               ]
             },
             {
               "id": "tap-again",
-              "label": "And the rule under all of it",
+              "label": "And the rule that never changes",
               "content": [
                 {
                   "kind": "list",
@@ -309,7 +335,7 @@
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -338,7 +364,7 @@
               "feedback": "That is Session 35's target, not today's."
             },
             {
-              "text": "Identify who needs what you have learned, turning the work outward.",
+              "text": "Find who needs what you have learned, and turn the work outward.",
               "feedback": "That is Session 28's target, not today's."
             }
           ],
@@ -362,7 +388,7 @@
           "type": "reflection",
           "eyebrow": "Before you go",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — every participant, every session",
+          "kindLabel": "IRF — everyone fills this out, every session",
           "fields": [
             {
               "id": "mat",

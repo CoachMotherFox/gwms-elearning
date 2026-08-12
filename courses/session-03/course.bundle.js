@@ -20,26 +20,57 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
     "bloom": "Apply",
     "card": "Taking the Base",
     "domain": "Enter",
-    "keyCondition": "Change direction to break the base, no straight pushes.",
+    "keyCondition": "Change direction to break the base. No straight pushes.",
     "gameName": "Hand Fight with Progression Game",
     "probingQuestion": "What are you like before you trust the room?",
-    "grapplingTlo": "By the end of this session, the participant will identify the takedown starting position and keep safe contact under light movement.",
+    "grapplingTlo": "By the end of this session, the participant will find the neutral standing start and keep safe contact while their partner moves.",
     "looksBackAt": 1,
     "grapplingElos": [
-      "Identify the neutral standing start.",
+      "Find the neutral standing start.",
       "Keep safe contact as the partner moves."
     ],
-    "caselTlo": "By the end of this session, the participant will name one thing they do to protect themselves before they trust a space, and name it as a strength.",
+    "caselTlo": "By the end of this session, the participant will name one thing they do to protect themselves before they trust a space, and call it a strength.",
     "caselElos": [
       "Name one protective habit.",
-      "Frame it as smart, not weak."
+      "Call it smart, not weak."
     ],
-    "connection": "Staying safe and guarded on the mat before you trust a partner is the same guard you run before you trust a room. Both are smart. Naming it is the work.",
-    "takeaway": "The guard is smart, and next week we look at the face that guard wears, the mask.",
+    "connection": "Staying safe and guarded on the mat before you trust a partner is the same guard you use before you trust a room. Both are smart. Naming it is the work.",
+    "takeaway": "The guard is smart. Next week we look at the face that guard wears: the mask.",
     "_source": "GWMS Curriculum Guide — Session 3 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
+    {
+      "id": "start",
+      "title": "Welcome",
+      "slides": [
+        {
+          "id": "s03-welcome",
+          "type": "text-image",
+          "eyebrow": "Welcome",
+          "title": "Welcome to GWMS Online",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "This is Session 3 of 36: Arrival."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
+            },
+            {
+              "kind": "callout",
+              "label": "Where this sits",
+              "text": "Session 3 of 36. The Descent, Week 1, Arrival. On the mat that stage runs The Roads."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Take your time. There are no wrong answers when you write about yourself."
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "today",
       "title": "Today",
@@ -47,17 +78,12 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
         {
           "id": "s03-question",
           "type": "text-image",
-          "eyebrow": "Session 3 · Probing question",
+          "eyebrow": "Session 3 · Today's question",
           "title": "What are you like before you trust the room?",
           "body": [
             {
               "kind": "lead",
-              "text": "That is the question for this session. It runs through the whole session: the grappling class, rolling and recovery, and the lesson."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 3 of 36. The Descent, Week 1, Arrival. On the mat that stage runs The Roads."
+              "text": "This is your question for today. Keep it in mind during the game and the lesson."
             }
           ],
           "alternates": [
@@ -108,21 +134,21 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Standing, hands free. Fight for position and win by getting under an elbow and hooking on. Nobody gets slammed down."
+              "text": "Stand with hands free. Fight for position. Win by getting under an elbow and hooking on. No one gets slammed down."
             },
             {
               "kind": "paragraph",
-              "text": "You are learning to break a person's base by changing angles instead of shoving straight into them, the same thing you do when you walk into a new room and find your footing."
+              "text": "You are learning to break a person's base by changing angles, not by shoving straight at them. You do the same thing when you walk into a new room and find your footing."
             }
           ],
           "reveals": [
             {
               "id": "key-condition",
-              "label": "What had to be true first",
+              "label": "What you need first",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Change direction to break the base, no straight pushes."
+                  "text": "Change direction to break the base. No straight pushes."
                 }
               ]
             },
@@ -141,7 +167,7 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -167,15 +193,15 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not in the Roads. These are the two path domains, Enter and Arrive, and they carry no finish — the path delivers you into a pin and the pin owns the finish."
+              "feedback": "Not part of the Roads. Enter and Arrive are the two path steps here, and neither one ends in a submission. The path leads you into a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
-              "feedback": "Never. Everything runs at light resistance, and the tap is honored instantly, every time."
+              "feedback": "Never. Everyone goes light, and the tap always stops it right away, every time."
             }
           ],
           "correctHead": "That's it.",
-          "correctText": "That is the whole win condition for today.",
+          "correctText": "That is how you win today.",
           "incorrectHead": "Not quite.",
           "incorrectText": "Read the note under your choice, then try again.",
           "revealText": "The right answer is marked above, with the reason."
@@ -194,18 +220,18 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Identify the takedown starting position and keep safe contact under light movement."
+              "text": "Find the neutral standing start and keep safe contact while your partner moves."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Identify the neutral standing start.",
+                "Find the neutral standing start.",
                 "Keep safe contact as the partner moves."
               ]
             }
@@ -214,24 +240,24 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
         {
           "id": "s03-casel",
           "type": "text-image",
-          "eyebrow": "The other half",
-          "title": "And the part that was not about grappling",
+          "eyebrow": "Off the mat",
+          "title": "The part that was not about grappling",
           "body": [
             {
               "kind": "lead",
-              "text": "Name one thing you do to protect yourself before you trust a space, and name it as a strength."
+              "text": "Name one thing you do to protect yourself before you trust a space, and call it a strength."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
                 "Name one protective habit.",
-                "Frame it as smart, not weak."
+                "Call it smart, not weak."
               ]
             }
           ]
@@ -244,7 +270,7 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Staying safe and guarded on the mat before you trust a partner is the same guard you run before you trust a room. Both are smart. Naming it is the work."
+              "text": "Staying safe and guarded on the mat before you trust a partner is the same guard you use before you trust a room. Both are smart. Naming it is the work."
             }
           ],
           "reveals": [
@@ -254,7 +280,7 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Passing past a partner's guard to what it protects is the same act as looking under the mask to the real self. The Descent digs, on the mat and in the person."
+                  "text": "Getting past a partner's guard to what it protects is the same act as looking under a mask to the real person. The Descent digs deep, on the mat and inside you."
                 }
               ]
             }
@@ -274,11 +300,11 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Standing, hands free. Fight for position and win by getting under an elbow and hooking on. Nobody gets slammed down."
+              "text": "Stand with hands free. Fight for position. Win by getting under an elbow and hooking on. No one gets slammed down."
             },
             {
               "kind": "paragraph",
-              "text": "You are learning to break a person's base by changing angles instead of shoving straight into them, the same thing you do when you walk into a new room and find your footing."
+              "text": "You are learning to break a person's base by changing angles, not by shoving straight at them. You do the same thing when you walk into a new room and find your footing."
             }
           ],
           "reveals": [
@@ -294,7 +320,7 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
             },
             {
               "id": "tap-again",
-              "label": "And the rule under all of it",
+              "label": "And the rule that never changes",
               "content": [
                 {
                   "kind": "list",
@@ -307,7 +333,7 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -327,7 +353,7 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
           "retry": true,
           "options": [
             {
-              "text": "Name one thing you do to protect yourself before you trust a space, and name it as a strength.",
+              "text": "Name one thing you do to protect yourself before you trust a space, and call it a strength.",
               "correct": true,
               "feedback": "That was the target for today."
             },
@@ -336,7 +362,7 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
               "feedback": "That is Session 6's target, not today's."
             },
             {
-              "text": "Acknowledge, to yourself at minimum, one part you have hidden even from yourself.",
+              "text": "Admit, at least to yourself, one part you have hidden even from yourself.",
               "feedback": "That is Session 11's target, not today's."
             }
           ],
@@ -360,7 +386,7 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
           "type": "reflection",
           "eyebrow": "Before you go",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — every participant, every session",
+          "kindLabel": "IRF — everyone fills this out, every session",
           "fields": [
             {
               "id": "mat",

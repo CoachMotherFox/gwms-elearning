@@ -41,6 +41,12 @@ const IRF = [
 
 function pad(n) { return String(n).padStart(2, '0'); }
 
+function joinNatural(items) {
+  if (items.length === 1) return items[0];
+  if (items.length === 2) return `${items[0]} and ${items[1]}`;
+  return `${items.slice(0, -1).join(', ')}, and ${items[items.length - 1]}`;
+}
+
 /* ---------------------------------------------------------------- lookback
 
    Spaced retrieval across the 36 sessions.
@@ -99,23 +105,48 @@ function screenLookback(s, prior, priorStage) {
   return slide;
 }
 
-/* ------------------------------------------------------------------ screens */
+/* ------------------------------------------------------------------ screens
+
+   screenWelcome is the one screen with no field in the curriculum guide.
+   Instructor direction, 2026-08-12: every module should open on a welcome
+   screen instead of dropping a learner straight into the first question. It
+   carries no curriculum content of its own — just where this session sits
+   and what is coming — so it stays truthful even for Session 1, which has
+   no lesson scene. See docs/MODULE-STRUCTURE.md.                          */
+
+function screenWelcome(s, stage, hasLesson) {
+  const parts = ['a game', 'a quick check on it'];
+  if (hasLesson) parts.push('a short lesson');
+  parts.push('a few questions about yourself');
+
+  return {
+    id: `s${pad(s.n)}-welcome`,
+    type: 'text-image',
+    eyebrow: 'Welcome',
+    title: 'Welcome to GWMS Online',
+    body: [
+      { kind: 'lead', text: `This is Session ${s.n} of 36: ${s.theme}.` },
+      { kind: 'paragraph', text: `Today you will do ${joinNatural(parts)}.` },
+      {
+        kind: 'callout',
+        label: 'Where this sits',
+        text: `Session ${s.n} of 36. ${stage.name}, Week ${s.week}, ${s.theme}. On the mat that stage runs ${stage.neighborhood}.`
+      },
+      { kind: 'paragraph', text: 'Take your time. There are no wrong answers when you write about yourself.' }
+    ]
+  };
+}
 
 function screenQuestion(s, stage, hasAudio) {
   const slide = {
     id: `s${pad(s.n)}-question`,
     type: 'text-image',
-    eyebrow: `Session ${s.n} · Probing question`,
+    eyebrow: `Session ${s.n} · Today's question`,
     title: s.probingQuestion,
     body: [
       {
         kind: 'lead',
-        text: 'That is the question for this session. It runs through the whole session: the grappling class, rolling and recovery, and the lesson.'
-      },
-      {
-        kind: 'callout',
-        label: 'Where this sits',
-        text: `Session ${s.n} of 36. ${stage.name}, Week ${s.week}, ${s.theme}. On the mat that stage runs ${stage.neighborhood}.`
+        text: 'This is your question for today. Keep it in mind during the game and the lesson.'
       }
     ]
   };
@@ -158,7 +189,7 @@ function screenGame(s) {
   if (s.keyCondition) {
     reveals.push({
       id: 'key-condition',
-      label: 'What had to be true first',
+      label: 'What you need first',
       content: [{ kind: 'paragraph', text: s.keyCondition }]
     });
   }
@@ -167,7 +198,7 @@ function screenGame(s) {
     label: 'Still true every session: the tap',
     content: [
       { kind: 'list', ordered: true, items: ["Tap your partner's body", 'Tap the mat', 'Say stop'] },
-      { kind: 'paragraph', text: 'Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately.' }
+      { kind: 'paragraph', text: 'Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away.' }
     ]
   });
   slide.reveals = reveals;
@@ -190,7 +221,7 @@ function screenCheck(s, stage) {
       stage.wrongAnswers[1]
     ],
     correctHead: "That's it.",
-    correctText: 'That is the whole win condition for today.',
+    correctText: 'That is how you win today.',
     incorrectHead: 'Not quite.',
     incorrectText: 'Read the note under your choice, then try again.',
     revealText: 'The right answer is marked above, with the reason.'
@@ -206,7 +237,7 @@ function screenGrappling(s) {
     title: 'What you were working on',
     body: [
       { kind: 'lead', text: secondPerson(s.grapplingTlo) },
-      { kind: 'heading', level: 3, text: 'Which broke down into' },
+      { kind: 'heading', level: 3, text: 'Here is what that means' },
       { kind: 'list', ordered: true, items: s.grapplingElos.map(secondPerson) }
     ]
   };
@@ -217,11 +248,11 @@ function screenCasel(s) {
   return {
     id: `s${pad(s.n)}-casel`,
     type: 'text-image',
-    eyebrow: 'The other half',
-    title: 'And the part that was not about grappling',
+    eyebrow: 'Off the mat',
+    title: 'The part that was not about grappling',
     body: [
       { kind: 'lead', text: secondPerson(s.caselTlo) },
-      { kind: 'heading', level: 3, text: 'Which broke down into' },
+      { kind: 'heading', level: 3, text: 'Here is what that means' },
       { kind: 'list', ordered: true, items: s.caselElos.map(secondPerson) }
     ]
   };
@@ -242,7 +273,7 @@ function screenConnection(s, stage) {
     }]
   };
   if (s.note) {
-    slide.body.push({ kind: 'callout', label: 'Worth saying plainly', text: s.note });
+    slide.body.push({ kind: 'callout', label: 'Said simply', text: s.note });
   }
   return slide;
 }
@@ -337,10 +368,10 @@ function screenRecap(s) {
       },
       {
         id: 'tap-again',
-        label: 'And the rule under all of it',
+        label: 'And the rule that never changes',
         content: [
           { kind: 'list', ordered: true, items: ["Tap your partner's body", 'Tap the mat', 'Say stop'] },
-          { kind: 'paragraph', text: 'Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately.' }
+          { kind: 'paragraph', text: 'Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away.' }
         ]
       }
     ]
@@ -369,7 +400,7 @@ function screenIRF(s, next) {
     type: 'reflection',
     eyebrow: 'Before you go',
     title: 'Instruction Rating Form',
-    kindLabel: 'IRF — every participant, every session',
+    kindLabel: 'IRF — everyone fills this out, every session',
     fields: IRF,
     requireAll: true,
     required: true,
@@ -397,17 +428,17 @@ function buildCourse(s, stage, sessions, hasAudio, allSessions) {
   const lookbackN = lookbackFor(s.n);
   const lookbackEntry = lookbackN ? allSessions[lookbackN] : null;
 
+  const lesson = [
+    screenGrappling(s),
+    screenCasel(s),
+    screenConnection(s, stage)
+  ].filter(Boolean);
+
   const today = [
     screenQuestion(s, stage, hasAudio),
     lookbackEntry ? screenLookback(s, lookbackEntry.session, lookbackEntry.stage) : null,
     screenGame(s),
     screenCheck(s, stage)
-  ].filter(Boolean);
-
-  const lesson = [
-    screenGrappling(s),
-    screenCasel(s),
-    screenConnection(s, stage)
   ].filter(Boolean);
 
   const close = [
@@ -417,7 +448,8 @@ function buildCourse(s, stage, sessions, hasAudio, allSessions) {
     screenIRF(s, next)
   ].filter(Boolean);
 
-  const scenes = [{ id: 'today', title: 'Today', slides: today }];
+  const scenes = [{ id: 'start', title: 'Welcome', slides: [screenWelcome(s, stage, lesson.length > 0)] }];
+  scenes.push({ id: 'today', title: 'Today', slides: today });
   if (lesson.length) scenes.push({ id: 'lesson', title: 'The lesson', slides: lesson });
   scenes.push({ id: 'close', title: 'Before you go', slides: close });
 

@@ -22,7 +22,7 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
     "keyCondition": "A final live roll, tap honored, then the walk out the door.",
     "gameName": "First to Chest-to-Back: Find, Maintain, and Submit (same capstone-week exception as 34 and 35)",
     "probingQuestion": "What do you carry out this door?",
-    "grapplingTlo": "By the end of this session, the participant will demonstrate the integrated back-pin game a final time, and analyze what of the training carries beyond the room.",
+    "grapplingTlo": "By the end of this session, the participant will show the whole back-pin game one last time, and name what from the training carries beyond the room.",
     "looksBackAt": 24,
     "grapplingElos": [
       "Complete a final live roll, controlling and finishing with the tap honored.",
@@ -30,7 +30,7 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
     ],
     "caselTlo": "By the end of this session, the participant will name what they carry out of the program into the rest of their life.",
     "caselElos": [
-      "Identify what they take with them.",
+      "Name what they take with them.",
       "Commit to one way they will use it."
     ],
     "connection": "The last roll ends, and then you walk out the door. What you carry out, control, mercy, the ability to stay, the real self, is the whole point. The mat was never the destination. What you carry out of it is.",
@@ -40,23 +40,49 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
     {
+      "id": "start",
+      "title": "Welcome",
+      "slides": [
+        {
+          "id": "s36-welcome",
+          "type": "text-image",
+          "eyebrow": "Welcome",
+          "title": "Welcome to GWMS Online",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "This is Session 36 of 36: Celebration."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
+            },
+            {
+              "kind": "callout",
+              "label": "Where this sits",
+              "text": "Session 36 of 36. The Return, Week 12, Celebration. On the mat that stage runs Back Pin."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Take your time. There are no wrong answers when you write about yourself."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "today",
       "title": "Today",
       "slides": [
         {
           "id": "s36-question",
           "type": "text-image",
-          "eyebrow": "Session 36 · Probing question",
+          "eyebrow": "Session 36 · Today's question",
           "title": "What do you carry out this door?",
           "body": [
             {
               "kind": "lead",
-              "text": "That is the question for this session. It runs through the whole session: the grappling class, rolling and recovery, and the lesson."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 36 of 36. The Return, Week 12, Celebration. On the mat that stage runs Back Pin."
+              "text": "This is your question for today. Keep it in mind during the game and the lesson."
             }
           ],
           "alternates": [
@@ -107,7 +133,7 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
           "body": [
             {
               "kind": "lead",
-              "text": "The last roll of the program. Find the back, maintain it, submit with the tap honored, then you walk out the door."
+              "text": "The last roll of the program. Find the back. Hold it. Finish with the tap honored. Then you walk out the door."
             },
             {
               "kind": "paragraph",
@@ -117,7 +143,7 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
           "reveals": [
             {
               "id": "key-condition",
-              "label": "What had to be true first",
+              "label": "What you need first",
               "content": [
                 {
                   "kind": "paragraph",
@@ -140,7 +166,7 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -166,15 +192,15 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Every finish is released instantly on the tap, every time. The tap is law."
+              "feedback": "Never. You let go the second your partner taps. Every single time. The tap is law."
             },
             {
               "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing the Back Pin exists to teach you not to do. Total control with the choice not to harm is the core of the whole program."
+              "feedback": "That is the one thing the Back Pin teaches you never to do. Total control, plus the choice not to hurt someone, is the heart of the whole program."
             }
           ],
           "correctHead": "That's it.",
-          "correctText": "That is the whole win condition for today.",
+          "correctText": "That is how you win today.",
           "incorrectHead": "Not quite.",
           "incorrectText": "Read the note under your choice, then try again.",
           "revealText": "The right answer is marked above, with the reason."
@@ -193,12 +219,12 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Demonstrate the integrated back-pin game a final time, and analyze what of the training carries beyond the room."
+              "text": "Show the whole back-pin game one last time, and name what from the training carries beyond the room."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
@@ -213,8 +239,8 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
         {
           "id": "s36-casel",
           "type": "text-image",
-          "eyebrow": "The other half",
-          "title": "And the part that was not about grappling",
+          "eyebrow": "Off the mat",
+          "title": "The part that was not about grappling",
           "body": [
             {
               "kind": "lead",
@@ -223,13 +249,13 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Identify what you take with you.",
+                "Name what you take with you.",
                 "Commit to one way you will use it."
               ]
             }
@@ -253,7 +279,7 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Total control with the choice not to harm is the core of the whole program, turned into a decision the participant carries out the door."
+                  "text": "Total control, plus the choice not to hurt someone, is the heart of the whole program. Now you carry that choice out the door."
                 }
               ]
             }
@@ -273,7 +299,7 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
           "body": [
             {
               "kind": "lead",
-              "text": "The last roll of the program. Find the back, maintain it, submit with the tap honored, then you walk out the door."
+              "text": "The last roll of the program. Find the back. Hold it. Finish with the tap honored. Then you walk out the door."
             },
             {
               "kind": "paragraph",
@@ -293,7 +319,7 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
             },
             {
               "id": "tap-again",
-              "label": "And the rule under all of it",
+              "label": "And the rule that never changes",
               "content": [
                 {
                   "kind": "list",
@@ -306,7 +332,7 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -331,7 +357,7 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
               "feedback": "That was the target for today."
             },
             {
-              "text": "Identify who needs what you have learned, turning the work outward.",
+              "text": "Find who needs what you have learned, and turn the work outward.",
               "feedback": "That is Session 28's target, not today's."
             },
             {
@@ -359,7 +385,7 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
           "type": "reflection",
           "eyebrow": "Before you go",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — every participant, every session",
+          "kindLabel": "IRF — everyone fills this out, every session",
           "fields": [
             {
               "id": "mat",

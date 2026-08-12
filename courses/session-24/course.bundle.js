@@ -20,26 +20,57 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
     "bloom": "Apply",
     "card": "The Chest Pin",
     "domain": "Integrate",
-    "keyCondition": "Flow between control and the owned finishes, tap honored.",
+    "keyCondition": "Move between control and the owned finishes. Always honor the tap.",
     "gameName": "Hunt for Hips and Shoulders (Perpendicular Start)",
     "probingQuestion": "What does repair cost you, and is it worth paying?",
-    "grapplingTlo": "By the end of this session, the participant will integrate chest-pin control and finishing in open rolling, using the whole neighborhood in live flow.",
+    "grapplingTlo": "By the end of this session, the participant will put together chest-pin control and the finishes in open rolling, using everything they have learned so far.",
     "looksBackAt": 12,
     "grapplingElos": [
-      "Flow between chest-pin control and owned finishes during live rolling.",
-      "Give and honor the tap, resetting and continuing cleanly."
+      "Move between chest-pin control and the owned finishes during live rolling.",
+      "Give and honor the tap, then reset and keep going cleanly."
     ],
-    "caselTlo": "By the end of this session, the participant will name what repair costs them and weigh whether it is worth paying.",
+    "caselTlo": "By the end of this session, the participant will name what repair costs them, and decide if it's worth paying that cost.",
     "caselElos": [
-      "Identify the personal cost of repairing a rupture, pride, comfort, or time.",
+      "Name the personal cost of repairing a rupture, like pride, comfort, or time.",
       "Decide whether repair is worth that cost, and say why."
     ],
-    "connection": "Open rolling puts it all together, control, finish, tap, reset, in one flow. Repair is the same integration in relationships: it costs pride and comfort, and you decide it is worth paying. This closes the Initiation and points to the Return.",
+    "connection": "Open rolling puts it all together: control, finish, tap, reset, in one flow. Repair works the same way in relationships. It costs pride and comfort, and you decide it's worth paying. This closes the Initiation and points to the Return.",
     "takeaway": "You made contact, took the friction, survived the rupture, and learned repair.",
     "_source": "GWMS Curriculum Guide — Session 24 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
+    {
+      "id": "start",
+      "title": "Welcome",
+      "slides": [
+        {
+          "id": "s24-welcome",
+          "type": "text-image",
+          "eyebrow": "Welcome",
+          "title": "Welcome to GWMS Online",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "This is Session 24 of 36: Repair."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
+            },
+            {
+              "kind": "callout",
+              "label": "Where this sits",
+              "text": "Session 24 of 36. The Initiation, Week 8, Repair. On the mat that stage runs Chest Pin."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Take your time. There are no wrong answers when you write about yourself."
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "today",
       "title": "Today",
@@ -47,17 +78,12 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
         {
           "id": "s24-question",
           "type": "text-image",
-          "eyebrow": "Session 24 · Probing question",
+          "eyebrow": "Session 24 · Today's question",
           "title": "What does repair cost you, and is it worth paying?",
           "body": [
             {
               "kind": "lead",
-              "text": "That is the question for this session. It runs through the whole session: the grappling class, rolling and recovery, and the lesson."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 24 of 36. The Initiation, Week 8, Repair. On the mat that stage runs Chest Pin."
+              "text": "This is your question for today. Keep it in mind during the game and the lesson."
             }
           ],
           "alternates": [
@@ -108,7 +134,7 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Open rolling from the chest pin, both sides play. Flow between control and the owned finishes, tap honored, reset and continue."
+              "text": "Open rolling from the chest pin, both sides play. Move between control and the owned finishes. Honor the tap, reset, and keep going."
             },
             {
               "kind": "paragraph",
@@ -118,11 +144,11 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
           "reveals": [
             {
               "id": "key-condition",
-              "label": "What had to be true first",
+              "label": "What you need first",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Flow between control and the owned finishes, tap honored."
+                  "text": "Move between control and the owned finishes. Always honor the tap."
                 }
               ]
             },
@@ -141,7 +167,7 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -167,15 +193,15 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Every finish is released instantly on the tap, every time. The tap is law."
+              "feedback": "Never. Let go the instant your partner taps. Every single time. The tap is law."
             },
             {
               "text": "Overpowering your partner with force",
-              "feedback": "You keep the pin by feeling your partner and adjusting, not by clamping and squeezing. Staying calm and adjusting beats forcing harder."
+              "feedback": "You keep the pin by feeling your partner and moving with them, not by clamping down and squeezing hard. Staying calm beats forcing harder."
             }
           ],
           "correctHead": "That's it.",
-          "correctText": "That is the whole win condition for today.",
+          "correctText": "That is how you win today.",
           "incorrectHead": "Not quite.",
           "incorrectText": "Read the note under your choice, then try again.",
           "revealText": "The right answer is marked above, with the reason."
@@ -194,19 +220,19 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Integrate chest-pin control and finishing in open rolling, using the whole neighborhood in live flow."
+              "text": "Put together chest-pin control and the finishes in open rolling, using everything you have learned so far."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Flow between chest-pin control and owned finishes during live rolling.",
-                "Give and honor the tap, resetting and continuing cleanly."
+                "Move between chest-pin control and the owned finishes during live rolling.",
+                "Give and honor the tap, then reset and keep going cleanly."
               ]
             }
           ]
@@ -214,23 +240,23 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
         {
           "id": "s24-casel",
           "type": "text-image",
-          "eyebrow": "The other half",
-          "title": "And the part that was not about grappling",
+          "eyebrow": "Off the mat",
+          "title": "The part that was not about grappling",
           "body": [
             {
               "kind": "lead",
-              "text": "Name what repair costs you and weigh whether it is worth paying."
+              "text": "Name what repair costs you, and decide if it's worth paying that cost."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Identify the personal cost of repairing a rupture, pride, comfort, or time.",
+                "Name the personal cost of repairing a rupture, like pride, comfort, or time.",
                 "Decide whether repair is worth that cost, and say why."
               ]
             }
@@ -244,7 +270,7 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Open rolling puts it all together, control, finish, tap, reset, in one flow. Repair is the same integration in relationships: it costs pride and comfort, and you decide it is worth paying. This closes the Initiation and points to the Return."
+              "text": "Open rolling puts it all together: control, finish, tap, reset, in one flow. Repair works the same way in relationships. It costs pride and comfort, and you decide it's worth paying. This closes the Initiation and points to the Return."
             }
           ],
           "reveals": [
@@ -254,7 +280,7 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Chest-to-chest contact, friction, break, and reset on the mat is contact, friction, rupture, and repair between people. The Initiation tests the real self against others."
+                  "text": "Chest-to-chest contact on the mat is like contact with people. Friction on the mat is like friction with people. A break on the mat is like a rupture between people. A reset on the mat is like repair between people. The Initiation tests the real you against other people."
                 }
               ]
             }
@@ -274,7 +300,7 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Open rolling from the chest pin, both sides play. Flow between control and the owned finishes, tap honored, reset and continue."
+              "text": "Open rolling from the chest pin, both sides play. Move between control and the owned finishes. Honor the tap, reset, and keep going."
             },
             {
               "kind": "paragraph",
@@ -294,7 +320,7 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
             },
             {
               "id": "tap-again",
-              "label": "And the rule under all of it",
+              "label": "And the rule that never changes",
               "content": [
                 {
                   "kind": "list",
@@ -307,7 +333,7 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -327,16 +353,16 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
           "retry": true,
           "options": [
             {
-              "text": "Name what repair costs you and weigh whether it is worth paying.",
+              "text": "Name what repair costs you, and decide if it's worth paying that cost.",
               "correct": true,
               "feedback": "That was the target for today."
             },
             {
-              "text": "Describe who you are with other people now that the Descent named the real self.",
+              "text": "Describe who you are with other people, now that the Descent named your real self.",
               "feedback": "That is Session 15's target, not today's."
             },
             {
-              "text": "Name a rupture you left unrepaired, without being required to share it.",
+              "text": "Name a rupture you left unrepaired, without having to share it out loud.",
               "feedback": "That is Session 20's target, not today's."
             }
           ],
@@ -360,7 +386,7 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
           "type": "reflection",
           "eyebrow": "Before you go",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — every participant, every session",
+          "kindLabel": "IRF — everyone fills this out, every session",
           "fields": [
             {
               "id": "mat",

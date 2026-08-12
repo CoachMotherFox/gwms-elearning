@@ -19,26 +19,57 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
     "bloom": "Apply and Analyze",
     "card": "The Back Pin",
     "domain": "Control",
-    "keyCondition": "Secure the back from a dynamic start.",
+    "keyCondition": "Get the back from a fast, moving start.",
     "gameName": "Back to Chest Control Transition Game",
     "probingQuestion": "What can you do now that the old you couldn't?",
-    "grapplingTlo": "By the end of this session, the participant will apply back-pin control from a live scramble and analyze the specific capability they gained since the Descent.",
+    "grapplingTlo": "By the end of this session, the participant will get back-pin control from a live scramble, and name the exact skill they gained since the Descent.",
     "looksBackAt": 15,
     "grapplingElos": [
-      "Secure the back from a dynamic exchange.",
+      "Get the back during a fast, live exchange.",
       "Name a specific mat skill they own now that they did not before."
     ],
-    "caselTlo": "By the end of this session, the participant will name a specific capability they have now that the old self lacked.",
+    "caselTlo": "By the end of this session, the participant will name one exact skill they have now that they did not have before.",
     "caselElos": [
-      "Identify one concrete new capability.",
+      "Name one clear new skill.",
       "Connect it to a real situation where it matters."
     ],
-    "connection": "There is a specific thing you can do on the mat now that you could not, and you can name it exactly. Your growth off the mat has the same specificity. Not “I am better,” but “I can do this now.”",
+    "connection": "There is one exact thing you can do on the mat now that you could not before, and you can name it. Your growth off the mat works the same way. Not \"I am better,\" but \"I can do this now.\"",
     "takeaway": "You can name what you gained, exactly.",
     "_source": "GWMS Curriculum Guide — Session 27 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
+    {
+      "id": "start",
+      "title": "Welcome",
+      "slides": [
+        {
+          "id": "s27-welcome",
+          "type": "text-image",
+          "eyebrow": "Welcome",
+          "title": "Welcome to GWMS Online",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "This is Session 27 of 36: Emergence."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
+            },
+            {
+              "kind": "callout",
+              "label": "Where this sits",
+              "text": "Session 27 of 36. The Return, Week 9, Emergence. On the mat that stage runs Back Pin."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Take your time. There are no wrong answers when you write about yourself."
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "today",
       "title": "Today",
@@ -46,17 +77,12 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
         {
           "id": "s27-question",
           "type": "text-image",
-          "eyebrow": "Session 27 · Probing question",
+          "eyebrow": "Session 27 · Today's question",
           "title": "What can you do now that the old you couldn't?",
           "body": [
             {
               "kind": "lead",
-              "text": "That is the question for this session. It runs through the whole session: the grappling class, rolling and recovery, and the lesson."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 27 of 36. The Return, Week 9, Emergence. On the mat that stage runs Back Pin."
+              "text": "This is your question for today. Keep it in mind during the game and the lesson."
             }
           ],
           "alternates": [
@@ -107,21 +133,21 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Take the back from a live scramble and reach a controlling position while staying on top."
+              "text": "Take the back during a live scramble. Reach a controlling position and stay on top."
             },
             {
               "kind": "paragraph",
-              "text": "Name the exact thing you can do here now that you could not before. Not better. The specific thing."
+              "text": "Name the exact thing you can do now that you could not before. Not just \"better.\" The specific thing."
             }
           ],
           "reveals": [
             {
               "id": "key-condition",
-              "label": "What had to be true first",
+              "label": "What you need first",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Secure the back from a dynamic start."
+                  "text": "Get the back from a fast, moving start."
                 }
               ]
             },
@@ -140,7 +166,7 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -166,15 +192,15 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Every finish is released instantly on the tap, every time. The tap is law."
+              "feedback": "Never. You let go the second your partner taps. Every single time. The tap is law."
             },
             {
               "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing the Back Pin exists to teach you not to do. Total control with the choice not to harm is the core of the whole program."
+              "feedback": "That is the one thing the Back Pin teaches you never to do. Total control, plus the choice not to hurt someone, is the heart of the whole program."
             }
           ],
           "correctHead": "That's it.",
-          "correctText": "That is the whole win condition for today.",
+          "correctText": "That is how you win today.",
           "incorrectHead": "Not quite.",
           "incorrectText": "Read the note under your choice, then try again.",
           "revealText": "The right answer is marked above, with the reason."
@@ -193,18 +219,18 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Apply back-pin control from a live scramble and analyze the specific capability you gained since the Descent."
+              "text": "Get back-pin control from a live scramble, and name the exact skill you gained since the Descent."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Secure the back from a dynamic exchange.",
+                "Get the back during a fast, live exchange.",
                 "Name a specific mat skill you own now that you did not before."
               ]
             }
@@ -213,23 +239,23 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
         {
           "id": "s27-casel",
           "type": "text-image",
-          "eyebrow": "The other half",
-          "title": "And the part that was not about grappling",
+          "eyebrow": "Off the mat",
+          "title": "The part that was not about grappling",
           "body": [
             {
               "kind": "lead",
-              "text": "Name a specific capability you have now that the old self lacked."
+              "text": "Name one exact skill you have now that you did not have before."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Identify one concrete new capability.",
+                "Name one clear new skill.",
                 "Connect it to a real situation where it matters."
               ]
             }
@@ -243,7 +269,7 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
           "body": [
             {
               "kind": "lead",
-              "text": "There is a specific thing you can do on the mat now that you could not, and you can name it exactly. Your growth off the mat has the same specificity. Not “I am better,” but “I can do this now.”"
+              "text": "There is one exact thing you can do on the mat now that you could not before, and you can name it. Your growth off the mat works the same way. Not \"I am better,\" but \"I can do this now.\""
             }
           ],
           "reveals": [
@@ -253,7 +279,7 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Total control with the choice not to harm is the core of the whole program, turned into a decision the participant carries out the door."
+                  "text": "Total control, plus the choice not to hurt someone, is the heart of the whole program. Now you carry that choice out the door."
                 }
               ]
             }
@@ -273,11 +299,11 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Take the back from a live scramble and reach a controlling position while staying on top."
+              "text": "Take the back during a live scramble. Reach a controlling position and stay on top."
             },
             {
               "kind": "paragraph",
-              "text": "Name the exact thing you can do here now that you could not before. Not better. The specific thing."
+              "text": "Name the exact thing you can do now that you could not before. Not just \"better.\" The specific thing."
             }
           ],
           "reveals": [
@@ -293,7 +319,7 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
             },
             {
               "id": "tap-again",
-              "label": "And the rule under all of it",
+              "label": "And the rule that never changes",
               "content": [
                 {
                   "kind": "list",
@@ -306,7 +332,7 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -326,7 +352,7 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
           "retry": true,
           "options": [
             {
-              "text": "Name a specific capability you have now that the old self lacked.",
+              "text": "Name one exact skill you have now that you did not have before.",
               "correct": true,
               "feedback": "That was the target for today."
             },
@@ -359,7 +385,7 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
           "type": "reflection",
           "eyebrow": "Before you go",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — every participant, every session",
+          "kindLabel": "IRF — everyone fills this out, every session",
           "fields": [
             {
               "id": "mat",

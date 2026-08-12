@@ -23,7 +23,7 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
     "keyCondition": "Protect the space behind the legs.",
     "gameName": "Knee Pit Touchdown Game, played from the retaining side",
     "probingQuestion": "What does your mask protect you from?",
-    "grapplingTlo": "By the end of this session, the participant will apply guard retention to protect the space behind the legs.",
+    "grapplingTlo": "By the end of this session, the participant will use guard retention to protect the space behind their legs.",
     "looksBackAt": 3,
     "grapplingElos": [
       "Hold the frame that protects the pin space.",
@@ -31,15 +31,46 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
     ],
     "caselTlo": "By the end of this session, the participant will name what their mask defends against.",
     "caselElos": [
-      "Name the mask's function.",
-      "Keep the depth optional."
+      "Name what the mask does.",
+      "Share only as much as they want."
     ],
     "connection": "Your guard protects the space behind your legs. Your mask protects something too. Naming what the guard defends is the same as naming what the mask hides.",
-    "takeaway": "The mask has a job, and next week we find out what happens to it under pressure.",
+    "takeaway": "The mask has a job. Next week we find out what happens to it under pressure.",
     "_source": "GWMS Curriculum Guide — Session 6 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
+    {
+      "id": "start",
+      "title": "Welcome",
+      "slides": [
+        {
+          "id": "s06-welcome",
+          "type": "text-image",
+          "eyebrow": "Welcome",
+          "title": "Welcome to GWMS Online",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "This is Session 6 of 36: Mask."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
+            },
+            {
+              "kind": "callout",
+              "label": "Where this sits",
+              "text": "Session 6 of 36. The Descent, Week 2, Mask. On the mat that stage runs The Roads."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Take your time. There are no wrong answers when you write about yourself."
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "today",
       "title": "Today",
@@ -47,17 +78,12 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
         {
           "id": "s06-question",
           "type": "text-image",
-          "eyebrow": "Session 6 · Probing question",
+          "eyebrow": "Session 6 · Today's question",
           "title": "What does your mask protect you from?",
           "body": [
             {
               "kind": "lead",
-              "text": "That is the question for this session. It runs through the whole session: the grappling class, rolling and recovery, and the lesson."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 6 of 36. The Descent, Week 2, Mask. On the mat that stage runs The Roads."
+              "text": "This is your question for today. Keep it in mind during the game and the lesson."
             }
           ],
           "alternates": [
@@ -94,7 +120,7 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "The guard is smart, and next week we look at the face that guard wears, the mask."
+                  "text": "The guard is smart. Next week we look at the face that guard wears: the mask."
                 }
               ]
             }
@@ -108,7 +134,7 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
           "body": [
             {
               "kind": "lead",
-              "text": "One partner, the passer, tries to touch both of the other partner's knee pits with their own feet off the ground. The retaining partner's job is to keep their knees and feet moving so the passer cannot land both touches. Switch roles so everyone feels both jobs."
+              "text": "One partner, the passer, tries to touch both of the other partner's knee pits with their own feet off the ground. The other partner's job is to keep their knees and feet moving so the passer cannot land both touches. Switch roles so everyone tries both jobs."
             },
             {
               "kind": "paragraph",
@@ -118,7 +144,7 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
           "reveals": [
             {
               "id": "key-condition",
-              "label": "What had to be true first",
+              "label": "What you need first",
               "content": [
                 {
                   "kind": "paragraph",
@@ -141,7 +167,7 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -167,15 +193,15 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not in the Roads. These are the two path domains, Enter and Arrive, and they carry no finish — the path delivers you into a pin and the pin owns the finish."
+              "feedback": "Not part of the Roads. Enter and Arrive are the two path steps here, and neither one ends in a submission. The path leads you into a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
-              "feedback": "Never. Everything runs at light resistance, and the tap is honored instantly, every time."
+              "feedback": "Never. Everyone goes light, and the tap always stops it right away, every time."
             }
           ],
           "correctHead": "That's it.",
-          "correctText": "That is the whole win condition for today.",
+          "correctText": "That is how you win today.",
           "incorrectHead": "Not quite.",
           "incorrectText": "Read the note under your choice, then try again.",
           "revealText": "The right answer is marked above, with the reason."
@@ -194,12 +220,12 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Apply guard retention to protect the space behind the legs."
+              "text": "Use guard retention to protect the space behind your legs."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
@@ -214,8 +240,8 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
         {
           "id": "s06-casel",
           "type": "text-image",
-          "eyebrow": "The other half",
-          "title": "And the part that was not about grappling",
+          "eyebrow": "Off the mat",
+          "title": "The part that was not about grappling",
           "body": [
             {
               "kind": "lead",
@@ -224,14 +250,14 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Name the mask's function.",
-                "Keep the depth optional."
+                "Name what the mask does.",
+                "Share only as much as you want."
               ]
             }
           ]
@@ -254,7 +280,7 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Passing past a partner's guard to what it protects is the same act as looking under the mask to the real self. The Descent digs, on the mat and in the person."
+                  "text": "Getting past a partner's guard to what it protects is the same act as looking under a mask to the real person. The Descent digs deep, on the mat and inside you."
                 }
               ]
             }
@@ -274,7 +300,7 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
           "body": [
             {
               "kind": "lead",
-              "text": "One partner, the passer, tries to touch both of the other partner's knee pits with their own feet off the ground. The retaining partner's job is to keep their knees and feet moving so the passer cannot land both touches. Switch roles so everyone feels both jobs."
+              "text": "One partner, the passer, tries to touch both of the other partner's knee pits with their own feet off the ground. The other partner's job is to keep their knees and feet moving so the passer cannot land both touches. Switch roles so everyone tries both jobs."
             },
             {
               "kind": "paragraph",
@@ -294,7 +320,7 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
             },
             {
               "id": "tap-again",
-              "label": "And the rule under all of it",
+              "label": "And the rule that never changes",
               "content": [
                 {
                   "kind": "list",
@@ -307,7 +333,7 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -332,11 +358,11 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
               "feedback": "That was the target for today."
             },
             {
-              "text": "Identify your personal tell, the first reliable sign you have cracked.",
+              "text": "Name your personal tell, the first sure sign you have cracked.",
               "feedback": "That is Session 9's target, not today's."
             },
             {
-              "text": "Name one thing you do to protect yourself before you trust a space, and name it as a strength.",
+              "text": "Name one thing you do to protect yourself before you trust a space, and call it a strength.",
               "feedback": "That is Session 3's target, not today's."
             }
           ],
@@ -360,7 +386,7 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
           "type": "reflection",
           "eyebrow": "Before you go",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — every participant, every session",
+          "kindLabel": "IRF — everyone fills this out, every session",
           "fields": [
             {
               "id": "mat",

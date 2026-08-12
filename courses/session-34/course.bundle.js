@@ -22,7 +22,7 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
     "keyCondition": "Play both roles, control on top and 4S escape underneath.",
     "gameName": "Back Control with Multiple Arm Escape Options (deliberate capstone-week exception, Intermediate tier)",
     "probingQuestion": "What did this cost you, and what did you get for it?",
-    "grapplingTlo": "By the end of this session, the participant will integrate the full back-pin game in open rolling, and analyze what twelve weeks of training cost and gave them.",
+    "grapplingTlo": "By the end of this session, the participant will put the full back-pin game together in open rolling, and name what twelve weeks of training cost them and gave them.",
     "looksBackAt": 31,
     "grapplingElos": [
       "Roll open from the back-pin game, controlling and finishing with the tap honored.",
@@ -30,8 +30,8 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
     ],
     "caselTlo": "By the end of this session, the participant will name the honest cost and reward of the whole program.",
     "caselElos": [
-      "Identify what the twelve weeks cost them.",
-      "Identify what they got for it."
+      "Name what the twelve weeks cost them.",
+      "Name what they got for it."
     ],
     "connection": "Twelve weeks of getting tapped, cracked, and rebuilt cost something and gave something. Rolling now, you can feel both in your body. The honest ledger of what this cost and what you got is the first step of the return.",
     "takeaway": "The ledger is honest, and it landed on the side of growth.",
@@ -40,23 +40,49 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
     {
+      "id": "start",
+      "title": "Welcome",
+      "slides": [
+        {
+          "id": "s34-welcome",
+          "type": "text-image",
+          "eyebrow": "Welcome",
+          "title": "Welcome to GWMS Online",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "This is Session 34 of 36: Celebration."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
+            },
+            {
+              "kind": "callout",
+              "label": "Where this sits",
+              "text": "Session 34 of 36. The Return, Week 12, Celebration. On the mat that stage runs Back Pin."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Take your time. There are no wrong answers when you write about yourself."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "today",
       "title": "Today",
       "slides": [
         {
           "id": "s34-question",
           "type": "text-image",
-          "eyebrow": "Session 34 · Probing question",
+          "eyebrow": "Session 34 · Today's question",
           "title": "What did this cost you, and what did you get for it?",
           "body": [
             {
               "kind": "lead",
-              "text": "That is the question for this session. It runs through the whole session: the grappling class, rolling and recovery, and the lesson."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 34 of 36. The Return, Week 12, Celebration. On the mat that stage runs Back Pin."
+              "text": "This is your question for today. Keep it in mind during the game and the lesson."
             }
           ],
           "alternates": [
@@ -117,7 +143,7 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
           "reveals": [
             {
               "id": "key-condition",
-              "label": "What had to be true first",
+              "label": "What you need first",
               "content": [
                 {
                   "kind": "paragraph",
@@ -140,7 +166,7 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -166,15 +192,15 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Every finish is released instantly on the tap, every time. The tap is law."
+              "feedback": "Never. You let go the second your partner taps. Every single time. The tap is law."
             },
             {
               "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing the Back Pin exists to teach you not to do. Total control with the choice not to harm is the core of the whole program."
+              "feedback": "That is the one thing the Back Pin teaches you never to do. Total control, plus the choice not to hurt someone, is the heart of the whole program."
             }
           ],
           "correctHead": "That's it.",
-          "correctText": "That is the whole win condition for today.",
+          "correctText": "That is how you win today.",
           "incorrectHead": "Not quite.",
           "incorrectText": "Read the note under your choice, then try again.",
           "revealText": "The right answer is marked above, with the reason."
@@ -193,12 +219,12 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Integrate the full back-pin game in open rolling, and analyze what twelve weeks of training cost and gave you."
+              "text": "Put the full back-pin game together in open rolling, and name what twelve weeks of training cost you and gave you."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
@@ -213,8 +239,8 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
         {
           "id": "s34-casel",
           "type": "text-image",
-          "eyebrow": "The other half",
-          "title": "And the part that was not about grappling",
+          "eyebrow": "Off the mat",
+          "title": "The part that was not about grappling",
           "body": [
             {
               "kind": "lead",
@@ -223,14 +249,14 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Identify what the twelve weeks cost you.",
-                "Identify what you got for it."
+                "Name what the twelve weeks cost you.",
+                "Name what you got for it."
               ]
             }
           ]
@@ -247,7 +273,7 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
             },
             {
               "kind": "callout",
-              "label": "Worth saying plainly",
+              "label": "Said simply",
               "text": "Grief and pride both belong here. Neither one cancels the other."
             }
           ],
@@ -258,7 +284,7 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Total control with the choice not to harm is the core of the whole program, turned into a decision the participant carries out the door."
+                  "text": "Total control, plus the choice not to hurt someone, is the heart of the whole program. Now you carry that choice out the door."
                 }
               ]
             }
@@ -298,7 +324,7 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
             },
             {
               "id": "tap-again",
-              "label": "And the rule under all of it",
+              "label": "And the rule that never changes",
               "content": [
                 {
                   "kind": "list",
@@ -311,7 +337,7 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -336,7 +362,7 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
               "feedback": "That was the target for today."
             },
             {
-              "text": "Test whether a claimed change is real by checking it against pressure, and name the evidence.",
+              "text": "Test if a claimed change is real by checking it under pressure, and name the proof.",
               "feedback": "That is Session 26's target, not today's."
             },
             {
@@ -364,7 +390,7 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
           "type": "reflection",
           "eyebrow": "Before you go",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — every participant, every session",
+          "kindLabel": "IRF — everyone fills this out, every session",
           "fields": [
             {
               "id": "mat",

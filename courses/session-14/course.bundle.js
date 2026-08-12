@@ -23,23 +23,54 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
     "keyCondition": "Keep the coverage as the partner moves.",
     "gameName": "Chest-to-Chest Elbow Control Game",
     "probingQuestion": "How much of someone else do you actually let in?",
-    "grapplingTlo": "By the end of this session, the participant will apply chest-pin control while reading and adjusting to a partner's movement, keeping the pin as the partner works to create space.",
+    "grapplingTlo": "By the end of this session, the participant will keep chest-pin control while reading and adjusting to a partner's movement, even as the partner tries to make space.",
     "looksBackAt": 8,
     "grapplingElos": [
-      "Maintain chest-pin control for a three-count while the partner actively frames and moves.",
-      "Adjust pressure and connection in response to the partner rather than forcing a fixed grip."
+      "Keep chest-pin control for a three-count while the partner pushes and moves.",
+      "Adjust pressure and connection to match the partner, instead of holding one hard grip."
     ],
-    "caselTlo": "By the end of this session, the participant will identify how much they open up to another person and name one thing that makes letting someone in hard.",
+    "caselTlo": "By the end of this session, the participant will say how much they open up to another person, and name one thing that makes letting someone in hard.",
     "caselElos": [
-      "Notice their own guardedness or openness during close contact.",
-      "Name one thing that makes letting another person in difficult."
+      "Notice if they feel closed off or open during close contact.",
+      "Name one thing that makes it hard to let another person in."
     ],
-    "connection": "Keeping a pin means feeling your partner and adjusting to them, not clamping down and ignoring them. Letting someone in works the same way. You hold the connection by reading the other person, not by walling off and muscling through.",
-    "takeaway": "Letting people in is a dial you control, and you just found yours.",
+    "connection": "Keeping a pin means feeling your partner and adjusting to them, not clamping down and ignoring them. Letting someone in works the same way. You hold the connection by reading the other person, not by shutting them out and pushing through alone.",
+    "takeaway": "Letting people in is like a dial you control. You just found yours.",
     "_source": "GWMS Curriculum Guide — Session 14 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
+    {
+      "id": "start",
+      "title": "Welcome",
+      "slides": [
+        {
+          "id": "s14-welcome",
+          "type": "text-image",
+          "eyebrow": "Welcome",
+          "title": "Welcome to GWMS Online",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "This is Session 14 of 36: Contact."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
+            },
+            {
+              "kind": "callout",
+              "label": "Where this sits",
+              "text": "Session 14 of 36. The Initiation, Week 5, Contact. On the mat that stage runs Chest Pin."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Take your time. There are no wrong answers when you write about yourself."
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "today",
       "title": "Today",
@@ -47,17 +78,12 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
         {
           "id": "s14-question",
           "type": "text-image",
-          "eyebrow": "Session 14 · Probing question",
+          "eyebrow": "Session 14 · Today's question",
           "title": "How much of someone else do you actually let in?",
           "body": [
             {
               "kind": "lead",
-              "text": "That is the question for this session. It runs through the whole session: the grappling class, rolling and recovery, and the lesson."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 14 of 36. The Initiation, Week 5, Contact. On the mat that stage runs Chest Pin."
+              "text": "This is your question for today. Keep it in mind during the game and the lesson."
             }
           ],
           "alternates": [
@@ -108,17 +134,17 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
           "body": [
             {
               "kind": "lead",
-              "text": "The top player keeps the elbows off the body as the partner frames and tries to make space. Win by keeping the elbows controlled continuously."
+              "text": "The top player keeps control of the partner's elbows as the partner pushes and tries to make space. Win by keeping the elbows controlled the whole time."
             },
             {
               "kind": "paragraph",
-              "text": "You keep the pin by feeling your partner and adjusting, not by clamping and squeezing, which is the same as how much you actually let someone in."
+              "text": "You keep the pin by feeling your partner and adjusting, not by clamping down and squeezing. That's a lot like how much you actually let someone in."
             }
           ],
           "reveals": [
             {
               "id": "key-condition",
-              "label": "What had to be true first",
+              "label": "What you need first",
               "content": [
                 {
                   "kind": "paragraph",
@@ -141,7 +167,7 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -161,21 +187,21 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
           "retry": true,
           "options": [
             {
-              "text": "Keeping the elbows controlled continuously as the partner frames and moves",
+              "text": "Keeping the elbows controlled the whole time as the partner pushes and moves",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Every finish is released instantly on the tap, every time. The tap is law."
+              "feedback": "Never. Let go the instant your partner taps. Every single time. The tap is law."
             },
             {
               "text": "Overpowering your partner with force",
-              "feedback": "You keep the pin by feeling your partner and adjusting, not by clamping and squeezing. Staying calm and adjusting beats forcing harder."
+              "feedback": "You keep the pin by feeling your partner and moving with them, not by clamping down and squeezing hard. Staying calm beats forcing harder."
             }
           ],
           "correctHead": "That's it.",
-          "correctText": "That is the whole win condition for today.",
+          "correctText": "That is how you win today.",
           "incorrectHead": "Not quite.",
           "incorrectText": "Read the note under your choice, then try again.",
           "revealText": "The right answer is marked above, with the reason."
@@ -194,19 +220,19 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Apply chest-pin control while reading and adjusting to a partner's movement, keeping the pin as the partner works to create space."
+              "text": "Keep chest-pin control while reading and adjusting to a partner's movement, even as the partner tries to make space."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Maintain chest-pin control for a three-count while the partner actively frames and moves.",
-                "Adjust pressure and connection in response to the partner rather than forcing a fixed grip."
+                "Keep chest-pin control for a three-count while the partner pushes and moves.",
+                "Adjust pressure and connection to match the partner, instead of holding one hard grip."
               ]
             }
           ]
@@ -214,24 +240,24 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
         {
           "id": "s14-casel",
           "type": "text-image",
-          "eyebrow": "The other half",
-          "title": "And the part that was not about grappling",
+          "eyebrow": "Off the mat",
+          "title": "The part that was not about grappling",
           "body": [
             {
               "kind": "lead",
-              "text": "Identify how much you open up to another person and name one thing that makes letting someone in hard."
+              "text": "Say how much you open up to another person, and name one thing that makes letting someone in hard."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Notice your own guardedness or openness during close contact.",
-                "Name one thing that makes letting another person in difficult."
+                "Notice if you feel closed off or open during close contact.",
+                "Name one thing that makes it hard to let another person in."
               ]
             }
           ]
@@ -244,7 +270,7 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Keeping a pin means feeling your partner and adjusting to them, not clamping down and ignoring them. Letting someone in works the same way. You hold the connection by reading the other person, not by walling off and muscling through."
+              "text": "Keeping a pin means feeling your partner and adjusting to them, not clamping down and ignoring them. Letting someone in works the same way. You hold the connection by reading the other person, not by shutting them out and pushing through alone."
             }
           ],
           "reveals": [
@@ -254,7 +280,7 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Chest-to-chest contact, friction, break, and reset on the mat is contact, friction, rupture, and repair between people. The Initiation tests the real self against others."
+                  "text": "Chest-to-chest contact on the mat is like contact with people. Friction on the mat is like friction with people. A break on the mat is like a rupture between people. A reset on the mat is like repair between people. The Initiation tests the real you against other people."
                 }
               ]
             }
@@ -274,11 +300,11 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
           "body": [
             {
               "kind": "lead",
-              "text": "The top player keeps the elbows off the body as the partner frames and tries to make space. Win by keeping the elbows controlled continuously."
+              "text": "The top player keeps control of the partner's elbows as the partner pushes and tries to make space. Win by keeping the elbows controlled the whole time."
             },
             {
               "kind": "paragraph",
-              "text": "You keep the pin by feeling your partner and adjusting, not by clamping and squeezing, which is the same as how much you actually let someone in."
+              "text": "You keep the pin by feeling your partner and adjusting, not by clamping down and squeezing. That's a lot like how much you actually let someone in."
             }
           ],
           "reveals": [
@@ -288,13 +314,13 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Keeping the elbows controlled continuously as the partner frames and moves"
+                  "text": "Keeping the elbows controlled the whole time as the partner pushes and moves"
                 }
               ]
             },
             {
               "id": "tap-again",
-              "label": "And the rule under all of it",
+              "label": "And the rule that never changes",
               "content": [
                 {
                   "kind": "list",
@@ -307,7 +333,7 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -327,12 +353,12 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
           "retry": true,
           "options": [
             {
-              "text": "Identify how much you open up to another person and name one thing that makes letting someone in hard.",
+              "text": "Say how much you open up to another person, and name one thing that makes letting someone in hard.",
               "correct": true,
               "feedback": "That was the target for today."
             },
             {
-              "text": "Practice staying present in discomfort and name what makes you want to bail.",
+              "text": "Practice staying present when things feel uncomfortable, and name what makes you want to bail.",
               "feedback": "That is Session 17's target, not today's."
             },
             {
@@ -360,7 +386,7 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
           "type": "reflection",
           "eyebrow": "Before you go",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — every participant, every session",
+          "kindLabel": "IRF — everyone fills this out, every session",
           "fields": [
             {
               "id": "mat",

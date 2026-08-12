@@ -19,26 +19,57 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
     "bloom": "Apply and Analyze",
     "card": "The Back Pin",
     "domain": "Control",
-    "keyCondition": "Keep the back against a live partner running 4S.",
+    "keyCondition": "Hold the back while a live partner runs their 4S escape.",
     "gameName": "Chest to Back Control Game",
     "probingQuestion": "How do you know the change is real and not just talk?",
-    "grapplingTlo": "By the end of this session, the participant will apply back-pin control under active resistance and analyze whether the change holds when it is tested.",
+    "grapplingTlo": "By the end of this session, the participant will use back-pin control while their partner fights back, and find out if the change holds up when tested.",
     "looksBackAt": 20,
     "grapplingElos": [
-      "Keep the back for a three-count while the partner actively works to escape.",
+      "Keep the back for a three-count while the partner works hard to escape.",
       "Notice whether their control holds under pressure or slips."
     ],
-    "caselTlo": "By the end of this session, the participant will test whether a claimed change is real by checking it against pressure, and name the evidence.",
+    "caselTlo": "By the end of this session, the participant will test if a claimed change is real by checking it under pressure, and name the proof.",
     "caselElos": [
-      "Identify how they would know a change is real.",
-      "Name one piece of evidence that the change holds under stress."
+      "Say how they would know a change is real.",
+      "Name one piece of proof that the change holds under stress."
     ],
-    "connection": "A change that only works when it is easy is not a change yet. Holding the back against a fighting partner tests it. Who you have become is proven the same way: by whether it holds when things are hard.",
+    "connection": "A change that only works when it is easy is not a real change yet. Holding the back against a fighting partner puts it to the test. Who you have become gets proven the same way, by whether it holds up when things get hard.",
     "takeaway": "Tested change is change you can trust.",
     "_source": "GWMS Curriculum Guide — Session 26 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
+    {
+      "id": "start",
+      "title": "Welcome",
+      "slides": [
+        {
+          "id": "s26-welcome",
+          "type": "text-image",
+          "eyebrow": "Welcome",
+          "title": "Welcome to GWMS Online",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "This is Session 26 of 36: Emergence."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
+            },
+            {
+              "kind": "callout",
+              "label": "Where this sits",
+              "text": "Session 26 of 36. The Return, Week 9, Emergence. On the mat that stage runs Back Pin."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Take your time. There are no wrong answers when you write about yourself."
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "today",
       "title": "Today",
@@ -46,17 +77,12 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
         {
           "id": "s26-question",
           "type": "text-image",
-          "eyebrow": "Session 26 · Probing question",
+          "eyebrow": "Session 26 · Today's question",
           "title": "How do you know the change is real and not just talk?",
           "body": [
             {
               "kind": "lead",
-              "text": "That is the question for this session. It runs through the whole session: the grappling class, rolling and recovery, and the lesson."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 26 of 36. The Return, Week 9, Emergence. On the mat that stage runs Back Pin."
+              "text": "This is your question for today. Keep it in mind during the game and the lesson."
             }
           ],
           "alternates": [
@@ -93,7 +119,7 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Naming the unrepaired break is the first move toward repair."
+                  "text": "Naming the break you never fixed is the first step toward repair."
                 }
               ]
             }
@@ -107,21 +133,21 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Hold the back against a partner actively trying to get out. Win by staying chest to back while they fight to get flat or turn in."
+              "text": "Hold the back while your partner tries hard to get out. Win by staying chest to back while they fight to turn in or get flat."
             },
             {
               "kind": "paragraph",
-              "text": "A change that only holds when it is easy is not real yet. This tests it under pressure."
+              "text": "A change that only works when things are easy is not real yet. This tests it under pressure."
             }
           ],
           "reveals": [
             {
               "id": "key-condition",
-              "label": "What had to be true first",
+              "label": "What you need first",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Keep the back against a live partner running 4S."
+                  "text": "Hold the back while a live partner runs their 4S escape."
                 }
               ]
             },
@@ -140,7 +166,7 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -166,15 +192,15 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Every finish is released instantly on the tap, every time. The tap is law."
+              "feedback": "Never. You let go the second your partner taps. Every single time. The tap is law."
             },
             {
               "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing the Back Pin exists to teach you not to do. Total control with the choice not to harm is the core of the whole program."
+              "feedback": "That is the one thing the Back Pin teaches you never to do. Total control, plus the choice not to hurt someone, is the heart of the whole program."
             }
           ],
           "correctHead": "That's it.",
-          "correctText": "That is the whole win condition for today.",
+          "correctText": "That is how you win today.",
           "incorrectHead": "Not quite.",
           "incorrectText": "Read the note under your choice, then try again.",
           "revealText": "The right answer is marked above, with the reason."
@@ -193,18 +219,18 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Apply back-pin control under active resistance and analyze whether the change holds when it is tested."
+              "text": "Use back-pin control while your partner fights back, and find out if the change holds up when tested."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Keep the back for a three-count while the partner actively works to escape.",
+                "Keep the back for a three-count while the partner works hard to escape.",
                 "Notice whether your control holds under pressure or slips."
               ]
             }
@@ -213,24 +239,24 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
         {
           "id": "s26-casel",
           "type": "text-image",
-          "eyebrow": "The other half",
-          "title": "And the part that was not about grappling",
+          "eyebrow": "Off the mat",
+          "title": "The part that was not about grappling",
           "body": [
             {
               "kind": "lead",
-              "text": "Test whether a claimed change is real by checking it against pressure, and name the evidence."
+              "text": "Test if a claimed change is real by checking it under pressure, and name the proof."
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Which broke down into"
+              "text": "Here is what that means"
             },
             {
               "kind": "list",
               "ordered": true,
               "items": [
-                "Identify how you would know a change is real.",
-                "Name one piece of evidence that the change holds under stress."
+                "Say how you would know a change is real.",
+                "Name one piece of proof that the change holds under stress."
               ]
             }
           ]
@@ -243,7 +269,7 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
           "body": [
             {
               "kind": "lead",
-              "text": "A change that only works when it is easy is not a change yet. Holding the back against a fighting partner tests it. Who you have become is proven the same way: by whether it holds when things are hard."
+              "text": "A change that only works when it is easy is not a real change yet. Holding the back against a fighting partner puts it to the test. Who you have become gets proven the same way, by whether it holds up when things get hard."
             }
           ],
           "reveals": [
@@ -253,7 +279,7 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Total control with the choice not to harm is the core of the whole program, turned into a decision the participant carries out the door."
+                  "text": "Total control, plus the choice not to hurt someone, is the heart of the whole program. Now you carry that choice out the door."
                 }
               ]
             }
@@ -273,11 +299,11 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Hold the back against a partner actively trying to get out. Win by staying chest to back while they fight to get flat or turn in."
+              "text": "Hold the back while your partner tries hard to get out. Win by staying chest to back while they fight to turn in or get flat."
             },
             {
               "kind": "paragraph",
-              "text": "A change that only holds when it is easy is not real yet. This tests it under pressure."
+              "text": "A change that only works when things are easy is not real yet. This tests it under pressure."
             }
           ],
           "reveals": [
@@ -293,7 +319,7 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
             },
             {
               "id": "tap-again",
-              "label": "And the rule under all of it",
+              "label": "And the rule that never changes",
               "content": [
                 {
                   "kind": "list",
@@ -306,7 +332,7 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
                 },
                 {
                   "kind": "paragraph",
-                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
                 }
               ]
             }
@@ -326,12 +352,12 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
           "retry": true,
           "options": [
             {
-              "text": "Test whether a claimed change is real by checking it against pressure, and name the evidence.",
+              "text": "Test if a claimed change is real by checking it under pressure, and name the proof.",
               "correct": true,
               "feedback": "That was the target for today."
             },
             {
-              "text": "Name how you use your strength in service rather than over others.",
+              "text": "Name how you use your strength to help others, not to control you.",
               "feedback": "That is Session 30's target, not today's."
             },
             {
@@ -359,7 +385,7 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
           "type": "reflection",
           "eyebrow": "Before you go",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — every participant, every session",
+          "kindLabel": "IRF — everyone fills this out, every session",
           "fields": [
             {
               "id": "mat",
