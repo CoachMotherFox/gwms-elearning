@@ -10,7 +10,7 @@ How the four Required Elements of the Multimedia eLearning Environment artifact 
 
 | Constraint | Consequence |
 |---|---|
-| 36 sessions, iterated over a full program cycle | Per-seat authoring licences and re-publishing 36 packages per revision is the wrong cost curve. Editing one JSON file and reloading is the right one. |
+| 36 sessions, iterated over a full program cycle | Per-seat authoring licenses and re-publishing 36 packages per revision is the wrong cost curve. Editing one JSON file and reloading is the right one. |
 | Delivered on shared tablets at a training site, on whatever network exists that night | The whole course is static files. It works offline, off a USB stick, off a phone, off any static host. No runtime, no plugin, no login. |
 | Block 4 is 30 minutes shared between room reset, eLearning, and the IRF | The eLearning slice is minutes long. Loading an LMS shell around it costs more than it delivers. |
 | Trauma-informed program with adolescent minors | Building it means the data model is a choice, not a vendor default. Exactly one thing is collected, it is named on screen, and turning it off is one line. |
@@ -72,7 +72,7 @@ The population is adolescent boys in a trauma-informed program, often on shared 
 
 **Everything is disclosed to the learner, in plain language.** **Contents → Your data** lists what is sent, what is not, when, and what stays on the device, plus buttons to erase their answers and reset their display settings.
 
-**Intellectual property is tracked at the asset level.** Every image, video, and audio file carries either `"own": true` or a `credit` block with holder, title, licence, and source URL. Credits render beside the asset and collect into **Contents → Credits & licences**. The validator warns on any asset with neither.
+**Intellectual property is tracked at the asset level.** Every image, video, and audio file carries either `"own": true` or a `credit` block with holder, title, license, and source URL. Credits render beside the asset and collect into **Contents → Credits & licenses**. The validator warns on any asset with neither.
 
 **No surveillance of learners by facilitators.** There is no dashboard, no completion report, no per-learner record. Instructional feedback is gathered by the IRF, which every student completes knowingly. The eLearning component does not watch anyone.
 

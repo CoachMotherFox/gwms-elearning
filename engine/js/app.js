@@ -195,7 +195,7 @@
           el('b', { text: item.where + ' — ' + item.kind }),
           el('span', { text: (c.holder || 'Unknown holder') + (c.title ? ' — “' + c.title + '”' : '') }),
           el('br'),
-          el('span', { text: c.licence || 'Licence not recorded' }),
+          el('span', { text: c.license || 'License not recorded' }),
           c.url ? [el('br'), el('a', { href: c.url, target: '_blank', rel: 'noopener noreferrer', text: c.url })] : null
         ]);
       }))
@@ -612,7 +612,7 @@
       else state.nav.next();
     });
     $('#btn-prev').addEventListener('click', function () { state.nav.prev(); });
-    $('#btn-credits').addEventListener('click', function () { showInfo('Credits and licences', creditsPanel()); });
+    $('#btn-credits').addEventListener('click', function () { showInfo('Credits and licenses', creditsPanel()); });
     $('#btn-privacy').addEventListener('click', function () { showInfo('Your data', dataPanel()); });
     $('#btn-check').addEventListener('click', function () { showInfo('Accessibility check', checkPanel()); });
 

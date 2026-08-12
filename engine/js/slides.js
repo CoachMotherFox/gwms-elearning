@@ -98,7 +98,7 @@
     var bits = [el('b', { text: 'Credit: ' })];
     bits.push(document.createTextNode(c.holder || 'Unknown'));
     if (c.title) bits.push(document.createTextNode(' — “' + c.title + '”'));
-    if (c.licence) bits.push(document.createTextNode(' · ' + c.licence));
+    if (c.license) bits.push(document.createTextNode(' · ' + c.license));
     if (c.url) {
       bits.push(document.createTextNode(' · '));
       bits.push(el('a', { href: c.url, rel: 'noopener noreferrer', target: '_blank', text: 'source' }));

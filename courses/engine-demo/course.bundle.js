@@ -43,7 +43,7 @@ window.GWMS_COURSE_BUNDLE["engine-demo"] =
               "credit": {
                 "holder": "Mozilla Developer Network",
                 "title": "flower.mp4 (shared assets)",
-                "licence": "CC0 1.0 Public Domain Dedication",
+                "license": "CC0 1.0 Public Domain Dedication",
                 "url": "https://github.com/mdn/shared-assets"
               },
               "transcript": [
@@ -76,7 +76,7 @@ window.GWMS_COURSE_BUNDLE["engine-demo"] =
             "credit": {
               "holder": "Mozilla Developer Network",
               "title": "flower.mp4 (shared assets)",
-              "licence": "CC0 1.0 Public Domain Dedication",
+              "license": "CC0 1.0 Public Domain Dedication",
               "url": "https://github.com/mdn/shared-assets"
             },
             "transcript": [

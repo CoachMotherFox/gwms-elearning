@@ -136,10 +136,10 @@ Blocks accept a plain string as shorthand for a paragraph.
 Every image needs either `"own": true` (original GWMS material) or a `credit` block:
 
 ```json
-"credit": { "holder": "…", "title": "…", "licence": "CC BY 4.0", "url": "https://…" }
+"credit": { "holder": "…", "title": "…", "license": "CC BY 4.0", "url": "https://…" }
 ```
 
-Credits render under the image and are collected into **Contents → Credits & licences**.
+Credits render under the image and are collected into **Contents → Credits & licenses**.
 
 ### Slide types
 

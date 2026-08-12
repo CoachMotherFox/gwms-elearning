@@ -41,7 +41,7 @@
               "credit": {
                 "holder": "Mozilla Developer Network",
                 "title": "flower.mp4 (shared assets)",
-                "licence": "CC0 1.0 Public Domain Dedication",
+                "license": "CC0 1.0 Public Domain Dedication",
                 "url": "https://github.com/mdn/shared-assets"
               },
               "transcript": [
@@ -74,7 +74,7 @@
             "credit": {
               "holder": "Mozilla Developer Network",
               "title": "flower.mp4 (shared assets)",
-              "licence": "CC0 1.0 Public Domain Dedication",
+              "license": "CC0 1.0 Public Domain Dedication",
               "url": "https://github.com/mdn/shared-assets"
             },
             "transcript": [

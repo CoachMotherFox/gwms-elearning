@@ -219,7 +219,7 @@
     function push(asset, slide, kind) {
       if (!asset) return;
       if (asset.own) {
-        out.push({ kind: kind, where: slide.title || slide.id, src: asset.src || asset.embed || '', credit: { holder: course.rightsHolder || 'Course author', licence: 'All rights reserved (original work)', own: true } });
+        out.push({ kind: kind, where: slide.title || slide.id, src: asset.src || asset.embed || '', credit: { holder: course.rightsHolder || 'Course author', license: 'All rights reserved (original work)', own: true } });
       } else if (asset.credit) {
         out.push({ kind: kind, where: slide.title || slide.id, src: asset.src || asset.embed || '', credit: asset.credit });
       }
