@@ -35,6 +35,7 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
       "Name one adjustment that keeps the friction honest but not harmful."
     ],
     "connection": "You can pin someone hard and still keep them safe. That is control of your own force. Your conflict off the mat lands on real people too, and the same control applies: honest friction, not harm.",
+    "takeaway": "Friction is fine, harm is a choice, and the control is yours.",
     "_source": "GWMS Curriculum Guide — Session 18 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -89,11 +90,11 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
           "reveals": [
             {
               "id": "what-it-was-after",
-              "label": "What that session was getting at",
+              "label": "What that one was really about",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Your guard protects the space behind your legs. Your mask protects something too. Naming what the guard defends is the same as naming what the mask hides."
+                  "text": "The mask has a job, and next week we find out what happens to it under pressure."
                 }
               ]
             }
@@ -122,10 +123,6 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
                 {
                   "kind": "paragraph",
                   "text": "Firm control that keeps the partner safe, adjust to the tap."
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Card: The Chest Pin. Domain: Control."
                 }
               ]
             },
@@ -197,7 +194,7 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will apply chest-pin control at an intensity that keeps the partner safe, controlling their own force deliberately."
+              "text": "Apply chest-pin control at an intensity that keeps the partner safe, controlling your own force deliberately."
             },
             {
               "kind": "heading",
@@ -222,7 +219,7 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will name the effect their conflict style has on other people and one adjustment they can make."
+              "text": "Name the effect your conflict style has on other people and one adjustment you can make."
             },
             {
               "kind": "heading",
@@ -233,14 +230,9 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
               "kind": "list",
               "ordered": true,
               "items": [
-                "Identify how their friction lands on the person across from them.",
+                "Identify how your friction lands on the person across from you.",
                 "Name one adjustment that keeps the friction honest but not harmful."
               ]
-            },
-            {
-              "kind": "callout",
-              "label": "CASEL",
-              "text": "Social Awareness · Relationship Skills"
             }
           ]
         },
@@ -274,6 +266,53 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
       "id": "close",
       "title": "Before you go",
       "slides": [
+        {
+          "id": "s18-recap",
+          "type": "reveal",
+          "eyebrow": "Quick recap",
+          "title": "Before you go: Hip Control Breakdown Game, run with an intensity constraint",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "The top player breaks the partner down and controls, hips down, shoulder connected, run with an intensity limit. Win by holding control while keeping the partner completely safe."
+            },
+            {
+              "kind": "paragraph",
+              "text": "You can pin hard and still not hurt them. That choice is yours, every round."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "win-again",
+              "label": "How you win it, again",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Holding control — hips down, shoulder connected — while keeping the partner completely safe"
+                }
+              ]
+            },
+            {
+              "id": "tap-again",
+              "label": "And the rule under all of it",
+              "content": [
+                {
+                  "kind": "list",
+                  "ordered": true,
+                  "items": [
+                    "Tap your partner's body",
+                    "Tap the mat",
+                    "Say stop"
+                  ]
+                },
+                {
+                  "kind": "paragraph",
+                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "s18-summative",
           "type": "quiz",

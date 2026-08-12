@@ -33,6 +33,7 @@
       "Frame it as smart, not weak."
     ],
     "connection": "Staying safe and guarded on the mat before you trust a partner is the same guard you run before you trust a room. Both are smart. Naming it is the work.",
+    "takeaway": "The guard is smart, and next week we look at the face that guard wears, the mask.",
     "_source": "GWMS Curriculum Guide — Session 3 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -83,7 +84,19 @@
               "text": "Before you read on, see if you can remember what you answered."
             }
           ],
-          "type": "text-image"
+          "type": "reveal",
+          "reveals": [
+            {
+              "id": "what-it-was-after",
+              "label": "What that one was really about",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "That is what makes a place feel safe. Everyone knows the rules will hold."
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "s03-game",
@@ -108,10 +121,6 @@
                 {
                   "kind": "paragraph",
                   "text": "Change direction to break the base, no straight pushes."
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Card: Taking the Base. Domain: Enter."
                 }
               ]
             },
@@ -183,7 +192,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will identify the takedown starting position and keep safe contact under light movement."
+              "text": "Identify the takedown starting position and keep safe contact under light movement."
             },
             {
               "kind": "heading",
@@ -208,7 +217,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will name one thing they do to protect themselves before they trust a space, and name it as a strength."
+              "text": "Name one thing you do to protect yourself before you trust a space, and name it as a strength."
             },
             {
               "kind": "heading",
@@ -222,11 +231,6 @@
                 "Name one protective habit.",
                 "Frame it as smart, not weak."
               ]
-            },
-            {
-              "kind": "callout",
-              "label": "CASEL",
-              "text": "Self-Awareness · Self-Management"
             }
           ]
         },
@@ -260,6 +264,53 @@
       "id": "close",
       "title": "Before you go",
       "slides": [
+        {
+          "id": "s03-recap",
+          "type": "reveal",
+          "eyebrow": "Quick recap",
+          "title": "Before you go: Hand Fight with Progression Game",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "Standing, hands free. Fight for position and win by getting under an elbow and hooking on. Nobody gets slammed down."
+            },
+            {
+              "kind": "paragraph",
+              "text": "You are learning to break a person's base by changing angles instead of shoving straight into them, the same thing you do when you walk into a new room and find your footing."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "win-again",
+              "label": "How you win it, again",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Getting under an elbow and hooking on"
+                }
+              ]
+            },
+            {
+              "id": "tap-again",
+              "label": "And the rule under all of it",
+              "content": [
+                {
+                  "kind": "list",
+                  "ordered": true,
+                  "items": [
+                    "Tap your partner's body",
+                    "Tap the mat",
+                    "Say stop"
+                  ]
+                },
+                {
+                  "kind": "paragraph",
+                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "s03-summative",
           "type": "quiz",

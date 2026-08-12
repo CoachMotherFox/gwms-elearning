@@ -34,6 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
       "Name one thing worth giving that costs them."
     ],
     "connection": "Letting a partner work when you could just finish them costs you the easy win. Real contribution off the mat costs something too, time, comfort, pride. The giving that counts is the kind you feel.",
+    "takeaway": "The giving that costs is the giving that counts.",
     "_source": "GWMS Curriculum Guide — Session 29 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -88,11 +89,11 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
           "reveals": [
             {
               "id": "what-it-was-after",
-              "label": "What that session was getting at",
+              "label": "What that one was really about",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Staying with a hard partner on the mat instead of switching is commitment made physical. Staying in a hard relationship when leaving is easier is the same choice. Both build the muscle of not bailing on people."
+                  "text": "Staying is a choice you can make on purpose, and you just practiced it."
                 }
               ]
             }
@@ -121,10 +122,6 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
                 {
                   "kind": "paragraph",
                   "text": "Hold control while giving the partner room to work the escape."
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Card: The Back Pin. Domain: Control."
                 }
               ]
             },
@@ -196,7 +193,7 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will apply back-pin control while letting a partner work and learn, and analyze what it costs to give that up."
+              "text": "Apply back-pin control while letting a partner work and learn, and analyze what it costs to give that up."
             },
             {
               "kind": "heading",
@@ -221,7 +218,7 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will name a contribution that costs them something real."
+              "text": "Name a contribution that costs you something real."
             },
             {
               "kind": "heading",
@@ -233,13 +230,8 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
               "ordered": true,
               "items": [
                 "Distinguish easy giving from costly giving.",
-                "Name one thing worth giving that costs them."
+                "Name one thing worth giving that costs you."
               ]
-            },
-            {
-              "kind": "callout",
-              "label": "CASEL",
-              "text": "Responsible Decision-Making"
             }
           ]
         },
@@ -279,6 +271,53 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
       "title": "Before you go",
       "slides": [
         {
+          "id": "s29-recap",
+          "type": "reveal",
+          "eyebrow": "Quick recap",
+          "title": "Before you go: Back Control Elbow Management, No Hooks",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "Hold the back with no hooks in, managing the elbows, and give the bottom partner room to work their escape. Win by keeping control while letting them fight."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Real giving costs you the easy finish."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "win-again",
+              "label": "How you win it, again",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Keeping control while deliberately giving the partner room to work"
+                }
+              ]
+            },
+            {
+              "id": "tap-again",
+              "label": "And the rule under all of it",
+              "content": [
+                {
+                  "kind": "list",
+                  "ordered": true,
+                  "items": [
+                    "Tap your partner's body",
+                    "Tap the mat",
+                    "Say stop"
+                  ]
+                },
+                {
+                  "kind": "paragraph",
+                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "s29-summative",
           "type": "quiz",
           "eyebrow": "End-of-session check",
@@ -292,10 +331,6 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
           "retry": true,
           "options": [
             {
-              "text": "Test whether a claimed change is real by checking it against pressure, and name the evidence.",
-              "feedback": "That is Session 26's target, not today's."
-            },
-            {
               "text": "Name a contribution that costs you something real.",
               "correct": true,
               "feedback": "That was the target for today."
@@ -303,6 +338,10 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
             {
               "text": "Name what someone would learn from watching how you carry yourself.",
               "feedback": "That is Session 33's target, not today's."
+            },
+            {
+              "text": "Test whether a claimed change is real by checking it against pressure, and name the evidence.",
+              "feedback": "That is Session 26's target, not today's."
             }
           ],
           "correctHead": "That's the one.",

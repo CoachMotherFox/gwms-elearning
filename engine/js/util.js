@@ -94,6 +94,29 @@
     return String(s).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
   }
 
+  /**
+   * Deterministic shuffle, seeded by a string. Same seed -> same order, every
+   * time, on every device — which is what makes it safe to use for quiz
+   * option order: a learner who answers, navigates away, and comes back sees
+   * their own selection still lined up with the option they picked, instead
+   * of the order scrambling underneath a stored answer index.
+   */
+  function seededShuffle(arr, seedStr) {
+    var seed = 0;
+    var s = String(seedStr || '');
+    for (var i = 0; i < s.length; i++) { seed = (seed * 31 + s.charCodeAt(i)) >>> 0; }
+    function next() {
+      seed = (seed * 1664525 + 1013904223) >>> 0;
+      return seed / 4294967296;
+    }
+    var out = arr.slice();
+    for (var j = out.length - 1; j > 0; j--) {
+      var k = Math.floor(next() * (j + 1));
+      var tmp = out[j]; out[j] = out[k]; out[k] = tmp;
+    }
+    return out;
+  }
+
   var uidCount = 0;
   function uid(prefix) { uidCount += 1; return (prefix || 'u') + '-' + uidCount; }
 
@@ -109,6 +132,6 @@
   GWMS.util = {
     el: el, append: append, clear: clear, $: $, $$: $$,
     inline: inline, announce: announce, slug: slug, uid: uid,
-    isFileProtocol: isFileProtocol, assetURL: assetURL
+    isFileProtocol: isFileProtocol, assetURL: assetURL, seededShuffle: seededShuffle
   };
 })();

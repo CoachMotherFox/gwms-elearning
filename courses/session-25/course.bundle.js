@@ -34,6 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
       "Distinguish a change they can demonstrate from one they only talk about."
     ],
     "connection": "Taking the back is a position you literally could not hold twelve weeks ago. It is proof of change you can feel. Naming what is different in you works the same way. Real change is something you can show, not just say.",
+    "takeaway": "Change you can show is real change.",
     "_source": "GWMS Curriculum Guide — Session 25 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -88,11 +89,11 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
           "reveals": [
             {
               "id": "what-it-was-after",
-              "label": "What that session was getting at",
+              "label": "What that one was really about",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Resetting and rolling clean with someone right after a hard round is the body's version of squaring up. A real apology is the same reset: you re-engage instead of carrying the grudge."
+                  "text": "Real repair has parts, and now you can name them."
                 }
               ]
             }
@@ -121,10 +122,6 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
                 {
                   "kind": "paragraph",
                   "text": "Chest on back with hips, shoulders, and the ear-to-mat head wedge held together, three-count."
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Card: The Back Pin. Domain: Control."
                 }
               ]
             },
@@ -196,7 +193,7 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will apply back-pin control to take and hold the back, and analyze what they can do now that they could not at the start."
+              "text": "Apply back-pin control to take and hold the back, and analyze what you can do now that you could not at the start."
             },
             {
               "kind": "heading",
@@ -208,7 +205,7 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
               "ordered": true,
               "items": [
                 "Take and hold the back-pin position for a three-count against light resistance.",
-                "Identify one control skill they hold now that they did not in the Descent."
+                "Identify one control skill you hold now that you did not in the Descent."
               ]
             }
           ]
@@ -221,7 +218,7 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will name what is actually different in them now and locate the change rather than perform it."
+              "text": "Name what is actually different in you now and locate the change rather than perform it."
             },
             {
               "kind": "heading",
@@ -232,14 +229,9 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
               "kind": "list",
               "ordered": true,
               "items": [
-                "Name one real change in themselves since Session 1.",
-                "Distinguish a change they can demonstrate from one they only talk about."
+                "Name one real change in yourself since Session 1.",
+                "Distinguish a change you can demonstrate from one you only talk about."
               ]
-            },
-            {
-              "kind": "callout",
-              "label": "CASEL",
-              "text": "Responsible Decision-Making"
             }
           ]
         },
@@ -274,6 +266,53 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
       "title": "Before you go",
       "slides": [
         {
+          "id": "s25-recap",
+          "type": "reveal",
+          "eyebrow": "Quick recap",
+          "title": "Before you go: Back Take, Maintain Chest to Back Contact",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "Take the back and hold it, chest on their back, for a three-count against light resistance."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Twelve weeks ago you could not hold this position. That you can now is change you can feel, not just talk about."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "win-again",
+              "label": "How you win it, again",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Holding chest-on-back contact for a three-count against light resistance"
+                }
+              ]
+            },
+            {
+              "id": "tap-again",
+              "label": "And the rule under all of it",
+              "content": [
+                {
+                  "kind": "list",
+                  "ordered": true,
+                  "items": [
+                    "Tap your partner's body",
+                    "Tap the mat",
+                    "Say stop"
+                  ]
+                },
+                {
+                  "kind": "paragraph",
+                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "s25-summative",
           "type": "quiz",
           "eyebrow": "End-of-session check",
@@ -287,17 +326,17 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
           "retry": true,
           "options": [
             {
+              "text": "Name what is actually different in you now and locate the change rather than perform it.",
+              "correct": true,
+              "feedback": "That was the target for today."
+            },
+            {
               "text": "Name a contribution that costs you something real.",
               "feedback": "That is Session 29's target, not today's."
             },
             {
               "text": "Name the honest cost and reward of the whole program.",
               "feedback": "That is Session 34's target, not today's."
-            },
-            {
-              "text": "Name what is actually different in you now and locate the change rather than perform it.",
-              "correct": true,
-              "feedback": "That was the target for today."
             }
           ],
           "correctHead": "That's the one.",

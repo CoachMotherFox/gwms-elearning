@@ -33,6 +33,7 @@
       "Connect catching it early to a different choice."
     ],
     "connection": "The checkpoint where a guard always breaks is a tell, and so is the first thing that shows when you crack. Finding the exact break point on the mat is the same precision as knowing your own tell.",
+    "takeaway": "Knowing your tell is power, because you can catch yourself.",
     "_source": "GWMS Curriculum Guide — Session 9 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -87,11 +88,11 @@
           "reveals": [
             {
               "id": "what-it-was-after",
-              "label": "What that session was getting at",
+              "label": "What that one was really about",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Staying safe and guarded on the mat before you trust a partner is the same guard you run before you trust a room. Both are smart. Naming it is the work."
+                  "text": "The guard is smart, and next week we look at the face that guard wears, the mask."
                 }
               ]
             }
@@ -120,10 +121,6 @@
                 {
                   "kind": "paragraph",
                   "text": "Clear the checkpoints in order, name where the guard breaks."
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Card: Controlling the Legs. Domain: Enter."
                 }
               ]
             },
@@ -195,7 +192,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will apply passing and identify the checkpoint where the guard breaks."
+              "text": "Apply passing and identify the checkpoint where the guard breaks."
             },
             {
               "kind": "heading",
@@ -220,7 +217,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will identify their personal tell, the first reliable sign they have cracked."
+              "text": "Identify your personal tell, the first reliable sign you have cracked."
             },
             {
               "kind": "heading",
@@ -231,14 +228,9 @@
               "kind": "list",
               "ordered": true,
               "items": [
-                "Name their first reliable crack signal.",
+                "Name your first reliable crack signal.",
                 "Connect catching it early to a different choice."
               ]
-            },
-            {
-              "kind": "callout",
-              "label": "CASEL",
-              "text": "Self-Awareness · Self-Management"
             }
           ]
         },
@@ -272,6 +264,53 @@
       "id": "close",
       "title": "Before you go",
       "slides": [
+        {
+          "id": "s09-recap",
+          "type": "reveal",
+          "eyebrow": "Quick recap",
+          "title": "Before you go: Knee Pit Touchdown Game, played from the passing side",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "The top player clears the checkpoints in order. Win by touching both knee pits while keeping the feet off."
+            },
+            {
+              "kind": "paragraph",
+              "text": "You are learning exactly where a guard breaks, your partner's and your own, which is the same as knowing your tell."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "win-again",
+              "label": "How you win it, again",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Touching both knee pits while keeping the feet off"
+                }
+              ]
+            },
+            {
+              "id": "tap-again",
+              "label": "And the rule under all of it",
+              "content": [
+                {
+                  "kind": "list",
+                  "ordered": true,
+                  "items": [
+                    "Tap your partner's body",
+                    "Tap the mat",
+                    "Say stop"
+                  ]
+                },
+                {
+                  "kind": "paragraph",
+                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "s09-summative",
           "type": "quiz",

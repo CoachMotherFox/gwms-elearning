@@ -35,6 +35,7 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
       "Bring it into the room to be witnessed."
     ],
     "connection": "Running the whole Roads from standing to a pin is the mat's version of the whole Descent, from arrival to the real self revealed. This session integrates both journeys into one.",
+    "takeaway": "You showed up, cracked, and stayed, and the room met the real you.",
     "_source": "GWMS Curriculum Guide — Session 12 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -89,11 +90,11 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
           "reveals": [
             {
               "id": "what-it-was-after",
-              "label": "What that session was getting at",
+              "label": "What that one was really about",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Your guard protects the space behind your legs. Your mask protects something too. Naming what the guard defends is the same as naming what the mask hides."
+                  "text": "The mask has a job, and next week we find out what happens to it under pressure."
                 }
               ]
             }
@@ -122,10 +123,6 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
                 {
                   "kind": "paragraph",
                   "text": "Enter, pass, and arrive in one sequence, tap honored throughout."
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Card: The Roads, integrated. Domain: Enter and Arrive."
                 }
               ]
             },
@@ -197,7 +194,7 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will apply the Roads from a standing start through to a pin arrival."
+              "text": "Apply the Roads from a standing start through to a pin arrival."
             },
             {
               "kind": "heading",
@@ -222,7 +219,7 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will offer, to the degree they choose, a picture of the real self the Descent uncovered."
+              "text": "Offer, to the degree you choose, a picture of the real self the Descent uncovered."
             },
             {
               "kind": "heading",
@@ -236,11 +233,6 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
                 "Describe the real self, seen.",
                 "Bring it into the room to be witnessed."
               ]
-            },
-            {
-              "kind": "callout",
-              "label": "CASEL",
-              "text": "Self-Awareness · Self-Management"
             }
           ]
         },
@@ -274,6 +266,53 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
       "id": "close",
       "title": "Before you go",
       "slides": [
+        {
+          "id": "s12-recap",
+          "type": "reveal",
+          "eyebrow": "Quick recap",
+          "title": "Before you go: Open Guard Takedown and Escape Game",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "The whole trip in one round. From a standing or seated start, get it down, get past the legs, arrive in a pin. Both players play, the bottom can put the top down and stand up, and the tap is honored the whole way."
+            },
+            {
+              "kind": "paragraph",
+              "text": "This is the whole Descent on the mat, from arrival to the real self revealed."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "win-again",
+              "label": "How you win it, again",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Getting it down, past the legs, and arriving in a pin — the whole trip in one round"
+                }
+              ]
+            },
+            {
+              "id": "tap-again",
+              "label": "And the rule under all of it",
+              "content": [
+                {
+                  "kind": "list",
+                  "ordered": true,
+                  "items": [
+                    "Tap your partner's body",
+                    "Tap the mat",
+                    "Say stop"
+                  ]
+                },
+                {
+                  "kind": "paragraph",
+                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "s12-summative",
           "type": "quiz",
@@ -344,8 +383,8 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
           "body": [
             {
               "kind": "callout",
-              "label": "Last session",
-              "text": "That is all 36."
+              "label": "Next session",
+              "text": "Session 13: What happens in you when someone makes real contact?"
             }
           ],
           "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."

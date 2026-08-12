@@ -35,6 +35,7 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
       "Name one thing that makes letting another person in difficult."
     ],
     "connection": "Keeping a pin means feeling your partner and adjusting to them, not clamping down and ignoring them. Letting someone in works the same way. You hold the connection by reading the other person, not by walling off and muscling through.",
+    "takeaway": "Letting people in is a dial you control, and you just found yours.",
     "_source": "GWMS Curriculum Guide — Session 14 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -89,11 +90,11 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
           "reveals": [
             {
               "id": "what-it-was-after",
-              "label": "What that session was getting at",
+              "label": "What that one was really about",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "When you and your partner tire, the fakery drops on both sides, the passer and the guard. What slips out when you are too tired to perform is the truest thing, on the mat and off."
+                  "text": "What shows up when you are empty is often the truest thing about you."
                 }
               ]
             }
@@ -122,10 +123,6 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
                 {
                   "kind": "paragraph",
                   "text": "Keep the coverage as the partner moves."
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Card: The Chest Pin. Domain: Control."
                 }
               ]
             },
@@ -197,7 +194,7 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will apply chest-pin control while reading and adjusting to a partner's movement, keeping the pin as the partner works to create space."
+              "text": "Apply chest-pin control while reading and adjusting to a partner's movement, keeping the pin as the partner works to create space."
             },
             {
               "kind": "heading",
@@ -222,7 +219,7 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will identify how much they open up to another person and name one thing that makes letting someone in hard."
+              "text": "Identify how much you open up to another person and name one thing that makes letting someone in hard."
             },
             {
               "kind": "heading",
@@ -233,14 +230,9 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
               "kind": "list",
               "ordered": true,
               "items": [
-                "Notice their own guardedness or openness during close contact.",
+                "Notice your own guardedness or openness during close contact.",
                 "Name one thing that makes letting another person in difficult."
               ]
-            },
-            {
-              "kind": "callout",
-              "label": "CASEL",
-              "text": "Social Awareness · Relationship Skills"
             }
           ]
         },
@@ -275,6 +267,53 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
       "title": "Before you go",
       "slides": [
         {
+          "id": "s14-recap",
+          "type": "reveal",
+          "eyebrow": "Quick recap",
+          "title": "Before you go: Chest-to-Chest Elbow Control Game",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "The top player keeps the elbows off the body as the partner frames and tries to make space. Win by keeping the elbows controlled continuously."
+            },
+            {
+              "kind": "paragraph",
+              "text": "You keep the pin by feeling your partner and adjusting, not by clamping and squeezing, which is the same as how much you actually let someone in."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "win-again",
+              "label": "How you win it, again",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Keeping the elbows controlled continuously as the partner frames and moves"
+                }
+              ]
+            },
+            {
+              "id": "tap-again",
+              "label": "And the rule under all of it",
+              "content": [
+                {
+                  "kind": "list",
+                  "ordered": true,
+                  "items": [
+                    "Tap your partner's body",
+                    "Tap the mat",
+                    "Say stop"
+                  ]
+                },
+                {
+                  "kind": "paragraph",
+                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "s14-summative",
           "type": "quiz",
           "eyebrow": "End-of-session check",
@@ -288,10 +327,6 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
           "retry": true,
           "options": [
             {
-              "text": "Name what it takes for you to give a real apology.",
-              "feedback": "That is Session 22's target, not today's."
-            },
-            {
               "text": "Identify how much you open up to another person and name one thing that makes letting someone in hard.",
               "correct": true,
               "feedback": "That was the target for today."
@@ -299,6 +334,10 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
             {
               "text": "Practice staying present in discomfort and name what makes you want to bail.",
               "feedback": "That is Session 17's target, not today's."
+            },
+            {
+              "text": "Name what it takes for you to give a real apology.",
+              "feedback": "That is Session 22's target, not today's."
             }
           ],
           "correctHead": "That's the one.",

@@ -33,6 +33,7 @@
       "Keep the story optional."
     ],
     "connection": "The guard you keep was drilled into you somewhere, and so was the mask. Both are learned defenses. Tracing where you learned to guard is the same move on and off the mat.",
+    "takeaway": "The mask made sense where you got it, and that means it is a choice, not a life sentence.",
     "_source": "GWMS Curriculum Guide — Session 5 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -87,11 +88,11 @@
           "reveals": [
             {
               "id": "what-it-was-after",
-              "label": "What that session was getting at",
+              "label": "What that one was really about",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "How you make first contact on the mat, cautious, rushed, stiff, is your entrance. Naming how you show up when nobody knows you yet is the same pattern, seen off the mat."
+                  "text": "Everybody has an entrance, and now you can see yours."
                 }
               ]
             }
@@ -120,10 +121,6 @@
                 {
                   "kind": "paragraph",
                   "text": "Follow the passer, keep the legs between you as the angle changes."
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Card: Controlling the Legs. Domain: Enter, retainer's side."
                 }
               ]
             },
@@ -195,7 +192,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will apply guard retention while the partner changes angles."
+              "text": "Apply guard retention while the partner changes angles."
             },
             {
               "kind": "heading",
@@ -220,7 +217,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will connect their mask to where or who they learned it from, without being required to share the story."
+              "text": "Connect your mask to where or who you learned it from, without being required to share the story."
             },
             {
               "kind": "heading",
@@ -234,11 +231,6 @@
                 "Trace the performed self to an origin.",
                 "Keep the story optional."
               ]
-            },
-            {
-              "kind": "callout",
-              "label": "CASEL",
-              "text": "Self-Awareness · Self-Management"
             }
           ]
         },
@@ -273,6 +265,53 @@
       "title": "Before you go",
       "slides": [
         {
+          "id": "s05-recap",
+          "type": "reveal",
+          "eyebrow": "Quick recap",
+          "title": "Before you go: Open Guard Multiple Connection Game",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "The bottom player keeps the legs working while the top player circles and changes angles. Win by keeping your connections, feet and hands, on the partner as they move."
+            },
+            {
+              "kind": "paragraph",
+              "text": "You are learning to hold a boundary while the other person keeps shifting, not just when they stay still, which is where a learned defense comes from."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "win-again",
+              "label": "How you win it, again",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Keeping your connections, feet and hands, on the partner as they move"
+                }
+              ]
+            },
+            {
+              "id": "tap-again",
+              "label": "And the rule under all of it",
+              "content": [
+                {
+                  "kind": "list",
+                  "ordered": true,
+                  "items": [
+                    "Tap your partner's body",
+                    "Tap the mat",
+                    "Say stop"
+                  ]
+                },
+                {
+                  "kind": "paragraph",
+                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "s05-summative",
           "type": "quiz",
           "eyebrow": "End-of-session check",
@@ -286,10 +325,6 @@
           "retry": true,
           "options": [
             {
-              "text": "Name your default entrance behavior when new, without judging it.",
-              "feedback": "That is Session 2's target, not today's."
-            },
-            {
               "text": "Connect your mask to where or who you learned it from, without being required to share the story.",
               "correct": true,
               "feedback": "That was the target for today."
@@ -297,6 +332,10 @@
             {
               "text": "Name what comes out when you are too tired to perform.",
               "feedback": "That is Session 8's target, not today's."
+            },
+            {
+              "text": "Name your default entrance behavior when new, without judging it.",
+              "feedback": "That is Session 2's target, not today's."
             }
           ],
           "correctHead": "That's the one.",

@@ -34,6 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
       "Name one piece of evidence that the change holds under stress."
     ],
     "connection": "A change that only works when it is easy is not a change yet. Holding the back against a fighting partner tests it. Who you have become is proven the same way: by whether it holds when things are hard.",
+    "takeaway": "Tested change is change you can trust.",
     "_source": "GWMS Curriculum Guide — Session 26 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -88,11 +89,11 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
           "reveals": [
             {
               "id": "what-it-was-after",
-              "label": "What that session was getting at",
+              "label": "What that one was really about",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "A finish you can apply and release on the tap is power you control. Leaving a break unrepaired is choosing not to release, not to reset. The tap is the invitation to repair. This week asks whether you take it."
+                  "text": "Naming the unrepaired break is the first move toward repair."
                 }
               ]
             }
@@ -121,10 +122,6 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
                 {
                   "kind": "paragraph",
                   "text": "Keep the back against a live partner running 4S."
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Card: The Back Pin. Domain: Control."
                 }
               ]
             },
@@ -196,7 +193,7 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will apply back-pin control under active resistance and analyze whether the change holds when it is tested."
+              "text": "Apply back-pin control under active resistance and analyze whether the change holds when it is tested."
             },
             {
               "kind": "heading",
@@ -208,7 +205,7 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
               "ordered": true,
               "items": [
                 "Keep the back for a three-count while the partner actively works to escape.",
-                "Notice whether their control holds under pressure or slips."
+                "Notice whether your control holds under pressure or slips."
               ]
             }
           ]
@@ -221,7 +218,7 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will test whether a claimed change is real by checking it against pressure, and name the evidence."
+              "text": "Test whether a claimed change is real by checking it against pressure, and name the evidence."
             },
             {
               "kind": "heading",
@@ -232,14 +229,9 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
               "kind": "list",
               "ordered": true,
               "items": [
-                "Identify how they would know a change is real.",
+                "Identify how you would know a change is real.",
                 "Name one piece of evidence that the change holds under stress."
               ]
-            },
-            {
-              "kind": "callout",
-              "label": "CASEL",
-              "text": "Responsible Decision-Making"
             }
           ]
         },
@@ -274,6 +266,53 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
       "title": "Before you go",
       "slides": [
         {
+          "id": "s26-recap",
+          "type": "reveal",
+          "eyebrow": "Quick recap",
+          "title": "Before you go: Chest to Back Control Game",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "Hold the back against a partner actively trying to get out. Win by staying chest to back while they fight to get flat or turn in."
+            },
+            {
+              "kind": "paragraph",
+              "text": "A change that only holds when it is easy is not real yet. This tests it under pressure."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "win-again",
+              "label": "How you win it, again",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Staying chest to back while the partner fights to get flat or turn in"
+                }
+              ]
+            },
+            {
+              "id": "tap-again",
+              "label": "And the rule under all of it",
+              "content": [
+                {
+                  "kind": "list",
+                  "ordered": true,
+                  "items": [
+                    "Tap your partner's body",
+                    "Tap the mat",
+                    "Say stop"
+                  ]
+                },
+                {
+                  "kind": "paragraph",
+                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "s26-summative",
           "type": "quiz",
           "eyebrow": "End-of-session check",
@@ -287,10 +326,6 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
           "retry": true,
           "options": [
             {
-              "text": "Name who you became over the program.",
-              "feedback": "That is Session 35's target, not today's."
-            },
-            {
               "text": "Test whether a claimed change is real by checking it against pressure, and name the evidence.",
               "correct": true,
               "feedback": "That was the target for today."
@@ -298,6 +333,10 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
             {
               "text": "Name how you use your strength in service rather than over others.",
               "feedback": "That is Session 30's target, not today's."
+            },
+            {
+              "text": "Name who you became over the program.",
+              "feedback": "That is Session 35's target, not today's."
             }
           ],
           "correctHead": "That's the one.",

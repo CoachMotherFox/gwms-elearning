@@ -35,6 +35,7 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
       "Name one performed behavior."
     ],
     "connection": "Keeping your guard is keeping a boundary between you and the other person. The mask does the same job socially. Retention on the mat and the performed self are two versions of the same guard.",
+    "takeaway": "Everybody wears a face for the crowd, and now yours has a name.",
     "_source": "GWMS Curriculum Guide — Session 4 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -85,7 +86,19 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
               "text": "Before you read on, see if you can remember what you answered."
             }
           ],
-          "type": "text-image"
+          "type": "reveal",
+          "reveals": [
+            {
+              "id": "what-it-was-after",
+              "label": "What that one was really about",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "That is what makes a place feel safe. Everyone knows the rules will hold."
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "s04-game",
@@ -110,10 +123,6 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
                 {
                   "kind": "paragraph",
                   "text": "Keep a frame and the feet between you and the passer."
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Card: Controlling the Legs. Domain: Enter, from the retainer's side."
                 }
               ]
             },
@@ -185,7 +194,7 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will apply guard retention to keep a partner from passing the legs."
+              "text": "Apply guard retention to keep a partner from passing the legs."
             },
             {
               "kind": "heading",
@@ -210,7 +219,7 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will name one way they perform differently when watched."
+              "text": "Name one way you perform differently when watched."
             },
             {
               "kind": "heading",
@@ -224,11 +233,6 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
                 "Notice the watched self versus the private self.",
                 "Name one performed behavior."
               ]
-            },
-            {
-              "kind": "callout",
-              "label": "CASEL",
-              "text": "Self-Awareness · Self-Management"
             }
           ]
         },
@@ -263,6 +267,53 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
       "title": "Before you go",
       "slides": [
         {
+          "id": "s04-recap",
+          "type": "reveal",
+          "eyebrow": "Quick recap",
+          "title": "Before you go: Keep Feet Off, Belly Up Open Guard Introduction",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "One player sits back, belly up, legs and feet in front of them. The other tries to get past. The bottom player wins by keeping their feet on the other person and not letting them in."
+            },
+            {
+              "kind": "paragraph",
+              "text": "This is guard retention: holding a barrier between you and someone else. Same job the mask does."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "win-again",
+              "label": "How you win it, again",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "The bottom player keeping their feet on the other person and not letting them in"
+                }
+              ]
+            },
+            {
+              "id": "tap-again",
+              "label": "And the rule under all of it",
+              "content": [
+                {
+                  "kind": "list",
+                  "ordered": true,
+                  "items": [
+                    "Tap your partner's body",
+                    "Tap the mat",
+                    "Say stop"
+                  ]
+                },
+                {
+                  "kind": "paragraph",
+                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "s04-summative",
           "type": "quiz",
           "eyebrow": "End-of-session check",
@@ -276,17 +327,17 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
           "retry": true,
           "options": [
             {
+              "text": "Name one way you perform differently when watched.",
+              "correct": true,
+              "feedback": "That was the target for today."
+            },
+            {
               "text": "Name what shows up when you lose, the reaction under the mask.",
               "feedback": "That is Session 7's target, not today's."
             },
             {
               "text": "Offer, to the degree you choose, a picture of the real self the Descent uncovered.",
               "feedback": "That is Session 12's target, not today's."
-            },
-            {
-              "text": "Name one way you perform differently when watched.",
-              "correct": true,
-              "feedback": "That was the target for today."
             }
           ],
           "correctHead": "That's the one.",

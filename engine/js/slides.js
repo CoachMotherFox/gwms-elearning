@@ -363,9 +363,16 @@
         fieldset.appendChild(el('p.reflect__hint', { text: 'Choose all that apply.' }));
       }
 
+      // Seeded by the slide id, not random: the correct answer stops landing
+      // in the same spot on every check across every session, but the order
+      // stays identical across reloads of this same slide, so a saved answer
+      // (stored as an index into this array) always restores onto the right
+      // option instead of whatever happens to be sitting in that slot.
+      var options = U.seededShuffle(slide.options || [], slide.id);
+
       var inputs = [];
       var list = el('ul.choices');
-      (slide.options || []).forEach(function (opt, i) {
+      options.forEach(function (opt, i) {
         var id = name + '-o' + i;
         var input = el('input', {
           type: multiple ? 'checkbox' : 'radio',

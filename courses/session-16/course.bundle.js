@@ -35,6 +35,7 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
       "Judge whether that response helps or hurts the relationship."
     ],
     "connection": "A partner resisting the pin is pushback made physical. What you do when they fight the pin is usually what you do when people push back in life. Both reward staying calm and adjusting over forcing harder.",
+    "takeaway": "Pushback is normal, and your response to it is a choice, not a reflex you are stuck with.",
     "_source": "GWMS Curriculum Guide — Session 16 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -89,11 +90,11 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
           "reveals": [
             {
               "id": "what-it-was-after",
-              "label": "What that session was getting at",
+              "label": "What that one was really about",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Holding contact on the mat and noticing what contact does to you are the same skill: staying present when another person is close instead of shoving them away. The pin teaches the body to stay. The reflection teaches the mind to notice why staying is hard."
+                  "text": "Contact does something to all of us, and now you can feel yours."
                 }
               ]
             }
@@ -122,10 +123,6 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
                 {
                   "kind": "paragraph",
                   "text": "Hold the pin against active resistance, the partner running 4S."
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Card: The Chest Pin. Domain: Control."
                 }
               ]
             },
@@ -197,7 +194,7 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will maintain chest-pin control against a partner's active resistance."
+              "text": "Maintain chest-pin control against a partner's active resistance."
             },
             {
               "kind": "heading",
@@ -222,7 +219,7 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will name what they do when another person pushes back, and judge whether it serves them."
+              "text": "Name what you do when another person pushes back, and judge whether it serves you."
             },
             {
               "kind": "heading",
@@ -233,14 +230,9 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
               "kind": "list",
               "ordered": true,
               "items": [
-                "Identify their default response to pushback.",
+                "Identify your default response to pushback.",
                 "Judge whether that response helps or hurts the relationship."
               ]
-            },
-            {
-              "kind": "callout",
-              "label": "CASEL",
-              "text": "Social Awareness · Relationship Skills"
             }
           ]
         },
@@ -275,6 +267,53 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
       "title": "Before you go",
       "slides": [
         {
+          "id": "s16-recap",
+          "type": "reveal",
+          "eyebrow": "Quick recap",
+          "title": "Before you go: Mounted and Side Control Pin Game",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "The top player holds the pin against a partner actively working to escape. Win with hip coverage, under the elbow, and hands connected, all at once, held against real resistance."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Pushback is the trial. Staying calm and adjusting beats forcing harder."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "win-again",
+              "label": "How you win it, again",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Hip coverage, under the elbow, and hands connected all at once, against real resistance"
+                }
+              ]
+            },
+            {
+              "id": "tap-again",
+              "label": "And the rule under all of it",
+              "content": [
+                {
+                  "kind": "list",
+                  "ordered": true,
+                  "items": [
+                    "Tap your partner's body",
+                    "Tap the mat",
+                    "Say stop"
+                  ]
+                },
+                {
+                  "kind": "paragraph",
+                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "s16-summative",
           "type": "quiz",
           "eyebrow": "End-of-session check",
@@ -288,17 +327,17 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
           "retry": true,
           "options": [
             {
+              "text": "Name what you do when another person pushes back, and judge whether it serves you.",
+              "correct": true,
+              "feedback": "That was the target for today."
+            },
+            {
               "text": "Name what breaks in you when a connection ruptures.",
               "feedback": "That is Session 19's target, not today's."
             },
             {
               "text": "Name what repair costs you and weigh whether it is worth paying.",
               "feedback": "That is Session 24's target, not today's."
-            },
-            {
-              "text": "Name what you do when another person pushes back, and judge whether it serves you.",
-              "correct": true,
-              "feedback": "That was the target for today."
             }
           ],
           "correctHead": "That's the one.",

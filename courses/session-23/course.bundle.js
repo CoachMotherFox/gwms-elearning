@@ -35,6 +35,7 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
       "Name one thing worth staying for."
     ],
     "connection": "Staying with a hard partner on the mat instead of switching is commitment made physical. Staying in a hard relationship when leaving is easier is the same choice. Both build the muscle of not bailing on people.",
+    "takeaway": "Staying is a choice you can make on purpose, and you just practiced it.",
     "_source": "GWMS Curriculum Guide — Session 23 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -89,11 +90,11 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
           "reveals": [
             {
               "id": "what-it-was-after",
-              "label": "What that session was getting at",
+              "label": "What that one was really about",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Staying in an uncomfortable pin instead of scrambling out is the body's version of staying in a hard conversation. Both are the same skill: tolerating discomfort without fleeing it."
+                  "text": "You can stay in discomfort, you just did it."
                 }
               ]
             }
@@ -122,10 +123,6 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
                 {
                   "kind": "paragraph",
                   "text": "Complete a hard round without disengaging, both roles."
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Card: The Chest Pin. Domain: Integrate."
                 }
               ]
             },
@@ -197,7 +194,7 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will stay with a difficult training partnership and keep working rather than switching out."
+              "text": "Stay with a difficult training partnership and keep working rather than switching out."
             },
             {
               "kind": "heading",
@@ -222,7 +219,7 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will name what makes them want to leave a hard relationship and one reason to stay."
+              "text": "Name what makes you want to leave a hard relationship and one reason to stay."
             },
             {
               "kind": "heading",
@@ -233,14 +230,9 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
               "kind": "list",
               "ordered": true,
               "items": [
-                "Identify their exit urge in a hard relationship.",
+                "Identify your exit urge in a hard relationship.",
                 "Name one thing worth staying for."
               ]
-            },
-            {
-              "kind": "callout",
-              "label": "CASEL",
-              "text": "Social Awareness · Relationship Skills"
             }
           ]
         },
@@ -280,6 +272,53 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
       "title": "Before you go",
       "slides": [
         {
+          "id": "s23-recap",
+          "type": "reveal",
+          "eyebrow": "Quick recap",
+          "title": "Before you go: Guard Recovery with Passing Resistance Game",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "Full live, both roles, against a tough partner. Win, on top, by locking hands and holding the pin against real resistance."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Stay in the hard round and keep working instead of asking to switch. Staying is a choice you make on purpose."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "win-again",
+              "label": "How you win it, again",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "On top, locking hands and holding the pin against real resistance"
+                }
+              ]
+            },
+            {
+              "id": "tap-again",
+              "label": "And the rule under all of it",
+              "content": [
+                {
+                  "kind": "list",
+                  "ordered": true,
+                  "items": [
+                    "Tap your partner's body",
+                    "Tap the mat",
+                    "Say stop"
+                  ]
+                },
+                {
+                  "kind": "paragraph",
+                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "s23-summative",
           "type": "quiz",
           "eyebrow": "End-of-session check",
@@ -293,10 +332,6 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
           "retry": true,
           "options": [
             {
-              "text": "Name what breaks in you when a connection ruptures.",
-              "feedback": "That is Session 19's target, not today's."
-            },
-            {
               "text": "Name what makes you want to leave a hard relationship and one reason to stay.",
               "correct": true,
               "feedback": "That was the target for today."
@@ -304,6 +339,10 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
             {
               "text": "Identify how much you open up to another person and name one thing that makes letting someone in hard.",
               "feedback": "That is Session 14's target, not today's."
+            },
+            {
+              "text": "Name what breaks in you when a connection ruptures.",
+              "feedback": "That is Session 19's target, not today's."
             }
           ],
           "correctHead": "That's the one.",

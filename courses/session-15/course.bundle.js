@@ -35,6 +35,7 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
       "Connect that to how they want to be in their relationships."
     ],
     "connection": "The Descent found the real you. Now it goes to the mat with a partner. Rolling as the real self instead of the persona is the same move as showing up honest in a relationship instead of performing one.",
+    "takeaway": "The real you is in the room now, and other people are in it too.",
     "_source": "GWMS Curriculum Guide — Session 15 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -89,11 +90,11 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
           "reveals": [
             {
               "id": "what-it-was-after",
-              "label": "What that session was getting at",
+              "label": "What that one was really about",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Staying safe and guarded on the mat before you trust a partner is the same guard you run before you trust a room. Both are smart. Naming it is the work."
+                  "text": "The guard is smart, and next week we look at the face that guard wears, the mask."
                 }
               ]
             }
@@ -122,10 +123,6 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
                 {
                   "kind": "paragraph",
                   "text": "Keep chest contact continuous."
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Card: The Chest Pin. Domain: Control."
                 }
               ]
             },
@@ -197,7 +194,7 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will establish and keep chest-pin control from a neutral start, rolling as the real self rather than a performance."
+              "text": "Establish and keep chest-pin control from a neutral start, rolling as the real self rather than a performance."
             },
             {
               "kind": "heading",
@@ -222,7 +219,7 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will describe who they are with other people now that the Descent named the real self."
+              "text": "Describe who you are with other people now that the Descent named the real self."
             },
             {
               "kind": "heading",
@@ -234,13 +231,8 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
               "ordered": true,
               "items": [
                 "Name one way the real self shows up differently with others than the old mask did.",
-                "Connect that to how they want to be in their relationships."
+                "Connect that to how you want to be in your relationships."
               ]
-            },
-            {
-              "kind": "callout",
-              "label": "CASEL",
-              "text": "Social Awareness · Relationship Skills"
             }
           ]
         },
@@ -274,6 +266,53 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
       "id": "close",
       "title": "Before you go",
       "slides": [
+        {
+          "id": "s15-recap",
+          "type": "reveal",
+          "eyebrow": "Quick recap",
+          "title": "Before you go: Mount, Stay Under Both Elbows",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "From the top, stay under both elbows and keep the connection alive as the partner works. It is continuous, no single finish, just holding real contact."
+            },
+            {
+              "kind": "paragraph",
+              "text": "As the real you, not a performance. That is who you are with other people now."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "win-again",
+              "label": "How you win it, again",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Staying under both elbows and keeping the connection alive continuously"
+                }
+              ]
+            },
+            {
+              "id": "tap-again",
+              "label": "And the rule under all of it",
+              "content": [
+                {
+                  "kind": "list",
+                  "ordered": true,
+                  "items": [
+                    "Tap your partner's body",
+                    "Tap the mat",
+                    "Say stop"
+                  ]
+                },
+                {
+                  "kind": "paragraph",
+                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "s15-summative",
           "type": "quiz",

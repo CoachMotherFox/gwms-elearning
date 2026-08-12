@@ -35,6 +35,7 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
       "Name whether they tend to retaliate, shut down, or withdraw."
     ],
     "connection": "Losing the pin and getting reversed is a small rupture. How you handle that break on the mat, a clean reset or a retaliation, mirrors how you handle broken connections in life.",
+    "takeaway": "Rupture is information, and you survived naming it.",
     "_source": "GWMS Curriculum Guide — Session 19 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -89,11 +90,11 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
           "reveals": [
             {
               "id": "what-it-was-after",
-              "label": "What that session was getting at",
+              "label": "What that one was really about",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "A partner resisting the pin is pushback made physical. What you do when they fight the pin is usually what you do when people push back in life. Both reward staying calm and adjusting over forcing harder."
+                  "text": "Pushback is normal, and your response to it is a choice, not a reflex you are stuck with."
                 }
               ]
             }
@@ -122,10 +123,6 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
                 {
                   "kind": "paragraph",
                   "text": "A frame comes before the bridge, reset cleanly after the break."
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Card: The Chest Pin. Domain: Integrate, escape side."
                 }
               ]
             },
@@ -197,7 +194,7 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will recognize when chest-pin control breaks and reset to a safe position without panic or retaliation."
+              "text": "Recognize when chest-pin control breaks and reset to a safe position without panic or retaliation."
             },
             {
               "kind": "heading",
@@ -222,7 +219,7 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will name what breaks in them when a connection ruptures."
+              "text": "Name what breaks in you when a connection ruptures."
             },
             {
               "kind": "heading",
@@ -233,14 +230,9 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
               "kind": "list",
               "ordered": true,
               "items": [
-                "Identify their internal response when a relationship or connection breaks.",
-                "Name whether they tend to retaliate, shut down, or withdraw."
+                "Identify your internal response when a relationship or connection breaks.",
+                "Name whether you tend to retaliate, shut down, or withdraw."
               ]
-            },
-            {
-              "kind": "callout",
-              "label": "CASEL",
-              "text": "Social Awareness · Relationship Skills"
             }
           ]
         },
@@ -275,6 +267,53 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
       "title": "Before you go",
       "slides": [
         {
+          "id": "s19-recap",
+          "type": "reveal",
+          "eyebrow": "Quick recap",
+          "title": "Before you go: Riding Bottom Position Game",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "This one is from the bottom. The pin breaks, you got reversed or stuck underneath. Win by framing first, then standing and turning to face."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Reset clean, no retaliation. That is how you handle a break when a connection goes bad."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "win-again",
+              "label": "How you win it, again",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Framing first, then standing and turning to face — a clean reset"
+                }
+              ]
+            },
+            {
+              "id": "tap-again",
+              "label": "And the rule under all of it",
+              "content": [
+                {
+                  "kind": "list",
+                  "ordered": true,
+                  "items": [
+                    "Tap your partner's body",
+                    "Tap the mat",
+                    "Say stop"
+                  ]
+                },
+                {
+                  "kind": "paragraph",
+                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "s19-summative",
           "type": "quiz",
           "eyebrow": "End-of-session check",
@@ -288,17 +327,17 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
           "retry": true,
           "options": [
             {
+              "text": "Name what breaks in you when a connection ruptures.",
+              "correct": true,
+              "feedback": "That was the target for today."
+            },
+            {
               "text": "Name what it takes for you to give a real apology.",
               "feedback": "That is Session 22's target, not today's."
             },
             {
               "text": "Describe who you are with other people now that the Descent named the real self.",
               "feedback": "That is Session 15's target, not today's."
-            },
-            {
-              "text": "Name what breaks in you when a connection ruptures.",
-              "correct": true,
-              "feedback": "That was the target for today."
             }
           ],
           "correctHead": "That's the one.",

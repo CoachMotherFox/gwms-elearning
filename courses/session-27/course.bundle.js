@@ -34,6 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
       "Connect it to a real situation where it matters."
     ],
     "connection": "There is a specific thing you can do on the mat now that you could not, and you can name it exactly. Your growth off the mat has the same specificity. Not “I am better,” but “I can do this now.”",
+    "takeaway": "You can name what you gained, exactly.",
     "_source": "GWMS Curriculum Guide — Session 27 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -88,11 +89,11 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
           "reveals": [
             {
               "id": "what-it-was-after",
-              "label": "What that session was getting at",
+              "label": "What that one was really about",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "The Descent found the real you. Now it goes to the mat with a partner. Rolling as the real self instead of the persona is the same move as showing up honest in a relationship instead of performing one."
+                  "text": "The real you is in the room now, and other people are in it too."
                 }
               ]
             }
@@ -121,10 +122,6 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
                 {
                   "kind": "paragraph",
                   "text": "Secure the back from a dynamic start."
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Card: The Back Pin. Domain: Control."
                 }
               ]
             },
@@ -196,7 +193,7 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will apply back-pin control from a live scramble and analyze the specific capability they gained since the Descent."
+              "text": "Apply back-pin control from a live scramble and analyze the specific capability you gained since the Descent."
             },
             {
               "kind": "heading",
@@ -208,7 +205,7 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
               "ordered": true,
               "items": [
                 "Secure the back from a dynamic exchange.",
-                "Name a specific mat skill they own now that they did not before."
+                "Name a specific mat skill you own now that you did not before."
               ]
             }
           ]
@@ -221,7 +218,7 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will name a specific capability they have now that the old self lacked."
+              "text": "Name a specific capability you have now that the old self lacked."
             },
             {
               "kind": "heading",
@@ -235,11 +232,6 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
                 "Identify one concrete new capability.",
                 "Connect it to a real situation where it matters."
               ]
-            },
-            {
-              "kind": "callout",
-              "label": "CASEL",
-              "text": "Responsible Decision-Making"
             }
           ]
         },
@@ -273,6 +265,53 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
       "id": "close",
       "title": "Before you go",
       "slides": [
+        {
+          "id": "s27-recap",
+          "type": "reveal",
+          "eyebrow": "Quick recap",
+          "title": "Before you go: Back to Chest Control Transition Game",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "Take the back from a live scramble and reach a controlling position while staying on top."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Name the exact thing you can do here now that you could not before. Not better. The specific thing."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "win-again",
+              "label": "How you win it, again",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Taking the back from a live scramble and reaching a controlling position while staying on top"
+                }
+              ]
+            },
+            {
+              "id": "tap-again",
+              "label": "And the rule under all of it",
+              "content": [
+                {
+                  "kind": "list",
+                  "ordered": true,
+                  "items": [
+                    "Tap your partner's body",
+                    "Tap the mat",
+                    "Say stop"
+                  ]
+                },
+                {
+                  "kind": "paragraph",
+                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "s27-summative",
           "type": "quiz",

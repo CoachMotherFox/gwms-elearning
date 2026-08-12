@@ -34,6 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
       "Contrast that with who walked in on Session 1."
     ],
     "connection": "The person rolling now is not the one who walked in on Session 1, and you can see the difference in how you move. Naming who you became is the return itself. Not who you were told to be, the one you built.",
+    "takeaway": "You became someone, and you built them yourself.",
     "_source": "GWMS Curriculum Guide — Session 35 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -88,11 +89,11 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
           "reveals": [
             {
               "id": "what-it-was-after",
-              "label": "What that session was getting at",
+              "label": "What that one was really about",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Letting a partner work when you could just finish them costs you the easy win. Real contribution off the mat costs something too, time, comfort, pride. The giving that counts is the kind you feel."
+                  "text": "The giving that costs is the giving that counts."
                 }
               ]
             }
@@ -121,10 +122,6 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
                 {
                   "kind": "paragraph",
                   "text": "Control and composure in live rolling."
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Card: The Back Pin. Domain: Integrate."
                 }
               ]
             },
@@ -196,7 +193,7 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will demonstrate the full back-pin game as the person they have become, and analyze the distance from Session 1."
+              "text": "Demonstrate the full back-pin game as the person you have become, and analyze the distance from Session 1."
             },
             {
               "kind": "heading",
@@ -221,7 +218,7 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will name who they became over the program."
+              "text": "Name who you became over the program."
             },
             {
               "kind": "heading",
@@ -232,14 +229,9 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
               "kind": "list",
               "ordered": true,
               "items": [
-                "Describe the person they are now.",
+                "Describe the person you are now.",
                 "Contrast that with who walked in on Session 1."
               ]
-            },
-            {
-              "kind": "callout",
-              "label": "CASEL",
-              "text": "Responsible Decision-Making"
             }
           ]
         },
@@ -274,6 +266,53 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
       "title": "Before you go",
       "slides": [
         {
+          "id": "s35-recap",
+          "type": "reveal",
+          "eyebrow": "Quick recap",
+          "title": "Before you go: Chest to Back No Hooks Game",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "The full back game, live, with no hooks handed to you. Control and composure, start to finish."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The person rolling now is not the one from Session 1, and you can see it."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "win-again",
+              "label": "How you win it, again",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Rolling the full back game with control and composure, start to finish"
+                }
+              ]
+            },
+            {
+              "id": "tap-again",
+              "label": "And the rule under all of it",
+              "content": [
+                {
+                  "kind": "list",
+                  "ordered": true,
+                  "items": [
+                    "Tap your partner's body",
+                    "Tap the mat",
+                    "Say stop"
+                  ]
+                },
+                {
+                  "kind": "paragraph",
+                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "s35-summative",
           "type": "quiz",
           "eyebrow": "End-of-session check",
@@ -287,10 +326,6 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
           "retry": true,
           "options": [
             {
-              "text": "Name the standard you set for whoever comes after you.",
-              "feedback": "That is Session 32's target, not today's."
-            },
-            {
               "text": "Name who you became over the program.",
               "correct": true,
               "feedback": "That was the target for today."
@@ -298,6 +333,10 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
             {
               "text": "Name a specific capability you have now that the old self lacked.",
               "feedback": "That is Session 27's target, not today's."
+            },
+            {
+              "text": "Name the standard you set for whoever comes after you.",
+              "feedback": "That is Session 32's target, not today's."
             }
           ],
           "correctHead": "That's the one.",

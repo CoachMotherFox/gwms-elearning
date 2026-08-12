@@ -33,6 +33,7 @@
       "Keep it private if chosen."
     ],
     "connection": "Arriving past the guard puts you in contact with what was most protected. Naming the Shadow does the same inside you. Both reach the thing that was hidden deepest.",
+    "takeaway": "Naming the hidden part, even silently, is the bravest thing the mat asks of you.",
     "_source": "GWMS Curriculum Guide — Session 11 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -87,11 +88,11 @@
           "reveals": [
             {
               "id": "what-it-was-after",
-              "label": "What that session was getting at",
+              "label": "What that one was really about",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "The guard you keep was drilled into you somewhere, and so was the mask. Both are learned defenses. Tracing where you learned to guard is the same move on and off the mat."
+                  "text": "The mask made sense where you got it, and that means it is a choice, not a life sentence."
                 }
               ]
             }
@@ -120,10 +121,6 @@
                 {
                   "kind": "paragraph",
                   "text": "Land the pin and hold the arrival for a three-count."
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Card: Controlling the Legs. Domain: Arrive."
                 }
               ]
             },
@@ -195,7 +192,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will apply the pass to arrive in a pin with the control conditions true."
+              "text": "Apply the pass to arrive in a pin with the control conditions true."
             },
             {
               "kind": "heading",
@@ -220,7 +217,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will acknowledge, to themselves at minimum, one part they have hidden even from themselves."
+              "text": "Acknowledge, to yourself at minimum, one part you have hidden even from yourself."
             },
             {
               "kind": "heading",
@@ -234,11 +231,6 @@
                 "Look at one hidden part.",
                 "Keep it private if chosen."
               ]
-            },
-            {
-              "kind": "callout",
-              "label": "CASEL",
-              "text": "Self-Awareness · Self-Management"
             }
           ]
         },
@@ -273,6 +265,53 @@
       "title": "Before you go",
       "slides": [
         {
+          "id": "s11-recap",
+          "type": "reveal",
+          "eyebrow": "Quick recap",
+          "title": "Before you go: Half Guard Side-Position Game",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "The top player completes the pass and lands the pin. Win by getting under one elbow and connecting your hands, then holding it for a three-count."
+            },
+            {
+              "kind": "paragraph",
+              "text": "You have arrived past the guard. What was hidden is now out in the open."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "win-again",
+              "label": "How you win it, again",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Getting under one elbow, connecting your hands, and holding it for a three-count"
+                }
+              ]
+            },
+            {
+              "id": "tap-again",
+              "label": "And the rule under all of it",
+              "content": [
+                {
+                  "kind": "list",
+                  "ordered": true,
+                  "items": [
+                    "Tap your partner's body",
+                    "Tap the mat",
+                    "Say stop"
+                  ]
+                },
+                {
+                  "kind": "paragraph",
+                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "s11-summative",
           "type": "quiz",
           "eyebrow": "End-of-session check",
@@ -286,10 +325,6 @@
           "retry": true,
           "options": [
             {
-              "text": "Name what comes out when you are too tired to perform.",
-              "feedback": "That is Session 8's target, not today's."
-            },
-            {
               "text": "Acknowledge, to yourself at minimum, one part you have hidden even from yourself.",
               "correct": true,
               "feedback": "That was the target for today."
@@ -297,6 +332,10 @@
             {
               "text": "Name one thing you do to protect yourself before you trust a space, and name it as a strength.",
               "feedback": "That is Session 3's target, not today's."
+            },
+            {
+              "text": "Name what comes out when you are too tired to perform.",
+              "feedback": "That is Session 8's target, not today's."
             }
           ],
           "correctHead": "That's the one.",

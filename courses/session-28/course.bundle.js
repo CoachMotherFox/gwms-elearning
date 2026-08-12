@@ -34,6 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
       "Name one thing they could offer them."
     ],
     "connection": "Helping a newer partner instead of just tapping them is the first act of contribution on the mat. Turning your growth toward someone who needs it is the same move in life. You stop being the one getting helped and start being the help.",
+    "takeaway": "You have something worth giving now.",
     "_source": "GWMS Curriculum Guide — Session 28 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -88,11 +89,11 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
           "reveals": [
             {
               "id": "what-it-was-after",
-              "label": "What that session was getting at",
+              "label": "What that one was really about",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Taking the back is a position you literally could not hold twelve weeks ago. It is proof of change you can feel. Naming what is different in you works the same way. Real change is something you can show, not just say."
+                  "text": "Change you can show is real change."
                 }
               ]
             }
@@ -121,10 +122,6 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
                 {
                   "kind": "paragraph",
                   "text": "Maintain control while guiding a newer partner, not just finishing them."
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Card: The Back Pin. Domain: Control."
                 }
               ]
             },
@@ -196,7 +193,7 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will apply back-pin control while helping a newer partner learn, and analyze how coaching differs from winning."
+              "text": "Apply back-pin control while helping a newer partner learn, and analyze how coaching differs from winning."
             },
             {
               "kind": "heading",
@@ -207,8 +204,8 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
               "kind": "list",
               "ordered": true,
               "items": [
-                "Guide a less-experienced partner through the back-pin position instead of only finishing them.",
-                "Notice the difference between coaching a partner and beating them."
+                "Guide a less-experienced partner through the back-pin position instead of only finishing you.",
+                "Notice the difference between coaching a partner and beating you."
               ]
             }
           ]
@@ -221,7 +218,7 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will identify who needs what they have learned, turning the work outward."
+              "text": "Identify who needs what you have learned, turning the work outward."
             },
             {
               "kind": "heading",
@@ -232,14 +229,9 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
               "kind": "list",
               "ordered": true,
               "items": [
-                "Name one person or group who could use what they have gained.",
-                "Name one thing they could offer them."
+                "Name one person or group who could use what you have gained.",
+                "Name one thing you could offer you."
               ]
-            },
-            {
-              "kind": "callout",
-              "label": "CASEL",
-              "text": "Responsible Decision-Making"
             }
           ]
         },
@@ -279,6 +271,53 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
       "title": "Before you go",
       "slides": [
         {
+          "id": "s28-recap",
+          "type": "reveal",
+          "eyebrow": "Quick recap",
+          "title": "Before you go: Chest-to-Back Position Maintenance, run as a coaching round",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "Hold the back, but run it as a coaching round: guide a newer partner through the position instead of just finishing them."
+            },
+            {
+              "kind": "paragraph",
+              "text": "You stop being the one getting helped and start being the help."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "win-again",
+              "label": "How you win it, again",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Keeping control while guiding a newer partner through the position"
+                }
+              ]
+            },
+            {
+              "id": "tap-again",
+              "label": "And the rule under all of it",
+              "content": [
+                {
+                  "kind": "list",
+                  "ordered": true,
+                  "items": [
+                    "Tap your partner's body",
+                    "Tap the mat",
+                    "Say stop"
+                  ]
+                },
+                {
+                  "kind": "paragraph",
+                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "s28-summative",
           "type": "quiz",
           "eyebrow": "End-of-session check",
@@ -292,17 +331,17 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
           "retry": true,
           "options": [
             {
+              "text": "Identify who needs what you have learned, turning the work outward.",
+              "correct": true,
+              "feedback": "That was the target for today."
+            },
+            {
               "text": "Name the standard you set for whoever comes after you.",
               "feedback": "That is Session 32's target, not today's."
             },
             {
               "text": "Name what is actually different in you now and locate the change rather than perform it.",
               "feedback": "That is Session 25's target, not today's."
-            },
-            {
-              "text": "Identify who needs what you have learned, turning the work outward.",
-              "correct": true,
-              "feedback": "That was the target for today."
             }
           ],
           "correctHead": "That's the one.",

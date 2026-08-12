@@ -82,12 +82,16 @@ function screenLookback(s, prior, priorStage) {
     ]
   };
 
-  if (prior.connection) {
+  // The moral, not the structure. `takeaway` is that session's own one-line
+  // close, spoken straight to the room at the end of its Lesson and
+  // Intervention block — what to actually walk away with, not a sentence
+  // about how the mat and the reflection happen to line up.
+  if (prior.takeaway) {
     slide.type = 'reveal';
     slide.reveals = [{
       id: 'what-it-was-after',
-      label: 'What that session was getting at',
-      content: [{ kind: 'paragraph', text: prior.connection }]
+      label: 'What that one was really about',
+      content: [{ kind: 'paragraph', text: prior.takeaway }]
     }];
   } else {
     slide.type = 'text-image';
@@ -155,13 +159,7 @@ function screenGame(s) {
     reveals.push({
       id: 'key-condition',
       label: 'What had to be true first',
-      content: [
-        { kind: 'paragraph', text: s.keyCondition },
-        {
-          kind: 'paragraph',
-          text: `Card: ${s.card}.` + (s.domain ? ` Domain: ${s.domain}.` : '')
-        }
-      ]
+      content: [{ kind: 'paragraph', text: s.keyCondition }]
     });
   }
   reveals.push({
@@ -207,14 +205,14 @@ function screenGrappling(s) {
     eyebrow: 'On the mat',
     title: 'What you were working on',
     body: [
-      { kind: 'lead', text: s.grapplingTlo },
+      { kind: 'lead', text: secondPerson(s.grapplingTlo) },
       { kind: 'heading', level: 3, text: 'Which broke down into' },
-      { kind: 'list', ordered: true, items: s.grapplingElos }
+      { kind: 'list', ordered: true, items: s.grapplingElos.map(secondPerson) }
     ]
   };
 }
 
-function screenCasel(s, stage) {
+function screenCasel(s) {
   if (!s.caselTlo) return null;
   return {
     id: `s${pad(s.n)}-casel`,
@@ -222,10 +220,9 @@ function screenCasel(s, stage) {
     eyebrow: 'The other half',
     title: 'And the part that was not about grappling',
     body: [
-      { kind: 'lead', text: s.caselTlo },
+      { kind: 'lead', text: secondPerson(s.caselTlo) },
       { kind: 'heading', level: 3, text: 'Which broke down into' },
-      { kind: 'list', ordered: true, items: s.caselElos },
-      { kind: 'callout', label: 'CASEL', text: stage.casel.join(' · ') }
+      { kind: 'list', ordered: true, items: s.caselElos.map(secondPerson) }
     ]
   };
 }
@@ -250,6 +247,22 @@ function screenConnection(s, stage) {
   return slide;
 }
 
+/* ------------------------------------------------------------ second person
+
+   The curriculum guide writes TLOs and ELOs as a spec about a "participant",
+   third person, for facilitators reading a binder. A kid reading it on their
+   own phone is not a case file. Every one of those lines gets stripped of the
+   "By the end of this session, the participant will" stem and reworked into
+   direct address before it reaches the screen — mechanical pronoun swaps
+   only, never a paraphrase of what the line actually says.                  */
+
+function secondPerson(text) {
+  let t = String(text).replace(/^By the end of this session,\s*the participant will\s*/i, '');
+  t = t.replace(/\btheir\b/g, 'your').replace(/\bthey\b/g, 'you').replace(/\bthem\b/g, 'you');
+  t = t.replace(/\bthemselves\b/g, 'yourself').replace(/\bthey are\b/g, 'you are');
+  return t.charAt(0).toUpperCase() + t.slice(1);
+}
+
 /* ------------------------------------------------------------- summative
 
    AECT 3.3 wants a summative measure alongside the formative checkpoint, and
@@ -262,16 +275,9 @@ function screenConnection(s, stage) {
    makes the distractors plausible by construction — they are genuine targets,
    just not today's — and means nothing here is authored.
 
-   The only transform is mechanical: strip the "By the end of this session, the
-   participant will" stem and put it in second person, so an option reads as an
-   instruction to the learner rather than a spec written about them.          */
-
-function asTask(tlo) {
-  let t = String(tlo).replace(/^By the end of this session,\s*the participant will\s*/i, '');
-  t = t.replace(/\btheir\b/g, 'your').replace(/\bthey\b/g, 'you').replace(/\bthem\b/g, 'you');
-  t = t.replace(/\bthemselves\b/g, 'yourself').replace(/\bthey are\b/g, 'you are');
-  return t.charAt(0).toUpperCase() + t.slice(1);
-}
+   Option order is not fixed here. The engine shuffles quiz options itself,
+   seeded by the slide id, so the right answer lands in a different position
+   from session to session but stays put across reloads of the same slide. */
 
 function screenSummative(s, stage, sessions) {
   if (!s.caselTlo) return null;
@@ -285,16 +291,12 @@ function screenSummative(s, stage, sessions) {
   const wrong = (b.n === a.n) ? [a, pool[(s.n + 1) % pool.length]] : [a, b];
 
   const options = [
-    { text: asTask(s.caselTlo), correct: true, feedback: 'That was the target for today.' },
+    { text: secondPerson(s.caselTlo), correct: true, feedback: 'That was the target for today.' },
     ...wrong.map((w) => ({
-      text: asTask(w.caselTlo),
+      text: secondPerson(w.caselTlo),
       feedback: `That is Session ${w.n}'s target, not today's.`
     }))
   ];
-
-  // Move the right answer off the top, varied by session.
-  const shift = s.n % options.length;
-  const ordered = options.slice(shift).concat(options.slice(0, shift));
 
   return {
     id: `s${pad(s.n)}-summative`,
@@ -305,12 +307,43 @@ function screenSummative(s, stage, sessions) {
     question: 'Which one was this session actually asking you to do?',
     select: 'single',
     retry: true,
-    options: ordered,
+    options: options,
     correctHead: "That's the one.",
     correctText: 'That was the point of the whole session, on the mat and off it.',
     incorrectHead: 'Not today.',
     incorrectText: 'That is a real target from this stage, just not this session. Try again.',
     revealText: "Today's target is marked above."
+  };
+}
+
+/* Revisits the game right before the two closing checks, in the room's own
+   words, not a summary I wrote. Same fields as the "The game" screen earlier
+   in the module — this is a recap, not new material. */
+function screenRecap(s) {
+  const body = [{ kind: 'lead', text: s.gameText }];
+  if (s.gameNote) body.push({ kind: 'paragraph', text: s.gameNote });
+
+  return {
+    id: `s${pad(s.n)}-recap`,
+    type: 'reveal',
+    eyebrow: 'Quick recap',
+    title: `Before you go: ${gameTitle(s.gameName)}`,
+    body,
+    reveals: [
+      {
+        id: 'win-again',
+        label: 'How you win it, again',
+        content: [{ kind: 'paragraph', text: s.gameWin }]
+      },
+      {
+        id: 'tap-again',
+        label: 'And the rule under all of it',
+        content: [
+          { kind: 'list', ordered: true, items: ["Tap your partner's body", 'Tap the mat', 'Say stop'] },
+          { kind: 'paragraph', text: 'Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately.' }
+        ]
+      }
+    ]
   };
 }
 
@@ -353,9 +386,12 @@ function screenIRF(s, next) {
 /* ------------------------------------------------------------------- course */
 
 function buildCourse(s, stage, sessions, hasAudio, allSessions) {
-  const nextSession = sessions.find((x) => x.n === s.n + 1);
-  const next = nextSession
-    ? `Session ${nextSession.n}: ${nextSession.probingQuestion}`
+  // allSessions is the whole 36, not just this stage's file — the last
+  // session of a stage (12, 24) has to look across that boundary to find
+  // session 13 or 25, or it wrongly reads as the end of the program.
+  const nextEntry = allSessions[s.n + 1];
+  const next = nextEntry
+    ? `Session ${nextEntry.session.n}: ${nextEntry.session.probingQuestion}`
     : null;
 
   const lookbackN = lookbackFor(s.n);
@@ -370,11 +406,12 @@ function buildCourse(s, stage, sessions, hasAudio, allSessions) {
 
   const lesson = [
     screenGrappling(s),
-    screenCasel(s, stage),
+    screenCasel(s),
     screenConnection(s, stage)
   ].filter(Boolean);
 
   const close = [
+    screenRecap(s),
     screenSummative(s, stage, sessions),
     screenReflection(s),
     screenIRF(s, next)
@@ -410,6 +447,7 @@ function buildCourse(s, stage, sessions, hasAudio, allSessions) {
       caselTlo: s.caselTlo,
       caselElos: s.caselElos,
       connection: s.connection,
+      takeaway: s.takeaway,
       _source: `GWMS Curriculum Guide — Session ${s.n} Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives).`
     },
     _generated: 'Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.',

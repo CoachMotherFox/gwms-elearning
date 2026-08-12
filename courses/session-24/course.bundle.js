@@ -35,6 +35,7 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
       "Decide whether repair is worth that cost, and say why."
     ],
     "connection": "Open rolling puts it all together, control, finish, tap, reset, in one flow. Repair is the same integration in relationships: it costs pride and comfort, and you decide it is worth paying. This closes the Initiation and points to the Return.",
+    "takeaway": "You made contact, took the friction, survived the rupture, and learned repair.",
     "_source": "GWMS Curriculum Guide — Session 24 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -89,11 +90,11 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
           "reveals": [
             {
               "id": "what-it-was-after",
-              "label": "What that session was getting at",
+              "label": "What that one was really about",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Running the whole Roads from standing to a pin is the mat's version of the whole Descent, from arrival to the real self revealed. This session integrates both journeys into one."
+                  "text": "You showed up, cracked, and stayed, and the room met the real you."
                 }
               ]
             }
@@ -122,10 +123,6 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
                 {
                   "kind": "paragraph",
                   "text": "Flow between control and the owned finishes, tap honored."
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Card: The Chest Pin. Domain: Integrate."
                 }
               ]
             },
@@ -197,7 +194,7 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will integrate chest-pin control and finishing in open rolling, using the whole neighborhood in live flow."
+              "text": "Integrate chest-pin control and finishing in open rolling, using the whole neighborhood in live flow."
             },
             {
               "kind": "heading",
@@ -222,7 +219,7 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will name what repair costs them and weigh whether it is worth paying."
+              "text": "Name what repair costs you and weigh whether it is worth paying."
             },
             {
               "kind": "heading",
@@ -236,11 +233,6 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
                 "Identify the personal cost of repairing a rupture, pride, comfort, or time.",
                 "Decide whether repair is worth that cost, and say why."
               ]
-            },
-            {
-              "kind": "callout",
-              "label": "CASEL",
-              "text": "Social Awareness · Relationship Skills"
             }
           ]
         },
@@ -274,6 +266,53 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
       "id": "close",
       "title": "Before you go",
       "slides": [
+        {
+          "id": "s24-recap",
+          "type": "reveal",
+          "eyebrow": "Quick recap",
+          "title": "Before you go: Hunt for Hips and Shoulders",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "Open rolling from the chest pin, both sides play. Flow between control and the owned finishes, tap honored, reset and continue."
+            },
+            {
+              "kind": "paragraph",
+              "text": "This is the whole Initiation in one round: contact, friction, a break, and repair."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "win-again",
+              "label": "How you win it, again",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Flowing between control and the owned finishes with the tap honored, resetting and continuing"
+                }
+              ]
+            },
+            {
+              "id": "tap-again",
+              "label": "And the rule under all of it",
+              "content": [
+                {
+                  "kind": "list",
+                  "ordered": true,
+                  "items": [
+                    "Tap your partner's body",
+                    "Tap the mat",
+                    "Say stop"
+                  ]
+                },
+                {
+                  "kind": "paragraph",
+                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                }
+              ]
+            }
+          ]
+        },
         {
           "id": "s24-summative",
           "type": "quiz",
@@ -344,8 +383,8 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
           "body": [
             {
               "kind": "callout",
-              "label": "Last session",
-              "text": "That is all 36."
+              "label": "Next session",
+              "text": "Session 25: What's actually different in you now?"
             }
           ],
           "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."

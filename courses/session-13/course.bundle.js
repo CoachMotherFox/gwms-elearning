@@ -35,6 +35,7 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
       "Connect that reaction to how they meet people outside the room."
     ],
     "connection": "Holding contact on the mat and noticing what contact does to you are the same skill: staying present when another person is close instead of shoving them away. The pin teaches the body to stay. The reflection teaches the mind to notice why staying is hard.",
+    "takeaway": "Contact does something to all of us, and now you can feel yours.",
     "_source": "GWMS Curriculum Guide — Session 13 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -89,11 +90,11 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
           "reveals": [
             {
               "id": "what-it-was-after",
-              "label": "What that session was getting at",
+              "label": "What that one was really about",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Getting past the legs reveals what the guard was hiding. Looking under your mask reveals the real self. Passing and revealing are the same move: getting past the defense to what is behind it."
+                  "text": "What is under the mask is not worse than the mask, it is just true."
                 }
               ]
             }
@@ -122,10 +123,6 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
                 {
                   "kind": "paragraph",
                   "text": "Chest on chest with hips and shoulders covered, three-count."
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Card: The Chest Pin. Domain: Control."
                 }
               ]
             },
@@ -197,7 +194,7 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will apply chest-to-chest control to make and hold contact with a partner under light resistance."
+              "text": "Apply chest-to-chest control to make and hold contact with a partner under light resistance."
             },
             {
               "kind": "heading",
@@ -222,7 +219,7 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will name one thing that happens in them when another person makes real contact, and connect it to how they meet people in real life."
+              "text": "Name one thing that happens in you when another person makes real contact, and connect it to how you meet people in real life."
             },
             {
               "kind": "heading",
@@ -234,13 +231,8 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
               "ordered": true,
               "items": [
                 "Identify one internal reaction, physical or emotional, that comes up during close contact.",
-                "Connect that reaction to how they meet people outside the room."
+                "Connect that reaction to how you meet people outside the room."
               ]
-            },
-            {
-              "kind": "callout",
-              "label": "CASEL",
-              "text": "Social Awareness · Relationship Skills"
             }
           ]
         },
@@ -275,6 +267,53 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
       "title": "Before you go",
       "slides": [
         {
+          "id": "s13-recap",
+          "type": "reveal",
+          "eyebrow": "Quick recap",
+          "title": "Before you go: Chest to Chest Under Elbows Maintenance",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "The top player holds chest on chest, under both elbows. Win by keeping that contact for a three-count while the bottom player moves."
+            },
+            {
+              "kind": "paragraph",
+              "text": "This is the most direct contact there is, chest to chest, face to face. Making it and holding it is the mat version of letting someone close."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "win-again",
+              "label": "How you win it, again",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Keeping chest-on-chest contact under both elbows for a three-count"
+                }
+              ]
+            },
+            {
+              "id": "tap-again",
+              "label": "And the rule under all of it",
+              "content": [
+                {
+                  "kind": "list",
+                  "ordered": true,
+                  "items": [
+                    "Tap your partner's body",
+                    "Tap the mat",
+                    "Say stop"
+                  ]
+                },
+                {
+                  "kind": "paragraph",
+                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "s13-summative",
           "type": "quiz",
           "eyebrow": "End-of-session check",
@@ -288,17 +327,17 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
           "retry": true,
           "options": [
             {
+              "text": "Name one thing that happens in you when another person makes real contact, and connect it to how you meet people in real life.",
+              "correct": true,
+              "feedback": "That was the target for today."
+            },
+            {
               "text": "Name what you do when another person pushes back, and judge whether it serves you.",
               "feedback": "That is Session 16's target, not today's."
             },
             {
               "text": "Identify your own part when something breaks, separate from the other person's.",
               "feedback": "That is Session 21's target, not today's."
-            },
-            {
-              "text": "Name one thing that happens in you when another person makes real contact, and connect it to how you meet people in real life.",
-              "correct": true,
-              "feedback": "That was the target for today."
             }
           ],
           "correctHead": "That's the one.",

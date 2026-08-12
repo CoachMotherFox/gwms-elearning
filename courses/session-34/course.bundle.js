@@ -34,6 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
       "Identify what they got for it."
     ],
     "connection": "Twelve weeks of getting tapped, cracked, and rebuilt cost something and gave something. Rolling now, you can feel both in your body. The honest ledger of what this cost and what you got is the first step of the return.",
+    "takeaway": "The ledger is honest, and it landed on the side of growth.",
     "_source": "GWMS Curriculum Guide — Session 34 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -88,11 +89,11 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
           "reveals": [
             {
               "id": "what-it-was-after",
-              "label": "What that session was getting at",
+              "label": "What that one was really about",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "The finish is the sharpest power in the system, and how you use it, controlled, releasing on the tap, is what people remember about rolling with you. What you leave behind in life is built the same way, out of how you treat people when you hold the power."
+                  "text": "Legacy is built from how you act now, not someday."
                 }
               ]
             }
@@ -121,10 +122,6 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
                 {
                   "kind": "paragraph",
                   "text": "Play both roles, control on top and 4S escape underneath."
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Card: The Back Pin. Domain: Integrate."
                 }
               ]
             },
@@ -196,7 +193,7 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will integrate the full back-pin game in open rolling, and analyze what twelve weeks of training cost and gave them."
+              "text": "Integrate the full back-pin game in open rolling, and analyze what twelve weeks of training cost and gave you."
             },
             {
               "kind": "heading",
@@ -221,7 +218,7 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will name the honest cost and reward of the whole program."
+              "text": "Name the honest cost and reward of the whole program."
             },
             {
               "kind": "heading",
@@ -232,14 +229,9 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
               "kind": "list",
               "ordered": true,
               "items": [
-                "Identify what the twelve weeks cost them.",
-                "Identify what they got for it."
+                "Identify what the twelve weeks cost you.",
+                "Identify what you got for it."
               ]
-            },
-            {
-              "kind": "callout",
-              "label": "CASEL",
-              "text": "Responsible Decision-Making"
             }
           ]
         },
@@ -279,6 +271,53 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
       "title": "Before you go",
       "slides": [
         {
+          "id": "s34-recap",
+          "type": "reveal",
+          "eyebrow": "Quick recap",
+          "title": "Before you go: Back Control with Multiple Arm Escape Options",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "Play both roles. On the back, control and finish. Underneath, work the arm escapes against a live grip."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Twelve weeks of getting tapped and rebuilt, and now you can do both sides. That is the honest ledger."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "win-again",
+              "label": "How you win it, again",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Playing both roles — controlling and finishing on top, working the escapes underneath"
+                }
+              ]
+            },
+            {
+              "id": "tap-again",
+              "label": "And the rule under all of it",
+              "content": [
+                {
+                  "kind": "list",
+                  "ordered": true,
+                  "items": [
+                    "Tap your partner's body",
+                    "Tap the mat",
+                    "Say stop"
+                  ]
+                },
+                {
+                  "kind": "paragraph",
+                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "s34-summative",
           "type": "quiz",
           "eyebrow": "End-of-session check",
@@ -292,17 +331,17 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
           "retry": true,
           "options": [
             {
+              "text": "Name the honest cost and reward of the whole program.",
+              "correct": true,
+              "feedback": "That was the target for today."
+            },
+            {
               "text": "Test whether a claimed change is real by checking it against pressure, and name the evidence.",
               "feedback": "That is Session 26's target, not today's."
             },
             {
               "text": "Name what you want to leave behind you.",
               "feedback": "That is Session 31's target, not today's."
-            },
-            {
-              "text": "Name the honest cost and reward of the whole program.",
-              "correct": true,
-              "feedback": "That was the target for today."
             }
           ],
           "correctHead": "That's the one.",

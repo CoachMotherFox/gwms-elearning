@@ -35,6 +35,7 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
       "Name it without judgment."
     ],
     "connection": "When you and your partner tire, the fakery drops on both sides, the passer and the guard. What slips out when you are too tired to perform is the truest thing, on the mat and off.",
+    "takeaway": "What shows up when you are empty is often the truest thing about you.",
     "_source": "GWMS Curriculum Guide — Session 8 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -89,11 +90,11 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
           "reveals": [
             {
               "id": "what-it-was-after",
-              "label": "What that session was getting at",
+              "label": "What that one was really about",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "How you make first contact on the mat, cautious, rushed, stiff, is your entrance. Naming how you show up when nobody knows you yet is the same pattern, seen off the mat."
+                  "text": "Everybody has an entrance, and now you can see yours."
                 }
               ]
             }
@@ -122,10 +123,6 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
                 {
                   "kind": "paragraph",
                   "text": "Clear the first checkpoint, feet or knees."
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Card: Controlling the Legs. Domain: Enter."
                 }
               ]
             },
@@ -197,7 +194,7 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will apply the first passing checkpoints against a tired, lighter guard."
+              "text": "Apply the first passing checkpoints against a tired, lighter guard."
             },
             {
               "kind": "heading",
@@ -222,7 +219,7 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will name what comes out when they are too tired to perform."
+              "text": "Name what comes out when you are too tired to perform."
             },
             {
               "kind": "heading",
@@ -236,11 +233,6 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
                 "Notice the honest reaction under fatigue.",
                 "Name it without judgment."
               ]
-            },
-            {
-              "kind": "callout",
-              "label": "CASEL",
-              "text": "Self-Awareness · Self-Management"
             }
           ]
         },
@@ -275,6 +267,53 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
       "title": "Before you go",
       "slides": [
         {
+          "id": "s08-recap",
+          "type": "reveal",
+          "eyebrow": "Quick recap",
+          "title": "Before you go: Feet-Off Guard Passing Game",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "The top player works to clear the first checkpoint. Win with shin-to-body contact inside or outside the knees, feet off."
+            },
+            {
+              "kind": "paragraph",
+              "text": "You are learning to clear one gate at a time when everyone is a little tired, which is when the real reactions start to leak out."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "win-again",
+              "label": "How you win it, again",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Shin-to-body contact inside or outside the knees, feet off"
+                }
+              ]
+            },
+            {
+              "id": "tap-again",
+              "label": "And the rule under all of it",
+              "content": [
+                {
+                  "kind": "list",
+                  "ordered": true,
+                  "items": [
+                    "Tap your partner's body",
+                    "Tap the mat",
+                    "Say stop"
+                  ]
+                },
+                {
+                  "kind": "paragraph",
+                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "s08-summative",
           "type": "quiz",
           "eyebrow": "End-of-session check",
@@ -288,10 +327,6 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
           "retry": true,
           "options": [
             {
-              "text": "Connect your mask to where or who you learned it from, without being required to share the story.",
-              "feedback": "That is Session 5's target, not today's."
-            },
-            {
               "text": "Name what comes out when you are too tired to perform.",
               "correct": true,
               "feedback": "That was the target for today."
@@ -299,6 +334,10 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
             {
               "text": "Acknowledge, to yourself at minimum, one part you have hidden even from yourself.",
               "feedback": "That is Session 11's target, not today's."
+            },
+            {
+              "text": "Connect your mask to where or who you learned it from, without being required to share the story.",
+              "feedback": "That is Session 5's target, not today's."
             }
           ],
           "correctHead": "That's the one.",

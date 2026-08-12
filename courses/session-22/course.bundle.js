@@ -35,6 +35,7 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
       "Distinguish a real apology from a dodge."
     ],
     "connection": "Resetting and rolling clean with someone right after a hard round is the body's version of squaring up. A real apology is the same reset: you re-engage instead of carrying the grudge.",
+    "takeaway": "Real repair has parts, and now you can name them.",
     "_source": "GWMS Curriculum Guide — Session 22 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -89,11 +90,11 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
           "reveals": [
             {
               "id": "what-it-was-after",
-              "label": "What that session was getting at",
+              "label": "What that one was really about",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Losing the pin and getting reversed is a small rupture. How you handle that break on the mat, a clean reset or a retaliation, mirrors how you handle broken connections in life."
+                  "text": "Rupture is information, and you survived naming it."
                 }
               ]
             }
@@ -122,10 +123,6 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
                 {
                   "kind": "paragraph",
                   "text": "Re-engage and re-establish the pin after a scramble."
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Card: The Chest Pin. Domain: Integrate."
                 }
               ]
             },
@@ -197,7 +194,7 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will reset with a partner after a hard exchange and re-establish chest-pin control cleanly."
+              "text": "Reset with a partner after a hard exchange and re-establish chest-pin control cleanly."
             },
             {
               "kind": "heading",
@@ -222,7 +219,7 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will name what it takes for them to give a real apology."
+              "text": "Name what it takes for you to give a real apology."
             },
             {
               "kind": "heading",
@@ -233,14 +230,9 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
               "kind": "list",
               "ordered": true,
               "items": [
-                "Identify what a real apology requires of them.",
+                "Identify what a real apology requires of you.",
                 "Distinguish a real apology from a dodge."
               ]
-            },
-            {
-              "kind": "callout",
-              "label": "CASEL",
-              "text": "Social Awareness · Relationship Skills"
             }
           ]
         },
@@ -275,6 +267,53 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
       "title": "Before you go",
       "slides": [
         {
+          "id": "s22-recap",
+          "type": "reveal",
+          "eyebrow": "Quick recap",
+          "title": "Before you go: Perpendicular Chest-to-Chest Pin Game",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "After a scramble, re-establish the pin cleanly. Win by covering the hips, getting under the elbow, and connecting your hands again."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Slap hands and roll clean after a hard round. That reset is repair in the body."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "win-again",
+              "label": "How you win it, again",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Covering the hips, getting under the elbow, and connecting your hands again after a scramble"
+                }
+              ]
+            },
+            {
+              "id": "tap-again",
+              "label": "And the rule under all of it",
+              "content": [
+                {
+                  "kind": "list",
+                  "ordered": true,
+                  "items": [
+                    "Tap your partner's body",
+                    "Tap the mat",
+                    "Say stop"
+                  ]
+                },
+                {
+                  "kind": "paragraph",
+                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "s22-summative",
           "type": "quiz",
           "eyebrow": "End-of-session check",
@@ -288,17 +327,17 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
           "retry": true,
           "options": [
             {
+              "text": "Name what it takes for you to give a real apology.",
+              "correct": true,
+              "feedback": "That was the target for today."
+            },
+            {
               "text": "Name one thing that happens in you when another person makes real contact, and connect it to how you meet people in real life.",
               "feedback": "That is Session 13's target, not today's."
             },
             {
               "text": "Name the effect your conflict style has on other people and one adjustment you can make.",
               "feedback": "That is Session 18's target, not today's."
-            },
-            {
-              "text": "Name what it takes for you to give a real apology.",
-              "correct": true,
-              "feedback": "That was the target for today."
             }
           ],
           "correctHead": "That's the one.",

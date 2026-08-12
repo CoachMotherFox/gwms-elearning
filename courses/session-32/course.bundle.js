@@ -34,6 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
       "Name whether it is the one they want to set."
     ],
     "connection": "How you carry yourself in the room, how you finish, how you treat a new partner, quietly sets the bar for everyone watching. The standard you set for whoever comes next in life works the same way. Your conduct is the standard.",
+    "takeaway": "Your conduct is the standard, so choose it on purpose.",
     "_source": "GWMS Curriculum Guide — Session 32 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -88,11 +89,11 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
           "reveals": [
             {
               "id": "what-it-was-after",
-              "label": "What that session was getting at",
+              "label": "What that one was really about",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "A change that only works when it is easy is not a change yet. Holding the back against a fighting partner tests it. Who you have become is proven the same way: by whether it holds when things are hard."
+                  "text": "Tested change is change you can trust."
                 }
               ]
             }
@@ -121,10 +122,6 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
                 {
                   "kind": "paragraph",
                   "text": "The shoulder anchored and the wrist controlled before extension, released on the tap."
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Card: The Back Pin. Domain: Finish, Arm Lock from back."
                 }
               ]
             },
@@ -196,7 +193,7 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will apply the arm lock from the back with control, and analyze how their conduct sets the room's standard."
+              "text": "Apply the arm lock from the back with control, and analyze how your conduct sets the room's standard."
             },
             {
               "kind": "heading",
@@ -208,7 +205,7 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
               "ordered": true,
               "items": [
                 "Secure the back arm lock under control, releasing on the tap.",
-                "Identify one way their conduct sets a standard others follow."
+                "Identify one way your conduct sets a standard others follow."
               ]
             }
           ]
@@ -221,7 +218,7 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will name the standard they set for whoever comes after them."
+              "text": "Name the standard you set for whoever comes after you."
             },
             {
               "kind": "heading",
@@ -232,14 +229,9 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
               "kind": "list",
               "ordered": true,
               "items": [
-                "Identify the standard their behavior currently sets.",
-                "Name whether it is the one they want to set."
+                "Identify the standard your behavior currently sets.",
+                "Name whether it is the one you want to set."
               ]
-            },
-            {
-              "kind": "callout",
-              "label": "CASEL",
-              "text": "Responsible Decision-Making"
             }
           ]
         },
@@ -274,6 +266,53 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
       "title": "Before you go",
       "slides": [
         {
+          "id": "s32-recap",
+          "type": "reveal",
+          "eyebrow": "Quick recap",
+          "title": "Before you go: Chest to Back to Precursor Transitions Game",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "The arm lock from the back. Move through the precursor grips, shoulder anchored and wrist controlled before any extension, released on the tap."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Your conduct here, controlled and clean, is the standard the next person copies."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "win-again",
+              "label": "How you win it, again",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Moving through the precursor grips with the shoulder anchored and the wrist controlled before any extension"
+                }
+              ]
+            },
+            {
+              "id": "tap-again",
+              "label": "And the rule under all of it",
+              "content": [
+                {
+                  "kind": "list",
+                  "ordered": true,
+                  "items": [
+                    "Tap your partner's body",
+                    "Tap the mat",
+                    "Say stop"
+                  ]
+                },
+                {
+                  "kind": "paragraph",
+                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "s32-summative",
           "type": "quiz",
           "eyebrow": "End-of-session check",
@@ -287,10 +326,6 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
           "retry": true,
           "options": [
             {
-              "text": "Name a contribution that costs you something real.",
-              "feedback": "That is Session 29's target, not today's."
-            },
-            {
               "text": "Name the standard you set for whoever comes after you.",
               "correct": true,
               "feedback": "That was the target for today."
@@ -298,6 +333,10 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
             {
               "text": "Name what you carry out of the program into the rest of your life.",
               "feedback": "That is Session 36's target, not today's."
+            },
+            {
+              "text": "Name a contribution that costs you something real.",
+              "feedback": "That is Session 29's target, not today's."
             }
           ],
           "correctHead": "That's the one.",

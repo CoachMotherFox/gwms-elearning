@@ -35,6 +35,7 @@ window.GWMS_COURSE_BUNDLE["session-17"] =
       "Practice one way to stay present instead of leaving."
     ],
     "connection": "Staying in an uncomfortable pin instead of scrambling out is the body's version of staying in a hard conversation. Both are the same skill: tolerating discomfort without fleeing it.",
+    "takeaway": "You can stay in discomfort, you just did it.",
     "_source": "GWMS Curriculum Guide — Session 17 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -89,11 +90,11 @@ window.GWMS_COURSE_BUNDLE["session-17"] =
           "reveals": [
             {
               "id": "what-it-was-after",
-              "label": "What that session was getting at",
+              "label": "What that one was really about",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "Arriving past the guard puts you in contact with what was most protected. Naming the Shadow does the same inside you. Both reach the thing that was hidden deepest."
+                  "text": "Naming the hidden part, even silently, is the bravest thing the mat asks of you."
                 }
               ]
             }
@@ -122,10 +123,6 @@ window.GWMS_COURSE_BUNDLE["session-17"] =
                 {
                   "kind": "paragraph",
                   "text": "Isolate a limb and keep it isolated while the partner works to reconnect it."
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Card: The Chest Pin. Domain: Control."
                 }
               ]
             },
@@ -197,7 +194,7 @@ window.GWMS_COURSE_BUNDLE["session-17"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will stay in a hard chest-pin exchange under discomfort instead of bailing out of the position."
+              "text": "Stay in a hard chest-pin exchange under discomfort instead of bailing out of the position."
             },
             {
               "kind": "heading",
@@ -222,7 +219,7 @@ window.GWMS_COURSE_BUNDLE["session-17"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will practice staying present in discomfort and name what makes them want to bail."
+              "text": "Practice staying present in discomfort and name what makes you want to bail."
             },
             {
               "kind": "heading",
@@ -233,14 +230,9 @@ window.GWMS_COURSE_BUNDLE["session-17"] =
               "kind": "list",
               "ordered": true,
               "items": [
-                "Identify the moment they usually want to leave a hard conversation or situation.",
+                "Identify the moment you usually want to leave a hard conversation or situation.",
                 "Practice one way to stay present instead of leaving."
               ]
-            },
-            {
-              "kind": "callout",
-              "label": "CASEL",
-              "text": "Social Awareness · Relationship Skills"
             }
           ]
         },
@@ -280,6 +272,53 @@ window.GWMS_COURSE_BUNDLE["session-17"] =
       "title": "Before you go",
       "slides": [
         {
+          "id": "s17-recap",
+          "type": "reveal",
+          "eyebrow": "Quick recap",
+          "title": "Before you go: Wrist Pin Game",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "The top player isolates and pins a wrist while the partner works to free it. Win by keeping the isolation and reaching head-and-arm or chest-to-back contact."
+            },
+            {
+              "kind": "paragraph",
+              "text": "You are staying in an uncomfortable spot and working it instead of bailing out."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "win-again",
+              "label": "How you win it, again",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Keeping the wrist isolated and reaching head-and-arm or chest-to-back contact"
+                }
+              ]
+            },
+            {
+              "id": "tap-again",
+              "label": "And the rule under all of it",
+              "content": [
+                {
+                  "kind": "list",
+                  "ordered": true,
+                  "items": [
+                    "Tap your partner's body",
+                    "Tap the mat",
+                    "Say stop"
+                  ]
+                },
+                {
+                  "kind": "paragraph",
+                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "s17-summative",
           "type": "quiz",
           "eyebrow": "End-of-session check",
@@ -293,10 +332,6 @@ window.GWMS_COURSE_BUNDLE["session-17"] =
           "retry": true,
           "options": [
             {
-              "text": "Name one thing that happens in you when another person makes real contact, and connect it to how you meet people in real life.",
-              "feedback": "That is Session 13's target, not today's."
-            },
-            {
               "text": "Practice staying present in discomfort and name what makes you want to bail.",
               "correct": true,
               "feedback": "That was the target for today."
@@ -304,6 +339,10 @@ window.GWMS_COURSE_BUNDLE["session-17"] =
             {
               "text": "Name a rupture you left unrepaired, without being required to share it.",
               "feedback": "That is Session 20's target, not today's."
+            },
+            {
+              "text": "Name one thing that happens in you when another person makes real contact, and connect it to how you meet people in real life.",
+              "feedback": "That is Session 13's target, not today's."
             }
           ],
           "correctHead": "That's the one.",

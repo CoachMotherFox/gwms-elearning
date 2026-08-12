@@ -35,6 +35,7 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
       "Name one true thing under it."
     ],
     "connection": "Getting past the legs reveals what the guard was hiding. Looking under your mask reveals the real self. Passing and revealing are the same move: getting past the defense to what is behind it.",
+    "takeaway": "What is under the mask is not worse than the mask, it is just true.",
     "_source": "GWMS Curriculum Guide — Session 10 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -89,11 +90,11 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
           "reveals": [
             {
               "id": "what-it-was-after",
-              "label": "What that session was getting at",
+              "label": "What that one was really about",
               "content": [
                 {
                   "kind": "paragraph",
-                  "text": "When your guard gets passed, the mask cracks and something real shows. Getting passed on the mat and cracking under pressure are the same moment, felt in the body first."
+                  "text": "Losing cracks the mask, and what comes out is information, not failure."
                 }
               ]
             }
@@ -122,10 +123,6 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
                 {
                   "kind": "paragraph",
                   "text": "Reach chest contact past the guard."
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Card: Controlling the Legs. Domain: Enter to Arrive."
                 }
               ]
             },
@@ -197,7 +194,7 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will apply the pass to advance past the legs toward a pin."
+              "text": "Apply the pass to advance past the legs toward a pin."
             },
             {
               "kind": "heading",
@@ -222,7 +219,7 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
           "body": [
             {
               "kind": "lead",
-              "text": "By the end of this session, the participant will name one true thing about themselves that lives under the performance."
+              "text": "Name one true thing about yourself that lives under the performance."
             },
             {
               "kind": "heading",
@@ -236,11 +233,6 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
                 "Look beneath the performed self.",
                 "Name one true thing under it."
               ]
-            },
-            {
-              "kind": "callout",
-              "label": "CASEL",
-              "text": "Self-Awareness · Self-Management"
             }
           ]
         },
@@ -275,6 +267,53 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
       "title": "Before you go",
       "slides": [
         {
+          "id": "s10-recap",
+          "type": "reveal",
+          "eyebrow": "Quick recap",
+          "title": "Before you go: Around-the-Legs Passing Game",
+          "body": [
+            {
+              "kind": "lead",
+              "text": "The top player gets past the legs. Win by touching one side outside the legs, then going around to chest contact."
+            },
+            {
+              "kind": "paragraph",
+              "text": "You are getting past the defense to what it was hiding, on the mat and under the mask."
+            }
+          ],
+          "reveals": [
+            {
+              "id": "win-again",
+              "label": "How you win it, again",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Touching one side outside the legs, then going around to chest contact"
+                }
+              ]
+            },
+            {
+              "id": "tap-again",
+              "label": "And the rule under all of it",
+              "content": [
+                {
+                  "kind": "list",
+                  "ordered": true,
+                  "items": [
+                    "Tap your partner's body",
+                    "Tap the mat",
+                    "Say stop"
+                  ]
+                },
+                {
+                  "kind": "paragraph",
+                  "text": "Any of the three ends the round immediately. When your partner taps, you stop. Not after you finish the move. Immediately."
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "s10-summative",
           "type": "quiz",
           "eyebrow": "End-of-session check",
@@ -288,17 +327,17 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
           "retry": true,
           "options": [
             {
+              "text": "Name one true thing about yourself that lives under the performance.",
+              "correct": true,
+              "feedback": "That was the target for today."
+            },
+            {
               "text": "Name your default entrance behavior when new, without judging it.",
               "feedback": "That is Session 2's target, not today's."
             },
             {
               "text": "Name what shows up when you lose, the reaction under the mask.",
               "feedback": "That is Session 7's target, not today's."
-            },
-            {
-              "text": "Name one true thing about yourself that lives under the performance.",
-              "correct": true,
-              "feedback": "That was the target for today."
             }
           ],
           "correctHead": "That's the one.",

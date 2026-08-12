@@ -47,7 +47,8 @@
       "caselTlo": null,
       "caselElos": [],
       "connection": null,
-      "_todo": "Session 1's Lesson and Intervention Guide carries only the game paragraph. Grappling TLO/ELOs, CASEL TLO/ELOs and the connection line are absent there, so they are absent here and the module states none of them."
+      "_todo": "Session 1's Lesson and Intervention Guide carries only the game paragraph. Grappling TLO/ELOs, CASEL TLO/ELOs and the connection line are absent there, so they are absent here and the module states none of them.",
+      "takeaway": "That is what makes a place feel safe. Everyone knows the rules will hold."
     },
     {
       "n": 2,
@@ -71,7 +72,8 @@
         "Notice how they enter a new space.",
         "Name that entrance behavior plainly."
       ],
-      "connection": "How you make first contact on the mat, cautious, rushed, stiff, is your entrance. Naming how you show up when nobody knows you yet is the same pattern, seen off the mat."
+      "connection": "How you make first contact on the mat, cautious, rushed, stiff, is your entrance. Naming how you show up when nobody knows you yet is the same pattern, seen off the mat.",
+      "takeaway": "Everybody has an entrance, and now you can see yours."
     },
     {
       "n": 3,
@@ -95,7 +97,8 @@
         "Name one protective habit.",
         "Frame it as smart, not weak."
       ],
-      "connection": "Staying safe and guarded on the mat before you trust a partner is the same guard you run before you trust a room. Both are smart. Naming it is the work."
+      "connection": "Staying safe and guarded on the mat before you trust a partner is the same guard you run before you trust a room. Both are smart. Naming it is the work.",
+      "takeaway": "The guard is smart, and next week we look at the face that guard wears, the mask."
     },
     {
       "n": 4,
@@ -119,7 +122,8 @@
         "Notice the watched self versus the private self.",
         "Name one performed behavior."
       ],
-      "connection": "Keeping your guard is keeping a boundary between you and the other person. The mask does the same job socially. Retention on the mat and the performed self are two versions of the same guard."
+      "connection": "Keeping your guard is keeping a boundary between you and the other person. The mask does the same job socially. Retention on the mat and the performed self are two versions of the same guard.",
+      "takeaway": "Everybody wears a face for the crowd, and now yours has a name."
     },
     {
       "n": 5,
@@ -143,7 +147,8 @@
         "Trace the performed self to an origin.",
         "Keep the story optional."
       ],
-      "connection": "The guard you keep was drilled into you somewhere, and so was the mask. Both are learned defenses. Tracing where you learned to guard is the same move on and off the mat."
+      "connection": "The guard you keep was drilled into you somewhere, and so was the mask. Both are learned defenses. Tracing where you learned to guard is the same move on and off the mat.",
+      "takeaway": "The mask made sense where you got it, and that means it is a choice, not a life sentence."
     },
     {
       "n": 6,
@@ -167,7 +172,8 @@
         "Name the mask's function.",
         "Keep the depth optional."
       ],
-      "connection": "Your guard protects the space behind your legs. Your mask protects something too. Naming what the guard defends is the same as naming what the mask hides."
+      "connection": "Your guard protects the space behind your legs. Your mask protects something too. Naming what the guard defends is the same as naming what the mask hides.",
+      "takeaway": "The mask has a job, and next week we find out what happens to it under pressure."
     },
     {
       "n": 7,
@@ -191,7 +197,8 @@
         "Notice their reaction to losing the position.",
         "Name what comes out under pressure."
       ],
-      "connection": "When your guard gets passed, the mask cracks and something real shows. Getting passed on the mat and cracking under pressure are the same moment, felt in the body first."
+      "connection": "When your guard gets passed, the mask cracks and something real shows. Getting passed on the mat and cracking under pressure are the same moment, felt in the body first.",
+      "takeaway": "Losing cracks the mask, and what comes out is information, not failure."
     },
     {
       "n": 8,
@@ -215,7 +222,8 @@
         "Notice the honest reaction under fatigue.",
         "Name it without judgment."
       ],
-      "connection": "When you and your partner tire, the fakery drops on both sides, the passer and the guard. What slips out when you are too tired to perform is the truest thing, on the mat and off."
+      "connection": "When you and your partner tire, the fakery drops on both sides, the passer and the guard. What slips out when you are too tired to perform is the truest thing, on the mat and off.",
+      "takeaway": "What shows up when you are empty is often the truest thing about you."
     },
     {
       "n": 9,
@@ -239,7 +247,8 @@
         "Name their first reliable crack signal.",
         "Connect catching it early to a different choice."
       ],
-      "connection": "The checkpoint where a guard always breaks is a tell, and so is the first thing that shows when you crack. Finding the exact break point on the mat is the same precision as knowing your own tell."
+      "connection": "The checkpoint where a guard always breaks is a tell, and so is the first thing that shows when you crack. Finding the exact break point on the mat is the same precision as knowing your own tell.",
+      "takeaway": "Knowing your tell is power, because you can catch yourself."
     },
     {
       "n": 10,
@@ -263,7 +272,8 @@
         "Look beneath the performed self.",
         "Name one true thing under it."
       ],
-      "connection": "Getting past the legs reveals what the guard was hiding. Looking under your mask reveals the real self. Passing and revealing are the same move: getting past the defense to what is behind it."
+      "connection": "Getting past the legs reveals what the guard was hiding. Looking under your mask reveals the real self. Passing and revealing are the same move: getting past the defense to what is behind it.",
+      "takeaway": "What is under the mask is not worse than the mask, it is just true."
     },
     {
       "n": 11,
@@ -288,7 +298,8 @@
         "Keep it private if chosen."
       ],
       "connection": "Arriving past the guard puts you in contact with what was most protected. Naming the Shadow does the same inside you. Both reach the thing that was hidden deepest.",
-      "privateOk": true
+      "privateOk": true,
+      "takeaway": "Naming the hidden part, even silently, is the bravest thing the mat asks of you."
     },
     {
       "n": 12,
@@ -313,7 +324,8 @@
         "Bring it into the room to be witnessed."
       ],
       "connection": "Running the whole Roads from standing to a pin is the mat's version of the whole Descent, from arrival to the real self revealed. This session integrates both journeys into one.",
-      "stageClose": true
+      "stageClose": true,
+      "takeaway": "You showed up, cracked, and stayed, and the room met the real you."
     }
   ]
 }
