@@ -2,7 +2,7 @@
 
 Unit 4 of the curriculum guide:
 
-> The IRF is the last screen of the module. No student leaves before completing it… IRF responses log through a Google Form backend or basic LMS.
+> The IRF is the last screen of the module. No student leaves before completing it… The IRF posts to a Google Sheet through an Apps Script Web App; a failed send queues on the device and retries by itself.
 
 The engine has no server of its own, so it posts straight from the page. Two ways, both configured in one file: **`courses/_curriculum/irf.json`**. Re-run `node tools/build-sessions.js` after editing it — that copies the settings into `courses/index.json`, which is what the engine reads.
 

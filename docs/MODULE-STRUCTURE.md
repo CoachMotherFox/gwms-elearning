@@ -8,7 +8,7 @@ Nothing here is a design proposal. Every screen exists because the GWMS Curricul
 
 > Block 4: Cleanup, eLearning, IRF (30 min). Room reset, the eLearning module, and the IRF. **The IRF is the last screen of the module. No student leaves before completing it.** The coach completes the Reflection Log during the eLearning window.
 >
-> eLearning Delivery System. Students access each session's eLearning module by scanning a session-specific QR code on their personal smartphone… Articulate hosts the module. IRF responses log through a Google Form backend or basic LMS.
+> eLearning Delivery System. Students access each session's eLearning module by scanning a session-specific QR code on their personal smartphone… The module runs on the GWMS eLearning engine, custom-built for this program… The IRF posts to a Google Sheet through an Apps Script Web App.
 
 So: one module per session, phone-first, IRF last and mandatory.
 
@@ -71,6 +71,6 @@ It reads `courses/_curriculum/*.json` — the transcribed curriculum fields — 
 
 ## Open against the guide
 
-- **IRF has no backend.** Unit 4 routes IRF responses through a Google Form or basic LMS. This engine has none, so answers stay on the device. Recorded as a `_todo` on every IRF screen.
+- ~~IRF has no backend.~~ **Closed.** The IRF posts to a Google Sheet through an Apps Script Web App, with an offline queue, retry on next load, and idempotent writes. See [IRF-BACKEND.md](IRF-BACKEND.md).
 - **Unit 4 and Unit 5 disagree on IRF timing** — Unit 4 puts it in the module, Unit 5 puts the tablet out in the last three minutes of Block 3. The module follows Unit 4, which is the section that defines the eLearning artifact.
 - **Session 1's guide is incomplete.** Six fields missing that every other session has.

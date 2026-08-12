@@ -57,7 +57,7 @@ The validator emits a warning when a course uses only one strategy — the rubri
 
 The population is adolescent boys in a trauma-informed program, often on shared devices, many court-referred. The data model is the ethics position.
 
-**One thing leaves the device, and only one.** The IRF submission on the last screen. Unit 4 requires it — *"IRF responses log through a Google Form backend or basic LMS"* — and an instrument Unit 1 counts as participation documentation is worthless if it dies with the tab. It carries the session, the timestamp, the three IRF answers, and the learner's reflection. It carries no name, no login, no device id, and nothing that links two sessions to one boy.
+**One thing leaves the device, and only one.** The IRF submission on the last screen. Unit 4 requires it — *"The IRF posts to a Google Sheet through an Apps Script Web App"* — and an instrument Unit 1 counts as participation documentation is worthless if it dies with the tab. It carries the session, the timestamp, the three IRF answers, and the learner's reflection. It carries no name, no login, no device id, and nothing that links two sessions to one boy.
 
 **It leaves on a press, not on a keystroke.** Everything is sent from one screen, once, when the learner presses send. Nothing is shipped quietly while they are still typing, and nothing from the earlier screens goes anywhere on its own. The note under every writing box states what will happen to it — and the notes are generated from whether a destination is actually configured, so they cannot drift out of true. With no destination set, the engine says nothing is sent, and nothing is.
 
