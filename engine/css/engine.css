@@ -5,30 +5,39 @@
    ========================================================================== */
 
 /* ---------- Tokens ---------- */
+/* GWMS brand: olive #6B8E23, black, white, red and gold reserved for
+   feedback. Every pairing below is measured against WCAG 2.1 AA (4.5:1 body
+   text, 3:1 UI/large text) with the same relative-luminance formula the
+   engine runs at load time in validate.js — not eyeballed. Ratios noted
+   beside each token. Re-verify with tools/palette-check.js before changing
+   any of these; a hand-tweaked hex here is exactly the kind of thing that
+   passes a glance and fails the live contrast audit. */
 :root {
   color-scheme: light dark;
 
   /* Light surface set */
-  --bg:          #FAF9F7;
+  --bg:          #FAFAF6;
   --surface:     #FFFFFF;
-  --surface-2:   #F2EFEA;
-  --ink:         #1B1A18;   /* on --bg  : 16.6:1 */
-  --ink-muted:   #57534C;   /* on --bg  :  7.6:1 */
-  --line:        #DFDAD2;
-  --line-strong: #B9B2A8;   /* on --bg  :  3.1:1  (UI boundary) */
-  --accent:      #A23A18;   /* on --bg  :  6.4:1 */
-  --accent-ink:  #FFFFFF;   /* on accent:  6.7:1 */
-  --accent-soft: #F7E9E3;
-  --ok:          #1D5B3A;   /* on white :  8.1:1 */
-  --ok-soft:     #E6F1EA;
-  --no:          #96201C;   /* on --bg  :  8.0:1 */
-  --no-soft:     #F9E7E6;
-  --focus:       #1B1A18;
+  --surface-2:   #EFF1E8;
+  --ink:         #15170F;   /* on --bg  : 17.3:1 */
+  --ink-muted:   #565A4C;   /* on --bg  :  6.8:1 */
+  --line:        #E1E4D8;
+  --line-strong: #8C9280;   /* on --bg  :  3.1:1  (UI boundary) */
+  --accent:      #4E6B1B;   /* on --bg  :  5.8:1 */
+  --accent-ink:  #FFFFFF;   /* on accent:  6.1:1 */
+  --accent-soft: #E9EFDD;
+  --ok:          #1D7A3D;   /* on --bg  :  5.1:1 */
+  --ok-soft:     #E3F3E7;
+  --no:          #A32E24;   /* on --bg  :  6.8:1 */
+  --no-soft:     #FBE7E4;
+  --highlight:   #7A5E00;   /* on --bg  :  5.9:1 — reserved: spaced-retrieval screens only */
+  --highlight-soft: #F5EBC8;
+  --focus:       #15170F;
 
-  --shadow: 0 1px 2px rgba(27,26,24,.05), 0 8px 24px -12px rgba(27,26,24,.22);
+  --shadow: 0 1px 2px rgba(21,23,15,.05), 0 8px 24px -12px rgba(21,23,15,.22);
 
-  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  --font-head: ui-serif, Georgia, "Iowan Old Style", "Times New Roman", serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, "Segoe UI", Roboto, sans-serif;
+  --font-head: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, "Segoe UI", Roboto, sans-serif;
 
   --measure: 34rem;          /* ~66 characters */
   --pad: clamp(1rem, 4vw, 2.25rem);
@@ -47,31 +56,34 @@
 /* Dark surface set — applied by media query or by explicit [data-theme] */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg:          #141618;
-    --surface:     #1D2023;
-    --surface-2:   #262A2E;
-    --ink:         #F0EEE9;   /* on --bg : 15.6:1 */
-    --ink-muted:   #ABA49B;   /* on --bg :  7.4:1 */
-    --line:        #32373B;
-    --line-strong: #545B61;   /* on --bg :  3.2:1 */
-    --accent:      #E58B60;   /* on --bg :  7.1:1 */
-    --accent-ink:  #141618;   /* on accent: 7.1:1 */
-    --accent-soft: #2C231E;
-    --ok:          #7CCDA0;   /* on --bg :  9.4:1 */
-    --ok-soft:     #1B2A22;
-    --no:          #F0938D;   /* on --bg :  8.2:1 */
-    --no-soft:     #2C1D1C;
-    --focus:       #F0EEE9;
+    --bg:          #121412;
+    --surface:     #1B1D18;
+    --surface-2:   #242822;
+    --ink:         #F1F2ED;   /* on --bg : 16.5:1 */
+    --ink-muted:   #A7AC9E;   /* on --bg :  8.0:1 */
+    --line:        #2C2F27;
+    --line-strong: #666C58;   /* on --bg :  3.4:1 */
+    --accent:      #8CB93A;   /* on --bg :  8.0:1 */
+    --accent-ink:  #12140D;   /* on accent: 8.1:1 */
+    --accent-soft: #202512;
+    --ok:          #5FD37A;   /* on --bg :  9.8:1 */
+    --ok-soft:     #132A18;
+    --no:          #F0645A;   /* on --bg :  5.9:1 */
+    --no-soft:     #2C1613;
+    --highlight:   #E8B93A;   /* on --bg : 10.1:1 — reserved: spaced-retrieval screens only */
+    --highlight-soft: #2E2610;
+    --focus:       #F1F2ED;
     --shadow: 0 1px 2px rgba(0,0,0,.4), 0 10px 28px -14px rgba(0,0,0,.8);
   }
 }
 :root[data-theme="dark"] {
   color-scheme: dark;
-  --bg:#141618; --surface:#1D2023; --surface-2:#262A2E;
-  --ink:#F0EEE9; --ink-muted:#ABA49B; --line:#32373B; --line-strong:#545B61;
-  --accent:#E58B60; --accent-ink:#141618; --accent-soft:#2C231E;
-  --ok:#7CCDA0; --ok-soft:#1B2A22; --no:#F0938D; --no-soft:#2C1D1C;
-  --focus:#F0EEE9;
+  --bg:#121412; --surface:#1B1D18; --surface-2:#242822;
+  --ink:#F1F2ED; --ink-muted:#A7AC9E; --line:#2C2F27; --line-strong:#666C58;
+  --accent:#8CB93A; --accent-ink:#12140D; --accent-soft:#202512;
+  --ok:#5FD37A; --ok-soft:#132A18; --no:#F0645A; --no-soft:#2C1613;
+  --highlight:#E8B93A; --highlight-soft:#2E2610;
+  --focus:#F1F2ED;
   --shadow: 0 1px 2px rgba(0,0,0,.4), 0 10px 28px -14px rgba(0,0,0,.8);
 }
 
@@ -103,7 +115,7 @@ body {
   flex-direction: column;
   overflow-wrap: break-word;
 }
-h1, h2, h3 { font-family: var(--font-head); font-weight: 600; line-height: 1.22; letter-spacing: -0.01em; margin: 0 0 .5em; }
+h1, h2, h3 { font-family: var(--font-head); font-weight: 800; line-height: 1.16; letter-spacing: -0.015em; margin: 0 0 .5em; }
 p { margin: 0 0 1em; }
 img, video, svg { max-width: 100%; height: auto; }
 button, input, textarea, select { font: inherit; color: inherit; }
@@ -146,13 +158,18 @@ button, input, textarea, select { font: inherit; color: inherit; }
   padding: .4rem max(.5rem, env(safe-area-inset-left)) .4rem max(.5rem, env(safe-area-inset-right));
   display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: .5rem;
 }
-.appbar__title { text-align: center; min-width: 0; }
+.appbar__title {
+  display: flex; align-items: center; justify-content: center; gap: .55rem;
+  min-width: 0; text-align: left;
+}
+.appbar__mark { flex: 0 0 auto; width: 28px; height: 28px; border-radius: 50%; }
+.appbar__title-text { min-width: 0; }
 .appbar__eyebrow {
   display: block; font-size: .7rem; letter-spacing: .1em; text-transform: uppercase;
   color: var(--ink-muted);
 }
 .appbar__name {
-  display: block; font-family: var(--font-head); font-size: .98rem; font-weight: 600;
+  display: block; font-family: var(--font-head); font-size: .98rem; font-weight: 800;
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
 
@@ -198,12 +215,15 @@ body.is-booting .slide { opacity: .6; }
 .block-lead { font-size: 1.12em; color: var(--ink); }
 .block-list { padding-left: 1.15em; margin: 0 0 1em; }
 .block-list li { margin-bottom: .4em; }
+/* The only place this renders today is the spaced-retrieval "Look back"
+   screen quoting an earlier session's own question, which is exactly the
+   one context reserved for the gold accent — see the token comment above. */
 .block-quote {
   margin: 0 0 1.25em; padding: .1em 0 .1em 1rem;
-  border-left: 3px solid var(--accent);
+  border-left: 3px solid var(--highlight);
   font-family: var(--font-head); font-size: 1.1em; color: var(--ink);
 }
-.block-quote cite { display: block; font: 400 .8rem/1.4 var(--font-body); color: var(--ink-muted); font-style: normal; margin-top: .5em; }
+.block-quote cite { display: block; font: 700 .8rem/1.4 var(--font-body); color: var(--highlight); font-style: normal; margin-top: .5em; }
 .callout {
   margin: 0 0 1.25em; padding: .9rem 1rem;
   background: var(--surface-2); border-radius: var(--radius);
