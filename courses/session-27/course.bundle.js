@@ -22,6 +22,7 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
     "keyCondition": "Secure the back from a dynamic start.",
     "probingQuestion": "What can you do now that the old you couldn't?",
     "grapplingTlo": "By the end of this session, the participant will apply back-pin control from a live scramble and analyze the specific capability they gained since the Descent.",
+    "looksBackAt": 15,
     "grapplingElos": [
       "Secure the back from a dynamic exchange.",
       "Name a specific mat skill they own now that they did not before."
@@ -64,6 +65,35 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
               "transcriptIsBody": true,
               "own": true,
               "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+            }
+          ]
+        },
+        {
+          "id": "s27-lookback",
+          "eyebrow": "Look back",
+          "title": "Session 15 asked you this",
+          "body": [
+            {
+              "kind": "quote",
+              "text": "Who are you with other people, now that you've met yourself?",
+              "attribution": "Session 15 — The Initiation, Contact"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Before you read on, see if you can remember what you answered."
+            }
+          ],
+          "type": "reveal",
+          "reveals": [
+            {
+              "id": "what-it-was-after",
+              "label": "What that session was getting at",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "The Descent found the real you. Now it goes to the mat with a partner. Rolling as the real self instead of the persona is the same move as showing up honest in a relationship instead of performing one."
+                }
+              ]
             }
           ]
         },

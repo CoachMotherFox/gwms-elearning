@@ -20,6 +20,7 @@
     "keyCondition": "A final live roll, tap honored, then the walk out the door.",
     "probingQuestion": "What do you carry out this door?",
     "grapplingTlo": "By the end of this session, the participant will demonstrate the integrated back-pin game a final time, and analyze what of the training carries beyond the room.",
+    "looksBackAt": 24,
     "grapplingElos": [
       "Complete a final live roll, controlling and finishing with the tap honored.",
       "Name what of the mat carries into life."
@@ -62,6 +63,35 @@
               "transcriptIsBody": true,
               "own": true,
               "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+            }
+          ]
+        },
+        {
+          "id": "s36-lookback",
+          "eyebrow": "Look back",
+          "title": "Session 24 asked you this",
+          "body": [
+            {
+              "kind": "quote",
+              "text": "What does repair cost you, and is it worth paying?",
+              "attribution": "Session 24 — The Initiation, Repair"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Before you read on, see if you can remember what you answered."
+            }
+          ],
+          "type": "reveal",
+          "reveals": [
+            {
+              "id": "what-it-was-after",
+              "label": "What that session was getting at",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Open rolling puts it all together, control, finish, tap, reset, in one flow. Repair is the same integration in relationships: it costs pride and comfort, and you decide it is worth paying. This closes the Initiation and points to the Return."
+                }
+              ]
             }
           ]
         },

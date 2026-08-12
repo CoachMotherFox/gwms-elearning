@@ -21,6 +21,7 @@
     "keyCondition": "Change direction to break the base, no straight pushes.",
     "probingQuestion": "What are you like before you trust the room?",
     "grapplingTlo": "By the end of this session, the participant will identify the takedown starting position and keep safe contact under light movement.",
+    "looksBackAt": 1,
     "grapplingElos": [
       "Identify the neutral standing start.",
       "Keep safe contact as the partner moves."
@@ -65,6 +66,23 @@
               "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
             }
           ]
+        },
+        {
+          "id": "s03-lookback",
+          "eyebrow": "Look back",
+          "title": "Session 1 asked you this",
+          "body": [
+            {
+              "kind": "quote",
+              "text": "What makes a place feel safe to you?",
+              "attribution": "Session 1 — The Descent, Arrival"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Before you read on, see if you can remember what you answered."
+            }
+          ],
+          "type": "text-image"
         },
         {
           "id": "s03-game",

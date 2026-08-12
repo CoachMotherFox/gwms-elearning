@@ -23,6 +23,7 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
     "keyCondition": "Clear the first checkpoint, feet or knees.",
     "probingQuestion": "What slips out of you when you get tired and stop performing?",
     "grapplingTlo": "By the end of this session, the participant will apply the first passing checkpoints against a tired, lighter guard.",
+    "looksBackAt": 2,
     "grapplingElos": [
       "Clear one checkpoint, the feet or the knees.",
       "Keep control while passing."
@@ -65,6 +66,35 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
               "transcriptIsBody": true,
               "own": true,
               "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+            }
+          ]
+        },
+        {
+          "id": "s08-lookback",
+          "eyebrow": "Look back",
+          "title": "Session 2 asked you this",
+          "body": [
+            {
+              "kind": "quote",
+              "text": "How do you show up when nobody here knows you yet?",
+              "attribution": "Session 2 — The Descent, Arrival"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Before you read on, see if you can remember what you answered."
+            }
+          ],
+          "type": "reveal",
+          "reveals": [
+            {
+              "id": "what-it-was-after",
+              "label": "What that session was getting at",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "How you make first contact on the mat, cautious, rushed, stiff, is your entrance. Naming how you show up when nobody knows you yet is the same pattern, seen off the mat."
+                }
+              ]
             }
           ]
         },

@@ -23,6 +23,7 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
     "keyCondition": "Flow between control and the owned finishes, tap honored.",
     "probingQuestion": "What does repair cost you, and is it worth paying?",
     "grapplingTlo": "By the end of this session, the participant will integrate chest-pin control and finishing in open rolling, using the whole neighborhood in live flow.",
+    "looksBackAt": 12,
     "grapplingElos": [
       "Flow between chest-pin control and owned finishes during live rolling.",
       "Give and honor the tap, resetting and continuing cleanly."
@@ -65,6 +66,35 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
               "transcriptIsBody": true,
               "own": true,
               "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+            }
+          ]
+        },
+        {
+          "id": "s24-lookback",
+          "eyebrow": "Look back",
+          "title": "Session 12 asked you this",
+          "body": [
+            {
+              "kind": "quote",
+              "text": "If the mask came off in here, who would we meet?",
+              "attribution": "Session 12 — The Descent, Reveal"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Before you read on, see if you can remember what you answered."
+            }
+          ],
+          "type": "reveal",
+          "reveals": [
+            {
+              "id": "what-it-was-after",
+              "label": "What that session was getting at",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Running the whole Roads from standing to a pin is the mat's version of the whole Descent, from arrival to the real self revealed. This session integrates both journeys into one."
+                }
+              ]
             }
           ]
         },

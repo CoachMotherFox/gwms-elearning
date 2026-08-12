@@ -23,6 +23,7 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
     "keyCondition": "Follow the passer, keep the legs between you as the angle changes.",
     "probingQuestion": "What version of you shows up here, and where did you learn it?",
     "grapplingTlo": "By the end of this session, the participant will apply guard retention while the partner changes angles.",
+    "looksBackAt": 2,
     "grapplingElos": [
       "Follow the partner and keep the legs between you.",
       "Reset guard when it is threatened."
@@ -65,6 +66,35 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
               "transcriptIsBody": true,
               "own": true,
               "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+            }
+          ]
+        },
+        {
+          "id": "s05-lookback",
+          "eyebrow": "Look back",
+          "title": "Session 2 asked you this",
+          "body": [
+            {
+              "kind": "quote",
+              "text": "How do you show up when nobody here knows you yet?",
+              "attribution": "Session 2 — The Descent, Arrival"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Before you read on, see if you can remember what you answered."
+            }
+          ],
+          "type": "reveal",
+          "reveals": [
+            {
+              "id": "what-it-was-after",
+              "label": "What that session was getting at",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "How you make first contact on the mat, cautious, rushed, stiff, is your entrance. Naming how you show up when nobody knows you yet is the same pattern, seen off the mat."
+                }
+              ]
             }
           ]
         },

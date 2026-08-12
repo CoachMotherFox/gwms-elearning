@@ -21,6 +21,7 @@
     "keyCondition": "Reach chest contact past the guard.",
     "probingQuestion": "What's under the version you show people?",
     "grapplingTlo": "By the end of this session, the participant will apply the pass to advance past the legs toward a pin.",
+    "looksBackAt": 7,
     "grapplingElos": [
       "Clear the checkpoints to get past the legs.",
       "Reach chest contact past the guard."
@@ -63,6 +64,35 @@
               "transcriptIsBody": true,
               "own": true,
               "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+            }
+          ]
+        },
+        {
+          "id": "s10-lookback",
+          "eyebrow": "Look back",
+          "title": "Session 7 asked you this",
+          "body": [
+            {
+              "kind": "quote",
+              "text": "What happens to your mask when you're losing?",
+              "attribution": "Session 7 — The Descent, Crack"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Before you read on, see if you can remember what you answered."
+            }
+          ],
+          "type": "reveal",
+          "reveals": [
+            {
+              "id": "what-it-was-after",
+              "label": "What that session was getting at",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "When your guard gets passed, the mask cracks and something real shows. Getting passed on the mat and cracking under pressure are the same moment, felt in the body first."
+                }
+              ]
             }
           ]
         },

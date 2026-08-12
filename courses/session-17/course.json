@@ -21,6 +21,7 @@
     "keyCondition": "Isolate a limb and keep it isolated while the partner works to reconnect it.",
     "probingQuestion": "Can you stay present when it gets uncomfortable?",
     "grapplingTlo": "By the end of this session, the participant will stay in a hard chest-pin exchange under discomfort instead of bailing out of the position.",
+    "looksBackAt": 11,
     "grapplingElos": [
       "Remain in a difficult chest-pin position, being framed and bridged, for a set time without disengaging.",
       "Use a regulation tool, breath or base reset, to stay present under pressure."
@@ -63,6 +64,35 @@
               "transcriptIsBody": true,
               "own": true,
               "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+            }
+          ]
+        },
+        {
+          "id": "s17-lookback",
+          "eyebrow": "Look back",
+          "title": "Session 11 asked you this",
+          "body": [
+            {
+              "kind": "quote",
+              "text": "What part of you have you been hiding, even from yourself?",
+              "attribution": "Session 11 — The Descent, Reveal"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Before you read on, see if you can remember what you answered."
+            }
+          ],
+          "type": "reveal",
+          "reveals": [
+            {
+              "id": "what-it-was-after",
+              "label": "What that session was getting at",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Arriving past the guard puts you in contact with what was most protected. Naming the Shadow does the same inside you. Both reach the thing that was hidden deepest."
+                }
+              ]
             }
           ]
         },

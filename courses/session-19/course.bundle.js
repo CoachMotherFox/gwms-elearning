@@ -23,6 +23,7 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
     "keyCondition": "A frame comes before the bridge, reset cleanly after the break.",
     "probingQuestion": "What breaks in you when a connection breaks?",
     "grapplingTlo": "By the end of this session, the participant will recognize when chest-pin control breaks and reset to a safe position without panic or retaliation.",
+    "looksBackAt": 16,
     "grapplingElos": [
       "Notice the moment control is lost, a reversal or an escape.",
       "Reset to a neutral, safe position instead of forcing or retaliating."
@@ -65,6 +66,35 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
               "transcriptIsBody": true,
               "own": true,
               "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+            }
+          ]
+        },
+        {
+          "id": "s19-lookback",
+          "eyebrow": "Look back",
+          "title": "Session 16 asked you this",
+          "body": [
+            {
+              "kind": "quote",
+              "text": "What do you do when someone pushes back?",
+              "attribution": "Session 16 — The Initiation, Friction"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Before you read on, see if you can remember what you answered."
+            }
+          ],
+          "type": "reveal",
+          "reveals": [
+            {
+              "id": "what-it-was-after",
+              "label": "What that session was getting at",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "A partner resisting the pin is pushback made physical. What you do when they fight the pin is usually what you do when people push back in life. Both reward staying calm and adjusting over forcing harder."
+                }
+              ]
             }
           ]
         },

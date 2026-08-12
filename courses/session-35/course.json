@@ -20,6 +20,7 @@
     "keyCondition": "Control and composure in live rolling.",
     "probingQuestion": "Who did you become?",
     "grapplingTlo": "By the end of this session, the participant will demonstrate the full back-pin game as the person they have become, and analyze the distance from Session 1.",
+    "looksBackAt": 29,
     "grapplingElos": [
       "Roll the back-pin game with control and composure.",
       "Name the distance between the Session 1 self and now."
@@ -62,6 +63,35 @@
               "transcriptIsBody": true,
               "own": true,
               "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+            }
+          ]
+        },
+        {
+          "id": "s35-lookback",
+          "eyebrow": "Look back",
+          "title": "Session 29 asked you this",
+          "body": [
+            {
+              "kind": "quote",
+              "text": "What can you give that actually costs you something?",
+              "attribution": "Session 29 — The Return, Contribution"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Before you read on, see if you can remember what you answered."
+            }
+          ],
+          "type": "reveal",
+          "reveals": [
+            {
+              "id": "what-it-was-after",
+              "label": "What that session was getting at",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Letting a partner work when you could just finish them costs you the easy win. Real contribution off the mat costs something too, time, comfort, pride. The giving that counts is the kind you feel."
+                }
+              ]
             }
           ]
         },

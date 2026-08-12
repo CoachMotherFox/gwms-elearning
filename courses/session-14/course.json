@@ -21,6 +21,7 @@
     "keyCondition": "Keep the coverage as the partner moves.",
     "probingQuestion": "How much of someone else do you actually let in?",
     "grapplingTlo": "By the end of this session, the participant will apply chest-pin control while reading and adjusting to a partner's movement, keeping the pin as the partner works to create space.",
+    "looksBackAt": 8,
     "grapplingElos": [
       "Maintain chest-pin control for a three-count while the partner actively frames and moves.",
       "Adjust pressure and connection in response to the partner rather than forcing a fixed grip."
@@ -63,6 +64,35 @@
               "transcriptIsBody": true,
               "own": true,
               "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+            }
+          ]
+        },
+        {
+          "id": "s14-lookback",
+          "eyebrow": "Look back",
+          "title": "Session 8 asked you this",
+          "body": [
+            {
+              "kind": "quote",
+              "text": "What slips out of you when you get tired and stop performing?",
+              "attribution": "Session 8 — The Descent, Crack"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Before you read on, see if you can remember what you answered."
+            }
+          ],
+          "type": "reveal",
+          "reveals": [
+            {
+              "id": "what-it-was-after",
+              "label": "What that session was getting at",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "When you and your partner tire, the fakery drops on both sides, the passer and the guard. What slips out when you are too tired to perform is the truest thing, on the mat and off."
+                }
+              ]
             }
           ]
         },

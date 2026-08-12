@@ -23,6 +23,7 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
     "keyCondition": "Safe contact, the tap is understood.",
     "probingQuestion": "What makes a place feel safe to you?",
     "grapplingTlo": null,
+    "looksBackAt": null,
     "grapplingElos": [],
     "caselTlo": null,
     "caselElos": [],

@@ -23,6 +23,7 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
     "keyCondition": "Chest on chest with hips and shoulders covered, three-count.",
     "probingQuestion": "What happens in you when someone makes real contact?",
     "grapplingTlo": "By the end of this session, the participant will apply chest-to-chest control to make and hold contact with a partner under light resistance.",
+    "looksBackAt": 10,
     "grapplingElos": [
       "Demonstrate a chest-pin control position and hold it for a three-count against light resistance.",
       "Maintain safe, controlled contact with a partner during live rolling without disengaging."
@@ -65,6 +66,35 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
               "transcriptIsBody": true,
               "own": true,
               "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+            }
+          ]
+        },
+        {
+          "id": "s13-lookback",
+          "eyebrow": "Look back",
+          "title": "Session 10 asked you this",
+          "body": [
+            {
+              "kind": "quote",
+              "text": "What's under the version you show people?",
+              "attribution": "Session 10 — The Descent, Reveal"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Before you read on, see if you can remember what you answered."
+            }
+          ],
+          "type": "reveal",
+          "reveals": [
+            {
+              "id": "what-it-was-after",
+              "label": "What that session was getting at",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Getting past the legs reveals what the guard was hiding. Looking under your mask reveals the real self. Passing and revealing are the same move: getting past the defense to what is behind it."
+                }
+              ]
             }
           ]
         },

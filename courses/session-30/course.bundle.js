@@ -22,6 +22,7 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
     "keyCondition": "Total coverage with the partner completely safe.",
     "probingQuestion": "How do you use your strength without taking someone else's?",
     "grapplingTlo": "By the end of this session, the participant will apply dominant back-pin control without hurting the partner, and analyze the choice to control without harm.",
+    "looksBackAt": 18,
     "grapplingElos": [
       "Maintain total back control while keeping the partner completely safe.",
       "Name the moment control could become harm, and the choice not to cross it."
@@ -64,6 +65,35 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
               "transcriptIsBody": true,
               "own": true,
               "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+            }
+          ]
+        },
+        {
+          "id": "s30-lookback",
+          "eyebrow": "Look back",
+          "title": "Session 18 asked you this",
+          "body": [
+            {
+              "kind": "quote",
+              "text": "What does your friction do to the people across from you?",
+              "attribution": "Session 18 — The Initiation, Friction"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Before you read on, see if you can remember what you answered."
+            }
+          ],
+          "type": "reveal",
+          "reveals": [
+            {
+              "id": "what-it-was-after",
+              "label": "What that session was getting at",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "You can pin someone hard and still keep them safe. That is control of your own force. Your conflict off the mat lands on real people too, and the same control applies: honest friction, not harm."
+                }
+              ]
             }
           ]
         },

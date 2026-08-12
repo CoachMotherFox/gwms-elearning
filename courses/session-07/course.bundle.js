@@ -23,6 +23,7 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
     "keyCondition": "Take the base first, destabilize before advancing.",
     "probingQuestion": "What happens to your mask when you're losing?",
     "grapplingTlo": "By the end of this session, the participant will apply base and framing while under a passing attempt as the guard is beaten.",
+    "looksBackAt": 4,
     "grapplingElos": [
       "Recognize when the guard is being passed.",
       "Reset to a safe position after being passed."
@@ -65,6 +66,35 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
               "transcriptIsBody": true,
               "own": true,
               "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+            }
+          ]
+        },
+        {
+          "id": "s07-lookback",
+          "eyebrow": "Look back",
+          "title": "Session 4 asked you this",
+          "body": [
+            {
+              "kind": "quote",
+              "text": "Who are you when people are watching?",
+              "attribution": "Session 4 — The Descent, Mask"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Before you read on, see if you can remember what you answered."
+            }
+          ],
+          "type": "reveal",
+          "reveals": [
+            {
+              "id": "what-it-was-after",
+              "label": "What that session was getting at",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Keeping your guard is keeping a boundary between you and the other person. The mask does the same job socially. Retention on the mat and the performed self are two versions of the same guard."
+                }
+              ]
             }
           ]
         },

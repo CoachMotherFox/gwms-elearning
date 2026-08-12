@@ -20,6 +20,7 @@
     "keyCondition": "The locking hand closes behind the plane of the head, the choking elbow on the chin line, released on the tap.",
     "probingQuestion": "What do you want to leave behind you here?",
     "grapplingTlo": "By the end of this session, the participant will apply an owned back-pin finish, the back strangle, with control, and analyze what kind of training partner they have been.",
+    "looksBackAt": 28,
     "grapplingElos": [
       "Secure the back strangle under light resistance, releasing on the tap.",
       "Name what kind of partner they have been to the room."
@@ -62,6 +63,35 @@
               "transcriptIsBody": true,
               "own": true,
               "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+            }
+          ]
+        },
+        {
+          "id": "s31-lookback",
+          "eyebrow": "Look back",
+          "title": "Session 28 asked you this",
+          "body": [
+            {
+              "kind": "quote",
+              "text": "Who needs what you've learned?",
+              "attribution": "Session 28 — The Return, Contribution"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Before you read on, see if you can remember what you answered."
+            }
+          ],
+          "type": "reveal",
+          "reveals": [
+            {
+              "id": "what-it-was-after",
+              "label": "What that session was getting at",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Helping a newer partner instead of just tapping them is the first act of contribution on the mat. Turning your growth toward someone who needs it is the same move in life. You stop being the one getting helped and start being the help."
+                }
+              ]
             }
           ]
         },

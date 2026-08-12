@@ -23,6 +23,7 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
     "keyCondition": "Protect the space behind the legs.",
     "probingQuestion": "What does your mask protect you from?",
     "grapplingTlo": "By the end of this session, the participant will apply guard retention to protect the space behind the legs.",
+    "looksBackAt": 3,
     "grapplingElos": [
       "Hold the frame that protects the pin space.",
       "Notice when the guard is about to be beaten."
@@ -65,6 +66,35 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
               "transcriptIsBody": true,
               "own": true,
               "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+            }
+          ]
+        },
+        {
+          "id": "s06-lookback",
+          "eyebrow": "Look back",
+          "title": "Session 3 asked you this",
+          "body": [
+            {
+              "kind": "quote",
+              "text": "What are you like before you trust the room?",
+              "attribution": "Session 3 — The Descent, Arrival"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Before you read on, see if you can remember what you answered."
+            }
+          ],
+          "type": "reveal",
+          "reveals": [
+            {
+              "id": "what-it-was-after",
+              "label": "What that session was getting at",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Staying safe and guarded on the mat before you trust a partner is the same guard you run before you trust a room. Both are smart. Naming it is the work."
+                }
+              ]
             }
           ]
         },

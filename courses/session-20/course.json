@@ -21,6 +21,7 @@
     "keyCondition": "The choking-side arm is trapped before the frame closes, released on the tap.",
     "probingQuestion": "Have you ever broken something with someone and left it broken?",
     "grapplingTlo": "By the end of this session, the participant will apply one owned chest-pin finish, a strangle, with full control, releasing the instant the partner taps.",
+    "looksBackAt": 14,
     "grapplingElos": [
       "Secure one owned chest-pin finish under light resistance.",
       "Release instantly and completely on the partner's tap, every time."
@@ -63,6 +64,35 @@
               "transcriptIsBody": true,
               "own": true,
               "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+            }
+          ]
+        },
+        {
+          "id": "s20-lookback",
+          "eyebrow": "Look back",
+          "title": "Session 14 asked you this",
+          "body": [
+            {
+              "kind": "quote",
+              "text": "How much of someone else do you actually let in?",
+              "attribution": "Session 14 — The Initiation, Contact"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Before you read on, see if you can remember what you answered."
+            }
+          ],
+          "type": "reveal",
+          "reveals": [
+            {
+              "id": "what-it-was-after",
+              "label": "What that session was getting at",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Keeping a pin means feeling your partner and adjusting to them, not clamping down and ignoring them. Letting someone in works the same way. You hold the connection by reading the other person, not by walling off and muscling through."
+                }
+              ]
             }
           ]
         },

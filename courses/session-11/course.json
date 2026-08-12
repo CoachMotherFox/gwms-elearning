@@ -21,6 +21,7 @@
     "keyCondition": "Land the pin and hold the arrival for a three-count.",
     "probingQuestion": "What part of you have you been hiding, even from yourself?",
     "grapplingTlo": "By the end of this session, the participant will apply the pass to arrive in a pin with the control conditions true.",
+    "looksBackAt": 5,
     "grapplingElos": [
       "Complete the pass into a controlled chest position.",
       "Hold the arrival for a three-count."
@@ -63,6 +64,35 @@
               "transcriptIsBody": true,
               "own": true,
               "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+            }
+          ]
+        },
+        {
+          "id": "s11-lookback",
+          "eyebrow": "Look back",
+          "title": "Session 5 asked you this",
+          "body": [
+            {
+              "kind": "quote",
+              "text": "What version of you shows up here, and where did you learn it?",
+              "attribution": "Session 5 — The Descent, Mask"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Before you read on, see if you can remember what you answered."
+            }
+          ],
+          "type": "reveal",
+          "reveals": [
+            {
+              "id": "what-it-was-after",
+              "label": "What that session was getting at",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "The guard you keep was drilled into you somewhere, and so was the mask. Both are learned defenses. Tracing where you learned to guard is the same move on and off the mat."
+                }
+              ]
             }
           ]
         },

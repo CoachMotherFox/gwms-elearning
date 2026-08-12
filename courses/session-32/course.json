@@ -20,6 +20,7 @@
     "keyCondition": "The shoulder anchored and the wrist controlled before extension, released on the tap.",
     "probingQuestion": "What standard are you setting for whoever comes next?",
     "grapplingTlo": "By the end of this session, the participant will apply the arm lock from the back with control, and analyze how their conduct sets the room's standard.",
+    "looksBackAt": 26,
     "grapplingElos": [
       "Secure the back arm lock under control, releasing on the tap.",
       "Identify one way their conduct sets a standard others follow."
@@ -62,6 +63,35 @@
               "transcriptIsBody": true,
               "own": true,
               "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+            }
+          ]
+        },
+        {
+          "id": "s32-lookback",
+          "eyebrow": "Look back",
+          "title": "Session 26 asked you this",
+          "body": [
+            {
+              "kind": "quote",
+              "text": "How do you know the change is real and not just talk?",
+              "attribution": "Session 26 — The Return, Emergence"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Before you read on, see if you can remember what you answered."
+            }
+          ],
+          "type": "reveal",
+          "reveals": [
+            {
+              "id": "what-it-was-after",
+              "label": "What that session was getting at",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "A change that only works when it is easy is not a change yet. Holding the back against a fighting partner tests it. Who you have become is proven the same way: by whether it holds when things are hard."
+                }
+              ]
             }
           ]
         },

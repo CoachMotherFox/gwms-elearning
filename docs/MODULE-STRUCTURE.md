@@ -21,6 +21,7 @@ One screen per curriculum field, in the guide's own order.
 | Scene | Screen | Type | Comes from |
 |---|---|---|---|
 | Today | Probing question | `text-image` | stage question page (+ audio path) |
+| Today | Look back | `reveal` | an earlier session's probing question and connection line (omitted for Session 1) |
 | Today | The game | `text-image` | L&I Guide → the game; reveals carry the Technical Map key condition and the tap |
 | Today | How you win it | `quiz` formative | the game's win condition |
 | The lesson | What you were working on | `text-image` | Grappling TLO + ELOs |
@@ -28,6 +29,23 @@ One screen per curriculum field, in the guide's own order.
 | The lesson | Where those two meet | `reveal` | the connection line; reveal carries the Unit 6 stage connection |
 | Before you go | Your answer | `reflection` | the probing question |
 | Before you go | Instruction Rating Form | `reflection`, 3 fields, all required | Unit 4 |
+
+## Spaced retrieval
+
+The program runs three sessions a week, so lags of 3, 6 and 12 sessions are one week, two weeks and four weeks. Each session takes the next lag in turn, so callbacks expand rather than always reaching back the same distance. Sessions 2 and 3 can only reach Session 1; Session 1 has no look-back screen at all.
+
+Across the 36 sessions that produces 13 one-week callbacks, 12 two-week, and 8 four-week — and **14 callbacks that cross a stage boundary**, so The Return keeps pulling on The Descent.
+
+It is retrieval, not review. The earlier probing question is shown, the learner is asked to remember their own answer *before* reading on, and what that session was driving at sits behind a reveal they have to choose to open. Nothing is authored for it: the question and the connection line are that session's own.
+
+`meta.looksBackAt` on every course records the target session.
+
+## Two standing design rules
+
+From instructor feedback on the Session 1 prototype, marked to carry into this build:
+
+- **No "click".** Use choose, select, follow, go to, use. Many learners have no mouse and it reads less technical. Verified: zero instances in any learner-facing text across all 36 modules.
+- **Persistent navigation on every screen**, not just a route back to the start. The Contents button sits in the app bar on every screen and jumps directly to any slide in the module.
 
 **A session with no field gets no screen.** Session 1's Lesson and Intervention Guide has only the game paragraph — no TLOs, no ELOs, no connection — so Session 1 is five screens, not eight, and states none of the objectives it does not have.
 

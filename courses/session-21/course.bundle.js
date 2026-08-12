@@ -23,6 +23,7 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
     "keyCondition": "Both control points active and the fulcrum set before any extension, released on the tap.",
     "probingQuestion": "When something breaks, what part is yours to own?",
     "grapplingTlo": "By the end of this session, the participant will apply a second owned chest-pin finish, an arm lock, with control, and name one thing they did wrong in a round without excuse.",
+    "looksBackAt": 9,
     "grapplingElos": [
       "Secure an owned chest-pin arm lock with control, releasing on the tap.",
       "Name one mistake they made in a round honestly, without blaming the partner."
@@ -65,6 +66,35 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
               "transcriptIsBody": true,
               "own": true,
               "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+            }
+          ]
+        },
+        {
+          "id": "s21-lookback",
+          "eyebrow": "Look back",
+          "title": "Session 9 asked you this",
+          "body": [
+            {
+              "kind": "quote",
+              "text": "When you crack, what's the first thing that shows?",
+              "attribution": "Session 9 — The Descent, Crack"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Before you read on, see if you can remember what you answered."
+            }
+          ],
+          "type": "reveal",
+          "reveals": [
+            {
+              "id": "what-it-was-after",
+              "label": "What that session was getting at",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "The checkpoint where a guard always breaks is a tell, and so is the first thing that shows when you crack. Finding the exact break point on the mat is the same precision as knowing your own tell."
+                }
+              ]
             }
           ]
         },

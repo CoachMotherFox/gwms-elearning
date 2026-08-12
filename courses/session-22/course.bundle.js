@@ -23,6 +23,7 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
     "keyCondition": "Re-engage and re-establish the pin after a scramble.",
     "probingQuestion": "What does it take for you to say sorry and mean it?",
     "grapplingTlo": "By the end of this session, the participant will reset with a partner after a hard exchange and re-establish chest-pin control cleanly.",
+    "looksBackAt": 19,
     "grapplingElos": [
       "Re-engage and re-establish a chest pin after a scramble or reversal.",
       "Roll with a partner right after a heated exchange without carrying it over."
@@ -65,6 +66,35 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
               "transcriptIsBody": true,
               "own": true,
               "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+            }
+          ]
+        },
+        {
+          "id": "s22-lookback",
+          "eyebrow": "Look back",
+          "title": "Session 19 asked you this",
+          "body": [
+            {
+              "kind": "quote",
+              "text": "What breaks in you when a connection breaks?",
+              "attribution": "Session 19 — The Initiation, Rupture"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Before you read on, see if you can remember what you answered."
+            }
+          ],
+          "type": "reveal",
+          "reveals": [
+            {
+              "id": "what-it-was-after",
+              "label": "What that session was getting at",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Losing the pin and getting reversed is a small rupture. How you handle that break on the mat, a clean reset or a retaliation, mirrors how you handle broken connections in life."
+                }
+              ]
             }
           ]
         },

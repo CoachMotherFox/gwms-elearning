@@ -20,6 +20,7 @@
     "keyCondition": "Hold control while giving the partner room to work the escape.",
     "probingQuestion": "What can you give that actually costs you something?",
     "grapplingTlo": "By the end of this session, the participant will apply back-pin control while letting a partner work and learn, and analyze what it costs to give that up.",
+    "looksBackAt": 23,
     "grapplingElos": [
       "Hold back-pin control while deliberately giving the partner room to work.",
       "Name what it costs to help instead of dominate."
@@ -62,6 +63,35 @@
               "transcriptIsBody": true,
               "own": true,
               "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+            }
+          ]
+        },
+        {
+          "id": "s29-lookback",
+          "eyebrow": "Look back",
+          "title": "Session 23 asked you this",
+          "body": [
+            {
+              "kind": "quote",
+              "text": "Can you stay when leaving would be easier?",
+              "attribution": "Session 23 — The Initiation, Repair"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Before you read on, see if you can remember what you answered."
+            }
+          ],
+          "type": "reveal",
+          "reveals": [
+            {
+              "id": "what-it-was-after",
+              "label": "What that session was getting at",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Staying with a hard partner on the mat instead of switching is commitment made physical. Staying in a hard relationship when leaving is easier is the same choice. Both build the muscle of not bailing on people."
+                }
+              ]
             }
           ]
         },

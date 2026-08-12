@@ -21,6 +21,7 @@
     "keyCondition": "Firm control that keeps the partner safe, adjust to the tap.",
     "probingQuestion": "What does your friction do to the people across from you?",
     "grapplingTlo": "By the end of this session, the participant will apply chest-pin control at an intensity that keeps the partner safe, controlling their own force deliberately.",
+    "looksBackAt": 6,
     "grapplingElos": [
       "Apply the pin firmly while keeping the partner safe.",
       "Adjust intensity based on the partner's signals and taps."
@@ -63,6 +64,35 @@
               "transcriptIsBody": true,
               "own": true,
               "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+            }
+          ]
+        },
+        {
+          "id": "s18-lookback",
+          "eyebrow": "Look back",
+          "title": "Session 6 asked you this",
+          "body": [
+            {
+              "kind": "quote",
+              "text": "What does your mask protect you from?",
+              "attribution": "Session 6 — The Descent, Mask"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Before you read on, see if you can remember what you answered."
+            }
+          ],
+          "type": "reveal",
+          "reveals": [
+            {
+              "id": "what-it-was-after",
+              "label": "What that session was getting at",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Your guard protects the space behind your legs. Your mask protects something too. Naming what the guard defends is the same as naming what the mask hides."
+                }
+              ]
             }
           ]
         },

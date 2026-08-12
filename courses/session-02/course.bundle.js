@@ -23,6 +23,7 @@ window.GWMS_COURSE_BUNDLE["session-02"] =
     "keyCondition": "A connection the partner has to answer.",
     "probingQuestion": "How do you show up when nobody here knows you yet?",
     "grapplingTlo": "By the end of this session, the participant will demonstrate safe contact entry with an unfamiliar partner.",
+    "looksBackAt": 1,
     "grapplingElos": [
       "Make controlled first contact with a new partner.",
       "Stay safe while closing distance."
@@ -67,6 +68,23 @@ window.GWMS_COURSE_BUNDLE["session-02"] =
               "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
             }
           ]
+        },
+        {
+          "id": "s02-lookback",
+          "eyebrow": "Look back",
+          "title": "Session 1 asked you this",
+          "body": [
+            {
+              "kind": "quote",
+              "text": "What makes a place feel safe to you?",
+              "attribution": "Session 1 — The Descent, Arrival"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Before you read on, see if you can remember what you answered."
+            }
+          ],
+          "type": "text-image"
         },
         {
           "id": "s02-game",

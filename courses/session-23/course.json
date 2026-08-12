@@ -21,6 +21,7 @@
     "keyCondition": "Complete a hard round without disengaging, both roles.",
     "probingQuestion": "Can you stay when leaving would be easier?",
     "grapplingTlo": "By the end of this session, the participant will stay with a difficult training partnership and keep working rather than switching out.",
+    "looksBackAt": 17,
     "grapplingElos": [
       "Complete a hard round with a tough partner without disengaging or asking to switch.",
       "Keep control and composure when the partnership is frustrating."
@@ -63,6 +64,35 @@
               "transcriptIsBody": true,
               "own": true,
               "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+            }
+          ]
+        },
+        {
+          "id": "s23-lookback",
+          "eyebrow": "Look back",
+          "title": "Session 17 asked you this",
+          "body": [
+            {
+              "kind": "quote",
+              "text": "Can you stay present when it gets uncomfortable?",
+              "attribution": "Session 17 — The Initiation, Friction"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Before you read on, see if you can remember what you answered."
+            }
+          ],
+          "type": "reveal",
+          "reveals": [
+            {
+              "id": "what-it-was-after",
+              "label": "What that session was getting at",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Staying in an uncomfortable pin instead of scrambling out is the body's version of staying in a hard conversation. Both are the same skill: tolerating discomfort without fleeing it."
+                }
+              ]
             }
           ]
         },

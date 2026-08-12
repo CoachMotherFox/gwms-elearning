@@ -22,6 +22,7 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
     "keyCondition": "Maintain control while guiding a newer partner, not just finishing them.",
     "probingQuestion": "Who needs what you've learned?",
     "grapplingTlo": "By the end of this session, the participant will apply back-pin control while helping a newer partner learn, and analyze how coaching differs from winning.",
+    "looksBackAt": 25,
     "grapplingElos": [
       "Guide a less-experienced partner through the back-pin position instead of only finishing them.",
       "Notice the difference between coaching a partner and beating them."
@@ -64,6 +65,35 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
               "transcriptIsBody": true,
               "own": true,
               "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+            }
+          ]
+        },
+        {
+          "id": "s28-lookback",
+          "eyebrow": "Look back",
+          "title": "Session 25 asked you this",
+          "body": [
+            {
+              "kind": "quote",
+              "text": "What's actually different in you now?",
+              "attribution": "Session 25 — The Return, Emergence"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Before you read on, see if you can remember what you answered."
+            }
+          ],
+          "type": "reveal",
+          "reveals": [
+            {
+              "id": "what-it-was-after",
+              "label": "What that session was getting at",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Taking the back is a position you literally could not hold twelve weeks ago. It is proof of change you can feel. Naming what is different in you works the same way. Real change is something you can show, not just say."
+                }
+              ]
             }
           ]
         },

@@ -23,6 +23,7 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
     "keyCondition": "Enter, pass, and arrive in one sequence, tap honored throughout.",
     "probingQuestion": "If the mask came off in here, who would we meet?",
     "grapplingTlo": "By the end of this session, the participant will apply the Roads from a standing start through to a pin arrival.",
+    "looksBackAt": 6,
     "grapplingElos": [
       "Enter, pass, and arrive in one sequence.",
       "Give and honor the tap throughout."
@@ -65,6 +66,35 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
               "transcriptIsBody": true,
               "own": true,
               "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+            }
+          ]
+        },
+        {
+          "id": "s12-lookback",
+          "eyebrow": "Look back",
+          "title": "Session 6 asked you this",
+          "body": [
+            {
+              "kind": "quote",
+              "text": "What does your mask protect you from?",
+              "attribution": "Session 6 — The Descent, Mask"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Before you read on, see if you can remember what you answered."
+            }
+          ],
+          "type": "reveal",
+          "reveals": [
+            {
+              "id": "what-it-was-after",
+              "label": "What that session was getting at",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Your guard protects the space behind your legs. Your mask protects something too. Naming what the guard defends is the same as naming what the mask hides."
+                }
+              ]
             }
           ]
         },

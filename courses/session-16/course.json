@@ -21,6 +21,7 @@
     "keyCondition": "Hold the pin against active resistance, the partner running 4S.",
     "probingQuestion": "What do you do when someone pushes back?",
     "grapplingTlo": "By the end of this session, the participant will maintain chest-pin control against a partner's active resistance.",
+    "looksBackAt": 13,
     "grapplingElos": [
       "Keep the pin for a three-count while the partner actively resists and works to escape.",
       "Respond to resistance with base and adjustment, not panic or raw force."
@@ -63,6 +64,35 @@
               "transcriptIsBody": true,
               "own": true,
               "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+            }
+          ]
+        },
+        {
+          "id": "s16-lookback",
+          "eyebrow": "Look back",
+          "title": "Session 13 asked you this",
+          "body": [
+            {
+              "kind": "quote",
+              "text": "What happens in you when someone makes real contact?",
+              "attribution": "Session 13 — The Initiation, Contact"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Before you read on, see if you can remember what you answered."
+            }
+          ],
+          "type": "reveal",
+          "reveals": [
+            {
+              "id": "what-it-was-after",
+              "label": "What that session was getting at",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Holding contact on the mat and noticing what contact does to you are the same skill: staying present when another person is close instead of shoving them away. The pin teaches the body to stay. The reflection teaches the mind to notice why staying is hard."
+                }
+              ]
             }
           ]
         },

@@ -20,6 +20,7 @@
     "keyCondition": "Play both roles, control on top and 4S escape underneath.",
     "probingQuestion": "What did this cost you, and what did you get for it?",
     "grapplingTlo": "By the end of this session, the participant will integrate the full back-pin game in open rolling, and analyze what twelve weeks of training cost and gave them.",
+    "looksBackAt": 31,
     "grapplingElos": [
       "Roll open from the back-pin game, controlling and finishing with the tap honored.",
       "Name what the training cost and what it gave."
@@ -62,6 +63,35 @@
               "transcriptIsBody": true,
               "own": true,
               "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+            }
+          ]
+        },
+        {
+          "id": "s34-lookback",
+          "eyebrow": "Look back",
+          "title": "Session 31 asked you this",
+          "body": [
+            {
+              "kind": "quote",
+              "text": "What do you want to leave behind you here?",
+              "attribution": "Session 31 — The Return, Legacy"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Before you read on, see if you can remember what you answered."
+            }
+          ],
+          "type": "reveal",
+          "reveals": [
+            {
+              "id": "what-it-was-after",
+              "label": "What that session was getting at",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "The finish is the sharpest power in the system, and how you use it, controlled, releasing on the tap, is what people remember about rolling with you. What you leave behind in life is built the same way, out of how you treat people when you hold the power."
+                }
+              ]
             }
           ]
         },

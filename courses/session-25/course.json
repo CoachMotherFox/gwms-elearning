@@ -20,6 +20,7 @@
     "keyCondition": "Chest on back with hips, shoulders, and the ear-to-mat head wedge held together, three-count.",
     "probingQuestion": "What's actually different in you now?",
     "grapplingTlo": "By the end of this session, the participant will apply back-pin control to take and hold the back, and analyze what they can do now that they could not at the start.",
+    "looksBackAt": 22,
     "grapplingElos": [
       "Take and hold the back-pin position for a three-count against light resistance.",
       "Identify one control skill they hold now that they did not in the Descent."
@@ -62,6 +63,35 @@
               "transcriptIsBody": true,
               "own": true,
               "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+            }
+          ]
+        },
+        {
+          "id": "s25-lookback",
+          "eyebrow": "Look back",
+          "title": "Session 22 asked you this",
+          "body": [
+            {
+              "kind": "quote",
+              "text": "What does it take for you to say sorry and mean it?",
+              "attribution": "Session 22 — The Initiation, Repair"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Before you read on, see if you can remember what you answered."
+            }
+          ],
+          "type": "reveal",
+          "reveals": [
+            {
+              "id": "what-it-was-after",
+              "label": "What that session was getting at",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Resetting and rolling clean with someone right after a hard round is the body's version of squaring up. A real apology is the same reset: you re-engage instead of carrying the grudge."
+                }
+              ]
             }
           ]
         },

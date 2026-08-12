@@ -20,6 +20,7 @@
     "keyCondition": "Flow between back control and the owned finishes, tap honored.",
     "probingQuestion": "If someone watched how you carry yourself, what would they learn?",
     "grapplingTlo": "By the end of this session, the participant will integrate back-pin control and finishing in open rolling, and analyze what a watcher would learn from how they train.",
+    "looksBackAt": 21,
     "grapplingElos": [
       "Flow between back control and owned finishes in live rolling, releasing on the tap.",
       "Name what a newer student would learn watching them roll."
@@ -62,6 +63,35 @@
               "transcriptIsBody": true,
               "own": true,
               "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+            }
+          ]
+        },
+        {
+          "id": "s33-lookback",
+          "eyebrow": "Look back",
+          "title": "Session 21 asked you this",
+          "body": [
+            {
+              "kind": "quote",
+              "text": "When something breaks, what part is yours to own?",
+              "attribution": "Session 21 — The Initiation, Rupture"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Before you read on, see if you can remember what you answered."
+            }
+          ],
+          "type": "reveal",
+          "reveals": [
+            {
+              "id": "what-it-was-after",
+              "label": "What that session was getting at",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "On the mat you can name your own mistake in a round without blaming your partner. Owning your part of a rupture works the same way. Accountability starts with separating your piece from theirs."
+                }
+              ]
             }
           ]
         },
