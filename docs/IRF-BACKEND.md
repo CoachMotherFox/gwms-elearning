@@ -164,6 +164,24 @@ Unit 1 also says IRF data serves as documentation of participation for the juven
 
 Any endpoint that accepts a POST and answers `{"ok":true}` works. Point `url` at it, run a session, and watch the rows arrive. That is how the transport, the offline queue, and the boot-time retry in this repo were verified.
 
+---
+
+## Live instance — direct links
+
+These point at Jamey's actual pilot Sheet and script, not a template.
+
+- **Apps Script project (edit):** https://script.google.com/u/0/home/projects/1hsggwUjo8sui72JZPC-gxfE63F4P4M4GJk_xo1hMQri7RBfELYshoTbi/edit
+- **Google Sheet (edit):** https://docs.google.com/spreadsheets/d/14ntwQQz8LYY0rz6OK7w1FQqCR8gcidhq0h7M2xnAEgk/edit?gid=363996489#gid=363996489
+- **Deployed source of truth for the script:** [`docs/apps-script/Code.gs`](apps-script/Code.gs) in this repo — verified identical to what is pasted into the live editor as of 2026-08-12.
+- **Live `/exec` endpoint** (no login needed, this is the point of a Web App): the URL in `courses/_curriculum/irf.json`.
+
+**What an assistant with no Google session can and cannot do with the two edit links above:**
+- Cannot open either one. Both redirect straight to a Google account sign-in wall — confirmed by navigating to the Sheet URL directly, no session recognized.
+- Can GET the live `/exec` URL for a health check (`{"ok":true,"service":"GWMS IRF"}`), and POST a test payload to confirm the transport still works end to end.
+- Cannot read the Sheet's actual rows, and cannot read the Apps Script source as currently deployed — only what is committed to this repo, which is a copy that has to be re-verified after any edit made directly in the Google UI.
+
+So "check it later" means: re-run the health check and a test POST against `/exec`, and re-diff the repo's `Code.gs` against whatever gets pasted into the editor next time it changes. It does not mean independently auditing the Sheet's contents or the live script's source — that requires Jamey to paste, export, or share it explicitly each time.
+
 
 ---
 
