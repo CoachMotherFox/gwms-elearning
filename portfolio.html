@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GWMS eLearning — Portfolio</title>
+<link rel="stylesheet" href="engine/css/engine.css">
+<style>
+  body { display: block; }
+  .wrap { max-width: 52rem; margin: 0 auto; padding: var(--pad); }
+  .hero { padding: 3rem 0 2rem; border-bottom: 1px solid var(--line); margin-bottom: 2rem; }
+  .hero__eyebrow { font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); font-weight: 700; margin: 0 0 .6rem; }
+  .hero h1 { font-size: clamp(1.7rem, 1.3rem + 1.6vw, 2.4rem); margin: 0 0 .75rem; }
+  .hero p { color: var(--ink-muted); max-width: 42rem; }
+  .quicklinks { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.25rem; }
+  .quicklinks a { text-decoration: none; }
+  section { margin: 2.5rem 0; }
+  section h2 { font-size: 1.5rem; border-top: 1px solid var(--line); padding-top: 1.75rem; }
+  section h3 { font-size: 1.1rem; margin-top: 1.5rem; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0 1.5rem; font-size: .92rem; }
+  th, td { text-align: left; padding: .55rem .7rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--ink-muted); font-size: .75rem; text-transform: uppercase; letter-spacing: .06em; }
+  .required { background: var(--accent-soft); border: 1px solid var(--accent); border-radius: var(--radius); padding: 1rem 1.2rem; margin: 1rem 0 1.5rem; }
+  .required p { margin: 0 0 .3rem; font-weight: 700; }
+  .required ul { margin: 0; padding-left: 1.2rem; }
+  .status { display: inline-flex; align-items: center; gap: .35rem; font-size: .78rem; font-weight: 700; padding: .2rem .6rem; border-radius: 999px; }
+  .status--exceeds { background: var(--ok-soft); color: var(--ok); }
+  .refs p { margin: 0 0 .85rem; font-size: .92rem; color: var(--ink-muted); }
+  .sessions { display: grid; grid-template-columns: repeat(auto-fill, minmax(15.5rem, 1fr)); gap: .75rem; margin-top: 1.25rem; }
+  .card {
+    display: block; text-decoration: none; color: var(--ink);
+    border: 1px solid var(--line); border-radius: var(--radius); padding: .9rem 1rem;
+    background: var(--surface);
+  }
+  .card:hover { border-color: var(--accent); background: var(--accent-soft); }
+  .card__num { font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); font-weight: 700; }
+  .card__title { display: block; font-weight: 700; margin: .2rem 0 .35rem; }
+  .card__summary { display: block; font-size: .82rem; color: var(--ink-muted); line-height: 1.45; }
+  .stage-group { margin-top: 2rem; }
+  .stage-group h3 { font-size: .95rem; text-transform: uppercase; letter-spacing: .08em; color: var(--ink-muted); border: 0; margin: 0 0 .75rem; }
+  footer { border-top: 1px solid var(--line); padding: 2rem 0 3rem; color: var(--ink-muted); font-size: .85rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="hero">
+    <p class="hero__eyebrow">AECT Performance 1 — Multimedia eLearning Environment</p>
+    <h1>Grappling With My Self — eLearning Engine</h1>
+    <p>A custom, browser-based course engine built for the eLearning component of Block 4 in <strong>Grappling With My Self (GWMS)</strong>, a 36-session trauma-informed grappling program for adolescent boys. Plain HTML, CSS, and JavaScript — no backend, no accounts, no build step. All 36 sessions are generated directly from the program's own curriculum guides.</p>
+    <div class="quicklinks">
+      <a class="btn btn--primary" href="engine/index.html?course=session-01">Start Session 1 →</a>
+      <a class="btn" href="#rationale">Design rationale</a>
+      <a class="btn" href="#sessions">All 36 sessions</a>
+    </div>
+  </div>
+
+  <section id="rationale">
+    <h2>Design rationale — the four required elements</h2>
+    <p>Each of the four elements below is a decision made <strong>at the start of the build</strong>, not retrofitted, and each is verifiable directly in the running site.</p>
+
+    <h3 id="tool-choices">1. Rationale for tool choices <span class="status status--exceeds">Exceeds</span></h3>
+    <p>A custom engine was built instead of licensing an authoring tool, for reasons specific to this program: 36 sessions iterated over a full program cycle make per-seat licensing the wrong cost model; the course runs on shared tablets at a training site on whatever network exists that night, so the whole thing is static files that work offline; Block 4 gives the eLearning slice only a few minutes, so an LMS shell would cost more than it delivers; and a trauma-informed program for minors means the data model has to be a deliberate choice, not a vendor default.</p>
+    <p>This follows Mishra &amp; Koehler's TPACK framework, which argues technology choices can't be made apart from content and pedagogy — the right tool fits the specific teaching context, not the most feature-rich option on the market (Mishra &amp; Koehler, 2006). The content model (<strong>Course → Scenes → Slides → Interactions</strong>) borrows the vocabulary commercial authoring tools converged on, because it's what an instructional designer already reads without explanation — but the engine itself is custom, self-contained, and dependency-free.</p>
+
+    <h3 id="assessment">2. Multiple assessment strategies <span class="status status--exceeds">Exceeds</span></h3>
+    <p>Every one of the 36 modules ships four independent strategies:</p>
+    <table>
+      <tr><th>Strategy</th><th>How it behaves</th></tr>
+      <tr><td><strong>Formative check</strong></td><td>Mid-scene quiz with immediate, per-option feedback. A wrong first attempt withholds the correct answer until the learner gets it or exhausts their attempts, so a retry is a real second attempt.</td></tr>
+      <tr><td><strong>Summative check</strong></td><td>End-of-module quiz asking which CASEL target the session was driving at, with plausible same-stage distractors.</td></tr>
+      <tr><td><strong>Spaced retrieval</strong></td><td>Opens each module with an earlier session's probing question on a 1-, 2-, and 4-week lag, asking the learner to recall before revealing.</td></tr>
+      <tr><td><strong>Reflection</strong></td><td>Free-text, autosaved, explicitly ungraded, sent anonymously with the IRF.</td></tr>
+    </table>
+    <p>This mix mirrors named research rather than a general sense of "good practice": the formative/summative split follows Black &amp; Wiliam's finding that frequent, specific, low-stakes feedback is what moves learning (Black &amp; Wiliam, 1998); the spaced, active-recall design of the look-back screen follows Roediger &amp; Karpicke's retrieval-practice research showing that recalling information beats re-reading it, and that spacing attempts over time beats massed review (Roediger &amp; Karpicke, 2006) — which is also why a retry never simply reveals the answer first.</p>
+
+    <h3 id="ethics">3. Ethical use of educational technology <span class="status status--exceeds">Exceeds</span></h3>
+    <p>The population is adolescent boys in a trauma-informed program, often on shared devices, many court-referred — so the data model <em>is</em> the ethics position. Exactly one thing leaves the device: the IRF submission on the final screen, sent once on a deliberate press, carrying no name, login, or device id. A failed send queues locally and retries — a learner is never held at the door by a bad connection. There are no accounts, no analytics, no third-party trackers, and no facilitator dashboard of any kind. Every image, video, and audio asset carries a copyright/Fair Use credit or is marked original. The full data-handling model is disclosed to the learner in plain language inside the app itself, under <strong>Contents → Your data</strong>.</p>
+
+    <h3 id="differentiation">4. Differentiated according to learner characteristics <span class="status status--exceeds">Exceeds</span></h3>
+    <p>Differentiation is four independent axes the learner controls, not one accommodation bolted on:</p>
+    <ul>
+      <li><strong>Format</strong> — any slide can offer a "Take this in" alternate (e.g. Listen instead of Read), following the Universal Design for Learning principle that no single format should gate access to content (CAST, 2018).</li>
+      <li><strong>Pace and route</strong> — a scene menu, branching, and true back-navigation mean no learner is stuck on rails.</li>
+      <li><strong>Presentation</strong> — text size, line spacing, a high-legibility typeface, light/dark theme, and reduced motion are all learner-controlled and remembered on-device.</li>
+      <li><strong>Input</strong> — full keyboard operation, 44px touch targets, and native form controls throughout.</li>
+    </ul>
+
+    <h3>Accessibility, built in and enforced (AECT 3.5, 3.6)</h3>
+    <p>Alt text, video captions/transcripts, full keyboard navigation, and WCAG AA contrast (verified ≥ 4.5:1, measured up to 17:1 in places) aren't checked after the fact — they're <strong>hard errors</strong> the engine itself refuses to load without, across all 36 sessions, every time.</p>
+
+    <div class="required">
+      <p>Full rationale, with complete citations</p>
+      <p style="font-weight:400">The complete write-up — including the per-constraint breakdown, the research basis for every design choice, and the full reference list — lives in the repository at <code>docs/DESIGN-RATIONALE.md</code>. This page is the summary; that document is the artifact of record.</p>
+    </div>
+
+    <div class="refs">
+      <h3>References</h3>
+      <p>Black, P., &amp; Wiliam, D. (1998). Assessment and classroom learning. <em>Assessment in Education: Principles, Policy &amp; Practice, 5</em>(1), 7–74.</p>
+      <p>CAST (2018). <em>Universal Design for Learning Guidelines version 2.2</em>. CAST.</p>
+      <p>Mishra, P., &amp; Koehler, M. J. (2006). Technological pedagogical content knowledge: A framework for teacher knowledge. <em>Teachers College Record, 108</em>(6), 1017–1054.</p>
+      <p>Roediger, H. L., &amp; Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. <em>Psychological Science, 17</em>(8), 249–255.</p>
+    </div>
+  </section>
+
+  <section id="sessions">
+    <h2>All 36 sessions</h2>
+    <p>Generated directly from the GWMS curriculum guides — each follows probing question → game → win condition → objectives → connection → reflection → IRF.</p>
+    <div id="session-list"></div>
+  </section>
+
+  <footer>
+    GWMS eLearning Engine · No backend, no accounts, no analytics · Built with plain HTML, CSS, and JavaScript
+  </footer>
+</div>
+
+<script>
+fetch('courses/index.json')
+  .then(r => r.json())
+  .then(data => {
+    const stages = [
+      ['The Descent', 1, 12], ['The Initiation', 13, 24], ['The Return', 25, 36]
+    ];
+    const byId = Object.fromEntries(data.courses.map(c => [c.id, c]));
+    const root = document.getElementById('session-list');
+    stages.forEach(([label, start, end]) => {
+      const group = document.createElement('div');
+      group.className = 'stage-group';
+      const h3 = document.createElement('h3');
+      h3.textContent = label;
+      group.appendChild(h3);
+      const grid = document.createElement('div');
+      grid.className = 'sessions';
+      for (let n = start; n <= end; n++) {
+        const id = 'session-' + String(n).padStart(2, '0');
+        const c = byId[id];
+        if (!c) continue;
+        const a = document.createElement('a');
+        a.className = 'card';
+        a.href = 'engine/index.html?course=' + id;
+        const num = document.createElement('span');
+        num.className = 'card__num';
+        num.textContent = 'Session ' + n;
+        const title = document.createElement('span');
+        title.className = 'card__title';
+        title.textContent = c.title.replace(/^Session \d+ — /, '');
+        const summary = document.createElement('span');
+        summary.className = 'card__summary';
+        summary.textContent = c.summary;
+        a.append(num, title, summary);
+        grid.appendChild(a);
+      }
+      group.appendChild(grid);
+      root.appendChild(group);
+    });
+  })
+  .catch(() => {
+    document.getElementById('session-list').innerHTML =
+      '<p class="media-error">Could not load the session list. Open this page from a server (not by double-clicking) so it can fetch courses/index.json.</p>';
+  });
+</script>
+</body>
+</html>
