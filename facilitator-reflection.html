@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Facilitator Reflection</title>
+<link rel="stylesheet" href="engine/css/engine.css">
+<style>
+  body { display: block; }
+  .wrap { max-width: 38rem; margin: 0 auto; padding: var(--pad) var(--pad) 4rem; }
+  header { padding: 2rem 0 1.5rem; border-bottom: 1px solid var(--line); margin-bottom: 1.75rem; }
+  header p.eyebrow { font-size: .78rem; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); font-weight: 700; margin: 0 0 .5rem; }
+  header h1 { margin: 0 0 .4rem; font-size: 1.6rem; }
+  header p.sub { color: var(--ink-muted); margin: 0; }
+  .field { margin-bottom: 1.4rem; }
+  .field label { display: block; font-weight: 700; margin-bottom: .4rem; }
+  .field .hint { display: block; font-size: .84rem; color: var(--ink-muted); margin-bottom: .5rem; }
+  select, textarea {
+    width: 100%; padding: .7rem .8rem; border: 1px solid var(--line-strong);
+    border-radius: var(--radius); background: var(--bg); color: var(--ink);
+  }
+  textarea { min-height: 6rem; resize: vertical; }
+  select:focus-visible, textarea:focus-visible { outline: 3px solid var(--focus); outline-offset: 1px; }
+  .who-pick { display: grid; gap: .75rem; max-width: 22rem; margin: 2rem auto; text-align: center; }
+  .who-pick a { text-decoration: none; }
+  .status { margin-top: 1rem; font-weight: 600; }
+  .status--ok { color: var(--ok); }
+  .status--err { color: var(--no); }
+  .status--busy { color: var(--ink-muted); }
+</style>
+</head>
+<body>
+<div class="wrap" id="app">Loading…</div>
+
+<script>
+const params = new URLSearchParams(location.search);
+const who = (params.get('who') || '').toLowerCase();
+const WHO_NAMES = { jamey: 'Jamey', haley: 'Haley' };
+const app = document.getElementById('app');
+
+if (!WHO_NAMES[who]) {
+  app.innerHTML = `
+    <header>
+      <p class="eyebrow">Facilitator Reflection</p>
+      <h1>Who's reflecting?</h1>
+      <p class="sub">Pick a name to get your own link — bookmark it after that.</p>
+    </header>
+    <div class="who-pick">
+      <a class="btn btn--primary btn--wide" href="?who=jamey">Jamey</a>
+      <a class="btn btn--primary btn--wide" href="?who=haley">Haley</a>
+    </div>`;
+} else {
+  renderForm(WHO_NAMES[who]);
+}
+
+function renderForm(name) {
+  app.innerHTML = `
+    <header>
+      <p class="eyebrow">Facilitator Reflection — ${name}</p>
+      <h1>How did it go?</h1>
+      <p class="sub">Five questions, one submission per session. This lands in its own tab in the IRF spreadsheet — separate from the anonymous student responses.</p>
+    </header>
+    <form id="f">
+      <div class="field">
+        <label for="session">What session was this?</label>
+        <select id="session" required><option value="">Loading sessions…</option></select>
+      </div>
+      <div class="field">
+        <label for="landed">Did the group actually land on today's probing question, or did you have to work to get them there?</label>
+        <span class="hint">What did that look like in the room?</span>
+        <textarea id="landed" required></textarea>
+      </div>
+      <div class="field">
+        <label for="connection">Where did the game and the off-mat idea connect for this group — and where did they miss each other?</label>
+        <textarea id="connection" required></textarea>
+      </div>
+      <div class="field">
+        <label for="stepIn">Was there a moment you had to step in — someone shutting down, escalating, checking out?</label>
+        <span class="hint">What did you do?</span>
+        <textarea id="stepIn" required></textarea>
+      </div>
+      <div class="field">
+        <label for="change">What would you change if you ran this exact session again?</label>
+        <textarea id="change" required></textarea>
+      </div>
+      <div class="field">
+        <label for="handoff">What does the next person running this session need to know that isn't in the guide?</label>
+        <textarea id="handoff" required></textarea>
+      </div>
+      <button class="btn btn--primary btn--wide" type="submit">Send it</button>
+      <p class="status" id="status"></p>
+    </form>`;
+
+  let sessions = [];
+  fetch('courses/index.json')
+    .then(r => r.json())
+    .then(data => {
+      sessions = data.courses.filter(c => c.id !== 'engine-demo');
+      const sel = document.getElementById('session');
+      sel.innerHTML = '<option value="">Choose a session…</option>' + sessions.map(c => {
+        const parts = c.title.split(' — ');
+        const label = parts.slice(0, 2).join(' — ');
+        return `<option value="${c.id}">${label}</option>`;
+      }).join('');
+    })
+    .catch(() => {
+      document.getElementById('session').innerHTML = '<option value="">Could not load session list</option>';
+    });
+
+  document.getElementById('f').addEventListener('submit', async (ev) => {
+    ev.preventDefault();
+    const status = document.getElementById('status');
+    const btn = ev.target.querySelector('button');
+    const sessionId = document.getElementById('session').value;
+    if (!sessionId) { status.textContent = 'Pick a session first.'; status.className = 'status status--err'; return; }
+    const course = sessions.find(c => c.id === sessionId);
+    const parts = course.title.split(' — ');
+    const sessionNum = parseInt(sessionId.replace('session-', ''), 10);
+
+    btn.disabled = true;
+    status.textContent = 'Sending…';
+    status.className = 'status status--busy';
+
+    const payload = {
+      token: '0bcbeb58-380e-426f-9736-b0e54c686992',
+      kind: 'facilitator',
+      who: name,
+      session: sessionNum,
+      stage: parts[2] || '',
+      theme: parts[1] || '',
+      submittedAt: new Date().toISOString(),
+      submissionId: (crypto.randomUUID ? crypto.randomUUID() : String(Date.now()) + Math.random()),
+      answers: {
+        landed: document.getElementById('landed').value,
+        connection: document.getElementById('connection').value,
+        stepIn: document.getElementById('stepIn').value,
+        change: document.getElementById('change').value,
+        handoff: document.getElementById('handoff').value
+      }
+    };
+
+    try {
+      const res = await fetch('https://script.google.com/macros/s/AKfycbygiN7fH22mcHVCaSmZet4bqyAhr2KrwbT-UV7woX7lolLtGfrdEG-FoR7AvddcE9EP/exec', {
+        method: 'POST',
+        body: JSON.stringify(payload)
+      });
+      await res.text();
+      status.textContent = 'Sent — thank you.';
+      status.className = 'status status--ok';
+      ev.target.reset();
+    } catch (err) {
+      status.textContent = 'Could not send. Check your connection and try again — nothing was lost, just resubmit.';
+      status.className = 'status status--err';
+    } finally {
+      btn.disabled = false;
+    }
+  });
+}
+</script>
+</body>
+</html>
