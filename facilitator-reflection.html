@@ -98,9 +98,10 @@ function renderForm(name) {
       sessions = data.courses.filter(c => c.id !== 'engine-demo');
       const sel = document.getElementById('session');
       sel.innerHTML = '<option value="">Choose a session…</option>' + sessions.map(c => {
-        const parts = c.title.split(' — ');
-        const label = parts.slice(0, 2).join(' — ');
-        return `<option value="${c.id}">${label}</option>`;
+        const num = parseInt(c.id.replace('session-', ''), 10);
+        const match = c.summary.match(/“([^”]+)”/);
+        const question = match ? match[1] : c.title;
+        return `<option value="${c.id}">Session ${num} — ${question}</option>`;
       }).join('');
     })
     .catch(() => {
