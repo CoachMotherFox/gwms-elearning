@@ -11,7 +11,7 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
     "stage": "The Descent",
     "week": 1,
     "theme": "Arrival",
-    "neighborhood": "The Roads",
+    "neighborhood": "The Paths",
     "block": "Block 4 — Cleanup, eLearning, IRF",
     "casel": [
       "Self-Awareness",
@@ -56,7 +56,7 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
             {
               "kind": "callout",
               "label": "Where this sits",
-              "text": "Session 1 of 36. The Descent, Week 1, Arrival. On the mat that stage runs The Roads."
+              "text": "Session 1 of 36. The Descent, Week 1, Arrival. On the mat that stage runs The Paths."
             },
             {
               "kind": "paragraph",
@@ -159,7 +159,7 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not part of the Roads. Enter and Arrive are the two path steps here, and neither one ends in a submission. The path leads you into a pin, not a finish."
+              "feedback": "Not part of the Paths. Enter and Arrive are the two path steps here, and neither one ends in a submission. The path leads you into a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",

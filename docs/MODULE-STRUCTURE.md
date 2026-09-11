@@ -54,7 +54,7 @@ The two wrong answers on the check are program rules, not invention, and they ar
 
 | Stage | Wrong answers |
 |---|---|
-| The Descent | Submitting your partner (the Roads carry no finish) · Putting your partner down hard |
+| The Descent | Submitting your partner (the Paths carry no finish) · Putting your partner down hard |
 | The Initiation | Holding the finish after the tap · Overpowering instead of adjusting |
 | The Return | Holding the finish after the tap · Hurting your partner because you can |
 

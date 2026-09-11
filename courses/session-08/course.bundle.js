@@ -11,7 +11,7 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
     "stage": "The Descent",
     "week": 3,
     "theme": "Crack",
-    "neighborhood": "The Roads",
+    "neighborhood": "The Paths",
     "block": "Block 4 — Cleanup, eLearning, IRF",
     "casel": [
       "Self-Awareness",
@@ -61,7 +61,7 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
             {
               "kind": "callout",
               "label": "Where this sits",
-              "text": "Session 8 of 36. The Descent, Week 3, Crack. On the mat that stage runs The Roads."
+              "text": "Session 8 of 36. The Descent, Week 3, Crack. On the mat that stage runs The Paths."
             },
             {
               "kind": "paragraph",
@@ -193,7 +193,7 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not part of the Roads. Enter and Arrive are the two path steps here, and neither one ends in a submission. The path leads you into a pin, not a finish."
+              "feedback": "Not part of the Paths. Enter and Arrive are the two path steps here, and neither one ends in a submission. The path leads you into a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",

@@ -35,7 +35,7 @@ const IRF = [
 ];
 
 /* The two wrong answers on the check are program rules, not invention, and
-   they differ by stage: the Roads carry no finish at all, while the Chest Pin
+   they differ by stage: the Paths carry no finish at all, while the Chest Pin
    and Back Pin do carry owned finishes that must release on the tap. Each
    stage supplies its own pair in courses/_curriculum/. */
 

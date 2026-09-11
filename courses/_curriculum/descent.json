@@ -3,7 +3,7 @@
   "stage": {
     "name": "The Descent",
     "sessions": "1 to 12",
-    "neighborhood": "The Roads",
+    "neighborhood": "The Paths",
     "casel": [
       "Self-Awareness",
       "Self-Management"
@@ -15,13 +15,13 @@
       "Crack",
       "Reveal"
     ],
-    "grapplingTlo": "By the end of the Descent, participants will apply the Roads to move from a standing start through the guard into a controlled pin, using safe falling and the tap throughout.",
+    "grapplingTlo": "By the end of the Descent, participants will apply the Paths to move from a standing start through the guard into a controlled pin, using safe falling and the tap throughout.",
     "caselTlo": "By the end of the Descent, participants will identify their own persona and shadow, naming the mask they perform, what cracks it under pressure, and one true thing underneath.",
     "connection": "Getting past a partner's guard to what it protects is the same act as looking under a mask to the real person. The Descent digs deep, on the mat and inside you.",
     "wrongAnswers": [
       {
         "text": "Submitting your partner",
-        "feedback": "Not part of the Roads. Enter and Arrive are the two path steps here, and neither one ends in a submission. The path leads you into a pin, not a finish."
+        "feedback": "Not part of the Paths. Enter and Arrive are the two path steps here, and neither one ends in a submission. The path leads you into a pin, not a finish."
       },
       {
         "text": "Putting your partner down hard",
@@ -306,14 +306,14 @@
       "week": 4,
       "theme": "Reveal",
       "probingQuestion": "If the mask came off in here, who would we meet?",
-      "card": "The Roads, integrated",
+      "card": "The Paths, integrated",
       "domain": "Enter and Arrive",
       "keyCondition": "Enter, pass, and arrive in one sequence. Honor the tap the whole time.",
       "gameName": "Open Guard Takedown and Escape Game",
       "gameText": "The whole trip happens in one round. From a standing or seated start, get it down, get past the legs, and arrive in a pin. Both players get a turn. The bottom player can put the top player down and stand up. The tap is honored the whole way.",
       "gameNote": "This is the whole Descent on the mat, from arrival to the real self revealed.",
       "gameWin": "Getting it down, past the legs, and arriving in a pin — the whole trip in one round",
-      "grapplingTlo": "By the end of this session, the participant will run the Roads from a standing start all the way to a pin.",
+      "grapplingTlo": "By the end of this session, the participant will run both Paths from a standing start all the way to a pin.",
       "grapplingElos": [
         "Enter, pass, and arrive in one sequence.",
         "Give and honor the tap throughout."
@@ -323,7 +323,7 @@
         "Describe the real self, now seen.",
         "Bring it into the room so others can see it."
       ],
-      "connection": "Running the whole Roads from standing to a pin is the mat's version of the whole Descent, from arrival to the real self revealed. This session brings both journeys together into one.",
+      "connection": "Running both Paths from standing to a pin is the mat's version of the whole Descent, from arrival to the real self revealed. This session brings both journeys together into one.",
       "stageClose": true,
       "takeaway": "You showed up, cracked, and stayed, and the room met the real you."
     }

@@ -9,19 +9,19 @@
     "stage": "The Descent",
     "week": 4,
     "theme": "Reveal",
-    "neighborhood": "The Roads",
+    "neighborhood": "The Paths",
     "block": "Block 4 — Cleanup, eLearning, IRF",
     "casel": [
       "Self-Awareness",
       "Self-Management"
     ],
     "bloom": "Apply",
-    "card": "The Roads, integrated",
+    "card": "The Paths, integrated",
     "domain": "Enter and Arrive",
     "keyCondition": "Enter, pass, and arrive in one sequence. Honor the tap the whole time.",
     "gameName": "Open Guard Takedown and Escape Game",
     "probingQuestion": "If the mask came off in here, who would we meet?",
-    "grapplingTlo": "By the end of this session, the participant will run the Roads from a standing start all the way to a pin.",
+    "grapplingTlo": "By the end of this session, the participant will run both Paths from a standing start all the way to a pin.",
     "looksBackAt": 6,
     "grapplingElos": [
       "Enter, pass, and arrive in one sequence.",
@@ -32,7 +32,7 @@
       "Describe the real self, now seen.",
       "Bring it into the room so others can see it."
     ],
-    "connection": "Running the whole Roads from standing to a pin is the mat's version of the whole Descent, from arrival to the real self revealed. This session brings both journeys together into one.",
+    "connection": "Running both Paths from standing to a pin is the mat's version of the whole Descent, from arrival to the real self revealed. This session brings both journeys together into one.",
     "takeaway": "You showed up, cracked, and stayed, and the room met the real you.",
     "_source": "GWMS Curriculum Guide — Session 12 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
   },
@@ -59,7 +59,7 @@
             {
               "kind": "callout",
               "label": "Where this sits",
-              "text": "Session 12 of 36. The Descent, Week 4, Reveal. On the mat that stage runs The Roads."
+              "text": "Session 12 of 36. The Descent, Week 4, Reveal. On the mat that stage runs The Paths."
             },
             {
               "kind": "paragraph",
@@ -191,7 +191,7 @@
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not part of the Roads. Enter and Arrive are the two path steps here, and neither one ends in a submission. The path leads you into a pin, not a finish."
+              "feedback": "Not part of the Paths. Enter and Arrive are the two path steps here, and neither one ends in a submission. The path leads you into a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
@@ -218,7 +218,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "Run the Roads from a standing start all the way to a pin."
+              "text": "Run both Paths from a standing start all the way to a pin."
             },
             {
               "kind": "heading",
@@ -268,7 +268,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "Running the whole Roads from standing to a pin is the mat's version of the whole Descent, from arrival to the real self revealed. This session brings both journeys together into one."
+              "text": "Running both Paths from standing to a pin is the mat's version of the whole Descent, from arrival to the real self revealed. This session brings both journeys together into one."
             }
           ],
           "reveals": [
