@@ -46,8 +46,8 @@
 
   <div class="hero">
     <p class="hero__eyebrow">AECT Performance 1 — Multimedia eLearning Environment</p>
-    <h1>Grappling With My Self — eLearning Engine</h1>
-    <p>A custom, browser-based course engine built for the eLearning component of Block 4 in <strong>Grappling With My Self (GWMS)</strong>, a 36-session trauma-informed grappling program for adolescent boys. Plain HTML, CSS, and JavaScript — no backend, no accounts, no build step. All 36 sessions are generated directly from the program's own curriculum guides.</p>
+    <h1>Grappling With My Self — eLearning Course</h1>
+    <p>A custom, browser-based eLearning course built for the eLearning component of Block 4 in <strong>Grappling With My Self (GWMS)</strong>, a 36-session trauma-informed grappling program for adolescent boys. Plain HTML, CSS, and JavaScript — no backend, no accounts, no build step. All 36 sessions are generated directly from the program's own curriculum guides.</p>
     <div class="quicklinks">
       <a class="btn btn--primary" href="engine/index.html?course=session-01">Start Session 1 →</a>
       <a class="btn" href="#rationale">Design rationale</a>
@@ -60,8 +60,8 @@
     <p>Each of the four elements below is a decision made <strong>at the start of the build</strong>, not retrofitted, and each is verifiable directly in the running site.</p>
 
     <h3 id="tool-choices">1. Rationale for tool choices <span class="status status--exceeds">Exceeds</span></h3>
-    <p>A custom engine was built instead of licensing an authoring tool, for reasons specific to this program: 36 sessions iterated over a full program cycle make per-seat licensing the wrong cost model; the course runs on shared tablets at a training site on whatever network exists that night, so the whole thing is static files that work offline; Block 4 gives the eLearning slice only a few minutes, so an LMS shell would cost more than it delivers; and a trauma-informed program for minors means the data model has to be a deliberate choice, not a vendor default.</p>
-    <p>This follows Mishra &amp; Koehler's TPACK framework, which argues technology choices can't be made apart from content and pedagogy — the right tool fits the specific teaching context, not the most feature-rich option on the market (Mishra &amp; Koehler, 2006). The content model (<strong>Course → Scenes → Slides → Interactions</strong>) borrows the vocabulary commercial authoring tools converged on, because it's what an instructional designer already reads without explanation — but the engine itself is custom, self-contained, and dependency-free.</p>
+    <p>This course was built custom instead of licensing an authoring tool, for reasons specific to this program: 36 sessions iterated over a full program cycle make per-seat licensing the wrong cost model; the course runs on shared tablets at a training site on whatever network exists that night, so the whole thing is static files that work offline; Block 4 gives the eLearning slice only a few minutes, so an LMS shell would cost more than it delivers; and a trauma-informed program for minors means the data model has to be a deliberate choice, not a vendor default.</p>
+    <p>This follows Mishra &amp; Koehler's TPACK framework, which argues technology choices can't be made apart from content and pedagogy — the right tool fits the specific teaching context, not the most feature-rich option on the market (Mishra &amp; Koehler, 2006). The content model (<strong>Course → Scenes → Slides → Interactions</strong>) borrows the vocabulary commercial authoring tools converged on, because it's what an instructional designer already reads without explanation — but the code behind it is custom, self-contained, and dependency-free.</p>
 
     <h3 id="assessment">2. Multiple assessment strategies <span class="status status--exceeds">Exceeds</span></h3>
     <p>Every one of the 36 modules ships four independent strategies:</p>
@@ -87,7 +87,7 @@
     </ul>
 
     <h3>Accessibility, built in and enforced (AECT 3.5, 3.6)</h3>
-    <p>Alt text, video captions/transcripts, full keyboard navigation, and WCAG AA contrast (verified ≥ 4.5:1, measured up to 17:1 in places) aren't checked after the fact — they're <strong>hard errors</strong> the engine itself refuses to load without, across all 36 sessions, every time.</p>
+    <p>Alt text, video captions/transcripts, full keyboard navigation, and WCAG AA contrast (verified ≥ 4.5:1, measured up to 17:1 in places) aren't checked after the fact — they're <strong>hard errors</strong> the course itself refuses to load without, across all 36 sessions, every time.</p>
 
     <div class="required">
       <p>Full rationale, with complete citations</p>
@@ -110,7 +110,7 @@
   </section>
 
   <footer>
-    GWMS eLearning Engine · No backend, no accounts, no analytics · Built with plain HTML, CSS, and JavaScript
+    GWMS eLearning Course · No backend, no accounts, no analytics · Built with plain HTML, CSS, and JavaScript
   </footer>
 </div>
 

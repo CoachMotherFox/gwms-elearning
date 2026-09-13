@@ -1,10 +1,10 @@
-# GWMS eLearning Engine
+# GWMS eLearning Course
 
-A browser-based course engine for the **eLearning component of Block 4** in Grappling With My Self — a 36-session trauma-informed grappling program for adolescent boys.
+A browser-based eLearning course for the **eLearning component of Block 4** in Grappling With My Self — a 36-session trauma-informed grappling program for adolescent boys.
 
 Plain HTML, CSS and JavaScript. No database, no build toolchain, no dependencies, no backend. It runs by opening `engine/index.html` from disk, or by hosting the folder on any static file server.
 
-Per Unit 4 of the curriculum guide, the IRF is the last screen of each module — see [docs/IRF-BACKEND.md](docs/IRF-BACKEND.md) for where responses land. The engine does not replace the in-person lesson.
+Per Unit 4 of the curriculum guide, the IRF is the last screen of each module — see [docs/IRF-BACKEND.md](docs/IRF-BACKEND.md) for where responses land. The course does not replace the in-person lesson.
 
 ---
 
