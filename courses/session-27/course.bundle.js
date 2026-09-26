@@ -17,59 +17,27 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
       "Responsible Decision-Making"
     ],
     "bloom": "Apply and Analyze",
-    "card": "The Back Pin",
-    "domain": "Control",
-    "keyCondition": "Get the back from a fast, moving start.",
-    "gameName": "Back to Chest Control Transition Game",
     "probingQuestion": "What can you do now that the old you couldn't?",
-    "grapplingTlo": "By the end of this session, the participant will get back-pin control from a live scramble, and name the exact skill they gained since the Descent.",
-    "looksBackAt": 15,
-    "grapplingElos": [
-      "Get the back during a fast, live exchange.",
-      "Name a specific mat skill they own now that they did not before."
-    ],
-    "caselTlo": "By the end of this session, the participant will name one exact skill they have now that they did not have before.",
-    "caselElos": [
-      "Name one clear new skill.",
-      "Connect it to a real situation where it matters."
+    "games": [
+      {
+        "skill": "Entering",
+        "title": "Underhook to Head, Waist, or Leg with Hip-Centric Win"
+      },
+      {
+        "skill": "Arriving",
+        "title": "Half Guard Opening Game"
+      },
+      {
+        "skill": "Controlling",
+        "title": "Chest-to-Back Position Maintenance"
+      }
     ],
     "connection": "There is one exact thing you can do on the mat now that you could not before, and you can name it. Your growth off the mat works the same way. Not \"I am better,\" but \"I can do this now.\"",
     "takeaway": "You can name what you gained, exactly.",
-    "_source": "GWMS Curriculum Guide — Session 27 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+    "_source": "GWMS Curriculum Guide — Session 27 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
-    {
-      "id": "start",
-      "title": "Welcome",
-      "slides": [
-        {
-          "id": "s27-welcome",
-          "type": "text-image",
-          "eyebrow": "Welcome",
-          "title": "Welcome to GWMS Online",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is Session 27 of 36: Emergence."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 27 of 36. The Return, Week 9, Emergence. On the mat that stage runs Back Pin."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Take your time. There are no wrong answers when you write about yourself."
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "today",
       "title": "Today",
@@ -82,92 +50,90 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
           "body": [
             {
               "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the game and the lesson."
-            }
-          ],
-          "alternates": [
-            {
-              "mode": "audio",
-              "label": "Listen",
-              "src": "assets/probing-question.m4a",
-              "transcriptIsBody": true,
-              "own": true,
-              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+              "text": "This is your question for today. Keep it in mind during the games."
             }
           ]
         },
         {
-          "id": "s27-lookback",
-          "eyebrow": "Look back",
-          "title": "Session 15 asked you this",
-          "body": [
-            {
-              "kind": "quote",
-              "text": "Who are you with other people, now that you've met yourself?",
-              "attribution": "Session 15 — The Initiation, Contact"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Before you read on, see if you can remember what you answered."
-            }
-          ],
-          "type": "reveal",
-          "reveals": [
-            {
-              "id": "what-it-was-after",
-              "label": "What that one was really about",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "The real you is in the room now, and other people are in it too."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s27-game",
+          "id": "s27-games",
           "type": "text-image",
-          "eyebrow": "The game",
-          "title": "Back to Chest Control Transition Game",
+          "eyebrow": "Tonight on the mat",
+          "title": "The three games",
           "body": [
             {
               "kind": "lead",
-              "text": "Take the back during a live scramble. Reach a controlling position and stay on top."
+              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Underhook to Head, Waist, or Leg with Hip-Centric Win"
             },
             {
               "kind": "paragraph",
-              "text": "Name the exact thing you can do now that you could not before. Not just \"better.\" The specific thing."
-            }
-          ],
-          "reveals": [
+              "text": "Skill Learning Objective (SLO): Entering, for both players."
+            },
             {
-              "id": "key-condition",
-              "label": "What you need first",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Get the back from a fast, moving start."
-                }
+              "kind": "paragraph",
+              "text": "Both players stand. The underhook player has an underhook. The overhook player has an overhook."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Underhook player: move your partner and connect with closed hands to the head, waist, or leg. A direct waist connection wins right away. Overhook player: use the overhook, your free hand, and your head to keep him away from those spots."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The underhook player wins by connecting to the waist directly, or by moving from the head or a leg to the waist.",
+                "The overhook player wins by freeing a head or leg connection before he reaches the hips."
               ]
             },
             {
-              "id": "the-tap",
-              "label": "Still true every session: the tap",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
+              "kind": "heading",
+              "level": 3,
+              "text": "Half Guard Opening Game"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The bottom player is on his back in knee-shield half guard, both legs on one of the top player's legs. The top player's hands are on the bottom player's body."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Top player: hold the bottom player on his back, press on his hips, knees, and feet, then stand up, clear the feet, and touch your shin from knee to head on both sides. Bottom player: use hooks and posts to keep his feet off, making him hit his butt and sit up, or getting to closed guard."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player wins by standing and touching both outsides.",
+                "The bottom player wins by putting the top player on his butt and sitting up, or by getting to closed guard."
+              ]
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Chest-to-Back Position Maintenance"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Controlling for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The top player is behind the bottom player, chest to back, with no hooks in."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Top player: follow the bottom player as he moves, keeping chest contact and staying under at least one elbow. If the position slips, go to chest-to-chest and keep contact. Bottom player: get both legs back in front in any guard, reverse the top player, or stand up."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player wins by keeping control through the round.",
+                "The bottom player wins by guard recovery, reversal, or standing."
               ]
             }
           ]
@@ -181,12 +147,12 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Back to Chest Control Transition Game, what counts as the win?",
+          "question": "In Chest-to-Back Position Maintenance, what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Taking the back from a live scramble and reaching a controlling position while staying on top",
+              "text": "The top player wins by keeping control through the round.",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
@@ -208,184 +174,40 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
       ]
     },
     {
-      "id": "lesson",
-      "title": "The lesson",
-      "slides": [
-        {
-          "id": "s27-grappling",
-          "type": "text-image",
-          "eyebrow": "On the mat",
-          "title": "What you were working on",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Get back-pin control from a live scramble, and name the exact skill you gained since the Descent."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Get the back during a fast, live exchange.",
-                "Name a specific mat skill you own now that you did not before."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s27-casel",
-          "type": "text-image",
-          "eyebrow": "Off the mat",
-          "title": "The part that was not about grappling",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Name one exact skill you have now that you did not have before."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Name one clear new skill.",
-                "Connect it to a real situation where it matters."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s27-connection",
-          "type": "reveal",
-          "eyebrow": "The connection",
-          "title": "Where those two meet",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "There is one exact thing you can do on the mat now that you could not before, and you can name it. Your growth off the mat works the same way. Not \"I am better,\" but \"I can do this now.\""
-            }
-          ],
-          "reveals": [
-            {
-              "id": "stage-arc",
-              "label": "Where this sits in The Return",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Total control, plus the choice not to hurt someone, is the heart of the whole program. Now you carry that choice out the door."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "close",
       "title": "Before you go",
       "slides": [
         {
-          "id": "s27-recap",
-          "type": "reveal",
-          "eyebrow": "Quick recap",
-          "title": "Before you go: Back to Chest Control Transition Game",
+          "id": "s27-takeaway",
+          "type": "text-image",
+          "eyebrow": "The takeaway",
+          "title": "What tonight was really about",
           "body": [
             {
               "kind": "lead",
-              "text": "Take the back during a live scramble. Reach a controlling position and stay on top."
+              "text": "You can name what you gained, exactly."
             },
             {
               "kind": "paragraph",
-              "text": "Name the exact thing you can do now that you could not before. Not just \"better.\" The specific thing."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "win-again",
-              "label": "How you win it, again",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Taking the back from a live scramble and reaching a controlling position while staying on top"
-                }
-              ]
-            },
-            {
-              "id": "tap-again",
-              "label": "And the rule that never changes",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
-              ]
+              "text": "There is one exact thing you can do on the mat now that you could not before, and you can name it. Your growth off the mat works the same way. Not \"I am better,\" but \"I can do this now.\""
             }
           ]
         },
         {
-          "id": "s27-summative",
-          "type": "quiz",
-          "eyebrow": "End-of-session check",
-          "title": "What today was asking of you",
-          "assessment": {
-            "role": "summative",
-            "scored": true
-          },
-          "question": "Which one was this session actually asking you to do?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "Name one exact skill you have now that you did not have before.",
-              "correct": true,
-              "feedback": "That was the target for today."
-            },
-            {
-              "text": "Name what you want to leave behind you.",
-              "feedback": "That is Session 31's target, not today's."
-            },
-            {
-              "text": "Name what you carry out of the program into the rest of your life.",
-              "feedback": "That is Session 36's target, not today's."
-            }
-          ],
-          "correctHead": "That's the one.",
-          "correctText": "That was the point of the whole session, on the mat and off it.",
-          "incorrectHead": "Not today.",
-          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
-          "revealText": "Today's target is marked above."
-        },
-        {
           "id": "s27-reflection",
           "type": "reflection",
-          "eyebrow": "Reflection",
+          "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What can you do now that the old you couldn't?",
-          "hint": "Nothing here is graded. A few words is plenty.",
+          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
           "placeholder": "Whatever comes to mind…"
         },
         {
           "id": "s27-irf",
           "type": "reflection",
-          "eyebrow": "Before you go",
+          "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session",
+          "kindLabel": "IRF — everyone fills this out, every session, on your own",
           "fields": [
             {
               "id": "mat",

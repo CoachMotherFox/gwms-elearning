@@ -17,59 +17,27 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
       "Responsible Decision-Making"
     ],
     "bloom": "Apply and Analyze",
-    "card": "The Back Pin",
-    "domain": "Control",
-    "keyCondition": "Keep control while you guide a newer partner. Do not just finish them.",
-    "gameName": "Chest-to-Back Position Maintenance, run as a coaching round",
     "probingQuestion": "Who needs what you've learned?",
-    "grapplingTlo": "By the end of this session, the participant will use back-pin control while helping a newer partner learn, and tell apart coaching from winning.",
-    "looksBackAt": 25,
-    "grapplingElos": [
-      "Guide a newer partner through the back-pin position instead of only finishing them.",
-      "Notice the difference between coaching a partner and beating them."
-    ],
-    "caselTlo": "By the end of this session, the participant will find who needs what they have learned, and turn the work outward.",
-    "caselElos": [
-      "Name one person or group who could use what they have gained.",
-      "Name one thing they could offer them."
+    "games": [
+      {
+        "skill": "Entering",
+        "title": "Upper vs Lower Body Division Game"
+      },
+      {
+        "skill": "Arriving",
+        "title": "Seated Open Guard Game"
+      },
+      {
+        "skill": "Controlling",
+        "title": "Back Take, Maintain Chest to Back Contact"
+      }
     ],
     "connection": "Helping a newer partner instead of just tapping them out is the first act of giving on the mat. Turning your growth toward someone who needs it works the same way in life. You stop being the one who gets helped. You start being the help.",
     "takeaway": "You have something worth giving now.",
-    "_source": "GWMS Curriculum Guide — Session 28 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+    "_source": "GWMS Curriculum Guide — Session 28 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
-    {
-      "id": "start",
-      "title": "Welcome",
-      "slides": [
-        {
-          "id": "s28-welcome",
-          "type": "text-image",
-          "eyebrow": "Welcome",
-          "title": "Welcome to GWMS Online",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is Session 28 of 36: Contribution."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 28 of 36. The Return, Week 10, Contribution. On the mat that stage runs Back Pin."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Take your time. There are no wrong answers when you write about yourself."
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "today",
       "title": "Today",
@@ -82,92 +50,90 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
           "body": [
             {
               "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the game and the lesson."
-            }
-          ],
-          "alternates": [
-            {
-              "mode": "audio",
-              "label": "Listen",
-              "src": "assets/probing-question.m4a",
-              "transcriptIsBody": true,
-              "own": true,
-              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+              "text": "This is your question for today. Keep it in mind during the games."
             }
           ]
         },
         {
-          "id": "s28-lookback",
-          "eyebrow": "Look back",
-          "title": "Session 25 asked you this",
-          "body": [
-            {
-              "kind": "quote",
-              "text": "What's actually different in you now?",
-              "attribution": "Session 25 — The Return, Emergence"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Before you read on, see if you can remember what you answered."
-            }
-          ],
-          "type": "reveal",
-          "reveals": [
-            {
-              "id": "what-it-was-after",
-              "label": "What that one was really about",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Change you can show is real change."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s28-game",
+          "id": "s28-games",
           "type": "text-image",
-          "eyebrow": "The game",
-          "title": "Chest-to-Back Position Maintenance, run as a coaching round",
+          "eyebrow": "Tonight on the mat",
+          "title": "The three games",
           "body": [
             {
               "kind": "lead",
-              "text": "Hold the back, but run it as a coaching round. Guide a newer partner through the position instead of just finishing them."
+              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Upper vs Lower Body Division Game"
             },
             {
               "kind": "paragraph",
-              "text": "You stop being the one getting helped and start being the help."
-            }
-          ],
-          "reveals": [
+              "text": "Skill Learning Objective (SLO): Entering, for both players."
+            },
             {
-              "id": "key-condition",
-              "label": "What you need first",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Keep control while you guide a newer partner. Do not just finish them."
-                }
+              "kind": "paragraph",
+              "text": "Both players stand facing each other, hand fighting range. One is the upper body player, one is the lower body player. Open hands only."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Upper body player: stay between, outside, or under your partner's arms. Get an underhook, or make his hands touch the mat. You may not touch his legs. Lower body player: touch only the head, hands, and elbows to move them, then touch anywhere behind the leg. You may not go under the arms. Whoever gets there first wins, then you switch roles."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The upper body player wins with an underhook, or the other player's hands on the mat.",
+                "The lower body player wins with a touch behind the leg, or the other player's hands on the mat."
               ]
             },
             {
-              "id": "the-tap",
-              "label": "Still true every session: the tap",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
+              "kind": "heading",
+              "level": 3,
+              "text": "Seated Open Guard Game"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The top player stands. The bottom player sits on the mat with an inside hook and a knee-pit grip."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bottom player: move from seated to belly up, using your connections to put the top player down on his hips or hands, then wrestle up or stand and make his back touch the mat. Top player: put the bottom player on his back and keep shin contact."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The bottom player wins by standing up and reaching the hips, or by making the top player's back touch the mat.",
+                "The top player wins with shin contact on the knees or body."
+              ]
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Back Take, Maintain Chest to Back Contact"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Controlling for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The attacker is in full back control, chest on the defender's back, arms around the shoulders, hooks in. The defender may move freely."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Attacker: keep chest-to-back contact by following the defender wherever he goes. If your hands separate, reconnect them. If a hook comes out, put it back in. Defender: fight the connections to put your back on the mat or turn to face the attacker."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The attacker has no time limit. He holds as long as he keeps contact.",
+                "The defender wins by getting his back to the mat or turning face to face."
               ]
             }
           ]
@@ -181,12 +147,12 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Chest-to-Back Position Maintenance, run as a coaching round, what counts as the win?",
+          "question": "In Back Take, Maintain Chest to Back Contact, what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Keeping control while guiding a newer partner through the position",
+              "text": "The attacker has no time limit. He holds as long as he keeps contact.",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
@@ -208,189 +174,45 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
       ]
     },
     {
-      "id": "lesson",
-      "title": "The lesson",
-      "slides": [
-        {
-          "id": "s28-grappling",
-          "type": "text-image",
-          "eyebrow": "On the mat",
-          "title": "What you were working on",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Use back-pin control while helping a newer partner learn, and tell apart coaching from winning."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Guide a newer partner through the back-pin position instead of only finishing you.",
-                "Notice the difference between coaching a partner and beating you."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s28-casel",
-          "type": "text-image",
-          "eyebrow": "Off the mat",
-          "title": "The part that was not about grappling",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Find who needs what you have learned, and turn the work outward."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Name one person or group who could use what you have gained.",
-                "Name one thing you could offer you."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s28-connection",
-          "type": "reveal",
-          "eyebrow": "The connection",
-          "title": "Where those two meet",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Helping a newer partner instead of just tapping them out is the first act of giving on the mat. Turning your growth toward someone who needs it works the same way in life. You stop being the one who gets helped. You start being the help."
-            },
-            {
-              "kind": "callout",
-              "label": "Said simply",
-              "text": "Not everyone is ready to give yet. That is okay. Nothing here is owed."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "stage-arc",
-              "label": "Where this sits in The Return",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Total control, plus the choice not to hurt someone, is the heart of the whole program. Now you carry that choice out the door."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "close",
       "title": "Before you go",
       "slides": [
         {
-          "id": "s28-recap",
-          "type": "reveal",
-          "eyebrow": "Quick recap",
-          "title": "Before you go: Chest-to-Back Position Maintenance, run as a coaching round",
+          "id": "s28-takeaway",
+          "type": "text-image",
+          "eyebrow": "The takeaway",
+          "title": "What tonight was really about",
           "body": [
             {
               "kind": "lead",
-              "text": "Hold the back, but run it as a coaching round. Guide a newer partner through the position instead of just finishing them."
+              "text": "You have something worth giving now."
             },
             {
               "kind": "paragraph",
-              "text": "You stop being the one getting helped and start being the help."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "win-again",
-              "label": "How you win it, again",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Keeping control while guiding a newer partner through the position"
-                }
-              ]
+              "text": "Helping a newer partner instead of just tapping them out is the first act of giving on the mat. Turning your growth toward someone who needs it works the same way in life. You stop being the one who gets helped. You start being the help."
             },
             {
-              "id": "tap-again",
-              "label": "And the rule that never changes",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
-              ]
+              "kind": "callout",
+              "label": "Worth knowing",
+              "text": "Not everyone is ready to give yet. That is okay. Nothing here is owed."
             }
           ]
         },
         {
-          "id": "s28-summative",
-          "type": "quiz",
-          "eyebrow": "End-of-session check",
-          "title": "What today was asking of you",
-          "assessment": {
-            "role": "summative",
-            "scored": true
-          },
-          "question": "Which one was this session actually asking you to do?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "Find who needs what you have learned, and turn the work outward.",
-              "correct": true,
-              "feedback": "That was the target for today."
-            },
-            {
-              "text": "Name the standard you set for whoever comes after you.",
-              "feedback": "That is Session 32's target, not today's."
-            },
-            {
-              "text": "Name what is really different in you now, and find real proof of the change instead of just talking about it.",
-              "feedback": "That is Session 25's target, not today's."
-            }
-          ],
-          "correctHead": "That's the one.",
-          "correctText": "That was the point of the whole session, on the mat and off it.",
-          "incorrectHead": "Not today.",
-          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
-          "revealText": "Today's target is marked above."
-        },
-        {
           "id": "s28-reflection",
           "type": "reflection",
-          "eyebrow": "Reflection",
+          "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "Who needs what you've learned?",
-          "hint": "Nothing here is graded. A few words is plenty.",
+          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
           "placeholder": "Whatever comes to mind…"
         },
         {
           "id": "s28-irf",
           "type": "reflection",
-          "eyebrow": "Before you go",
+          "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session",
+          "kindLabel": "IRF — everyone fills this out, every session, on your own",
           "fields": [
             {
               "id": "mat",

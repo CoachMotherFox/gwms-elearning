@@ -16,59 +16,27 @@
       "Self-Management"
     ],
     "bloom": "Apply",
-    "card": "The Paths, integrated",
-    "domain": "Enter and Arrive",
-    "keyCondition": "Enter, pass, and arrive in one sequence. Honor the tap the whole time.",
-    "gameName": "Open Guard Takedown and Escape Game",
     "probingQuestion": "If the mask came off in here, who would we meet?",
-    "grapplingTlo": "By the end of this session, the participant will run both Paths from a standing start all the way to a pin.",
-    "looksBackAt": 6,
-    "grapplingElos": [
-      "Enter, pass, and arrive in one sequence.",
-      "Give and honor the tap throughout."
+    "games": [
+      {
+        "skill": "Entering",
+        "title": "Hand Touch / Knee Touch with Close Hand Connection"
+      },
+      {
+        "skill": "Arriving",
+        "title": "Open Guard Takedown and Escape Game"
+      },
+      {
+        "skill": "Controlling",
+        "title": "Riding Bottom Position Game"
+      }
     ],
-    "caselTlo": "By the end of this session, the participant will share, as much as they choose, a picture of the real self the Descent uncovered.",
-    "caselElos": [
-      "Describe the real self, now seen.",
-      "Bring it into the room so others can see it."
-    ],
-    "connection": "Running both Paths from standing to a pin is the mat's version of the whole Descent, from arrival to the real self revealed. This session brings both journeys together into one.",
+    "connection": "Running both games from standing to a pin is the mat's version of the whole Descent, from arrival to the real self revealed. This session brings both journeys together into one.",
     "takeaway": "You showed up, cracked, and stayed, and the room met the real you.",
-    "_source": "GWMS Curriculum Guide — Session 12 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+    "_source": "GWMS Curriculum Guide — Session 12 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
-    {
-      "id": "start",
-      "title": "Welcome",
-      "slides": [
-        {
-          "id": "s12-welcome",
-          "type": "text-image",
-          "eyebrow": "Welcome",
-          "title": "Welcome to GWMS Online",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is Session 12 of 36: Reveal."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 12 of 36. The Descent, Week 4, Reveal. On the mat that stage runs The Paths."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Take your time. There are no wrong answers when you write about yourself."
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "today",
       "title": "Today",
@@ -81,92 +49,89 @@
           "body": [
             {
               "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the game and the lesson."
-            }
-          ],
-          "alternates": [
-            {
-              "mode": "audio",
-              "label": "Listen",
-              "src": "assets/probing-question.m4a",
-              "transcriptIsBody": true,
-              "own": true,
-              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+              "text": "This is your question for today. Keep it in mind during the games."
             }
           ]
         },
         {
-          "id": "s12-lookback",
-          "eyebrow": "Look back",
-          "title": "Session 6 asked you this",
-          "body": [
-            {
-              "kind": "quote",
-              "text": "What does your mask protect you from?",
-              "attribution": "Session 6 — The Descent, Mask"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Before you read on, see if you can remember what you answered."
-            }
-          ],
-          "type": "reveal",
-          "reveals": [
-            {
-              "id": "what-it-was-after",
-              "label": "What that one was really about",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "The mask has a job. Next week we find out what happens to it under pressure."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s12-game",
+          "id": "s12-games",
           "type": "text-image",
-          "eyebrow": "The game",
-          "title": "Open Guard Takedown and Escape Game",
+          "eyebrow": "Tonight on the mat",
+          "title": "The three games",
           "body": [
             {
               "kind": "lead",
-              "text": "The whole trip happens in one round. From a standing or seated start, get it down, get past the legs, and arrive in a pin. Both players get a turn. The bottom player can put the top player down and stand up. The tap is honored the whole way."
+              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Hand Touch / Knee Touch with Close Hand Connection"
             },
             {
               "kind": "paragraph",
-              "text": "This is the whole Descent on the mat, from arrival to the real self revealed."
-            }
-          ],
-          "reveals": [
+              "text": "Skill Learning Objective (SLO): Entering, for both players."
+            },
             {
-              "id": "key-condition",
-              "label": "What you need first",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Enter, pass, and arrive in one sequence. Honor the tap the whole time."
-                }
+              "kind": "paragraph",
+              "text": "Both players stand facing each other, hand fighting range, in a neutral position. A knee grip must be behind the knee, not the front."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Win one of two ways: collect three touches in any mix (making your partner's hands touch the mat, or gripping behind one of his knees), or close both hands around his head, body, or leg. Take whichever one shows up."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "Whoever gets there first wins, whether by three touches or by any closed-hand connection."
               ]
             },
             {
-              "id": "the-tap",
-              "label": "Still true every session: the tap",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
+              "kind": "heading",
+              "level": 3,
+              "text": "Open Guard Takedown and Escape Game"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The top player stands. The bottom player is on his back, fully connected, hands on the top player's ankles, feet inside his legs."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bottom player: stay connected while putting the top player down on his hips or hands, then stand up, or stay connected as he rises. Top player: break the connections and make shin contact to pass."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The bottom player wins by putting the top player down and getting up to standing, or by putting him down a different way and rising to a connection.",
+                "The top player wins with shin contact."
+              ]
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Riding Bottom Position Game"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Controlling for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The bottom player is on his hands and knees. The top player is on top with open hands around the bottom player's hips."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Top player: stay attached to the hips, break the bottom player down, and stop him from standing. Bottom player: build your base, fight to your feet, and turn to face the top player."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player has no time limit. He holds as long as he keeps the bottom player broken down.",
+                "The bottom player wins by standing up and turning to face the top player."
               ]
             }
           ]
@@ -180,18 +145,18 @@
             "role": "formative",
             "scored": false
           },
-          "question": "In Open Guard Takedown and Escape Game, what counts as the win?",
+          "question": "In Riding Bottom Position Game, what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Getting it down, past the legs, and arriving in a pin — the whole trip in one round",
+              "text": "The top player has no time limit. He holds as long as he keeps the bottom player broken down.",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not part of the Paths. Enter and Arrive are the two path steps here, and neither one ends in a submission. The path leads you into a pin, not a finish."
+              "feedback": "Not part of the Paths yet. Entering and Arriving are the two steps here, and neither one ends in a finish. The path leads you into a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
@@ -207,184 +172,40 @@
       ]
     },
     {
-      "id": "lesson",
-      "title": "The lesson",
-      "slides": [
-        {
-          "id": "s12-grappling",
-          "type": "text-image",
-          "eyebrow": "On the mat",
-          "title": "What you were working on",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Run both Paths from a standing start all the way to a pin."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Enter, pass, and arrive in one sequence.",
-                "Give and honor the tap throughout."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s12-casel",
-          "type": "text-image",
-          "eyebrow": "Off the mat",
-          "title": "The part that was not about grappling",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Share, as much as you choose, a picture of the real self the Descent uncovered."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Describe the real self, now seen.",
-                "Bring it into the room so others can see it."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s12-connection",
-          "type": "reveal",
-          "eyebrow": "The connection",
-          "title": "Where those two meet",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Running both Paths from standing to a pin is the mat's version of the whole Descent, from arrival to the real self revealed. This session brings both journeys together into one."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "stage-arc",
-              "label": "Where this sits in The Descent",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Getting past a partner's guard to what it protects is the same act as looking under a mask to the real person. The Descent digs deep, on the mat and inside you."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "close",
       "title": "Before you go",
       "slides": [
         {
-          "id": "s12-recap",
-          "type": "reveal",
-          "eyebrow": "Quick recap",
-          "title": "Before you go: Open Guard Takedown and Escape Game",
+          "id": "s12-takeaway",
+          "type": "text-image",
+          "eyebrow": "The takeaway",
+          "title": "What tonight was really about",
           "body": [
             {
               "kind": "lead",
-              "text": "The whole trip happens in one round. From a standing or seated start, get it down, get past the legs, and arrive in a pin. Both players get a turn. The bottom player can put the top player down and stand up. The tap is honored the whole way."
+              "text": "You showed up, cracked, and stayed, and the room met the real you."
             },
             {
               "kind": "paragraph",
-              "text": "This is the whole Descent on the mat, from arrival to the real self revealed."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "win-again",
-              "label": "How you win it, again",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Getting it down, past the legs, and arriving in a pin — the whole trip in one round"
-                }
-              ]
-            },
-            {
-              "id": "tap-again",
-              "label": "And the rule that never changes",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
-              ]
+              "text": "Running both games from standing to a pin is the mat's version of the whole Descent, from arrival to the real self revealed. This session brings both journeys together into one."
             }
           ]
         },
         {
-          "id": "s12-summative",
-          "type": "quiz",
-          "eyebrow": "End-of-session check",
-          "title": "What today was asking of you",
-          "assessment": {
-            "role": "summative",
-            "scored": true
-          },
-          "question": "Which one was this session actually asking you to do?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "Share, as much as you choose, a picture of the real self the Descent uncovered.",
-              "correct": true,
-              "feedback": "That was the target for today."
-            },
-            {
-              "text": "Name one way you act differently when people are watching you.",
-              "feedback": "That is Session 4's target, not today's."
-            },
-            {
-              "text": "Name your personal tell, the first sure sign you have cracked.",
-              "feedback": "That is Session 9's target, not today's."
-            }
-          ],
-          "correctHead": "That's the one.",
-          "correctText": "That was the point of the whole session, on the mat and off it.",
-          "incorrectHead": "Not today.",
-          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
-          "revealText": "Today's target is marked above."
-        },
-        {
           "id": "s12-reflection",
           "type": "reflection",
-          "eyebrow": "Reflection",
+          "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "If the mask came off in here, who would we meet?",
-          "hint": "Nothing here is graded. A few words is plenty.",
+          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
           "placeholder": "Whatever comes to mind…"
         },
         {
           "id": "s12-irf",
           "type": "reflection",
-          "eyebrow": "Before you go",
+          "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session",
+          "kindLabel": "IRF — everyone fills this out, every session, on your own",
           "fields": [
             {
               "id": "mat",

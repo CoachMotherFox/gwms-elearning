@@ -17,59 +17,27 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
       "Responsible Decision-Making"
     ],
     "bloom": "Apply and Analyze",
-    "card": "The Back Pin",
-    "domain": "Control",
-    "keyCondition": "Hold the back while a live partner runs their 4S escape.",
-    "gameName": "Chest to Back Control Game",
     "probingQuestion": "How do you know the change is real and not just talk?",
-    "grapplingTlo": "By the end of this session, the participant will use back-pin control while their partner fights back, and find out if the change holds up when tested.",
-    "looksBackAt": 20,
-    "grapplingElos": [
-      "Keep the back for a three-count while the partner works hard to escape.",
-      "Notice whether their control holds under pressure or slips."
-    ],
-    "caselTlo": "By the end of this session, the participant will test if a claimed change is real by checking it under pressure, and name the proof.",
-    "caselElos": [
-      "Say how they would know a change is real.",
-      "Name one piece of proof that the change holds under stress."
+    "games": [
+      {
+        "skill": "Entering",
+        "title": "Single Leg Takedown to Hip Connection Game"
+      },
+      {
+        "skill": "Entering",
+        "title": "Post and Hook Continuous Connection Game"
+      },
+      {
+        "skill": "Controlling",
+        "title": "Chest to Back Control Game"
+      }
     ],
     "connection": "A change that only works when it is easy is not a real change yet. Holding the back against a fighting partner puts it to the test. Who you have become gets proven the same way, by whether it holds up when things get hard.",
     "takeaway": "Tested change is change you can trust.",
-    "_source": "GWMS Curriculum Guide — Session 26 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+    "_source": "GWMS Curriculum Guide — Session 26 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
-    {
-      "id": "start",
-      "title": "Welcome",
-      "slides": [
-        {
-          "id": "s26-welcome",
-          "type": "text-image",
-          "eyebrow": "Welcome",
-          "title": "Welcome to GWMS Online",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is Session 26 of 36: Emergence."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 26 of 36. The Return, Week 9, Emergence. On the mat that stage runs Back Pin."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Take your time. There are no wrong answers when you write about yourself."
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "today",
       "title": "Today",
@@ -82,92 +50,90 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
           "body": [
             {
               "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the game and the lesson."
-            }
-          ],
-          "alternates": [
-            {
-              "mode": "audio",
-              "label": "Listen",
-              "src": "assets/probing-question.m4a",
-              "transcriptIsBody": true,
-              "own": true,
-              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+              "text": "This is your question for today. Keep it in mind during the games."
             }
           ]
         },
         {
-          "id": "s26-lookback",
-          "eyebrow": "Look back",
-          "title": "Session 20 asked you this",
-          "body": [
-            {
-              "kind": "quote",
-              "text": "Have you ever broken something with someone and left it broken?",
-              "attribution": "Session 20 — The Initiation, Rupture"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Before you read on, see if you can remember what you answered."
-            }
-          ],
-          "type": "reveal",
-          "reveals": [
-            {
-              "id": "what-it-was-after",
-              "label": "What that one was really about",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Naming the break you never fixed is the first step toward repair."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s26-game",
+          "id": "s26-games",
           "type": "text-image",
-          "eyebrow": "The game",
-          "title": "Chest to Back Control Game",
+          "eyebrow": "Tonight on the mat",
+          "title": "The three games",
           "body": [
             {
               "kind": "lead",
-              "text": "Hold the back while your partner tries hard to get out. Win by staying chest to back while they fight to turn in or get flat."
+              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Single Leg Takedown to Hip Connection Game"
             },
             {
               "kind": "paragraph",
-              "text": "A change that only works when things are easy is not real yet. This tests it under pressure."
-            }
-          ],
-          "reveals": [
+              "text": "Skill Learning Objective (SLO): Entering, for both players."
+            },
             {
-              "id": "key-condition",
-              "label": "What you need first",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Hold the back while a live partner runs their 4S escape."
-                }
+              "kind": "paragraph",
+              "text": "Both players stand. The attacker holds one of the defender's legs, somewhere from knee to ankle."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Attacker: move the defender, work out to the ankle, and use foot-to-foot contact to put him down on his hips or hands. Defender: free the leg, then grab one of the attacker's legs, knee to ankle."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The attacker wins when the defender is down on his hips or hands.",
+                "The defender wins by freeing the leg and then grabbing one of the attacker's legs."
               ]
             },
             {
-              "id": "the-tap",
-              "label": "Still true every session: the tap",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
+              "kind": "heading",
+              "level": 3,
+              "text": "Post and Hook Continuous Connection Game"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Entering, for both players."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The top player is standing. The bottom player is belly up with hooks on the top player's body and both hands on his ankles."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Top player: clear both feet to the outside for shin-to-body contact, or lock your hands from hips to shoulders. Bottom player: keep at least one hook and one hand connected at all times, using only posts and hooks to keep putting the top player on his butt or hands."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player wins by getting outside with shin-to-body contact, or by locking his hands from hips to shoulders.",
+                "The bottom player has no time limit. He holds as long as he keeps his connections."
+              ]
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Chest to Back Control Game"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Controlling for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The top player is behind the bottom player with chest-to-back contact, both arms and both legs connected."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Top player: keep chest-to-back contact by following the bottom player and keeping your hands connected. Bottom player: put your back on the mat or turn to face."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player has no time limit. He holds as long as he keeps contact.",
+                "The bottom player wins by getting his back to the mat or turning face to face."
               ]
             }
           ]
@@ -181,12 +147,12 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Chest to Back Control Game, what counts as the win?",
+          "question": "In Chest to Back Control Game, what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Staying chest to back while the partner fights to get flat or turn in",
+              "text": "The top player has no time limit. He holds as long as he keeps contact.",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
@@ -208,184 +174,40 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
       ]
     },
     {
-      "id": "lesson",
-      "title": "The lesson",
-      "slides": [
-        {
-          "id": "s26-grappling",
-          "type": "text-image",
-          "eyebrow": "On the mat",
-          "title": "What you were working on",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Use back-pin control while your partner fights back, and find out if the change holds up when tested."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Keep the back for a three-count while the partner works hard to escape.",
-                "Notice whether your control holds under pressure or slips."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s26-casel",
-          "type": "text-image",
-          "eyebrow": "Off the mat",
-          "title": "The part that was not about grappling",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Test if a claimed change is real by checking it under pressure, and name the proof."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Say how you would know a change is real.",
-                "Name one piece of proof that the change holds under stress."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s26-connection",
-          "type": "reveal",
-          "eyebrow": "The connection",
-          "title": "Where those two meet",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "A change that only works when it is easy is not a real change yet. Holding the back against a fighting partner puts it to the test. Who you have become gets proven the same way, by whether it holds up when things get hard."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "stage-arc",
-              "label": "Where this sits in The Return",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Total control, plus the choice not to hurt someone, is the heart of the whole program. Now you carry that choice out the door."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "close",
       "title": "Before you go",
       "slides": [
         {
-          "id": "s26-recap",
-          "type": "reveal",
-          "eyebrow": "Quick recap",
-          "title": "Before you go: Chest to Back Control Game",
+          "id": "s26-takeaway",
+          "type": "text-image",
+          "eyebrow": "The takeaway",
+          "title": "What tonight was really about",
           "body": [
             {
               "kind": "lead",
-              "text": "Hold the back while your partner tries hard to get out. Win by staying chest to back while they fight to turn in or get flat."
+              "text": "Tested change is change you can trust."
             },
             {
               "kind": "paragraph",
-              "text": "A change that only works when things are easy is not real yet. This tests it under pressure."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "win-again",
-              "label": "How you win it, again",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Staying chest to back while the partner fights to get flat or turn in"
-                }
-              ]
-            },
-            {
-              "id": "tap-again",
-              "label": "And the rule that never changes",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
-              ]
+              "text": "A change that only works when it is easy is not a real change yet. Holding the back against a fighting partner puts it to the test. Who you have become gets proven the same way, by whether it holds up when things get hard."
             }
           ]
         },
         {
-          "id": "s26-summative",
-          "type": "quiz",
-          "eyebrow": "End-of-session check",
-          "title": "What today was asking of you",
-          "assessment": {
-            "role": "summative",
-            "scored": true
-          },
-          "question": "Which one was this session actually asking you to do?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "Test if a claimed change is real by checking it under pressure, and name the proof.",
-              "correct": true,
-              "feedback": "That was the target for today."
-            },
-            {
-              "text": "Name how you use your strength to help others, not to control you.",
-              "feedback": "That is Session 30's target, not today's."
-            },
-            {
-              "text": "Name who you became over the program.",
-              "feedback": "That is Session 35's target, not today's."
-            }
-          ],
-          "correctHead": "That's the one.",
-          "correctText": "That was the point of the whole session, on the mat and off it.",
-          "incorrectHead": "Not today.",
-          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
-          "revealText": "Today's target is marked above."
-        },
-        {
           "id": "s26-reflection",
           "type": "reflection",
-          "eyebrow": "Reflection",
+          "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "How do you know the change is real and not just talk?",
-          "hint": "Nothing here is graded. A few words is plenty.",
+          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
           "placeholder": "Whatever comes to mind…"
         },
         {
           "id": "s26-irf",
           "type": "reflection",
-          "eyebrow": "Before you go",
+          "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session",
+          "kindLabel": "IRF — everyone fills this out, every session, on your own",
           "fields": [
             {
               "id": "mat",

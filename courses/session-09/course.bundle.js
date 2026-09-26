@@ -18,59 +18,27 @@ window.GWMS_COURSE_BUNDLE["session-09"] =
       "Self-Management"
     ],
     "bloom": "Apply",
-    "card": "Controlling the Legs",
-    "domain": "Enter",
-    "keyCondition": "Clear the checkpoints in order. Name where the guard breaks.",
-    "gameName": "Knee Pit Touchdown Game, played from the passing side (same game as Session 6, opposite role, intentional repeat)",
     "probingQuestion": "When you crack, what's the first thing that shows?",
-    "grapplingTlo": "By the end of this session, the participant will pass the guard and find the checkpoint where it breaks.",
-    "looksBackAt": 3,
-    "grapplingElos": [
-      "Clear checkpoints in order.",
-      "Name the checkpoint that gave way."
-    ],
-    "caselTlo": "By the end of this session, the participant will name their personal tell, the first sure sign they have cracked.",
-    "caselElos": [
-      "Name their first sure sign they have cracked.",
-      "See how catching it early lets them choose differently."
+    "games": [
+      {
+        "skill": "Entering",
+        "title": "Single Leg Takedown Game"
+      },
+      {
+        "skill": "Arriving",
+        "title": "Knee Pit Touchdown Game"
+      },
+      {
+        "skill": "Controlling",
+        "title": "Chest-to-Chest Elbow Control Game"
+      }
     ],
     "connection": "The checkpoint where a guard always breaks is a tell, and so is the first thing that shows when you crack. Finding the exact break point on the mat is the same skill as knowing your own tell.",
     "takeaway": "Knowing your tell is power, because you can catch yourself.",
-    "_source": "GWMS Curriculum Guide — Session 9 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+    "_source": "GWMS Curriculum Guide — Session 9 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
-    {
-      "id": "start",
-      "title": "Welcome",
-      "slides": [
-        {
-          "id": "s09-welcome",
-          "type": "text-image",
-          "eyebrow": "Welcome",
-          "title": "Welcome to GWMS Online",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is Session 9 of 36: Crack."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 9 of 36. The Descent, Week 3, Crack. On the mat that stage runs The Paths."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Take your time. There are no wrong answers when you write about yourself."
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "today",
       "title": "Today",
@@ -83,92 +51,90 @@ window.GWMS_COURSE_BUNDLE["session-09"] =
           "body": [
             {
               "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the game and the lesson."
-            }
-          ],
-          "alternates": [
-            {
-              "mode": "audio",
-              "label": "Listen",
-              "src": "assets/probing-question.m4a",
-              "transcriptIsBody": true,
-              "own": true,
-              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+              "text": "This is your question for today. Keep it in mind during the games."
             }
           ]
         },
         {
-          "id": "s09-lookback",
-          "eyebrow": "Look back",
-          "title": "Session 3 asked you this",
-          "body": [
-            {
-              "kind": "quote",
-              "text": "What are you like before you trust the room?",
-              "attribution": "Session 3 — The Descent, Arrival"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Before you read on, see if you can remember what you answered."
-            }
-          ],
-          "type": "reveal",
-          "reveals": [
-            {
-              "id": "what-it-was-after",
-              "label": "What that one was really about",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "The guard is smart. Next week we look at the face that guard wears: the mask."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s09-game",
+          "id": "s09-games",
           "type": "text-image",
-          "eyebrow": "The game",
-          "title": "Knee Pit Touchdown Game, played from the passing side",
+          "eyebrow": "Tonight on the mat",
+          "title": "The three games",
           "body": [
             {
               "kind": "lead",
-              "text": "The top player clears the checkpoints in order. Win by touching both knee pits while keeping your feet off the ground."
+              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Single Leg Takedown Game"
             },
             {
               "kind": "paragraph",
-              "text": "You are learning exactly where a guard breaks, your partner's and your own. That is the same as knowing your tell."
-            }
-          ],
-          "reveals": [
+              "text": "Skill Learning Objective (SLO): Entering, for both players."
+            },
             {
-              "id": "key-condition",
-              "label": "What you need first",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Clear the checkpoints in order. Name where the guard breaks."
-                }
+              "kind": "paragraph",
+              "text": "Both players stand. The attacker is connected to one of the defender's legs at the knee."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Attacker: move the defender and make him fall toward his hands or hips, running him, pulling him, turning him, or lifting him, using only that leg. Defender: stay balanced and use your connections to break the grip and free your leg."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The attacker wins when the defender touches the mat with his hips or hands.",
+                "The defender wins by freeing the leg."
               ]
             },
             {
-              "id": "the-tap",
-              "label": "Still true every session: the tap",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
+              "kind": "heading",
+              "level": 3,
+              "text": "Knee Pit Touchdown Game"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The bottom player is belly up in open guard. The top player is standing and starts by clearing the feet."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Top player: clear the feet, then step one leg into one knee pit, then the other, keeping your feet off. Bottom player: hook and post with your feet, using your hands to make him hit his butt, then sit up."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player wins by touching both knee pits with his leg while keeping his feet off.",
+                "The bottom player wins by sitting up."
+              ]
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Chest-to-Chest Elbow Control Game"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Controlling for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The bottom player is on his back. The top player is chest to chest on top, both arms under both of the bottom player's elbows."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Top player: stay under the bottom player's elbows, keeping them away from his body. Bottom player: get both elbows to touch your body, or make the top player fall over."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player has no time limit. He wins by keeping the elbows away from the body the whole time.",
+                "The bottom player wins by bringing both elbows to his body, or by making the top player fall."
               ]
             }
           ]
@@ -182,18 +148,18 @@ window.GWMS_COURSE_BUNDLE["session-09"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Knee Pit Touchdown Game, played from the passing side, what counts as the win?",
+          "question": "In Chest-to-Chest Elbow Control Game, what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Touching both knee pits while keeping the feet off",
+              "text": "The top player has no time limit. He wins by keeping the elbows away from the body the whole time.",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not part of the Paths. Enter and Arrive are the two path steps here, and neither one ends in a submission. The path leads you into a pin, not a finish."
+              "feedback": "Not part of the Paths yet. Entering and Arriving are the two steps here, and neither one ends in a finish. The path leads you into a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
@@ -209,184 +175,40 @@ window.GWMS_COURSE_BUNDLE["session-09"] =
       ]
     },
     {
-      "id": "lesson",
-      "title": "The lesson",
-      "slides": [
-        {
-          "id": "s09-grappling",
-          "type": "text-image",
-          "eyebrow": "On the mat",
-          "title": "What you were working on",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Pass the guard and find the checkpoint where it breaks."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Clear checkpoints in order.",
-                "Name the checkpoint that gave way."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s09-casel",
-          "type": "text-image",
-          "eyebrow": "Off the mat",
-          "title": "The part that was not about grappling",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Name your personal tell, the first sure sign you have cracked."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Name your first sure sign you have cracked.",
-                "See how catching it early lets you choose differently."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s09-connection",
-          "type": "reveal",
-          "eyebrow": "The connection",
-          "title": "Where those two meet",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "The checkpoint where a guard always breaks is a tell, and so is the first thing that shows when you crack. Finding the exact break point on the mat is the same skill as knowing your own tell."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "stage-arc",
-              "label": "Where this sits in The Descent",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Getting past a partner's guard to what it protects is the same act as looking under a mask to the real person. The Descent digs deep, on the mat and inside you."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "close",
       "title": "Before you go",
       "slides": [
         {
-          "id": "s09-recap",
-          "type": "reveal",
-          "eyebrow": "Quick recap",
-          "title": "Before you go: Knee Pit Touchdown Game, played from the passing side",
+          "id": "s09-takeaway",
+          "type": "text-image",
+          "eyebrow": "The takeaway",
+          "title": "What tonight was really about",
           "body": [
             {
               "kind": "lead",
-              "text": "The top player clears the checkpoints in order. Win by touching both knee pits while keeping your feet off the ground."
+              "text": "Knowing your tell is power, because you can catch yourself."
             },
             {
               "kind": "paragraph",
-              "text": "You are learning exactly where a guard breaks, your partner's and your own. That is the same as knowing your tell."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "win-again",
-              "label": "How you win it, again",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Touching both knee pits while keeping the feet off"
-                }
-              ]
-            },
-            {
-              "id": "tap-again",
-              "label": "And the rule that never changes",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
-              ]
+              "text": "The checkpoint where a guard always breaks is a tell, and so is the first thing that shows when you crack. Finding the exact break point on the mat is the same skill as knowing your own tell."
             }
           ]
         },
         {
-          "id": "s09-summative",
-          "type": "quiz",
-          "eyebrow": "End-of-session check",
-          "title": "What today was asking of you",
-          "assessment": {
-            "role": "summative",
-            "scored": true
-          },
-          "question": "Which one was this session actually asking you to do?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "Name your personal tell, the first sure sign you have cracked.",
-              "correct": true,
-              "feedback": "That was the target for today."
-            },
-            {
-              "text": "Share, as much as you choose, a picture of the real self the Descent uncovered.",
-              "feedback": "That is Session 12's target, not today's."
-            },
-            {
-              "text": "Name what your mask defends against.",
-              "feedback": "That is Session 6's target, not today's."
-            }
-          ],
-          "correctHead": "That's the one.",
-          "correctText": "That was the point of the whole session, on the mat and off it.",
-          "incorrectHead": "Not today.",
-          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
-          "revealText": "Today's target is marked above."
-        },
-        {
           "id": "s09-reflection",
           "type": "reflection",
-          "eyebrow": "Reflection",
+          "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "When you crack, what's the first thing that shows?",
-          "hint": "Nothing here is graded. A few words is plenty.",
+          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
           "placeholder": "Whatever comes to mind…"
         },
         {
           "id": "s09-irf",
           "type": "reflection",
-          "eyebrow": "Before you go",
+          "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session",
+          "kindLabel": "IRF — everyone fills this out, every session, on your own",
           "fields": [
             {
               "id": "mat",

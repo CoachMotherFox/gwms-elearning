@@ -16,59 +16,27 @@
       "Relationship Skills"
     ],
     "bloom": "Apply",
-    "card": "The Chest Pin",
-    "domain": "Integrate, escape side",
-    "keyCondition": "Frame first, then bridge. Reset clean after the break.",
-    "gameName": "Riding Bottom Position Game",
     "probingQuestion": "What breaks in you when a connection breaks?",
-    "grapplingTlo": "By the end of this session, the participant will notice when chest-pin control breaks, and reset to a safe position without panic or payback.",
-    "looksBackAt": 16,
-    "grapplingElos": [
-      "Notice the moment control is lost, a reversal or an escape.",
-      "Reset to a safe position instead of forcing it or trying to get payback."
-    ],
-    "caselTlo": "By the end of this session, the participant will name what breaks inside them when a connection breaks.",
-    "caselElos": [
-      "Notice how they react inside when a relationship or connection breaks.",
-      "Name whether they tend to strike back, shut down, or pull away."
+    "games": [
+      {
+        "skill": "Entering",
+        "title": "Single Leg, Make Partner Fall to Hands or Hips"
+      },
+      {
+        "skill": "Arriving",
+        "title": "Guard Recovery After Leg Pass Game"
+      },
+      {
+        "skill": "Controlling",
+        "title": "Figure Four Grip Control Game"
+      }
     ],
     "connection": "Losing the pin and getting reversed is a small rupture. How you handle that break on the mat, a clean reset or payback, is a lot like how you handle broken connections in life.",
     "takeaway": "A rupture teaches you something. You survived naming it.",
-    "_source": "GWMS Curriculum Guide — Session 19 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+    "_source": "GWMS Curriculum Guide — Session 19 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
-    {
-      "id": "start",
-      "title": "Welcome",
-      "slides": [
-        {
-          "id": "s19-welcome",
-          "type": "text-image",
-          "eyebrow": "Welcome",
-          "title": "Welcome to GWMS Online",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is Session 19 of 36: Rupture."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 19 of 36. The Initiation, Week 7, Rupture. On the mat that stage runs Chest Pin."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Take your time. There are no wrong answers when you write about yourself."
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "today",
       "title": "Today",
@@ -81,92 +49,90 @@
           "body": [
             {
               "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the game and the lesson."
-            }
-          ],
-          "alternates": [
-            {
-              "mode": "audio",
-              "label": "Listen",
-              "src": "assets/probing-question.m4a",
-              "transcriptIsBody": true,
-              "own": true,
-              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+              "text": "This is your question for today. Keep it in mind during the games."
             }
           ]
         },
         {
-          "id": "s19-lookback",
-          "eyebrow": "Look back",
-          "title": "Session 16 asked you this",
-          "body": [
-            {
-              "kind": "quote",
-              "text": "What do you do when someone pushes back?",
-              "attribution": "Session 16 — The Initiation, Friction"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Before you read on, see if you can remember what you answered."
-            }
-          ],
-          "type": "reveal",
-          "reveals": [
-            {
-              "id": "what-it-was-after",
-              "label": "What that one was really about",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Pushback is normal. Your response to it is a choice, not a reflex you're stuck with."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s19-game",
+          "id": "s19-games",
           "type": "text-image",
-          "eyebrow": "The game",
-          "title": "Riding Bottom Position Game",
+          "eyebrow": "Tonight on the mat",
+          "title": "The three games",
           "body": [
             {
               "kind": "lead",
-              "text": "This one is from the bottom. The pin breaks and you get reversed or stuck underneath. Win by framing first, then standing and turning to face your partner."
+              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Single Leg, Make Partner Fall to Hands or Hips"
             },
             {
               "kind": "paragraph",
-              "text": "Reset clean, no payback. That is how you handle a break when a connection goes bad."
-            }
-          ],
-          "reveals": [
+              "text": "Skill Learning Objective (SLO): Entering, for both players."
+            },
             {
-              "id": "key-condition",
-              "label": "What you need first",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Frame first, then bridge. Reset clean after the break."
-                }
+              "kind": "paragraph",
+              "text": "Both players stand. The attacker is connected to one of the defender's legs."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Attacker: move the defender using only that leg, run him, pull him, turn him, or lift him, to make his hips or hands touch the mat. Defender: stay balanced and use your connections to break the grip and free your leg."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The attacker wins when the defender's hips or hands touch the mat.",
+                "The defender wins by freeing the leg."
               ]
             },
             {
-              "id": "the-tap",
-              "label": "Still true every session: the tap",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
+              "kind": "heading",
+              "level": 3,
+              "text": "Guard Recovery After Leg Pass Game"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The bottom player is lying on his side. The top player has already passed the legs and is at his hips."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bottom player: stay mobile on your side, control the top player's arms to stop his hands from locking, and get your legs back in front. Top player: lock your hands around the bottom player's body."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The bottom player wins by getting his legs back in front in any real guard.",
+                "The top player wins by locking his hands around the bottom player."
+              ]
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Figure Four Grip Control Game"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Controlling for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The bottom player is on his back. The top player covers his head with a figure-four grip, one hand on the wrist, the other arm under the elbow."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Top player: keep the figure-four grip and stay under at least one elbow while keeping the bottom player pinned. Bottom player: break the grip by freeing your arms and getting your elbows to your body."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player has no time limit. He holds as long as he keeps the grip.",
+                "The bottom player wins by breaking the grip."
               ]
             }
           ]
@@ -180,12 +146,12 @@
             "role": "formative",
             "scored": false
           },
-          "question": "In Riding Bottom Position Game, what counts as the win?",
+          "question": "In Figure Four Grip Control Game, what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Framing first, then standing and turning to face — a clean reset",
+              "text": "The top player has no time limit. He holds as long as he keeps the grip.",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
@@ -207,184 +173,40 @@
       ]
     },
     {
-      "id": "lesson",
-      "title": "The lesson",
-      "slides": [
-        {
-          "id": "s19-grappling",
-          "type": "text-image",
-          "eyebrow": "On the mat",
-          "title": "What you were working on",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Notice when chest-pin control breaks, and reset to a safe position without panic or payback."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Notice the moment control is lost, a reversal or an escape.",
-                "Reset to a safe position instead of forcing it or trying to get payback."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s19-casel",
-          "type": "text-image",
-          "eyebrow": "Off the mat",
-          "title": "The part that was not about grappling",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Name what breaks inside you when a connection breaks."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Notice how you react inside when a relationship or connection breaks.",
-                "Name whether you tend to strike back, shut down, or pull away."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s19-connection",
-          "type": "reveal",
-          "eyebrow": "The connection",
-          "title": "Where those two meet",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Losing the pin and getting reversed is a small rupture. How you handle that break on the mat, a clean reset or payback, is a lot like how you handle broken connections in life."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "stage-arc",
-              "label": "Where this sits in The Initiation",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Chest-to-chest contact on the mat is like contact with people. Friction on the mat is like friction with people. A break on the mat is like a rupture between people. A reset on the mat is like repair between people. The Initiation tests the real you against other people."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "close",
       "title": "Before you go",
       "slides": [
         {
-          "id": "s19-recap",
-          "type": "reveal",
-          "eyebrow": "Quick recap",
-          "title": "Before you go: Riding Bottom Position Game",
+          "id": "s19-takeaway",
+          "type": "text-image",
+          "eyebrow": "The takeaway",
+          "title": "What tonight was really about",
           "body": [
             {
               "kind": "lead",
-              "text": "This one is from the bottom. The pin breaks and you get reversed or stuck underneath. Win by framing first, then standing and turning to face your partner."
+              "text": "A rupture teaches you something. You survived naming it."
             },
             {
               "kind": "paragraph",
-              "text": "Reset clean, no payback. That is how you handle a break when a connection goes bad."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "win-again",
-              "label": "How you win it, again",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Framing first, then standing and turning to face — a clean reset"
-                }
-              ]
-            },
-            {
-              "id": "tap-again",
-              "label": "And the rule that never changes",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
-              ]
+              "text": "Losing the pin and getting reversed is a small rupture. How you handle that break on the mat, a clean reset or payback, is a lot like how you handle broken connections in life."
             }
           ]
         },
         {
-          "id": "s19-summative",
-          "type": "quiz",
-          "eyebrow": "End-of-session check",
-          "title": "What today was asking of you",
-          "assessment": {
-            "role": "summative",
-            "scored": true
-          },
-          "question": "Which one was this session actually asking you to do?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "Name what breaks inside you when a connection breaks.",
-              "correct": true,
-              "feedback": "That was the target for today."
-            },
-            {
-              "text": "Name what it takes for you to give a real apology.",
-              "feedback": "That is Session 22's target, not today's."
-            },
-            {
-              "text": "Describe who you are with other people, now that the Descent named your real self.",
-              "feedback": "That is Session 15's target, not today's."
-            }
-          ],
-          "correctHead": "That's the one.",
-          "correctText": "That was the point of the whole session, on the mat and off it.",
-          "incorrectHead": "Not today.",
-          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
-          "revealText": "Today's target is marked above."
-        },
-        {
           "id": "s19-reflection",
           "type": "reflection",
-          "eyebrow": "Reflection",
+          "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What breaks in you when a connection breaks?",
-          "hint": "Nothing here is graded. A few words is plenty.",
+          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
           "placeholder": "Whatever comes to mind…"
         },
         {
           "id": "s19-irf",
           "type": "reflection",
-          "eyebrow": "Before you go",
+          "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session",
+          "kindLabel": "IRF — everyone fills this out, every session, on your own",
           "fields": [
             {
               "id": "mat",

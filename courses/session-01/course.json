@@ -16,54 +16,14 @@
       "Self-Management"
     ],
     "bloom": "Apply",
-    "card": "Foundations (safety)",
-    "domain": null,
-    "keyCondition": "Safe contact, the tap is understood.",
-    "gameName": "Kids Dirty Feet / Dragon Tag Game (mud and guard version, locked win condition)",
     "probingQuestion": "What makes a place feel safe to you?",
-    "grapplingTlo": null,
-    "looksBackAt": null,
-    "grapplingElos": [],
-    "caselTlo": null,
-    "caselElos": [],
-    "connection": null,
-    "takeaway": "That is what makes a place feel safe. Everyone knows the rules will hold.",
-    "_source": "GWMS Curriculum Guide — Session 1 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives).",
-    "_todo": "Session 1's Lesson and Intervention Guide carries only the game paragraph. Grappling TLO/ELOs, CASEL TLO/ELOs and the connection line are absent there, so they are absent here and the module states none of them."
+    "games": null,
+    "connection": "Tonight the room agreed on the rules together, out loud. That is what makes a place feel safe: everyone knows the rules will hold, and everyone had a hand in making them.",
+    "takeaway": "A safe place is one where everyone knows the rules will hold. Tonight you helped write them.",
+    "_source": "GWMS Curriculum Guide — Session 1 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
-    {
-      "id": "start",
-      "title": "Welcome",
-      "slides": [
-        {
-          "id": "s01-welcome",
-          "type": "text-image",
-          "eyebrow": "Welcome",
-          "title": "Welcome to GWMS Online",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is Session 1 of 36: Arrival."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Today you will do a game, a quick check on it, and a few questions about yourself."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 1 of 36. The Descent, Week 1, Arrival. On the mat that stage runs The Paths."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Take your time. There are no wrong answers when you write about yourself."
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "today",
       "title": "Today",
@@ -76,64 +36,60 @@
           "body": [
             {
               "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the game and the lesson."
-            }
-          ],
-          "alternates": [
-            {
-              "mode": "audio",
-              "label": "Listen",
-              "src": "assets/probing-question.m4a",
-              "transcriptIsBody": true,
-              "own": true,
-              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+              "text": "This is your question for today. Keep it in mind during the games."
             }
           ]
         },
         {
-          "id": "s01-game",
+          "id": "s01-golmest",
           "type": "text-image",
-          "eyebrow": "The game",
-          "title": "Kids Dirty Feet / Dragon Tag Game",
+          "eyebrow": "Tonight on the mat",
+          "title": "What tonight was",
           "body": [
             {
               "kind": "lead",
-              "text": "One partner lies on the ground. They put their feet on the standing partner to keep them out. It's like they are covered in mud and don't want to get the other person dirty. The standing partner's job is to move those feet out of the way and get all the way to chest-to-chest contact. Go slow and stay light. No one gets put on their back hard today. Switch roles so everyone tries both parts."
+              "text": "Tonight was orientation, not a normal night. You helped build the rules of this room yourself. From here on, every session runs the same way: warm up, play three games, cool down, a short lesson, then this phone for a few minutes, then cleanup."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "What you are here to learn"
             },
             {
               "kind": "paragraph",
-              "text": "The tap is law. If anyone taps, for any reason, stop right away."
-            }
-          ],
-          "reveals": [
+              "text": "The room ranked these together tonight. By the end of the program you will be able to do all five."
+            },
             {
-              "id": "key-condition",
-              "label": "What you need first",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Safe contact, the tap is understood."
-                }
+              "kind": "list",
+              "items": [
+                "Take him down.",
+                "Get past his legs.",
+                "Hold him down.",
+                "Set up the finish.",
+                "Get out from under."
               ]
             },
             {
-              "id": "the-tap",
-              "label": "Still true every session: the tap",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
+              "kind": "heading",
+              "level": 3,
+              "text": "The tap"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Three ways to tap, and any one of them ends it right away."
+            },
+            {
+              "kind": "list",
+              "ordered": true,
+              "items": [
+                "Tap your partner's body.",
+                "Tap the mat.",
+                "Say stop."
               ]
+            },
+            {
+              "kind": "paragraph",
+              "text": "The instant your partner taps, you stop. Not after you finish your move. Stop right away, every time."
             }
           ]
         },
@@ -141,31 +97,31 @@
           "id": "s01-check",
           "type": "quiz",
           "eyebrow": "Quick check",
-          "title": "How you win it",
+          "title": "What you just learned",
           "assessment": {
             "role": "formative",
             "scored": false
           },
-          "question": "In Kids Dirty Feet / Dragon Tag Game, what counts as the win?",
+          "question": "What ends a round right away?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Clearing the feet out of the way and getting all the way to chest-to-chest contact",
+              "text": "Tapping your partner, tapping the mat, or saying stop.",
               "correct": true,
-              "feedback": "That is the win condition, and nothing else scores."
+              "feedback": "That is it, and it is true every single session."
             },
             {
-              "text": "Submitting your partner",
-              "feedback": "Not part of the Paths. Enter and Arrive are the two path steps here, and neither one ends in a submission. The path leads you into a pin, not a finish."
+              "text": "Waiting for the coach to notice and call it.",
+              "feedback": "Not fast enough. The tap has to stop the round right away."
             },
             {
-              "text": "Putting your partner down hard",
-              "feedback": "Never. Everyone goes light, and the tap always stops it right away, every time."
+              "text": "Just going still and hoping your partner feels it.",
+              "feedback": "Not fast enough. The tap has to stop the round right away."
             }
           ],
           "correctHead": "That's it.",
-          "correctText": "That is how you win today.",
+          "correctText": "The tap is law, every session.",
           "incorrectHead": "Not quite.",
           "incorrectText": "Read the note under your choice, then try again.",
           "revealText": "The right answer is marked above, with the reason."
@@ -177,67 +133,36 @@
       "title": "Before you go",
       "slides": [
         {
-          "id": "s01-recap",
-          "type": "reveal",
-          "eyebrow": "Quick recap",
-          "title": "Before you go: Kids Dirty Feet / Dragon Tag Game",
+          "id": "s01-takeaway",
+          "type": "text-image",
+          "eyebrow": "The takeaway",
+          "title": "What tonight was really about",
           "body": [
             {
               "kind": "lead",
-              "text": "One partner lies on the ground. They put their feet on the standing partner to keep them out. It's like they are covered in mud and don't want to get the other person dirty. The standing partner's job is to move those feet out of the way and get all the way to chest-to-chest contact. Go slow and stay light. No one gets put on their back hard today. Switch roles so everyone tries both parts."
+              "text": "A safe place is one where everyone knows the rules will hold. Tonight you helped write them."
             },
             {
               "kind": "paragraph",
-              "text": "The tap is law. If anyone taps, for any reason, stop right away."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "win-again",
-              "label": "How you win it, again",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Clearing the feet out of the way and getting all the way to chest-to-chest contact"
-                }
-              ]
-            },
-            {
-              "id": "tap-again",
-              "label": "And the rule that never changes",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
-              ]
+              "text": "Tonight the room agreed on the rules together, out loud. That is what makes a place feel safe: everyone knows the rules will hold, and everyone had a hand in making them."
             }
           ]
         },
         {
           "id": "s01-reflection",
           "type": "reflection",
-          "eyebrow": "Reflection",
+          "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What makes a place feel safe to you?",
-          "hint": "Nothing here is graded. A few words is plenty.",
+          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
           "placeholder": "Whatever comes to mind…"
         },
         {
           "id": "s01-irf",
           "type": "reflection",
-          "eyebrow": "Before you go",
+          "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session",
+          "kindLabel": "IRF — everyone fills this out, every session, on your own",
           "fields": [
             {
               "id": "mat",

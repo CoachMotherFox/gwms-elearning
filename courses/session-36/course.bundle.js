@@ -17,59 +17,27 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
       "Responsible Decision-Making"
     ],
     "bloom": "Apply and Analyze",
-    "card": "The Back Pin",
-    "domain": "Integrate",
-    "keyCondition": "A final live roll, tap honored, then the walk out the door.",
-    "gameName": "First to Chest-to-Back: Find, Maintain, and Submit (same capstone-week exception as 34 and 35)",
     "probingQuestion": "What do you carry out this door?",
-    "grapplingTlo": "By the end of this session, the participant will show the whole back-pin game one last time, and name what from the training carries beyond the room.",
-    "looksBackAt": 24,
-    "grapplingElos": [
-      "Complete a final live roll, controlling and finishing with the tap honored.",
-      "Name what of the mat carries into life."
-    ],
-    "caselTlo": "By the end of this session, the participant will name what they carry out of the program into the rest of their life.",
-    "caselElos": [
-      "Name what they take with them.",
-      "Commit to one way they will use it."
+    "games": [
+      {
+        "skill": "Entering",
+        "title": "Over-Under to Close Hand Connection"
+      },
+      {
+        "skill": "Arriving",
+        "title": "Half Guard Side-Position Game"
+      },
+      {
+        "skill": "Controlling",
+        "title": "Back Take, Maintain Chest to Back Contact"
+      }
     ],
     "connection": "The last roll ends, and then you walk out the door. What you carry out, control, mercy, the ability to stay, the real self, is the whole point. The mat was never the destination. What you carry out of it is.",
     "takeaway": "You descended and met yourself. You were initiated and tested against others. You returned, and you carry it out with you.",
-    "_source": "GWMS Curriculum Guide — Session 36 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+    "_source": "GWMS Curriculum Guide — Session 36 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
-    {
-      "id": "start",
-      "title": "Welcome",
-      "slides": [
-        {
-          "id": "s36-welcome",
-          "type": "text-image",
-          "eyebrow": "Welcome",
-          "title": "Welcome to GWMS Online",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is Session 36 of 36: Celebration."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 36 of 36. The Return, Week 12, Celebration. On the mat that stage runs Back Pin."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Take your time. There are no wrong answers when you write about yourself."
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "today",
       "title": "Today",
@@ -82,92 +50,89 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
           "body": [
             {
               "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the game and the lesson."
-            }
-          ],
-          "alternates": [
-            {
-              "mode": "audio",
-              "label": "Listen",
-              "src": "assets/probing-question.m4a",
-              "transcriptIsBody": true,
-              "own": true,
-              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+              "text": "This is your question for today. Keep it in mind during the games."
             }
           ]
         },
         {
-          "id": "s36-lookback",
-          "eyebrow": "Look back",
-          "title": "Session 24 asked you this",
-          "body": [
-            {
-              "kind": "quote",
-              "text": "What does repair cost you, and is it worth paying?",
-              "attribution": "Session 24 — The Initiation, Repair"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Before you read on, see if you can remember what you answered."
-            }
-          ],
-          "type": "reveal",
-          "reveals": [
-            {
-              "id": "what-it-was-after",
-              "label": "What that one was really about",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "You made contact, took the friction, survived the rupture, and learned repair."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s36-game",
+          "id": "s36-games",
           "type": "text-image",
-          "eyebrow": "The game",
-          "title": "First to Chest-to-Back: Find, Maintain, and Submit",
+          "eyebrow": "Tonight on the mat",
+          "title": "The three games",
           "body": [
             {
               "kind": "lead",
-              "text": "The last roll of the program. Find the back. Hold it. Finish with the tap honored. Then you walk out the door."
+              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Over-Under to Close Hand Connection"
             },
             {
               "kind": "paragraph",
-              "text": "The mat was never the point. What you carry out of it is."
-            }
-          ],
-          "reveals": [
+              "text": "Skill Learning Objective (SLO): Entering, for both players."
+            },
             {
-              "id": "key-condition",
-              "label": "What you need first",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "A final live roll, tap honored, then the walk out the door."
-                }
+              "kind": "paragraph",
+              "text": "Both players stand in an even tie, one arm over and one arm under, on both sides."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Fight to get under your partner's elbows. Connect your hands anywhere from his armpits to his ankles."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "Whoever connects first wins. The first closed-hand connection, anywhere from armpits to ankles, takes it."
               ]
             },
             {
-              "id": "the-tap",
-              "label": "Still true every session: the tap",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
+              "kind": "heading",
+              "level": 3,
+              "text": "Half Guard Side-Position Game"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The bottom player is in half guard on his side, arms out straight. The top player is inside the half guard."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Top player: clear the bottom player's hands and get under at least one elbow, then connect your hands. Bottom player: keep your hands on the top player to deny that spot, and close your legs around his waist."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player wins by getting under one elbow and connecting his hands.",
+                "The bottom player wins by closing his legs around the top player's waist."
+              ]
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Back Take, Maintain Chest to Back Contact"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Controlling for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The attacker is in full back control, chest on the defender's back, arms around the shoulders, hooks in. The defender may move freely."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Attacker: keep chest-to-back contact by following the defender wherever he goes. If your hands separate, reconnect them. If a hook comes out, put it back in. Defender: fight the connections to put your back on the mat or turn to face the attacker."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The attacker has no time limit. He holds as long as he keeps contact.",
+                "The defender wins by getting his back to the mat or turning face to face."
               ]
             }
           ]
@@ -181,12 +146,12 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In First to Chest-to-Back: Find, Maintain, and Submit, what counts as the win?",
+          "question": "In Back Take, Maintain Chest to Back Contact, what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Finding the back, maintaining it, and submitting with the tap honored",
+              "text": "The attacker has no time limit. He holds as long as he keeps contact.",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
@@ -208,184 +173,40 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
       ]
     },
     {
-      "id": "lesson",
-      "title": "The lesson",
-      "slides": [
-        {
-          "id": "s36-grappling",
-          "type": "text-image",
-          "eyebrow": "On the mat",
-          "title": "What you were working on",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Show the whole back-pin game one last time, and name what from the training carries beyond the room."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Complete a final live roll, controlling and finishing with the tap honored.",
-                "Name what of the mat carries into life."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s36-casel",
-          "type": "text-image",
-          "eyebrow": "Off the mat",
-          "title": "The part that was not about grappling",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Name what you carry out of the program into the rest of your life."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Name what you take with you.",
-                "Commit to one way you will use it."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s36-connection",
-          "type": "reveal",
-          "eyebrow": "The connection",
-          "title": "Where those two meet",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "The last roll ends, and then you walk out the door. What you carry out, control, mercy, the ability to stay, the real self, is the whole point. The mat was never the destination. What you carry out of it is."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "stage-arc",
-              "label": "Where this sits in The Return",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Total control, plus the choice not to hurt someone, is the heart of the whole program. Now you carry that choice out the door."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "close",
       "title": "Before you go",
       "slides": [
         {
-          "id": "s36-recap",
-          "type": "reveal",
-          "eyebrow": "Quick recap",
-          "title": "Before you go: First to Chest-to-Back: Find, Maintain, and Submit",
+          "id": "s36-takeaway",
+          "type": "text-image",
+          "eyebrow": "The takeaway",
+          "title": "What tonight was really about",
           "body": [
             {
               "kind": "lead",
-              "text": "The last roll of the program. Find the back. Hold it. Finish with the tap honored. Then you walk out the door."
+              "text": "You descended and met yourself. You were initiated and tested against others. You returned, and you carry it out with you."
             },
             {
               "kind": "paragraph",
-              "text": "The mat was never the point. What you carry out of it is."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "win-again",
-              "label": "How you win it, again",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Finding the back, maintaining it, and submitting with the tap honored"
-                }
-              ]
-            },
-            {
-              "id": "tap-again",
-              "label": "And the rule that never changes",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
-              ]
+              "text": "The last roll ends, and then you walk out the door. What you carry out, control, mercy, the ability to stay, the real self, is the whole point. The mat was never the destination. What you carry out of it is."
             }
           ]
         },
         {
-          "id": "s36-summative",
-          "type": "quiz",
-          "eyebrow": "End-of-session check",
-          "title": "What today was asking of you",
-          "assessment": {
-            "role": "summative",
-            "scored": true
-          },
-          "question": "Which one was this session actually asking you to do?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "Name what you carry out of the program into the rest of your life.",
-              "correct": true,
-              "feedback": "That was the target for today."
-            },
-            {
-              "text": "Find who needs what you have learned, and turn the work outward.",
-              "feedback": "That is Session 28's target, not today's."
-            },
-            {
-              "text": "Name what someone would learn from watching how you carry yourself.",
-              "feedback": "That is Session 33's target, not today's."
-            }
-          ],
-          "correctHead": "That's the one.",
-          "correctText": "That was the point of the whole session, on the mat and off it.",
-          "incorrectHead": "Not today.",
-          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
-          "revealText": "Today's target is marked above."
-        },
-        {
           "id": "s36-reflection",
           "type": "reflection",
-          "eyebrow": "Reflection",
+          "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What do you carry out this door?",
-          "hint": "Nothing here is graded. A few words is plenty.",
+          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
           "placeholder": "Whatever comes to mind…"
         },
         {
           "id": "s36-irf",
           "type": "reflection",
-          "eyebrow": "Before you go",
+          "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session",
+          "kindLabel": "IRF — everyone fills this out, every session, on your own",
           "fields": [
             {
               "id": "mat",

@@ -18,59 +18,27 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
       "Self-Management"
     ],
     "bloom": "Apply",
-    "card": "Controlling the Legs",
-    "domain": "Enter",
-    "keyCondition": "Clear the first checkpoint, feet or knees.",
-    "gameName": "Feet-Off Guard Passing Game",
     "probingQuestion": "What slips out of you when you get tired and stop performing?",
-    "grapplingTlo": "By the end of this session, the participant will pass the first checkpoints against a tired, lighter guard.",
-    "looksBackAt": 2,
-    "grapplingElos": [
-      "Clear one checkpoint, the feet or the knees.",
-      "Keep control while passing."
-    ],
-    "caselTlo": "By the end of this session, the participant will name what comes out when they are too tired to perform.",
-    "caselElos": [
-      "Notice the honest reaction when they are tired.",
-      "Name it without judging it."
+    "games": [
+      {
+        "skill": "Entering",
+        "title": "Hand Fight with Leg Pickup Option"
+      },
+      {
+        "skill": "Arriving",
+        "title": "Feet-Off Guard Passing Game"
+      },
+      {
+        "skill": "Controlling",
+        "title": "Pinning, Continuous Hip and Shoulder Connection from All Fours"
+      }
     ],
     "connection": "When you and your partner get tired, the fake stuff drops on both sides, the passer and the guard. What slips out when you are too tired to perform is the truest thing about you, on the mat and off.",
     "takeaway": "What shows up when you are empty is often the truest thing about you.",
-    "_source": "GWMS Curriculum Guide — Session 8 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+    "_source": "GWMS Curriculum Guide — Session 8 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
-    {
-      "id": "start",
-      "title": "Welcome",
-      "slides": [
-        {
-          "id": "s08-welcome",
-          "type": "text-image",
-          "eyebrow": "Welcome",
-          "title": "Welcome to GWMS Online",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is Session 8 of 36: Crack."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 8 of 36. The Descent, Week 3, Crack. On the mat that stage runs The Paths."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Take your time. There are no wrong answers when you write about yourself."
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "today",
       "title": "Today",
@@ -83,92 +51,89 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
           "body": [
             {
               "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the game and the lesson."
-            }
-          ],
-          "alternates": [
-            {
-              "mode": "audio",
-              "label": "Listen",
-              "src": "assets/probing-question.m4a",
-              "transcriptIsBody": true,
-              "own": true,
-              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+              "text": "This is your question for today. Keep it in mind during the games."
             }
           ]
         },
         {
-          "id": "s08-lookback",
-          "eyebrow": "Look back",
-          "title": "Session 2 asked you this",
-          "body": [
-            {
-              "kind": "quote",
-              "text": "How do you show up when nobody here knows you yet?",
-              "attribution": "Session 2 — The Descent, Arrival"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Before you read on, see if you can remember what you answered."
-            }
-          ],
-          "type": "reveal",
-          "reveals": [
-            {
-              "id": "what-it-was-after",
-              "label": "What that one was really about",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Everybody has an entrance, and now you can see yours."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s08-game",
+          "id": "s08-games",
           "type": "text-image",
-          "eyebrow": "The game",
-          "title": "Feet-Off Guard Passing Game",
+          "eyebrow": "Tonight on the mat",
+          "title": "The three games",
           "body": [
             {
               "kind": "lead",
-              "text": "The top player works to clear the first checkpoint. Win with shin-to-body contact, inside or outside the knees, feet off the ground."
+              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Hand Fight with Leg Pickup Option"
             },
             {
               "kind": "paragraph",
-              "text": "You are learning to clear one gate at a time when everyone is a little tired. That is when the real reactions start to show."
-            }
-          ],
-          "reveals": [
+              "text": "Skill Learning Objective (SLO): Entering, for both players."
+            },
             {
-              "id": "key-condition",
-              "label": "What you need first",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Clear the first checkpoint, feet or knees."
-                }
+              "kind": "paragraph",
+              "text": "Both players stand and hand fight for wrist, elbow, and head connections."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Get an inside, outside, or under-elbow connection. Then pick up your partner's leg at the knee or ankle."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "Whoever controls and picks up a leg first wins. The same rule applies to both players."
               ]
             },
             {
-              "id": "the-tap",
-              "label": "Still true every session: the tap",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
+              "kind": "heading",
+              "level": 3,
+              "text": "Feet-Off Guard Passing Game"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The bottom player is belly up in open guard. The top player is in front of him, hands already on him."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Top player: keep his feet off by clearing them and closing distance, stepping inside the knees or around the outside. Bottom player: use hooks, feet on the body, and posts to make the top player hit his butt or hands, then sit up with your back off the mat."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player wins by shin-to-body contact inside or outside the knees.",
+                "The bottom player wins by making the top player hit his butt and sitting up with your back off the mat."
+              ]
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Pinning, Continuous Hip and Shoulder Connection from All Fours"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Controlling for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The bottom player is on his hands and knees. The top player is behind him, hands locked around his waist."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Top player: use knee-to-knee and foot-to-foot blocking to pull his hips to the mat, switching between the hip grip and wrist grips to keep him belly down. Bottom player: get to a quad pod, both hands and both feet on the mat at the same time."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player has no time limit. He holds as long as he keeps the bottom player belly down.",
+                "The bottom player wins by getting to a quad pod."
               ]
             }
           ]
@@ -182,18 +147,18 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Feet-Off Guard Passing Game, what counts as the win?",
+          "question": "In Pinning, Continuous Hip and Shoulder Connection from All Fours, what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Shin-to-body contact inside or outside the knees, feet off",
+              "text": "The top player has no time limit. He holds as long as he keeps the bottom player belly down.",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not part of the Paths. Enter and Arrive are the two path steps here, and neither one ends in a submission. The path leads you into a pin, not a finish."
+              "feedback": "Not part of the Paths yet. Entering and Arriving are the two steps here, and neither one ends in a finish. The path leads you into a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
@@ -209,184 +174,40 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
       ]
     },
     {
-      "id": "lesson",
-      "title": "The lesson",
-      "slides": [
-        {
-          "id": "s08-grappling",
-          "type": "text-image",
-          "eyebrow": "On the mat",
-          "title": "What you were working on",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Pass the first checkpoints against a tired, lighter guard."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Clear one checkpoint, the feet or the knees.",
-                "Keep control while passing."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s08-casel",
-          "type": "text-image",
-          "eyebrow": "Off the mat",
-          "title": "The part that was not about grappling",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Name what comes out when you are too tired to perform."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Notice the honest reaction when you are tired.",
-                "Name it without judging it."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s08-connection",
-          "type": "reveal",
-          "eyebrow": "The connection",
-          "title": "Where those two meet",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "When you and your partner get tired, the fake stuff drops on both sides, the passer and the guard. What slips out when you are too tired to perform is the truest thing about you, on the mat and off."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "stage-arc",
-              "label": "Where this sits in The Descent",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Getting past a partner's guard to what it protects is the same act as looking under a mask to the real person. The Descent digs deep, on the mat and inside you."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "close",
       "title": "Before you go",
       "slides": [
         {
-          "id": "s08-recap",
-          "type": "reveal",
-          "eyebrow": "Quick recap",
-          "title": "Before you go: Feet-Off Guard Passing Game",
+          "id": "s08-takeaway",
+          "type": "text-image",
+          "eyebrow": "The takeaway",
+          "title": "What tonight was really about",
           "body": [
             {
               "kind": "lead",
-              "text": "The top player works to clear the first checkpoint. Win with shin-to-body contact, inside or outside the knees, feet off the ground."
+              "text": "What shows up when you are empty is often the truest thing about you."
             },
             {
               "kind": "paragraph",
-              "text": "You are learning to clear one gate at a time when everyone is a little tired. That is when the real reactions start to show."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "win-again",
-              "label": "How you win it, again",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Shin-to-body contact inside or outside the knees, feet off"
-                }
-              ]
-            },
-            {
-              "id": "tap-again",
-              "label": "And the rule that never changes",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
-              ]
+              "text": "When you and your partner get tired, the fake stuff drops on both sides, the passer and the guard. What slips out when you are too tired to perform is the truest thing about you, on the mat and off."
             }
           ]
         },
         {
-          "id": "s08-summative",
-          "type": "quiz",
-          "eyebrow": "End-of-session check",
-          "title": "What today was asking of you",
-          "assessment": {
-            "role": "summative",
-            "scored": true
-          },
-          "question": "Which one was this session actually asking you to do?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "Name what comes out when you are too tired to perform.",
-              "correct": true,
-              "feedback": "That was the target for today."
-            },
-            {
-              "text": "Admit, at least to yourself, one part you have hidden even from yourself.",
-              "feedback": "That is Session 11's target, not today's."
-            },
-            {
-              "text": "Trace your mask back to where or who you learned it from, without having to share the story.",
-              "feedback": "That is Session 5's target, not today's."
-            }
-          ],
-          "correctHead": "That's the one.",
-          "correctText": "That was the point of the whole session, on the mat and off it.",
-          "incorrectHead": "Not today.",
-          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
-          "revealText": "Today's target is marked above."
-        },
-        {
           "id": "s08-reflection",
           "type": "reflection",
-          "eyebrow": "Reflection",
+          "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What slips out of you when you get tired and stop performing?",
-          "hint": "Nothing here is graded. A few words is plenty.",
+          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
           "placeholder": "Whatever comes to mind…"
         },
         {
           "id": "s08-irf",
           "type": "reflection",
-          "eyebrow": "Before you go",
+          "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session",
+          "kindLabel": "IRF — everyone fills this out, every session, on your own",
           "fields": [
             {
               "id": "mat",

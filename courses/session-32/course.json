@@ -15,59 +15,27 @@
       "Responsible Decision-Making"
     ],
     "bloom": "Apply and Analyze",
-    "card": "The Back Pin",
-    "domain": "Finish, Arm Lock from back",
-    "keyCondition": "Anchor the shoulder and control the wrist before you extend. Release on the tap.",
-    "gameName": "Chest to Back to Precursor Transitions Game",
     "probingQuestion": "What standard are you setting for whoever comes next?",
-    "grapplingTlo": "By the end of this session, the participant will use the arm lock from the back with control, and name how their actions set the standard for the room.",
-    "looksBackAt": 26,
-    "grapplingElos": [
-      "Get the back arm lock with control, and release on the tap.",
-      "Name one way their actions set a standard others follow."
-    ],
-    "caselTlo": "By the end of this session, the participant will name the standard they set for whoever comes after them.",
-    "caselElos": [
-      "Name the standard their behavior sets right now.",
-      "Name whether it is the one they want to set."
+    "games": [
+      {
+        "skill": "Entering",
+        "title": "Single Leg Takedown Game"
+      },
+      {
+        "skill": "Arriving",
+        "title": "Guard Destabilization Game"
+      },
+      {
+        "skill": "Finishing",
+        "title": "Chest to Back to Precursor Transitions Game"
+      }
     ],
     "connection": "How you carry yourself in the room, how you finish, how you treat a new partner, quietly sets the bar for everyone watching. The standard you set for whoever comes next in life works the same way. How you act is the standard.",
     "takeaway": "How you act is the standard, so choose it on purpose.",
-    "_source": "GWMS Curriculum Guide — Session 32 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+    "_source": "GWMS Curriculum Guide — Session 32 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
-    {
-      "id": "start",
-      "title": "Welcome",
-      "slides": [
-        {
-          "id": "s32-welcome",
-          "type": "text-image",
-          "eyebrow": "Welcome",
-          "title": "Welcome to GWMS Online",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is Session 32 of 36: Legacy."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 32 of 36. The Return, Week 11, Legacy. On the mat that stage runs Back Pin."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Take your time. There are no wrong answers when you write about yourself."
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "today",
       "title": "Today",
@@ -80,92 +48,90 @@
           "body": [
             {
               "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the game and the lesson."
-            }
-          ],
-          "alternates": [
-            {
-              "mode": "audio",
-              "label": "Listen",
-              "src": "assets/probing-question.m4a",
-              "transcriptIsBody": true,
-              "own": true,
-              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+              "text": "This is your question for today. Keep it in mind during the games."
             }
           ]
         },
         {
-          "id": "s32-lookback",
-          "eyebrow": "Look back",
-          "title": "Session 26 asked you this",
-          "body": [
-            {
-              "kind": "quote",
-              "text": "How do you know the change is real and not just talk?",
-              "attribution": "Session 26 — The Return, Emergence"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Before you read on, see if you can remember what you answered."
-            }
-          ],
-          "type": "reveal",
-          "reveals": [
-            {
-              "id": "what-it-was-after",
-              "label": "What that one was really about",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Tested change is change you can trust."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s32-game",
+          "id": "s32-games",
           "type": "text-image",
-          "eyebrow": "The game",
-          "title": "Chest to Back to Precursor Transitions Game",
+          "eyebrow": "Tonight on the mat",
+          "title": "The three games",
           "body": [
             {
               "kind": "lead",
-              "text": "The arm lock from the back. Move through the setup grips. Anchor the shoulder and control the wrist before you extend. Release on the tap."
+              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Single Leg Takedown Game"
             },
             {
               "kind": "paragraph",
-              "text": "How you act here, controlled and clean, is the standard the next person copies."
-            }
-          ],
-          "reveals": [
+              "text": "Skill Learning Objective (SLO): Entering, for both players."
+            },
             {
-              "id": "key-condition",
-              "label": "What you need first",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Anchor the shoulder and control the wrist before you extend. Release on the tap."
-                }
+              "kind": "paragraph",
+              "text": "Both players stand. The attacker is connected to one of the defender's legs at the knee."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Attacker: move the defender and make him fall toward his hands or hips, running him, pulling him, turning him, or lifting him, using only that leg. Defender: stay balanced and use your connections to break the grip and free your leg."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The attacker wins when the defender touches the mat with his hips or hands.",
+                "The defender wins by freeing the leg."
               ]
             },
             {
-              "id": "the-tap",
-              "label": "Still true every session: the tap",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
+              "kind": "heading",
+              "level": 3,
+              "text": "Guard Destabilization Game"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The bottom player is on the bottom, feet between the top player's knees, one hand on his ankle. The top player stands."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bottom player: use your feet and hands to pull the top player's hands to the mat above your head, and push or pull his butt to the mat too, both in the same rep, in any order. Top player: get to the outside of both legs and make shin-to-body contact."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The bottom player wins when the top player's hands have touched the mat above his head and his butt has touched the mat, both in the same rep.",
+                "The top player wins by getting outside both legs and making shin-to-body contact."
+              ]
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Chest to Back to Precursor Transitions Game"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Finishing for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The top player is behind the bottom player with chest-to-back contact."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Top player: keep chest-to-back with your hands or hooks, or move to a precursor position on top, staying under an elbow while you move. Bottom player: put your back on the mat with nothing under your elbows, or turn face to face."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player wins by reaching a precursor position on top. Chest to back by itself is a continuous hold, no time count, and if the bottom player escapes, you reset.",
+                "The bottom player wins by his back on the mat or by turning face to face."
               ]
             }
           ]
@@ -179,12 +145,12 @@
             "role": "formative",
             "scored": false
           },
-          "question": "In Chest to Back to Precursor Transitions Game, what counts as the win?",
+          "question": "In Chest to Back to Precursor Transitions Game, what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Moving through the setup grips with the shoulder anchored and the wrist controlled before any extension",
+              "text": "The top player wins by reaching a precursor position on top. Chest to back by itself is a continuous hold, no time count, and if the bottom player escapes, you reset.",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
@@ -206,184 +172,40 @@
       ]
     },
     {
-      "id": "lesson",
-      "title": "The lesson",
-      "slides": [
-        {
-          "id": "s32-grappling",
-          "type": "text-image",
-          "eyebrow": "On the mat",
-          "title": "What you were working on",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Use the arm lock from the back with control, and name how your actions set the standard for the room."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Get the back arm lock with control, and release on the tap.",
-                "Name one way your actions set a standard others follow."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s32-casel",
-          "type": "text-image",
-          "eyebrow": "Off the mat",
-          "title": "The part that was not about grappling",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Name the standard you set for whoever comes after you."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Name the standard your behavior sets right now.",
-                "Name whether it is the one you want to set."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s32-connection",
-          "type": "reveal",
-          "eyebrow": "The connection",
-          "title": "Where those two meet",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "How you carry yourself in the room, how you finish, how you treat a new partner, quietly sets the bar for everyone watching. The standard you set for whoever comes next in life works the same way. How you act is the standard."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "stage-arc",
-              "label": "Where this sits in The Return",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Total control, plus the choice not to hurt someone, is the heart of the whole program. Now you carry that choice out the door."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "close",
       "title": "Before you go",
       "slides": [
         {
-          "id": "s32-recap",
-          "type": "reveal",
-          "eyebrow": "Quick recap",
-          "title": "Before you go: Chest to Back to Precursor Transitions Game",
+          "id": "s32-takeaway",
+          "type": "text-image",
+          "eyebrow": "The takeaway",
+          "title": "What tonight was really about",
           "body": [
             {
               "kind": "lead",
-              "text": "The arm lock from the back. Move through the setup grips. Anchor the shoulder and control the wrist before you extend. Release on the tap."
+              "text": "How you act is the standard, so choose it on purpose."
             },
             {
               "kind": "paragraph",
-              "text": "How you act here, controlled and clean, is the standard the next person copies."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "win-again",
-              "label": "How you win it, again",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Moving through the setup grips with the shoulder anchored and the wrist controlled before any extension"
-                }
-              ]
-            },
-            {
-              "id": "tap-again",
-              "label": "And the rule that never changes",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
-              ]
+              "text": "How you carry yourself in the room, how you finish, how you treat a new partner, quietly sets the bar for everyone watching. The standard you set for whoever comes next in life works the same way. How you act is the standard."
             }
           ]
         },
         {
-          "id": "s32-summative",
-          "type": "quiz",
-          "eyebrow": "End-of-session check",
-          "title": "What today was asking of you",
-          "assessment": {
-            "role": "summative",
-            "scored": true
-          },
-          "question": "Which one was this session actually asking you to do?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "Name the standard you set for whoever comes after you.",
-              "correct": true,
-              "feedback": "That was the target for today."
-            },
-            {
-              "text": "Name what you carry out of the program into the rest of your life.",
-              "feedback": "That is Session 36's target, not today's."
-            },
-            {
-              "text": "Name a contribution that costs you something real.",
-              "feedback": "That is Session 29's target, not today's."
-            }
-          ],
-          "correctHead": "That's the one.",
-          "correctText": "That was the point of the whole session, on the mat and off it.",
-          "incorrectHead": "Not today.",
-          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
-          "revealText": "Today's target is marked above."
-        },
-        {
           "id": "s32-reflection",
           "type": "reflection",
-          "eyebrow": "Reflection",
+          "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What standard are you setting for whoever comes next?",
-          "hint": "Nothing here is graded. A few words is plenty.",
+          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
           "placeholder": "Whatever comes to mind…"
         },
         {
           "id": "s32-irf",
           "type": "reflection",
-          "eyebrow": "Before you go",
+          "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session",
+          "kindLabel": "IRF — everyone fills this out, every session, on your own",
           "fields": [
             {
               "id": "mat",

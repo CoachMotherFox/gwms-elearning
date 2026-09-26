@@ -18,59 +18,27 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
       "Self-Management"
     ],
     "bloom": "Apply",
-    "card": "Controlling the Legs",
-    "domain": "Enter, retainer's side",
-    "keyCondition": "Protect the space behind the legs.",
-    "gameName": "Knee Pit Touchdown Game, played from the retaining side",
     "probingQuestion": "What does your mask protect you from?",
-    "grapplingTlo": "By the end of this session, the participant will use guard retention to protect the space behind their legs.",
-    "looksBackAt": 3,
-    "grapplingElos": [
-      "Hold the frame that protects the pin space.",
-      "Notice when the guard is about to be beaten."
-    ],
-    "caselTlo": "By the end of this session, the participant will name what their mask defends against.",
-    "caselElos": [
-      "Name what the mask does.",
-      "Share only as much as they want."
+    "games": [
+      {
+        "skill": "Entering",
+        "title": "Consecutive Touches with Clinch Counter"
+      },
+      {
+        "skill": "Arriving",
+        "title": "Knee Pit Touchdown Game"
+      },
+      {
+        "skill": "Controlling",
+        "title": "Mount, Stay Under Both Elbows"
+      }
     ],
     "connection": "Your guard protects the space behind your legs. Your mask protects something too. Naming what the guard defends is the same as naming what the mask hides.",
     "takeaway": "The mask has a job. Next week we find out what happens to it under pressure.",
-    "_source": "GWMS Curriculum Guide — Session 6 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+    "_source": "GWMS Curriculum Guide — Session 6 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
-    {
-      "id": "start",
-      "title": "Welcome",
-      "slides": [
-        {
-          "id": "s06-welcome",
-          "type": "text-image",
-          "eyebrow": "Welcome",
-          "title": "Welcome to GWMS Online",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is Session 6 of 36: Mask."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 6 of 36. The Descent, Week 2, Mask. On the mat that stage runs The Paths."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Take your time. There are no wrong answers when you write about yourself."
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "today",
       "title": "Today",
@@ -83,92 +51,90 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
           "body": [
             {
               "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the game and the lesson."
-            }
-          ],
-          "alternates": [
-            {
-              "mode": "audio",
-              "label": "Listen",
-              "src": "assets/probing-question.m4a",
-              "transcriptIsBody": true,
-              "own": true,
-              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+              "text": "This is your question for today. Keep it in mind during the games."
             }
           ]
         },
         {
-          "id": "s06-lookback",
-          "eyebrow": "Look back",
-          "title": "Session 3 asked you this",
-          "body": [
-            {
-              "kind": "quote",
-              "text": "What are you like before you trust the room?",
-              "attribution": "Session 3 — The Descent, Arrival"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Before you read on, see if you can remember what you answered."
-            }
-          ],
-          "type": "reveal",
-          "reveals": [
-            {
-              "id": "what-it-was-after",
-              "label": "What that one was really about",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "The guard is smart. Next week we look at the face that guard wears: the mask."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s06-game",
+          "id": "s06-games",
           "type": "text-image",
-          "eyebrow": "The game",
-          "title": "Knee Pit Touchdown Game, played from the retaining side",
+          "eyebrow": "Tonight on the mat",
+          "title": "The three games",
           "body": [
             {
               "kind": "lead",
-              "text": "One partner, the passer, tries to touch both of the other partner's knee pits with their own feet off the ground. The other partner's job is to keep their knees and feet moving so the passer cannot land both touches. Switch roles so everyone tries both jobs."
+              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Consecutive Touches with Clinch Counter"
             },
             {
               "kind": "paragraph",
-              "text": "Stay light. The tap is law."
-            }
-          ],
-          "reveals": [
+              "text": "Skill Learning Objective (SLO): Entering, for both players."
+            },
             {
-              "id": "key-condition",
-              "label": "What you need first",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Protect the space behind the legs."
-                }
+              "kind": "paragraph",
+              "text": "Both players stand facing each other, hand fighting range, no grips."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Touch player: collect three sets of two touches in a row. A touch is making the clinch player's hands touch the mat, or gripping behind one of his knees. Clinch player: close both hands around the touch player under both elbows or chest to back. Headlock, hips, or ankle clinches do not count."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The touch player wins with three sets of two touches in a row.",
+                "The clinch player wins by closing his hands under both elbows or chest to back."
               ]
             },
             {
-              "id": "the-tap",
-              "label": "Still true every session: the tap",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
+              "kind": "heading",
+              "level": 3,
+              "text": "Knee Pit Touchdown Game"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The bottom player is belly up in open guard. The top player is standing and starts by clearing the feet."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Top player: clear the feet, then step one leg into one knee pit, then the other, in any order, keeping your feet off. Bottom player: hook and post with your feet, and use your hands to make him hit his butt, then sit up."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player wins by touching both knee pits with his leg while keeping his feet off.",
+                "The bottom player wins by sitting up."
+              ]
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Mount, Stay Under Both Elbows"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Controlling for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The bottom player is on his back. The top player is in mount with both arms under both of the bottom player's elbows."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Top player: stay under at least one elbow the whole round. If you lose one, fight to get it back. Bottom player: get both elbows to touch your own body with nothing under them, or make the top player fall over."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player has no time limit. He holds as long as he keeps at least one elbow covered.",
+                "The bottom player wins by touching both elbows to his body, or by making the top player fall."
               ]
             }
           ]
@@ -182,18 +148,18 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Knee Pit Touchdown Game, played from the retaining side, what counts as the win?",
+          "question": "In Mount, Stay Under Both Elbows, what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Keeping your knees and feet moving so the passer cannot land both touches",
+              "text": "The top player has no time limit. He holds as long as he keeps at least one elbow covered.",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not part of the Paths. Enter and Arrive are the two path steps here, and neither one ends in a submission. The path leads you into a pin, not a finish."
+              "feedback": "Not part of the Paths yet. Entering and Arriving are the two steps here, and neither one ends in a finish. The path leads you into a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
@@ -209,184 +175,40 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
       ]
     },
     {
-      "id": "lesson",
-      "title": "The lesson",
-      "slides": [
-        {
-          "id": "s06-grappling",
-          "type": "text-image",
-          "eyebrow": "On the mat",
-          "title": "What you were working on",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Use guard retention to protect the space behind your legs."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Hold the frame that protects the pin space.",
-                "Notice when the guard is about to be beaten."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s06-casel",
-          "type": "text-image",
-          "eyebrow": "Off the mat",
-          "title": "The part that was not about grappling",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Name what your mask defends against."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Name what the mask does.",
-                "Share only as much as you want."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s06-connection",
-          "type": "reveal",
-          "eyebrow": "The connection",
-          "title": "Where those two meet",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Your guard protects the space behind your legs. Your mask protects something too. Naming what the guard defends is the same as naming what the mask hides."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "stage-arc",
-              "label": "Where this sits in The Descent",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Getting past a partner's guard to what it protects is the same act as looking under a mask to the real person. The Descent digs deep, on the mat and inside you."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "close",
       "title": "Before you go",
       "slides": [
         {
-          "id": "s06-recap",
-          "type": "reveal",
-          "eyebrow": "Quick recap",
-          "title": "Before you go: Knee Pit Touchdown Game, played from the retaining side",
+          "id": "s06-takeaway",
+          "type": "text-image",
+          "eyebrow": "The takeaway",
+          "title": "What tonight was really about",
           "body": [
             {
               "kind": "lead",
-              "text": "One partner, the passer, tries to touch both of the other partner's knee pits with their own feet off the ground. The other partner's job is to keep their knees and feet moving so the passer cannot land both touches. Switch roles so everyone tries both jobs."
+              "text": "The mask has a job. Next week we find out what happens to it under pressure."
             },
             {
               "kind": "paragraph",
-              "text": "Stay light. The tap is law."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "win-again",
-              "label": "How you win it, again",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Keeping your knees and feet moving so the passer cannot land both touches"
-                }
-              ]
-            },
-            {
-              "id": "tap-again",
-              "label": "And the rule that never changes",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
-              ]
+              "text": "Your guard protects the space behind your legs. Your mask protects something too. Naming what the guard defends is the same as naming what the mask hides."
             }
           ]
         },
         {
-          "id": "s06-summative",
-          "type": "quiz",
-          "eyebrow": "End-of-session check",
-          "title": "What today was asking of you",
-          "assessment": {
-            "role": "summative",
-            "scored": true
-          },
-          "question": "Which one was this session actually asking you to do?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "Name what your mask defends against.",
-              "correct": true,
-              "feedback": "That was the target for today."
-            },
-            {
-              "text": "Name your personal tell, the first sure sign you have cracked.",
-              "feedback": "That is Session 9's target, not today's."
-            },
-            {
-              "text": "Name one thing you do to protect yourself before you trust a space, and call it a strength.",
-              "feedback": "That is Session 3's target, not today's."
-            }
-          ],
-          "correctHead": "That's the one.",
-          "correctText": "That was the point of the whole session, on the mat and off it.",
-          "incorrectHead": "Not today.",
-          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
-          "revealText": "Today's target is marked above."
-        },
-        {
           "id": "s06-reflection",
           "type": "reflection",
-          "eyebrow": "Reflection",
+          "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What does your mask protect you from?",
-          "hint": "Nothing here is graded. A few words is plenty.",
+          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
           "placeholder": "Whatever comes to mind…"
         },
         {
           "id": "s06-irf",
           "type": "reflection",
-          "eyebrow": "Before you go",
+          "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session",
+          "kindLabel": "IRF — everyone fills this out, every session, on your own",
           "fields": [
             {
               "id": "mat",

@@ -18,59 +18,27 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
       "Self-Management"
     ],
     "bloom": "Apply",
-    "card": "Taking the Base",
-    "domain": "Enter",
-    "keyCondition": "Change direction to break the base. No straight pushes.",
-    "gameName": "Hand Fight with Progression Game",
     "probingQuestion": "What are you like before you trust the room?",
-    "grapplingTlo": "By the end of this session, the participant will find the neutral standing start and keep safe contact while their partner moves.",
-    "looksBackAt": 1,
-    "grapplingElos": [
-      "Find the neutral standing start.",
-      "Keep safe contact as the partner moves."
-    ],
-    "caselTlo": "By the end of this session, the participant will name one thing they do to protect themselves before they trust a space, and call it a strength.",
-    "caselElos": [
-      "Name one protective habit.",
-      "Call it smart, not weak."
+    "games": [
+      {
+        "skill": "Entering",
+        "title": "Hand Touch / Knee Touch Collection Game"
+      },
+      {
+        "skill": "Arriving",
+        "title": "Belly-Up Open Guard Connection Foundation"
+      },
+      {
+        "skill": "Controlling",
+        "title": "Introductory Pin Game"
+      }
     ],
     "connection": "Staying safe and guarded on the mat before you trust a partner is the same guard you use before you trust a room. Both are smart. Naming it is the work.",
     "takeaway": "The guard is smart. Next week we look at the face that guard wears: the mask.",
-    "_source": "GWMS Curriculum Guide — Session 3 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+    "_source": "GWMS Curriculum Guide — Session 3 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
-    {
-      "id": "start",
-      "title": "Welcome",
-      "slides": [
-        {
-          "id": "s03-welcome",
-          "type": "text-image",
-          "eyebrow": "Welcome",
-          "title": "Welcome to GWMS Online",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is Session 3 of 36: Arrival."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 3 of 36. The Descent, Week 1, Arrival. On the mat that stage runs The Paths."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Take your time. There are no wrong answers when you write about yourself."
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "today",
       "title": "Today",
@@ -83,92 +51,89 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
           "body": [
             {
               "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the game and the lesson."
-            }
-          ],
-          "alternates": [
-            {
-              "mode": "audio",
-              "label": "Listen",
-              "src": "assets/probing-question.m4a",
-              "transcriptIsBody": true,
-              "own": true,
-              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+              "text": "This is your question for today. Keep it in mind during the games."
             }
           ]
         },
         {
-          "id": "s03-lookback",
-          "eyebrow": "Look back",
-          "title": "Session 1 asked you this",
-          "body": [
-            {
-              "kind": "quote",
-              "text": "What makes a place feel safe to you?",
-              "attribution": "Session 1 — The Descent, Arrival"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Before you read on, see if you can remember what you answered."
-            }
-          ],
-          "type": "reveal",
-          "reveals": [
-            {
-              "id": "what-it-was-after",
-              "label": "What that one was really about",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "That is what makes a place feel safe. Everyone knows the rules will hold."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s03-game",
+          "id": "s03-games",
           "type": "text-image",
-          "eyebrow": "The game",
-          "title": "Hand Fight with Progression Game",
+          "eyebrow": "Tonight on the mat",
+          "title": "The three games",
           "body": [
             {
               "kind": "lead",
-              "text": "Stand with hands free. Fight for position. Win by getting under an elbow and hooking on. No one gets slammed down."
+              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Hand Touch / Knee Touch Collection Game"
             },
             {
               "kind": "paragraph",
-              "text": "You are learning to break a person's base by changing angles, not by shoving straight at them. You do the same thing when you walk into a new room and find your footing."
-            }
-          ],
-          "reveals": [
+              "text": "Skill Learning Objective (SLO): Entering, for both players."
+            },
             {
-              "id": "key-condition",
-              "label": "What you need first",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Change direction to break the base. No straight pushes."
-                }
+              "kind": "paragraph",
+              "text": "Both players stand facing each other, hand fighting range, no grips to start."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hand fight and collect three touches, any mix. A touch is making your partner's hands touch the mat, or gripping behind one of his knees. Defend his touches at the same time."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "Whoever gets three touches first wins the round. The same rule applies to both players."
               ]
             },
             {
-              "id": "the-tap",
-              "label": "Still true every session: the tap",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
+              "kind": "heading",
+              "level": 3,
+              "text": "Belly-Up Open Guard Connection Foundation"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The bottom player is belly up, feet in the middle, one hand on the top player's ankle. The top player is standing."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bottom player: keep your feet hooked or posted on the top player at all times, and a hand on him too. Use that to put him on his hips or hands. Top player: break those connections with your hands and feet, and work to the outside for shin-to-body contact."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The bottom player has no time limit. He holds as long as he keeps his connections.",
+                "The top player wins by breaking every connection and making shin-to-body contact from outside the legs."
+              ]
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Introductory Pin Game"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Controlling for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The bottom player is on his back. The top player is chest to chest on top of him."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Top player: hold chest to chest and keep the bottom player there. Bottom player: push the top player off and get your legs back in front."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player has no time limit. He holds the pin.",
+                "The bottom player wins by pushing the top player off and getting his legs back in front."
               ]
             }
           ]
@@ -182,18 +147,18 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Hand Fight with Progression Game, what counts as the win?",
+          "question": "In Introductory Pin Game, what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Getting under an elbow and hooking on",
+              "text": "The top player has no time limit. He holds the pin.",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not part of the Paths. Enter and Arrive are the two path steps here, and neither one ends in a submission. The path leads you into a pin, not a finish."
+              "feedback": "Not part of the Paths yet. Entering and Arriving are the two steps here, and neither one ends in a finish. The path leads you into a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
@@ -209,184 +174,40 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
       ]
     },
     {
-      "id": "lesson",
-      "title": "The lesson",
-      "slides": [
-        {
-          "id": "s03-grappling",
-          "type": "text-image",
-          "eyebrow": "On the mat",
-          "title": "What you were working on",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Find the neutral standing start and keep safe contact while your partner moves."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Find the neutral standing start.",
-                "Keep safe contact as the partner moves."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s03-casel",
-          "type": "text-image",
-          "eyebrow": "Off the mat",
-          "title": "The part that was not about grappling",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Name one thing you do to protect yourself before you trust a space, and call it a strength."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Name one protective habit.",
-                "Call it smart, not weak."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s03-connection",
-          "type": "reveal",
-          "eyebrow": "The connection",
-          "title": "Where those two meet",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Staying safe and guarded on the mat before you trust a partner is the same guard you use before you trust a room. Both are smart. Naming it is the work."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "stage-arc",
-              "label": "Where this sits in The Descent",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Getting past a partner's guard to what it protects is the same act as looking under a mask to the real person. The Descent digs deep, on the mat and inside you."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "close",
       "title": "Before you go",
       "slides": [
         {
-          "id": "s03-recap",
-          "type": "reveal",
-          "eyebrow": "Quick recap",
-          "title": "Before you go: Hand Fight with Progression Game",
+          "id": "s03-takeaway",
+          "type": "text-image",
+          "eyebrow": "The takeaway",
+          "title": "What tonight was really about",
           "body": [
             {
               "kind": "lead",
-              "text": "Stand with hands free. Fight for position. Win by getting under an elbow and hooking on. No one gets slammed down."
+              "text": "The guard is smart. Next week we look at the face that guard wears: the mask."
             },
             {
               "kind": "paragraph",
-              "text": "You are learning to break a person's base by changing angles, not by shoving straight at them. You do the same thing when you walk into a new room and find your footing."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "win-again",
-              "label": "How you win it, again",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Getting under an elbow and hooking on"
-                }
-              ]
-            },
-            {
-              "id": "tap-again",
-              "label": "And the rule that never changes",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
-              ]
+              "text": "Staying safe and guarded on the mat before you trust a partner is the same guard you use before you trust a room. Both are smart. Naming it is the work."
             }
           ]
         },
         {
-          "id": "s03-summative",
-          "type": "quiz",
-          "eyebrow": "End-of-session check",
-          "title": "What today was asking of you",
-          "assessment": {
-            "role": "summative",
-            "scored": true
-          },
-          "question": "Which one was this session actually asking you to do?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "Name one thing you do to protect yourself before you trust a space, and call it a strength.",
-              "correct": true,
-              "feedback": "That was the target for today."
-            },
-            {
-              "text": "Name what your mask defends against.",
-              "feedback": "That is Session 6's target, not today's."
-            },
-            {
-              "text": "Admit, at least to yourself, one part you have hidden even from yourself.",
-              "feedback": "That is Session 11's target, not today's."
-            }
-          ],
-          "correctHead": "That's the one.",
-          "correctText": "That was the point of the whole session, on the mat and off it.",
-          "incorrectHead": "Not today.",
-          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
-          "revealText": "Today's target is marked above."
-        },
-        {
           "id": "s03-reflection",
           "type": "reflection",
-          "eyebrow": "Reflection",
+          "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What are you like before you trust the room?",
-          "hint": "Nothing here is graded. A few words is plenty.",
+          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
           "placeholder": "Whatever comes to mind…"
         },
         {
           "id": "s03-irf",
           "type": "reflection",
-          "eyebrow": "Before you go",
+          "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session",
+          "kindLabel": "IRF — everyone fills this out, every session, on your own",
           "fields": [
             {
               "id": "mat",

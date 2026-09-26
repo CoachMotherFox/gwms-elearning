@@ -12,9 +12,11 @@
    hand-edit afterwards — but a re-run overwrites them, so put durable changes
    in the curriculum data or in this file.
 
-   Screen order follows the curriculum guide's own fields, and Unit 4:
-   "Block 4: Cleanup, eLearning, IRF … The IRF is the last screen of the module.
-   No student leaves before completing it."
+   Rebuilt September 26, 2026 for the 90-minute class and the 5-minute
+   eLearning-plus-IRF window. Every module now runs six screens: today's
+   question, the three CVP games with each player's win, one quick check, the
+   takeaway, your answer to today's question, and the IRF. Session 1 runs the
+   GOLMEST orientation recap instead of the three games.
    --------------------------------------------------------------------------- */
 'use strict';
 
@@ -41,182 +43,129 @@ const IRF = [
 
 function pad(n) { return String(n).padStart(2, '0'); }
 
-function joinNatural(items) {
-  if (items.length === 1) return items[0];
-  if (items.length === 2) return `${items[0]} and ${items[1]}`;
-  return `${items.slice(0, -1).join(', ')}, and ${items[items.length - 1]}`;
-}
-
-/* ---------------------------------------------------------------- lookback
-
-   Spaced retrieval across the 36 sessions.
-
-   The program runs three sessions a week, so lags of 3, 6 and 12 sessions are
-   one week, two weeks and four weeks. Each session draws the next lag in turn,
-   which spreads every module's callback across an expanding interval instead
-   of always reaching back the same distance.
-
-   It is a retrieval prompt, not a re-read: the earlier probing question is
-   shown, the learner is asked to remember their own answer first, and what
-   that session was driving at sits behind a reveal they have to open.
-
-   Nothing here is new content. The question and the connection line are that
-   session's own, straight from its Lesson and Intervention Guide.            */
-
-const LAGS = [3, 6, 12];
-
-function lookbackFor(n) {
-  if (n <= 1) return null;
-  const preferred = LAGS[(n - 1) % LAGS.length];
-  const order = [preferred].concat(LAGS.filter((l) => l !== preferred).sort((a, b) => b - a));
-  for (const lag of order) {
-    if (n - lag >= 1) return n - lag;
-  }
-  return 1;                            // sessions 2 and 3 can only look at 1
-}
-
-function screenLookback(s, prior, priorStage) {
-  if (!prior) return null;
-
-  const slide = {
-    id: `s${pad(s.n)}-lookback`,
-    eyebrow: 'Look back',
-    title: `Session ${prior.n} asked you this`,
-    body: [
-      { kind: 'quote', text: prior.probingQuestion, attribution: `Session ${prior.n} — ${priorStage.name}, ${prior.theme}` },
-      { kind: 'paragraph', text: 'Before you read on, see if you can remember what you answered.' }
-    ]
-  };
-
-  // The moral, not the structure. `takeaway` is that session's own one-line
-  // close, spoken straight to the room at the end of its Lesson and
-  // Intervention block — what to actually walk away with, not a sentence
-  // about how the mat and the reflection happen to line up.
-  if (prior.takeaway) {
-    slide.type = 'reveal';
-    slide.reveals = [{
-      id: 'what-it-was-after',
-      label: 'What that one was really about',
-      content: [{ kind: 'paragraph', text: prior.takeaway }]
-    }];
-  } else {
-    slide.type = 'text-image';
-  }
-  return slide;
+/* Some game names carry a trailing note aimed at the curriculum author, not
+   the learner, e.g. "(Continuous)", "(Terminal)". The full verbatim name
+   stays in the curriculum data; the learner-facing title drops a trailing
+   parenthetical. Everything else about a KB title, including any dash it
+   carries, is kept word for word. */
+function gameTitle(name) {
+  return String(name).replace(/\s*\([^()]*\)\s*$/, '').trim();
 }
 
 /* ------------------------------------------------------------------ screens
 
-   screenWelcome is the one screen with no field in the curriculum guide.
-   Instructor direction, 2026-08-12: every module should open on a welcome
-   screen instead of dropping a learner straight into the first question. It
-   carries no curriculum content of its own — just where this session sits
-   and what is coming — so it stays truthful even for Session 1, which has
-   no lesson scene. See docs/MODULE-STRUCTURE.md.                          */
+   Six screens, in the guide's own order. Nothing here is authored beyond
+   plain-language framing sentences — every fact comes from the curriculum
+   data, which itself comes straight from that session's Grappling Class
+   Guide and Lesson and Intervention Guide.                                 */
 
-function screenWelcome(s, stage, hasLesson) {
-  const parts = ['a game', 'a quick check on it'];
-  if (hasLesson) parts.push('a short lesson');
-  parts.push('a few questions about yourself');
-
+function screenQuestion(s) {
   return {
-    id: `s${pad(s.n)}-welcome`,
-    type: 'text-image',
-    eyebrow: 'Welcome',
-    title: 'Welcome to GWMS Online',
-    body: [
-      { kind: 'lead', text: `This is Session ${s.n} of 36: ${s.theme}.` },
-      { kind: 'paragraph', text: `Today you will do ${joinNatural(parts)}.` },
-      {
-        kind: 'callout',
-        label: 'Where this sits',
-        text: `Session ${s.n} of 36. ${stage.name}, Week ${s.week}, ${s.theme}. On the mat that stage runs ${stage.neighborhood}.`
-      },
-      { kind: 'paragraph', text: 'Take your time. There are no wrong answers when you write about yourself.' }
-    ]
-  };
-}
-
-function screenQuestion(s, stage, hasAudio) {
-  const slide = {
     id: `s${pad(s.n)}-question`,
     type: 'text-image',
     eyebrow: `Session ${s.n} · Today's question`,
     title: s.probingQuestion,
     body: [
-      {
-        kind: 'lead',
-        text: 'This is your question for today. Keep it in mind during the game and the lesson.'
-      }
+      { kind: 'lead', text: 'This is your question for today. Keep it in mind during the games.' }
     ]
   };
-  if (hasAudio) {
-    slide.alternates = [{
-      mode: 'audio',
-      label: 'Listen',
-      src: 'assets/probing-question.m4a',
-      transcriptIsBody: true,
-      own: true,
-      _todo: 'Placeholder narration, machine-generated. Replace with the facilitator\'s voice.'
-    }];
+}
+
+/* "SLO" is spelled out once, on this slide's first game, then used short for
+   the rest of the page — the one place TLO/SLO/ELO terminology reaches a
+   learner at all. */
+function skillLine(game, isFirst) {
+  const label = isFirst ? 'Skill Learning Objective (SLO)' : 'SLO';
+  if (game.leavingSkill) {
+    return `${label}: ${game.skill} for the top player, ${game.leavingSkill} for the bottom player.`;
   }
-  return slide;
+  return `${label}: ${game.skill}, for both players.`;
 }
 
-/* Some corrected game names carry a trailing note aimed at the curriculum
-   author, not the learner: "(mud and guard version, locked win condition)",
-   "(same capstone-week exception as 34)". The full verbatim name stays in the
-   curriculum data and in course meta, and the learner-facing title and quiz
-   drop that trailing parenthetical. Qualifiers that are not parenthetical,
-   like "played from the retaining side", are part of the name and stay. */
-function gameTitle(name) {
-  return String(name).replace(/\s*\([^()]*\)\s*$/, '').trim();
-}
+function screenGames(s) {
+  const body = [
+    { kind: 'lead', text: 'Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again.' }
+  ];
 
-function screenGame(s) {
-  const body = [{ kind: 'lead', text: s.gameText }];
-  if (s.gameNote) body.push({ kind: 'paragraph', text: s.gameNote });
+  s.games.forEach((game, i) => {
+    body.push({ kind: 'heading', level: 3, text: gameTitle(game.title) });
+    body.push({ kind: 'paragraph', text: skillLine(game, i === 0) });
+    body.push({ kind: 'paragraph', text: game.start });
+    body.push({ kind: 'paragraph', text: game.text });
+    body.push({ kind: 'list', items: game.win.map((w) => `${w.role} ${w.text}`) });
+  });
 
-  const slide = {
-    id: `s${pad(s.n)}-game`,
+  return {
+    id: `s${pad(s.n)}-games`,
     type: 'text-image',
-    eyebrow: 'The game',
-    title: gameTitle(s.gameName),
+    eyebrow: 'Tonight on the mat',
+    title: 'The three games',
     body
   };
-
-  const reveals = [];
-  if (s.keyCondition) {
-    reveals.push({
-      id: 'key-condition',
-      label: 'What you need first',
-      content: [{ kind: 'paragraph', text: s.keyCondition }]
-    });
-  }
-  reveals.push({
-    id: 'the-tap',
-    label: 'Still true every session: the tap',
-    content: [
-      { kind: 'list', ordered: true, items: ["Tap your partner's body", 'Tap the mat', 'Say stop'] },
-      { kind: 'paragraph', text: 'Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away.' }
-    ]
-  });
-  slide.reveals = reveals;
-  return slide;
 }
 
+function screenGolmestRecap(s) {
+  const g = s.golmest;
+  return {
+    id: `s${pad(s.n)}-golmest`,
+    type: 'text-image',
+    eyebrow: 'Tonight on the mat',
+    title: g.recapTitle,
+    body: [
+      { kind: 'lead', text: g.recapText },
+      { kind: 'heading', level: 3, text: g.standard.label },
+      { kind: 'paragraph', text: g.standard.text },
+      { kind: 'list', items: g.standard.items },
+      { kind: 'heading', level: 3, text: g.tap.label },
+      { kind: 'paragraph', text: g.tap.text },
+      { kind: 'list', ordered: true, items: g.tap.items },
+      { kind: 'paragraph', text: g.tap.note }
+    ]
+  };
+}
+
+/* The quiz always checks the pinned game's win for the top player — the
+   position every session builds toward, and the one the stage's two wrong
+   answers (the finish/harm rules) are written against. Session 1 has no
+   pinned game, so it checks the tap instead. */
 function screenCheck(s, stage) {
+  if (s.golmest) {
+    const g = s.golmest;
+    return {
+      id: `s${pad(s.n)}-check`,
+      type: 'quiz',
+      eyebrow: 'Quick check',
+      title: 'What you just learned',
+      assessment: { role: 'formative', scored: false },
+      question: g.quizQuestion,
+      select: 'single',
+      retry: true,
+      options: [
+        { text: g.quizCorrect, correct: true, feedback: 'That is it, and it is true every single session.' },
+        { text: g.quizWrong[0], feedback: 'Not fast enough. The tap has to stop the round right away.' },
+        { text: g.quizWrong[1], feedback: 'Not fast enough. The tap has to stop the round right away.' }
+      ],
+      correctHead: "That's it.",
+      correctText: 'The tap is law, every session.',
+      incorrectHead: 'Not quite.',
+      incorrectText: 'Read the note under your choice, then try again.',
+      revealText: 'The right answer is marked above, with the reason.'
+    };
+  }
+
+  const pinned = s.games[2];
+  const win = pinned.win[0];
   return {
     id: `s${pad(s.n)}-check`,
     type: 'quiz',
     eyebrow: 'Quick check',
     title: 'How you win it',
     assessment: { role: 'formative', scored: false },
-    question: `In ${gameTitle(s.gameName)}, what counts as the win?`,
+    question: `In ${gameTitle(pinned.title)}, what wins it for the top player?`,
     select: 'single',
     retry: true,
     options: [
-      { text: s.gameWin, correct: true, feedback: 'That is the win condition, and nothing else scores.' },
+      { text: `${win.role} ${win.text}`, correct: true, feedback: 'That is the win condition, and nothing else scores.' },
       stage.wrongAnswers[0],
       stage.wrongAnswers[1]
     ],
@@ -228,153 +177,19 @@ function screenCheck(s, stage) {
   };
 }
 
-function screenGrappling(s) {
-  if (!s.grapplingTlo) return null;
-  return {
-    id: `s${pad(s.n)}-grappling`,
-    type: 'text-image',
-    eyebrow: 'On the mat',
-    title: 'What you were working on',
-    body: [
-      { kind: 'lead', text: secondPerson(s.grapplingTlo) },
-      { kind: 'heading', level: 3, text: 'Here is what that means' },
-      { kind: 'list', ordered: true, items: s.grapplingElos.map(secondPerson) }
-    ]
-  };
-}
-
-function screenCasel(s) {
-  if (!s.caselTlo) return null;
-  return {
-    id: `s${pad(s.n)}-casel`,
-    type: 'text-image',
-    eyebrow: 'Off the mat',
-    title: 'The part that was not about grappling',
-    body: [
-      { kind: 'lead', text: secondPerson(s.caselTlo) },
-      { kind: 'heading', level: 3, text: 'Here is what that means' },
-      { kind: 'list', ordered: true, items: s.caselElos.map(secondPerson) }
-    ]
-  };
-}
-
-function screenConnection(s, stage) {
-  if (!s.connection) return null;
-  const slide = {
-    id: `s${pad(s.n)}-connection`,
-    type: 'reveal',
-    eyebrow: 'The connection',
-    title: 'Where those two meet',
-    body: [{ kind: 'lead', text: s.connection }],
-    reveals: [{
-      id: 'stage-arc',
-      label: `Where this sits in ${stage.name}`,
-      content: [{ kind: 'paragraph', text: stage.connection }]
-    }]
-  };
-  if (s.note) {
-    slide.body.push({ kind: 'callout', label: 'Said simply', text: s.note });
-  }
-  return slide;
-}
-
-/* ------------------------------------------------------------ second person
-
-   The curriculum guide writes TLOs and ELOs as a spec about a "participant",
-   third person, for facilitators reading a binder. A kid reading it on their
-   own phone is not a case file. Every one of those lines gets stripped of the
-   "By the end of this session, the participant will" stem and reworked into
-   direct address before it reaches the screen — mechanical pronoun swaps
-   only, never a paraphrase of what the line actually says.                  */
-
-function secondPerson(text) {
-  let t = String(text).replace(/^By the end of this session,\s*the participant will\s*/i, '');
-  t = t.replace(/\btheir\b/g, 'your').replace(/\bthey\b/g, 'you').replace(/\bthem\b/g, 'you');
-  t = t.replace(/\bthemselves\b/g, 'yourself').replace(/\bthey are\b/g, 'you are');
-  return t.charAt(0).toUpperCase() + t.slice(1);
-}
-
-/* ------------------------------------------------------------- summative
-
-   AECT 3.3 wants a summative measure alongside the formative checkpoint, and
-   it has to test whether the session's point landed, not whether a game rule
-   was memorised.
-
-   So the question is "what was this session asking of you", the right answer
-   is that session's own CASEL TLO, and the wrong answers are the CASEL TLOs of
-   two other sessions in the same stage. Every option is real curriculum, which
-   makes the distractors plausible by construction — they are genuine targets,
-   just not today's — and means nothing here is authored.
-
-   Option order is not fixed here. The engine shuffles quiz options itself,
-   seeded by the slide id, so the right answer lands in a different position
-   from session to session but stays put across reloads of the same slide. */
-
-function screenSummative(s, stage, sessions) {
-  if (!s.caselTlo) return null;
-
-  const pool = sessions.filter((x) => x.n !== s.n && x.caselTlo);
-  if (pool.length < 2) return null;
-
-  // Deterministic picks, so a rebuild produces the same paper every time.
-  const a = pool[s.n % pool.length];
-  const b = pool[(s.n + Math.floor(pool.length / 2)) % pool.length];
-  const wrong = (b.n === a.n) ? [a, pool[(s.n + 1) % pool.length]] : [a, b];
-
-  const options = [
-    { text: secondPerson(s.caselTlo), correct: true, feedback: 'That was the target for today.' },
-    ...wrong.map((w) => ({
-      text: secondPerson(w.caselTlo),
-      feedback: `That is Session ${w.n}'s target, not today's.`
-    }))
+function screenTakeaway(s) {
+  const body = [
+    { kind: 'lead', text: s.takeaway }
   ];
+  if (s.connection) body.push({ kind: 'paragraph', text: s.connection });
+  if (s.note) body.push({ kind: 'callout', label: 'Worth knowing', text: s.note });
 
   return {
-    id: `s${pad(s.n)}-summative`,
-    type: 'quiz',
-    eyebrow: 'End-of-session check',
-    title: 'What today was asking of you',
-    assessment: { role: 'summative', scored: true },
-    question: 'Which one was this session actually asking you to do?',
-    select: 'single',
-    retry: true,
-    options: options,
-    correctHead: "That's the one.",
-    correctText: 'That was the point of the whole session, on the mat and off it.',
-    incorrectHead: 'Not today.',
-    incorrectText: 'That is a real target from this stage, just not this session. Try again.',
-    revealText: "Today's target is marked above."
-  };
-}
-
-/* Revisits the game right before the two closing checks, in the room's own
-   words, not a summary I wrote. Same fields as the "The game" screen earlier
-   in the module — this is a recap, not new material. */
-function screenRecap(s) {
-  const body = [{ kind: 'lead', text: s.gameText }];
-  if (s.gameNote) body.push({ kind: 'paragraph', text: s.gameNote });
-
-  return {
-    id: `s${pad(s.n)}-recap`,
-    type: 'reveal',
-    eyebrow: 'Quick recap',
-    title: `Before you go: ${gameTitle(s.gameName)}`,
-    body,
-    reveals: [
-      {
-        id: 'win-again',
-        label: 'How you win it, again',
-        content: [{ kind: 'paragraph', text: s.gameWin }]
-      },
-      {
-        id: 'tap-again',
-        label: 'And the rule that never changes',
-        content: [
-          { kind: 'list', ordered: true, items: ["Tap your partner's body", 'Tap the mat', 'Say stop'] },
-          { kind: 'paragraph', text: 'Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away.' }
-        ]
-      }
-    ]
+    id: `s${pad(s.n)}-takeaway`,
+    type: 'text-image',
+    eyebrow: 'The takeaway',
+    title: 'What tonight was really about',
+    body
   };
 }
 
@@ -382,14 +197,14 @@ function screenReflection(s) {
   const slide = {
     id: `s${pad(s.n)}-reflection`,
     type: 'reflection',
-    eyebrow: 'Reflection',
+    eyebrow: 'On your own',
     title: 'Your answer',
     prompt: s.probingQuestion,
-    hint: 'Nothing here is graded. A few words is plenty.',
+    hint: 'Nothing here is graded. Answer this on your own. A few words is plenty.',
     placeholder: 'Whatever comes to mind…'
   };
   if (s.privateOk) {
-    slide.hint = 'You do not have to write anything here. Looking at it yourself is the whole task.';
+    slide.hint = 'You do not have to write anything here. On your own, just look at it yourself. That is the whole task.';
   }
   return slide;
 }
@@ -398,9 +213,9 @@ function screenIRF(s, next) {
   return {
     id: `s${pad(s.n)}-irf`,
     type: 'reflection',
-    eyebrow: 'Before you go',
+    eyebrow: 'On your own',
     title: 'Instruction Rating Form',
-    kindLabel: 'IRF — everyone fills this out, every session',
+    kindLabel: 'IRF — everyone fills this out, every session, on your own',
     fields: IRF,
     requireAll: true,
     required: true,
@@ -416,42 +231,28 @@ function screenIRF(s, next) {
 
 /* ------------------------------------------------------------------- course */
 
-function buildCourse(s, stage, sessions, hasAudio, allSessions) {
-  // allSessions is the whole 36, not just this stage's file — the last
-  // session of a stage (12, 24) has to look across that boundary to find
-  // session 13 or 25, or it wrongly reads as the end of the program.
+function buildCourse(s, stage, allSessions) {
   const nextEntry = allSessions[s.n + 1];
   const next = nextEntry
     ? `Session ${nextEntry.session.n}: ${nextEntry.session.probingQuestion}`
     : null;
 
-  const lookbackN = lookbackFor(s.n);
-  const lookbackEntry = lookbackN ? allSessions[lookbackN] : null;
-
-  const lesson = [
-    screenGrappling(s),
-    screenCasel(s),
-    screenConnection(s, stage)
-  ].filter(Boolean);
-
   const today = [
-    screenQuestion(s, stage, hasAudio),
-    lookbackEntry ? screenLookback(s, lookbackEntry.session, lookbackEntry.stage) : null,
-    screenGame(s),
+    screenQuestion(s),
+    s.golmest ? screenGolmestRecap(s) : screenGames(s),
     screenCheck(s, stage)
-  ].filter(Boolean);
+  ];
 
   const close = [
-    screenRecap(s),
-    screenSummative(s, stage, sessions),
+    screenTakeaway(s),
     screenReflection(s),
     screenIRF(s, next)
-  ].filter(Boolean);
+  ];
 
-  const scenes = [{ id: 'start', title: 'Welcome', slides: [screenWelcome(s, stage, lesson.length > 0)] }];
-  scenes.push({ id: 'today', title: 'Today', slides: today });
-  if (lesson.length) scenes.push({ id: 'lesson', title: 'The lesson', slides: lesson });
-  scenes.push({ id: 'close', title: 'Before you go', slides: close });
+  const scenes = [
+    { id: 'today', title: 'Today', slides: today },
+    { id: 'close', title: 'Before you go', slides: close }
+  ];
 
   const course = {
     id: `session-${pad(s.n)}`,
@@ -468,25 +269,16 @@ function buildCourse(s, stage, sessions, hasAudio, allSessions) {
       block: 'Block 4 — Cleanup, eLearning, IRF',
       casel: stage.casel,
       bloom: stage.bloom,
-      card: s.card,
-      domain: s.domain,
-      keyCondition: s.keyCondition,
-      gameName: s.gameName,
       probingQuestion: s.probingQuestion,
-      grapplingTlo: s.grapplingTlo,
-      looksBackAt: lookbackN,
-      grapplingElos: s.grapplingElos,
-      caselTlo: s.caselTlo,
-      caselElos: s.caselElos,
+      games: s.golmest ? null : s.games.map((g) => ({ skill: g.skill, title: g.title })),
       connection: s.connection,
       takeaway: s.takeaway,
-      _source: `GWMS Curriculum Guide — Session ${s.n} Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives).`
+      _source: `GWMS Curriculum Guide — Session ${s.n} Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions.`
     },
     _generated: 'Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.',
     scenes
   };
 
-  if (s._todo) course.meta._todo = s._todo;
   return course;
 }
 
@@ -500,8 +292,8 @@ if (!stageFiles.length) {
   process.exit(2);
 }
 
-// Pass 1 — index every session across all stages, so a module in The Return
-// can look back into The Descent.
+// Pass 1 — index every session across all stages, so a module can look ahead
+// across a stage boundary to find the next session's probing question.
 const allSessions = {};
 for (const file of stageFiles) {
   const data = JSON.parse(fs.readFileSync(path.join(CURRICULUM, file), 'utf8'));
@@ -525,14 +317,14 @@ for (const file of stageFiles) {
     const dir = path.join(COURSES, `session-${pad(s.n)}`);
     fs.mkdirSync(path.join(dir, 'assets'), { recursive: true });
 
-    const hasAudio = fs.existsSync(path.join(dir, 'assets', 'probing-question.m4a'));
-    const course = buildCourse(s, stage, data.sessions, hasAudio, allSessions);
+    const course = buildCourse(s, stage, allSessions);
 
     fs.writeFileSync(path.join(dir, 'course.json'), JSON.stringify(course, null, 2) + '\n');
+    const summaryGame = s.golmest ? 'Orientation night, GOLMEST.' : `Games: ${s.games.map((g) => gameTitle(g.title)).join(', ')}.`;
     index.courses.push({
       id: course.id,
       title: `${course.title} — ${stage.name}`,
-      summary: `Week ${s.week}, ${s.theme}. “${s.probingQuestion}” Game: ${s.gameName}.`
+      summary: `Week ${s.week}, ${s.theme}. “${s.probingQuestion}” ${summaryGame}`
     });
     written += 1;
     process.stdout.write(`  ✓ ${course.id}  ${course.scenes.reduce((n, sc) => n + sc.slides.length, 0)} screens\n`);

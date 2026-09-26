@@ -18,59 +18,27 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
       "Self-Management"
     ],
     "bloom": "Apply",
-    "card": "Controlling the Legs",
-    "domain": "Enter",
-    "keyCondition": "Take the base first. Break their balance before you move forward.",
-    "gameName": "Closed Guard Opening, Hands on Body",
     "probingQuestion": "What happens to your mask when you're losing?",
-    "grapplingTlo": "By the end of this session, the participant will use base and framing to defend their guard while a partner tries to pass it.",
-    "looksBackAt": 4,
-    "grapplingElos": [
-      "Notice when the guard is being passed.",
-      "Reset to a safe position after being passed."
-    ],
-    "caselTlo": "By the end of this session, the participant will name what shows up when they lose, the reaction under the mask.",
-    "caselElos": [
-      "Notice their reaction to losing the position.",
-      "Name what comes out under pressure."
+    "games": [
+      {
+        "skill": "Entering",
+        "title": "Single Leg, Make Partner Fall to Hands or Hips"
+      },
+      {
+        "skill": "Arriving",
+        "title": "Closed Guard Opening, Hands on Body"
+      },
+      {
+        "skill": "Controlling",
+        "title": "Referee Position Ride and Break Down"
+      }
     ],
     "connection": "When your guard gets passed, the mask cracks and something real shows. Getting passed on the mat and cracking under pressure are the same moment. You feel it in your body first.",
     "takeaway": "Losing cracks the mask. What comes out tells you something. It is not failure.",
-    "_source": "GWMS Curriculum Guide — Session 7 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+    "_source": "GWMS Curriculum Guide — Session 7 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
-    {
-      "id": "start",
-      "title": "Welcome",
-      "slides": [
-        {
-          "id": "s07-welcome",
-          "type": "text-image",
-          "eyebrow": "Welcome",
-          "title": "Welcome to GWMS Online",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is Session 7 of 36: Crack."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 7 of 36. The Descent, Week 3, Crack. On the mat that stage runs The Paths."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Take your time. There are no wrong answers when you write about yourself."
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "today",
       "title": "Today",
@@ -83,92 +51,90 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
           "body": [
             {
               "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the game and the lesson."
-            }
-          ],
-          "alternates": [
-            {
-              "mode": "audio",
-              "label": "Listen",
-              "src": "assets/probing-question.m4a",
-              "transcriptIsBody": true,
-              "own": true,
-              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+              "text": "This is your question for today. Keep it in mind during the games."
             }
           ]
         },
         {
-          "id": "s07-lookback",
-          "eyebrow": "Look back",
-          "title": "Session 4 asked you this",
-          "body": [
-            {
-              "kind": "quote",
-              "text": "Who are you when people are watching?",
-              "attribution": "Session 4 — The Descent, Mask"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Before you read on, see if you can remember what you answered."
-            }
-          ],
-          "type": "reveal",
-          "reveals": [
-            {
-              "id": "what-it-was-after",
-              "label": "What that one was really about",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Everybody wears a face for the crowd. Now yours has a name."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s07-game",
+          "id": "s07-games",
           "type": "text-image",
-          "eyebrow": "The game",
-          "title": "Closed Guard Opening, Hands on Body",
+          "eyebrow": "Tonight on the mat",
+          "title": "The three games",
           "body": [
             {
               "kind": "lead",
-              "text": "Now you are the one trying to get past. Win by opening the guard. Put your hands on the body, break it down, clear the feet. Use light pressure only. No one gets crushed."
+              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Single Leg, Make Partner Fall to Hands or Hips"
             },
             {
               "kind": "paragraph",
-              "text": "This is where the guard, the mask, starts getting beaten."
-            }
-          ],
-          "reveals": [
+              "text": "Skill Learning Objective (SLO): Entering, for both players."
+            },
             {
-              "id": "key-condition",
-              "label": "What you need first",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Take the base first. Break their balance before you move forward."
-                }
+              "kind": "paragraph",
+              "text": "Both players stand. The attacker is connected to one of the defender's legs."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Attacker: move the defender using only that leg, run him, pull him, turn him, or lift him, to make his hips or hands touch the mat. Defender: stay balanced and use your connections to break the grip and free your leg."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The attacker wins when the defender's hips or hands touch the mat.",
+                "The defender wins by freeing the leg."
               ]
             },
             {
-              "id": "the-tap",
-              "label": "Still true every session: the tap",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
+              "kind": "heading",
+              "level": 3,
+              "text": "Closed Guard Opening, Hands on Body"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The bottom player has closed guard locked around the top player. The top player is inside the guard, hands on him."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Top player: hold the bottom player down, get to your feet, and press on his hips, knees, and feet to open his legs. Bottom player: keep your legs closed, using only open-hand grips on the head, wrists, and elbows."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player wins by getting to his feet and opening the guard.",
+                "The bottom player wins by stopping the top player's win for 30 seconds. Then you switch roles."
+              ]
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Referee Position Ride and Break Down"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Controlling for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The bottom player is on his hands and knees. The top player is in referee position with open hands on his hips."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Top player: ride the bottom player, break him down, and keep his hips and hands on the mat, no closed-hand connections. Bottom player: build your base, fight to your feet, and turn to face."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player has no time limit. He holds as long as he keeps the bottom player broken down.",
+                "The bottom player wins when he stands up and faces the top player."
               ]
             }
           ]
@@ -182,18 +148,18 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Closed Guard Opening, Hands on Body, what counts as the win?",
+          "question": "In Referee Position Ride and Break Down, what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Opening the guard — hands on the body, break it down, clear the feet",
+              "text": "The top player has no time limit. He holds as long as he keeps the bottom player broken down.",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not part of the Paths. Enter and Arrive are the two path steps here, and neither one ends in a submission. The path leads you into a pin, not a finish."
+              "feedback": "Not part of the Paths yet. Entering and Arriving are the two steps here, and neither one ends in a finish. The path leads you into a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
@@ -209,184 +175,40 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
       ]
     },
     {
-      "id": "lesson",
-      "title": "The lesson",
-      "slides": [
-        {
-          "id": "s07-grappling",
-          "type": "text-image",
-          "eyebrow": "On the mat",
-          "title": "What you were working on",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Use base and framing to defend your guard while a partner tries to pass it."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Notice when the guard is being passed.",
-                "Reset to a safe position after being passed."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s07-casel",
-          "type": "text-image",
-          "eyebrow": "Off the mat",
-          "title": "The part that was not about grappling",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Name what shows up when you lose, the reaction under the mask."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Notice your reaction to losing the position.",
-                "Name what comes out under pressure."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s07-connection",
-          "type": "reveal",
-          "eyebrow": "The connection",
-          "title": "Where those two meet",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "When your guard gets passed, the mask cracks and something real shows. Getting passed on the mat and cracking under pressure are the same moment. You feel it in your body first."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "stage-arc",
-              "label": "Where this sits in The Descent",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Getting past a partner's guard to what it protects is the same act as looking under a mask to the real person. The Descent digs deep, on the mat and inside you."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "close",
       "title": "Before you go",
       "slides": [
         {
-          "id": "s07-recap",
-          "type": "reveal",
-          "eyebrow": "Quick recap",
-          "title": "Before you go: Closed Guard Opening, Hands on Body",
+          "id": "s07-takeaway",
+          "type": "text-image",
+          "eyebrow": "The takeaway",
+          "title": "What tonight was really about",
           "body": [
             {
               "kind": "lead",
-              "text": "Now you are the one trying to get past. Win by opening the guard. Put your hands on the body, break it down, clear the feet. Use light pressure only. No one gets crushed."
+              "text": "Losing cracks the mask. What comes out tells you something. It is not failure."
             },
             {
               "kind": "paragraph",
-              "text": "This is where the guard, the mask, starts getting beaten."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "win-again",
-              "label": "How you win it, again",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Opening the guard — hands on the body, break it down, clear the feet"
-                }
-              ]
-            },
-            {
-              "id": "tap-again",
-              "label": "And the rule that never changes",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
-              ]
+              "text": "When your guard gets passed, the mask cracks and something real shows. Getting passed on the mat and cracking under pressure are the same moment. You feel it in your body first."
             }
           ]
         },
         {
-          "id": "s07-summative",
-          "type": "quiz",
-          "eyebrow": "End-of-session check",
-          "title": "What today was asking of you",
-          "assessment": {
-            "role": "summative",
-            "scored": true
-          },
-          "question": "Which one was this session actually asking you to do?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "Name what shows up when you lose, the reaction under the mask.",
-              "correct": true,
-              "feedback": "That was the target for today."
-            },
-            {
-              "text": "Name one true thing about yourself that lives under the act you put on.",
-              "feedback": "That is Session 10's target, not today's."
-            },
-            {
-              "text": "Name one way you act differently when people are watching you.",
-              "feedback": "That is Session 4's target, not today's."
-            }
-          ],
-          "correctHead": "That's the one.",
-          "correctText": "That was the point of the whole session, on the mat and off it.",
-          "incorrectHead": "Not today.",
-          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
-          "revealText": "Today's target is marked above."
-        },
-        {
           "id": "s07-reflection",
           "type": "reflection",
-          "eyebrow": "Reflection",
+          "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What happens to your mask when you're losing?",
-          "hint": "Nothing here is graded. A few words is plenty.",
+          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
           "placeholder": "Whatever comes to mind…"
         },
         {
           "id": "s07-irf",
           "type": "reflection",
-          "eyebrow": "Before you go",
+          "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session",
+          "kindLabel": "IRF — everyone fills this out, every session, on your own",
           "fields": [
             {
               "id": "mat",

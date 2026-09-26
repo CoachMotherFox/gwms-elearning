@@ -17,59 +17,27 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
       "Responsible Decision-Making"
     ],
     "bloom": "Apply and Analyze",
-    "card": "The Back Pin",
-    "domain": "Control",
-    "keyCondition": "Full control, with your partner completely safe.",
-    "gameName": "Back Control Turn-Over Game",
     "probingQuestion": "How do you use your strength without taking someone else's?",
-    "grapplingTlo": "By the end of this session, the participant will use full back-pin control without hurting the partner, and name the choice to control without harm.",
-    "looksBackAt": 18,
-    "grapplingElos": [
-      "Keep total back control while keeping the partner completely safe.",
-      "Name the moment control could become harm, and the choice not to cross it."
-    ],
-    "caselTlo": "By the end of this session, the participant will name how they use their strength to help others, not to control them.",
-    "caselElos": [
-      "Tell apart power that helps from power that controls.",
-      "Name one way to use their strength without putting someone else down."
+    "games": [
+      {
+        "skill": "Entering",
+        "title": "Foot-to-Foot Contact with Overhook / Underhook"
+      },
+      {
+        "skill": "Arriving",
+        "title": "Half Guard with Standing Transition Game"
+      },
+      {
+        "skill": "Controlling",
+        "title": "Chest to Back Control Game"
+      }
     ],
     "connection": "You can have full control of someone's back and still choose not to hurt them. That is the whole system: the power to hurt, and the choice not to. Using your strength for people instead of over them is that same choice, made in your life.",
     "takeaway": "Total control, plus the choice not to hurt someone, that is the whole point. You just held it in your hands.",
-    "_source": "GWMS Curriculum Guide — Session 30 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+    "_source": "GWMS Curriculum Guide — Session 30 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
-    {
-      "id": "start",
-      "title": "Welcome",
-      "slides": [
-        {
-          "id": "s30-welcome",
-          "type": "text-image",
-          "eyebrow": "Welcome",
-          "title": "Welcome to GWMS Online",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is Session 30 of 36: Contribution."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 30 of 36. The Return, Week 10, Contribution. On the mat that stage runs Back Pin."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Take your time. There are no wrong answers when you write about yourself."
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "today",
       "title": "Today",
@@ -82,92 +50,90 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
           "body": [
             {
               "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the game and the lesson."
-            }
-          ],
-          "alternates": [
-            {
-              "mode": "audio",
-              "label": "Listen",
-              "src": "assets/probing-question.m4a",
-              "transcriptIsBody": true,
-              "own": true,
-              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+              "text": "This is your question for today. Keep it in mind during the games."
             }
           ]
         },
         {
-          "id": "s30-lookback",
-          "eyebrow": "Look back",
-          "title": "Session 18 asked you this",
-          "body": [
-            {
-              "kind": "quote",
-              "text": "What does your friction do to the people across from you?",
-              "attribution": "Session 18 — The Initiation, Friction"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Before you read on, see if you can remember what you answered."
-            }
-          ],
-          "type": "reveal",
-          "reveals": [
-            {
-              "id": "what-it-was-after",
-              "label": "What that one was really about",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Friction is fine. Harm is a choice. The control is yours."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s30-game",
+          "id": "s30-games",
           "type": "text-image",
-          "eyebrow": "The game",
-          "title": "Back Control Turn-Over Game",
+          "eyebrow": "Tonight on the mat",
+          "title": "The three games",
           "body": [
             {
               "kind": "lead",
-              "text": "Take total control from the back. Turn the partner over while keeping them completely safe."
+              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Foot-to-Foot Contact with Overhook / Underhook"
             },
             {
               "kind": "paragraph",
-              "text": "You have their back. You hold all the power there is. And you choose not to hurt them. That is the whole point: strength used for someone, not over them."
-            }
-          ],
-          "reveals": [
+              "text": "Skill Learning Objective (SLO): Entering, for both players."
+            },
             {
-              "id": "key-condition",
-              "label": "What you need first",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Full control, with your partner completely safe."
-                }
+              "kind": "paragraph",
+              "text": "Both players stand. The overhook player has an overhook. The underhook player has an underhook."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Overhook player: keep the overhook, use both hands to move your partner, and make foot-to-foot contact with either leg. Underhook player: close your hands anywhere below the overhook player's elbows and above his ankles."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The overhook player wins when the underhook player falls to his hips or hands.",
+                "The underhook player wins by closing his hands under the elbows."
               ]
             },
             {
-              "id": "the-tap",
-              "label": "Still true every session: the tap",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
+              "kind": "heading",
+              "level": 3,
+              "text": "Half Guard with Standing Transition Game"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The bottom player is in half guard. The top player is on top with both knees on the mat, and may stand during the round."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bottom player: while the top player is on his knees, work grips to get your feet inside and sit up. When he stands, shift to the legs, destabilize him, and get an entanglement. Top player: lock your hands anywhere from hips to shoulders, from your knees or from standing."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The bottom player wins by getting feet inside and sitting up before the top player stands, or by destabilizing and entangling him after he stands.",
+                "The top player wins by locking his hands."
+              ]
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Chest to Back Control Game"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Controlling for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The top player is behind the bottom player with chest-to-back contact, both arms and both legs connected."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Top player: keep chest-to-back contact by following the bottom player and keeping your hands connected. Bottom player: put your back on the mat or turn to face."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player has no time limit. He holds as long as he keeps contact.",
+                "The bottom player wins by getting his back to the mat or turning face to face."
               ]
             }
           ]
@@ -181,12 +147,12 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Back Control Turn-Over Game, what counts as the win?",
+          "question": "In Chest to Back Control Game, what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Turning the partner over from total back control while keeping them completely safe",
+              "text": "The top player has no time limit. He holds as long as he keeps contact.",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
@@ -208,184 +174,40 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
       ]
     },
     {
-      "id": "lesson",
-      "title": "The lesson",
-      "slides": [
-        {
-          "id": "s30-grappling",
-          "type": "text-image",
-          "eyebrow": "On the mat",
-          "title": "What you were working on",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Use full back-pin control without hurting the partner, and name the choice to control without harm."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Keep total back control while keeping the partner completely safe.",
-                "Name the moment control could become harm, and the choice not to cross it."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s30-casel",
-          "type": "text-image",
-          "eyebrow": "Off the mat",
-          "title": "The part that was not about grappling",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Name how you use your strength to help others, not to control you."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Tell apart power that helps from power that controls.",
-                "Name one way to use your strength without putting someone else down."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s30-connection",
-          "type": "reveal",
-          "eyebrow": "The connection",
-          "title": "Where those two meet",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "You can have full control of someone's back and still choose not to hurt them. That is the whole system: the power to hurt, and the choice not to. Using your strength for people instead of over them is that same choice, made in your life."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "stage-arc",
-              "label": "Where this sits in The Return",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Total control, plus the choice not to hurt someone, is the heart of the whole program. Now you carry that choice out the door."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "close",
       "title": "Before you go",
       "slides": [
         {
-          "id": "s30-recap",
-          "type": "reveal",
-          "eyebrow": "Quick recap",
-          "title": "Before you go: Back Control Turn-Over Game",
+          "id": "s30-takeaway",
+          "type": "text-image",
+          "eyebrow": "The takeaway",
+          "title": "What tonight was really about",
           "body": [
             {
               "kind": "lead",
-              "text": "Take total control from the back. Turn the partner over while keeping them completely safe."
+              "text": "Total control, plus the choice not to hurt someone, that is the whole point. You just held it in your hands."
             },
             {
               "kind": "paragraph",
-              "text": "You have their back. You hold all the power there is. And you choose not to hurt them. That is the whole point: strength used for someone, not over them."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "win-again",
-              "label": "How you win it, again",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Turning the partner over from total back control while keeping them completely safe"
-                }
-              ]
-            },
-            {
-              "id": "tap-again",
-              "label": "And the rule that never changes",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
-              ]
+              "text": "You can have full control of someone's back and still choose not to hurt them. That is the whole system: the power to hurt, and the choice not to. Using your strength for people instead of over them is that same choice, made in your life."
             }
           ]
         },
         {
-          "id": "s30-summative",
-          "type": "quiz",
-          "eyebrow": "End-of-session check",
-          "title": "What today was asking of you",
-          "assessment": {
-            "role": "summative",
-            "scored": true
-          },
-          "question": "Which one was this session actually asking you to do?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "Name how you use your strength to help others, not to control you.",
-              "correct": true,
-              "feedback": "That was the target for today."
-            },
-            {
-              "text": "Name the honest cost and reward of the whole program.",
-              "feedback": "That is Session 34's target, not today's."
-            },
-            {
-              "text": "Name one exact skill you have now that you did not have before.",
-              "feedback": "That is Session 27's target, not today's."
-            }
-          ],
-          "correctHead": "That's the one.",
-          "correctText": "That was the point of the whole session, on the mat and off it.",
-          "incorrectHead": "Not today.",
-          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
-          "revealText": "Today's target is marked above."
-        },
-        {
           "id": "s30-reflection",
           "type": "reflection",
-          "eyebrow": "Reflection",
+          "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "How do you use your strength without taking someone else's?",
-          "hint": "Nothing here is graded. A few words is plenty.",
+          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
           "placeholder": "Whatever comes to mind…"
         },
         {
           "id": "s30-irf",
           "type": "reflection",
-          "eyebrow": "Before you go",
+          "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session",
+          "kindLabel": "IRF — everyone fills this out, every session, on your own",
           "fields": [
             {
               "id": "mat",

@@ -1,5 +1,5 @@
 {
-  "_source": "Transcribed from the GWMS Curriculum Guide in Notion. Per-session fields come from that session's Lesson and Intervention Guide (Unit 7). Card, domain and keyCondition come from the GWMS Technical Map. Where the two name the game differently, the Lesson and Intervention Guide wins, because it is the per-session authority.",
+  "_source": "Transcribed from the GWMS Curriculum Guide in Notion, rebuilt September 26, 2026 for the three-games model. Game fields (games array) come from each session's Grappling Class Guide (Unit 7), Start 1 of each of the three CVP games, with the GWMS Game Rulings applied. TLO/ELO/connection/takeaway come from each session's Lesson and Intervention Guide. Nothing here is authored beyond plain-language rewording of the guides' own words.",
   "stage": {
     "name": "The Initiation",
     "sessions": "13 to 24",
@@ -35,22 +35,41 @@
       "week": 5,
       "theme": "Contact",
       "probingQuestion": "What happens in you when someone makes real contact?",
-      "card": "The Chest Pin",
-      "domain": "Control",
-      "keyCondition": "Chest on chest with hips and shoulders covered, three-count.",
-      "gameName": "Chest to Chest Under Elbows Maintenance",
-      "gameText": "The top player holds chest to chest, under both elbows. Win by keeping that contact for a three-count while the bottom player moves.",
-      "gameNote": "This is the most direct contact there is, chest to chest, face to face. Making it and holding it is like letting someone get close to you.",
-      "gameWin": "Keeping chest-on-chest contact under both elbows for a three-count",
-      "grapplingTlo": "By the end of this session, the participant will make and hold chest-to-chest contact with a partner who is pushing back a little.",
-      "grapplingElos": [
-        "Get into a chest-pin position and hold it for a three-count against light resistance.",
-        "Keep safe, steady contact with a partner during rolling. Don't let go."
-      ],
-      "caselTlo": "By the end of this session, the participant will name what they feel when someone makes real contact with them, and say how that connects to meeting people in real life.",
-      "caselElos": [
-        "Notice one feeling in their body or mind during close contact.",
-        "Connect that feeling to how they meet people outside the room."
+      "games": [
+        {
+          "skill": "Entering",
+          "title": "Standing Hand Connection Game",
+          "start": "Both players stand in an even position, each with an underhook.",
+          "text": "Fight to get under your partner's elbows. Make a closed-hand connection anywhere from armpits to ankles.",
+          "win": [
+            { "role": "Whoever connects first", "text": "wins. The same rule applies to both players." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Arriving",
+          "leavingSkill": "Leaving",
+          "title": "Chest-to-Chest via Outside Line Only",
+          "start": "The bottom player is belly up in open guard. The top player is standing.",
+          "text": "Top player: touch a knee pit first, then get to the outside of both legs, one then the other, and stay outside. Only then close in with chest contact and connect your hands around the bottom player. Bottom player: hook and post to make the top player sit down, then sit up.",
+          "win": [
+            { "role": "The top player", "text": "wins by connecting his hands around the bottom player from the outside." },
+            { "role": "The bottom player", "text": "wins by making the top player's butt hit the mat and sitting up." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Controlling",
+          "leavingSkill": "Leaving",
+          "title": "Chest to Chest Under Elbows Maintenance",
+          "start": "The bottom player is on his back. The top player is chest to chest, both arms under both of the bottom player's elbows.",
+          "text": "Top player: keep both elbows away from the bottom player's body, using any body part in place of your arms if you need to. Bottom player: get both elbows back to touch your own body, or make the top player fall over.",
+          "win": [
+            { "role": "The top player", "text": "has no time limit. He holds as long as he keeps both elbows covered." },
+            { "role": "The bottom player", "text": "wins by getting both elbows to touch his body, or by making the top player fall." }
+          ],
+          "reset": "The top player holds no matter what. If the bottom player gets both elbows to his body, that is his win, and you start over. Roles switch after every win."
+        }
       ],
       "connection": "Holding contact on the mat and noticing what contact does to you are the same skill. Both mean staying present when someone gets close, instead of pushing them away. The pin teaches your body to stay. Thinking about it teaches your mind why staying is hard.",
       "takeaway": "Contact does something to all of us. Now you can feel yours."
@@ -60,22 +79,42 @@
       "week": 5,
       "theme": "Contact",
       "probingQuestion": "How much of someone else do you actually let in?",
-      "card": "The Chest Pin",
-      "domain": "Control",
-      "keyCondition": "Keep the coverage as the partner moves.",
-      "gameName": "Chest-to-Chest Elbow Control Game",
-      "gameText": "The top player keeps control of the partner's elbows as the partner pushes and tries to make space. Win by keeping the elbows controlled the whole time.",
-      "gameNote": "You keep the pin by feeling your partner and adjusting, not by clamping down and squeezing. That's a lot like how much you actually let someone in.",
-      "gameWin": "Keeping the elbows controlled the whole time as the partner pushes and moves",
-      "grapplingTlo": "By the end of this session, the participant will keep chest-pin control while reading and adjusting to a partner's movement, even as the partner tries to make space.",
-      "grapplingElos": [
-        "Keep chest-pin control for a three-count while the partner pushes and moves.",
-        "Adjust pressure and connection to match the partner, instead of holding one hard grip."
-      ],
-      "caselTlo": "By the end of this session, the participant will say how much they open up to another person, and name one thing that makes letting someone in hard.",
-      "caselElos": [
-        "Notice if they feel closed off or open during close contact.",
-        "Name one thing that makes it hard to let another person in."
+      "games": [
+        {
+          "skill": "Entering",
+          "title": "Role-Based Consecutive Touch vs Close Hand Game",
+          "start": "Both players stand facing each other, hand fighting range. One is the touch player, one is the connection player.",
+          "text": "Touch player: collect three touches in a row, a hand to the mat or a hand behind the knee, without letting the connection player close his hands on you. If he scores, your count goes back to zero. Connection player: close both hands around the touch player anywhere from armpits to ankles.",
+          "win": [
+            { "role": "The touch player", "text": "wins with three touches in a row." },
+            { "role": "The connection player", "text": "wins with a closed-hand connection from armpits to ankles." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Arriving",
+          "leavingSkill": "Leaving",
+          "title": "Closed Guard Hand Fighting Game",
+          "start": "The bottom player has closed guard around the top player, who is on his knees inside, trying to open it.",
+          "text": "Bottom player: keep your hands on the top player, connecting to his wrists, elbows, and head to make his hands touch the mat once. Top player: take your hands off the bottom player and get to your feet.",
+          "win": [
+            { "role": "The bottom player", "text": "wins by making the top player's hands touch the mat one time." },
+            { "role": "The top player", "text": "wins by getting his hands off the bottom player and standing up." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Controlling",
+          "leavingSkill": "Leaving",
+          "title": "Chest-to-Chest Elbow Control Game",
+          "start": "The bottom player is on his back. The top player is chest to chest, both arms under both of the bottom player's elbows.",
+          "text": "Top player: stay under the bottom player's elbows, keeping them away from his body. Bottom player: get both elbows to touch your body, or make the top player fall over.",
+          "win": [
+            { "role": "The top player", "text": "has no time limit. He wins by keeping the elbows away from the body the whole time." },
+            { "role": "The bottom player", "text": "wins by bringing both elbows to his body, or by making the top player fall." }
+          ],
+          "reset": "The top player holds no matter what. If the bottom player gets both elbows to his body, that is his win, and you start over. Roles switch after every win."
+        }
       ],
       "connection": "Keeping a pin means feeling your partner and adjusting to them, not clamping down and ignoring them. Letting someone in works the same way. You hold the connection by reading the other person, not by shutting them out and pushing through alone.",
       "takeaway": "Letting people in is like a dial you control. You just found yours."
@@ -85,22 +124,41 @@
       "week": 5,
       "theme": "Contact",
       "probingQuestion": "Who are you with other people, now that you've met yourself?",
-      "card": "The Chest Pin",
-      "domain": "Control",
-      "keyCondition": "Keep chest contact going the whole time.",
-      "gameName": "Mount, Stay Under Both Elbows (Continuous)",
-      "gameText": "From the top, stay under both elbows and keep the connection going as the partner works. There is no finish here, just holding real contact.",
-      "gameNote": "Roll as the real you, not a performance. That is who you are with other people now.",
-      "gameWin": "Staying under both elbows and keeping the connection alive the whole time",
-      "grapplingTlo": "By the end of this session, the participant will get into chest-pin control from a neutral start and keep it, rolling as their real self instead of putting on a show.",
-      "grapplingElos": [
-        "Get into a chest pin from a neutral position and hold it.",
-        "Keep control without giving up the position when it gets hard."
-      ],
-      "caselTlo": "By the end of this session, the participant will describe who they are with other people, now that the Descent named their real self.",
-      "caselElos": [
-        "Name one way the real self shows up with others differently than the old mask did.",
-        "Connect that to how they want to be in their relationships."
+      "games": [
+        {
+          "skill": "Entering",
+          "title": "Hand Fight to Connection Game",
+          "start": "Both players stand facing each other, hand fighting range, both disconnected.",
+          "text": "Get a two-on-one connection, then the underhook, and work to a connection at the head, waist, or leg.",
+          "win": [
+            { "role": "Whoever reaches a connection first", "text": "wins. The same rule applies to both players." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Arriving",
+          "leavingSkill": "Leaving",
+          "title": "Closed Guard, Post to Underhook to Locked Hands",
+          "start": "The bottom player has closed guard around the top player, who may work to standing.",
+          "text": "Bottom player: attach to the wrists and elbows to cause a post, get the underhook on that post, then lock your hands around a shoulder. Top player: keep your hands on the bottom player and fight to stand up with the guard open.",
+          "win": [
+            { "role": "The bottom player", "text": "wins by locking his hands with an underhook after a post." },
+            { "role": "The top player", "text": "wins by standing and opening the guard." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Controlling",
+          "leavingSkill": "Leaving",
+          "title": "Mount, Stay Under Both Elbows",
+          "start": "The bottom player is on his back. The top player is in mount with both arms under both of the bottom player's elbows.",
+          "text": "Top player: stay under at least one elbow the whole round. If you lose one, fight to get it back. Bottom player: get both elbows to touch your own body with nothing under them, or make the top player fall over.",
+          "win": [
+            { "role": "The top player", "text": "has no time limit. He holds as long as he keeps at least one elbow covered." },
+            { "role": "The bottom player", "text": "wins by touching both elbows to his body, or by making the top player fall." }
+          ],
+          "reset": "The top player holds no matter what. If he loses both elbows, that is the bottom player's win, and you start over. Roles switch after every win."
+        }
       ],
       "connection": "The Descent found the real you. Now it goes to the mat with a partner. Rolling as the real you, instead of a mask, is the same as showing up honest in a relationship instead of performing one.",
       "takeaway": "The real you is in the room now, and other people are in it too."
@@ -110,22 +168,42 @@
       "week": 6,
       "theme": "Friction",
       "probingQuestion": "What do you do when someone pushes back?",
-      "card": "The Chest Pin",
-      "domain": "Control",
-      "keyCondition": "Hold the pin while the partner fights back hard, running 4S.",
-      "gameName": "Mounted and Side Control Pin Game",
-      "gameText": "The top player holds the pin while the partner works hard to escape. Win by covering the hips, staying under the elbow, and keeping hands connected, all at once, against real resistance.",
-      "gameNote": "Pushback is the test. Staying calm and adjusting beats forcing harder.",
-      "gameWin": "Hip coverage, under the elbow, and hands connected all at once, against real resistance",
-      "grapplingTlo": "By the end of this session, the participant will keep chest-pin control while a partner fights back hard.",
-      "grapplingElos": [
-        "Keep the pin for a three-count while the partner fights back and tries to escape.",
-        "Respond to resistance by staying balanced and adjusting, not by panicking or using raw force."
-      ],
-      "caselTlo": "By the end of this session, the participant will name what they do when another person pushes back, and say if that habit helps them or hurts them.",
-      "caselElos": [
-        "Name their usual response to pushback.",
-        "Say whether that response helps or hurts the relationship."
+      "games": [
+        {
+          "skill": "Entering",
+          "title": "Underhook Introduction Game",
+          "start": "Both players stand. The underhook player has an underhook. The overhook player counters with an overhook.",
+          "text": "Underhook player: use the underhook to move your partner and attach to a single leg, then pick it up. Overhook player: use the overhook to keep him away from that leg.",
+          "win": [
+            { "role": "The underhook player", "text": "wins by attaching to and picking up the overhook player's leg." },
+            { "role": "The overhook player", "text": "wins by stopping him for 30 seconds." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Arriving",
+          "leavingSkill": "Leaving",
+          "title": "Post and Hook Destabilization Game",
+          "start": "Open guard. The bottom player is on his back. The top player is standing or kneeling in front of him.",
+          "text": "Bottom player: use only posts and hooks, no leg entanglements and no attaching to the hips, to put the top player's hips on the floor. Top player: do not get put down. Work to pass or keep the top position.",
+          "win": [
+            { "role": "The bottom player", "text": "wins by putting the top player's hips on the floor using only posts and hooks." },
+            { "role": "The top player", "text": "wins by stopping the bottom player's win for 30 seconds. Then you switch roles." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Controlling",
+          "leavingSkill": "Leaving",
+          "title": "Riding Bottom Position Game",
+          "start": "The bottom player is on his hands and knees. The top player is on top with open hands around the bottom player's hips.",
+          "text": "Top player: stay attached to the hips, break the bottom player down, and stop him from standing. Bottom player: build your base, fight to your feet, and turn to face the top player.",
+          "win": [
+            { "role": "The top player", "text": "has no time limit. He holds as long as he keeps the bottom player broken down." },
+            { "role": "The bottom player", "text": "wins by standing up and turning to face the top player." }
+          ],
+          "reset": "The top player holds no matter what. If the bottom player stands and turns to face him, that is his win, and you start over. Roles switch after every win."
+        }
       ],
       "connection": "A partner resisting the pin is pushback made physical. What you do when they fight the pin is usually what you do when people push back in life. Both reward staying calm and adjusting over forcing harder.",
       "takeaway": "Pushback is normal. Your response to it is a choice, not a reflex you're stuck with."
@@ -135,22 +213,42 @@
       "week": 6,
       "theme": "Friction",
       "probingQuestion": "Can you stay present when it gets uncomfortable?",
-      "card": "The Chest Pin",
-      "domain": "Control",
-      "keyCondition": "Trap one arm and keep it trapped while the partner tries to get it back.",
-      "gameName": "Wrist Pin Game",
-      "gameText": "The top player traps and pins a wrist while the partner tries to break free. Win by keeping the wrist trapped and reaching head-and-arm or chest-to-back contact.",
-      "gameNote": "You are staying in an uncomfortable spot and working it instead of bailing out.",
-      "gameWin": "Keeping the wrist trapped and reaching head-and-arm or chest-to-back contact",
-      "grapplingTlo": "By the end of this session, the participant will stay in a hard chest-pin exchange, even when it feels uncomfortable, instead of bailing out.",
-      "grapplingElos": [
-        "Stay in a hard chest-pin position, even while the partner frames and bridges, for a set time without letting go.",
-        "Use a calming tool, like a breath or a base reset, to stay present under pressure."
-      ],
-      "caselTlo": "By the end of this session, the participant will practice staying present when things feel uncomfortable, and name what makes them want to bail.",
-      "caselElos": [
-        "Notice the moment they usually want to leave a hard conversation or situation.",
-        "Practice one way to stay present instead of leaving."
+      "games": [
+        {
+          "skill": "Entering",
+          "title": "Waist Control Leg Stuffing Game",
+          "start": "Both players stand. The back player is behind, hands connected around the front player's waist.",
+          "text": "Back player: keep your hands connected and move the front player around. Stuff one leg in front of his to put his hands on the mat. Front player: separate the hands and turn to face the back player.",
+          "win": [
+            { "role": "The back player", "text": "wins when the front player's hands touch the mat." },
+            { "role": "The front player", "text": "wins by freeing himself and turning to face." }
+          ],
+          "reset": "This one runs without a break. Play continues until someone wins, then you switch roles."
+        },
+        {
+          "skill": "Arriving",
+          "leavingSkill": "Leaving",
+          "title": "Guard Recovery with Passing Resistance Game",
+          "start": "The bottom player is lying on his side. The top player has passed the legs and is at his hips.",
+          "text": "Bottom player: stay mobile on your side, stop the top player's hands from connecting, and get your legs back in front. Top player: lock your hands around the bottom player's waist, chest, or back to stop the recovery.",
+          "win": [
+            { "role": "The bottom player", "text": "wins by recovering to any real guard position while staying mobile." },
+            { "role": "The top player", "text": "wins by locking his hands." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Controlling",
+          "leavingSkill": "Leaving",
+          "title": "Rear Hip Connection, Keep Belly Down",
+          "start": "The defender is on his elbows and knees. The attacker is behind him, hands locked around his waist.",
+          "text": "Attacker: keep the defender belly down, using knee-to-knee and foot-to-foot blocking to pull his hips to the mat. Defender: rise to a quad pod, both knees and both elbows off the floor.",
+          "win": [
+            { "role": "The attacker", "text": "has no time limit. He holds as long as he keeps the defender belly down." },
+            { "role": "The defender", "text": "wins by reaching a quad pod." }
+          ],
+          "reset": "The attacker holds no matter what. If the defender reaches a quad pod, that is his win, and you start over. Roles switch after every win."
+        }
       ],
       "connection": "Staying in an uncomfortable pin instead of scrambling out is like staying in a hard conversation. Both take the same skill: putting up with discomfort instead of running from it.",
       "note": "Staying is the skill. But leaving a harmful situation is wise, not a failure.",
@@ -161,22 +259,42 @@
       "week": 6,
       "theme": "Friction",
       "probingQuestion": "What does your friction do to the people across from you?",
-      "card": "The Chest Pin",
-      "domain": "Control",
-      "keyCondition": "Firm control that keeps the partner safe. Adjust the moment they tap.",
-      "gameName": "Hip Control Breakdown Game, run with an intensity constraint",
-      "gameText": "The top player breaks the partner down and takes control, hips down, shoulder connected, with a limit on how hard they go. Win by holding control while keeping the partner completely safe.",
-      "gameNote": "You can pin hard and still not hurt them. That choice is yours, every round.",
-      "gameWin": "Holding control — hips down, shoulder connected — while keeping the partner completely safe",
-      "grapplingTlo": "By the end of this session, the participant will use chest-pin control hard enough to work, but controlled enough to keep the partner safe.",
-      "grapplingElos": [
-        "Apply the pin firmly while keeping the partner safe.",
-        "Adjust how hard they go based on the partner's signals and taps."
-      ],
-      "caselTlo": "By the end of this session, the participant will name how their conflict style affects other people, and one change they can make.",
-      "caselElos": [
-        "Notice how their friction lands on the person across from them.",
-        "Name one change that keeps the friction honest but not harmful."
+      "games": [
+        {
+          "skill": "Entering",
+          "title": "Foot-to-Foot Contact with Overhook / Underhook",
+          "start": "Both players stand. The overhook player has an overhook. The underhook player has an underhook.",
+          "text": "Overhook player: keep the overhook, use both hands to move your partner, and make foot-to-foot contact with either leg. Underhook player: close your hands anywhere below the overhook player's elbows and above his ankles.",
+          "win": [
+            { "role": "The overhook player", "text": "wins when the underhook player falls to his hips or hands." },
+            { "role": "The underhook player", "text": "wins by closing his hands under the elbows." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Arriving",
+          "leavingSkill": "Leaving",
+          "title": "Seated Open Guard Game",
+          "start": "The top player stands. The bottom player sits on the mat with an inside hook and a knee-pit grip.",
+          "text": "Bottom player: move from seated to belly up, using your connections to put the top player down on his hips or hands, then wrestle up or stand and make his back touch the mat. Top player: put the bottom player on his back and keep shin contact.",
+          "win": [
+            { "role": "The bottom player", "text": "wins by standing up and reaching the hips, or by making the top player's back touch the mat." },
+            { "role": "The top player", "text": "wins with shin contact on the knees or body." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Controlling",
+          "leavingSkill": "Leaving",
+          "title": "Figure Four Grip Control Game",
+          "start": "The bottom player is on his back. The top player covers his head with a figure-four grip, one hand on the wrist, the other arm under the elbow.",
+          "text": "Top player: keep the figure-four grip and stay under at least one elbow while keeping the bottom player pinned. Bottom player: break the grip by freeing your arms and getting your elbows to your body.",
+          "win": [
+            { "role": "The top player", "text": "has no time limit. He holds as long as he keeps the grip." },
+            { "role": "The bottom player", "text": "wins by breaking the grip." }
+          ],
+          "reset": "The top player holds no matter what. If the bottom player breaks the grip, that is his win, and you start over. Roles switch after every win."
+        }
       ],
       "connection": "You can pin someone hard and still keep them safe. That is control of your own force. Your conflict off the mat lands on real people too, and the same control applies: honest friction, not harm.",
       "takeaway": "Friction is fine. Harm is a choice. The control is yours."
@@ -186,22 +304,42 @@
       "week": 7,
       "theme": "Rupture",
       "probingQuestion": "What breaks in you when a connection breaks?",
-      "card": "The Chest Pin",
-      "domain": "Integrate, escape side",
-      "keyCondition": "Frame first, then bridge. Reset clean after the break.",
-      "gameName": "Riding Bottom Position Game",
-      "gameText": "This one is from the bottom. The pin breaks and you get reversed or stuck underneath. Win by framing first, then standing and turning to face your partner.",
-      "gameNote": "Reset clean, no payback. That is how you handle a break when a connection goes bad.",
-      "gameWin": "Framing first, then standing and turning to face — a clean reset",
-      "grapplingTlo": "By the end of this session, the participant will notice when chest-pin control breaks, and reset to a safe position without panic or payback.",
-      "grapplingElos": [
-        "Notice the moment control is lost, a reversal or an escape.",
-        "Reset to a safe position instead of forcing it or trying to get payback."
-      ],
-      "caselTlo": "By the end of this session, the participant will name what breaks inside them when a connection breaks.",
-      "caselElos": [
-        "Notice how they react inside when a relationship or connection breaks.",
-        "Name whether they tend to strike back, shut down, or pull away."
+      "games": [
+        {
+          "skill": "Entering",
+          "title": "Single Leg, Make Partner Fall to Hands or Hips",
+          "start": "Both players stand. The attacker is connected to one of the defender's legs.",
+          "text": "Attacker: move the defender using only that leg, run him, pull him, turn him, or lift him, to make his hips or hands touch the mat. Defender: stay balanced and use your connections to break the grip and free your leg.",
+          "win": [
+            { "role": "The attacker", "text": "wins when the defender's hips or hands touch the mat." },
+            { "role": "The defender", "text": "wins by freeing the leg." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Arriving",
+          "leavingSkill": "Leaving",
+          "title": "Guard Recovery After Leg Pass Game",
+          "start": "The bottom player is lying on his side. The top player has already passed the legs and is at his hips.",
+          "text": "Bottom player: stay mobile on your side, control the top player's arms to stop his hands from locking, and get your legs back in front. Top player: lock your hands around the bottom player's body.",
+          "win": [
+            { "role": "The bottom player", "text": "wins by getting his legs back in front in any real guard." },
+            { "role": "The top player", "text": "wins by locking his hands around the bottom player." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Controlling",
+          "leavingSkill": "Leaving",
+          "title": "Figure Four Grip Control Game",
+          "start": "The bottom player is on his back. The top player covers his head with a figure-four grip, one hand on the wrist, the other arm under the elbow.",
+          "text": "Top player: keep the figure-four grip and stay under at least one elbow while keeping the bottom player pinned. Bottom player: break the grip by freeing your arms and getting your elbows to your body.",
+          "win": [
+            { "role": "The top player", "text": "has no time limit. He holds as long as he keeps the grip." },
+            { "role": "The bottom player", "text": "wins by breaking the grip." }
+          ],
+          "reset": "The top player holds no matter what. If the bottom player breaks the grip, that is his win, and you start over. Roles switch after every win."
+        }
       ],
       "connection": "Losing the pin and getting reversed is a small rupture. How you handle that break on the mat, a clean reset or payback, is a lot like how you handle broken connections in life.",
       "takeaway": "A rupture teaches you something. You survived naming it."
@@ -211,22 +349,43 @@
       "week": 7,
       "theme": "Rupture",
       "probingQuestion": "Have you ever broken something with someone and left it broken?",
-      "card": "The Chest Pin",
-      "domain": "Finish, top seat strangle",
-      "keyCondition": "Trap the choking-side arm before the frame closes. Release the instant your partner taps.",
-      "gameName": "Mount Head and Arm Trap Game",
-      "gameText": "This is the first finish you own: a strangle. Trap the head and one arm, hands locked together. Trap the choking-side arm before the frame closes. Release the instant your partner taps. Every single time.",
-      "gameNote": "This is power you can use and then let go of. The tap is an invitation to repair. This week asks if you take it.",
-      "gameWin": "Trapping the head and one arm with hands locked — and releasing the instant your partner taps",
-      "grapplingTlo": "By the end of this session, the participant will apply one owned chest-pin finish, a strangle, with full control, and release the instant their partner taps.",
-      "grapplingElos": [
-        "Get one owned chest-pin finish locked in against light resistance.",
-        "Release instantly and completely on the partner's tap, every time."
-      ],
-      "caselTlo": "By the end of this session, the participant will name a rupture they left unrepaired, without having to share it out loud.",
-      "caselElos": [
-        "Admit there's a broken connection they never fixed.",
-        "Notice what leaving it broken has cost them."
+      "games": [
+        {
+          "skill": "Entering",
+          "title": "Stick and Pull Foot Sweep Game",
+          "start": "Both players stand. The overhook player has an overhook. The underhook player has an underhook.",
+          "text": "Overhook player: move your partner, make foot-to-foot contact, then stick the foot and pull, with your foot, your upper body, or your hands, to put him on a knee or his back. Underhook player: connect your hands, then lift him fully off the ground, get behind him, or pick up a leg.",
+          "win": [
+            { "role": "The overhook player", "text": "wins by putting the underhook player on a knee or his back." },
+            { "role": "The underhook player", "text": "wins by lifting him, getting behind him, or picking up a leg." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Arriving",
+          "leavingSkill": "Leaving",
+          "title": "Closed Guard Opening, Hands on Body",
+          "start": "The bottom player has closed guard locked around the top player. The top player is inside the guard, hands on him.",
+          "text": "Top player: hold the bottom player down, get to your feet, and press on his hips, knees, and feet to open his legs. Bottom player: keep your legs closed, using only open-hand grips on the head, wrists, and elbows.",
+          "win": [
+            { "role": "The top player", "text": "wins by getting to his feet and opening the guard." },
+            { "role": "The bottom player", "text": "wins by stopping the top player's win for 30 seconds. Then you switch roles." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Finishing",
+          "leavingSkill": "Leaving",
+          "title": "Head and Arm Strangle, Close Position Start",
+          "start": "The bottom player is on his back. The top player is in mount, one hand under his head and one under his arm. No strangle is on yet.",
+          "text": "Top player: bring the bottom player's arm to his head and trap it there, staying under at least one elbow the whole time. Bottom player: bring the trapped elbow back to your body with nothing between it, or make the top player fall over.",
+          "win": [
+            { "role": "The top player", "text": "wins with the arm trapped at the head." },
+            { "role": "The bottom player", "text": "wins by touching that elbow to his body, or by making the top player fall." }
+          ],
+          "reset": "The win is the trap, not the strangle. No finish is shown. The tap is honored instantly, every time. Roles switch after every win.",
+          "note": "The win here is the trap, not the finish. No finish is demonstrated."
+        }
       ],
       "connection": "A finish you can apply and release on the tap is power you control. Leaving a break unrepaired is choosing not to release, not to reset. The tap is the invitation to repair. This week asks whether you take it.",
       "privateOk": true,
@@ -237,22 +396,43 @@
       "week": 7,
       "theme": "Rupture",
       "probingQuestion": "When something breaks, what part is yours to own?",
-      "card": "The Chest Pin",
-      "domain": "Finish, top seat Arm Lock",
-      "keyCondition": "Both hands controlling the wrist, set before you straighten the arm. Release the instant your partner taps.",
-      "gameName": "Arm Lock Breaking Position Game",
-      "gameText": "This is the second finish you own: an arm lock. Separate your partner's hands and get two grips on the wrist. Set both control points before you straighten the arm. Release the instant they tap.",
-      "gameNote": "Owning your part when something breaks starts with control, not a yank.",
-      "gameWin": "Separating the hands and getting two grips on the wrist, with control set before straightening the arm",
-      "grapplingTlo": "By the end of this session, the participant will apply a second owned chest-pin finish, an arm lock, with control, and name one mistake they made in a round without making excuses.",
-      "grapplingElos": [
-        "Get an owned chest-pin arm lock locked in with control, and release on the tap.",
-        "Name one mistake they made in a round honestly, without blaming the partner."
-      ],
-      "caselTlo": "By the end of this session, the participant will say which part of a break is their share, separate from the other person's share.",
-      "caselElos": [
-        "Tell apart their share of a rupture from the other person's share.",
-        "Name the one piece of it that belongs to them."
+      "games": [
+        {
+          "skill": "Entering",
+          "title": "Single Leg Destabilization, Two Paths",
+          "start": "Both players stand. The attacker is connected on one of the defender's legs at the knee. The defender is in a single-leg defensive position.",
+          "text": "Attacker: stay connected and move the defender around, then either work down to the ankle for a foot-to-foot takedown, or move to capture both legs together. Defender: use your connections to separate the attacker's hands and free yourself completely.",
+          "win": [
+            { "role": "The attacker", "text": "wins when the defender's hips or hands touch the mat." },
+            { "role": "The defender", "text": "wins by freeing himself completely." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Arriving",
+          "leavingSkill": "Leaving",
+          "title": "Knee Pit Touchdown Game",
+          "start": "The bottom player is belly up in open guard. The top player is standing and starts by clearing the feet.",
+          "text": "Top player: clear the feet, then step one leg into one knee pit, then the other, keeping your feet off. Bottom player: hook and post with your feet, using your hands to make him hit his butt, then sit up.",
+          "win": [
+            { "role": "The top player", "text": "wins by touching both knee pits with his leg while keeping his feet off." },
+            { "role": "The bottom player", "text": "wins by sitting up." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Finishing",
+          "leavingSkill": "Leaving",
+          "title": "Arm Lock Breaking Position Game",
+          "start": "The bottom player is on his back. The top player is on top, one knee above his shoulder, one foot across his body, an elbow-to-elbow grip on one arm.",
+          "text": "Top player: keep the bottom player pinned and his head covered, separate his hands, and move both grips to one arm. Bottom player: pull your arm free, or make the top player fall to his back and get to your knees.",
+          "win": [
+            { "role": "The top player", "text": "wins by separating the hands and getting two connections on the wrist." },
+            { "role": "The bottom player", "text": "wins by freeing the arm, or by reversing." }
+          ],
+          "reset": "The win is the breaking position, not the break. No finish is shown. The tap is honored instantly, every time. Roles switch after every win.",
+          "note": "The win here is the position, not the finish. No finish is demonstrated."
+        }
       ],
       "connection": "On the mat you can name your own mistake in a round without blaming your partner. Owning your part of a rupture works the same way. It starts with separating your piece from theirs.",
       "takeaway": "Owning your part is the doorway to repair."
@@ -262,22 +442,42 @@
       "week": 8,
       "theme": "Repair",
       "probingQuestion": "What does it take for you to say sorry and mean it?",
-      "card": "The Chest Pin",
-      "domain": "Integrate",
-      "keyCondition": "Get back in and rebuild the pin after a scramble.",
-      "gameName": "Perpendicular Chest-to-Chest Pin Game",
-      "gameText": "After a scramble, rebuild the pin cleanly. Win by covering the hips, getting under the elbow, and connecting your hands again.",
-      "gameNote": "Slap hands and roll clean after a hard round. That reset is repair in the body.",
-      "gameWin": "Covering the hips, getting under the elbow, and connecting your hands again after a scramble",
-      "grapplingTlo": "By the end of this session, the participant will reset with a partner after a hard round and rebuild chest-pin control cleanly.",
-      "grapplingElos": [
-        "Get back in and rebuild a chest pin after a scramble or reversal.",
-        "Roll with a partner right after a heated round, without carrying a grudge into it."
-      ],
-      "caselTlo": "By the end of this session, the participant will name what it takes for them to give a real apology.",
-      "caselElos": [
-        "Name what a real apology takes from them.",
-        "Tell apart a real apology from a dodge."
+      "games": [
+        {
+          "skill": "Entering",
+          "title": "Hand Fight with Dual Win Conditions",
+          "start": "Both players stand facing each other, hand fighting range, both hand fighting at the wrists, elbows, and head.",
+          "text": "Win one of two ways: collect three touches in any mix, or get an underhook and close your hands around your partner's shoulders, body, or leg.",
+          "win": [
+            { "role": "Whoever gets there first", "text": "wins, whether by three touches or by the underhook plus closed hands." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Arriving",
+          "leavingSkill": "Leaving",
+          "title": "Guard Recovery with Passing Resistance Game",
+          "start": "The bottom player is lying on his side. The top player has passed the legs and is at his hips.",
+          "text": "Bottom player: stay mobile on your side, stop the top player's hands from connecting, and get your legs back in front. Top player: lock your hands around the bottom player's waist, chest, or back to stop the recovery.",
+          "win": [
+            { "role": "The bottom player", "text": "wins by recovering to any real guard position while staying mobile." },
+            { "role": "The top player", "text": "wins by locking his hands." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Finishing",
+          "leavingSkill": "Leaving",
+          "title": "Figure Four, Reintroduction with Hand-to-Mat or Knuckles-Behind Win",
+          "start": "The bottom player is in side control, chest to chest. The top player starts with a figure-four grip on one arm, under his elbow.",
+          "text": "Top player: stay under the elbow, even if you lose the hand for a moment, and put the bottom player's palm flat on the mat or his knuckles behind his back. Bottom player: fight the grip directly and get the figure four out from under your elbow.",
+          "win": [
+            { "role": "The top player", "text": "wins by palm to mat or knuckles behind the back." },
+            { "role": "The bottom player", "text": "wins by removing the figure four from under the elbow." }
+          ],
+          "reset": "Switch arms every time someone wins, and swap top and bottom too. The win is the hand to the mat, not the finish. No finish is shown.",
+          "note": "The win here is the hand to the mat or behind the back, not the finish. No finish is demonstrated."
+        }
       ],
       "connection": "Resetting and rolling clean with someone right after a hard round is like squaring up with words. A real apology is the same kind of reset: you get back in instead of carrying the grudge.",
       "takeaway": "Real repair has parts, and now you can name them."
@@ -287,22 +487,42 @@
       "week": 8,
       "theme": "Repair",
       "probingQuestion": "Can you stay when leaving would be easier?",
-      "card": "The Chest Pin",
-      "domain": "Integrate",
-      "keyCondition": "Finish a hard round without giving up, in both roles.",
-      "gameName": "Guard Recovery with Passing Resistance Game",
-      "gameText": "Roll live, both roles, against a tough partner. On top, win by locking hands and holding the pin against real resistance.",
-      "gameNote": "Stay in the hard round and keep working instead of asking to switch. Staying is a choice you make on purpose.",
-      "gameWin": "On top, locking hands and holding the pin against real resistance",
-      "grapplingTlo": "By the end of this session, the participant will stay with a hard training partner and keep working instead of asking to switch.",
-      "grapplingElos": [
-        "Finish a hard round with a tough partner without giving up or asking to switch.",
-        "Keep control and stay calm when the partnership is frustrating."
-      ],
-      "caselTlo": "By the end of this session, the participant will name what makes them want to leave a hard relationship and one reason to stay.",
-      "caselElos": [
-        "Notice their own urge to leave a hard relationship.",
-        "Name one thing worth staying for."
+      "games": [
+        {
+          "skill": "Entering",
+          "title": "Underhook Multiple Connection Game",
+          "start": "Both players stand. The attacker has an underhook. The defender has an overhook.",
+          "text": "Attacker: move your partner, connecting at the head, waist, or leg, and turn every connection into a leg pick. Defender: use the overhook and your other hand to keep him away.",
+          "win": [
+            { "role": "The attacker", "text": "wins only by picking up a leg, from any connection." },
+            { "role": "The defender", "text": "wins by stopping him for 30 seconds." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Arriving",
+          "leavingSkill": "Leaving",
+          "title": "Guard Retention Connection Game",
+          "start": "The bottom player is on his back, feet hooked between the top player's knees, one hand on his ankle. The top player is standing.",
+          "text": "Bottom player: keep both feet hooked and at least one hand on the top player at all times, switching feet as needed. Top player: get both feet to the outside of the bottom player's legs and touch his body with a shin.",
+          "win": [
+            { "role": "The bottom player", "text": "has no time limit. He holds as long as he keeps the connection." },
+            { "role": "The top player", "text": "wins by getting outside both legs and making shin-to-body contact." }
+          ],
+          "reset": "The bottom player holds no matter what. If the top player gets outside and connects, that is his win, and you start over. Roles switch after every win."
+        },
+        {
+          "skill": "Controlling",
+          "leavingSkill": "Leaving",
+          "title": "Chest to Chest Under Elbows Maintenance",
+          "start": "The bottom player is on his back. The top player is chest to chest, both arms under both of the bottom player's elbows.",
+          "text": "Top player: keep both elbows away from the bottom player's body, using any body part in place of your arms if you need to. Bottom player: get both elbows back to touch your own body, or make the top player fall over.",
+          "win": [
+            { "role": "The top player", "text": "has no time limit. He holds as long as he keeps both elbows covered." },
+            { "role": "The bottom player", "text": "wins by getting both elbows to touch his body, or by making the top player fall." }
+          ],
+          "reset": "The top player holds no matter what. If the bottom player gets both elbows to his body, that is his win, and you start over. Roles switch after every win."
+        }
       ],
       "connection": "Staying with a hard partner on the mat instead of switching is commitment made physical. Staying in a hard relationship when leaving is easier is the same choice. Both build the muscle of not bailing on people.",
       "note": "Staying is the skill. But leaving a harmful relationship is not failure. This is never an all-or-nothing rule.",
@@ -313,22 +533,42 @@
       "week": 8,
       "theme": "Repair",
       "probingQuestion": "What does repair cost you, and is it worth paying?",
-      "card": "The Chest Pin",
-      "domain": "Integrate",
-      "keyCondition": "Move between control and the owned finishes. Always honor the tap.",
-      "gameName": "Hunt for Hips and Shoulders (Perpendicular Start)",
-      "gameText": "Open rolling from the chest pin, both sides play. Move between control and the owned finishes. Honor the tap, reset, and keep going.",
-      "gameNote": "This is the whole Initiation in one round: contact, friction, a break, and repair.",
-      "gameWin": "Flowing between control and the owned finishes with the tap honored, resetting and continuing",
-      "grapplingTlo": "By the end of this session, the participant will put together chest-pin control and the finishes in open rolling, using everything they have learned so far.",
-      "grapplingElos": [
-        "Move between chest-pin control and the owned finishes during live rolling.",
-        "Give and honor the tap, then reset and keep going cleanly."
-      ],
-      "caselTlo": "By the end of this session, the participant will name what repair costs them, and decide if it's worth paying that cost.",
-      "caselElos": [
-        "Name the personal cost of repairing a rupture, like pride, comfort, or time.",
-        "Decide whether repair is worth that cost, and say why."
+      "games": [
+        {
+          "skill": "Entering",
+          "title": "Hand Fight with Progression Game",
+          "start": "Both players stand facing each other, hand fighting range, both hand fighting at the wrists, elbows, and head.",
+          "text": "Win one of two ways: get under an elbow and hook on, or connect both hands around a leg and pick it up.",
+          "win": [
+            { "role": "Whoever gets there first", "text": "wins, whether by hooking under an elbow or by picking up a leg." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Arriving",
+          "leavingSkill": "Leaving",
+          "title": "Open Guard Takedown and Escape Game",
+          "start": "The top player stands. The bottom player is on his back, fully connected, hands on the top player's ankles, feet inside his legs.",
+          "text": "Bottom player: stay connected while putting the top player down on his hips or hands, then stand up, or stay connected as he rises. Top player: break the connections and make shin contact to pass.",
+          "win": [
+            { "role": "The bottom player", "text": "wins by putting the top player down and getting up to standing, or by putting him down a different way and rising to a connection." },
+            { "role": "The top player", "text": "wins with shin contact." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Finishing",
+          "leavingSkill": "Leaving",
+          "title": "Figure Four Threat Introduction Game",
+          "start": "The bottom player is on his back, in side control, chest to chest. The top player is on top with a figure-four grip on one arm.",
+          "text": "Top player: use the grip to reach a threat, winning by putting the bottom player's hand on the mat, his hand behind his back, or a precursor position. Bottom player: free your elbows and escape.",
+          "win": [
+            { "role": "The top player", "text": "wins by any of those listed positions." },
+            { "role": "The bottom player", "text": "wins by getting both elbows free." }
+          ],
+          "reset": "The win is the figure-four grip or the precursor position, not the finish. No finish is shown. The tap is honored instantly, every time. Roles switch after every win.",
+          "note": "The win here is the grip or the position, not the finish. No finish is demonstrated."
+        }
       ],
       "connection": "Open rolling puts it all together: control, finish, tap, reset, in one flow. Repair works the same way in relationships. It costs pride and comfort, and you decide it's worth paying. This closes the Initiation and points to the Return.",
       "stageClose": true,

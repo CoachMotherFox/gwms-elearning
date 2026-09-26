@@ -18,59 +18,27 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
       "Relationship Skills"
     ],
     "bloom": "Apply",
-    "card": "The Chest Pin",
-    "domain": "Control",
-    "keyCondition": "Chest on chest with hips and shoulders covered, three-count.",
-    "gameName": "Chest to Chest Under Elbows Maintenance",
     "probingQuestion": "What happens in you when someone makes real contact?",
-    "grapplingTlo": "By the end of this session, the participant will make and hold chest-to-chest contact with a partner who is pushing back a little.",
-    "looksBackAt": 10,
-    "grapplingElos": [
-      "Get into a chest-pin position and hold it for a three-count against light resistance.",
-      "Keep safe, steady contact with a partner during rolling. Don't let go."
-    ],
-    "caselTlo": "By the end of this session, the participant will name what they feel when someone makes real contact with them, and say how that connects to meeting people in real life.",
-    "caselElos": [
-      "Notice one feeling in their body or mind during close contact.",
-      "Connect that feeling to how they meet people outside the room."
+    "games": [
+      {
+        "skill": "Entering",
+        "title": "Standing Hand Connection Game"
+      },
+      {
+        "skill": "Arriving",
+        "title": "Chest-to-Chest via Outside Line Only"
+      },
+      {
+        "skill": "Controlling",
+        "title": "Chest to Chest Under Elbows Maintenance"
+      }
     ],
     "connection": "Holding contact on the mat and noticing what contact does to you are the same skill. Both mean staying present when someone gets close, instead of pushing them away. The pin teaches your body to stay. Thinking about it teaches your mind why staying is hard.",
     "takeaway": "Contact does something to all of us. Now you can feel yours.",
-    "_source": "GWMS Curriculum Guide — Session 13 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+    "_source": "GWMS Curriculum Guide — Session 13 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
-    {
-      "id": "start",
-      "title": "Welcome",
-      "slides": [
-        {
-          "id": "s13-welcome",
-          "type": "text-image",
-          "eyebrow": "Welcome",
-          "title": "Welcome to GWMS Online",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is Session 13 of 36: Contact."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 13 of 36. The Initiation, Week 5, Contact. On the mat that stage runs Chest Pin."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Take your time. There are no wrong answers when you write about yourself."
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "today",
       "title": "Today",
@@ -83,92 +51,89 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
           "body": [
             {
               "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the game and the lesson."
-            }
-          ],
-          "alternates": [
-            {
-              "mode": "audio",
-              "label": "Listen",
-              "src": "assets/probing-question.m4a",
-              "transcriptIsBody": true,
-              "own": true,
-              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+              "text": "This is your question for today. Keep it in mind during the games."
             }
           ]
         },
         {
-          "id": "s13-lookback",
-          "eyebrow": "Look back",
-          "title": "Session 10 asked you this",
-          "body": [
-            {
-              "kind": "quote",
-              "text": "What's under the version you show people?",
-              "attribution": "Session 10 — The Descent, Reveal"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Before you read on, see if you can remember what you answered."
-            }
-          ],
-          "type": "reveal",
-          "reveals": [
-            {
-              "id": "what-it-was-after",
-              "label": "What that one was really about",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "What is under the mask is not worse than the mask, it is just true."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s13-game",
+          "id": "s13-games",
           "type": "text-image",
-          "eyebrow": "The game",
-          "title": "Chest to Chest Under Elbows Maintenance",
+          "eyebrow": "Tonight on the mat",
+          "title": "The three games",
           "body": [
             {
               "kind": "lead",
-              "text": "The top player holds chest to chest, under both elbows. Win by keeping that contact for a three-count while the bottom player moves."
+              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Standing Hand Connection Game"
             },
             {
               "kind": "paragraph",
-              "text": "This is the most direct contact there is, chest to chest, face to face. Making it and holding it is like letting someone get close to you."
-            }
-          ],
-          "reveals": [
+              "text": "Skill Learning Objective (SLO): Entering, for both players."
+            },
             {
-              "id": "key-condition",
-              "label": "What you need first",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Chest on chest with hips and shoulders covered, three-count."
-                }
+              "kind": "paragraph",
+              "text": "Both players stand in an even position, each with an underhook."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Fight to get under your partner's elbows. Make a closed-hand connection anywhere from armpits to ankles."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "Whoever connects first wins. The same rule applies to both players."
               ]
             },
             {
-              "id": "the-tap",
-              "label": "Still true every session: the tap",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
+              "kind": "heading",
+              "level": 3,
+              "text": "Chest-to-Chest via Outside Line Only"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The bottom player is belly up in open guard. The top player is standing."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Top player: touch a knee pit first, then get to the outside of both legs, one then the other, and stay outside. Only then close in with chest contact and connect your hands around the bottom player. Bottom player: hook and post to make the top player sit down, then sit up."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player wins by connecting his hands around the bottom player from the outside.",
+                "The bottom player wins by making the top player's butt hit the mat and sitting up."
+              ]
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Chest to Chest Under Elbows Maintenance"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Controlling for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The bottom player is on his back. The top player is chest to chest, both arms under both of the bottom player's elbows."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Top player: keep both elbows away from the bottom player's body, using any body part in place of your arms if you need to. Bottom player: get both elbows back to touch your own body, or make the top player fall over."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player has no time limit. He holds as long as he keeps both elbows covered.",
+                "The bottom player wins by getting both elbows to touch his body, or by making the top player fall."
               ]
             }
           ]
@@ -182,12 +147,12 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Chest to Chest Under Elbows Maintenance, what counts as the win?",
+          "question": "In Chest to Chest Under Elbows Maintenance, what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Keeping chest-on-chest contact under both elbows for a three-count",
+              "text": "The top player has no time limit. He holds as long as he keeps both elbows covered.",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
@@ -209,184 +174,40 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
       ]
     },
     {
-      "id": "lesson",
-      "title": "The lesson",
-      "slides": [
-        {
-          "id": "s13-grappling",
-          "type": "text-image",
-          "eyebrow": "On the mat",
-          "title": "What you were working on",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Make and hold chest-to-chest contact with a partner who is pushing back a little."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Get into a chest-pin position and hold it for a three-count against light resistance.",
-                "Keep safe, steady contact with a partner during rolling. Don't let go."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s13-casel",
-          "type": "text-image",
-          "eyebrow": "Off the mat",
-          "title": "The part that was not about grappling",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Name what you feel when someone makes real contact with you, and say how that connects to meeting people in real life."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Notice one feeling in your body or mind during close contact.",
-                "Connect that feeling to how you meet people outside the room."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s13-connection",
-          "type": "reveal",
-          "eyebrow": "The connection",
-          "title": "Where those two meet",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Holding contact on the mat and noticing what contact does to you are the same skill. Both mean staying present when someone gets close, instead of pushing them away. The pin teaches your body to stay. Thinking about it teaches your mind why staying is hard."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "stage-arc",
-              "label": "Where this sits in The Initiation",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Chest-to-chest contact on the mat is like contact with people. Friction on the mat is like friction with people. A break on the mat is like a rupture between people. A reset on the mat is like repair between people. The Initiation tests the real you against other people."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "close",
       "title": "Before you go",
       "slides": [
         {
-          "id": "s13-recap",
-          "type": "reveal",
-          "eyebrow": "Quick recap",
-          "title": "Before you go: Chest to Chest Under Elbows Maintenance",
+          "id": "s13-takeaway",
+          "type": "text-image",
+          "eyebrow": "The takeaway",
+          "title": "What tonight was really about",
           "body": [
             {
               "kind": "lead",
-              "text": "The top player holds chest to chest, under both elbows. Win by keeping that contact for a three-count while the bottom player moves."
+              "text": "Contact does something to all of us. Now you can feel yours."
             },
             {
               "kind": "paragraph",
-              "text": "This is the most direct contact there is, chest to chest, face to face. Making it and holding it is like letting someone get close to you."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "win-again",
-              "label": "How you win it, again",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Keeping chest-on-chest contact under both elbows for a three-count"
-                }
-              ]
-            },
-            {
-              "id": "tap-again",
-              "label": "And the rule that never changes",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
-              ]
+              "text": "Holding contact on the mat and noticing what contact does to you are the same skill. Both mean staying present when someone gets close, instead of pushing them away. The pin teaches your body to stay. Thinking about it teaches your mind why staying is hard."
             }
           ]
         },
         {
-          "id": "s13-summative",
-          "type": "quiz",
-          "eyebrow": "End-of-session check",
-          "title": "What today was asking of you",
-          "assessment": {
-            "role": "summative",
-            "scored": true
-          },
-          "question": "Which one was this session actually asking you to do?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "Name what you feel when someone makes real contact with you, and say how that connects to meeting people in real life.",
-              "correct": true,
-              "feedback": "That was the target for today."
-            },
-            {
-              "text": "Name what you do when another person pushes back, and say if that habit helps you or hurts you.",
-              "feedback": "That is Session 16's target, not today's."
-            },
-            {
-              "text": "Say which part of a break is your share, separate from the other person's share.",
-              "feedback": "That is Session 21's target, not today's."
-            }
-          ],
-          "correctHead": "That's the one.",
-          "correctText": "That was the point of the whole session, on the mat and off it.",
-          "incorrectHead": "Not today.",
-          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
-          "revealText": "Today's target is marked above."
-        },
-        {
           "id": "s13-reflection",
           "type": "reflection",
-          "eyebrow": "Reflection",
+          "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What happens in you when someone makes real contact?",
-          "hint": "Nothing here is graded. A few words is plenty.",
+          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
           "placeholder": "Whatever comes to mind…"
         },
         {
           "id": "s13-irf",
           "type": "reflection",
-          "eyebrow": "Before you go",
+          "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session",
+          "kindLabel": "IRF — everyone fills this out, every session, on your own",
           "fields": [
             {
               "id": "mat",

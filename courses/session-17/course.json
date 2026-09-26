@@ -16,59 +16,27 @@
       "Relationship Skills"
     ],
     "bloom": "Apply",
-    "card": "The Chest Pin",
-    "domain": "Control",
-    "keyCondition": "Trap one arm and keep it trapped while the partner tries to get it back.",
-    "gameName": "Wrist Pin Game",
     "probingQuestion": "Can you stay present when it gets uncomfortable?",
-    "grapplingTlo": "By the end of this session, the participant will stay in a hard chest-pin exchange, even when it feels uncomfortable, instead of bailing out.",
-    "looksBackAt": 11,
-    "grapplingElos": [
-      "Stay in a hard chest-pin position, even while the partner frames and bridges, for a set time without letting go.",
-      "Use a calming tool, like a breath or a base reset, to stay present under pressure."
-    ],
-    "caselTlo": "By the end of this session, the participant will practice staying present when things feel uncomfortable, and name what makes them want to bail.",
-    "caselElos": [
-      "Notice the moment they usually want to leave a hard conversation or situation.",
-      "Practice one way to stay present instead of leaving."
+    "games": [
+      {
+        "skill": "Entering",
+        "title": "Waist Control Leg Stuffing Game"
+      },
+      {
+        "skill": "Arriving",
+        "title": "Guard Recovery with Passing Resistance Game"
+      },
+      {
+        "skill": "Controlling",
+        "title": "Rear Hip Connection, Keep Belly Down"
+      }
     ],
     "connection": "Staying in an uncomfortable pin instead of scrambling out is like staying in a hard conversation. Both take the same skill: putting up with discomfort instead of running from it.",
     "takeaway": "You can stay when things feel uncomfortable. You just did it.",
-    "_source": "GWMS Curriculum Guide — Session 17 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+    "_source": "GWMS Curriculum Guide — Session 17 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
-    {
-      "id": "start",
-      "title": "Welcome",
-      "slides": [
-        {
-          "id": "s17-welcome",
-          "type": "text-image",
-          "eyebrow": "Welcome",
-          "title": "Welcome to GWMS Online",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is Session 17 of 36: Friction."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 17 of 36. The Initiation, Week 6, Friction. On the mat that stage runs Chest Pin."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Take your time. There are no wrong answers when you write about yourself."
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "today",
       "title": "Today",
@@ -81,92 +49,90 @@
           "body": [
             {
               "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the game and the lesson."
-            }
-          ],
-          "alternates": [
-            {
-              "mode": "audio",
-              "label": "Listen",
-              "src": "assets/probing-question.m4a",
-              "transcriptIsBody": true,
-              "own": true,
-              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+              "text": "This is your question for today. Keep it in mind during the games."
             }
           ]
         },
         {
-          "id": "s17-lookback",
-          "eyebrow": "Look back",
-          "title": "Session 11 asked you this",
-          "body": [
-            {
-              "kind": "quote",
-              "text": "What part of you have you been hiding, even from yourself?",
-              "attribution": "Session 11 — The Descent, Reveal"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Before you read on, see if you can remember what you answered."
-            }
-          ],
-          "type": "reveal",
-          "reveals": [
-            {
-              "id": "what-it-was-after",
-              "label": "What that one was really about",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Naming the hidden part, even silently, is the bravest thing the mat asks of you."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s17-game",
+          "id": "s17-games",
           "type": "text-image",
-          "eyebrow": "The game",
-          "title": "Wrist Pin Game",
+          "eyebrow": "Tonight on the mat",
+          "title": "The three games",
           "body": [
             {
               "kind": "lead",
-              "text": "The top player traps and pins a wrist while the partner tries to break free. Win by keeping the wrist trapped and reaching head-and-arm or chest-to-back contact."
+              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Waist Control Leg Stuffing Game"
             },
             {
               "kind": "paragraph",
-              "text": "You are staying in an uncomfortable spot and working it instead of bailing out."
-            }
-          ],
-          "reveals": [
+              "text": "Skill Learning Objective (SLO): Entering, for both players."
+            },
             {
-              "id": "key-condition",
-              "label": "What you need first",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Trap one arm and keep it trapped while the partner tries to get it back."
-                }
+              "kind": "paragraph",
+              "text": "Both players stand. The back player is behind, hands connected around the front player's waist."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Back player: keep your hands connected and move the front player around. Stuff one leg in front of his to put his hands on the mat. Front player: separate the hands and turn to face the back player."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The back player wins when the front player's hands touch the mat.",
+                "The front player wins by freeing himself and turning to face."
               ]
             },
             {
-              "id": "the-tap",
-              "label": "Still true every session: the tap",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
+              "kind": "heading",
+              "level": 3,
+              "text": "Guard Recovery with Passing Resistance Game"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The bottom player is lying on his side. The top player has passed the legs and is at his hips."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bottom player: stay mobile on your side, stop the top player's hands from connecting, and get your legs back in front. Top player: lock your hands around the bottom player's waist, chest, or back to stop the recovery."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The bottom player wins by recovering to any real guard position while staying mobile.",
+                "The top player wins by locking his hands."
+              ]
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Rear Hip Connection, Keep Belly Down"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Controlling for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The defender is on his elbows and knees. The attacker is behind him, hands locked around his waist."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Attacker: keep the defender belly down, using knee-to-knee and foot-to-foot blocking to pull his hips to the mat. Defender: rise to a quad pod, both knees and both elbows off the floor."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The attacker has no time limit. He holds as long as he keeps the defender belly down.",
+                "The defender wins by reaching a quad pod."
               ]
             }
           ]
@@ -180,12 +146,12 @@
             "role": "formative",
             "scored": false
           },
-          "question": "In Wrist Pin Game, what counts as the win?",
+          "question": "In Rear Hip Connection, Keep Belly Down, what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Keeping the wrist trapped and reaching head-and-arm or chest-to-back contact",
+              "text": "The attacker has no time limit. He holds as long as he keeps the defender belly down.",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
@@ -207,189 +173,45 @@
       ]
     },
     {
-      "id": "lesson",
-      "title": "The lesson",
-      "slides": [
-        {
-          "id": "s17-grappling",
-          "type": "text-image",
-          "eyebrow": "On the mat",
-          "title": "What you were working on",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Stay in a hard chest-pin exchange, even when it feels uncomfortable, instead of bailing out."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Stay in a hard chest-pin position, even while the partner frames and bridges, for a set time without letting go.",
-                "Use a calming tool, like a breath or a base reset, to stay present under pressure."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s17-casel",
-          "type": "text-image",
-          "eyebrow": "Off the mat",
-          "title": "The part that was not about grappling",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Practice staying present when things feel uncomfortable, and name what makes you want to bail."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Notice the moment you usually want to leave a hard conversation or situation.",
-                "Practice one way to stay present instead of leaving."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s17-connection",
-          "type": "reveal",
-          "eyebrow": "The connection",
-          "title": "Where those two meet",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Staying in an uncomfortable pin instead of scrambling out is like staying in a hard conversation. Both take the same skill: putting up with discomfort instead of running from it."
-            },
-            {
-              "kind": "callout",
-              "label": "Said simply",
-              "text": "Staying is the skill. But leaving a harmful situation is wise, not a failure."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "stage-arc",
-              "label": "Where this sits in The Initiation",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Chest-to-chest contact on the mat is like contact with people. Friction on the mat is like friction with people. A break on the mat is like a rupture between people. A reset on the mat is like repair between people. The Initiation tests the real you against other people."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "close",
       "title": "Before you go",
       "slides": [
         {
-          "id": "s17-recap",
-          "type": "reveal",
-          "eyebrow": "Quick recap",
-          "title": "Before you go: Wrist Pin Game",
+          "id": "s17-takeaway",
+          "type": "text-image",
+          "eyebrow": "The takeaway",
+          "title": "What tonight was really about",
           "body": [
             {
               "kind": "lead",
-              "text": "The top player traps and pins a wrist while the partner tries to break free. Win by keeping the wrist trapped and reaching head-and-arm or chest-to-back contact."
+              "text": "You can stay when things feel uncomfortable. You just did it."
             },
             {
               "kind": "paragraph",
-              "text": "You are staying in an uncomfortable spot and working it instead of bailing out."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "win-again",
-              "label": "How you win it, again",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Keeping the wrist trapped and reaching head-and-arm or chest-to-back contact"
-                }
-              ]
+              "text": "Staying in an uncomfortable pin instead of scrambling out is like staying in a hard conversation. Both take the same skill: putting up with discomfort instead of running from it."
             },
             {
-              "id": "tap-again",
-              "label": "And the rule that never changes",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
-              ]
+              "kind": "callout",
+              "label": "Worth knowing",
+              "text": "Staying is the skill. But leaving a harmful situation is wise, not a failure."
             }
           ]
         },
         {
-          "id": "s17-summative",
-          "type": "quiz",
-          "eyebrow": "End-of-session check",
-          "title": "What today was asking of you",
-          "assessment": {
-            "role": "summative",
-            "scored": true
-          },
-          "question": "Which one was this session actually asking you to do?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "Practice staying present when things feel uncomfortable, and name what makes you want to bail.",
-              "correct": true,
-              "feedback": "That was the target for today."
-            },
-            {
-              "text": "Name a rupture you left unrepaired, without having to share it out loud.",
-              "feedback": "That is Session 20's target, not today's."
-            },
-            {
-              "text": "Name what you feel when someone makes real contact with you, and say how that connects to meeting people in real life.",
-              "feedback": "That is Session 13's target, not today's."
-            }
-          ],
-          "correctHead": "That's the one.",
-          "correctText": "That was the point of the whole session, on the mat and off it.",
-          "incorrectHead": "Not today.",
-          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
-          "revealText": "Today's target is marked above."
-        },
-        {
           "id": "s17-reflection",
           "type": "reflection",
-          "eyebrow": "Reflection",
+          "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "Can you stay present when it gets uncomfortable?",
-          "hint": "Nothing here is graded. A few words is plenty.",
+          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
           "placeholder": "Whatever comes to mind…"
         },
         {
           "id": "s17-irf",
           "type": "reflection",
-          "eyebrow": "Before you go",
+          "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session",
+          "kindLabel": "IRF — everyone fills this out, every session, on your own",
           "fields": [
             {
               "id": "mat",

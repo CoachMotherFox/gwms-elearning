@@ -18,59 +18,27 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
       "Relationship Skills"
     ],
     "bloom": "Apply",
-    "card": "The Chest Pin",
-    "domain": "Finish, top seat strangle",
-    "keyCondition": "Trap the choking-side arm before the frame closes. Release the instant your partner taps.",
-    "gameName": "Mount Head and Arm Trap Game",
     "probingQuestion": "Have you ever broken something with someone and left it broken?",
-    "grapplingTlo": "By the end of this session, the participant will apply one owned chest-pin finish, a strangle, with full control, and release the instant their partner taps.",
-    "looksBackAt": 14,
-    "grapplingElos": [
-      "Get one owned chest-pin finish locked in against light resistance.",
-      "Release instantly and completely on the partner's tap, every time."
-    ],
-    "caselTlo": "By the end of this session, the participant will name a rupture they left unrepaired, without having to share it out loud.",
-    "caselElos": [
-      "Admit there's a broken connection they never fixed.",
-      "Notice what leaving it broken has cost them."
+    "games": [
+      {
+        "skill": "Entering",
+        "title": "Stick and Pull Foot Sweep Game"
+      },
+      {
+        "skill": "Arriving",
+        "title": "Closed Guard Opening, Hands on Body"
+      },
+      {
+        "skill": "Finishing",
+        "title": "Head and Arm Strangle, Close Position Start"
+      }
     ],
     "connection": "A finish you can apply and release on the tap is power you control. Leaving a break unrepaired is choosing not to release, not to reset. The tap is the invitation to repair. This week asks whether you take it.",
     "takeaway": "Naming the break you never fixed is the first step toward repair.",
-    "_source": "GWMS Curriculum Guide — Session 20 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+    "_source": "GWMS Curriculum Guide — Session 20 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
-    {
-      "id": "start",
-      "title": "Welcome",
-      "slides": [
-        {
-          "id": "s20-welcome",
-          "type": "text-image",
-          "eyebrow": "Welcome",
-          "title": "Welcome to GWMS Online",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is Session 20 of 36: Rupture."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 20 of 36. The Initiation, Week 7, Rupture. On the mat that stage runs Chest Pin."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Take your time. There are no wrong answers when you write about yourself."
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "today",
       "title": "Today",
@@ -83,92 +51,90 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
           "body": [
             {
               "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the game and the lesson."
-            }
-          ],
-          "alternates": [
-            {
-              "mode": "audio",
-              "label": "Listen",
-              "src": "assets/probing-question.m4a",
-              "transcriptIsBody": true,
-              "own": true,
-              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+              "text": "This is your question for today. Keep it in mind during the games."
             }
           ]
         },
         {
-          "id": "s20-lookback",
-          "eyebrow": "Look back",
-          "title": "Session 14 asked you this",
-          "body": [
-            {
-              "kind": "quote",
-              "text": "How much of someone else do you actually let in?",
-              "attribution": "Session 14 — The Initiation, Contact"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Before you read on, see if you can remember what you answered."
-            }
-          ],
-          "type": "reveal",
-          "reveals": [
-            {
-              "id": "what-it-was-after",
-              "label": "What that one was really about",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Letting people in is like a dial you control. You just found yours."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s20-game",
+          "id": "s20-games",
           "type": "text-image",
-          "eyebrow": "The game",
-          "title": "Mount Head and Arm Trap Game",
+          "eyebrow": "Tonight on the mat",
+          "title": "The three games",
           "body": [
             {
               "kind": "lead",
-              "text": "This is the first finish you own: a strangle. Trap the head and one arm, hands locked together. Trap the choking-side arm before the frame closes. Release the instant your partner taps. Every single time."
+              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Stick and Pull Foot Sweep Game"
             },
             {
               "kind": "paragraph",
-              "text": "This is power you can use and then let go of. The tap is an invitation to repair. This week asks if you take it."
-            }
-          ],
-          "reveals": [
+              "text": "Skill Learning Objective (SLO): Entering, for both players."
+            },
             {
-              "id": "key-condition",
-              "label": "What you need first",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Trap the choking-side arm before the frame closes. Release the instant your partner taps."
-                }
+              "kind": "paragraph",
+              "text": "Both players stand. The overhook player has an overhook. The underhook player has an underhook."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Overhook player: move your partner, make foot-to-foot contact, then stick the foot and pull, with your foot, your upper body, or your hands, to put him on a knee or his back. Underhook player: connect your hands, then lift him fully off the ground, get behind him, or pick up a leg."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The overhook player wins by putting the underhook player on a knee or his back.",
+                "The underhook player wins by lifting him, getting behind him, or picking up a leg."
               ]
             },
             {
-              "id": "the-tap",
-              "label": "Still true every session: the tap",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
+              "kind": "heading",
+              "level": 3,
+              "text": "Closed Guard Opening, Hands on Body"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The bottom player has closed guard locked around the top player. The top player is inside the guard, hands on him."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Top player: hold the bottom player down, get to your feet, and press on his hips, knees, and feet to open his legs. Bottom player: keep your legs closed, using only open-hand grips on the head, wrists, and elbows."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player wins by getting to his feet and opening the guard.",
+                "The bottom player wins by stopping the top player's win for 30 seconds. Then you switch roles."
+              ]
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Head and Arm Strangle, Close Position Start"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Finishing for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The bottom player is on his back. The top player is in mount, one hand under his head and one under his arm. No strangle is on yet."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Top player: bring the bottom player's arm to his head and trap it there, staying under at least one elbow the whole time. Bottom player: bring the trapped elbow back to your body with nothing between it, or make the top player fall over."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player wins with the arm trapped at the head.",
+                "The bottom player wins by touching that elbow to his body, or by making the top player fall."
               ]
             }
           ]
@@ -182,12 +148,12 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Mount Head and Arm Trap Game, what counts as the win?",
+          "question": "In Head and Arm Strangle, Close Position Start, what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Trapping the head and one arm with hands locked — and releasing the instant your partner taps",
+              "text": "The top player wins with the arm trapped at the head.",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
@@ -209,184 +175,40 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
       ]
     },
     {
-      "id": "lesson",
-      "title": "The lesson",
-      "slides": [
-        {
-          "id": "s20-grappling",
-          "type": "text-image",
-          "eyebrow": "On the mat",
-          "title": "What you were working on",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Apply one owned chest-pin finish, a strangle, with full control, and release the instant your partner taps."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Get one owned chest-pin finish locked in against light resistance.",
-                "Release instantly and completely on the partner's tap, every time."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s20-casel",
-          "type": "text-image",
-          "eyebrow": "Off the mat",
-          "title": "The part that was not about grappling",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Name a rupture you left unrepaired, without having to share it out loud."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Admit there's a broken connection you never fixed.",
-                "Notice what leaving it broken has cost you."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s20-connection",
-          "type": "reveal",
-          "eyebrow": "The connection",
-          "title": "Where those two meet",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "A finish you can apply and release on the tap is power you control. Leaving a break unrepaired is choosing not to release, not to reset. The tap is the invitation to repair. This week asks whether you take it."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "stage-arc",
-              "label": "Where this sits in The Initiation",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Chest-to-chest contact on the mat is like contact with people. Friction on the mat is like friction with people. A break on the mat is like a rupture between people. A reset on the mat is like repair between people. The Initiation tests the real you against other people."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "close",
       "title": "Before you go",
       "slides": [
         {
-          "id": "s20-recap",
-          "type": "reveal",
-          "eyebrow": "Quick recap",
-          "title": "Before you go: Mount Head and Arm Trap Game",
+          "id": "s20-takeaway",
+          "type": "text-image",
+          "eyebrow": "The takeaway",
+          "title": "What tonight was really about",
           "body": [
             {
               "kind": "lead",
-              "text": "This is the first finish you own: a strangle. Trap the head and one arm, hands locked together. Trap the choking-side arm before the frame closes. Release the instant your partner taps. Every single time."
+              "text": "Naming the break you never fixed is the first step toward repair."
             },
             {
               "kind": "paragraph",
-              "text": "This is power you can use and then let go of. The tap is an invitation to repair. This week asks if you take it."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "win-again",
-              "label": "How you win it, again",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Trapping the head and one arm with hands locked — and releasing the instant your partner taps"
-                }
-              ]
-            },
-            {
-              "id": "tap-again",
-              "label": "And the rule that never changes",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
-              ]
+              "text": "A finish you can apply and release on the tap is power you control. Leaving a break unrepaired is choosing not to release, not to reset. The tap is the invitation to repair. This week asks whether you take it."
             }
           ]
         },
         {
-          "id": "s20-summative",
-          "type": "quiz",
-          "eyebrow": "End-of-session check",
-          "title": "What today was asking of you",
-          "assessment": {
-            "role": "summative",
-            "scored": true
-          },
-          "question": "Which one was this session actually asking you to do?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "Name a rupture you left unrepaired, without having to share it out loud.",
-              "correct": true,
-              "feedback": "That was the target for today."
-            },
-            {
-              "text": "Name what makes you want to leave a hard relationship and one reason to stay.",
-              "feedback": "That is Session 23's target, not today's."
-            },
-            {
-              "text": "Name what you do when another person pushes back, and say if that habit helps you or hurts you.",
-              "feedback": "That is Session 16's target, not today's."
-            }
-          ],
-          "correctHead": "That's the one.",
-          "correctText": "That was the point of the whole session, on the mat and off it.",
-          "incorrectHead": "Not today.",
-          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
-          "revealText": "Today's target is marked above."
-        },
-        {
           "id": "s20-reflection",
           "type": "reflection",
-          "eyebrow": "Reflection",
+          "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "Have you ever broken something with someone and left it broken?",
-          "hint": "You do not have to write anything here. Looking at it yourself is the whole task.",
+          "hint": "You do not have to write anything here. On your own, just look at it yourself. That is the whole task.",
           "placeholder": "Whatever comes to mind…"
         },
         {
           "id": "s20-irf",
           "type": "reflection",
-          "eyebrow": "Before you go",
+          "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session",
+          "kindLabel": "IRF — everyone fills this out, every session, on your own",
           "fields": [
             {
               "id": "mat",

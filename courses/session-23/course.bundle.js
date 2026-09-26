@@ -18,59 +18,27 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
       "Relationship Skills"
     ],
     "bloom": "Apply",
-    "card": "The Chest Pin",
-    "domain": "Integrate",
-    "keyCondition": "Finish a hard round without giving up, in both roles.",
-    "gameName": "Guard Recovery with Passing Resistance Game",
     "probingQuestion": "Can you stay when leaving would be easier?",
-    "grapplingTlo": "By the end of this session, the participant will stay with a hard training partner and keep working instead of asking to switch.",
-    "looksBackAt": 17,
-    "grapplingElos": [
-      "Finish a hard round with a tough partner without giving up or asking to switch.",
-      "Keep control and stay calm when the partnership is frustrating."
-    ],
-    "caselTlo": "By the end of this session, the participant will name what makes them want to leave a hard relationship and one reason to stay.",
-    "caselElos": [
-      "Notice their own urge to leave a hard relationship.",
-      "Name one thing worth staying for."
+    "games": [
+      {
+        "skill": "Entering",
+        "title": "Underhook Multiple Connection Game"
+      },
+      {
+        "skill": "Arriving",
+        "title": "Guard Retention Connection Game"
+      },
+      {
+        "skill": "Controlling",
+        "title": "Chest to Chest Under Elbows Maintenance"
+      }
     ],
     "connection": "Staying with a hard partner on the mat instead of switching is commitment made physical. Staying in a hard relationship when leaving is easier is the same choice. Both build the muscle of not bailing on people.",
     "takeaway": "Staying is a choice you can make on purpose. You just practiced it.",
-    "_source": "GWMS Curriculum Guide — Session 23 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+    "_source": "GWMS Curriculum Guide — Session 23 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
-    {
-      "id": "start",
-      "title": "Welcome",
-      "slides": [
-        {
-          "id": "s23-welcome",
-          "type": "text-image",
-          "eyebrow": "Welcome",
-          "title": "Welcome to GWMS Online",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is Session 23 of 36: Repair."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 23 of 36. The Initiation, Week 8, Repair. On the mat that stage runs Chest Pin."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Take your time. There are no wrong answers when you write about yourself."
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "today",
       "title": "Today",
@@ -83,92 +51,90 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
           "body": [
             {
               "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the game and the lesson."
-            }
-          ],
-          "alternates": [
-            {
-              "mode": "audio",
-              "label": "Listen",
-              "src": "assets/probing-question.m4a",
-              "transcriptIsBody": true,
-              "own": true,
-              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+              "text": "This is your question for today. Keep it in mind during the games."
             }
           ]
         },
         {
-          "id": "s23-lookback",
-          "eyebrow": "Look back",
-          "title": "Session 17 asked you this",
-          "body": [
-            {
-              "kind": "quote",
-              "text": "Can you stay present when it gets uncomfortable?",
-              "attribution": "Session 17 — The Initiation, Friction"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Before you read on, see if you can remember what you answered."
-            }
-          ],
-          "type": "reveal",
-          "reveals": [
-            {
-              "id": "what-it-was-after",
-              "label": "What that one was really about",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "You can stay when things feel uncomfortable. You just did it."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s23-game",
+          "id": "s23-games",
           "type": "text-image",
-          "eyebrow": "The game",
-          "title": "Guard Recovery with Passing Resistance Game",
+          "eyebrow": "Tonight on the mat",
+          "title": "The three games",
           "body": [
             {
               "kind": "lead",
-              "text": "Roll live, both roles, against a tough partner. On top, win by locking hands and holding the pin against real resistance."
+              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Underhook Multiple Connection Game"
             },
             {
               "kind": "paragraph",
-              "text": "Stay in the hard round and keep working instead of asking to switch. Staying is a choice you make on purpose."
-            }
-          ],
-          "reveals": [
+              "text": "Skill Learning Objective (SLO): Entering, for both players."
+            },
             {
-              "id": "key-condition",
-              "label": "What you need first",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Finish a hard round without giving up, in both roles."
-                }
+              "kind": "paragraph",
+              "text": "Both players stand. The attacker has an underhook. The defender has an overhook."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Attacker: move your partner, connecting at the head, waist, or leg, and turn every connection into a leg pick. Defender: use the overhook and your other hand to keep him away."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The attacker wins only by picking up a leg, from any connection.",
+                "The defender wins by stopping him for 30 seconds."
               ]
             },
             {
-              "id": "the-tap",
-              "label": "Still true every session: the tap",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
+              "kind": "heading",
+              "level": 3,
+              "text": "Guard Retention Connection Game"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The bottom player is on his back, feet hooked between the top player's knees, one hand on his ankle. The top player is standing."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bottom player: keep both feet hooked and at least one hand on the top player at all times, switching feet as needed. Top player: get both feet to the outside of the bottom player's legs and touch his body with a shin."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The bottom player has no time limit. He holds as long as he keeps the connection.",
+                "The top player wins by getting outside both legs and making shin-to-body contact."
+              ]
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Chest to Chest Under Elbows Maintenance"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Controlling for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The bottom player is on his back. The top player is chest to chest, both arms under both of the bottom player's elbows."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Top player: keep both elbows away from the bottom player's body, using any body part in place of your arms if you need to. Bottom player: get both elbows back to touch your own body, or make the top player fall over."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player has no time limit. He holds as long as he keeps both elbows covered.",
+                "The bottom player wins by getting both elbows to touch his body, or by making the top player fall."
               ]
             }
           ]
@@ -182,12 +148,12 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Guard Recovery with Passing Resistance Game, what counts as the win?",
+          "question": "In Chest to Chest Under Elbows Maintenance, what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "On top, locking hands and holding the pin against real resistance",
+              "text": "The top player has no time limit. He holds as long as he keeps both elbows covered.",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
@@ -209,189 +175,45 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
       ]
     },
     {
-      "id": "lesson",
-      "title": "The lesson",
-      "slides": [
-        {
-          "id": "s23-grappling",
-          "type": "text-image",
-          "eyebrow": "On the mat",
-          "title": "What you were working on",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Stay with a hard training partner and keep working instead of asking to switch."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Finish a hard round with a tough partner without giving up or asking to switch.",
-                "Keep control and stay calm when the partnership is frustrating."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s23-casel",
-          "type": "text-image",
-          "eyebrow": "Off the mat",
-          "title": "The part that was not about grappling",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Name what makes you want to leave a hard relationship and one reason to stay."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Notice your own urge to leave a hard relationship.",
-                "Name one thing worth staying for."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s23-connection",
-          "type": "reveal",
-          "eyebrow": "The connection",
-          "title": "Where those two meet",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Staying with a hard partner on the mat instead of switching is commitment made physical. Staying in a hard relationship when leaving is easier is the same choice. Both build the muscle of not bailing on people."
-            },
-            {
-              "kind": "callout",
-              "label": "Said simply",
-              "text": "Staying is the skill. But leaving a harmful relationship is not failure. This is never an all-or-nothing rule."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "stage-arc",
-              "label": "Where this sits in The Initiation",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Chest-to-chest contact on the mat is like contact with people. Friction on the mat is like friction with people. A break on the mat is like a rupture between people. A reset on the mat is like repair between people. The Initiation tests the real you against other people."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "close",
       "title": "Before you go",
       "slides": [
         {
-          "id": "s23-recap",
-          "type": "reveal",
-          "eyebrow": "Quick recap",
-          "title": "Before you go: Guard Recovery with Passing Resistance Game",
+          "id": "s23-takeaway",
+          "type": "text-image",
+          "eyebrow": "The takeaway",
+          "title": "What tonight was really about",
           "body": [
             {
               "kind": "lead",
-              "text": "Roll live, both roles, against a tough partner. On top, win by locking hands and holding the pin against real resistance."
+              "text": "Staying is a choice you can make on purpose. You just practiced it."
             },
             {
               "kind": "paragraph",
-              "text": "Stay in the hard round and keep working instead of asking to switch. Staying is a choice you make on purpose."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "win-again",
-              "label": "How you win it, again",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "On top, locking hands and holding the pin against real resistance"
-                }
-              ]
+              "text": "Staying with a hard partner on the mat instead of switching is commitment made physical. Staying in a hard relationship when leaving is easier is the same choice. Both build the muscle of not bailing on people."
             },
             {
-              "id": "tap-again",
-              "label": "And the rule that never changes",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
-              ]
+              "kind": "callout",
+              "label": "Worth knowing",
+              "text": "Staying is the skill. But leaving a harmful relationship is not failure. This is never an all-or-nothing rule."
             }
           ]
         },
         {
-          "id": "s23-summative",
-          "type": "quiz",
-          "eyebrow": "End-of-session check",
-          "title": "What today was asking of you",
-          "assessment": {
-            "role": "summative",
-            "scored": true
-          },
-          "question": "Which one was this session actually asking you to do?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "Name what makes you want to leave a hard relationship and one reason to stay.",
-              "correct": true,
-              "feedback": "That was the target for today."
-            },
-            {
-              "text": "Say how much you open up to another person, and name one thing that makes letting someone in hard.",
-              "feedback": "That is Session 14's target, not today's."
-            },
-            {
-              "text": "Name what breaks inside you when a connection breaks.",
-              "feedback": "That is Session 19's target, not today's."
-            }
-          ],
-          "correctHead": "That's the one.",
-          "correctText": "That was the point of the whole session, on the mat and off it.",
-          "incorrectHead": "Not today.",
-          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
-          "revealText": "Today's target is marked above."
-        },
-        {
           "id": "s23-reflection",
           "type": "reflection",
-          "eyebrow": "Reflection",
+          "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "Can you stay when leaving would be easier?",
-          "hint": "Nothing here is graded. A few words is plenty.",
+          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
           "placeholder": "Whatever comes to mind…"
         },
         {
           "id": "s23-irf",
           "type": "reflection",
-          "eyebrow": "Before you go",
+          "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session",
+          "kindLabel": "IRF — everyone fills this out, every session, on your own",
           "fields": [
             {
               "id": "mat",

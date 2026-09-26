@@ -18,59 +18,27 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
       "Self-Management"
     ],
     "bloom": "Apply",
-    "card": "Controlling the Legs",
-    "domain": "Enter, retainer's side",
-    "keyCondition": "Follow the passer. Keep your legs between you as the angle changes.",
-    "gameName": "Open Guard Multiple Connection Game",
     "probingQuestion": "What version of you shows up here, and where did you learn it?",
-    "grapplingTlo": "By the end of this session, the participant will keep guard retention while their partner changes angles.",
-    "looksBackAt": 2,
-    "grapplingElos": [
-      "Follow the partner and keep the legs between you.",
-      "Reset guard when it is in danger."
-    ],
-    "caselTlo": "By the end of this session, the participant will trace their mask back to where or who they learned it from, without having to share the story.",
-    "caselElos": [
-      "Trace their mask back to where it came from.",
-      "Keep the story optional."
+    "games": [
+      {
+        "skill": "Entering",
+        "title": "Uneven Hand Fight Game (Upper vs Lower)"
+      },
+      {
+        "skill": "Arriving",
+        "title": "Open Guard Multiple Connection Game"
+      },
+      {
+        "skill": "Controlling",
+        "title": "Rear Hip Connection, Keep Belly Down"
+      }
     ],
     "connection": "The guard you keep was drilled into you somewhere, and so was the mask. Both are learned defenses. Finding where you learned to guard is the same move on and off the mat.",
     "takeaway": "The mask made sense where you learned it. That means it is a choice, not a life sentence.",
-    "_source": "GWMS Curriculum Guide — Session 5 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+    "_source": "GWMS Curriculum Guide — Session 5 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
-    {
-      "id": "start",
-      "title": "Welcome",
-      "slides": [
-        {
-          "id": "s05-welcome",
-          "type": "text-image",
-          "eyebrow": "Welcome",
-          "title": "Welcome to GWMS Online",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is Session 5 of 36: Mask."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 5 of 36. The Descent, Week 2, Mask. On the mat that stage runs The Paths."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Take your time. There are no wrong answers when you write about yourself."
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "today",
       "title": "Today",
@@ -83,92 +51,90 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
           "body": [
             {
               "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the game and the lesson."
-            }
-          ],
-          "alternates": [
-            {
-              "mode": "audio",
-              "label": "Listen",
-              "src": "assets/probing-question.m4a",
-              "transcriptIsBody": true,
-              "own": true,
-              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+              "text": "This is your question for today. Keep it in mind during the games."
             }
           ]
         },
         {
-          "id": "s05-lookback",
-          "eyebrow": "Look back",
-          "title": "Session 2 asked you this",
-          "body": [
-            {
-              "kind": "quote",
-              "text": "How do you show up when nobody here knows you yet?",
-              "attribution": "Session 2 — The Descent, Arrival"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Before you read on, see if you can remember what you answered."
-            }
-          ],
-          "type": "reveal",
-          "reveals": [
-            {
-              "id": "what-it-was-after",
-              "label": "What that one was really about",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Everybody has an entrance, and now you can see yours."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s05-game",
+          "id": "s05-games",
           "type": "text-image",
-          "eyebrow": "The game",
-          "title": "Open Guard Multiple Connection Game",
+          "eyebrow": "Tonight on the mat",
+          "title": "The three games",
           "body": [
             {
               "kind": "lead",
-              "text": "The bottom player keeps the legs working while the top player circles and changes angles. Win by keeping your connections, feet and hands, on your partner as they move."
+              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Uneven Hand Fight Game"
             },
             {
               "kind": "paragraph",
-              "text": "You are learning to hold a boundary while the other person keeps moving, not just when they stand still. That is where a learned defense comes from."
-            }
-          ],
-          "reveals": [
+              "text": "Skill Learning Objective (SLO): Entering, for both players."
+            },
             {
-              "id": "key-condition",
-              "label": "What you need first",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Follow the passer. Keep your legs between you as the angle changes."
-                }
+              "kind": "paragraph",
+              "text": "Both players stand facing each other, hand fighting range. One is the underhook player, one is the leg player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Underhook player: hand fight and get one underhook, staying upright. Leg player: hand fight and pick up one leg, connecting both hands around it anywhere from hip to ankle."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The underhook player wins with one underhook.",
+                "The leg player wins by picking up a leg."
               ]
             },
             {
-              "id": "the-tap",
-              "label": "Still true every session: the tap",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
+              "kind": "heading",
+              "level": 3,
+              "text": "Open Guard Multiple Connection Game"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The top player stands, fully connected. The bottom player has inside hooks and a knee-pit grip."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bottom player: stay connected, or get the connection back if it slips. Use it to put the top player on his butt or hands, then stand up and make his back touch the mat. Top player: put the bottom player on his back and fight to the knee pit or the outside, staying on your feet."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The bottom player wins by putting the top player down, standing up, and making his back touch the mat, or by wrestling all the way up to a connection.",
+                "The top player wins with shin contact at the knee pit or the body from outside."
+              ]
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Rear Hip Connection, Keep Belly Down"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Controlling for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The defender is on his elbows and knees. The attacker is behind him with his hands locked around the defender's waist."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Attacker: keep the defender belly down, using knee-to-knee and foot-to-foot blocking to pull his hips to the mat. Defender: rise to a quad pod, both knees and both elbows off the floor."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The attacker has no time limit. He holds as long as he keeps the defender belly down.",
+                "The defender wins by reaching a quad pod."
               ]
             }
           ]
@@ -182,18 +148,18 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Open Guard Multiple Connection Game, what counts as the win?",
+          "question": "In Rear Hip Connection, Keep Belly Down, what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Keeping your connections, feet and hands, on the partner as they move",
+              "text": "The attacker has no time limit. He holds as long as he keeps the defender belly down.",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not part of the Paths. Enter and Arrive are the two path steps here, and neither one ends in a submission. The path leads you into a pin, not a finish."
+              "feedback": "Not part of the Paths yet. Entering and Arriving are the two steps here, and neither one ends in a finish. The path leads you into a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
@@ -209,184 +175,40 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
       ]
     },
     {
-      "id": "lesson",
-      "title": "The lesson",
-      "slides": [
-        {
-          "id": "s05-grappling",
-          "type": "text-image",
-          "eyebrow": "On the mat",
-          "title": "What you were working on",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Keep guard retention while your partner changes angles."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Follow the partner and keep the legs between you.",
-                "Reset guard when it is in danger."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s05-casel",
-          "type": "text-image",
-          "eyebrow": "Off the mat",
-          "title": "The part that was not about grappling",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Trace your mask back to where or who you learned it from, without having to share the story."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Trace your mask back to where it came from.",
-                "Keep the story optional."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s05-connection",
-          "type": "reveal",
-          "eyebrow": "The connection",
-          "title": "Where those two meet",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "The guard you keep was drilled into you somewhere, and so was the mask. Both are learned defenses. Finding where you learned to guard is the same move on and off the mat."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "stage-arc",
-              "label": "Where this sits in The Descent",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Getting past a partner's guard to what it protects is the same act as looking under a mask to the real person. The Descent digs deep, on the mat and inside you."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "close",
       "title": "Before you go",
       "slides": [
         {
-          "id": "s05-recap",
-          "type": "reveal",
-          "eyebrow": "Quick recap",
-          "title": "Before you go: Open Guard Multiple Connection Game",
+          "id": "s05-takeaway",
+          "type": "text-image",
+          "eyebrow": "The takeaway",
+          "title": "What tonight was really about",
           "body": [
             {
               "kind": "lead",
-              "text": "The bottom player keeps the legs working while the top player circles and changes angles. Win by keeping your connections, feet and hands, on your partner as they move."
+              "text": "The mask made sense where you learned it. That means it is a choice, not a life sentence."
             },
             {
               "kind": "paragraph",
-              "text": "You are learning to hold a boundary while the other person keeps moving, not just when they stand still. That is where a learned defense comes from."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "win-again",
-              "label": "How you win it, again",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Keeping your connections, feet and hands, on the partner as they move"
-                }
-              ]
-            },
-            {
-              "id": "tap-again",
-              "label": "And the rule that never changes",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
-              ]
+              "text": "The guard you keep was drilled into you somewhere, and so was the mask. Both are learned defenses. Finding where you learned to guard is the same move on and off the mat."
             }
           ]
         },
         {
-          "id": "s05-summative",
-          "type": "quiz",
-          "eyebrow": "End-of-session check",
-          "title": "What today was asking of you",
-          "assessment": {
-            "role": "summative",
-            "scored": true
-          },
-          "question": "Which one was this session actually asking you to do?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "Trace your mask back to where or who you learned it from, without having to share the story.",
-              "correct": true,
-              "feedback": "That was the target for today."
-            },
-            {
-              "text": "Name what comes out when you are too tired to perform.",
-              "feedback": "That is Session 8's target, not today's."
-            },
-            {
-              "text": "Name how you act when you are new somewhere, without judging it.",
-              "feedback": "That is Session 2's target, not today's."
-            }
-          ],
-          "correctHead": "That's the one.",
-          "correctText": "That was the point of the whole session, on the mat and off it.",
-          "incorrectHead": "Not today.",
-          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
-          "revealText": "Today's target is marked above."
-        },
-        {
           "id": "s05-reflection",
           "type": "reflection",
-          "eyebrow": "Reflection",
+          "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What version of you shows up here, and where did you learn it?",
-          "hint": "Nothing here is graded. A few words is plenty.",
+          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
           "placeholder": "Whatever comes to mind…"
         },
         {
           "id": "s05-irf",
           "type": "reflection",
-          "eyebrow": "Before you go",
+          "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session",
+          "kindLabel": "IRF — everyone fills this out, every session, on your own",
           "fields": [
             {
               "id": "mat",

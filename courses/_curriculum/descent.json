@@ -1,5 +1,5 @@
 {
-  "_source": "Transcribed from the GWMS Curriculum Guide in Notion. Per-session fields come from that session's Lesson and Intervention Guide (Unit 7). Card, domain and keyCondition come from the GWMS Technical Map. Nothing here is authored — if a field is empty, the guide is empty.",
+  "_source": "Transcribed from the GWMS Curriculum Guide in Notion, rebuilt September 26, 2026 for the three-games model. Game fields (games array) come from each session's Grappling Class Guide (Unit 7), Start 1 of each of the three CVP games, with the GWMS Game Rulings applied. TLO/ELO/connection/takeaway come from each session's Lesson and Intervention Guide. Nothing here is authored beyond plain-language rewording of the guides' own words.",
   "stage": {
     "name": "The Descent",
     "sessions": "1 to 12",
@@ -21,7 +21,7 @@
     "wrongAnswers": [
       {
         "text": "Submitting your partner",
-        "feedback": "Not part of the Paths. Enter and Arrive are the two path steps here, and neither one ends in a submission. The path leads you into a pin, not a finish."
+        "feedback": "Not part of the Paths yet. Entering and Arriving are the two steps here, and neither one ends in a finish. The path leads you into a pin, not a finish."
       },
       {
         "text": "Putting your partner down hard",
@@ -35,42 +35,80 @@
       "week": 1,
       "theme": "Arrival",
       "probingQuestion": "What makes a place feel safe to you?",
-      "card": "Foundations (safety)",
-      "domain": null,
-      "keyCondition": "Safe contact, the tap is understood.",
-      "gameName": "Kids Dirty Feet / Dragon Tag Game (mud and guard version, locked win condition)",
-      "gameText": "One partner lies on the ground. They put their feet on the standing partner to keep them out. It's like they are covered in mud and don't want to get the other person dirty. The standing partner's job is to move those feet out of the way and get all the way to chest-to-chest contact. Go slow and stay light. No one gets put on their back hard today. Switch roles so everyone tries both parts.",
-      "gameNote": "The tap is law. If anyone taps, for any reason, stop right away.",
-      "gameWin": "Clearing the feet out of the way and getting all the way to chest-to-chest contact",
-      "grapplingTlo": null,
-      "grapplingElos": [],
-      "caselTlo": null,
-      "caselElos": [],
-      "connection": null,
-      "_todo": "Session 1's Lesson and Intervention Guide carries only the game paragraph. Grappling TLO/ELOs, CASEL TLO/ELOs and the connection line are absent there, so they are absent here and the module states none of them.",
-      "takeaway": "That is what makes a place feel safe. Everyone knows the rules will hold."
+      "golmest": {
+        "recapTitle": "What tonight was",
+        "recapText": "Tonight was orientation, not a normal night. You helped build the rules of this room yourself. From here on, every session runs the same way: warm up, play three games, cool down, a short lesson, then this phone for a few minutes, then cleanup.",
+        "standard": {
+          "label": "What you are here to learn",
+          "text": "The room ranked these together tonight. By the end of the program you will be able to do all five.",
+          "items": [
+            "Take him down.",
+            "Get past his legs.",
+            "Hold him down.",
+            "Set up the finish.",
+            "Get out from under."
+          ]
+        },
+        "tap": {
+          "label": "The tap",
+          "text": "Three ways to tap, and any one of them ends it right away.",
+          "items": [
+            "Tap your partner's body.",
+            "Tap the mat.",
+            "Say stop."
+          ],
+          "note": "The instant your partner taps, you stop. Not after you finish your move. Stop right away, every time."
+        },
+        "quizQuestion": "What ends a round right away?",
+        "quizCorrect": "Tapping your partner, tapping the mat, or saying stop.",
+        "quizWrong": [
+          "Waiting for the coach to notice and call it.",
+          "Just going still and hoping your partner feels it."
+        ]
+      },
+      "connection": "Tonight the room agreed on the rules together, out loud. That is what makes a place feel safe: everyone knows the rules will hold, and everyone had a hand in making them.",
+      "takeaway": "A safe place is one where everyone knows the rules will hold. Tonight you helped write them."
     },
     {
       "n": 2,
       "week": 1,
       "theme": "Arrival",
       "probingQuestion": "How do you show up when nobody here knows you yet?",
-      "card": "Taking the Base",
-      "domain": "Enter",
-      "keyCondition": "Make a connection your partner has to answer.",
-      "gameName": "Overhook-Underhook Starting Position Game",
-      "gameText": "Both players stand and tie up. One arm goes over, one arm goes under. There is one way to win: connect your hands anywhere on your partner's body. No takedowns. No slamming. Stay light and stay standing.",
-      "gameNote": "You are learning to make a connection the other person has to answer. That is the first thing that happens when you meet a stranger on the mat.",
-      "gameWin": "Connecting your hands anywhere on your partner's body",
-      "grapplingTlo": "By the end of this session, the participant will show safe first contact with a partner they do not know.",
-      "grapplingElos": [
-        "Make controlled first contact with a new partner.",
-        "Stay safe while closing distance."
-      ],
-      "caselTlo": "By the end of this session, the participant will name how they act when they are new somewhere, without judging it.",
-      "caselElos": [
-        "Notice how they enter a new space.",
-        "Name that behavior in plain words."
+      "games": [
+        {
+          "skill": "Entering",
+          "title": "Over-Under to Close Hand Connection",
+          "start": "Both players stand in an even tie, one arm over and one arm under, on both sides.",
+          "text": "Fight to get under your partner's elbows. Connect your hands anywhere from his armpits to his ankles.",
+          "win": [
+            { "role": "Whoever connects first", "text": "wins. The first closed-hand connection, anywhere from armpits to ankles, takes it." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Arriving",
+          "leavingSkill": "Leaving",
+          "title": "Half Guard Side-Position Game",
+          "start": "The bottom player is in half guard on his side, arms out straight. The top player is inside the half guard.",
+          "text": "Top player: clear the bottom player's hands and get under at least one elbow, then connect your hands. Bottom player: keep your hands on the top player to deny that spot, and close your legs around his waist.",
+          "win": [
+            { "role": "The top player", "text": "wins by getting under one elbow and connecting his hands." },
+            { "role": "The bottom player", "text": "wins by closing his legs around the top player's waist." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Controlling",
+          "leavingSkill": "Leaving",
+          "title": "Mount, Stay Under Both Elbows",
+          "start": "The bottom player is on his back. The top player is in mount with both arms under both of the bottom player's elbows.",
+          "text": "Top player: stay under at least one elbow the whole round. If you lose one, fight to get it back. Bottom player: get both elbows to touch your own body with nothing under them, or make the top player fall over.",
+          "win": [
+            { "role": "The top player", "text": "has no time limit. He holds as long as he keeps at least one elbow covered." },
+            { "role": "The bottom player", "text": "wins by touching both elbows to his body, or by making the top player fall." }
+          ],
+          "reset": "The top player holds no matter what. If he loses both elbows, that is the bottom player's win, and you start over. Roles switch after every win."
+        }
       ],
       "connection": "How you make first contact on the mat, careful, rushed, or stiff, is your entrance. Naming how you show up when nobody knows you yet is the same pattern, seen off the mat.",
       "takeaway": "Everybody has an entrance, and now you can see yours."
@@ -80,22 +118,41 @@
       "week": 1,
       "theme": "Arrival",
       "probingQuestion": "What are you like before you trust the room?",
-      "card": "Taking the Base",
-      "domain": "Enter",
-      "keyCondition": "Change direction to break the base. No straight pushes.",
-      "gameName": "Hand Fight with Progression Game",
-      "gameText": "Stand with hands free. Fight for position. Win by getting under an elbow and hooking on. No one gets slammed down.",
-      "gameNote": "You are learning to break a person's base by changing angles, not by shoving straight at them. You do the same thing when you walk into a new room and find your footing.",
-      "gameWin": "Getting under an elbow and hooking on",
-      "grapplingTlo": "By the end of this session, the participant will find the neutral standing start and keep safe contact while their partner moves.",
-      "grapplingElos": [
-        "Find the neutral standing start.",
-        "Keep safe contact as the partner moves."
-      ],
-      "caselTlo": "By the end of this session, the participant will name one thing they do to protect themselves before they trust a space, and call it a strength.",
-      "caselElos": [
-        "Name one protective habit.",
-        "Call it smart, not weak."
+      "games": [
+        {
+          "skill": "Entering",
+          "title": "Hand Touch / Knee Touch Collection Game",
+          "start": "Both players stand facing each other, hand fighting range, no grips to start.",
+          "text": "Hand fight and collect three touches, any mix. A touch is making your partner's hands touch the mat, or gripping behind one of his knees. Defend his touches at the same time.",
+          "win": [
+            { "role": "Whoever gets three touches first", "text": "wins the round. The same rule applies to both players." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Arriving",
+          "leavingSkill": "Leaving",
+          "title": "Belly-Up Open Guard Connection Foundation",
+          "start": "The bottom player is belly up, feet in the middle, one hand on the top player's ankle. The top player is standing.",
+          "text": "Bottom player: keep your feet hooked or posted on the top player at all times, and a hand on him too. Use that to put him on his hips or hands. Top player: break those connections with your hands and feet, and work to the outside for shin-to-body contact.",
+          "win": [
+            { "role": "The bottom player", "text": "has no time limit. He holds as long as he keeps his connections." },
+            { "role": "The top player", "text": "wins by breaking every connection and making shin-to-body contact from outside the legs." }
+          ],
+          "reset": "The bottom player holds no matter what. If the top player breaks free and gets outside, that is his win, and you start over. Roles switch after every win."
+        },
+        {
+          "skill": "Controlling",
+          "leavingSkill": "Leaving",
+          "title": "Introductory Pin Game",
+          "start": "The bottom player is on his back. The top player is chest to chest on top of him.",
+          "text": "Top player: hold chest to chest and keep the bottom player there. Bottom player: push the top player off and get your legs back in front.",
+          "win": [
+            { "role": "The top player", "text": "has no time limit. He holds the pin." },
+            { "role": "The bottom player", "text": "wins by pushing the top player off and getting his legs back in front." }
+          ],
+          "reset": "The top player holds no matter what. If the bottom player pushes him off and gets his legs back, that is his win, and you start over. Roles switch after every win."
+        }
       ],
       "connection": "Staying safe and guarded on the mat before you trust a partner is the same guard you use before you trust a room. Both are smart. Naming it is the work.",
       "takeaway": "The guard is smart. Next week we look at the face that guard wears: the mask."
@@ -105,22 +162,41 @@
       "week": 2,
       "theme": "Mask",
       "probingQuestion": "Who are you when people are watching?",
-      "card": "Controlling the Legs",
-      "domain": "Enter, from the retainer's side",
-      "keyCondition": "Keep a frame and the feet between you and the passer.",
-      "gameName": "Keep Feet Off, Belly Up Open Guard Introduction",
-      "gameText": "One player sits back, belly up, with legs and feet out in front. The other player tries to get past. The bottom player wins by keeping their feet on the other person and not letting them in.",
-      "gameNote": "This is guard retention. You hold a barrier between you and someone else. The mask does the same job.",
-      "gameWin": "The bottom player keeping their feet on the other person and not letting them in",
-      "grapplingTlo": "By the end of this session, the participant will use guard retention to stop a partner from passing their legs.",
-      "grapplingElos": [
-        "Keep or get back guard against a light pass.",
-        "Frame to hold distance."
-      ],
-      "caselTlo": "By the end of this session, the participant will name one way they act differently when people are watching them.",
-      "caselElos": [
-        "Notice how they act differently when watched, versus alone.",
-        "Name one behavior they perform for others."
+      "games": [
+        {
+          "skill": "Entering",
+          "title": "Hand Fight to Underhook Game",
+          "start": "Both players stand facing each other, fully disconnected, hand fighting range.",
+          "text": "Get one hand on each of two targets, wrist, elbow, or head, in any mix. Then fight to the underhook.",
+          "win": [
+            { "role": "Whoever gets the underhook first", "text": "wins. The same rule applies to both players." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Arriving",
+          "leavingSkill": "Leaving",
+          "title": "Keep Feet Off, Belly Up Open Guard Introduction",
+          "start": "The bottom player is belly up in open guard. The top player starts with his hands on the bottom player, and may not go past the knees.",
+          "text": "Bottom player: hook or post your feet on the top player any way you want, and use your hands too. Make him sit down, then get your own back off the mat. Top player: keep the bottom player on his back and your feet off his body, working step by step toward the knee pits, without going past the knees.",
+          "win": [
+            { "role": "The bottom player", "text": "wins when the top player's butt hits the mat and then his own back comes off the mat." },
+            { "role": "The top player", "text": "has no time limit. He holds as long as he keeps the bottom player down." }
+          ],
+          "reset": "The top player holds no matter what. If the bottom player sits him down and gets his own back up, that is his win, and you start over. Roles switch after every win."
+        },
+        {
+          "skill": "Controlling",
+          "leavingSkill": "Leaving",
+          "title": "Riding Bottom Position Game",
+          "start": "The bottom player is on his hands and knees. The top player is on top with open hands around the bottom player's hips.",
+          "text": "Top player: stay attached to the hips, break the bottom player down, and stop him from standing. Bottom player: build your base, fight to your feet, and turn to face the top player.",
+          "win": [
+            { "role": "The top player", "text": "has no time limit. He holds as long as he keeps the bottom player broken down." },
+            { "role": "The bottom player", "text": "wins by standing up and turning to face the top player." }
+          ],
+          "reset": "The top player holds no matter what. If the bottom player stands and turns to face him, that is his win, and you start over. Roles switch after every win."
+        }
       ],
       "connection": "Keeping your guard means keeping a boundary between you and the other person. The mask does the same job with people. Guard retention on the mat and the mask you wear are the same thing.",
       "takeaway": "Everybody wears a face for the crowd. Now yours has a name."
@@ -130,22 +206,42 @@
       "week": 2,
       "theme": "Mask",
       "probingQuestion": "What version of you shows up here, and where did you learn it?",
-      "card": "Controlling the Legs",
-      "domain": "Enter, retainer's side",
-      "keyCondition": "Follow the passer. Keep your legs between you as the angle changes.",
-      "gameName": "Open Guard Multiple Connection Game",
-      "gameText": "The bottom player keeps the legs working while the top player circles and changes angles. Win by keeping your connections, feet and hands, on your partner as they move.",
-      "gameNote": "You are learning to hold a boundary while the other person keeps moving, not just when they stand still. That is where a learned defense comes from.",
-      "gameWin": "Keeping your connections, feet and hands, on the partner as they move",
-      "grapplingTlo": "By the end of this session, the participant will keep guard retention while their partner changes angles.",
-      "grapplingElos": [
-        "Follow the partner and keep the legs between you.",
-        "Reset guard when it is in danger."
-      ],
-      "caselTlo": "By the end of this session, the participant will trace their mask back to where or who they learned it from, without having to share the story.",
-      "caselElos": [
-        "Trace their mask back to where it came from.",
-        "Keep the story optional."
+      "games": [
+        {
+          "skill": "Entering",
+          "title": "Uneven Hand Fight Game (Upper vs Lower)",
+          "start": "Both players stand facing each other, hand fighting range. One is the underhook player, one is the leg player.",
+          "text": "Underhook player: hand fight and get one underhook, staying upright. Leg player: hand fight and pick up one leg, connecting both hands around it anywhere from hip to ankle.",
+          "win": [
+            { "role": "The underhook player", "text": "wins with one underhook." },
+            { "role": "The leg player", "text": "wins by picking up a leg." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Arriving",
+          "leavingSkill": "Leaving",
+          "title": "Open Guard Multiple Connection Game",
+          "start": "The top player stands, fully connected. The bottom player has inside hooks and a knee-pit grip.",
+          "text": "Bottom player: stay connected, or get the connection back if it slips. Use it to put the top player on his butt or hands, then stand up and make his back touch the mat. Top player: put the bottom player on his back and fight to the knee pit or the outside, staying on your feet.",
+          "win": [
+            { "role": "The bottom player", "text": "wins by putting the top player down, standing up, and making his back touch the mat, or by wrestling all the way up to a connection." },
+            { "role": "The top player", "text": "wins with shin contact at the knee pit or the body from outside." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Controlling",
+          "leavingSkill": "Leaving",
+          "title": "Rear Hip Connection, Keep Belly Down",
+          "start": "The defender is on his elbows and knees. The attacker is behind him with his hands locked around the defender's waist.",
+          "text": "Attacker: keep the defender belly down, using knee-to-knee and foot-to-foot blocking to pull his hips to the mat. Defender: rise to a quad pod, both knees and both elbows off the floor.",
+          "win": [
+            { "role": "The attacker", "text": "has no time limit. He holds as long as he keeps the defender belly down." },
+            { "role": "The defender", "text": "wins by reaching a quad pod." }
+          ],
+          "reset": "The attacker holds no matter what. If the defender reaches a quad pod, that is his win, and you start over. Roles switch after every win."
+        }
       ],
       "connection": "The guard you keep was drilled into you somewhere, and so was the mask. Both are learned defenses. Finding where you learned to guard is the same move on and off the mat.",
       "takeaway": "The mask made sense where you learned it. That means it is a choice, not a life sentence."
@@ -155,22 +251,42 @@
       "week": 2,
       "theme": "Mask",
       "probingQuestion": "What does your mask protect you from?",
-      "card": "Controlling the Legs",
-      "domain": "Enter, retainer's side",
-      "keyCondition": "Protect the space behind the legs.",
-      "gameName": "Knee Pit Touchdown Game, played from the retaining side",
-      "gameText": "One partner, the passer, tries to touch both of the other partner's knee pits with their own feet off the ground. The other partner's job is to keep their knees and feet moving so the passer cannot land both touches. Switch roles so everyone tries both jobs.",
-      "gameNote": "Stay light. The tap is law.",
-      "gameWin": "Keeping your knees and feet moving so the passer cannot land both touches",
-      "grapplingTlo": "By the end of this session, the participant will use guard retention to protect the space behind their legs.",
-      "grapplingElos": [
-        "Hold the frame that protects the pin space.",
-        "Notice when the guard is about to be beaten."
-      ],
-      "caselTlo": "By the end of this session, the participant will name what their mask defends against.",
-      "caselElos": [
-        "Name what the mask does.",
-        "Share only as much as they want."
+      "games": [
+        {
+          "skill": "Entering",
+          "title": "Consecutive Touches with Clinch Counter",
+          "start": "Both players stand facing each other, hand fighting range, no grips.",
+          "text": "Touch player: collect three sets of two touches in a row. A touch is making the clinch player's hands touch the mat, or gripping behind one of his knees. Clinch player: close both hands around the touch player under both elbows or chest to back. Headlock, hips, or ankle clinches do not count.",
+          "win": [
+            { "role": "The touch player", "text": "wins with three sets of two touches in a row." },
+            { "role": "The clinch player", "text": "wins by closing his hands under both elbows or chest to back." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Arriving",
+          "leavingSkill": "Leaving",
+          "title": "Knee Pit Touchdown Game",
+          "start": "The bottom player is belly up in open guard. The top player is standing and starts by clearing the feet.",
+          "text": "Top player: clear the feet, then step one leg into one knee pit, then the other, in any order, keeping your feet off. Bottom player: hook and post with your feet, and use your hands to make him hit his butt, then sit up.",
+          "win": [
+            { "role": "The top player", "text": "wins by touching both knee pits with his leg while keeping his feet off." },
+            { "role": "The bottom player", "text": "wins by sitting up." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Controlling",
+          "leavingSkill": "Leaving",
+          "title": "Mount, Stay Under Both Elbows",
+          "start": "The bottom player is on his back. The top player is in mount with both arms under both of the bottom player's elbows.",
+          "text": "Top player: stay under at least one elbow the whole round. If you lose one, fight to get it back. Bottom player: get both elbows to touch your own body with nothing under them, or make the top player fall over.",
+          "win": [
+            { "role": "The top player", "text": "has no time limit. He holds as long as he keeps at least one elbow covered." },
+            { "role": "The bottom player", "text": "wins by touching both elbows to his body, or by making the top player fall." }
+          ],
+          "reset": "The top player holds no matter what. If he loses both elbows, that is the bottom player's win, and you start over. Roles switch after every win."
+        }
       ],
       "connection": "Your guard protects the space behind your legs. Your mask protects something too. Naming what the guard defends is the same as naming what the mask hides.",
       "takeaway": "The mask has a job. Next week we find out what happens to it under pressure."
@@ -180,22 +296,42 @@
       "week": 3,
       "theme": "Crack",
       "probingQuestion": "What happens to your mask when you're losing?",
-      "card": "Controlling the Legs",
-      "domain": "Enter",
-      "keyCondition": "Take the base first. Break their balance before you move forward.",
-      "gameName": "Closed Guard Opening, Hands on Body",
-      "gameText": "Now you are the one trying to get past. Win by opening the guard. Put your hands on the body, break it down, clear the feet. Use light pressure only. No one gets crushed.",
-      "gameNote": "This is where the guard, the mask, starts getting beaten.",
-      "gameWin": "Opening the guard — hands on the body, break it down, clear the feet",
-      "grapplingTlo": "By the end of this session, the participant will use base and framing to defend their guard while a partner tries to pass it.",
-      "grapplingElos": [
-        "Notice when the guard is being passed.",
-        "Reset to a safe position after being passed."
-      ],
-      "caselTlo": "By the end of this session, the participant will name what shows up when they lose, the reaction under the mask.",
-      "caselElos": [
-        "Notice their reaction to losing the position.",
-        "Name what comes out under pressure."
+      "games": [
+        {
+          "skill": "Entering",
+          "title": "Single Leg, Make Partner Fall to Hands or Hips",
+          "start": "Both players stand. The attacker is connected to one of the defender's legs.",
+          "text": "Attacker: move the defender using only that leg, run him, pull him, turn him, or lift him, to make his hips or hands touch the mat. Defender: stay balanced and use your connections to break the grip and free your leg.",
+          "win": [
+            { "role": "The attacker", "text": "wins when the defender's hips or hands touch the mat." },
+            { "role": "The defender", "text": "wins by freeing the leg." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Arriving",
+          "leavingSkill": "Leaving",
+          "title": "Closed Guard Opening, Hands on Body",
+          "start": "The bottom player has closed guard locked around the top player. The top player is inside the guard, hands on him.",
+          "text": "Top player: hold the bottom player down, get to your feet, and press on his hips, knees, and feet to open his legs. Bottom player: keep your legs closed, using only open-hand grips on the head, wrists, and elbows.",
+          "win": [
+            { "role": "The top player", "text": "wins by getting to his feet and opening the guard." },
+            { "role": "The bottom player", "text": "wins by stopping the top player's win for 30 seconds. Then you switch roles." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Controlling",
+          "leavingSkill": "Leaving",
+          "title": "Referee Position Ride and Break Down",
+          "start": "The bottom player is on his hands and knees. The top player is in referee position with open hands on his hips.",
+          "text": "Top player: ride the bottom player, break him down, and keep his hips and hands on the mat, no closed-hand connections. Bottom player: build your base, fight to your feet, and turn to face.",
+          "win": [
+            { "role": "The top player", "text": "has no time limit. He holds as long as he keeps the bottom player broken down." },
+            { "role": "The bottom player", "text": "wins when he stands up and faces the top player." }
+          ],
+          "reset": "The top player holds no matter what. If the bottom player stands and faces him, that is his win, and you start over. Roles switch after every win."
+        }
       ],
       "connection": "When your guard gets passed, the mask cracks and something real shows. Getting passed on the mat and cracking under pressure are the same moment. You feel it in your body first.",
       "takeaway": "Losing cracks the mask. What comes out tells you something. It is not failure."
@@ -205,22 +341,41 @@
       "week": 3,
       "theme": "Crack",
       "probingQuestion": "What slips out of you when you get tired and stop performing?",
-      "card": "Controlling the Legs",
-      "domain": "Enter",
-      "keyCondition": "Clear the first checkpoint, feet or knees.",
-      "gameName": "Feet-Off Guard Passing Game",
-      "gameText": "The top player works to clear the first checkpoint. Win with shin-to-body contact, inside or outside the knees, feet off the ground.",
-      "gameNote": "You are learning to clear one gate at a time when everyone is a little tired. That is when the real reactions start to show.",
-      "gameWin": "Shin-to-body contact inside or outside the knees, feet off",
-      "grapplingTlo": "By the end of this session, the participant will pass the first checkpoints against a tired, lighter guard.",
-      "grapplingElos": [
-        "Clear one checkpoint, the feet or the knees.",
-        "Keep control while passing."
-      ],
-      "caselTlo": "By the end of this session, the participant will name what comes out when they are too tired to perform.",
-      "caselElos": [
-        "Notice the honest reaction when they are tired.",
-        "Name it without judging it."
+      "games": [
+        {
+          "skill": "Entering",
+          "title": "Hand Fight with Leg Pickup Option",
+          "start": "Both players stand and hand fight for wrist, elbow, and head connections.",
+          "text": "Get an inside, outside, or under-elbow connection. Then pick up your partner's leg at the knee or ankle.",
+          "win": [
+            { "role": "Whoever controls and picks up a leg first", "text": "wins. The same rule applies to both players." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Arriving",
+          "leavingSkill": "Leaving",
+          "title": "Feet-Off Guard Passing Game",
+          "start": "The bottom player is belly up in open guard. The top player is in front of him, hands already on him.",
+          "text": "Top player: keep his feet off by clearing them and closing distance, stepping inside the knees or around the outside. Bottom player: use hooks, feet on the body, and posts to make the top player hit his butt or hands, then sit up with your back off the mat.",
+          "win": [
+            { "role": "The top player", "text": "wins by shin-to-body contact inside or outside the knees." },
+            { "role": "The bottom player", "text": "wins by making the top player hit his butt and sitting up with your back off the mat." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Controlling",
+          "leavingSkill": "Leaving",
+          "title": "Pinning, Continuous Hip and Shoulder Connection from All Fours",
+          "start": "The bottom player is on his hands and knees. The top player is behind him, hands locked around his waist.",
+          "text": "Top player: use knee-to-knee and foot-to-foot blocking to pull his hips to the mat, switching between the hip grip and wrist grips to keep him belly down. Bottom player: get to a quad pod, both hands and both feet on the mat at the same time.",
+          "win": [
+            { "role": "The top player", "text": "has no time limit. He holds as long as he keeps the bottom player belly down." },
+            { "role": "The bottom player", "text": "wins by getting to a quad pod." }
+          ],
+          "reset": "The top player holds no matter what. If the bottom player reaches a quad pod, that is his win, and you start over. Roles switch after every win."
+        }
       ],
       "connection": "When you and your partner get tired, the fake stuff drops on both sides, the passer and the guard. What slips out when you are too tired to perform is the truest thing about you, on the mat and off.",
       "takeaway": "What shows up when you are empty is often the truest thing about you."
@@ -230,22 +385,42 @@
       "week": 3,
       "theme": "Crack",
       "probingQuestion": "When you crack, what's the first thing that shows?",
-      "card": "Controlling the Legs",
-      "domain": "Enter",
-      "keyCondition": "Clear the checkpoints in order. Name where the guard breaks.",
-      "gameName": "Knee Pit Touchdown Game, played from the passing side (same game as Session 6, opposite role, intentional repeat)",
-      "gameText": "The top player clears the checkpoints in order. Win by touching both knee pits while keeping your feet off the ground.",
-      "gameNote": "You are learning exactly where a guard breaks, your partner's and your own. That is the same as knowing your tell.",
-      "gameWin": "Touching both knee pits while keeping the feet off",
-      "grapplingTlo": "By the end of this session, the participant will pass the guard and find the checkpoint where it breaks.",
-      "grapplingElos": [
-        "Clear checkpoints in order.",
-        "Name the checkpoint that gave way."
-      ],
-      "caselTlo": "By the end of this session, the participant will name their personal tell, the first sure sign they have cracked.",
-      "caselElos": [
-        "Name their first sure sign they have cracked.",
-        "See how catching it early lets them choose differently."
+      "games": [
+        {
+          "skill": "Entering",
+          "title": "Single Leg Takedown Game",
+          "start": "Both players stand. The attacker is connected to one of the defender's legs at the knee.",
+          "text": "Attacker: move the defender and make him fall toward his hands or hips, running him, pulling him, turning him, or lifting him, using only that leg. Defender: stay balanced and use your connections to break the grip and free your leg.",
+          "win": [
+            { "role": "The attacker", "text": "wins when the defender touches the mat with his hips or hands." },
+            { "role": "The defender", "text": "wins by freeing the leg." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Arriving",
+          "leavingSkill": "Leaving",
+          "title": "Knee Pit Touchdown Game",
+          "start": "The bottom player is belly up in open guard. The top player is standing and starts by clearing the feet.",
+          "text": "Top player: clear the feet, then step one leg into one knee pit, then the other, keeping your feet off. Bottom player: hook and post with your feet, using your hands to make him hit his butt, then sit up.",
+          "win": [
+            { "role": "The top player", "text": "wins by touching both knee pits with his leg while keeping his feet off." },
+            { "role": "The bottom player", "text": "wins by sitting up." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Controlling",
+          "leavingSkill": "Leaving",
+          "title": "Chest-to-Chest Elbow Control Game",
+          "start": "The bottom player is on his back. The top player is chest to chest on top, both arms under both of the bottom player's elbows.",
+          "text": "Top player: stay under the bottom player's elbows, keeping them away from his body. Bottom player: get both elbows to touch your body, or make the top player fall over.",
+          "win": [
+            { "role": "The top player", "text": "has no time limit. He wins by keeping the elbows away from the body the whole time." },
+            { "role": "The bottom player", "text": "wins by bringing both elbows to his body, or by making the top player fall." }
+          ],
+          "reset": "The top player holds no matter what. If the bottom player gets both elbows to his body, that is his win, and you start over. Roles switch after every win."
+        }
       ],
       "connection": "The checkpoint where a guard always breaks is a tell, and so is the first thing that shows when you crack. Finding the exact break point on the mat is the same skill as knowing your own tell.",
       "takeaway": "Knowing your tell is power, because you can catch yourself."
@@ -255,22 +430,42 @@
       "week": 4,
       "theme": "Reveal",
       "probingQuestion": "What's under the version you show people?",
-      "card": "Controlling the Legs",
-      "domain": "Enter to Arrive",
-      "keyCondition": "Reach chest contact past the guard.",
-      "gameName": "Around-the-Legs Passing Game",
-      "gameText": "The top player gets past the legs. Win by touching one side outside the legs, then going around to chest contact.",
-      "gameNote": "You are getting past the defense to what it was hiding, on the mat and under the mask.",
-      "gameWin": "Touching one side outside the legs, then going around to chest contact",
-      "grapplingTlo": "By the end of this session, the participant will pass the legs and move toward a pin.",
-      "grapplingElos": [
-        "Clear the checkpoints to get past the legs.",
-        "Reach chest contact past the guard."
-      ],
-      "caselTlo": "By the end of this session, the participant will name one true thing about themselves that lives under the act they put on.",
-      "caselElos": [
-        "Look under the self they perform for others.",
-        "Name one true thing under it."
+      "games": [
+        {
+          "skill": "Entering",
+          "title": "Waist-Centric Underhook Game",
+          "start": "Both players stand. The underhook player has an underhook. The overhook player has an overhook.",
+          "text": "Underhook player: move your partner and get to the head, waist, or a leg. The waist wins right away. A head or leg connection must be turned into a waist connection to win. Overhook player: use the overhook to keep him away, freeing the head or leg before he reaches the waist.",
+          "win": [
+            { "role": "The underhook player", "text": "wins by getting to the waist, directly or from the head or a leg." },
+            { "role": "The overhook player", "text": "wins by freeing a head or leg connection." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Arriving",
+          "leavingSkill": "Leaving",
+          "title": "Around-the-Legs Passing Game",
+          "start": "The bottom player is belly up in open guard. The top player is on his feet, starting by clearing the feet.",
+          "text": "Top player: get one leg outside the bottom player's feet, make shin contact from knee to head, then without stopping go around to the other side and touch there too. Bottom player: hook and post with your feet to make the top player hit his butt, then sit up with your back off the mat.",
+          "win": [
+            { "role": "The top player", "text": "wins by touching one outside and then the other, one right after the other." },
+            { "role": "The bottom player", "text": "wins by making the top player hit his butt and sitting up with his back off the mat." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Controlling",
+          "leavingSkill": "Leaving",
+          "title": "Figure Four Grip Control Game",
+          "start": "The bottom player is on his back. The top player covers his head with a figure-four grip, one hand on the wrist, the other arm under the elbow.",
+          "text": "Top player: keep the figure-four grip and stay under at least one elbow while keeping the bottom player pinned. Bottom player: break the grip by freeing your arms and getting your elbows to your body.",
+          "win": [
+            { "role": "The top player", "text": "has no time limit. He holds as long as he keeps the grip." },
+            { "role": "The bottom player", "text": "wins by breaking the grip." }
+          ],
+          "reset": "The top player holds no matter what. If the bottom player breaks the grip, that is his win, and you start over. Roles switch after every win."
+        }
       ],
       "connection": "Getting past the legs shows what the guard was hiding. Looking under your mask shows the real you. Passing and revealing are the same move: get past the defense to what is behind it.",
       "takeaway": "What is under the mask is not worse than the mask, it is just true."
@@ -280,24 +475,43 @@
       "week": 4,
       "theme": "Reveal",
       "probingQuestion": "What part of you have you been hiding, even from yourself?",
-      "card": "Controlling the Legs",
-      "domain": "Arrive",
-      "keyCondition": "Land the pin and hold the arrival for a three-count.",
-      "gameName": "Half Guard Side-Position Game",
-      "gameText": "The top player finishes the pass and lands the pin. Win by getting under one elbow and connecting your hands, then holding it for a three-count.",
-      "gameNote": "You have arrived past the guard. What was hidden is now out in the open.",
-      "gameWin": "Getting under one elbow, connecting your hands, and holding it for a three-count",
-      "grapplingTlo": "By the end of this session, the participant will pass the guard and arrive in a full pin.",
-      "grapplingElos": [
-        "Finish the pass into a controlled chest position.",
-        "Hold the arrival for a three-count."
+      "games": [
+        {
+          "skill": "Entering",
+          "title": "Hand Fight with Precondition Game",
+          "start": "Both players stand facing each other, not gripped, starting to hand fight.",
+          "text": "Collect three touches. A touch is a hand behind your partner's knee or an underhook. Any mix counts. Only after three touches can you try for a closed-hand connection.",
+          "win": [
+            { "role": "Whoever collects three touches and then connects first", "text": "wins, closing his hands anywhere on his partner's body from shoulders to ankles." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Arriving",
+          "leavingSkill": "Leaving",
+          "title": "Side Half Guard, Clear Hands to Get Under Elbow",
+          "start": "The bottom player is on his side in half guard, hands fully out on the top player. The top player is inside.",
+          "text": "Top player: clear the bottom player's hands and get under one or both elbows, then connect your hands. Bottom player: keep your hands on the top player to deny that spot, and close your legs around his waist.",
+          "win": [
+            { "role": "The top player", "text": "wins by connecting his hands under at least one elbow." },
+            { "role": "The bottom player", "text": "wins by closing his legs around the top player's waist." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Controlling",
+          "leavingSkill": "Leaving",
+          "title": "Introductory Pin Game",
+          "start": "The bottom player is on his back. The top player is chest to chest on top of him.",
+          "text": "Top player: hold chest to chest and keep the bottom player there. Bottom player: push the top player off and get your legs back in front.",
+          "win": [
+            { "role": "The top player", "text": "has no time limit. He holds the pin." },
+            { "role": "The bottom player", "text": "wins by pushing the top player off and getting his legs back in front." }
+          ],
+          "reset": "The top player holds no matter what. If the bottom player pushes him off and gets his legs back, that is his win, and you start over. Roles switch after every win."
+        }
       ],
-      "caselTlo": "By the end of this session, the participant will admit, at least to themselves, one part they have hidden even from themselves.",
-      "caselElos": [
-        "Look at one hidden part.",
-        "Keep it private if they choose."
-      ],
-      "connection": "Arriving past the guard puts you in touch with what was most protected. Naming the Shadow does the same thing inside you. Both reach the thing that was hidden deepest.",
+      "connection": "Arriving past the guard puts you in touch with what was most protected. Naming the shadow does the same thing inside you. Both reach the thing that was hidden deepest.",
       "privateOk": true,
       "takeaway": "Naming the hidden part, even silently, is the bravest thing the mat asks of you."
     },
@@ -306,24 +520,43 @@
       "week": 4,
       "theme": "Reveal",
       "probingQuestion": "If the mask came off in here, who would we meet?",
-      "card": "The Paths, integrated",
-      "domain": "Enter and Arrive",
-      "keyCondition": "Enter, pass, and arrive in one sequence. Honor the tap the whole time.",
-      "gameName": "Open Guard Takedown and Escape Game",
-      "gameText": "The whole trip happens in one round. From a standing or seated start, get it down, get past the legs, and arrive in a pin. Both players get a turn. The bottom player can put the top player down and stand up. The tap is honored the whole way.",
-      "gameNote": "This is the whole Descent on the mat, from arrival to the real self revealed.",
-      "gameWin": "Getting it down, past the legs, and arriving in a pin — the whole trip in one round",
-      "grapplingTlo": "By the end of this session, the participant will run both Paths from a standing start all the way to a pin.",
-      "grapplingElos": [
-        "Enter, pass, and arrive in one sequence.",
-        "Give and honor the tap throughout."
+      "games": [
+        {
+          "skill": "Entering",
+          "title": "Hand Touch / Knee Touch with Close Hand Connection",
+          "start": "Both players stand facing each other, hand fighting range, in a neutral position. A knee grip must be behind the knee, not the front.",
+          "text": "Win one of two ways: collect three touches in any mix (making your partner's hands touch the mat, or gripping behind one of his knees), or close both hands around his head, body, or leg. Take whichever one shows up.",
+          "win": [
+            { "role": "Whoever gets there first", "text": "wins, whether by three touches or by any closed-hand connection." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Arriving",
+          "leavingSkill": "Leaving",
+          "title": "Open Guard Takedown and Escape Game",
+          "start": "The top player stands. The bottom player is on his back, fully connected, hands on the top player's ankles, feet inside his legs.",
+          "text": "Bottom player: stay connected while putting the top player down on his hips or hands, then stand up, or stay connected as he rises. Top player: break the connections and make shin contact to pass.",
+          "win": [
+            { "role": "The bottom player", "text": "wins by putting the top player down and getting up to standing, or by putting him down a different way and rising to a connection." },
+            { "role": "The top player", "text": "wins with shin contact." }
+          ],
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+        },
+        {
+          "skill": "Controlling",
+          "leavingSkill": "Leaving",
+          "title": "Riding Bottom Position Game",
+          "start": "The bottom player is on his hands and knees. The top player is on top with open hands around the bottom player's hips.",
+          "text": "Top player: stay attached to the hips, break the bottom player down, and stop him from standing. Bottom player: build your base, fight to your feet, and turn to face the top player.",
+          "win": [
+            { "role": "The top player", "text": "has no time limit. He holds as long as he keeps the bottom player broken down." },
+            { "role": "The bottom player", "text": "wins by standing up and turning to face the top player." }
+          ],
+          "reset": "The top player holds no matter what. If the bottom player stands and turns to face him, that is his win, and you start over. Roles switch after every win."
+        }
       ],
-      "caselTlo": "By the end of this session, the participant will share, as much as they choose, a picture of the real self the Descent uncovered.",
-      "caselElos": [
-        "Describe the real self, now seen.",
-        "Bring it into the room so others can see it."
-      ],
-      "connection": "Running both Paths from standing to a pin is the mat's version of the whole Descent, from arrival to the real self revealed. This session brings both journeys together into one.",
+      "connection": "Running both games from standing to a pin is the mat's version of the whole Descent, from arrival to the real self revealed. This session brings both journeys together into one.",
       "stageClose": true,
       "takeaway": "You showed up, cracked, and stayed, and the room met the real you."
     }

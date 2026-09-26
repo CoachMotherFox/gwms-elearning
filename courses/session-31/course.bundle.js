@@ -17,59 +17,27 @@ window.GWMS_COURSE_BUNDLE["session-31"] =
       "Responsible Decision-Making"
     ],
     "bloom": "Apply and Analyze",
-    "card": "The Back Pin",
-    "domain": "Finish, Back Strangle",
-    "keyCondition": "The locking hand closes behind the head. The choking elbow sits on the chin line. Release it the instant they tap.",
-    "gameName": "Build to Rear Strangle Game",
     "probingQuestion": "What do you want to leave behind you here?",
-    "grapplingTlo": "By the end of this session, the participant will use the back strangle with control, and name what kind of training partner they have been.",
-    "looksBackAt": 28,
-    "grapplingElos": [
-      "Get the back strangle against light resistance, and release on the tap.",
-      "Name what kind of partner they have been to the room."
-    ],
-    "caselTlo": "By the end of this session, the participant will name what they want to leave behind them.",
-    "caselElos": [
-      "Name the mark they want to leave.",
-      "Connect it to how they act now."
+    "games": [
+      {
+        "skill": "Entering",
+        "title": "Hand Fight to Closed Hand Connection via Underhook"
+      },
+      {
+        "skill": "Arriving",
+        "title": "Around-the-Legs Passing Game"
+      },
+      {
+        "skill": "Finishing",
+        "title": "Build to Rear Strangle Game"
+      }
     ],
     "connection": "The finish is the sharpest power in the system. How you use it, controlled, releasing on the tap, is what people remember about rolling with you. What you leave behind in life is built the same way, out of how you treat people when you hold the power.",
     "takeaway": "Legacy is built from how you act now, not someday.",
-    "_source": "GWMS Curriculum Guide — Session 31 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+    "_source": "GWMS Curriculum Guide — Session 31 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
-    {
-      "id": "start",
-      "title": "Welcome",
-      "slides": [
-        {
-          "id": "s31-welcome",
-          "type": "text-image",
-          "eyebrow": "Welcome",
-          "title": "Welcome to GWMS Online",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is Session 31 of 36: Legacy."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 31 of 36. The Return, Week 11, Legacy. On the mat that stage runs Back Pin."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Take your time. There are no wrong answers when you write about yourself."
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "today",
       "title": "Today",
@@ -82,92 +50,89 @@ window.GWMS_COURSE_BUNDLE["session-31"] =
           "body": [
             {
               "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the game and the lesson."
-            }
-          ],
-          "alternates": [
-            {
-              "mode": "audio",
-              "label": "Listen",
-              "src": "assets/probing-question.m4a",
-              "transcriptIsBody": true,
-              "own": true,
-              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+              "text": "This is your question for today. Keep it in mind during the games."
             }
           ]
         },
         {
-          "id": "s31-lookback",
-          "eyebrow": "Look back",
-          "title": "Session 28 asked you this",
-          "body": [
-            {
-              "kind": "quote",
-              "text": "Who needs what you've learned?",
-              "attribution": "Session 28 — The Return, Contribution"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Before you read on, see if you can remember what you answered."
-            }
-          ],
-          "type": "reveal",
-          "reveals": [
-            {
-              "id": "what-it-was-after",
-              "label": "What that one was really about",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "You have something worth giving now."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s31-game",
+          "id": "s31-games",
           "type": "text-image",
-          "eyebrow": "The game",
-          "title": "Build to Rear Strangle Game",
+          "eyebrow": "Tonight on the mat",
+          "title": "The three games",
           "body": [
             {
               "kind": "lead",
-              "text": "The back strangle is the sharpest finish in the system. Build the locking grip behind the head, elbow on the chin line. Release it the instant your partner taps."
+              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Hand Fight to Closed Hand Connection via Underhook"
             },
             {
               "kind": "paragraph",
-              "text": "How you use the finish, controlled and clean, is what people remember about rolling with you. That is legacy."
-            }
-          ],
-          "reveals": [
+              "text": "Skill Learning Objective (SLO): Entering, for both players."
+            },
             {
-              "id": "key-condition",
-              "label": "What you need first",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "The locking hand closes behind the head. The choking elbow sits on the chin line. Release it the instant they tap."
-                }
+              "kind": "paragraph",
+              "text": "Both players stand facing each other, hand fighting range, both disconnected."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Connect to your partner's wrist, elbow, and head, get the underhook, and fight to a closed-hand connection around the head, body, or leg."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "Whoever connects first wins. The same rule applies to both players."
               ]
             },
             {
-              "id": "the-tap",
-              "label": "Still true every session: the tap",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
+              "kind": "heading",
+              "level": 3,
+              "text": "Around-the-Legs Passing Game"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The bottom player is belly up in open guard. The top player is on his feet, starting by clearing the feet."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Top player: get one leg outside the bottom player's feet, make shin contact from knee to head, then without stopping go around to the other side and touch there too. Bottom player: hook and post with your feet to make the top player hit his butt, then sit up with your back off the mat."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player wins by touching one outside and then the other, one right after the other.",
+                "The bottom player wins by making the top player hit his butt and sitting up with his back off the mat."
+              ]
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Build to Rear Strangle Game"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Finishing for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The top player is on the bottom player's back, hands connected, not yet in the finishing position. The bottom player may move freely."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Top player: first, get your over-grip palm to touch the bottom player's back. Once it touches, slide your wrist into the crook of your own other elbow and lock your hands. The win is the lock, not a squeeze. Bottom player: put your back on the mat, using any movement."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player wins by getting the palm to the back, then the wrist into the crook of his own other elbow with hands locked.",
+                "The bottom player wins when his back touches the mat."
               ]
             }
           ]
@@ -181,12 +146,12 @@ window.GWMS_COURSE_BUNDLE["session-31"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Build to Rear Strangle Game, what counts as the win?",
+          "question": "In Build to Rear Strangle Game, what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Building the locking grip behind the head, and releasing the instant your partner taps",
+              "text": "The top player wins by getting the palm to the back, then the wrist into the crook of his own other elbow with hands locked.",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
@@ -208,189 +173,45 @@ window.GWMS_COURSE_BUNDLE["session-31"] =
       ]
     },
     {
-      "id": "lesson",
-      "title": "The lesson",
-      "slides": [
-        {
-          "id": "s31-grappling",
-          "type": "text-image",
-          "eyebrow": "On the mat",
-          "title": "What you were working on",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Use the back strangle with control, and name what kind of training partner you have been."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Get the back strangle against light resistance, and release on the tap.",
-                "Name what kind of partner you have been to the room."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s31-casel",
-          "type": "text-image",
-          "eyebrow": "Off the mat",
-          "title": "The part that was not about grappling",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Name what you want to leave behind you."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Name the mark you want to leave.",
-                "Connect it to how you act now."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s31-connection",
-          "type": "reveal",
-          "eyebrow": "The connection",
-          "title": "Where those two meet",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "The finish is the sharpest power in the system. How you use it, controlled, releasing on the tap, is what people remember about rolling with you. What you leave behind in life is built the same way, out of how you treat people when you hold the power."
-            },
-            {
-              "kind": "callout",
-              "label": "Said simply",
-              "text": "The jaw-based counters are not taught yet. They wait until the Therapeutic Manager approves them. Coaches do not teach them."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "stage-arc",
-              "label": "Where this sits in The Return",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Total control, plus the choice not to hurt someone, is the heart of the whole program. Now you carry that choice out the door."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "close",
       "title": "Before you go",
       "slides": [
         {
-          "id": "s31-recap",
-          "type": "reveal",
-          "eyebrow": "Quick recap",
-          "title": "Before you go: Build to Rear Strangle Game",
+          "id": "s31-takeaway",
+          "type": "text-image",
+          "eyebrow": "The takeaway",
+          "title": "What tonight was really about",
           "body": [
             {
               "kind": "lead",
-              "text": "The back strangle is the sharpest finish in the system. Build the locking grip behind the head, elbow on the chin line. Release it the instant your partner taps."
+              "text": "Legacy is built from how you act now, not someday."
             },
             {
               "kind": "paragraph",
-              "text": "How you use the finish, controlled and clean, is what people remember about rolling with you. That is legacy."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "win-again",
-              "label": "How you win it, again",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Building the locking grip behind the head, and releasing the instant your partner taps"
-                }
-              ]
+              "text": "The finish is the sharpest power in the system. How you use it, controlled, releasing on the tap, is what people remember about rolling with you. What you leave behind in life is built the same way, out of how you treat people when you hold the power."
             },
             {
-              "id": "tap-again",
-              "label": "And the rule that never changes",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
-              ]
+              "kind": "callout",
+              "label": "Worth knowing",
+              "text": "The jaw-based counters are not taught yet. They wait until the Therapeutic Manager approves them. Coaches do not teach them."
             }
           ]
         },
         {
-          "id": "s31-summative",
-          "type": "quiz",
-          "eyebrow": "End-of-session check",
-          "title": "What today was asking of you",
-          "assessment": {
-            "role": "summative",
-            "scored": true
-          },
-          "question": "Which one was this session actually asking you to do?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "Name what you want to leave behind you.",
-              "correct": true,
-              "feedback": "That was the target for today."
-            },
-            {
-              "text": "Name who you became over the program.",
-              "feedback": "That is Session 35's target, not today's."
-            },
-            {
-              "text": "Find who needs what you have learned, and turn the work outward.",
-              "feedback": "That is Session 28's target, not today's."
-            }
-          ],
-          "correctHead": "That's the one.",
-          "correctText": "That was the point of the whole session, on the mat and off it.",
-          "incorrectHead": "Not today.",
-          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
-          "revealText": "Today's target is marked above."
-        },
-        {
           "id": "s31-reflection",
           "type": "reflection",
-          "eyebrow": "Reflection",
+          "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What do you want to leave behind you here?",
-          "hint": "Nothing here is graded. A few words is plenty.",
+          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
           "placeholder": "Whatever comes to mind…"
         },
         {
           "id": "s31-irf",
           "type": "reflection",
-          "eyebrow": "Before you go",
+          "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session",
+          "kindLabel": "IRF — everyone fills this out, every session, on your own",
           "fields": [
             {
               "id": "mat",

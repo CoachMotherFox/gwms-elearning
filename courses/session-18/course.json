@@ -16,59 +16,27 @@
       "Relationship Skills"
     ],
     "bloom": "Apply",
-    "card": "The Chest Pin",
-    "domain": "Control",
-    "keyCondition": "Firm control that keeps the partner safe. Adjust the moment they tap.",
-    "gameName": "Hip Control Breakdown Game, run with an intensity constraint",
     "probingQuestion": "What does your friction do to the people across from you?",
-    "grapplingTlo": "By the end of this session, the participant will use chest-pin control hard enough to work, but controlled enough to keep the partner safe.",
-    "looksBackAt": 6,
-    "grapplingElos": [
-      "Apply the pin firmly while keeping the partner safe.",
-      "Adjust how hard they go based on the partner's signals and taps."
-    ],
-    "caselTlo": "By the end of this session, the participant will name how their conflict style affects other people, and one change they can make.",
-    "caselElos": [
-      "Notice how their friction lands on the person across from them.",
-      "Name one change that keeps the friction honest but not harmful."
+    "games": [
+      {
+        "skill": "Entering",
+        "title": "Foot-to-Foot Contact with Overhook / Underhook"
+      },
+      {
+        "skill": "Arriving",
+        "title": "Seated Open Guard Game"
+      },
+      {
+        "skill": "Controlling",
+        "title": "Figure Four Grip Control Game"
+      }
     ],
     "connection": "You can pin someone hard and still keep them safe. That is control of your own force. Your conflict off the mat lands on real people too, and the same control applies: honest friction, not harm.",
     "takeaway": "Friction is fine. Harm is a choice. The control is yours.",
-    "_source": "GWMS Curriculum Guide — Session 18 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+    "_source": "GWMS Curriculum Guide — Session 18 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
-    {
-      "id": "start",
-      "title": "Welcome",
-      "slides": [
-        {
-          "id": "s18-welcome",
-          "type": "text-image",
-          "eyebrow": "Welcome",
-          "title": "Welcome to GWMS Online",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is Session 18 of 36: Friction."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 18 of 36. The Initiation, Week 6, Friction. On the mat that stage runs Chest Pin."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Take your time. There are no wrong answers when you write about yourself."
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "today",
       "title": "Today",
@@ -81,92 +49,90 @@
           "body": [
             {
               "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the game and the lesson."
-            }
-          ],
-          "alternates": [
-            {
-              "mode": "audio",
-              "label": "Listen",
-              "src": "assets/probing-question.m4a",
-              "transcriptIsBody": true,
-              "own": true,
-              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+              "text": "This is your question for today. Keep it in mind during the games."
             }
           ]
         },
         {
-          "id": "s18-lookback",
-          "eyebrow": "Look back",
-          "title": "Session 6 asked you this",
-          "body": [
-            {
-              "kind": "quote",
-              "text": "What does your mask protect you from?",
-              "attribution": "Session 6 — The Descent, Mask"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Before you read on, see if you can remember what you answered."
-            }
-          ],
-          "type": "reveal",
-          "reveals": [
-            {
-              "id": "what-it-was-after",
-              "label": "What that one was really about",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "The mask has a job. Next week we find out what happens to it under pressure."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s18-game",
+          "id": "s18-games",
           "type": "text-image",
-          "eyebrow": "The game",
-          "title": "Hip Control Breakdown Game, run with an intensity constraint",
+          "eyebrow": "Tonight on the mat",
+          "title": "The three games",
           "body": [
             {
               "kind": "lead",
-              "text": "The top player breaks the partner down and takes control, hips down, shoulder connected, with a limit on how hard they go. Win by holding control while keeping the partner completely safe."
+              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Foot-to-Foot Contact with Overhook / Underhook"
             },
             {
               "kind": "paragraph",
-              "text": "You can pin hard and still not hurt them. That choice is yours, every round."
-            }
-          ],
-          "reveals": [
+              "text": "Skill Learning Objective (SLO): Entering, for both players."
+            },
             {
-              "id": "key-condition",
-              "label": "What you need first",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Firm control that keeps the partner safe. Adjust the moment they tap."
-                }
+              "kind": "paragraph",
+              "text": "Both players stand. The overhook player has an overhook. The underhook player has an underhook."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Overhook player: keep the overhook, use both hands to move your partner, and make foot-to-foot contact with either leg. Underhook player: close your hands anywhere below the overhook player's elbows and above his ankles."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The overhook player wins when the underhook player falls to his hips or hands.",
+                "The underhook player wins by closing his hands under the elbows."
               ]
             },
             {
-              "id": "the-tap",
-              "label": "Still true every session: the tap",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
+              "kind": "heading",
+              "level": 3,
+              "text": "Seated Open Guard Game"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The top player stands. The bottom player sits on the mat with an inside hook and a knee-pit grip."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bottom player: move from seated to belly up, using your connections to put the top player down on his hips or hands, then wrestle up or stand and make his back touch the mat. Top player: put the bottom player on his back and keep shin contact."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The bottom player wins by standing up and reaching the hips, or by making the top player's back touch the mat.",
+                "The top player wins with shin contact on the knees or body."
+              ]
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Figure Four Grip Control Game"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Controlling for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The bottom player is on his back. The top player covers his head with a figure-four grip, one hand on the wrist, the other arm under the elbow."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Top player: keep the figure-four grip and stay under at least one elbow while keeping the bottom player pinned. Bottom player: break the grip by freeing your arms and getting your elbows to your body."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player has no time limit. He holds as long as he keeps the grip.",
+                "The bottom player wins by breaking the grip."
               ]
             }
           ]
@@ -180,12 +146,12 @@
             "role": "formative",
             "scored": false
           },
-          "question": "In Hip Control Breakdown Game, run with an intensity constraint, what counts as the win?",
+          "question": "In Figure Four Grip Control Game, what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Holding control — hips down, shoulder connected — while keeping the partner completely safe",
+              "text": "The top player has no time limit. He holds as long as he keeps the grip.",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
@@ -207,184 +173,40 @@
       ]
     },
     {
-      "id": "lesson",
-      "title": "The lesson",
-      "slides": [
-        {
-          "id": "s18-grappling",
-          "type": "text-image",
-          "eyebrow": "On the mat",
-          "title": "What you were working on",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Use chest-pin control hard enough to work, but controlled enough to keep the partner safe."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Apply the pin firmly while keeping the partner safe.",
-                "Adjust how hard you go based on the partner's signals and taps."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s18-casel",
-          "type": "text-image",
-          "eyebrow": "Off the mat",
-          "title": "The part that was not about grappling",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Name how your conflict style affects other people, and one change you can make."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Notice how your friction lands on the person across from you.",
-                "Name one change that keeps the friction honest but not harmful."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s18-connection",
-          "type": "reveal",
-          "eyebrow": "The connection",
-          "title": "Where those two meet",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "You can pin someone hard and still keep them safe. That is control of your own force. Your conflict off the mat lands on real people too, and the same control applies: honest friction, not harm."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "stage-arc",
-              "label": "Where this sits in The Initiation",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Chest-to-chest contact on the mat is like contact with people. Friction on the mat is like friction with people. A break on the mat is like a rupture between people. A reset on the mat is like repair between people. The Initiation tests the real you against other people."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "close",
       "title": "Before you go",
       "slides": [
         {
-          "id": "s18-recap",
-          "type": "reveal",
-          "eyebrow": "Quick recap",
-          "title": "Before you go: Hip Control Breakdown Game, run with an intensity constraint",
+          "id": "s18-takeaway",
+          "type": "text-image",
+          "eyebrow": "The takeaway",
+          "title": "What tonight was really about",
           "body": [
             {
               "kind": "lead",
-              "text": "The top player breaks the partner down and takes control, hips down, shoulder connected, with a limit on how hard they go. Win by holding control while keeping the partner completely safe."
+              "text": "Friction is fine. Harm is a choice. The control is yours."
             },
             {
               "kind": "paragraph",
-              "text": "You can pin hard and still not hurt them. That choice is yours, every round."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "win-again",
-              "label": "How you win it, again",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Holding control — hips down, shoulder connected — while keeping the partner completely safe"
-                }
-              ]
-            },
-            {
-              "id": "tap-again",
-              "label": "And the rule that never changes",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
-              ]
+              "text": "You can pin someone hard and still keep them safe. That is control of your own force. Your conflict off the mat lands on real people too, and the same control applies: honest friction, not harm."
             }
           ]
         },
         {
-          "id": "s18-summative",
-          "type": "quiz",
-          "eyebrow": "End-of-session check",
-          "title": "What today was asking of you",
-          "assessment": {
-            "role": "summative",
-            "scored": true
-          },
-          "question": "Which one was this session actually asking you to do?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "Name how your conflict style affects other people, and one change you can make.",
-              "correct": true,
-              "feedback": "That was the target for today."
-            },
-            {
-              "text": "Say which part of a break is your share, separate from the other person's share.",
-              "feedback": "That is Session 21's target, not today's."
-            },
-            {
-              "text": "Say how much you open up to another person, and name one thing that makes letting someone in hard.",
-              "feedback": "That is Session 14's target, not today's."
-            }
-          ],
-          "correctHead": "That's the one.",
-          "correctText": "That was the point of the whole session, on the mat and off it.",
-          "incorrectHead": "Not today.",
-          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
-          "revealText": "Today's target is marked above."
-        },
-        {
           "id": "s18-reflection",
           "type": "reflection",
-          "eyebrow": "Reflection",
+          "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What does your friction do to the people across from you?",
-          "hint": "Nothing here is graded. A few words is plenty.",
+          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
           "placeholder": "Whatever comes to mind…"
         },
         {
           "id": "s18-irf",
           "type": "reflection",
-          "eyebrow": "Before you go",
+          "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session",
+          "kindLabel": "IRF — everyone fills this out, every session, on your own",
           "fields": [
             {
               "id": "mat",

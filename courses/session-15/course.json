@@ -16,59 +16,27 @@
       "Relationship Skills"
     ],
     "bloom": "Apply",
-    "card": "The Chest Pin",
-    "domain": "Control",
-    "keyCondition": "Keep chest contact going the whole time.",
-    "gameName": "Mount, Stay Under Both Elbows (Continuous)",
     "probingQuestion": "Who are you with other people, now that you've met yourself?",
-    "grapplingTlo": "By the end of this session, the participant will get into chest-pin control from a neutral start and keep it, rolling as their real self instead of putting on a show.",
-    "looksBackAt": 3,
-    "grapplingElos": [
-      "Get into a chest pin from a neutral position and hold it.",
-      "Keep control without giving up the position when it gets hard."
-    ],
-    "caselTlo": "By the end of this session, the participant will describe who they are with other people, now that the Descent named their real self.",
-    "caselElos": [
-      "Name one way the real self shows up with others differently than the old mask did.",
-      "Connect that to how they want to be in their relationships."
+    "games": [
+      {
+        "skill": "Entering",
+        "title": "Hand Fight to Connection Game"
+      },
+      {
+        "skill": "Arriving",
+        "title": "Closed Guard, Post to Underhook to Locked Hands"
+      },
+      {
+        "skill": "Controlling",
+        "title": "Mount, Stay Under Both Elbows"
+      }
     ],
     "connection": "The Descent found the real you. Now it goes to the mat with a partner. Rolling as the real you, instead of a mask, is the same as showing up honest in a relationship instead of performing one.",
     "takeaway": "The real you is in the room now, and other people are in it too.",
-    "_source": "GWMS Curriculum Guide — Session 15 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+    "_source": "GWMS Curriculum Guide — Session 15 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
-    {
-      "id": "start",
-      "title": "Welcome",
-      "slides": [
-        {
-          "id": "s15-welcome",
-          "type": "text-image",
-          "eyebrow": "Welcome",
-          "title": "Welcome to GWMS Online",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is Session 15 of 36: Contact."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 15 of 36. The Initiation, Week 5, Contact. On the mat that stage runs Chest Pin."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Take your time. There are no wrong answers when you write about yourself."
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "today",
       "title": "Today",
@@ -81,92 +49,89 @@
           "body": [
             {
               "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the game and the lesson."
-            }
-          ],
-          "alternates": [
-            {
-              "mode": "audio",
-              "label": "Listen",
-              "src": "assets/probing-question.m4a",
-              "transcriptIsBody": true,
-              "own": true,
-              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+              "text": "This is your question for today. Keep it in mind during the games."
             }
           ]
         },
         {
-          "id": "s15-lookback",
-          "eyebrow": "Look back",
-          "title": "Session 3 asked you this",
-          "body": [
-            {
-              "kind": "quote",
-              "text": "What are you like before you trust the room?",
-              "attribution": "Session 3 — The Descent, Arrival"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Before you read on, see if you can remember what you answered."
-            }
-          ],
-          "type": "reveal",
-          "reveals": [
-            {
-              "id": "what-it-was-after",
-              "label": "What that one was really about",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "The guard is smart. Next week we look at the face that guard wears: the mask."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s15-game",
+          "id": "s15-games",
           "type": "text-image",
-          "eyebrow": "The game",
-          "title": "Mount, Stay Under Both Elbows",
+          "eyebrow": "Tonight on the mat",
+          "title": "The three games",
           "body": [
             {
               "kind": "lead",
-              "text": "From the top, stay under both elbows and keep the connection going as the partner works. There is no finish here, just holding real contact."
+              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Hand Fight to Connection Game"
             },
             {
               "kind": "paragraph",
-              "text": "Roll as the real you, not a performance. That is who you are with other people now."
-            }
-          ],
-          "reveals": [
+              "text": "Skill Learning Objective (SLO): Entering, for both players."
+            },
             {
-              "id": "key-condition",
-              "label": "What you need first",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Keep chest contact going the whole time."
-                }
+              "kind": "paragraph",
+              "text": "Both players stand facing each other, hand fighting range, both disconnected."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Get a two-on-one connection, then the underhook, and work to a connection at the head, waist, or leg."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "Whoever reaches a connection first wins. The same rule applies to both players."
               ]
             },
             {
-              "id": "the-tap",
-              "label": "Still true every session: the tap",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
+              "kind": "heading",
+              "level": 3,
+              "text": "Closed Guard, Post to Underhook to Locked Hands"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The bottom player has closed guard around the top player, who may work to standing."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bottom player: attach to the wrists and elbows to cause a post, get the underhook on that post, then lock your hands around a shoulder. Top player: keep your hands on the bottom player and fight to stand up with the guard open."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The bottom player wins by locking his hands with an underhook after a post.",
+                "The top player wins by standing and opening the guard."
+              ]
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Mount, Stay Under Both Elbows"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Controlling for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The bottom player is on his back. The top player is in mount with both arms under both of the bottom player's elbows."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Top player: stay under at least one elbow the whole round. If you lose one, fight to get it back. Bottom player: get both elbows to touch your own body with nothing under them, or make the top player fall over."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player has no time limit. He holds as long as he keeps at least one elbow covered.",
+                "The bottom player wins by touching both elbows to his body, or by making the top player fall."
               ]
             }
           ]
@@ -180,12 +145,12 @@
             "role": "formative",
             "scored": false
           },
-          "question": "In Mount, Stay Under Both Elbows, what counts as the win?",
+          "question": "In Mount, Stay Under Both Elbows, what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Staying under both elbows and keeping the connection alive the whole time",
+              "text": "The top player has no time limit. He holds as long as he keeps at least one elbow covered.",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
@@ -207,184 +172,40 @@
       ]
     },
     {
-      "id": "lesson",
-      "title": "The lesson",
-      "slides": [
-        {
-          "id": "s15-grappling",
-          "type": "text-image",
-          "eyebrow": "On the mat",
-          "title": "What you were working on",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Get into chest-pin control from a neutral start and keep it, rolling as your real self instead of putting on a show."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Get into a chest pin from a neutral position and hold it.",
-                "Keep control without giving up the position when it gets hard."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s15-casel",
-          "type": "text-image",
-          "eyebrow": "Off the mat",
-          "title": "The part that was not about grappling",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Describe who you are with other people, now that the Descent named your real self."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Name one way the real self shows up with others differently than the old mask did.",
-                "Connect that to how you want to be in your relationships."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s15-connection",
-          "type": "reveal",
-          "eyebrow": "The connection",
-          "title": "Where those two meet",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "The Descent found the real you. Now it goes to the mat with a partner. Rolling as the real you, instead of a mask, is the same as showing up honest in a relationship instead of performing one."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "stage-arc",
-              "label": "Where this sits in The Initiation",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Chest-to-chest contact on the mat is like contact with people. Friction on the mat is like friction with people. A break on the mat is like a rupture between people. A reset on the mat is like repair between people. The Initiation tests the real you against other people."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "close",
       "title": "Before you go",
       "slides": [
         {
-          "id": "s15-recap",
-          "type": "reveal",
-          "eyebrow": "Quick recap",
-          "title": "Before you go: Mount, Stay Under Both Elbows",
+          "id": "s15-takeaway",
+          "type": "text-image",
+          "eyebrow": "The takeaway",
+          "title": "What tonight was really about",
           "body": [
             {
               "kind": "lead",
-              "text": "From the top, stay under both elbows and keep the connection going as the partner works. There is no finish here, just holding real contact."
+              "text": "The real you is in the room now, and other people are in it too."
             },
             {
               "kind": "paragraph",
-              "text": "Roll as the real you, not a performance. That is who you are with other people now."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "win-again",
-              "label": "How you win it, again",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Staying under both elbows and keeping the connection alive the whole time"
-                }
-              ]
-            },
-            {
-              "id": "tap-again",
-              "label": "And the rule that never changes",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
-              ]
+              "text": "The Descent found the real you. Now it goes to the mat with a partner. Rolling as the real you, instead of a mask, is the same as showing up honest in a relationship instead of performing one."
             }
           ]
         },
         {
-          "id": "s15-summative",
-          "type": "quiz",
-          "eyebrow": "End-of-session check",
-          "title": "What today was asking of you",
-          "assessment": {
-            "role": "summative",
-            "scored": true
-          },
-          "question": "Which one was this session actually asking you to do?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "Describe who you are with other people, now that the Descent named your real self.",
-              "correct": true,
-              "feedback": "That was the target for today."
-            },
-            {
-              "text": "Name how your conflict style affects other people, and one change you can make.",
-              "feedback": "That is Session 18's target, not today's."
-            },
-            {
-              "text": "Name what makes you want to leave a hard relationship and one reason to stay.",
-              "feedback": "That is Session 23's target, not today's."
-            }
-          ],
-          "correctHead": "That's the one.",
-          "correctText": "That was the point of the whole session, on the mat and off it.",
-          "incorrectHead": "Not today.",
-          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
-          "revealText": "Today's target is marked above."
-        },
-        {
           "id": "s15-reflection",
           "type": "reflection",
-          "eyebrow": "Reflection",
+          "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "Who are you with other people, now that you've met yourself?",
-          "hint": "Nothing here is graded. A few words is plenty.",
+          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
           "placeholder": "Whatever comes to mind…"
         },
         {
           "id": "s15-irf",
           "type": "reflection",
-          "eyebrow": "Before you go",
+          "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session",
+          "kindLabel": "IRF — everyone fills this out, every session, on your own",
           "fields": [
             {
               "id": "mat",

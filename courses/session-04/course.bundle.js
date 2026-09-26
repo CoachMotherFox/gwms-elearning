@@ -18,59 +18,27 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
       "Self-Management"
     ],
     "bloom": "Apply",
-    "card": "Controlling the Legs",
-    "domain": "Enter, from the retainer's side",
-    "keyCondition": "Keep a frame and the feet between you and the passer.",
-    "gameName": "Keep Feet Off, Belly Up Open Guard Introduction",
     "probingQuestion": "Who are you when people are watching?",
-    "grapplingTlo": "By the end of this session, the participant will use guard retention to stop a partner from passing their legs.",
-    "looksBackAt": 1,
-    "grapplingElos": [
-      "Keep or get back guard against a light pass.",
-      "Frame to hold distance."
-    ],
-    "caselTlo": "By the end of this session, the participant will name one way they act differently when people are watching them.",
-    "caselElos": [
-      "Notice how they act differently when watched, versus alone.",
-      "Name one behavior they perform for others."
+    "games": [
+      {
+        "skill": "Entering",
+        "title": "Hand Fight to Underhook Game"
+      },
+      {
+        "skill": "Arriving",
+        "title": "Keep Feet Off, Belly Up Open Guard Introduction"
+      },
+      {
+        "skill": "Controlling",
+        "title": "Riding Bottom Position Game"
+      }
     ],
     "connection": "Keeping your guard means keeping a boundary between you and the other person. The mask does the same job with people. Guard retention on the mat and the mask you wear are the same thing.",
     "takeaway": "Everybody wears a face for the crowd. Now yours has a name.",
-    "_source": "GWMS Curriculum Guide — Session 4 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+    "_source": "GWMS Curriculum Guide — Session 4 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
-    {
-      "id": "start",
-      "title": "Welcome",
-      "slides": [
-        {
-          "id": "s04-welcome",
-          "type": "text-image",
-          "eyebrow": "Welcome",
-          "title": "Welcome to GWMS Online",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is Session 4 of 36: Mask."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 4 of 36. The Descent, Week 2, Mask. On the mat that stage runs The Paths."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Take your time. There are no wrong answers when you write about yourself."
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "today",
       "title": "Today",
@@ -83,92 +51,89 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
           "body": [
             {
               "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the game and the lesson."
-            }
-          ],
-          "alternates": [
-            {
-              "mode": "audio",
-              "label": "Listen",
-              "src": "assets/probing-question.m4a",
-              "transcriptIsBody": true,
-              "own": true,
-              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+              "text": "This is your question for today. Keep it in mind during the games."
             }
           ]
         },
         {
-          "id": "s04-lookback",
-          "eyebrow": "Look back",
-          "title": "Session 1 asked you this",
-          "body": [
-            {
-              "kind": "quote",
-              "text": "What makes a place feel safe to you?",
-              "attribution": "Session 1 — The Descent, Arrival"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Before you read on, see if you can remember what you answered."
-            }
-          ],
-          "type": "reveal",
-          "reveals": [
-            {
-              "id": "what-it-was-after",
-              "label": "What that one was really about",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "That is what makes a place feel safe. Everyone knows the rules will hold."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s04-game",
+          "id": "s04-games",
           "type": "text-image",
-          "eyebrow": "The game",
-          "title": "Keep Feet Off, Belly Up Open Guard Introduction",
+          "eyebrow": "Tonight on the mat",
+          "title": "The three games",
           "body": [
             {
               "kind": "lead",
-              "text": "One player sits back, belly up, with legs and feet out in front. The other player tries to get past. The bottom player wins by keeping their feet on the other person and not letting them in."
+              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Hand Fight to Underhook Game"
             },
             {
               "kind": "paragraph",
-              "text": "This is guard retention. You hold a barrier between you and someone else. The mask does the same job."
-            }
-          ],
-          "reveals": [
+              "text": "Skill Learning Objective (SLO): Entering, for both players."
+            },
             {
-              "id": "key-condition",
-              "label": "What you need first",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Keep a frame and the feet between you and the passer."
-                }
+              "kind": "paragraph",
+              "text": "Both players stand facing each other, fully disconnected, hand fighting range."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Get one hand on each of two targets, wrist, elbow, or head, in any mix. Then fight to the underhook."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "Whoever gets the underhook first wins. The same rule applies to both players."
               ]
             },
             {
-              "id": "the-tap",
-              "label": "Still true every session: the tap",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
+              "kind": "heading",
+              "level": 3,
+              "text": "Keep Feet Off, Belly Up Open Guard Introduction"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The bottom player is belly up in open guard. The top player starts with his hands on the bottom player, and may not go past the knees."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bottom player: hook or post your feet on the top player any way you want, and use your hands too. Make him sit down, then get your own back off the mat. Top player: keep the bottom player on his back and your feet off his body, working step by step toward the knee pits, without going past the knees."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The bottom player wins when the top player's butt hits the mat and then his own back comes off the mat.",
+                "The top player has no time limit. He holds as long as he keeps the bottom player down."
+              ]
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Riding Bottom Position Game"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Controlling for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The bottom player is on his hands and knees. The top player is on top with open hands around the bottom player's hips."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Top player: stay attached to the hips, break the bottom player down, and stop him from standing. Bottom player: build your base, fight to your feet, and turn to face the top player."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player has no time limit. He holds as long as he keeps the bottom player broken down.",
+                "The bottom player wins by standing up and turning to face the top player."
               ]
             }
           ]
@@ -182,18 +147,18 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Keep Feet Off, Belly Up Open Guard Introduction, what counts as the win?",
+          "question": "In Riding Bottom Position Game, what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "The bottom player keeping their feet on the other person and not letting them in",
+              "text": "The top player has no time limit. He holds as long as he keeps the bottom player broken down.",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not part of the Paths. Enter and Arrive are the two path steps here, and neither one ends in a submission. The path leads you into a pin, not a finish."
+              "feedback": "Not part of the Paths yet. Entering and Arriving are the two steps here, and neither one ends in a finish. The path leads you into a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
@@ -209,184 +174,40 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
       ]
     },
     {
-      "id": "lesson",
-      "title": "The lesson",
-      "slides": [
-        {
-          "id": "s04-grappling",
-          "type": "text-image",
-          "eyebrow": "On the mat",
-          "title": "What you were working on",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Use guard retention to stop a partner from passing your legs."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Keep or get back guard against a light pass.",
-                "Frame to hold distance."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s04-casel",
-          "type": "text-image",
-          "eyebrow": "Off the mat",
-          "title": "The part that was not about grappling",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Name one way you act differently when people are watching you."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Notice how you act differently when watched, versus alone.",
-                "Name one behavior you perform for others."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s04-connection",
-          "type": "reveal",
-          "eyebrow": "The connection",
-          "title": "Where those two meet",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Keeping your guard means keeping a boundary between you and the other person. The mask does the same job with people. Guard retention on the mat and the mask you wear are the same thing."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "stage-arc",
-              "label": "Where this sits in The Descent",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Getting past a partner's guard to what it protects is the same act as looking under a mask to the real person. The Descent digs deep, on the mat and inside you."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "close",
       "title": "Before you go",
       "slides": [
         {
-          "id": "s04-recap",
-          "type": "reveal",
-          "eyebrow": "Quick recap",
-          "title": "Before you go: Keep Feet Off, Belly Up Open Guard Introduction",
+          "id": "s04-takeaway",
+          "type": "text-image",
+          "eyebrow": "The takeaway",
+          "title": "What tonight was really about",
           "body": [
             {
               "kind": "lead",
-              "text": "One player sits back, belly up, with legs and feet out in front. The other player tries to get past. The bottom player wins by keeping their feet on the other person and not letting them in."
+              "text": "Everybody wears a face for the crowd. Now yours has a name."
             },
             {
               "kind": "paragraph",
-              "text": "This is guard retention. You hold a barrier between you and someone else. The mask does the same job."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "win-again",
-              "label": "How you win it, again",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "The bottom player keeping their feet on the other person and not letting them in"
-                }
-              ]
-            },
-            {
-              "id": "tap-again",
-              "label": "And the rule that never changes",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
-              ]
+              "text": "Keeping your guard means keeping a boundary between you and the other person. The mask does the same job with people. Guard retention on the mat and the mask you wear are the same thing."
             }
           ]
         },
         {
-          "id": "s04-summative",
-          "type": "quiz",
-          "eyebrow": "End-of-session check",
-          "title": "What today was asking of you",
-          "assessment": {
-            "role": "summative",
-            "scored": true
-          },
-          "question": "Which one was this session actually asking you to do?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "Name one way you act differently when people are watching you.",
-              "correct": true,
-              "feedback": "That was the target for today."
-            },
-            {
-              "text": "Name what shows up when you lose, the reaction under the mask.",
-              "feedback": "That is Session 7's target, not today's."
-            },
-            {
-              "text": "Share, as much as you choose, a picture of the real self the Descent uncovered.",
-              "feedback": "That is Session 12's target, not today's."
-            }
-          ],
-          "correctHead": "That's the one.",
-          "correctText": "That was the point of the whole session, on the mat and off it.",
-          "incorrectHead": "Not today.",
-          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
-          "revealText": "Today's target is marked above."
-        },
-        {
           "id": "s04-reflection",
           "type": "reflection",
-          "eyebrow": "Reflection",
+          "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "Who are you when people are watching?",
-          "hint": "Nothing here is graded. A few words is plenty.",
+          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
           "placeholder": "Whatever comes to mind…"
         },
         {
           "id": "s04-irf",
           "type": "reflection",
-          "eyebrow": "Before you go",
+          "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session",
+          "kindLabel": "IRF — everyone fills this out, every session, on your own",
           "fields": [
             {
               "id": "mat",

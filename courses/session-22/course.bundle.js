@@ -18,59 +18,27 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
       "Relationship Skills"
     ],
     "bloom": "Apply",
-    "card": "The Chest Pin",
-    "domain": "Integrate",
-    "keyCondition": "Get back in and rebuild the pin after a scramble.",
-    "gameName": "Perpendicular Chest-to-Chest Pin Game",
     "probingQuestion": "What does it take for you to say sorry and mean it?",
-    "grapplingTlo": "By the end of this session, the participant will reset with a partner after a hard round and rebuild chest-pin control cleanly.",
-    "looksBackAt": 19,
-    "grapplingElos": [
-      "Get back in and rebuild a chest pin after a scramble or reversal.",
-      "Roll with a partner right after a heated round, without carrying a grudge into it."
-    ],
-    "caselTlo": "By the end of this session, the participant will name what it takes for them to give a real apology.",
-    "caselElos": [
-      "Name what a real apology takes from them.",
-      "Tell apart a real apology from a dodge."
+    "games": [
+      {
+        "skill": "Entering",
+        "title": "Hand Fight with Dual Win Conditions"
+      },
+      {
+        "skill": "Arriving",
+        "title": "Guard Recovery with Passing Resistance Game"
+      },
+      {
+        "skill": "Finishing",
+        "title": "Figure Four, Reintroduction with Hand-to-Mat or Knuckles-Behind Win"
+      }
     ],
     "connection": "Resetting and rolling clean with someone right after a hard round is like squaring up with words. A real apology is the same kind of reset: you get back in instead of carrying the grudge.",
     "takeaway": "Real repair has parts, and now you can name them.",
-    "_source": "GWMS Curriculum Guide — Session 22 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+    "_source": "GWMS Curriculum Guide — Session 22 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
-    {
-      "id": "start",
-      "title": "Welcome",
-      "slides": [
-        {
-          "id": "s22-welcome",
-          "type": "text-image",
-          "eyebrow": "Welcome",
-          "title": "Welcome to GWMS Online",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is Session 22 of 36: Repair."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 22 of 36. The Initiation, Week 8, Repair. On the mat that stage runs Chest Pin."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Take your time. There are no wrong answers when you write about yourself."
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "today",
       "title": "Today",
@@ -83,92 +51,89 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
           "body": [
             {
               "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the game and the lesson."
-            }
-          ],
-          "alternates": [
-            {
-              "mode": "audio",
-              "label": "Listen",
-              "src": "assets/probing-question.m4a",
-              "transcriptIsBody": true,
-              "own": true,
-              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+              "text": "This is your question for today. Keep it in mind during the games."
             }
           ]
         },
         {
-          "id": "s22-lookback",
-          "eyebrow": "Look back",
-          "title": "Session 19 asked you this",
-          "body": [
-            {
-              "kind": "quote",
-              "text": "What breaks in you when a connection breaks?",
-              "attribution": "Session 19 — The Initiation, Rupture"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Before you read on, see if you can remember what you answered."
-            }
-          ],
-          "type": "reveal",
-          "reveals": [
-            {
-              "id": "what-it-was-after",
-              "label": "What that one was really about",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "A rupture teaches you something. You survived naming it."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s22-game",
+          "id": "s22-games",
           "type": "text-image",
-          "eyebrow": "The game",
-          "title": "Perpendicular Chest-to-Chest Pin Game",
+          "eyebrow": "Tonight on the mat",
+          "title": "The three games",
           "body": [
             {
               "kind": "lead",
-              "text": "After a scramble, rebuild the pin cleanly. Win by covering the hips, getting under the elbow, and connecting your hands again."
+              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Hand Fight with Dual Win Conditions"
             },
             {
               "kind": "paragraph",
-              "text": "Slap hands and roll clean after a hard round. That reset is repair in the body."
-            }
-          ],
-          "reveals": [
+              "text": "Skill Learning Objective (SLO): Entering, for both players."
+            },
             {
-              "id": "key-condition",
-              "label": "What you need first",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Get back in and rebuild the pin after a scramble."
-                }
+              "kind": "paragraph",
+              "text": "Both players stand facing each other, hand fighting range, both hand fighting at the wrists, elbows, and head."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Win one of two ways: collect three touches in any mix, or get an underhook and close your hands around your partner's shoulders, body, or leg."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "Whoever gets there first wins, whether by three touches or by the underhook plus closed hands."
               ]
             },
             {
-              "id": "the-tap",
-              "label": "Still true every session: the tap",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
+              "kind": "heading",
+              "level": 3,
+              "text": "Guard Recovery with Passing Resistance Game"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The bottom player is lying on his side. The top player has passed the legs and is at his hips."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bottom player: stay mobile on your side, stop the top player's hands from connecting, and get your legs back in front. Top player: lock your hands around the bottom player's waist, chest, or back to stop the recovery."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The bottom player wins by recovering to any real guard position while staying mobile.",
+                "The top player wins by locking his hands."
+              ]
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Figure Four, Reintroduction with Hand-to-Mat or Knuckles-Behind Win"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Finishing for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The bottom player is in side control, chest to chest. The top player starts with a figure-four grip on one arm, under his elbow."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Top player: stay under the elbow, even if you lose the hand for a moment, and put the bottom player's palm flat on the mat or his knuckles behind his back. Bottom player: fight the grip directly and get the figure four out from under your elbow."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player wins by palm to mat or knuckles behind the back.",
+                "The bottom player wins by removing the figure four from under the elbow."
               ]
             }
           ]
@@ -182,12 +147,12 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Perpendicular Chest-to-Chest Pin Game, what counts as the win?",
+          "question": "In Figure Four, Reintroduction with Hand-to-Mat or Knuckles-Behind Win, what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Covering the hips, getting under the elbow, and connecting your hands again after a scramble",
+              "text": "The top player wins by palm to mat or knuckles behind the back.",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
@@ -209,184 +174,40 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
       ]
     },
     {
-      "id": "lesson",
-      "title": "The lesson",
-      "slides": [
-        {
-          "id": "s22-grappling",
-          "type": "text-image",
-          "eyebrow": "On the mat",
-          "title": "What you were working on",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Reset with a partner after a hard round and rebuild chest-pin control cleanly."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Get back in and rebuild a chest pin after a scramble or reversal.",
-                "Roll with a partner right after a heated round, without carrying a grudge into it."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s22-casel",
-          "type": "text-image",
-          "eyebrow": "Off the mat",
-          "title": "The part that was not about grappling",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Name what it takes for you to give a real apology."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Name what a real apology takes from you.",
-                "Tell apart a real apology from a dodge."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s22-connection",
-          "type": "reveal",
-          "eyebrow": "The connection",
-          "title": "Where those two meet",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Resetting and rolling clean with someone right after a hard round is like squaring up with words. A real apology is the same kind of reset: you get back in instead of carrying the grudge."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "stage-arc",
-              "label": "Where this sits in The Initiation",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Chest-to-chest contact on the mat is like contact with people. Friction on the mat is like friction with people. A break on the mat is like a rupture between people. A reset on the mat is like repair between people. The Initiation tests the real you against other people."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "close",
       "title": "Before you go",
       "slides": [
         {
-          "id": "s22-recap",
-          "type": "reveal",
-          "eyebrow": "Quick recap",
-          "title": "Before you go: Perpendicular Chest-to-Chest Pin Game",
+          "id": "s22-takeaway",
+          "type": "text-image",
+          "eyebrow": "The takeaway",
+          "title": "What tonight was really about",
           "body": [
             {
               "kind": "lead",
-              "text": "After a scramble, rebuild the pin cleanly. Win by covering the hips, getting under the elbow, and connecting your hands again."
+              "text": "Real repair has parts, and now you can name them."
             },
             {
               "kind": "paragraph",
-              "text": "Slap hands and roll clean after a hard round. That reset is repair in the body."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "win-again",
-              "label": "How you win it, again",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Covering the hips, getting under the elbow, and connecting your hands again after a scramble"
-                }
-              ]
-            },
-            {
-              "id": "tap-again",
-              "label": "And the rule that never changes",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
-              ]
+              "text": "Resetting and rolling clean with someone right after a hard round is like squaring up with words. A real apology is the same kind of reset: you get back in instead of carrying the grudge."
             }
           ]
         },
         {
-          "id": "s22-summative",
-          "type": "quiz",
-          "eyebrow": "End-of-session check",
-          "title": "What today was asking of you",
-          "assessment": {
-            "role": "summative",
-            "scored": true
-          },
-          "question": "Which one was this session actually asking you to do?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "Name what it takes for you to give a real apology.",
-              "correct": true,
-              "feedback": "That was the target for today."
-            },
-            {
-              "text": "Name what you feel when someone makes real contact with you, and say how that connects to meeting people in real life.",
-              "feedback": "That is Session 13's target, not today's."
-            },
-            {
-              "text": "Name how your conflict style affects other people, and one change you can make.",
-              "feedback": "That is Session 18's target, not today's."
-            }
-          ],
-          "correctHead": "That's the one.",
-          "correctText": "That was the point of the whole session, on the mat and off it.",
-          "incorrectHead": "Not today.",
-          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
-          "revealText": "Today's target is marked above."
-        },
-        {
           "id": "s22-reflection",
           "type": "reflection",
-          "eyebrow": "Reflection",
+          "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What does it take for you to say sorry and mean it?",
-          "hint": "Nothing here is graded. A few words is plenty.",
+          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
           "placeholder": "Whatever comes to mind…"
         },
         {
           "id": "s22-irf",
           "type": "reflection",
-          "eyebrow": "Before you go",
+          "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session",
+          "kindLabel": "IRF — everyone fills this out, every session, on your own",
           "fields": [
             {
               "id": "mat",

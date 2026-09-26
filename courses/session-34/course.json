@@ -15,59 +15,27 @@
       "Responsible Decision-Making"
     ],
     "bloom": "Apply and Analyze",
-    "card": "The Back Pin",
-    "domain": "Integrate",
-    "keyCondition": "Play both roles, control on top and 4S escape underneath.",
-    "gameName": "Back Control with Multiple Arm Escape Options (deliberate capstone-week exception, Intermediate tier)",
     "probingQuestion": "What did this cost you, and what did you get for it?",
-    "grapplingTlo": "By the end of this session, the participant will put the full back-pin game together in open rolling, and name what twelve weeks of training cost them and gave them.",
-    "looksBackAt": 31,
-    "grapplingElos": [
-      "Roll open from the back-pin game, controlling and finishing with the tap honored.",
-      "Name what the training cost and what it gave."
-    ],
-    "caselTlo": "By the end of this session, the participant will name the honest cost and reward of the whole program.",
-    "caselElos": [
-      "Name what the twelve weeks cost them.",
-      "Name what they got for it."
+    "games": [
+      {
+        "skill": "Entering",
+        "title": "2v1 Hand Fight to Underhook to Close Hand Connection"
+      },
+      {
+        "skill": "Arriving",
+        "title": "Open Guard Takedown and Escape Game"
+      },
+      {
+        "skill": "Finishing",
+        "title": "Chest to Back to Precursor Transitions Game"
+      }
     ],
     "connection": "Twelve weeks of getting tapped, cracked, and rebuilt cost something and gave something. Rolling now, you can feel both in your body. The honest ledger of what this cost and what you got is the first step of the return.",
     "takeaway": "The ledger is honest, and it landed on the side of growth.",
-    "_source": "GWMS Curriculum Guide — Session 34 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+    "_source": "GWMS Curriculum Guide — Session 34 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
-    {
-      "id": "start",
-      "title": "Welcome",
-      "slides": [
-        {
-          "id": "s34-welcome",
-          "type": "text-image",
-          "eyebrow": "Welcome",
-          "title": "Welcome to GWMS Online",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is Session 34 of 36: Celebration."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 34 of 36. The Return, Week 12, Celebration. On the mat that stage runs Back Pin."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Take your time. There are no wrong answers when you write about yourself."
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "today",
       "title": "Today",
@@ -80,92 +48,89 @@
           "body": [
             {
               "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the game and the lesson."
-            }
-          ],
-          "alternates": [
-            {
-              "mode": "audio",
-              "label": "Listen",
-              "src": "assets/probing-question.m4a",
-              "transcriptIsBody": true,
-              "own": true,
-              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
+              "text": "This is your question for today. Keep it in mind during the games."
             }
           ]
         },
         {
-          "id": "s34-lookback",
-          "eyebrow": "Look back",
-          "title": "Session 31 asked you this",
-          "body": [
-            {
-              "kind": "quote",
-              "text": "What do you want to leave behind you here?",
-              "attribution": "Session 31 — The Return, Legacy"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Before you read on, see if you can remember what you answered."
-            }
-          ],
-          "type": "reveal",
-          "reveals": [
-            {
-              "id": "what-it-was-after",
-              "label": "What that one was really about",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Legacy is built from how you act now, not someday."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s34-game",
+          "id": "s34-games",
           "type": "text-image",
-          "eyebrow": "The game",
-          "title": "Back Control with Multiple Arm Escape Options",
+          "eyebrow": "Tonight on the mat",
+          "title": "The three games",
           "body": [
             {
               "kind": "lead",
-              "text": "Play both roles. On the back, control and finish. Underneath, work the arm escapes against a live grip."
+              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "2v1 Hand Fight to Underhook to Close Hand Connection"
             },
             {
               "kind": "paragraph",
-              "text": "Twelve weeks of getting tapped and rebuilt, and now you can do both sides. That is the honest ledger."
-            }
-          ],
-          "reveals": [
+              "text": "Skill Learning Objective (SLO): Entering, for both players."
+            },
             {
-              "id": "key-condition",
-              "label": "What you need first",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Play both roles, control on top and 4S escape underneath."
-                }
+              "kind": "paragraph",
+              "text": "Both players stand facing each other, hand fighting range, both fully disconnected."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Get two connections on any two of your partner's wrist, elbow, or head, get the underhook, then go straight from there to closing both hands around his leg, body, or head."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "Whoever connects first wins. The same rule applies to both players."
               ]
             },
             {
-              "id": "the-tap",
-              "label": "Still true every session: the tap",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
+              "kind": "heading",
+              "level": 3,
+              "text": "Open Guard Takedown and Escape Game"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The top player stands. The bottom player is on his back, fully connected, hands on the top player's ankles, feet inside his legs."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bottom player: stay connected while putting the top player down on his hips or hands, then stand up, or stay connected as he rises. Top player: break the connections and make shin contact to pass."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The bottom player wins by putting the top player down and getting up to standing, or by putting him down a different way and rising to a connection.",
+                "The top player wins with shin contact."
+              ]
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Chest to Back to Precursor Transitions Game"
+            },
+            {
+              "kind": "paragraph",
+              "text": "SLO: Finishing for the top player, Leaving for the bottom player."
+            },
+            {
+              "kind": "paragraph",
+              "text": "The top player is behind the bottom player with chest-to-back contact."
+            },
+            {
+              "kind": "paragraph",
+              "text": "Top player: keep chest-to-back with your hands or hooks, or move to a precursor position on top, staying under an elbow while you move. Bottom player: put your back on the mat with nothing under your elbows, or turn face to face."
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player wins by reaching a precursor position on top. Chest to back by itself is a continuous hold, no time count, and if the bottom player escapes, you reset.",
+                "The bottom player wins by his back on the mat or by turning face to face."
               ]
             }
           ]
@@ -179,12 +144,12 @@
             "role": "formative",
             "scored": false
           },
-          "question": "In Back Control with Multiple Arm Escape Options, what counts as the win?",
+          "question": "In Chest to Back to Precursor Transitions Game, what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Playing both roles — controlling and finishing on top, working the escapes underneath",
+              "text": "The top player wins by reaching a precursor position on top. Chest to back by itself is a continuous hold, no time count, and if the bottom player escapes, you reset.",
               "correct": true,
               "feedback": "That is the win condition, and nothing else scores."
             },
@@ -206,189 +171,45 @@
       ]
     },
     {
-      "id": "lesson",
-      "title": "The lesson",
-      "slides": [
-        {
-          "id": "s34-grappling",
-          "type": "text-image",
-          "eyebrow": "On the mat",
-          "title": "What you were working on",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Put the full back-pin game together in open rolling, and name what twelve weeks of training cost you and gave you."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Roll open from the back-pin game, controlling and finishing with the tap honored.",
-                "Name what the training cost and what it gave."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s34-casel",
-          "type": "text-image",
-          "eyebrow": "Off the mat",
-          "title": "The part that was not about grappling",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Name the honest cost and reward of the whole program."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Name what the twelve weeks cost you.",
-                "Name what you got for it."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s34-connection",
-          "type": "reveal",
-          "eyebrow": "The connection",
-          "title": "Where those two meet",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Twelve weeks of getting tapped, cracked, and rebuilt cost something and gave something. Rolling now, you can feel both in your body. The honest ledger of what this cost and what you got is the first step of the return."
-            },
-            {
-              "kind": "callout",
-              "label": "Said simply",
-              "text": "Grief and pride both belong here. Neither one cancels the other."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "stage-arc",
-              "label": "Where this sits in The Return",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Total control, plus the choice not to hurt someone, is the heart of the whole program. Now you carry that choice out the door."
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "close",
       "title": "Before you go",
       "slides": [
         {
-          "id": "s34-recap",
-          "type": "reveal",
-          "eyebrow": "Quick recap",
-          "title": "Before you go: Back Control with Multiple Arm Escape Options",
+          "id": "s34-takeaway",
+          "type": "text-image",
+          "eyebrow": "The takeaway",
+          "title": "What tonight was really about",
           "body": [
             {
               "kind": "lead",
-              "text": "Play both roles. On the back, control and finish. Underneath, work the arm escapes against a live grip."
+              "text": "The ledger is honest, and it landed on the side of growth."
             },
             {
               "kind": "paragraph",
-              "text": "Twelve weeks of getting tapped and rebuilt, and now you can do both sides. That is the honest ledger."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "win-again",
-              "label": "How you win it, again",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Playing both roles — controlling and finishing on top, working the escapes underneath"
-                }
-              ]
+              "text": "Twelve weeks of getting tapped, cracked, and rebuilt cost something and gave something. Rolling now, you can feel both in your body. The honest ledger of what this cost and what you got is the first step of the return."
             },
             {
-              "id": "tap-again",
-              "label": "And the rule that never changes",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
-              ]
+              "kind": "callout",
+              "label": "Worth knowing",
+              "text": "Grief and pride both belong here. Neither one cancels the other."
             }
           ]
         },
         {
-          "id": "s34-summative",
-          "type": "quiz",
-          "eyebrow": "End-of-session check",
-          "title": "What today was asking of you",
-          "assessment": {
-            "role": "summative",
-            "scored": true
-          },
-          "question": "Which one was this session actually asking you to do?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "Name the honest cost and reward of the whole program.",
-              "correct": true,
-              "feedback": "That was the target for today."
-            },
-            {
-              "text": "Test if a claimed change is real by checking it under pressure, and name the proof.",
-              "feedback": "That is Session 26's target, not today's."
-            },
-            {
-              "text": "Name what you want to leave behind you.",
-              "feedback": "That is Session 31's target, not today's."
-            }
-          ],
-          "correctHead": "That's the one.",
-          "correctText": "That was the point of the whole session, on the mat and off it.",
-          "incorrectHead": "Not today.",
-          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
-          "revealText": "Today's target is marked above."
-        },
-        {
           "id": "s34-reflection",
           "type": "reflection",
-          "eyebrow": "Reflection",
+          "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What did this cost you, and what did you get for it?",
-          "hint": "Nothing here is graded. A few words is plenty.",
+          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
           "placeholder": "Whatever comes to mind…"
         },
         {
           "id": "s34-irf",
           "type": "reflection",
-          "eyebrow": "Before you go",
+          "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session",
+          "kindLabel": "IRF — everyone fills this out, every session, on your own",
           "fields": [
             {
               "id": "mat",
