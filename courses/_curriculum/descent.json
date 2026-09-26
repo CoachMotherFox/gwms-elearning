@@ -21,11 +21,11 @@
     "wrongAnswers": [
       {
         "text": "Submitting your partner",
-        "feedback": "Not part of the Paths yet. Entering and Arriving are the two steps here, and neither one ends in a finish. The path leads you into a pin, not a finish."
+        "feedback": "Not tonight. These games end in a pin, not a finish."
       },
       {
         "text": "Putting your partner down hard",
-        "feedback": "Never. Everyone goes light, and the tap always stops it right away, every time."
+        "feedback": "Never. Everyone goes light."
       }
     ]
   },
@@ -37,10 +37,9 @@
       "probingQuestion": "What makes a place feel safe to you?",
       "golmest": {
         "recapTitle": "What tonight was",
-        "recapText": "Tonight was orientation, not a normal night. You helped build the rules of this room yourself. From here on, every session runs the same way: warm up, play three games, cool down, a short lesson, then this phone for a few minutes, then cleanup.",
+        "recapText": "Orientation night. From now on: warm up, three games, lesson, this phone, cleanup.",
         "standard": {
           "label": "What you are here to learn",
-          "text": "The room ranked these together tonight. By the end of the program you will be able to do all five.",
           "items": [
             "Take him down.",
             "Get past his legs.",
@@ -51,19 +50,17 @@
         },
         "tap": {
           "label": "The tap",
-          "text": "Three ways to tap, and any one of them ends it right away.",
           "items": [
             "Tap your partner's body.",
             "Tap the mat.",
             "Say stop."
-          ],
-          "note": "The instant your partner taps, you stop. Not after you finish your move. Stop right away, every time."
+          ]
         },
         "quizQuestion": "What ends a round right away?",
         "quizCorrect": "Tapping your partner, tapping the mat, or saying stop.",
         "quizWrong": [
-          "Waiting for the coach to notice and call it.",
-          "Just going still and hoping your partner feels it."
+          "Waiting for the coach to notice.",
+          "Going still and hoping he feels it."
         ]
       },
       "connection": "Tonight the room agreed on the rules together, out loud. That is what makes a place feel safe: everyone knows the rules will hold, and everyone had a hand in making them.",
@@ -104,7 +101,7 @@
           "start": "The bottom player is on his back. The top player is in mount with both arms under both of the bottom player's elbows.",
           "text": "Top player: stay under at least one elbow the whole round. If you lose one, fight to get it back. Bottom player: get both elbows to touch your own body with nothing under them, or make the top player fall over.",
           "win": [
-            { "role": "The top player", "text": "has no time limit. He holds as long as he keeps at least one elbow covered." },
+            { "role": "The top player", "text": "holds as long as he keeps at least one elbow covered." },
             { "role": "The bottom player", "text": "wins by touching both elbows to his body, or by making the top player fall." }
           ],
           "reset": "The top player holds no matter what. If he loses both elbows, that is the bottom player's win, and you start over. Roles switch after every win."
@@ -136,7 +133,7 @@
           "start": "The bottom player is belly up, feet in the middle, one hand on the top player's ankle. The top player is standing.",
           "text": "Bottom player: keep your feet hooked or posted on the top player at all times, and a hand on him too. Use that to put him on his hips or hands. Top player: break those connections with your hands and feet, and work to the outside for shin-to-body contact.",
           "win": [
-            { "role": "The bottom player", "text": "has no time limit. He holds as long as he keeps his connections." },
+            { "role": "The bottom player", "text": "holds as long as he keeps his connections." },
             { "role": "The top player", "text": "wins by breaking every connection and making shin-to-body contact from outside the legs." }
           ],
           "reset": "The bottom player holds no matter what. If the top player breaks free and gets outside, that is his win, and you start over. Roles switch after every win."
@@ -148,7 +145,7 @@
           "start": "The bottom player is on his back. The top player is chest to chest on top of him.",
           "text": "Top player: hold chest to chest and keep the bottom player there. Bottom player: push the top player off and get your legs back in front.",
           "win": [
-            { "role": "The top player", "text": "has no time limit. He holds the pin." },
+            { "role": "The top player", "text": "holds the pin." },
             { "role": "The bottom player", "text": "wins by pushing the top player off and getting his legs back in front." }
           ],
           "reset": "The top player holds no matter what. If the bottom player pushes him off and gets his legs back, that is his win, and you start over. Roles switch after every win."
@@ -181,7 +178,7 @@
           "text": "Bottom player: hook or post your feet on the top player any way you want, and use your hands too. Make him sit down, then get your own back off the mat. Top player: keep the bottom player on his back and your feet off his body, working step by step toward the knee pits, without going past the knees.",
           "win": [
             { "role": "The bottom player", "text": "wins when the top player's butt hits the mat and then his own back comes off the mat." },
-            { "role": "The top player", "text": "has no time limit. He holds as long as he keeps the bottom player down." }
+            { "role": "The top player", "text": "holds as long as he keeps the bottom player down." }
           ],
           "reset": "The top player holds no matter what. If the bottom player sits him down and gets his own back up, that is his win, and you start over. Roles switch after every win."
         },
@@ -192,7 +189,7 @@
           "start": "The bottom player is on his hands and knees. The top player is on top with open hands around the bottom player's hips.",
           "text": "Top player: stay attached to the hips, break the bottom player down, and stop him from standing. Bottom player: build your base, fight to your feet, and turn to face the top player.",
           "win": [
-            { "role": "The top player", "text": "has no time limit. He holds as long as he keeps the bottom player broken down." },
+            { "role": "The top player", "text": "holds as long as he keeps the bottom player broken down." },
             { "role": "The bottom player", "text": "wins by standing up and turning to face the top player." }
           ],
           "reset": "The top player holds no matter what. If the bottom player stands and turns to face him, that is his win, and you start over. Roles switch after every win."
@@ -225,7 +222,7 @@
           "start": "The top player stands, fully connected. The bottom player has inside hooks and a knee-pit grip.",
           "text": "Bottom player: stay connected, or get the connection back if it slips. Use it to put the top player on his butt or hands, then stand up and make his back touch the mat. Top player: put the bottom player on his back and fight to the knee pit or the outside, staying on your feet.",
           "win": [
-            { "role": "The bottom player", "text": "wins by putting the top player down, standing up, and making his back touch the mat, or by wrestling all the way up to a connection." },
+            { "role": "The bottom player", "text": "wins by putting him down and standing, or by wrestling up to a connection." },
             { "role": "The top player", "text": "wins with shin contact at the knee pit or the body from outside." }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
@@ -237,7 +234,7 @@
           "start": "The defender is on his elbows and knees. The attacker is behind him with his hands locked around the defender's waist.",
           "text": "Attacker: keep the defender belly down, using knee-to-knee and foot-to-foot blocking to pull his hips to the mat. Defender: rise to a quad pod, both knees and both elbows off the floor.",
           "win": [
-            { "role": "The attacker", "text": "has no time limit. He holds as long as he keeps the defender belly down." },
+            { "role": "The attacker", "text": "holds as long as he keeps the defender belly down." },
             { "role": "The defender", "text": "wins by reaching a quad pod." }
           ],
           "reset": "The attacker holds no matter what. If the defender reaches a quad pod, that is his win, and you start over. Roles switch after every win."
@@ -282,7 +279,7 @@
           "start": "The bottom player is on his back. The top player is in mount with both arms under both of the bottom player's elbows.",
           "text": "Top player: stay under at least one elbow the whole round. If you lose one, fight to get it back. Bottom player: get both elbows to touch your own body with nothing under them, or make the top player fall over.",
           "win": [
-            { "role": "The top player", "text": "has no time limit. He holds as long as he keeps at least one elbow covered." },
+            { "role": "The top player", "text": "holds as long as he keeps at least one elbow covered." },
             { "role": "The bottom player", "text": "wins by touching both elbows to his body, or by making the top player fall." }
           ],
           "reset": "The top player holds no matter what. If he loses both elbows, that is the bottom player's win, and you start over. Roles switch after every win."
@@ -327,7 +324,7 @@
           "start": "The bottom player is on his hands and knees. The top player is in referee position with open hands on his hips.",
           "text": "Top player: ride the bottom player, break him down, and keep his hips and hands on the mat, no closed-hand connections. Bottom player: build your base, fight to your feet, and turn to face.",
           "win": [
-            { "role": "The top player", "text": "has no time limit. He holds as long as he keeps the bottom player broken down." },
+            { "role": "The top player", "text": "holds as long as he keeps the bottom player broken down." },
             { "role": "The bottom player", "text": "wins when he stands up and faces the top player." }
           ],
           "reset": "The top player holds no matter what. If the bottom player stands and faces him, that is his win, and you start over. Roles switch after every win."
@@ -371,7 +368,7 @@
           "start": "The bottom player is on his hands and knees. The top player is behind him, hands locked around his waist.",
           "text": "Top player: use knee-to-knee and foot-to-foot blocking to pull his hips to the mat, switching between the hip grip and wrist grips to keep him belly down. Bottom player: get to a quad pod, both hands and both feet on the mat at the same time.",
           "win": [
-            { "role": "The top player", "text": "has no time limit. He holds as long as he keeps the bottom player belly down." },
+            { "role": "The top player", "text": "holds as long as he keeps the bottom player belly down." },
             { "role": "The bottom player", "text": "wins by getting to a quad pod." }
           ],
           "reset": "The top player holds no matter what. If the bottom player reaches a quad pod, that is his win, and you start over. Roles switch after every win."
@@ -416,7 +413,7 @@
           "start": "The bottom player is on his back. The top player is chest to chest on top, both arms under both of the bottom player's elbows.",
           "text": "Top player: stay under the bottom player's elbows, keeping them away from his body. Bottom player: get both elbows to touch your body, or make the top player fall over.",
           "win": [
-            { "role": "The top player", "text": "has no time limit. He wins by keeping the elbows away from the body the whole time." },
+            { "role": "The top player", "text": "wins by keeping the elbows away from the body the whole time." },
             { "role": "The bottom player", "text": "wins by bringing both elbows to his body, or by making the top player fall." }
           ],
           "reset": "The top player holds no matter what. If the bottom player gets both elbows to his body, that is his win, and you start over. Roles switch after every win."
@@ -461,7 +458,7 @@
           "start": "The bottom player is on his back. The top player covers his head with a figure-four grip, one hand on the wrist, the other arm under the elbow.",
           "text": "Top player: keep the figure-four grip and stay under at least one elbow while keeping the bottom player pinned. Bottom player: break the grip by freeing your arms and getting your elbows to your body.",
           "win": [
-            { "role": "The top player", "text": "has no time limit. He holds as long as he keeps the grip." },
+            { "role": "The top player", "text": "holds as long as he keeps the grip." },
             { "role": "The bottom player", "text": "wins by breaking the grip." }
           ],
           "reset": "The top player holds no matter what. If the bottom player breaks the grip, that is his win, and you start over. Roles switch after every win."
@@ -505,7 +502,7 @@
           "start": "The bottom player is on his back. The top player is chest to chest on top of him.",
           "text": "Top player: hold chest to chest and keep the bottom player there. Bottom player: push the top player off and get your legs back in front.",
           "win": [
-            { "role": "The top player", "text": "has no time limit. He holds the pin." },
+            { "role": "The top player", "text": "holds the pin." },
             { "role": "The bottom player", "text": "wins by pushing the top player off and getting his legs back in front." }
           ],
           "reset": "The top player holds no matter what. If the bottom player pushes him off and gets his legs back, that is his win, and you start over. Roles switch after every win."
@@ -550,7 +547,7 @@
           "start": "The bottom player is on his hands and knees. The top player is on top with open hands around the bottom player's hips.",
           "text": "Top player: stay attached to the hips, break the bottom player down, and stop him from standing. Bottom player: build your base, fight to your feet, and turn to face the top player.",
           "win": [
-            { "role": "The top player", "text": "has no time limit. He holds as long as he keeps the bottom player broken down." },
+            { "role": "The top player", "text": "holds as long as he keeps the bottom player broken down." },
             { "role": "The bottom player", "text": "wins by standing up and turning to face the top player." }
           ],
           "reset": "The top player holds no matter what. If the bottom player stands and turns to face him, that is his win, and you start over. Roles switch after every win."

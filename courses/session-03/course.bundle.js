@@ -48,12 +48,7 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
           "type": "text-image",
           "eyebrow": "Session 3 · Today's question",
           "title": "What are you like before you trust the room?",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the games."
-            }
-          ]
+          "body": []
         },
         {
           "id": "s03-games",
@@ -62,25 +57,9 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
           "title": "The three games",
           "body": [
             {
-              "kind": "lead",
-              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
-            },
-            {
               "kind": "heading",
               "level": 3,
               "text": "Hand Touch / Knee Touch Collection Game"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Skill Learning Objective (SLO): Entering, for both players."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Both players stand facing each other, hand fighting range, no grips to start."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Hand fight and collect three touches, any mix. A touch is making your partner's hands touch the mat, or gripping behind one of his knees. Defend his touches at the same time."
             },
             {
               "kind": "list",
@@ -94,21 +73,9 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
               "text": "Belly-Up Open Guard Connection Foundation"
             },
             {
-              "kind": "paragraph",
-              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The bottom player is belly up, feet in the middle, one hand on the top player's ankle. The top player is standing."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Bottom player: keep your feet hooked or posted on the top player at all times, and a hand on him too. Use that to put him on his hips or hands. Top player: break those connections with your hands and feet, and work to the outside for shin-to-body contact."
-            },
-            {
               "kind": "list",
               "items": [
-                "The bottom player has no time limit. He holds as long as he keeps his connections.",
+                "The bottom player holds as long as he keeps his connections.",
                 "The top player wins by breaking every connection and making shin-to-body contact from outside the legs."
               ]
             },
@@ -118,21 +85,9 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
               "text": "Introductory Pin Game"
             },
             {
-              "kind": "paragraph",
-              "text": "SLO: Controlling for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The bottom player is on his back. The top player is chest to chest on top of him."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Top player: hold chest to chest and keep the bottom player there. Bottom player: push the top player off and get your legs back in front."
-            },
-            {
               "kind": "list",
               "items": [
-                "The top player has no time limit. He holds the pin.",
+                "The top player holds the pin.",
                 "The bottom player wins by pushing the top player off and getting his legs back in front."
               ]
             }
@@ -147,29 +102,24 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Introductory Pin Game, what wins it for the top player?",
+          "question": "Introductory Pin Game: what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "The top player has no time limit. He holds the pin.",
+              "text": "The top player holds the pin.",
               "correct": true,
-              "feedback": "That is the win condition, and nothing else scores."
+              "feedback": "That's it."
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not part of the Paths yet. Entering and Arriving are the two steps here, and neither one ends in a finish. The path leads you into a pin, not a finish."
+              "feedback": "Not tonight. These games end in a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
-              "feedback": "Never. Everyone goes light, and the tap always stops it right away, every time."
+              "feedback": "Never. Everyone goes light."
             }
-          ],
-          "correctHead": "That's it.",
-          "correctText": "That is how you win today.",
-          "incorrectHead": "Not quite.",
-          "incorrectText": "Read the note under your choice, then try again.",
-          "revealText": "The right answer is marked above, with the reason."
+          ]
         }
       ]
     },
@@ -186,10 +136,6 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
             {
               "kind": "lead",
               "text": "The guard is smart. Next week we look at the face that guard wears: the mask."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Staying safe and guarded on the mat before you trust a partner is the same guard you use before you trust a room. Both are smart. Naming it is the work."
             }
           ]
         },
@@ -199,7 +145,7 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What are you like before you trust the room?",
-          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
+          "hint": "On your own. Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -207,7 +153,7 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session, on your own",
+          "kindLabel": "IRF, on your own",
           "fields": [
             {
               "id": "mat",
@@ -227,13 +173,7 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
           "submit": true,
           "sendLabel": "Send it",
           "reflectionFrom": "s03-reflection",
-          "body": [
-            {
-              "kind": "callout",
-              "label": "Next session",
-              "text": "Session 4: Who are you when people are watching?"
-            }
-          ],
+          "body": [],
           "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]

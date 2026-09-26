@@ -48,12 +48,7 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
           "type": "text-image",
           "eyebrow": "Session 18 · Today's question",
           "title": "What does your friction do to the people across from you?",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the games."
-            }
-          ]
+          "body": []
         },
         {
           "id": "s18-games",
@@ -62,25 +57,9 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
           "title": "The three games",
           "body": [
             {
-              "kind": "lead",
-              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
-            },
-            {
               "kind": "heading",
               "level": 3,
               "text": "Foot-to-Foot Contact with Overhook / Underhook"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Skill Learning Objective (SLO): Entering, for both players."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Both players stand. The overhook player has an overhook. The underhook player has an underhook."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Overhook player: keep the overhook, use both hands to move your partner, and make foot-to-foot contact with either leg. Underhook player: close your hands anywhere below the overhook player's elbows and above his ankles."
             },
             {
               "kind": "list",
@@ -95,18 +74,6 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
               "text": "Seated Open Guard Game"
             },
             {
-              "kind": "paragraph",
-              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The top player stands. The bottom player sits on the mat with an inside hook and a knee-pit grip."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Bottom player: move from seated to belly up, using your connections to put the top player down on his hips or hands, then wrestle up or stand and make his back touch the mat. Top player: put the bottom player on his back and keep shin contact."
-            },
-            {
               "kind": "list",
               "items": [
                 "The bottom player wins by standing up and reaching the hips, or by making the top player's back touch the mat.",
@@ -119,21 +86,9 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
               "text": "Figure Four Grip Control Game"
             },
             {
-              "kind": "paragraph",
-              "text": "SLO: Controlling for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The bottom player is on his back. The top player covers his head with a figure-four grip, one hand on the wrist, the other arm under the elbow."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Top player: keep the figure-four grip and stay under at least one elbow while keeping the bottom player pinned. Bottom player: break the grip by freeing your arms and getting your elbows to your body."
-            },
-            {
               "kind": "list",
               "items": [
-                "The top player has no time limit. He holds as long as he keeps the grip.",
+                "The top player holds as long as he keeps the grip.",
                 "The bottom player wins by breaking the grip."
               ]
             }
@@ -148,29 +103,24 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Figure Four Grip Control Game, what wins it for the top player?",
+          "question": "Figure Four Grip Control Game: what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "The top player has no time limit. He holds as long as he keeps the grip.",
+              "text": "The top player holds as long as he keeps the grip.",
               "correct": true,
-              "feedback": "That is the win condition, and nothing else scores."
+              "feedback": "That's it."
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant your partner taps. Every single time. The tap is law."
+              "feedback": "Never. Let go the instant he taps."
             },
             {
               "text": "Overpowering your partner with force",
-              "feedback": "You keep the pin by feeling your partner and moving with them, not by clamping down and squeezing hard. Staying calm beats forcing harder."
+              "feedback": "Staying calm beats forcing harder."
             }
-          ],
-          "correctHead": "That's it.",
-          "correctText": "That is how you win today.",
-          "incorrectHead": "Not quite.",
-          "incorrectText": "Read the note under your choice, then try again.",
-          "revealText": "The right answer is marked above, with the reason."
+          ]
         }
       ]
     },
@@ -187,10 +137,6 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
             {
               "kind": "lead",
               "text": "Friction is fine. Harm is a choice. The control is yours."
-            },
-            {
-              "kind": "paragraph",
-              "text": "You can pin someone hard and still keep them safe. That is control of your own force. Your conflict off the mat lands on real people too, and the same control applies: honest friction, not harm."
             }
           ]
         },
@@ -200,7 +146,7 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What does your friction do to the people across from you?",
-          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
+          "hint": "On your own. Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -208,7 +154,7 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session, on your own",
+          "kindLabel": "IRF, on your own",
           "fields": [
             {
               "id": "mat",
@@ -228,13 +174,7 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
           "submit": true,
           "sendLabel": "Send it",
           "reflectionFrom": "s18-reflection",
-          "body": [
-            {
-              "kind": "callout",
-              "label": "Next session",
-              "text": "Session 19: What breaks in you when a connection breaks?"
-            }
-          ],
+          "body": [],
           "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]

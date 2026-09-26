@@ -47,12 +47,7 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
           "type": "text-image",
           "eyebrow": "Session 32 · Today's question",
           "title": "What standard are you setting for whoever comes next?",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the games."
-            }
-          ]
+          "body": []
         },
         {
           "id": "s32-games",
@@ -61,25 +56,9 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
           "title": "The three games",
           "body": [
             {
-              "kind": "lead",
-              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
-            },
-            {
               "kind": "heading",
               "level": 3,
               "text": "Single Leg Takedown Game"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Skill Learning Objective (SLO): Entering, for both players."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Both players stand. The attacker is connected to one of the defender's legs at the knee."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Attacker: move the defender and make him fall toward his hands or hips, running him, pulling him, turning him, or lifting him, using only that leg. Defender: stay balanced and use your connections to break the grip and free your leg."
             },
             {
               "kind": "list",
@@ -94,18 +73,6 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
               "text": "Guard Destabilization Game"
             },
             {
-              "kind": "paragraph",
-              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The bottom player is on the bottom, feet between the top player's knees, one hand on his ankle. The top player stands."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Bottom player: use your feet and hands to pull the top player's hands to the mat above your head, and push or pull his butt to the mat too, both in the same rep, in any order. Top player: get to the outside of both legs and make shin-to-body contact."
-            },
-            {
               "kind": "list",
               "items": [
                 "The bottom player wins when the top player's hands have touched the mat above his head and his butt has touched the mat, both in the same rep.",
@@ -118,21 +85,9 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
               "text": "Chest to Back to Precursor Transitions Game"
             },
             {
-              "kind": "paragraph",
-              "text": "SLO: Finishing for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The top player is behind the bottom player with chest-to-back contact."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Top player: keep chest-to-back with your hands or hooks, or move to a precursor position on top, staying under an elbow while you move. Bottom player: put your back on the mat with nothing under your elbows, or turn face to face."
-            },
-            {
               "kind": "list",
               "items": [
-                "The top player wins by reaching a precursor position on top. Chest to back by itself is a continuous hold, no time count, and if the bottom player escapes, you reset.",
+                "The top player wins by reaching a precursor position on top.",
                 "The bottom player wins by his back on the mat or by turning face to face."
               ]
             }
@@ -147,29 +102,24 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Chest to Back to Precursor Transitions Game, what wins it for the top player?",
+          "question": "Chest to Back to Precursor Transitions Game: what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "The top player wins by reaching a precursor position on top. Chest to back by itself is a continuous hold, no time count, and if the bottom player escapes, you reset.",
+              "text": "The top player wins by reaching a precursor position on top.",
               "correct": true,
-              "feedback": "That is the win condition, and nothing else scores."
+              "feedback": "That's it."
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. You let go the second your partner taps. Every single time. The tap is law."
+              "feedback": "Never. Let go the instant he taps."
             },
             {
               "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing the Back Pin teaches you never to do. Total control, plus the choice not to hurt someone, is the heart of the whole program."
+              "feedback": "That is the one thing you never do."
             }
-          ],
-          "correctHead": "That's it.",
-          "correctText": "That is how you win today.",
-          "incorrectHead": "Not quite.",
-          "incorrectText": "Read the note under your choice, then try again.",
-          "revealText": "The right answer is marked above, with the reason."
+          ]
         }
       ]
     },
@@ -186,10 +136,6 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
             {
               "kind": "lead",
               "text": "How you act is the standard, so choose it on purpose."
-            },
-            {
-              "kind": "paragraph",
-              "text": "How you carry yourself in the room, how you finish, how you treat a new partner, quietly sets the bar for everyone watching. The standard you set for whoever comes next in life works the same way. How you act is the standard."
             }
           ]
         },
@@ -199,7 +145,7 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What standard are you setting for whoever comes next?",
-          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
+          "hint": "On your own. Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -207,7 +153,7 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session, on your own",
+          "kindLabel": "IRF, on your own",
           "fields": [
             {
               "id": "mat",
@@ -227,13 +173,7 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
           "submit": true,
           "sendLabel": "Send it",
           "reflectionFrom": "s32-reflection",
-          "body": [
-            {
-              "kind": "callout",
-              "label": "Next session",
-              "text": "Session 33: If someone watched how you carry yourself, what would they learn?"
-            }
-          ],
+          "body": [],
           "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]

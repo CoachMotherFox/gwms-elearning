@@ -46,12 +46,7 @@
           "type": "text-image",
           "eyebrow": "Session 8 · Today's question",
           "title": "What slips out of you when you get tired and stop performing?",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the games."
-            }
-          ]
+          "body": []
         },
         {
           "id": "s08-games",
@@ -60,25 +55,9 @@
           "title": "The three games",
           "body": [
             {
-              "kind": "lead",
-              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
-            },
-            {
               "kind": "heading",
               "level": 3,
               "text": "Hand Fight with Leg Pickup Option"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Skill Learning Objective (SLO): Entering, for both players."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Both players stand and hand fight for wrist, elbow, and head connections."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Get an inside, outside, or under-elbow connection. Then pick up your partner's leg at the knee or ankle."
             },
             {
               "kind": "list",
@@ -90,18 +69,6 @@
               "kind": "heading",
               "level": 3,
               "text": "Feet-Off Guard Passing Game"
-            },
-            {
-              "kind": "paragraph",
-              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The bottom player is belly up in open guard. The top player is in front of him, hands already on him."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Top player: keep his feet off by clearing them and closing distance, stepping inside the knees or around the outside. Bottom player: use hooks, feet on the body, and posts to make the top player hit his butt or hands, then sit up with your back off the mat."
             },
             {
               "kind": "list",
@@ -116,21 +83,9 @@
               "text": "Pinning, Continuous Hip and Shoulder Connection from All Fours"
             },
             {
-              "kind": "paragraph",
-              "text": "SLO: Controlling for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The bottom player is on his hands and knees. The top player is behind him, hands locked around his waist."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Top player: use knee-to-knee and foot-to-foot blocking to pull his hips to the mat, switching between the hip grip and wrist grips to keep him belly down. Bottom player: get to a quad pod, both hands and both feet on the mat at the same time."
-            },
-            {
               "kind": "list",
               "items": [
-                "The top player has no time limit. He holds as long as he keeps the bottom player belly down.",
+                "The top player holds as long as he keeps the bottom player belly down.",
                 "The bottom player wins by getting to a quad pod."
               ]
             }
@@ -145,29 +100,24 @@
             "role": "formative",
             "scored": false
           },
-          "question": "In Pinning, Continuous Hip and Shoulder Connection from All Fours, what wins it for the top player?",
+          "question": "Pinning, Continuous Hip and Shoulder Connection from All Fours: what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "The top player has no time limit. He holds as long as he keeps the bottom player belly down.",
+              "text": "The top player holds as long as he keeps the bottom player belly down.",
               "correct": true,
-              "feedback": "That is the win condition, and nothing else scores."
+              "feedback": "That's it."
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not part of the Paths yet. Entering and Arriving are the two steps here, and neither one ends in a finish. The path leads you into a pin, not a finish."
+              "feedback": "Not tonight. These games end in a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
-              "feedback": "Never. Everyone goes light, and the tap always stops it right away, every time."
+              "feedback": "Never. Everyone goes light."
             }
-          ],
-          "correctHead": "That's it.",
-          "correctText": "That is how you win today.",
-          "incorrectHead": "Not quite.",
-          "incorrectText": "Read the note under your choice, then try again.",
-          "revealText": "The right answer is marked above, with the reason."
+          ]
         }
       ]
     },
@@ -184,10 +134,6 @@
             {
               "kind": "lead",
               "text": "What shows up when you are empty is often the truest thing about you."
-            },
-            {
-              "kind": "paragraph",
-              "text": "When you and your partner get tired, the fake stuff drops on both sides, the passer and the guard. What slips out when you are too tired to perform is the truest thing about you, on the mat and off."
             }
           ]
         },
@@ -197,7 +143,7 @@
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What slips out of you when you get tired and stop performing?",
-          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
+          "hint": "On your own. Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -205,7 +151,7 @@
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session, on your own",
+          "kindLabel": "IRF, on your own",
           "fields": [
             {
               "id": "mat",
@@ -225,13 +171,7 @@
           "submit": true,
           "sendLabel": "Send it",
           "reflectionFrom": "s08-reflection",
-          "body": [
-            {
-              "kind": "callout",
-              "label": "Next session",
-              "text": "Session 9: When you crack, what's the first thing that shows?"
-            }
-          ],
+          "body": [],
           "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]

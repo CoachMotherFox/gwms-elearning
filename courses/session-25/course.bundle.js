@@ -47,12 +47,7 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
           "type": "text-image",
           "eyebrow": "Session 25 · Today's question",
           "title": "What's actually different in you now?",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the games."
-            }
-          ]
+          "body": []
         },
         {
           "id": "s25-games",
@@ -61,25 +56,9 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
           "title": "The three games",
           "body": [
             {
-              "kind": "lead",
-              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
-            },
-            {
               "kind": "heading",
               "level": 3,
               "text": "Consecutive Touches Game"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Skill Learning Objective (SLO): Entering, for both players."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Both players stand facing each other, hand fighting range, fighting for set touch points on the elbows named by the coach before the round."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Make two touches in a row on the set points, and stop your partner from doing the same."
             },
             {
               "kind": "list",
@@ -91,18 +70,6 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
               "kind": "heading",
               "level": 3,
               "text": "Feet-Off Guard Passing Game"
-            },
-            {
-              "kind": "paragraph",
-              "text": "SLO: Entering, for both players."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The bottom player is belly up in open guard. The top player is in front of him, hands already on him."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Top player: keep his feet off by clearing them and closing distance, stepping inside the knees or around the outside. Bottom player: use hooks, feet on the body, and posts to make the top player hit his butt or hands, then sit up with your back off the mat."
             },
             {
               "kind": "list",
@@ -117,21 +84,9 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
               "text": "Back Take, Maintain Chest to Back Contact"
             },
             {
-              "kind": "paragraph",
-              "text": "SLO: Controlling for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The attacker is in full back control, chest on the defender's back, arms around the shoulders, hooks in. The defender may move freely."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Attacker: keep chest-to-back contact by following the defender wherever he goes. If your hands separate, reconnect them. If a hook comes out, put it back in. Defender: fight the connections to put your back on the mat or turn to face the attacker."
-            },
-            {
               "kind": "list",
               "items": [
-                "The attacker has no time limit. He holds as long as he keeps contact.",
+                "The attacker holds as long as he keeps contact.",
                 "The defender wins by getting his back to the mat or turning face to face."
               ]
             }
@@ -146,29 +101,24 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Back Take, Maintain Chest to Back Contact, what wins it for the top player?",
+          "question": "Back Take, Maintain Chest to Back Contact: what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "The attacker has no time limit. He holds as long as he keeps contact.",
+              "text": "The attacker holds as long as he keeps contact.",
               "correct": true,
-              "feedback": "That is the win condition, and nothing else scores."
+              "feedback": "That's it."
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. You let go the second your partner taps. Every single time. The tap is law."
+              "feedback": "Never. Let go the instant he taps."
             },
             {
               "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing the Back Pin teaches you never to do. Total control, plus the choice not to hurt someone, is the heart of the whole program."
+              "feedback": "That is the one thing you never do."
             }
-          ],
-          "correctHead": "That's it.",
-          "correctText": "That is how you win today.",
-          "incorrectHead": "Not quite.",
-          "incorrectText": "Read the note under your choice, then try again.",
-          "revealText": "The right answer is marked above, with the reason."
+          ]
         }
       ]
     },
@@ -185,10 +135,6 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
             {
               "kind": "lead",
               "text": "Change you can show is real change."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Twelve weeks ago, you could not hold this position at all. Now you can. That is proof of change you can feel. Naming what is different in you works the same way. Real change is something you can show, not just say."
             }
           ]
         },
@@ -198,7 +144,7 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What's actually different in you now?",
-          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
+          "hint": "On your own. Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -206,7 +152,7 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session, on your own",
+          "kindLabel": "IRF, on your own",
           "fields": [
             {
               "id": "mat",
@@ -226,13 +172,7 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
           "submit": true,
           "sendLabel": "Send it",
           "reflectionFrom": "s25-reflection",
-          "body": [
-            {
-              "kind": "callout",
-              "label": "Next session",
-              "text": "Session 26: How do you know the change is real and not just talk?"
-            }
-          ],
+          "body": [],
           "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]

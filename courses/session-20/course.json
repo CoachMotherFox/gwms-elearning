@@ -46,12 +46,7 @@
           "type": "text-image",
           "eyebrow": "Session 20 · Today's question",
           "title": "Have you ever broken something with someone and left it broken?",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the games."
-            }
-          ]
+          "body": []
         },
         {
           "id": "s20-games",
@@ -60,25 +55,9 @@
           "title": "The three games",
           "body": [
             {
-              "kind": "lead",
-              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
-            },
-            {
               "kind": "heading",
               "level": 3,
               "text": "Stick and Pull Foot Sweep Game"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Skill Learning Objective (SLO): Entering, for both players."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Both players stand. The overhook player has an overhook. The underhook player has an underhook."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Overhook player: move your partner, make foot-to-foot contact, then stick the foot and pull, with your foot, your upper body, or your hands, to put him on a knee or his back. Underhook player: connect your hands, then lift him fully off the ground, get behind him, or pick up a leg."
             },
             {
               "kind": "list",
@@ -93,18 +72,6 @@
               "text": "Closed Guard Opening, Hands on Body"
             },
             {
-              "kind": "paragraph",
-              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The bottom player has closed guard locked around the top player. The top player is inside the guard, hands on him."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Top player: hold the bottom player down, get to your feet, and press on his hips, knees, and feet to open his legs. Bottom player: keep your legs closed, using only open-hand grips on the head, wrists, and elbows."
-            },
-            {
               "kind": "list",
               "items": [
                 "The top player wins by getting to his feet and opening the guard.",
@@ -117,22 +84,10 @@
               "text": "Head and Arm Strangle, Close Position Start"
             },
             {
-              "kind": "paragraph",
-              "text": "SLO: Finishing for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The bottom player is on his back. The top player is in mount, one hand under his head and one under his arm. No strangle is on yet."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Top player: bring the bottom player's arm to his head and trap it there, staying under at least one elbow the whole time. Bottom player: bring the trapped elbow back to your body with nothing between it, or make the top player fall over."
-            },
-            {
               "kind": "list",
               "items": [
                 "The top player wins with the arm trapped at the head.",
-                "The bottom player wins by touching that elbow to his body, or by making the top player fall."
+                "The bottom player wins by touching that elbow to his body."
               ]
             }
           ]
@@ -146,29 +101,24 @@
             "role": "formative",
             "scored": false
           },
-          "question": "In Head and Arm Strangle, Close Position Start, what wins it for the top player?",
+          "question": "Head and Arm Strangle, Close Position Start: what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "The top player wins with the arm trapped at the head.",
               "correct": true,
-              "feedback": "That is the win condition, and nothing else scores."
+              "feedback": "That's it."
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant your partner taps. Every single time. The tap is law."
+              "feedback": "Never. Let go the instant he taps."
             },
             {
               "text": "Overpowering your partner with force",
-              "feedback": "You keep the pin by feeling your partner and moving with them, not by clamping down and squeezing hard. Staying calm beats forcing harder."
+              "feedback": "Staying calm beats forcing harder."
             }
-          ],
-          "correctHead": "That's it.",
-          "correctText": "That is how you win today.",
-          "incorrectHead": "Not quite.",
-          "incorrectText": "Read the note under your choice, then try again.",
-          "revealText": "The right answer is marked above, with the reason."
+          ]
         }
       ]
     },
@@ -185,10 +135,6 @@
             {
               "kind": "lead",
               "text": "Naming the break you never fixed is the first step toward repair."
-            },
-            {
-              "kind": "paragraph",
-              "text": "A finish you can apply and release on the tap is power you control. Leaving a break unrepaired is choosing not to release, not to reset. The tap is the invitation to repair. This week asks whether you take it."
             }
           ]
         },
@@ -198,7 +144,7 @@
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "Have you ever broken something with someone and left it broken?",
-          "hint": "You do not have to write anything here. On your own, just look at it yourself. That is the whole task.",
+          "hint": "On your own. Just look at it. Nothing to write.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -206,7 +152,7 @@
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session, on your own",
+          "kindLabel": "IRF, on your own",
           "fields": [
             {
               "id": "mat",
@@ -226,13 +172,7 @@
           "submit": true,
           "sendLabel": "Send it",
           "reflectionFrom": "s20-reflection",
-          "body": [
-            {
-              "kind": "callout",
-              "label": "Next session",
-              "text": "Session 21: When something breaks, what part is yours to own?"
-            }
-          ],
+          "body": [],
           "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]

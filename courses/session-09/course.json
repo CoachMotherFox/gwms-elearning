@@ -46,12 +46,7 @@
           "type": "text-image",
           "eyebrow": "Session 9 · Today's question",
           "title": "When you crack, what's the first thing that shows?",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the games."
-            }
-          ]
+          "body": []
         },
         {
           "id": "s09-games",
@@ -60,25 +55,9 @@
           "title": "The three games",
           "body": [
             {
-              "kind": "lead",
-              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
-            },
-            {
               "kind": "heading",
               "level": 3,
               "text": "Single Leg Takedown Game"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Skill Learning Objective (SLO): Entering, for both players."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Both players stand. The attacker is connected to one of the defender's legs at the knee."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Attacker: move the defender and make him fall toward his hands or hips, running him, pulling him, turning him, or lifting him, using only that leg. Defender: stay balanced and use your connections to break the grip and free your leg."
             },
             {
               "kind": "list",
@@ -93,18 +72,6 @@
               "text": "Knee Pit Touchdown Game"
             },
             {
-              "kind": "paragraph",
-              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The bottom player is belly up in open guard. The top player is standing and starts by clearing the feet."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Top player: clear the feet, then step one leg into one knee pit, then the other, keeping your feet off. Bottom player: hook and post with your feet, using your hands to make him hit his butt, then sit up."
-            },
-            {
               "kind": "list",
               "items": [
                 "The top player wins by touching both knee pits with his leg while keeping his feet off.",
@@ -117,21 +84,9 @@
               "text": "Chest-to-Chest Elbow Control Game"
             },
             {
-              "kind": "paragraph",
-              "text": "SLO: Controlling for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The bottom player is on his back. The top player is chest to chest on top, both arms under both of the bottom player's elbows."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Top player: stay under the bottom player's elbows, keeping them away from his body. Bottom player: get both elbows to touch your body, or make the top player fall over."
-            },
-            {
               "kind": "list",
               "items": [
-                "The top player has no time limit. He wins by keeping the elbows away from the body the whole time.",
+                "The top player wins by keeping the elbows away from the body the whole time.",
                 "The bottom player wins by bringing both elbows to his body, or by making the top player fall."
               ]
             }
@@ -146,29 +101,24 @@
             "role": "formative",
             "scored": false
           },
-          "question": "In Chest-to-Chest Elbow Control Game, what wins it for the top player?",
+          "question": "Chest-to-Chest Elbow Control Game: what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "The top player has no time limit. He wins by keeping the elbows away from the body the whole time.",
+              "text": "The top player wins by keeping the elbows away from the body the whole time.",
               "correct": true,
-              "feedback": "That is the win condition, and nothing else scores."
+              "feedback": "That's it."
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not part of the Paths yet. Entering and Arriving are the two steps here, and neither one ends in a finish. The path leads you into a pin, not a finish."
+              "feedback": "Not tonight. These games end in a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
-              "feedback": "Never. Everyone goes light, and the tap always stops it right away, every time."
+              "feedback": "Never. Everyone goes light."
             }
-          ],
-          "correctHead": "That's it.",
-          "correctText": "That is how you win today.",
-          "incorrectHead": "Not quite.",
-          "incorrectText": "Read the note under your choice, then try again.",
-          "revealText": "The right answer is marked above, with the reason."
+          ]
         }
       ]
     },
@@ -185,10 +135,6 @@
             {
               "kind": "lead",
               "text": "Knowing your tell is power, because you can catch yourself."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The checkpoint where a guard always breaks is a tell, and so is the first thing that shows when you crack. Finding the exact break point on the mat is the same skill as knowing your own tell."
             }
           ]
         },
@@ -198,7 +144,7 @@
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "When you crack, what's the first thing that shows?",
-          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
+          "hint": "On your own. Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -206,7 +152,7 @@
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session, on your own",
+          "kindLabel": "IRF, on your own",
           "fields": [
             {
               "id": "mat",
@@ -226,13 +172,7 @@
           "submit": true,
           "sendLabel": "Send it",
           "reflectionFrom": "s09-reflection",
-          "body": [
-            {
-              "kind": "callout",
-              "label": "Next session",
-              "text": "Session 10: What's under the version you show people?"
-            }
-          ],
+          "body": [],
           "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]

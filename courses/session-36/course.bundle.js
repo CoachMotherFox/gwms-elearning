@@ -47,12 +47,7 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
           "type": "text-image",
           "eyebrow": "Session 36 · Today's question",
           "title": "What do you carry out this door?",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the games."
-            }
-          ]
+          "body": []
         },
         {
           "id": "s36-games",
@@ -61,25 +56,9 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
           "title": "The three games",
           "body": [
             {
-              "kind": "lead",
-              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
-            },
-            {
               "kind": "heading",
               "level": 3,
               "text": "Over-Under to Close Hand Connection"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Skill Learning Objective (SLO): Entering, for both players."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Both players stand in an even tie, one arm over and one arm under, on both sides."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Fight to get under your partner's elbows. Connect your hands anywhere from his armpits to his ankles."
             },
             {
               "kind": "list",
@@ -91,18 +70,6 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
               "kind": "heading",
               "level": 3,
               "text": "Half Guard Side-Position Game"
-            },
-            {
-              "kind": "paragraph",
-              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The bottom player is in half guard on his side, arms out straight. The top player is inside the half guard."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Top player: clear the bottom player's hands and get under at least one elbow, then connect your hands. Bottom player: keep your hands on the top player to deny that spot, and close your legs around his waist."
             },
             {
               "kind": "list",
@@ -117,21 +84,9 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
               "text": "Back Take, Maintain Chest to Back Contact"
             },
             {
-              "kind": "paragraph",
-              "text": "SLO: Controlling for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The attacker is in full back control, chest on the defender's back, arms around the shoulders, hooks in. The defender may move freely."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Attacker: keep chest-to-back contact by following the defender wherever he goes. If your hands separate, reconnect them. If a hook comes out, put it back in. Defender: fight the connections to put your back on the mat or turn to face the attacker."
-            },
-            {
               "kind": "list",
               "items": [
-                "The attacker has no time limit. He holds as long as he keeps contact.",
+                "The attacker holds as long as he keeps contact.",
                 "The defender wins by getting his back to the mat or turning face to face."
               ]
             }
@@ -146,29 +101,24 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Back Take, Maintain Chest to Back Contact, what wins it for the top player?",
+          "question": "Back Take, Maintain Chest to Back Contact: what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "The attacker has no time limit. He holds as long as he keeps contact.",
+              "text": "The attacker holds as long as he keeps contact.",
               "correct": true,
-              "feedback": "That is the win condition, and nothing else scores."
+              "feedback": "That's it."
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. You let go the second your partner taps. Every single time. The tap is law."
+              "feedback": "Never. Let go the instant he taps."
             },
             {
               "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing the Back Pin teaches you never to do. Total control, plus the choice not to hurt someone, is the heart of the whole program."
+              "feedback": "That is the one thing you never do."
             }
-          ],
-          "correctHead": "That's it.",
-          "correctText": "That is how you win today.",
-          "incorrectHead": "Not quite.",
-          "incorrectText": "Read the note under your choice, then try again.",
-          "revealText": "The right answer is marked above, with the reason."
+          ]
         }
       ]
     },
@@ -185,10 +135,6 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
             {
               "kind": "lead",
               "text": "You descended and met yourself. You were initiated and tested against others. You returned, and you carry it out with you."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The last roll ends, and then you walk out the door. What you carry out, control, mercy, the ability to stay, the real self, is the whole point. The mat was never the destination. What you carry out of it is."
             }
           ]
         },
@@ -198,7 +144,7 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What do you carry out this door?",
-          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
+          "hint": "On your own. Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -206,7 +152,7 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session, on your own",
+          "kindLabel": "IRF, on your own",
           "fields": [
             {
               "id": "mat",

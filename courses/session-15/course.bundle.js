@@ -48,12 +48,7 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
           "type": "text-image",
           "eyebrow": "Session 15 · Today's question",
           "title": "Who are you with other people, now that you've met yourself?",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the games."
-            }
-          ]
+          "body": []
         },
         {
           "id": "s15-games",
@@ -62,25 +57,9 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
           "title": "The three games",
           "body": [
             {
-              "kind": "lead",
-              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
-            },
-            {
               "kind": "heading",
               "level": 3,
               "text": "Hand Fight to Connection Game"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Skill Learning Objective (SLO): Entering, for both players."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Both players stand facing each other, hand fighting range, both disconnected."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Get a two-on-one connection, then the underhook, and work to a connection at the head, waist, or leg."
             },
             {
               "kind": "list",
@@ -92,18 +71,6 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
               "kind": "heading",
               "level": 3,
               "text": "Closed Guard, Post to Underhook to Locked Hands"
-            },
-            {
-              "kind": "paragraph",
-              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The bottom player has closed guard around the top player, who may work to standing."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Bottom player: attach to the wrists and elbows to cause a post, get the underhook on that post, then lock your hands around a shoulder. Top player: keep your hands on the bottom player and fight to stand up with the guard open."
             },
             {
               "kind": "list",
@@ -118,21 +85,9 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
               "text": "Mount, Stay Under Both Elbows"
             },
             {
-              "kind": "paragraph",
-              "text": "SLO: Controlling for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The bottom player is on his back. The top player is in mount with both arms under both of the bottom player's elbows."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Top player: stay under at least one elbow the whole round. If you lose one, fight to get it back. Bottom player: get both elbows to touch your own body with nothing under them, or make the top player fall over."
-            },
-            {
               "kind": "list",
               "items": [
-                "The top player has no time limit. He holds as long as he keeps at least one elbow covered.",
+                "The top player holds as long as he keeps at least one elbow covered.",
                 "The bottom player wins by touching both elbows to his body, or by making the top player fall."
               ]
             }
@@ -147,29 +102,24 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Mount, Stay Under Both Elbows, what wins it for the top player?",
+          "question": "Mount, Stay Under Both Elbows: what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "The top player has no time limit. He holds as long as he keeps at least one elbow covered.",
+              "text": "The top player holds as long as he keeps at least one elbow covered.",
               "correct": true,
-              "feedback": "That is the win condition, and nothing else scores."
+              "feedback": "That's it."
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant your partner taps. Every single time. The tap is law."
+              "feedback": "Never. Let go the instant he taps."
             },
             {
               "text": "Overpowering your partner with force",
-              "feedback": "You keep the pin by feeling your partner and moving with them, not by clamping down and squeezing hard. Staying calm beats forcing harder."
+              "feedback": "Staying calm beats forcing harder."
             }
-          ],
-          "correctHead": "That's it.",
-          "correctText": "That is how you win today.",
-          "incorrectHead": "Not quite.",
-          "incorrectText": "Read the note under your choice, then try again.",
-          "revealText": "The right answer is marked above, with the reason."
+          ]
         }
       ]
     },
@@ -186,10 +136,6 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
             {
               "kind": "lead",
               "text": "The real you is in the room now, and other people are in it too."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The Descent found the real you. Now it goes to the mat with a partner. Rolling as the real you, instead of a mask, is the same as showing up honest in a relationship instead of performing one."
             }
           ]
         },
@@ -199,7 +145,7 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "Who are you with other people, now that you've met yourself?",
-          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
+          "hint": "On your own. Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -207,7 +153,7 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session, on your own",
+          "kindLabel": "IRF, on your own",
           "fields": [
             {
               "id": "mat",
@@ -227,13 +173,7 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
           "submit": true,
           "sendLabel": "Send it",
           "reflectionFrom": "s15-reflection",
-          "body": [
-            {
-              "kind": "callout",
-              "label": "Next session",
-              "text": "Session 16: What do you do when someone pushes back?"
-            }
-          ],
+          "body": [],
           "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]

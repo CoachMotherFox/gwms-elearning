@@ -35,12 +35,7 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
           "type": "text-image",
           "eyebrow": "Session 1 · Today's question",
           "title": "What makes a place feel safe to you?",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the games."
-            }
-          ]
+          "body": []
         },
         {
           "id": "s01-golmest",
@@ -50,16 +45,12 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight was orientation, not a normal night. You helped build the rules of this room yourself. From here on, every session runs the same way: warm up, play three games, cool down, a short lesson, then this phone for a few minutes, then cleanup."
+              "text": "Orientation night. From now on: warm up, three games, lesson, this phone, cleanup."
             },
             {
               "kind": "heading",
               "level": 3,
               "text": "What you are here to learn"
-            },
-            {
-              "kind": "paragraph",
-              "text": "The room ranked these together tonight. By the end of the program you will be able to do all five."
             },
             {
               "kind": "list",
@@ -77,10 +68,6 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
               "text": "The tap"
             },
             {
-              "kind": "paragraph",
-              "text": "Three ways to tap, and any one of them ends it right away."
-            },
-            {
               "kind": "list",
               "ordered": true,
               "items": [
@@ -88,10 +75,6 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
                 "Tap the mat.",
                 "Say stop."
               ]
-            },
-            {
-              "kind": "paragraph",
-              "text": "The instant your partner taps, you stop. Not after you finish your move. Stop right away, every time."
             }
           ]
         },
@@ -111,22 +94,17 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
             {
               "text": "Tapping your partner, tapping the mat, or saying stop.",
               "correct": true,
-              "feedback": "That is it, and it is true every single session."
+              "feedback": "That's it, every session."
             },
             {
-              "text": "Waiting for the coach to notice and call it.",
-              "feedback": "Not fast enough. The tap has to stop the round right away."
+              "text": "Waiting for the coach to notice.",
+              "feedback": "Too slow. Stop right away."
             },
             {
-              "text": "Just going still and hoping your partner feels it.",
-              "feedback": "Not fast enough. The tap has to stop the round right away."
+              "text": "Going still and hoping he feels it.",
+              "feedback": "Too slow. Stop right away."
             }
-          ],
-          "correctHead": "That's it.",
-          "correctText": "The tap is law, every session.",
-          "incorrectHead": "Not quite.",
-          "incorrectText": "Read the note under your choice, then try again.",
-          "revealText": "The right answer is marked above, with the reason."
+          ]
         }
       ]
     },
@@ -143,10 +121,6 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
             {
               "kind": "lead",
               "text": "A safe place is one where everyone knows the rules will hold. Tonight you helped write them."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Tonight the room agreed on the rules together, out loud. That is what makes a place feel safe: everyone knows the rules will hold, and everyone had a hand in making them."
             }
           ]
         },
@@ -156,7 +130,7 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What makes a place feel safe to you?",
-          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
+          "hint": "On your own. Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -164,7 +138,7 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session, on your own",
+          "kindLabel": "IRF, on your own",
           "fields": [
             {
               "id": "mat",
@@ -184,13 +158,7 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
           "submit": true,
           "sendLabel": "Send it",
           "reflectionFrom": "s01-reflection",
-          "body": [
-            {
-              "kind": "callout",
-              "label": "Next session",
-              "text": "Session 2: How do you show up when nobody here knows you yet?"
-            }
-          ],
+          "body": [],
           "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]

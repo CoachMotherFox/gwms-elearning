@@ -48,12 +48,7 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
           "type": "text-image",
           "eyebrow": "Session 21 · Today's question",
           "title": "When something breaks, what part is yours to own?",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the games."
-            }
-          ]
+          "body": []
         },
         {
           "id": "s21-games",
@@ -62,25 +57,9 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
           "title": "The three games",
           "body": [
             {
-              "kind": "lead",
-              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
-            },
-            {
               "kind": "heading",
               "level": 3,
               "text": "Single Leg Destabilization, Two Paths"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Skill Learning Objective (SLO): Entering, for both players."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Both players stand. The attacker is connected on one of the defender's legs at the knee. The defender is in a single-leg defensive position."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Attacker: stay connected and move the defender around, then either work down to the ankle for a foot-to-foot takedown, or move to capture both legs together. Defender: use your connections to separate the attacker's hands and free yourself completely."
             },
             {
               "kind": "list",
@@ -95,18 +74,6 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
               "text": "Knee Pit Touchdown Game"
             },
             {
-              "kind": "paragraph",
-              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The bottom player is belly up in open guard. The top player is standing and starts by clearing the feet."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Top player: clear the feet, then step one leg into one knee pit, then the other, keeping your feet off. Bottom player: hook and post with your feet, using your hands to make him hit his butt, then sit up."
-            },
-            {
               "kind": "list",
               "items": [
                 "The top player wins by touching both knee pits with his leg while keeping his feet off.",
@@ -117,18 +84,6 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
               "kind": "heading",
               "level": 3,
               "text": "Arm Lock Breaking Position Game"
-            },
-            {
-              "kind": "paragraph",
-              "text": "SLO: Finishing for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The bottom player is on his back. The top player is on top, one knee above his shoulder, one foot across his body, an elbow-to-elbow grip on one arm."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Top player: keep the bottom player pinned and his head covered, separate his hands, and move both grips to one arm. Bottom player: pull your arm free, or make the top player fall to his back and get to your knees."
             },
             {
               "kind": "list",
@@ -148,29 +103,24 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Arm Lock Breaking Position Game, what wins it for the top player?",
+          "question": "Arm Lock Breaking Position Game: what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "The top player wins by separating the hands and getting two connections on the wrist.",
               "correct": true,
-              "feedback": "That is the win condition, and nothing else scores."
+              "feedback": "That's it."
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant your partner taps. Every single time. The tap is law."
+              "feedback": "Never. Let go the instant he taps."
             },
             {
               "text": "Overpowering your partner with force",
-              "feedback": "You keep the pin by feeling your partner and moving with them, not by clamping down and squeezing hard. Staying calm beats forcing harder."
+              "feedback": "Staying calm beats forcing harder."
             }
-          ],
-          "correctHead": "That's it.",
-          "correctText": "That is how you win today.",
-          "incorrectHead": "Not quite.",
-          "incorrectText": "Read the note under your choice, then try again.",
-          "revealText": "The right answer is marked above, with the reason."
+          ]
         }
       ]
     },
@@ -187,10 +137,6 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
             {
               "kind": "lead",
               "text": "Owning your part is the doorway to repair."
-            },
-            {
-              "kind": "paragraph",
-              "text": "On the mat you can name your own mistake in a round without blaming your partner. Owning your part of a rupture works the same way. It starts with separating your piece from theirs."
             }
           ]
         },
@@ -200,7 +146,7 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "When something breaks, what part is yours to own?",
-          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
+          "hint": "On your own. Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -208,7 +154,7 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session, on your own",
+          "kindLabel": "IRF, on your own",
           "fields": [
             {
               "id": "mat",
@@ -228,13 +174,7 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
           "submit": true,
           "sendLabel": "Send it",
           "reflectionFrom": "s21-reflection",
-          "body": [
-            {
-              "kind": "callout",
-              "label": "Next session",
-              "text": "Session 22: What does it take for you to say sorry and mean it?"
-            }
-          ],
+          "body": [],
           "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]

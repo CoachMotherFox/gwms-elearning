@@ -48,12 +48,7 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
           "type": "text-image",
           "eyebrow": "Session 14 · Today's question",
           "title": "How much of someone else do you actually let in?",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the games."
-            }
-          ]
+          "body": []
         },
         {
           "id": "s14-games",
@@ -62,25 +57,9 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
           "title": "The three games",
           "body": [
             {
-              "kind": "lead",
-              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
-            },
-            {
               "kind": "heading",
               "level": 3,
               "text": "Role-Based Consecutive Touch vs Close Hand Game"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Skill Learning Objective (SLO): Entering, for both players."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Both players stand facing each other, hand fighting range. One is the touch player, one is the connection player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Touch player: collect three touches in a row, a hand to the mat or a hand behind the knee, without letting the connection player close his hands on you. If he scores, your count goes back to zero. Connection player: close both hands around the touch player anywhere from armpits to ankles."
             },
             {
               "kind": "list",
@@ -95,18 +74,6 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
               "text": "Closed Guard Hand Fighting Game"
             },
             {
-              "kind": "paragraph",
-              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The bottom player has closed guard around the top player, who is on his knees inside, trying to open it."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Bottom player: keep your hands on the top player, connecting to his wrists, elbows, and head to make his hands touch the mat once. Top player: take your hands off the bottom player and get to your feet."
-            },
-            {
               "kind": "list",
               "items": [
                 "The bottom player wins by making the top player's hands touch the mat one time.",
@@ -119,21 +86,9 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
               "text": "Chest-to-Chest Elbow Control Game"
             },
             {
-              "kind": "paragraph",
-              "text": "SLO: Controlling for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The bottom player is on his back. The top player is chest to chest, both arms under both of the bottom player's elbows."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Top player: stay under the bottom player's elbows, keeping them away from his body. Bottom player: get both elbows to touch your body, or make the top player fall over."
-            },
-            {
               "kind": "list",
               "items": [
-                "The top player has no time limit. He wins by keeping the elbows away from the body the whole time.",
+                "The top player wins by keeping the elbows away from the body the whole time.",
                 "The bottom player wins by bringing both elbows to his body, or by making the top player fall."
               ]
             }
@@ -148,29 +103,24 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Chest-to-Chest Elbow Control Game, what wins it for the top player?",
+          "question": "Chest-to-Chest Elbow Control Game: what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "The top player has no time limit. He wins by keeping the elbows away from the body the whole time.",
+              "text": "The top player wins by keeping the elbows away from the body the whole time.",
               "correct": true,
-              "feedback": "That is the win condition, and nothing else scores."
+              "feedback": "That's it."
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant your partner taps. Every single time. The tap is law."
+              "feedback": "Never. Let go the instant he taps."
             },
             {
               "text": "Overpowering your partner with force",
-              "feedback": "You keep the pin by feeling your partner and moving with them, not by clamping down and squeezing hard. Staying calm beats forcing harder."
+              "feedback": "Staying calm beats forcing harder."
             }
-          ],
-          "correctHead": "That's it.",
-          "correctText": "That is how you win today.",
-          "incorrectHead": "Not quite.",
-          "incorrectText": "Read the note under your choice, then try again.",
-          "revealText": "The right answer is marked above, with the reason."
+          ]
         }
       ]
     },
@@ -187,10 +137,6 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
             {
               "kind": "lead",
               "text": "Letting people in is like a dial you control. You just found yours."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Keeping a pin means feeling your partner and adjusting to them, not clamping down and ignoring them. Letting someone in works the same way. You hold the connection by reading the other person, not by shutting them out and pushing through alone."
             }
           ]
         },
@@ -200,7 +146,7 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "How much of someone else do you actually let in?",
-          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
+          "hint": "On your own. Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -208,7 +154,7 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session, on your own",
+          "kindLabel": "IRF, on your own",
           "fields": [
             {
               "id": "mat",
@@ -228,13 +174,7 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
           "submit": true,
           "sendLabel": "Send it",
           "reflectionFrom": "s14-reflection",
-          "body": [
-            {
-              "kind": "callout",
-              "label": "Next session",
-              "text": "Session 15: Who are you with other people, now that you've met yourself?"
-            }
-          ],
+          "body": [],
           "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]

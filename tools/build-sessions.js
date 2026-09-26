@@ -65,33 +65,20 @@ function screenQuestion(s) {
     type: 'text-image',
     eyebrow: `Session ${s.n} · Today's question`,
     title: s.probingQuestion,
-    body: [
-      { kind: 'lead', text: 'This is your question for today. Keep it in mind during the games.' }
-    ]
+    body: []
   };
 }
 
-/* "SLO" is spelled out once, on this slide's first game, then used short for
-   the rest of the page — the one place TLO/SLO/ELO terminology reaches a
-   learner at all. */
-function skillLine(game, isFirst) {
-  const label = isFirst ? 'Skill Learning Objective (SLO)' : 'SLO';
-  if (game.leavingSkill) {
-    return `${label}: ${game.skill} for the top player, ${game.leavingSkill} for the bottom player.`;
-  }
-  return `${label}: ${game.skill}, for both players.`;
-}
-
+/* Cut to the bone, per instructor direction September 27, 2026: a boy at a
+   7th grade reading level, typing four answers after, has to clear the whole
+   module in five minutes. This screen shows only the three game names and
+   each player's win, one line each — no start, no rules text, no SLO label.
+   The full game (start, task, skill) still lives in courses/_curriculum/ and
+   on that session's Grappling Class Guide for the coach. */
 function screenGames(s) {
-  const body = [
-    { kind: 'lead', text: 'Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again.' }
-  ];
-
-  s.games.forEach((game, i) => {
+  const body = [];
+  s.games.forEach((game) => {
     body.push({ kind: 'heading', level: 3, text: gameTitle(game.title) });
-    body.push({ kind: 'paragraph', text: skillLine(game, i === 0) });
-    body.push({ kind: 'paragraph', text: game.start });
-    body.push({ kind: 'paragraph', text: game.text });
     body.push({ kind: 'list', items: game.win.map((w) => `${w.role} ${w.text}`) });
   });
 
@@ -114,12 +101,9 @@ function screenGolmestRecap(s) {
     body: [
       { kind: 'lead', text: g.recapText },
       { kind: 'heading', level: 3, text: g.standard.label },
-      { kind: 'paragraph', text: g.standard.text },
       { kind: 'list', items: g.standard.items },
       { kind: 'heading', level: 3, text: g.tap.label },
-      { kind: 'paragraph', text: g.tap.text },
-      { kind: 'list', ordered: true, items: g.tap.items },
-      { kind: 'paragraph', text: g.tap.note }
+      { kind: 'list', ordered: true, items: g.tap.items }
     ]
   };
 }
@@ -127,7 +111,10 @@ function screenGolmestRecap(s) {
 /* The quiz always checks the pinned game's win for the top player — the
    position every session builds toward, and the one the stage's two wrong
    answers (the finish/harm rules) are written against. Session 1 has no
-   pinned game, so it checks the tap instead. */
+   pinned game, so it checks the tap instead. correctHead/correctText/
+   incorrectHead/incorrectText/revealText are left out on purpose: the engine
+   already has its own default wording for all five, repeated identically
+   across all 36 sessions otherwise. */
 function screenCheck(s, stage) {
   if (s.golmest) {
     const g = s.golmest;
@@ -141,15 +128,10 @@ function screenCheck(s, stage) {
       select: 'single',
       retry: true,
       options: [
-        { text: g.quizCorrect, correct: true, feedback: 'That is it, and it is true every single session.' },
-        { text: g.quizWrong[0], feedback: 'Not fast enough. The tap has to stop the round right away.' },
-        { text: g.quizWrong[1], feedback: 'Not fast enough. The tap has to stop the round right away.' }
-      ],
-      correctHead: "That's it.",
-      correctText: 'The tap is law, every session.',
-      incorrectHead: 'Not quite.',
-      incorrectText: 'Read the note under your choice, then try again.',
-      revealText: 'The right answer is marked above, with the reason.'
+        { text: g.quizCorrect, correct: true, feedback: 'That\'s it, every session.' },
+        { text: g.quizWrong[0], feedback: 'Too slow. Stop right away.' },
+        { text: g.quizWrong[1], feedback: 'Too slow. Stop right away.' }
+      ]
     };
   }
 
@@ -161,35 +143,26 @@ function screenCheck(s, stage) {
     eyebrow: 'Quick check',
     title: 'How you win it',
     assessment: { role: 'formative', scored: false },
-    question: `In ${gameTitle(pinned.title)}, what wins it for the top player?`,
+    question: `${gameTitle(pinned.title)}: what wins it for the top player?`,
     select: 'single',
     retry: true,
     options: [
-      { text: `${win.role} ${win.text}`, correct: true, feedback: 'That is the win condition, and nothing else scores.' },
+      { text: `${win.role} ${win.text}`, correct: true, feedback: "That's it." },
       stage.wrongAnswers[0],
       stage.wrongAnswers[1]
-    ],
-    correctHead: "That's it.",
-    correctText: 'That is how you win today.',
-    incorrectHead: 'Not quite.',
-    incorrectText: 'Read the note under your choice, then try again.',
-    revealText: 'The right answer is marked above, with the reason.'
+    ]
   };
 }
 
 function screenTakeaway(s) {
-  const body = [
-    { kind: 'lead', text: s.takeaway }
-  ];
-  if (s.connection) body.push({ kind: 'paragraph', text: s.connection });
-  if (s.note) body.push({ kind: 'callout', label: 'Worth knowing', text: s.note });
-
   return {
     id: `s${pad(s.n)}-takeaway`,
     type: 'text-image',
     eyebrow: 'The takeaway',
     title: 'What tonight was really about',
-    body
+    body: [
+      { kind: 'lead', text: s.takeaway }
+    ]
   };
 }
 
@@ -200,43 +173,36 @@ function screenReflection(s) {
     eyebrow: 'On your own',
     title: 'Your answer',
     prompt: s.probingQuestion,
-    hint: 'Nothing here is graded. Answer this on your own. A few words is plenty.',
+    hint: 'On your own. Not graded.',
     placeholder: 'Whatever comes to mind…'
   };
   if (s.privateOk) {
-    slide.hint = 'You do not have to write anything here. On your own, just look at it yourself. That is the whole task.';
+    slide.hint = 'On your own. Just look at it. Nothing to write.';
   }
   return slide;
 }
 
-function screenIRF(s, next) {
+function screenIRF(s, isLast) {
   return {
     id: `s${pad(s.n)}-irf`,
     type: 'reflection',
     eyebrow: 'On your own',
     title: 'Instruction Rating Form',
-    kindLabel: 'IRF — everyone fills this out, every session, on your own',
+    kindLabel: 'IRF, on your own',
     fields: IRF,
     requireAll: true,
     required: true,
     submit: true,
     sendLabel: 'Send it',
     reflectionFrom: `s${pad(s.n)}-reflection`,
-    body: next
-      ? [{ kind: 'callout', label: 'Next session', text: next }]
-      : [{ kind: 'callout', label: 'Last session', text: 'That is all 36.' }],
+    body: isLast ? [{ kind: 'callout', label: 'Last session', text: 'That is all 36.' }] : [],
     _note: 'Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device.'
   };
 }
 
 /* ------------------------------------------------------------------- course */
 
-function buildCourse(s, stage, allSessions) {
-  const nextEntry = allSessions[s.n + 1];
-  const next = nextEntry
-    ? `Session ${nextEntry.session.n}: ${nextEntry.session.probingQuestion}`
-    : null;
-
+function buildCourse(s, stage) {
   const today = [
     screenQuestion(s),
     s.golmest ? screenGolmestRecap(s) : screenGames(s),
@@ -246,7 +212,7 @@ function buildCourse(s, stage, allSessions) {
   const close = [
     screenTakeaway(s),
     screenReflection(s),
-    screenIRF(s, next)
+    screenIRF(s, s.n === 36)
   ];
 
   const scenes = [
@@ -292,14 +258,6 @@ if (!stageFiles.length) {
   process.exit(2);
 }
 
-// Pass 1 — index every session across all stages, so a module can look ahead
-// across a stage boundary to find the next session's probing question.
-const allSessions = {};
-for (const file of stageFiles) {
-  const data = JSON.parse(fs.readFileSync(path.join(CURRICULUM, file), 'utf8'));
-  for (const s of data.sessions) allSessions[s.n] = { session: s, stage: data.stage };
-}
-
 const index = { program: 'Grappling With My Self (GWMS)', note: 'Generated by tools/build-sessions.js.', courses: [] };
 
 // Where IRF responses land. Authored once, in courses/_curriculum/irf.json.
@@ -317,7 +275,7 @@ for (const file of stageFiles) {
     const dir = path.join(COURSES, `session-${pad(s.n)}`);
     fs.mkdirSync(path.join(dir, 'assets'), { recursive: true });
 
-    const course = buildCourse(s, stage, allSessions);
+    const course = buildCourse(s, stage);
 
     fs.writeFileSync(path.join(dir, 'course.json'), JSON.stringify(course, null, 2) + '\n');
     const summaryGame = s.golmest ? 'Orientation night, GOLMEST.' : `Games: ${s.games.map((g) => gameTitle(g.title)).join(', ')}.`;

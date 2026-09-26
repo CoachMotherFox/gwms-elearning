@@ -45,12 +45,7 @@
           "type": "text-image",
           "eyebrow": "Session 31 · Today's question",
           "title": "What do you want to leave behind you here?",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the games."
-            }
-          ]
+          "body": []
         },
         {
           "id": "s31-games",
@@ -59,25 +54,9 @@
           "title": "The three games",
           "body": [
             {
-              "kind": "lead",
-              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
-            },
-            {
               "kind": "heading",
               "level": 3,
               "text": "Hand Fight to Closed Hand Connection via Underhook"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Skill Learning Objective (SLO): Entering, for both players."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Both players stand facing each other, hand fighting range, both disconnected."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Connect to your partner's wrist, elbow, and head, get the underhook, and fight to a closed-hand connection around the head, body, or leg."
             },
             {
               "kind": "list",
@@ -89,18 +68,6 @@
               "kind": "heading",
               "level": 3,
               "text": "Around-the-Legs Passing Game"
-            },
-            {
-              "kind": "paragraph",
-              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The bottom player is belly up in open guard. The top player is on his feet, starting by clearing the feet."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Top player: get one leg outside the bottom player's feet, make shin contact from knee to head, then without stopping go around to the other side and touch there too. Bottom player: hook and post with your feet to make the top player hit his butt, then sit up with your back off the mat."
             },
             {
               "kind": "list",
@@ -115,21 +82,9 @@
               "text": "Build to Rear Strangle Game"
             },
             {
-              "kind": "paragraph",
-              "text": "SLO: Finishing for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The top player is on the bottom player's back, hands connected, not yet in the finishing position. The bottom player may move freely."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Top player: first, get your over-grip palm to touch the bottom player's back. Once it touches, slide your wrist into the crook of your own other elbow and lock your hands. The win is the lock, not a squeeze. Bottom player: put your back on the mat, using any movement."
-            },
-            {
               "kind": "list",
               "items": [
-                "The top player wins by getting the palm to the back, then the wrist into the crook of his own other elbow with hands locked.",
+                "The top player wins by getting the palm to the back, then locking the wrist and hands.",
                 "The bottom player wins when his back touches the mat."
               ]
             }
@@ -144,29 +99,24 @@
             "role": "formative",
             "scored": false
           },
-          "question": "In Build to Rear Strangle Game, what wins it for the top player?",
+          "question": "Build to Rear Strangle Game: what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "The top player wins by getting the palm to the back, then the wrist into the crook of his own other elbow with hands locked.",
+              "text": "The top player wins by getting the palm to the back, then locking the wrist and hands.",
               "correct": true,
-              "feedback": "That is the win condition, and nothing else scores."
+              "feedback": "That's it."
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. You let go the second your partner taps. Every single time. The tap is law."
+              "feedback": "Never. Let go the instant he taps."
             },
             {
               "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing the Back Pin teaches you never to do. Total control, plus the choice not to hurt someone, is the heart of the whole program."
+              "feedback": "That is the one thing you never do."
             }
-          ],
-          "correctHead": "That's it.",
-          "correctText": "That is how you win today.",
-          "incorrectHead": "Not quite.",
-          "incorrectText": "Read the note under your choice, then try again.",
-          "revealText": "The right answer is marked above, with the reason."
+          ]
         }
       ]
     },
@@ -183,15 +133,6 @@
             {
               "kind": "lead",
               "text": "Legacy is built from how you act now, not someday."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The finish is the sharpest power in the system. How you use it, controlled, releasing on the tap, is what people remember about rolling with you. What you leave behind in life is built the same way, out of how you treat people when you hold the power."
-            },
-            {
-              "kind": "callout",
-              "label": "Worth knowing",
-              "text": "The jaw-based counters are not taught yet. They wait until the Therapeutic Manager approves them. Coaches do not teach them."
             }
           ]
         },
@@ -201,7 +142,7 @@
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What do you want to leave behind you here?",
-          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
+          "hint": "On your own. Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -209,7 +150,7 @@
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session, on your own",
+          "kindLabel": "IRF, on your own",
           "fields": [
             {
               "id": "mat",
@@ -229,13 +170,7 @@
           "submit": true,
           "sendLabel": "Send it",
           "reflectionFrom": "s31-reflection",
-          "body": [
-            {
-              "kind": "callout",
-              "label": "Next session",
-              "text": "Session 32: What standard are you setting for whoever comes next?"
-            }
-          ],
+          "body": [],
           "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]

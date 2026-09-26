@@ -45,12 +45,7 @@
           "type": "text-image",
           "eyebrow": "Session 34 · Today's question",
           "title": "What did this cost you, and what did you get for it?",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the games."
-            }
-          ]
+          "body": []
         },
         {
           "id": "s34-games",
@@ -59,25 +54,9 @@
           "title": "The three games",
           "body": [
             {
-              "kind": "lead",
-              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
-            },
-            {
               "kind": "heading",
               "level": 3,
               "text": "2v1 Hand Fight to Underhook to Close Hand Connection"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Skill Learning Objective (SLO): Entering, for both players."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Both players stand facing each other, hand fighting range, both fully disconnected."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Get two connections on any two of your partner's wrist, elbow, or head, get the underhook, then go straight from there to closing both hands around his leg, body, or head."
             },
             {
               "kind": "list",
@@ -89,18 +68,6 @@
               "kind": "heading",
               "level": 3,
               "text": "Open Guard Takedown and Escape Game"
-            },
-            {
-              "kind": "paragraph",
-              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The top player stands. The bottom player is on his back, fully connected, hands on the top player's ankles, feet inside his legs."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Bottom player: stay connected while putting the top player down on his hips or hands, then stand up, or stay connected as he rises. Top player: break the connections and make shin contact to pass."
             },
             {
               "kind": "list",
@@ -115,21 +82,9 @@
               "text": "Chest to Back to Precursor Transitions Game"
             },
             {
-              "kind": "paragraph",
-              "text": "SLO: Finishing for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The top player is behind the bottom player with chest-to-back contact."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Top player: keep chest-to-back with your hands or hooks, or move to a precursor position on top, staying under an elbow while you move. Bottom player: put your back on the mat with nothing under your elbows, or turn face to face."
-            },
-            {
               "kind": "list",
               "items": [
-                "The top player wins by reaching a precursor position on top. Chest to back by itself is a continuous hold, no time count, and if the bottom player escapes, you reset.",
+                "The top player wins by reaching a precursor position on top.",
                 "The bottom player wins by his back on the mat or by turning face to face."
               ]
             }
@@ -144,29 +99,24 @@
             "role": "formative",
             "scored": false
           },
-          "question": "In Chest to Back to Precursor Transitions Game, what wins it for the top player?",
+          "question": "Chest to Back to Precursor Transitions Game: what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "The top player wins by reaching a precursor position on top. Chest to back by itself is a continuous hold, no time count, and if the bottom player escapes, you reset.",
+              "text": "The top player wins by reaching a precursor position on top.",
               "correct": true,
-              "feedback": "That is the win condition, and nothing else scores."
+              "feedback": "That's it."
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. You let go the second your partner taps. Every single time. The tap is law."
+              "feedback": "Never. Let go the instant he taps."
             },
             {
               "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing the Back Pin teaches you never to do. Total control, plus the choice not to hurt someone, is the heart of the whole program."
+              "feedback": "That is the one thing you never do."
             }
-          ],
-          "correctHead": "That's it.",
-          "correctText": "That is how you win today.",
-          "incorrectHead": "Not quite.",
-          "incorrectText": "Read the note under your choice, then try again.",
-          "revealText": "The right answer is marked above, with the reason."
+          ]
         }
       ]
     },
@@ -183,15 +133,6 @@
             {
               "kind": "lead",
               "text": "The ledger is honest, and it landed on the side of growth."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Twelve weeks of getting tapped, cracked, and rebuilt cost something and gave something. Rolling now, you can feel both in your body. The honest ledger of what this cost and what you got is the first step of the return."
-            },
-            {
-              "kind": "callout",
-              "label": "Worth knowing",
-              "text": "Grief and pride both belong here. Neither one cancels the other."
             }
           ]
         },
@@ -201,7 +142,7 @@
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What did this cost you, and what did you get for it?",
-          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
+          "hint": "On your own. Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -209,7 +150,7 @@
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session, on your own",
+          "kindLabel": "IRF, on your own",
           "fields": [
             {
               "id": "mat",
@@ -229,13 +170,7 @@
           "submit": true,
           "sendLabel": "Send it",
           "reflectionFrom": "s34-reflection",
-          "body": [
-            {
-              "kind": "callout",
-              "label": "Next session",
-              "text": "Session 35: Who did you become?"
-            }
-          ],
+          "body": [],
           "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]

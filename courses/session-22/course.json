@@ -46,12 +46,7 @@
           "type": "text-image",
           "eyebrow": "Session 22 · Today's question",
           "title": "What does it take for you to say sorry and mean it?",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the games."
-            }
-          ]
+          "body": []
         },
         {
           "id": "s22-games",
@@ -60,25 +55,9 @@
           "title": "The three games",
           "body": [
             {
-              "kind": "lead",
-              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
-            },
-            {
               "kind": "heading",
               "level": 3,
               "text": "Hand Fight with Dual Win Conditions"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Skill Learning Objective (SLO): Entering, for both players."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Both players stand facing each other, hand fighting range, both hand fighting at the wrists, elbows, and head."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Win one of two ways: collect three touches in any mix, or get an underhook and close your hands around your partner's shoulders, body, or leg."
             },
             {
               "kind": "list",
@@ -92,18 +71,6 @@
               "text": "Guard Recovery with Passing Resistance Game"
             },
             {
-              "kind": "paragraph",
-              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The bottom player is lying on his side. The top player has passed the legs and is at his hips."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Bottom player: stay mobile on your side, stop the top player's hands from connecting, and get your legs back in front. Top player: lock your hands around the bottom player's waist, chest, or back to stop the recovery."
-            },
-            {
               "kind": "list",
               "items": [
                 "The bottom player wins by recovering to any real guard position while staying mobile.",
@@ -114,18 +81,6 @@
               "kind": "heading",
               "level": 3,
               "text": "Figure Four, Reintroduction with Hand-to-Mat or Knuckles-Behind Win"
-            },
-            {
-              "kind": "paragraph",
-              "text": "SLO: Finishing for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The bottom player is in side control, chest to chest. The top player starts with a figure-four grip on one arm, under his elbow."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Top player: stay under the elbow, even if you lose the hand for a moment, and put the bottom player's palm flat on the mat or his knuckles behind his back. Bottom player: fight the grip directly and get the figure four out from under your elbow."
             },
             {
               "kind": "list",
@@ -145,29 +100,24 @@
             "role": "formative",
             "scored": false
           },
-          "question": "In Figure Four, Reintroduction with Hand-to-Mat or Knuckles-Behind Win, what wins it for the top player?",
+          "question": "Figure Four, Reintroduction with Hand-to-Mat or Knuckles-Behind Win: what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "The top player wins by palm to mat or knuckles behind the back.",
               "correct": true,
-              "feedback": "That is the win condition, and nothing else scores."
+              "feedback": "That's it."
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant your partner taps. Every single time. The tap is law."
+              "feedback": "Never. Let go the instant he taps."
             },
             {
               "text": "Overpowering your partner with force",
-              "feedback": "You keep the pin by feeling your partner and moving with them, not by clamping down and squeezing hard. Staying calm beats forcing harder."
+              "feedback": "Staying calm beats forcing harder."
             }
-          ],
-          "correctHead": "That's it.",
-          "correctText": "That is how you win today.",
-          "incorrectHead": "Not quite.",
-          "incorrectText": "Read the note under your choice, then try again.",
-          "revealText": "The right answer is marked above, with the reason."
+          ]
         }
       ]
     },
@@ -184,10 +134,6 @@
             {
               "kind": "lead",
               "text": "Real repair has parts, and now you can name them."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Resetting and rolling clean with someone right after a hard round is like squaring up with words. A real apology is the same kind of reset: you get back in instead of carrying the grudge."
             }
           ]
         },
@@ -197,7 +143,7 @@
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What does it take for you to say sorry and mean it?",
-          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
+          "hint": "On your own. Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -205,7 +151,7 @@
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session, on your own",
+          "kindLabel": "IRF, on your own",
           "fields": [
             {
               "id": "mat",
@@ -225,13 +171,7 @@
           "submit": true,
           "sendLabel": "Send it",
           "reflectionFrom": "s22-reflection",
-          "body": [
-            {
-              "kind": "callout",
-              "label": "Next session",
-              "text": "Session 23: Can you stay when leaving would be easier?"
-            }
-          ],
+          "body": [],
           "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]

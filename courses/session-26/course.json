@@ -45,12 +45,7 @@
           "type": "text-image",
           "eyebrow": "Session 26 · Today's question",
           "title": "How do you know the change is real and not just talk?",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the games."
-            }
-          ]
+          "body": []
         },
         {
           "id": "s26-games",
@@ -59,25 +54,9 @@
           "title": "The three games",
           "body": [
             {
-              "kind": "lead",
-              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
-            },
-            {
               "kind": "heading",
               "level": 3,
               "text": "Single Leg Takedown to Hip Connection Game"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Skill Learning Objective (SLO): Entering, for both players."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Both players stand. The attacker holds one of the defender's legs, somewhere from knee to ankle."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Attacker: move the defender, work out to the ankle, and use foot-to-foot contact to put him down on his hips or hands. Defender: free the leg, then grab one of the attacker's legs, knee to ankle."
             },
             {
               "kind": "list",
@@ -92,22 +71,10 @@
               "text": "Post and Hook Continuous Connection Game"
             },
             {
-              "kind": "paragraph",
-              "text": "SLO: Entering, for both players."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The top player is standing. The bottom player is belly up with hooks on the top player's body and both hands on his ankles."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Top player: clear both feet to the outside for shin-to-body contact, or lock your hands from hips to shoulders. Bottom player: keep at least one hook and one hand connected at all times, using only posts and hooks to keep putting the top player on his butt or hands."
-            },
-            {
               "kind": "list",
               "items": [
                 "The top player wins by getting outside with shin-to-body contact, or by locking his hands from hips to shoulders.",
-                "The bottom player has no time limit. He holds as long as he keeps his connections."
+                "The bottom player holds as long as he keeps his connections."
               ]
             },
             {
@@ -116,21 +83,9 @@
               "text": "Chest to Back Control Game"
             },
             {
-              "kind": "paragraph",
-              "text": "SLO: Controlling for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The top player is behind the bottom player with chest-to-back contact, both arms and both legs connected."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Top player: keep chest-to-back contact by following the bottom player and keeping your hands connected. Bottom player: put your back on the mat or turn to face."
-            },
-            {
               "kind": "list",
               "items": [
-                "The top player has no time limit. He holds as long as he keeps contact.",
+                "The top player holds as long as he keeps contact.",
                 "The bottom player wins by getting his back to the mat or turning face to face."
               ]
             }
@@ -145,29 +100,24 @@
             "role": "formative",
             "scored": false
           },
-          "question": "In Chest to Back Control Game, what wins it for the top player?",
+          "question": "Chest to Back Control Game: what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "The top player has no time limit. He holds as long as he keeps contact.",
+              "text": "The top player holds as long as he keeps contact.",
               "correct": true,
-              "feedback": "That is the win condition, and nothing else scores."
+              "feedback": "That's it."
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. You let go the second your partner taps. Every single time. The tap is law."
+              "feedback": "Never. Let go the instant he taps."
             },
             {
               "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing the Back Pin teaches you never to do. Total control, plus the choice not to hurt someone, is the heart of the whole program."
+              "feedback": "That is the one thing you never do."
             }
-          ],
-          "correctHead": "That's it.",
-          "correctText": "That is how you win today.",
-          "incorrectHead": "Not quite.",
-          "incorrectText": "Read the note under your choice, then try again.",
-          "revealText": "The right answer is marked above, with the reason."
+          ]
         }
       ]
     },
@@ -184,10 +134,6 @@
             {
               "kind": "lead",
               "text": "Tested change is change you can trust."
-            },
-            {
-              "kind": "paragraph",
-              "text": "A change that only works when it is easy is not a real change yet. Holding the back against a fighting partner puts it to the test. Who you have become gets proven the same way, by whether it holds up when things get hard."
             }
           ]
         },
@@ -197,7 +143,7 @@
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "How do you know the change is real and not just talk?",
-          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
+          "hint": "On your own. Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -205,7 +151,7 @@
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session, on your own",
+          "kindLabel": "IRF, on your own",
           "fields": [
             {
               "id": "mat",
@@ -225,13 +171,7 @@
           "submit": true,
           "sendLabel": "Send it",
           "reflectionFrom": "s26-reflection",
-          "body": [
-            {
-              "kind": "callout",
-              "label": "Next session",
-              "text": "Session 27: What can you do now that the old you couldn't?"
-            }
-          ],
+          "body": [],
           "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]

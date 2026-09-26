@@ -48,12 +48,7 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
           "type": "text-image",
           "eyebrow": "Session 10 · Today's question",
           "title": "What's under the version you show people?",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the games."
-            }
-          ]
+          "body": []
         },
         {
           "id": "s10-games",
@@ -62,25 +57,9 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
           "title": "The three games",
           "body": [
             {
-              "kind": "lead",
-              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
-            },
-            {
               "kind": "heading",
               "level": 3,
               "text": "Waist-Centric Underhook Game"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Skill Learning Objective (SLO): Entering, for both players."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Both players stand. The underhook player has an underhook. The overhook player has an overhook."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Underhook player: move your partner and get to the head, waist, or a leg. The waist wins right away. A head or leg connection must be turned into a waist connection to win. Overhook player: use the overhook to keep him away, freeing the head or leg before he reaches the waist."
             },
             {
               "kind": "list",
@@ -95,18 +74,6 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
               "text": "Around-the-Legs Passing Game"
             },
             {
-              "kind": "paragraph",
-              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The bottom player is belly up in open guard. The top player is on his feet, starting by clearing the feet."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Top player: get one leg outside the bottom player's feet, make shin contact from knee to head, then without stopping go around to the other side and touch there too. Bottom player: hook and post with your feet to make the top player hit his butt, then sit up with your back off the mat."
-            },
-            {
               "kind": "list",
               "items": [
                 "The top player wins by touching one outside and then the other, one right after the other.",
@@ -119,21 +86,9 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
               "text": "Figure Four Grip Control Game"
             },
             {
-              "kind": "paragraph",
-              "text": "SLO: Controlling for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The bottom player is on his back. The top player covers his head with a figure-four grip, one hand on the wrist, the other arm under the elbow."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Top player: keep the figure-four grip and stay under at least one elbow while keeping the bottom player pinned. Bottom player: break the grip by freeing your arms and getting your elbows to your body."
-            },
-            {
               "kind": "list",
               "items": [
-                "The top player has no time limit. He holds as long as he keeps the grip.",
+                "The top player holds as long as he keeps the grip.",
                 "The bottom player wins by breaking the grip."
               ]
             }
@@ -148,29 +103,24 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Figure Four Grip Control Game, what wins it for the top player?",
+          "question": "Figure Four Grip Control Game: what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "The top player has no time limit. He holds as long as he keeps the grip.",
+              "text": "The top player holds as long as he keeps the grip.",
               "correct": true,
-              "feedback": "That is the win condition, and nothing else scores."
+              "feedback": "That's it."
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not part of the Paths yet. Entering and Arriving are the two steps here, and neither one ends in a finish. The path leads you into a pin, not a finish."
+              "feedback": "Not tonight. These games end in a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
-              "feedback": "Never. Everyone goes light, and the tap always stops it right away, every time."
+              "feedback": "Never. Everyone goes light."
             }
-          ],
-          "correctHead": "That's it.",
-          "correctText": "That is how you win today.",
-          "incorrectHead": "Not quite.",
-          "incorrectText": "Read the note under your choice, then try again.",
-          "revealText": "The right answer is marked above, with the reason."
+          ]
         }
       ]
     },
@@ -187,10 +137,6 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
             {
               "kind": "lead",
               "text": "What is under the mask is not worse than the mask, it is just true."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Getting past the legs shows what the guard was hiding. Looking under your mask shows the real you. Passing and revealing are the same move: get past the defense to what is behind it."
             }
           ]
         },
@@ -200,7 +146,7 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What's under the version you show people?",
-          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
+          "hint": "On your own. Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -208,7 +154,7 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session, on your own",
+          "kindLabel": "IRF, on your own",
           "fields": [
             {
               "id": "mat",
@@ -228,13 +174,7 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
           "submit": true,
           "sendLabel": "Send it",
           "reflectionFrom": "s10-reflection",
-          "body": [
-            {
-              "kind": "callout",
-              "label": "Next session",
-              "text": "Session 11: What part of you have you been hiding, even from yourself?"
-            }
-          ],
+          "body": [],
           "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]

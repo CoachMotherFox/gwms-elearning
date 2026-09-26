@@ -20,11 +20,11 @@
     "wrongAnswers": [
       {
         "text": "Holding the finish after your partner taps",
-        "feedback": "Never. You let go the second your partner taps. Every single time. The tap is law."
+        "feedback": "Never. Let go the instant he taps."
       },
       {
         "text": "Hurting your partner because you can",
-        "feedback": "That is the one thing the Back Pin teaches you never to do. Total control, plus the choice not to hurt someone, is the heart of the whole program."
+        "feedback": "That is the one thing you never do."
       }
     ]
   },
@@ -63,7 +63,7 @@
           "start": "The attacker is in full back control, chest on the defender's back, arms around the shoulders, hooks in. The defender may move freely.",
           "text": "Attacker: keep chest-to-back contact by following the defender wherever he goes. If your hands separate, reconnect them. If a hook comes out, put it back in. Defender: fight the connections to put your back on the mat or turn to face the attacker.",
           "win": [
-            { "role": "The attacker", "text": "has no time limit. He holds as long as he keeps contact." },
+            { "role": "The attacker", "text": "holds as long as he keeps contact." },
             { "role": "The defender", "text": "wins by getting his back to the mat or turning face to face." }
           ],
           "reset": "The attacker holds no matter what. If the defender gets his back down or turns to face him, that is his win, and you start over. Roles switch after every win."
@@ -96,7 +96,7 @@
           "text": "Top player: clear both feet to the outside for shin-to-body contact, or lock your hands from hips to shoulders. Bottom player: keep at least one hook and one hand connected at all times, using only posts and hooks to keep putting the top player on his butt or hands.",
           "win": [
             { "role": "The top player", "text": "wins by getting outside with shin-to-body contact, or by locking his hands from hips to shoulders." },
-            { "role": "The bottom player", "text": "has no time limit. He holds as long as he keeps his connections." }
+            { "role": "The bottom player", "text": "holds as long as he keeps his connections." }
           ],
           "reset": "The bottom player holds no matter what. If the top player breaks free and connects, that is his win, and you start over. Roles switch after every win."
         },
@@ -107,7 +107,7 @@
           "start": "The top player is behind the bottom player with chest-to-back contact, both arms and both legs connected.",
           "text": "Top player: keep chest-to-back contact by following the bottom player and keeping your hands connected. Bottom player: put your back on the mat or turn to face.",
           "win": [
-            { "role": "The top player", "text": "has no time limit. He holds as long as he keeps contact." },
+            { "role": "The top player", "text": "holds as long as he keeps contact." },
             { "role": "The bottom player", "text": "wins by getting his back to the mat or turning face to face." }
           ],
           "reset": "The top player holds no matter what. If the bottom player gets his back down or turns to face him, that is his win, and you start over. Roles switch after every win."
@@ -197,7 +197,7 @@
           "start": "The attacker is in full back control, chest on the defender's back, arms around the shoulders, hooks in. The defender may move freely.",
           "text": "Attacker: keep chest-to-back contact by following the defender wherever he goes. If your hands separate, reconnect them. If a hook comes out, put it back in. Defender: fight the connections to put your back on the mat or turn to face the attacker.",
           "win": [
-            { "role": "The attacker", "text": "has no time limit. He holds as long as he keeps contact." },
+            { "role": "The attacker", "text": "holds as long as he keeps contact." },
             { "role": "The defender", "text": "wins by getting his back to the mat or turning face to face." }
           ],
           "reset": "The attacker holds no matter what. If the defender gets his back down or turns to face him, that is his win, and you start over. Roles switch after every win."
@@ -231,7 +231,7 @@
           "start": "The top player stands, fully connected. The bottom player has inside hooks and a knee-pit grip.",
           "text": "Bottom player: stay connected, or get the connection back if it slips. Use it to put the top player on his butt or hands, then stand up and make his back touch the mat. Top player: put the bottom player on his back and fight to the knee pit or the outside, staying on your feet.",
           "win": [
-            { "role": "The bottom player", "text": "wins by putting the top player down, standing up, and making his back touch the mat, or by wrestling all the way up to a connection." },
+            { "role": "The bottom player", "text": "wins by putting him down and standing, or by wrestling up to a connection." },
             { "role": "The top player", "text": "wins with shin contact at the knee pit or the body from outside." }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
@@ -243,7 +243,7 @@
           "start": "The front player sits in front. The back player sits behind him with no hooks, hands on the front player's hands but not connected to each other.",
           "text": "Back player: stay behind and under the front player's elbows, turning him toward the mat and keeping him facing it as long as you can, with no hooks and no hand lock. Front player: turn to face the back player and get both elbows free, by any method.",
           "win": [
-            { "role": "The back player", "text": "has no time limit. He holds as long as he keeps control." },
+            { "role": "The back player", "text": "holds as long as he keeps control." },
             { "role": "The front player", "text": "wins when he faces the back player with elbows free." }
           ],
           "reset": "The back player holds no matter what. If the front player faces him with elbows free, that is his win, and you start over. Roles switch after every win."
@@ -277,7 +277,7 @@
           "start": "The bottom player is in half guard. The top player is on top with both knees on the mat, and may stand during the round.",
           "text": "Bottom player: while the top player is on his knees, work grips to get your feet inside and sit up. When he stands, shift to the legs, destabilize him, and get an entanglement. Top player: lock your hands anywhere from hips to shoulders, from your knees or from standing.",
           "win": [
-            { "role": "The bottom player", "text": "wins by getting feet inside and sitting up before the top player stands, or by destabilizing and entangling him after he stands." },
+            { "role": "The bottom player", "text": "wins by getting feet inside and sitting up, or by entangling him once he stands." },
             { "role": "The top player", "text": "wins by locking his hands." }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
@@ -290,7 +290,7 @@
           "start": "The top player is behind the bottom player with chest-to-back contact, both arms and both legs connected.",
           "text": "Top player: keep chest-to-back contact by following the bottom player and keeping your hands connected. Bottom player: put your back on the mat or turn to face.",
           "win": [
-            { "role": "The top player", "text": "has no time limit. He holds as long as he keeps contact." },
+            { "role": "The top player", "text": "holds as long as he keeps contact." },
             { "role": "The bottom player", "text": "wins by getting his back to the mat or turning face to face." }
           ],
           "reset": "The top player holds no matter what. If the bottom player gets his back down or turns to face him, that is his win, and you start over. Roles switch after every win."
@@ -334,7 +334,7 @@
           "start": "The top player is on the bottom player's back, hands connected, not yet in the finishing position. The bottom player may move freely.",
           "text": "Top player: first, get your over-grip palm to touch the bottom player's back. Once it touches, slide your wrist into the crook of your own other elbow and lock your hands. The win is the lock, not a squeeze. Bottom player: put your back on the mat, using any movement.",
           "win": [
-            { "role": "The top player", "text": "wins by getting the palm to the back, then the wrist into the crook of his own other elbow with hands locked." },
+            { "role": "The top player", "text": "wins by getting the palm to the back, then locking the wrist and hands." },
             { "role": "The bottom player", "text": "wins when his back touches the mat." }
           ],
           "reset": "The win is the locked grip, not the finish. No finish is shown. The tap is honored instantly, every time. Roles switch after every win.",
@@ -381,7 +381,7 @@
           "start": "The top player is behind the bottom player with chest-to-back contact.",
           "text": "Top player: keep chest-to-back with your hands or hooks, or move to a precursor position on top, staying under an elbow while you move. Bottom player: put your back on the mat with nothing under your elbows, or turn face to face.",
           "win": [
-            { "role": "The top player", "text": "wins by reaching a precursor position on top. Chest to back by itself is a continuous hold, no time count, and if the bottom player escapes, you reset." },
+            { "role": "The top player", "text": "wins by reaching a precursor position on top." },
             { "role": "The bottom player", "text": "wins by his back on the mat or by turning face to face." }
           ],
           "reset": "Chest to back is a continuous hold with no time count. He holds, and if the bottom player escapes, you reset. Reaching a precursor position on top is the other win. Roles switch after every win.",
@@ -426,7 +426,7 @@
           "start": "The top player is behind the bottom player, both hooks in, an under-over grip connected at the shoulders.",
           "text": "Top player: stay chest to back as long as you can, changing leg positions and upper-body grips as needed, without chasing finishes. Bottom player: get your back flat to the mat, or turn to face the top player and come on top.",
           "win": [
-            { "role": "The top player", "text": "has no time limit. He holds as long as he keeps chest-to-back contact." },
+            { "role": "The top player", "text": "holds as long as he keeps chest-to-back contact." },
             { "role": "The bottom player", "text": "wins by getting his back flat to the mat, or by facing and coming on top." }
           ],
           "reset": "The top player holds no matter what. If the bottom player escapes, that is his win, and you switch to a new partner for the next round."
@@ -471,7 +471,7 @@
           "start": "The top player is behind the bottom player with chest-to-back contact.",
           "text": "Top player: keep chest-to-back with your hands or hooks, or move to a precursor position on top, staying under an elbow while you move. Bottom player: put your back on the mat with nothing under your elbows, or turn face to face.",
           "win": [
-            { "role": "The top player", "text": "wins by reaching a precursor position on top. Chest to back by itself is a continuous hold, no time count, and if the bottom player escapes, you reset." },
+            { "role": "The top player", "text": "wins by reaching a precursor position on top." },
             { "role": "The bottom player", "text": "wins by his back on the mat or by turning face to face." }
           ],
           "reset": "Chest to back is a continuous hold with no time count. He holds, and if the bottom player escapes, you reset. Reaching a precursor position on top is the other win. Roles switch after every win.",
@@ -517,7 +517,7 @@
           "start": "The top player is on the bottom player's back, hands connected, not yet in the finishing position. The bottom player may move freely.",
           "text": "Top player: first, get your over-grip palm to touch the bottom player's back. Once it touches, slide your wrist into the crook of your own other elbow and lock your hands. The win is the lock, not a squeeze. Bottom player: put your back on the mat, using any movement.",
           "win": [
-            { "role": "The top player", "text": "wins by getting the palm to the back, then the wrist into the crook of his own other elbow with hands locked." },
+            { "role": "The top player", "text": "wins by getting the palm to the back, then locking the wrist and hands." },
             { "role": "The bottom player", "text": "wins when his back touches the mat." }
           ],
           "reset": "The win is the locked grip, not the finish. No finish is shown. The tap is honored instantly, every time. Roles switch after every win.",
@@ -562,7 +562,7 @@
           "start": "The attacker is in full back control, chest on the defender's back, arms around the shoulders, hooks in. The defender may move freely.",
           "text": "Attacker: keep chest-to-back contact by following the defender wherever he goes. If your hands separate, reconnect them. If a hook comes out, put it back in. Defender: fight the connections to put your back on the mat or turn to face the attacker.",
           "win": [
-            { "role": "The attacker", "text": "has no time limit. He holds as long as he keeps contact." },
+            { "role": "The attacker", "text": "holds as long as he keeps contact." },
             { "role": "The defender", "text": "wins by getting his back to the mat or turning face to face." }
           ],
           "reset": "The attacker holds no matter what. If the defender gets his back down or turns to face him, that is his win, and you start over. Roles switch after every win."

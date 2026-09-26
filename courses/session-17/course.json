@@ -46,12 +46,7 @@
           "type": "text-image",
           "eyebrow": "Session 17 · Today's question",
           "title": "Can you stay present when it gets uncomfortable?",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the games."
-            }
-          ]
+          "body": []
         },
         {
           "id": "s17-games",
@@ -60,25 +55,9 @@
           "title": "The three games",
           "body": [
             {
-              "kind": "lead",
-              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
-            },
-            {
               "kind": "heading",
               "level": 3,
               "text": "Waist Control Leg Stuffing Game"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Skill Learning Objective (SLO): Entering, for both players."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Both players stand. The back player is behind, hands connected around the front player's waist."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Back player: keep your hands connected and move the front player around. Stuff one leg in front of his to put his hands on the mat. Front player: separate the hands and turn to face the back player."
             },
             {
               "kind": "list",
@@ -93,18 +72,6 @@
               "text": "Guard Recovery with Passing Resistance Game"
             },
             {
-              "kind": "paragraph",
-              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The bottom player is lying on his side. The top player has passed the legs and is at his hips."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Bottom player: stay mobile on your side, stop the top player's hands from connecting, and get your legs back in front. Top player: lock your hands around the bottom player's waist, chest, or back to stop the recovery."
-            },
-            {
               "kind": "list",
               "items": [
                 "The bottom player wins by recovering to any real guard position while staying mobile.",
@@ -117,21 +84,9 @@
               "text": "Rear Hip Connection, Keep Belly Down"
             },
             {
-              "kind": "paragraph",
-              "text": "SLO: Controlling for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The defender is on his elbows and knees. The attacker is behind him, hands locked around his waist."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Attacker: keep the defender belly down, using knee-to-knee and foot-to-foot blocking to pull his hips to the mat. Defender: rise to a quad pod, both knees and both elbows off the floor."
-            },
-            {
               "kind": "list",
               "items": [
-                "The attacker has no time limit. He holds as long as he keeps the defender belly down.",
+                "The attacker holds as long as he keeps the defender belly down.",
                 "The defender wins by reaching a quad pod."
               ]
             }
@@ -146,29 +101,24 @@
             "role": "formative",
             "scored": false
           },
-          "question": "In Rear Hip Connection, Keep Belly Down, what wins it for the top player?",
+          "question": "Rear Hip Connection, Keep Belly Down: what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "The attacker has no time limit. He holds as long as he keeps the defender belly down.",
+              "text": "The attacker holds as long as he keeps the defender belly down.",
               "correct": true,
-              "feedback": "That is the win condition, and nothing else scores."
+              "feedback": "That's it."
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant your partner taps. Every single time. The tap is law."
+              "feedback": "Never. Let go the instant he taps."
             },
             {
               "text": "Overpowering your partner with force",
-              "feedback": "You keep the pin by feeling your partner and moving with them, not by clamping down and squeezing hard. Staying calm beats forcing harder."
+              "feedback": "Staying calm beats forcing harder."
             }
-          ],
-          "correctHead": "That's it.",
-          "correctText": "That is how you win today.",
-          "incorrectHead": "Not quite.",
-          "incorrectText": "Read the note under your choice, then try again.",
-          "revealText": "The right answer is marked above, with the reason."
+          ]
         }
       ]
     },
@@ -185,15 +135,6 @@
             {
               "kind": "lead",
               "text": "You can stay when things feel uncomfortable. You just did it."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Staying in an uncomfortable pin instead of scrambling out is like staying in a hard conversation. Both take the same skill: putting up with discomfort instead of running from it."
-            },
-            {
-              "kind": "callout",
-              "label": "Worth knowing",
-              "text": "Staying is the skill. But leaving a harmful situation is wise, not a failure."
             }
           ]
         },
@@ -203,7 +144,7 @@
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "Can you stay present when it gets uncomfortable?",
-          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
+          "hint": "On your own. Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -211,7 +152,7 @@
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session, on your own",
+          "kindLabel": "IRF, on your own",
           "fields": [
             {
               "id": "mat",
@@ -231,13 +172,7 @@
           "submit": true,
           "sendLabel": "Send it",
           "reflectionFrom": "s17-reflection",
-          "body": [
-            {
-              "kind": "callout",
-              "label": "Next session",
-              "text": "Session 18: What does your friction do to the people across from you?"
-            }
-          ],
+          "body": [],
           "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]

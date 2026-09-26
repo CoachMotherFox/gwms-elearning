@@ -21,11 +21,11 @@
     "wrongAnswers": [
       {
         "text": "Holding the finish after your partner taps",
-        "feedback": "Never. Let go the instant your partner taps. Every single time. The tap is law."
+        "feedback": "Never. Let go the instant he taps."
       },
       {
         "text": "Overpowering your partner with force",
-        "feedback": "You keep the pin by feeling your partner and moving with them, not by clamping down and squeezing hard. Staying calm beats forcing harder."
+        "feedback": "Staying calm beats forcing harder."
       }
     ]
   },
@@ -65,7 +65,7 @@
           "start": "The bottom player is on his back. The top player is chest to chest, both arms under both of the bottom player's elbows.",
           "text": "Top player: keep both elbows away from the bottom player's body, using any body part in place of your arms if you need to. Bottom player: get both elbows back to touch your own body, or make the top player fall over.",
           "win": [
-            { "role": "The top player", "text": "has no time limit. He holds as long as he keeps both elbows covered." },
+            { "role": "The top player", "text": "holds as long as he keeps both elbows covered." },
             { "role": "The bottom player", "text": "wins by getting both elbows to touch his body, or by making the top player fall." }
           ],
           "reset": "The top player holds no matter what. If the bottom player gets both elbows to his body, that is his win, and you start over. Roles switch after every win."
@@ -110,7 +110,7 @@
           "start": "The bottom player is on his back. The top player is chest to chest, both arms under both of the bottom player's elbows.",
           "text": "Top player: stay under the bottom player's elbows, keeping them away from his body. Bottom player: get both elbows to touch your body, or make the top player fall over.",
           "win": [
-            { "role": "The top player", "text": "has no time limit. He wins by keeping the elbows away from the body the whole time." },
+            { "role": "The top player", "text": "wins by keeping the elbows away from the body the whole time." },
             { "role": "The bottom player", "text": "wins by bringing both elbows to his body, or by making the top player fall." }
           ],
           "reset": "The top player holds no matter what. If the bottom player gets both elbows to his body, that is his win, and you start over. Roles switch after every win."
@@ -154,7 +154,7 @@
           "start": "The bottom player is on his back. The top player is in mount with both arms under both of the bottom player's elbows.",
           "text": "Top player: stay under at least one elbow the whole round. If you lose one, fight to get it back. Bottom player: get both elbows to touch your own body with nothing under them, or make the top player fall over.",
           "win": [
-            { "role": "The top player", "text": "has no time limit. He holds as long as he keeps at least one elbow covered." },
+            { "role": "The top player", "text": "holds as long as he keeps at least one elbow covered." },
             { "role": "The bottom player", "text": "wins by touching both elbows to his body, or by making the top player fall." }
           ],
           "reset": "The top player holds no matter what. If he loses both elbows, that is the bottom player's win, and you start over. Roles switch after every win."
@@ -199,7 +199,7 @@
           "start": "The bottom player is on his hands and knees. The top player is on top with open hands around the bottom player's hips.",
           "text": "Top player: stay attached to the hips, break the bottom player down, and stop him from standing. Bottom player: build your base, fight to your feet, and turn to face the top player.",
           "win": [
-            { "role": "The top player", "text": "has no time limit. He holds as long as he keeps the bottom player broken down." },
+            { "role": "The top player", "text": "holds as long as he keeps the bottom player broken down." },
             { "role": "The bottom player", "text": "wins by standing up and turning to face the top player." }
           ],
           "reset": "The top player holds no matter what. If the bottom player stands and turns to face him, that is his win, and you start over. Roles switch after every win."
@@ -244,7 +244,7 @@
           "start": "The defender is on his elbows and knees. The attacker is behind him, hands locked around his waist.",
           "text": "Attacker: keep the defender belly down, using knee-to-knee and foot-to-foot blocking to pull his hips to the mat. Defender: rise to a quad pod, both knees and both elbows off the floor.",
           "win": [
-            { "role": "The attacker", "text": "has no time limit. He holds as long as he keeps the defender belly down." },
+            { "role": "The attacker", "text": "holds as long as he keeps the defender belly down." },
             { "role": "The defender", "text": "wins by reaching a quad pod." }
           ],
           "reset": "The attacker holds no matter what. If the defender reaches a quad pod, that is his win, and you start over. Roles switch after every win."
@@ -290,7 +290,7 @@
           "start": "The bottom player is on his back. The top player covers his head with a figure-four grip, one hand on the wrist, the other arm under the elbow.",
           "text": "Top player: keep the figure-four grip and stay under at least one elbow while keeping the bottom player pinned. Bottom player: break the grip by freeing your arms and getting your elbows to your body.",
           "win": [
-            { "role": "The top player", "text": "has no time limit. He holds as long as he keeps the grip." },
+            { "role": "The top player", "text": "holds as long as he keeps the grip." },
             { "role": "The bottom player", "text": "wins by breaking the grip." }
           ],
           "reset": "The top player holds no matter what. If the bottom player breaks the grip, that is his win, and you start over. Roles switch after every win."
@@ -335,7 +335,7 @@
           "start": "The bottom player is on his back. The top player covers his head with a figure-four grip, one hand on the wrist, the other arm under the elbow.",
           "text": "Top player: keep the figure-four grip and stay under at least one elbow while keeping the bottom player pinned. Bottom player: break the grip by freeing your arms and getting your elbows to your body.",
           "win": [
-            { "role": "The top player", "text": "has no time limit. He holds as long as he keeps the grip." },
+            { "role": "The top player", "text": "holds as long as he keeps the grip." },
             { "role": "The bottom player", "text": "wins by breaking the grip." }
           ],
           "reset": "The top player holds no matter what. If the bottom player breaks the grip, that is his win, and you start over. Roles switch after every win."
@@ -381,7 +381,7 @@
           "text": "Top player: bring the bottom player's arm to his head and trap it there, staying under at least one elbow the whole time. Bottom player: bring the trapped elbow back to your body with nothing between it, or make the top player fall over.",
           "win": [
             { "role": "The top player", "text": "wins with the arm trapped at the head." },
-            { "role": "The bottom player", "text": "wins by touching that elbow to his body, or by making the top player fall." }
+            { "role": "The bottom player", "text": "wins by touching that elbow to his body." }
           ],
           "reset": "The win is the trap, not the strangle. No finish is shown. The tap is honored instantly, every time. Roles switch after every win.",
           "note": "The win here is the trap, not the finish. No finish is demonstrated."
@@ -506,7 +506,7 @@
           "start": "The bottom player is on his back, feet hooked between the top player's knees, one hand on his ankle. The top player is standing.",
           "text": "Bottom player: keep both feet hooked and at least one hand on the top player at all times, switching feet as needed. Top player: get both feet to the outside of the bottom player's legs and touch his body with a shin.",
           "win": [
-            { "role": "The bottom player", "text": "has no time limit. He holds as long as he keeps the connection." },
+            { "role": "The bottom player", "text": "holds as long as he keeps the connection." },
             { "role": "The top player", "text": "wins by getting outside both legs and making shin-to-body contact." }
           ],
           "reset": "The bottom player holds no matter what. If the top player gets outside and connects, that is his win, and you start over. Roles switch after every win."
@@ -518,7 +518,7 @@
           "start": "The bottom player is on his back. The top player is chest to chest, both arms under both of the bottom player's elbows.",
           "text": "Top player: keep both elbows away from the bottom player's body, using any body part in place of your arms if you need to. Bottom player: get both elbows back to touch your own body, or make the top player fall over.",
           "win": [
-            { "role": "The top player", "text": "has no time limit. He holds as long as he keeps both elbows covered." },
+            { "role": "The top player", "text": "holds as long as he keeps both elbows covered." },
             { "role": "The bottom player", "text": "wins by getting both elbows to touch his body, or by making the top player fall." }
           ],
           "reset": "The top player holds no matter what. If the bottom player gets both elbows to his body, that is his win, and you start over. Roles switch after every win."

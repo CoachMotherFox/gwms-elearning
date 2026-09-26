@@ -46,12 +46,7 @@
           "type": "text-image",
           "eyebrow": "Session 16 · Today's question",
           "title": "What do you do when someone pushes back?",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the games."
-            }
-          ]
+          "body": []
         },
         {
           "id": "s16-games",
@@ -60,25 +55,9 @@
           "title": "The three games",
           "body": [
             {
-              "kind": "lead",
-              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
-            },
-            {
               "kind": "heading",
               "level": 3,
               "text": "Underhook Introduction Game"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Skill Learning Objective (SLO): Entering, for both players."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Both players stand. The underhook player has an underhook. The overhook player counters with an overhook."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Underhook player: use the underhook to move your partner and attach to a single leg, then pick it up. Overhook player: use the overhook to keep him away from that leg."
             },
             {
               "kind": "list",
@@ -93,18 +72,6 @@
               "text": "Post and Hook Destabilization Game"
             },
             {
-              "kind": "paragraph",
-              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Open guard. The bottom player is on his back. The top player is standing or kneeling in front of him."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Bottom player: use only posts and hooks, no leg entanglements and no attaching to the hips, to put the top player's hips on the floor. Top player: do not get put down. Work to pass or keep the top position."
-            },
-            {
               "kind": "list",
               "items": [
                 "The bottom player wins by putting the top player's hips on the floor using only posts and hooks.",
@@ -117,21 +84,9 @@
               "text": "Riding Bottom Position Game"
             },
             {
-              "kind": "paragraph",
-              "text": "SLO: Controlling for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The bottom player is on his hands and knees. The top player is on top with open hands around the bottom player's hips."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Top player: stay attached to the hips, break the bottom player down, and stop him from standing. Bottom player: build your base, fight to your feet, and turn to face the top player."
-            },
-            {
               "kind": "list",
               "items": [
-                "The top player has no time limit. He holds as long as he keeps the bottom player broken down.",
+                "The top player holds as long as he keeps the bottom player broken down.",
                 "The bottom player wins by standing up and turning to face the top player."
               ]
             }
@@ -146,29 +101,24 @@
             "role": "formative",
             "scored": false
           },
-          "question": "In Riding Bottom Position Game, what wins it for the top player?",
+          "question": "Riding Bottom Position Game: what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "The top player has no time limit. He holds as long as he keeps the bottom player broken down.",
+              "text": "The top player holds as long as he keeps the bottom player broken down.",
               "correct": true,
-              "feedback": "That is the win condition, and nothing else scores."
+              "feedback": "That's it."
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant your partner taps. Every single time. The tap is law."
+              "feedback": "Never. Let go the instant he taps."
             },
             {
               "text": "Overpowering your partner with force",
-              "feedback": "You keep the pin by feeling your partner and moving with them, not by clamping down and squeezing hard. Staying calm beats forcing harder."
+              "feedback": "Staying calm beats forcing harder."
             }
-          ],
-          "correctHead": "That's it.",
-          "correctText": "That is how you win today.",
-          "incorrectHead": "Not quite.",
-          "incorrectText": "Read the note under your choice, then try again.",
-          "revealText": "The right answer is marked above, with the reason."
+          ]
         }
       ]
     },
@@ -185,10 +135,6 @@
             {
               "kind": "lead",
               "text": "Pushback is normal. Your response to it is a choice, not a reflex you're stuck with."
-            },
-            {
-              "kind": "paragraph",
-              "text": "A partner resisting the pin is pushback made physical. What you do when they fight the pin is usually what you do when people push back in life. Both reward staying calm and adjusting over forcing harder."
             }
           ]
         },
@@ -198,7 +144,7 @@
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What do you do when someone pushes back?",
-          "hint": "Nothing here is graded. Answer this on your own. A few words is plenty.",
+          "hint": "On your own. Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -206,7 +152,7 @@
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session, on your own",
+          "kindLabel": "IRF, on your own",
           "fields": [
             {
               "id": "mat",
@@ -226,13 +172,7 @@
           "submit": true,
           "sendLabel": "Send it",
           "reflectionFrom": "s16-reflection",
-          "body": [
-            {
-              "kind": "callout",
-              "label": "Next session",
-              "text": "Session 17: Can you stay present when it gets uncomfortable?"
-            }
-          ],
+          "body": [],
           "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]

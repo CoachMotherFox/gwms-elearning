@@ -48,12 +48,7 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
           "type": "text-image",
           "eyebrow": "Session 11 · Today's question",
           "title": "What part of you have you been hiding, even from yourself?",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the games."
-            }
-          ]
+          "body": []
         },
         {
           "id": "s11-games",
@@ -62,25 +57,9 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
           "title": "The three games",
           "body": [
             {
-              "kind": "lead",
-              "text": "Three games tonight: standing, guarded, pinned. Win one and the next round gets harder. Lose it and you run the same one again."
-            },
-            {
               "kind": "heading",
               "level": 3,
               "text": "Hand Fight with Precondition Game"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Skill Learning Objective (SLO): Entering, for both players."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Both players stand facing each other, not gripped, starting to hand fight."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Collect three touches. A touch is a hand behind your partner's knee or an underhook. Any mix counts. Only after three touches can you try for a closed-hand connection."
             },
             {
               "kind": "list",
@@ -92,18 +71,6 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
               "kind": "heading",
               "level": 3,
               "text": "Side Half Guard, Clear Hands to Get Under Elbow"
-            },
-            {
-              "kind": "paragraph",
-              "text": "SLO: Arriving for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The bottom player is on his side in half guard, hands fully out on the top player. The top player is inside."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Top player: clear the bottom player's hands and get under one or both elbows, then connect your hands. Bottom player: keep your hands on the top player to deny that spot, and close your legs around his waist."
             },
             {
               "kind": "list",
@@ -118,21 +85,9 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
               "text": "Introductory Pin Game"
             },
             {
-              "kind": "paragraph",
-              "text": "SLO: Controlling for the top player, Leaving for the bottom player."
-            },
-            {
-              "kind": "paragraph",
-              "text": "The bottom player is on his back. The top player is chest to chest on top of him."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Top player: hold chest to chest and keep the bottom player there. Bottom player: push the top player off and get your legs back in front."
-            },
-            {
               "kind": "list",
               "items": [
-                "The top player has no time limit. He holds the pin.",
+                "The top player holds the pin.",
                 "The bottom player wins by pushing the top player off and getting his legs back in front."
               ]
             }
@@ -147,29 +102,24 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Introductory Pin Game, what wins it for the top player?",
+          "question": "Introductory Pin Game: what wins it for the top player?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "The top player has no time limit. He holds the pin.",
+              "text": "The top player holds the pin.",
               "correct": true,
-              "feedback": "That is the win condition, and nothing else scores."
+              "feedback": "That's it."
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not part of the Paths yet. Entering and Arriving are the two steps here, and neither one ends in a finish. The path leads you into a pin, not a finish."
+              "feedback": "Not tonight. These games end in a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
-              "feedback": "Never. Everyone goes light, and the tap always stops it right away, every time."
+              "feedback": "Never. Everyone goes light."
             }
-          ],
-          "correctHead": "That's it.",
-          "correctText": "That is how you win today.",
-          "incorrectHead": "Not quite.",
-          "incorrectText": "Read the note under your choice, then try again.",
-          "revealText": "The right answer is marked above, with the reason."
+          ]
         }
       ]
     },
@@ -186,10 +136,6 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
             {
               "kind": "lead",
               "text": "Naming the hidden part, even silently, is the bravest thing the mat asks of you."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Arriving past the guard puts you in touch with what was most protected. Naming the shadow does the same thing inside you. Both reach the thing that was hidden deepest."
             }
           ]
         },
@@ -199,7 +145,7 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What part of you have you been hiding, even from yourself?",
-          "hint": "You do not have to write anything here. On your own, just look at it yourself. That is the whole task.",
+          "hint": "On your own. Just look at it. Nothing to write.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -207,7 +153,7 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session, on your own",
+          "kindLabel": "IRF, on your own",
           "fields": [
             {
               "id": "mat",
@@ -227,13 +173,7 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
           "submit": true,
           "sendLabel": "Send it",
           "reflectionFrom": "s11-reflection",
-          "body": [
-            {
-              "kind": "callout",
-              "label": "Next session",
-              "text": "Session 12: If the mask came off in here, who would we meet?"
-            }
-          ],
+          "body": [],
           "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]
