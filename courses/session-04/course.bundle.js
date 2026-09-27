@@ -120,6 +120,34 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
               "feedback": "Never. Everyone goes light."
             }
           ]
+        },
+        {
+          "id": "s04-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You've already got two grips on your partner during the hand fight. What's the smart next move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Chain those two grips into the underhook.",
+              "feedback": "Right. Chaining your grips into the underhook is building toward something, not just performing for the room.",
+              "correct": true
+            },
+            {
+              "text": "Drop both grips and start the fight over.",
+              "feedback": "Don't reset a hand fight you're already winning."
+            },
+            {
+              "text": "Hold the two grips and wait there.",
+              "feedback": "Holding still here stalls you. Keep chaining toward the underhook."
+            }
+          ]
         }
       ]
     },

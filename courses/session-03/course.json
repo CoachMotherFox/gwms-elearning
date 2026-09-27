@@ -118,6 +118,34 @@
               "feedback": "Never. Everyone goes light."
             }
           ]
+        },
+        {
+          "id": "s03-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You're hand fighting and you've already got a grip on your partner's wrist. What's the smart next move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Use that grip to collect your touches.",
+              "feedback": "Right. Working from a grip you already hold is how you build trust step by step, not all at once.",
+              "correct": true
+            },
+            {
+              "text": "Drop the grip and look for a new one.",
+              "feedback": "Don't give up a grip you've already earned."
+            },
+            {
+              "text": "Freeze and hope he touches first.",
+              "feedback": "Freezing gives him the round. Keep working your grip."
+            }
+          ]
         }
       ]
     },

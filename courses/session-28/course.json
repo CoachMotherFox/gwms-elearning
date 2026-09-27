@@ -118,6 +118,34 @@
               "feedback": "That is the one thing you never do."
             }
           ]
+        },
+        {
+          "id": "s28-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You're moving your partner using only touches to his wrist, elbow, or head. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Keep every touch on the wrist, elbow, or head.",
+              "feedback": "Right. Gripping on purpose, not grabbing anywhere, is the same as giving something that actually helps, not just anything.",
+              "correct": true
+            },
+            {
+              "text": "Touch anywhere on his body to move him.",
+              "feedback": "Touching anywhere breaks the rule and stalls your progress."
+            },
+            {
+              "text": "Grab his leg to move him faster.",
+              "feedback": "Grabbing the leg isn't your job here. Stay on wrist, elbow, or head."
+            }
+          ]
         }
       ]
     },

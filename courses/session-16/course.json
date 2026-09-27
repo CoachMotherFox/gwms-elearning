@@ -119,6 +119,34 @@
               "feedback": "Staying calm beats forcing harder."
             }
           ]
+        },
+        {
+          "id": "s16-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You're riding your partner, and he starts fighting hard to stand up. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Block his hips down with knee and foot.",
+              "feedback": "Right. Staying calm and blocking beats forcing harder, the same way you handle pushback anywhere else.",
+              "correct": true
+            },
+            {
+              "text": "Force him down harder with your whole body.",
+              "feedback": "Forcing harder burns you out faster than it works."
+            },
+            {
+              "text": "Back off and reset your position from scratch.",
+              "feedback": "Backing off gives up ground. Block with knee and foot instead."
+            }
+          ]
         }
       ]
     },

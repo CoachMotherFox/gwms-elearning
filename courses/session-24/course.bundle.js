@@ -120,6 +120,34 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
               "feedback": "Staying calm beats forcing harder."
             }
           ]
+        },
+        {
+          "id": "s24-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You've got a figure-four grip, and more than one finish looks open. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Take whichever finish the position gives you first.",
+              "feedback": "Right. Taking whatever repair the moment gives you, in any order, is how real repair actually works.",
+              "correct": true
+            },
+            {
+              "text": "Stick to one fixed sequence no matter what.",
+              "feedback": "A fixed sequence ignores what the position is actually giving you."
+            },
+            {
+              "text": "Pause and plan out every step first.",
+              "feedback": "Pausing to plan loses the position. Take what's open now."
+            }
+          ]
         }
       ]
     },

@@ -119,6 +119,34 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
               "feedback": "That is the one thing you never do."
             }
           ]
+        },
+        {
+          "id": "s35-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "Your palm has just touched your partner's back, building toward the finish. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Lock your wrist into your elbow right there.",
+              "feedback": "Right. Finishing clean, from the person you built, is the return itself.",
+              "correct": true
+            },
+            {
+              "text": "Pull back and look for a different angle.",
+              "feedback": "Pulling back loses the exact spot you already found."
+            },
+            {
+              "text": "Wait and let your partner move first.",
+              "feedback": "Waiting stalls the finish. Lock your wrist in now."
+            }
+          ]
         }
       ]
     },

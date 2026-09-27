@@ -120,6 +120,34 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
               "feedback": "That is the one thing you never do."
             }
           ]
+        },
+        {
+          "id": "s30-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You've got an overhook, and you've just made foot-to-foot contact with your partner. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Stick that foot and pull for the sweep.",
+              "feedback": "Right. Using your strength to sweep him is power aimed at winning position, not at hurting him.",
+              "correct": true
+            },
+            {
+              "text": "Let go of the foot contact and reset.",
+              "feedback": "Letting go here gives up ground you just built."
+            },
+            {
+              "text": "Grab for his head instead of his foot.",
+              "feedback": "Grabbing for the head skips the setup you already have."
+            }
+          ]
         }
       ]
     },

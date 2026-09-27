@@ -119,6 +119,34 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
               "feedback": "That is the one thing you never do."
             }
           ]
+        },
+        {
+          "id": "s34-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You've held chest-to-back contact, and a shoulder-control position looks open. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Move to shoulder control without losing the pin.",
+              "feedback": "Right. Moving forward without losing what you built is counting the cost and the gain, both at once.",
+              "correct": true
+            },
+            {
+              "text": "Let the pin go to grab the shoulder faster.",
+              "feedback": "Letting go here loses everything you already built."
+            },
+            {
+              "text": "Stay on the hips and skip the shoulder entirely.",
+              "feedback": "Staying still here leaves progress on the table."
+            }
+          ]
         }
       ]
     },

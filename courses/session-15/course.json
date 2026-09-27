@@ -118,6 +118,34 @@
               "feedback": "Staying calm beats forcing harder."
             }
           ]
+        },
+        {
+          "id": "s15-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You're in mount, staying under one of your partner's elbows while he fights to free it. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Keep fighting to stay under that same elbow.",
+              "feedback": "Right. Staying honest under pressure is rolling as the real you, not a performance.",
+              "correct": true
+            },
+            {
+              "text": "Switch elbows early and let this one go.",
+              "feedback": "Switching early gives up ground you're already holding."
+            },
+            {
+              "text": "Sit back and let him work it free.",
+              "feedback": "Sitting back gives the elbow away. Keep fighting to stay under it."
+            }
+          ]
         }
       ]
     },

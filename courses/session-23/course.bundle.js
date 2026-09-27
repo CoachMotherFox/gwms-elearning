@@ -121,6 +121,34 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
               "feedback": "Staying calm beats forcing harder."
             }
           ]
+        },
+        {
+          "id": "s23-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "Your partner is standing to pass, and your feet are still hooked on him. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Keep both feet hooked on him no matter what.",
+              "feedback": "Right. Staying connected under pressure is commitment made physical, the same choice as staying when leaving is easier.",
+              "correct": true
+            },
+            {
+              "text": "Let your feet go and scramble up to stand.",
+              "feedback": "Letting go here gives up your only connection."
+            },
+            {
+              "text": "Hold still and hope he stops moving.",
+              "feedback": "Hoping doesn't hold guard. Keep your feet hooked on him."
+            }
+          ]
         }
       ]
     },

@@ -118,6 +118,34 @@
               "feedback": "That is the one thing you never do."
             }
           ]
+        },
+        {
+          "id": "s32-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You've got chest-to-back contact, and you want to move toward a finishing position. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Shift toward shoulder control without losing the pin.",
+              "feedback": "Right. Moving forward without losing what you hold sets the standard for whoever watches you.",
+              "correct": true
+            },
+            {
+              "text": "Let go of the pin to reach the shoulder.",
+              "feedback": "Letting go here gives up the whole position."
+            },
+            {
+              "text": "Stay locked on the hips and go no further.",
+              "feedback": "Staying still here stalls your progress toward the finish."
+            }
+          ]
         }
       ]
     },

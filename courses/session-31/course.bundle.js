@@ -119,6 +119,34 @@ window.GWMS_COURSE_BUNDLE["session-31"] =
               "feedback": "That is the one thing you never do."
             }
           ]
+        },
+        {
+          "id": "s31-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You're building a strangle from behind, and your palm has just touched your partner's back. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Lock your wrist into your own elbow from there.",
+              "feedback": "Right. Finishing it clean is what people remember, the legacy you leave in how you finish.",
+              "correct": true
+            },
+            {
+              "text": "Pull your hand back and grab his shoulder instead.",
+              "feedback": "Pulling back loses the exact spot you just found."
+            },
+            {
+              "text": "Wait there and let him move first.",
+              "feedback": "Waiting here stalls the finish. Lock your wrist in now."
+            }
+          ]
         }
       ]
     },

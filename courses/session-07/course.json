@@ -119,6 +119,34 @@
               "feedback": "Never. Everyone goes light."
             }
           ]
+        },
+        {
+          "id": "s07-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You're opening your partner's closed guard, and your hands drift up toward his head. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Keep your hands on his hips and knees.",
+              "feedback": "Right. Staying on the legs is what opens the guard, the same way pressure is what cracks the mask.",
+              "correct": true
+            },
+            {
+              "text": "Reach for his head to control it.",
+              "feedback": "Reaching for the head stalls the guard, not opens it."
+            },
+            {
+              "text": "Pull both hands back and reset your grip.",
+              "feedback": "Resetting here loses your progress. Stay on the legs."
+            }
+          ]
         }
       ]
     },

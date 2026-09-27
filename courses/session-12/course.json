@@ -118,6 +118,34 @@
               "feedback": "Never. Everyone goes light."
             }
           ]
+        },
+        {
+          "id": "s12-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You're riding your partner from on top, hands on his hips, and he's trying to stand. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Block his hips down with knee and foot.",
+              "feedback": "Right. Blocking his hips down is the same discipline that got you from arrival all the way to who you are now.",
+              "correct": true
+            },
+            {
+              "text": "Grab for a choke and forget his hips.",
+              "feedback": "Chasing a finish here lets him stand up free."
+            },
+            {
+              "text": "Push down with your chest and stop moving.",
+              "feedback": "Leaning your chest doesn't block hips. Use your knee and foot."
+            }
+          ]
         }
       ]
     },

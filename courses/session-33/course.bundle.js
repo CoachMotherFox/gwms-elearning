@@ -119,6 +119,34 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
               "feedback": "That is the one thing you never do."
             }
           ]
+        },
+        {
+          "id": "s33-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You're working from closed guard, and you've just caused your partner to post his hand on the mat. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Take the underhook, then lock your hands around him.",
+              "feedback": "Right. Causing the post, then the underhook, then the lock, in order, is exactly what a newer partner learns from watching you build it.",
+              "correct": true
+            },
+            {
+              "text": "Grab for a submission before the post settles.",
+              "feedback": "Rushing the finish here skips the setup you just earned."
+            },
+            {
+              "text": "Let go and hand fight from scratch again.",
+              "feedback": "Starting over gives away the post you already caused."
+            }
+          ]
         }
       ]
     },

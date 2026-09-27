@@ -120,6 +120,34 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
               "feedback": "Staying calm beats forcing harder."
             }
           ]
+        },
+        {
+          "id": "s13-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You're holding a chest-to-chest pin, and it would be easy to just lean your weight down. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Hold the pin without leaning your weight on him.",
+              "feedback": "Right. Holding without crushing him is what real contact feels like when you stay present instead of pushing away.",
+              "correct": true
+            },
+            {
+              "text": "Lean your full weight down to hold him still.",
+              "feedback": "Leaning your weight isn't the pin, and it isn't real contact either."
+            },
+            {
+              "text": "Back off the pin and re-grip from farther away.",
+              "feedback": "Backing off loses contact completely. Hold steady without leaning."
+            }
+          ]
         }
       ]
     },

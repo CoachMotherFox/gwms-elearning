@@ -121,6 +121,34 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
               "feedback": "Staying calm beats forcing harder."
             }
           ]
+        },
+        {
+          "id": "s18-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You've got a figure-four grip locked from under your partner's elbow. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Keep the grip locked from under his elbow.",
+              "feedback": "Right. Holding it there is control without harm, honest friction instead of forcing something.",
+              "correct": true
+            },
+            {
+              "text": "Slide the grip up onto his shoulder instead.",
+              "feedback": "Sliding up loses the grip you already built."
+            },
+            {
+              "text": "Loosen the grip to let him breathe easier.",
+              "feedback": "Loosening the grip gives the position away for nothing."
+            }
+          ]
         }
       ]
     },

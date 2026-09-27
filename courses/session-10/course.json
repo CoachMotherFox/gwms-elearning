@@ -119,6 +119,34 @@
               "feedback": "Never. Everyone goes light."
             }
           ]
+        },
+        {
+          "id": "s10-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You've got an underhook and a grip on your partner's head. What's the smart next move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Use that grip as a waypoint to his waist.",
+              "feedback": "Right. Treating it as a waypoint gets you to what's underneath, the same way passing gets past the mask.",
+              "correct": true
+            },
+            {
+              "text": "Stay locked on the head grip and hold there.",
+              "feedback": "Stopping at the head grip stalls your progress toward the waist."
+            },
+            {
+              "text": "Release the grip and start the hand fight over.",
+              "feedback": "Releasing here gives up ground you already earned."
+            }
+          ]
         }
       ]
     },

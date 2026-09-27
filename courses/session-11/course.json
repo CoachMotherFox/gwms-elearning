@@ -118,6 +118,34 @@
               "feedback": "Never. Everyone goes light."
             }
           ]
+        },
+        {
+          "id": "s11-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You're hand fighting and you've already collected two of your three touches. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Keep working from the grip you already have.",
+              "feedback": "Right. Working from what you already hold is how you reach the part of yourself you keep hidden.",
+              "correct": true
+            },
+            {
+              "text": "Let go and search for a totally new grip.",
+              "feedback": "Searching for something new here wastes ground you've already won."
+            },
+            {
+              "text": "Stop and wait to see what he tries.",
+              "feedback": "Waiting here stalls your count. Keep working your grip."
+            }
+          ]
         }
       ]
     },

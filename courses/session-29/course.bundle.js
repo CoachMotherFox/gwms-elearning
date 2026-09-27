@@ -120,6 +120,34 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
               "feedback": "That is the one thing you never do."
             }
           ]
+        },
+        {
+          "id": "s29-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You've worked behind your partner and locked your hands around his hips. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Stay beside his hips, not straight behind him.",
+              "feedback": "Right. Positioning smart instead of taking the easy grab is giving that actually costs you something.",
+              "correct": true
+            },
+            {
+              "text": "Move straight behind him and squeeze harder.",
+              "feedback": "Going straight behind here is easier to escape."
+            },
+            {
+              "text": "Let go and re-enter from the front again.",
+              "feedback": "Letting go gives up ground you already earned."
+            }
+          ]
         }
       ]
     },

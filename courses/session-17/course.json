@@ -119,6 +119,34 @@
               "feedback": "Staying calm beats forcing harder."
             }
           ]
+        },
+        {
+          "id": "s17-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "Your partner has passed your legs, and staying close feels uncomfortable. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Stay close and work your legs back in.",
+              "feedback": "Right. Staying inside the discomfort is the same skill as staying in a hard conversation.",
+              "correct": true
+            },
+            {
+              "text": "Scramble away to get space and reset.",
+              "feedback": "Scrambling out gives up your position for nothing."
+            },
+            {
+              "text": "Freeze in place and wait for an opening.",
+              "feedback": "Freezing here loses ground. Stay close and work your legs back."
+            }
+          ]
         }
       ]
     },

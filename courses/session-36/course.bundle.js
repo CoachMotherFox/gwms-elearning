@@ -119,6 +119,34 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
               "feedback": "That is the one thing you never do."
             }
           ]
+        },
+        {
+          "id": "s36-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You and your partner are locked in an over-under tie on the very last roll. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Fight to close your hands under his elbows.",
+              "feedback": "Right. Closing the connection clean, on the last roll, is exactly what you carry out the door with you.",
+              "correct": true
+            },
+            {
+              "text": "Let go and grab a totally different hold.",
+              "feedback": "Letting go here gives away the tie you already have."
+            },
+            {
+              "text": "Hold still and wait for him to move.",
+              "feedback": "Waiting here loses ground. Keep fighting to close your hands."
+            }
+          ]
         }
       ]
     },

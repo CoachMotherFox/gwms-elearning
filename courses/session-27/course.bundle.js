@@ -120,6 +120,34 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
               "feedback": "That is the one thing you never do."
             }
           ]
+        },
+        {
+          "id": "s27-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You're passing half guard, and you've already cleared your partner's feet. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Clear the knees next, then work to the hips.",
+              "feedback": "Right. Clearing it in order is one exact thing you couldn't do before, and now you can.",
+              "correct": true
+            },
+            {
+              "text": "Skip ahead and reach straight for the hips.",
+              "feedback": "Skipping the order here usually costs you the pass."
+            },
+            {
+              "text": "Stop and reset back to the feet again.",
+              "feedback": "Resetting here wastes ground you've already cleared."
+            }
+          ]
         }
       ]
     },

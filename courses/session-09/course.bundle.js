@@ -121,6 +121,34 @@ window.GWMS_COURSE_BUNDLE["session-09"] =
               "feedback": "Never. Everyone goes light."
             }
           ]
+        },
+        {
+          "id": "s09-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You've got both hands locked around your partner's leg, and he's trying to pull away. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Keep moving him while staying on the leg.",
+              "feedback": "Right. Staying attached while he moves is the same as noticing the sign you give off before it runs the show.",
+              "correct": true
+            },
+            {
+              "text": "Let go of the leg and reset your stance.",
+              "feedback": "Letting go here gives the leg back for nothing."
+            },
+            {
+              "text": "Freeze in place and grip as hard as possible.",
+              "feedback": "Freezing in place lets him escape. Keep moving him instead."
+            }
+          ]
         }
       ]
     },

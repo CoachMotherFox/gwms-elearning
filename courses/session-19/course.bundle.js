@@ -121,6 +121,34 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
               "feedback": "Staying calm beats forcing harder."
             }
           ]
+        },
+        {
+          "id": "s19-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "Your partner just passed your legs, and your connection to him is gone. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Get a new connection back right away.",
+              "feedback": "Right. Getting the connection back fast is how you survive a break instead of staying stuck in it.",
+              "correct": true
+            },
+            {
+              "text": "Wait for the right moment before reconnecting.",
+              "feedback": "Waiting here lets the pass finish completely."
+            },
+            {
+              "text": "Give up the position and start standing.",
+              "feedback": "Standing up abandons ground. Get your connection back first."
+            }
+          ]
         }
       ]
     },

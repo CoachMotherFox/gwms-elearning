@@ -118,6 +118,34 @@
               "feedback": "Never. Everyone goes light."
             }
           ]
+        },
+        {
+          "id": "s02-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You and your partner are locked in an over-under tie, one arm over, one arm under, on both sides. What's the smart next move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Fight to close your hands under his elbows.",
+              "feedback": "That's the connection. Closing your hands under his elbows is how you arrive for real, not just show up.",
+              "correct": true
+            },
+            {
+              "text": "Let go and grab a fresh new hold.",
+              "feedback": "Don't drop a good tie. Keep fighting from where you already are."
+            },
+            {
+              "text": "Hold still and wait for him to move.",
+              "feedback": "Waiting here loses ground. Keep working to close your hands."
+            }
+          ]
         }
       ]
     },

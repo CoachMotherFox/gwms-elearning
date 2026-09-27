@@ -119,6 +119,34 @@
               "feedback": "Never. Everyone goes light."
             }
           ]
+        },
+        {
+          "id": "s05-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You're hand fighting for the underhook, and your hands keep landing in different spots. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Grip his wrist, elbow, or head on purpose.",
+              "feedback": "Good. Gripping on purpose is a learned move, the same way your mask was learned somewhere too.",
+              "correct": true
+            },
+            {
+              "text": "Grab wherever your hands happen to land.",
+              "feedback": "Grabbing at random wastes the position. Grip on purpose instead."
+            },
+            {
+              "text": "Keep your hands off him and circle.",
+              "feedback": "Staying disconnected loses the hand fight. Get a grip on purpose."
+            }
+          ]
         }
       ]
     },

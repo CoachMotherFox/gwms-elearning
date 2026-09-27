@@ -119,6 +119,34 @@
               "feedback": "Staying calm beats forcing harder."
             }
           ]
+        },
+        {
+          "id": "s14-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You're holding a chest-to-chest pin, and your partner is fighting to pull one elbow free. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Stay under the elbow, or get back under fast.",
+              "feedback": "Right. Staying under the elbow is what keeps the pin alive, the same dial you turn to let someone in.",
+              "correct": true
+            },
+            {
+              "text": "Let the elbow go and grab his wrist instead.",
+              "feedback": "That gives up the pin completely. Stay under the elbow."
+            },
+            {
+              "text": "Push down harder with your whole body weight.",
+              "feedback": "Leaning your weight isn't the pin. Stay under the elbow."
+            }
+          ]
         }
       ]
     },

@@ -31,7 +31,7 @@
       }
     ],
     "connection": "Twelve weeks ago, you could not hold this position at all. Now you can. That is proof of change you can feel. Naming what is different in you works the same way. Real change is something you can show, not just say.",
-    "takeaway": "Tonight you worked from the hand fight, open guard, and back control. Since Session 1 you could not hold these positions at all, and now you can. That is proof of change you can feel in your body, not just say out loud. You get to name exactly what changed and show it.",
+    "takeaway": "Tonight you worked from the hand fight, open guard, and back control. At Session 1 you could not hold these positions. Now you can. That is proof of change you can feel in your body, not just say out loud. You get to name exactly what changed and show it.",
     "_source": "GWMS Curriculum Guide — Session 25 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -117,6 +117,34 @@
               "feedback": "That is the one thing you never do."
             }
           ]
+        },
+        {
+          "id": "s25-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You've got your partner's back, and he keeps turning to escape. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Follow his turn and keep your hands connected.",
+              "feedback": "Right. Following without letting go is proof of change you can feel, not just say.",
+              "correct": true
+            },
+            {
+              "text": "Let go and reset your grip from scratch.",
+              "feedback": "Resetting here gives up ground you already hold."
+            },
+            {
+              "text": "Hold still and wait for him to stop turning.",
+              "feedback": "Waiting here loses the back. Follow his turn instead."
+            }
+          ]
         }
       ]
     },
@@ -132,7 +160,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from the hand fight, open guard, and back control. Since Session 1 you could not hold these positions at all, and now you can. That is proof of change you can feel in your body, not just say out loud. You get to name exactly what changed and show it."
+              "text": "Tonight you worked from the hand fight, open guard, and back control. At Session 1 you could not hold these positions. Now you can. That is proof of change you can feel in your body, not just say out loud. You get to name exactly what changed and show it."
             }
           ]
         },

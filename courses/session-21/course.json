@@ -119,6 +119,34 @@
               "feedback": "Staying calm beats forcing harder."
             }
           ]
+        },
+        {
+          "id": "s21-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You're working toward an arm lock, and your partner's hands are still together. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Separate his hands and trap the arm in front.",
+              "feedback": "Right. Trapping your own piece of the position is like owning your own part of a break.",
+              "correct": true
+            },
+            {
+              "text": "Grab for the far arm instead of separating hands.",
+              "feedback": "Reaching for the far arm skips a step you need first."
+            },
+            {
+              "text": "Wait for him to move his hands himself.",
+              "feedback": "Waiting here stalls the position. Separate the hands yourself."
+            }
+          ]
         }
       ]
     },

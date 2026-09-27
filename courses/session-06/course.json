@@ -119,6 +119,34 @@
               "feedback": "Never. Everyone goes light."
             }
           ]
+        },
+        {
+          "id": "s06-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You're in mount, and your partner is fighting to pull his elbow free. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Stay under that elbow no matter what.",
+              "feedback": "Right. Staying under the elbow protects the position, the same way your mask protects something in you.",
+              "correct": true
+            },
+            {
+              "text": "Let the elbow go and grab his wrist.",
+              "feedback": "Letting the elbow go gives up the mount."
+            },
+            {
+              "text": "Sit back and wait for him to stop.",
+              "feedback": "Waiting here loses the elbow. Stay under it instead."
+            }
+          ]
         }
       ]
     },

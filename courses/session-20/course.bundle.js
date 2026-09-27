@@ -121,6 +121,34 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
               "feedback": "Staying calm beats forcing harder."
             }
           ]
+        },
+        {
+          "id": "s20-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You're building a strangle from your partner's back, and your arm has just touched him. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Keep that arm right where it landed.",
+              "feedback": "Keeping the arm in place takes patience. Fixing a break takes the same patience.",
+              "correct": true
+            },
+            {
+              "text": "Pull the arm back to make more space.",
+              "feedback": "Pulling back loses the finish you just started."
+            },
+            {
+              "text": "Switch your grip to his head instead.",
+              "feedback": "The finish starts on his back, not his head."
+            }
+          ]
         }
       ]
     },
