@@ -22,7 +22,7 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
     "games": [
       {
         "skill": "Entering",
-        "title": "Hand Fight with Dual Win Conditions"
+        "title": "Hand Fight with Dual Win Conditions – Week 11 Game 1"
       },
       {
         "skill": "Arriving",
@@ -30,7 +30,7 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
       },
       {
         "skill": "Finishing",
-        "title": "Figure Four, Reintroduction with Hand-to-Mat or Knuckles-Behind Win"
+        "title": "Figure Four — Reintroduction with Hand-to-Mat or Knuckles-Behind Win"
       }
     ],
     "connection": "Resetting and rolling clean with someone right after a hard round is like squaring up with words. A real apology is the same kind of reset: you get back in instead of carrying the grudge.",
@@ -59,7 +59,7 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Hand Fight with Dual Win Conditions"
+              "text": "Hand Fight with Dual Win Conditions – Week 11 Game 1"
             },
             {
               "kind": "list",
@@ -82,13 +82,13 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Figure Four, Reintroduction with Hand-to-Mat or Knuckles-Behind Win"
+              "text": "Figure Four — Reintroduction with Hand-to-Mat or Knuckles-Behind Win"
             },
             {
               "kind": "list",
               "items": [
-                "The top player wins by palm to mat or knuckles behind the back.",
-                "The bottom player wins by removing the figure four from under the elbow."
+                "The top player wins by putting the bottom player's palm on the mat, or his knuckles behind his back.",
+                "The bottom player wins by removing the figure four from under his own elbow."
               ]
             }
           ]
@@ -102,12 +102,12 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Figure Four, Reintroduction with Hand-to-Mat or Knuckles-Behind Win: what wins it for the top player?",
+          "question": "Figure Four — Reintroduction with Hand-to-Mat or Knuckles-Behind Win: the top player's win?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "The top player wins by palm to mat or knuckles behind the back.",
+              "text": "The top player wins by putting the bottom player's palm on the mat, or his knuckles behind his back.",
               "correct": true,
               "feedback": "That's it."
             },
@@ -145,7 +145,7 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What does it take for you to say sorry and mean it?",
-          "hint": "On your own. Not graded.",
+          "hint": "Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -153,19 +153,23 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF, on your own",
+          "kindLabel": "IRF",
           "fields": [
             {
-              "id": "mat",
-              "prompt": "What happened today on the mat?"
+              "id": "liked",
+              "prompt": "What did you like?"
             },
             {
-              "id": "worked",
-              "prompt": "What worked?"
+              "id": "disliked",
+              "prompt": "What did you not like?"
             },
             {
-              "id": "didnt",
-              "prompt": "What did not work?"
+              "id": "change",
+              "prompt": "What would you change?"
+            },
+            {
+              "id": "keep",
+              "prompt": "What would you keep?"
             }
           ],
           "requireAll": true,

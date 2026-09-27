@@ -26,11 +26,11 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
       },
       {
         "skill": "Arriving",
-        "title": "Closed Guard, Post to Underhook to Locked Hands"
+        "title": "Closed Guard — Post to Underhook to Locked Hands"
       },
       {
         "skill": "Controlling",
-        "title": "Mount, Stay Under Both Elbows"
+        "title": "Mount — Stay Under Both Elbows (Continuous)"
       }
     ],
     "connection": "The Descent found the real you. Now it goes to the mat with a partner. Rolling as the real you, instead of a mask, is the same as showing up honest in a relationship instead of performing one.",
@@ -70,7 +70,7 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Closed Guard, Post to Underhook to Locked Hands"
+              "text": "Closed Guard — Post to Underhook to Locked Hands"
             },
             {
               "kind": "list",
@@ -82,13 +82,13 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Mount, Stay Under Both Elbows"
+              "text": "Mount — Stay Under Both Elbows"
             },
             {
               "kind": "list",
               "items": [
-                "The top player holds as long as he keeps at least one elbow covered.",
-                "The bottom player wins by touching both elbows to his body, or by making the top player fall."
+                "The top player holds as long as he keeps one of the bottom player's elbows covered.",
+                "The bottom player wins by touching both elbows to his body, or making the top player fall."
               ]
             }
           ]
@@ -102,12 +102,12 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Mount, Stay Under Both Elbows: what wins it for the top player?",
+          "question": "Mount — Stay Under Both Elbows: the top player's win?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "The top player holds as long as he keeps at least one elbow covered.",
+              "text": "The top player holds as long as he keeps one of the bottom player's elbows covered.",
               "correct": true,
               "feedback": "That's it."
             },
@@ -145,7 +145,7 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "Who are you with other people, now that you've met yourself?",
-          "hint": "On your own. Not graded.",
+          "hint": "Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -153,19 +153,23 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF, on your own",
+          "kindLabel": "IRF",
           "fields": [
             {
-              "id": "mat",
-              "prompt": "What happened today on the mat?"
+              "id": "liked",
+              "prompt": "What did you like?"
             },
             {
-              "id": "worked",
-              "prompt": "What worked?"
+              "id": "disliked",
+              "prompt": "What did you not like?"
             },
             {
-              "id": "didnt",
-              "prompt": "What did not work?"
+              "id": "change",
+              "prompt": "What would you change?"
+            },
+            {
+              "id": "keep",
+              "prompt": "What would you keep?"
             }
           ],
           "requireAll": true,

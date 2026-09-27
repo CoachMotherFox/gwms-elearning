@@ -26,7 +26,7 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
       },
       {
         "skill": "Arriving",
-        "title": "Side Half Guard, Clear Hands to Get Under Elbow"
+        "title": "Side Half Guard — Clear Hands to Get Under Elbow"
       },
       {
         "skill": "Controlling",
@@ -70,7 +70,7 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Side Half Guard, Clear Hands to Get Under Elbow"
+              "text": "Side Half Guard — Clear Hands to Get Under Elbow"
             },
             {
               "kind": "list",
@@ -102,7 +102,7 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Introductory Pin Game: what wins it for the top player?",
+          "question": "Introductory Pin Game: the top player's win?",
           "select": "single",
           "retry": true,
           "options": [
@@ -145,7 +145,7 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What part of you have you been hiding, even from yourself?",
-          "hint": "On your own. Just look at it. Nothing to write.",
+          "hint": "Just look at it. Nothing to write.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -153,19 +153,23 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF, on your own",
+          "kindLabel": "IRF",
           "fields": [
             {
-              "id": "mat",
-              "prompt": "What happened today on the mat?"
+              "id": "liked",
+              "prompt": "What did you like?"
             },
             {
-              "id": "worked",
-              "prompt": "What worked?"
+              "id": "disliked",
+              "prompt": "What did you not like?"
             },
             {
-              "id": "didnt",
-              "prompt": "What did not work?"
+              "id": "change",
+              "prompt": "What would you change?"
+            },
+            {
+              "id": "keep",
+              "prompt": "What would you keep?"
             }
           ],
           "requireAll": true,

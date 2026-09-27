@@ -76,7 +76,7 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
               "kind": "list",
               "items": [
                 "The bottom player holds as long as he keeps his connections.",
-                "The top player wins by breaking every connection and making shin-to-body contact from outside the legs."
+                "The top player wins by breaking every connection and touching the bottom player's body with his shin, from outside his legs."
               ]
             },
             {
@@ -102,7 +102,7 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Introductory Pin Game: what wins it for the top player?",
+          "question": "Introductory Pin Game: the top player's win?",
           "select": "single",
           "retry": true,
           "options": [
@@ -145,7 +145,7 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What are you like before you trust the room?",
-          "hint": "On your own. Not graded.",
+          "hint": "Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -153,19 +153,23 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF, on your own",
+          "kindLabel": "IRF",
           "fields": [
             {
-              "id": "mat",
-              "prompt": "What happened today on the mat?"
+              "id": "liked",
+              "prompt": "What did you like?"
             },
             {
-              "id": "worked",
-              "prompt": "What worked?"
+              "id": "disliked",
+              "prompt": "What did you not like?"
             },
             {
-              "id": "didnt",
-              "prompt": "What did not work?"
+              "id": "change",
+              "prompt": "What would you change?"
+            },
+            {
+              "id": "keep",
+              "prompt": "What would you keep?"
             }
           ],
           "requireAll": true,

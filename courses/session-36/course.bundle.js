@@ -29,7 +29,7 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
       },
       {
         "skill": "Controlling",
-        "title": "Back Take, Maintain Chest to Back Contact"
+        "title": "Back Take – Maintain Chest to Back Contact"
       }
     ],
     "connection": "The last roll ends, and then you walk out the door. What you carry out, control, mercy, the ability to stay, the real self, is the whole point. The mat was never the destination. What you carry out of it is.",
@@ -63,7 +63,7 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
             {
               "kind": "list",
               "items": [
-                "Whoever connects first wins. The first closed-hand connection, anywhere from armpits to ankles, takes it."
+                "Whoever connects first wins by locking his hands around his partner's body, armpits to ankles."
               ]
             },
             {
@@ -74,14 +74,14 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
             {
               "kind": "list",
               "items": [
-                "The top player wins by getting under one elbow and connecting his hands.",
+                "The top player wins by getting under the bottom player's elbow and locking his own hands around him.",
                 "The bottom player wins by closing his legs around the top player's waist."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Back Take, Maintain Chest to Back Contact"
+              "text": "Back Take – Maintain Chest to Back Contact"
             },
             {
               "kind": "list",
@@ -101,7 +101,7 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Back Take, Maintain Chest to Back Contact: what wins it for the top player?",
+          "question": "Back Take – Maintain Chest to Back Contact: the top player's win?",
           "select": "single",
           "retry": true,
           "options": [
@@ -144,7 +144,7 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What do you carry out this door?",
-          "hint": "On your own. Not graded.",
+          "hint": "Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -152,19 +152,23 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF, on your own",
+          "kindLabel": "IRF",
           "fields": [
             {
-              "id": "mat",
-              "prompt": "What happened today on the mat?"
+              "id": "liked",
+              "prompt": "What did you like?"
             },
             {
-              "id": "worked",
-              "prompt": "What worked?"
+              "id": "disliked",
+              "prompt": "What did you not like?"
             },
             {
-              "id": "didnt",
-              "prompt": "What did not work?"
+              "id": "change",
+              "prompt": "What would you change?"
+            },
+            {
+              "id": "keep",
+              "prompt": "What would you keep?"
             }
           ],
           "requireAll": true,

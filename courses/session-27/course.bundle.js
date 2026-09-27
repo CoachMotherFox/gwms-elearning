@@ -63,8 +63,8 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
             {
               "kind": "list",
               "items": [
-                "The underhook player wins by connecting to the waist directly, or by moving from the head or a leg to the waist.",
-                "The overhook player wins by freeing a head or leg connection before he reaches the hips."
+                "The underhook player wins by connecting to the overhook player's waist, directly or from his head or leg.",
+                "The overhook player wins by freeing a head or leg connection before the underhook player reaches his hips."
               ]
             },
             {
@@ -75,7 +75,7 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
             {
               "kind": "list",
               "items": [
-                "The top player wins by standing and touching both outsides.",
+                "The top player wins by standing and touching both outsides of the bottom player's legs.",
                 "The bottom player wins by putting the top player on his butt and sitting up, or by getting to closed guard."
               ]
             },
@@ -102,7 +102,7 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Chest-to-Back Position Maintenance: what wins it for the top player?",
+          "question": "Chest-to-Back Position Maintenance: the top player's win?",
           "select": "single",
           "retry": true,
           "options": [
@@ -145,7 +145,7 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What can you do now that the old you couldn't?",
-          "hint": "On your own. Not graded.",
+          "hint": "Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -153,19 +153,23 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF, on your own",
+          "kindLabel": "IRF",
           "fields": [
             {
-              "id": "mat",
-              "prompt": "What happened today on the mat?"
+              "id": "liked",
+              "prompt": "What did you like?"
             },
             {
-              "id": "worked",
-              "prompt": "What worked?"
+              "id": "disliked",
+              "prompt": "What did you not like?"
             },
             {
-              "id": "didnt",
-              "prompt": "What did not work?"
+              "id": "change",
+              "prompt": "What would you change?"
+            },
+            {
+              "id": "keep",
+              "prompt": "What would you keep?"
             }
           ],
           "requireAll": true,

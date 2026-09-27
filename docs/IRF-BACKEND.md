@@ -20,14 +20,17 @@ One payload, on one deliberate press of **Send it**, from the last screen only.
   "session": 7, "stage": "The Descent", "week": 3, "theme": "Crack",
   "submittedAt": "2026-08-11T01:50:28.176Z",
   "answers": {
-    "mat": "got passed a lot",
-    "worked": "my frames",
-    "didnt": "staying calm when losing"
+    "liked": "the pinning game",
+    "disliked": "getting stuck talking about it after",
+    "change": "more time on the mat",
+    "keep": "the games, keep those"
   },
   "probingQuestion": "What happens to your mask when you're losing?",
   "reflection": "i go quiet and stop trying"
 }
 ```
+
+Replaced September 27, 2026 — the IRF asks four questions now (what you liked, what you did not like, what you would change, what you would keep), not the original three (what happened on the mat, what worked, what did not work).
 
 It also carries a random `submissionId`, stable across retries, so a row that lands while the reply is lost is not written twice. No name, no login, no device id, nothing that links two sessions to one participant. Set `"includeReflection": false` to send only the three IRF answers.
 
@@ -48,7 +51,7 @@ const SHEET_NAME = 'IRF';
 const TOKEN = 'change-me';               // must match irf.json
 const HEADERS = ['Received', 'Submitted', 'Session', 'Stage', 'Week', 'Theme',
                  'Probing question', 'Reflection',
-                 'What happened on the mat', 'What worked', 'What did not work',
+                 'What you liked', 'What you did not like', 'What you would change', 'What you would keep',
                  'Code', 'Submission id'];
 
 function doPost(e) {
@@ -70,8 +73,8 @@ function doPost(e) {
     sh.appendRow([
       new Date(), d.submittedAt || '', d.session || '', d.stage || '',
       d.week || '', d.theme || '', d.probingQuestion || '', d.reflection || '',
-      a.mat || '', a.worked || '', a.didnt || '', d.participantCode || '',
-      d.submissionId || ''
+      a.liked || '', a.disliked || '', a.change || '', a.keep || '',
+      d.participantCode || '', d.submissionId || ''
     ]);
     return out_({ ok: true });
   } catch (err) {

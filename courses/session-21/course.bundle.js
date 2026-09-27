@@ -22,7 +22,7 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
     "games": [
       {
         "skill": "Entering",
-        "title": "Single Leg Destabilization, Two Paths"
+        "title": "Single Leg Destabilization — Two Paths"
       },
       {
         "skill": "Arriving",
@@ -59,7 +59,7 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Single Leg Destabilization, Two Paths"
+              "text": "Single Leg Destabilization — Two Paths"
             },
             {
               "kind": "list",
@@ -76,7 +76,7 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
             {
               "kind": "list",
               "items": [
-                "The top player wins by touching both knee pits with his leg while keeping his feet off.",
+                "The top player wins by touching both of the bottom player's knee pits with his own leg, feet off the mat.",
                 "The bottom player wins by sitting up."
               ]
             },
@@ -88,8 +88,8 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
             {
               "kind": "list",
               "items": [
-                "The top player wins by separating the hands and getting two connections on the wrist.",
-                "The bottom player wins by freeing the arm, or by reversing."
+                "The top player wins by separating the bottom player's hands and locking two grips on his wrist.",
+                "The bottom player wins by freeing his own trapped arm, or by reversing the position."
               ]
             }
           ]
@@ -103,12 +103,12 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Arm Lock Breaking Position Game: what wins it for the top player?",
+          "question": "Arm Lock Breaking Position Game: the top player's win?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "The top player wins by separating the hands and getting two connections on the wrist.",
+              "text": "The top player wins by separating the bottom player's hands and locking two grips on his wrist.",
               "correct": true,
               "feedback": "That's it."
             },
@@ -146,7 +146,7 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "When something breaks, what part is yours to own?",
-          "hint": "On your own. Not graded.",
+          "hint": "Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -154,19 +154,23 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF, on your own",
+          "kindLabel": "IRF",
           "fields": [
             {
-              "id": "mat",
-              "prompt": "What happened today on the mat?"
+              "id": "liked",
+              "prompt": "What did you like?"
             },
             {
-              "id": "worked",
-              "prompt": "What worked?"
+              "id": "disliked",
+              "prompt": "What did you not like?"
             },
             {
-              "id": "didnt",
-              "prompt": "What did not work?"
+              "id": "change",
+              "prompt": "What would you change?"
+            },
+            {
+              "id": "keep",
+              "prompt": "What would you keep?"
             }
           ],
           "requireAll": true,

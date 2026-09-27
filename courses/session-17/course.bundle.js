@@ -30,7 +30,7 @@ window.GWMS_COURSE_BUNDLE["session-17"] =
       },
       {
         "skill": "Controlling",
-        "title": "Rear Hip Connection, Keep Belly Down"
+        "title": "Rear Hip Connection - Keep Belly Down (Turtle)"
       }
     ],
     "connection": "Staying in an uncomfortable pin instead of scrambling out is like staying in a hard conversation. Both take the same skill: putting up with discomfort instead of running from it.",
@@ -83,7 +83,7 @@ window.GWMS_COURSE_BUNDLE["session-17"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Rear Hip Connection, Keep Belly Down"
+              "text": "Rear Hip Connection - Keep Belly Down"
             },
             {
               "kind": "list",
@@ -103,7 +103,7 @@ window.GWMS_COURSE_BUNDLE["session-17"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Rear Hip Connection, Keep Belly Down: what wins it for the top player?",
+          "question": "Rear Hip Connection - Keep Belly Down: the top player's win?",
           "select": "single",
           "retry": true,
           "options": [
@@ -146,7 +146,7 @@ window.GWMS_COURSE_BUNDLE["session-17"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "Can you stay present when it gets uncomfortable?",
-          "hint": "On your own. Not graded.",
+          "hint": "Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -154,19 +154,23 @@ window.GWMS_COURSE_BUNDLE["session-17"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF, on your own",
+          "kindLabel": "IRF",
           "fields": [
             {
-              "id": "mat",
-              "prompt": "What happened today on the mat?"
+              "id": "liked",
+              "prompt": "What did you like?"
             },
             {
-              "id": "worked",
-              "prompt": "What worked?"
+              "id": "disliked",
+              "prompt": "What did you not like?"
             },
             {
-              "id": "didnt",
-              "prompt": "What did not work?"
+              "id": "change",
+              "prompt": "What would you change?"
+            },
+            {
+              "id": "keep",
+              "prompt": "What would you keep?"
             }
           ],
           "requireAll": true,

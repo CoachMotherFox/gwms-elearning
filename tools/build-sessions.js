@@ -29,11 +29,14 @@ const COURSES = path.join(ROOT, 'courses');
 
 const RIGHTS = 'Jamey Phoenix Bethea, Conceptual Combat Academy';
 
-/* The three IRF questions, asked of every participant, every session. */
+/* The four IRF questions, asked of every participant, every session, on
+   their own. Replaced September 27, 2026 — see docs/IRF-BACKEND.md for the
+   Google Sheet and Apps Script columns this drives. */
 const IRF = [
-  { id: 'mat', prompt: 'What happened today on the mat?' },
-  { id: 'worked', prompt: 'What worked?' },
-  { id: 'didnt', prompt: 'What did not work?' }
+  { id: 'liked', prompt: 'What did you like?' },
+  { id: 'disliked', prompt: 'What did you not like?' },
+  { id: 'change', prompt: 'What would you change?' },
+  { id: 'keep', prompt: 'What would you keep?' }
 ];
 
 /* The two wrong answers on the check are program rules, not invention, and
@@ -143,7 +146,7 @@ function screenCheck(s, stage) {
     eyebrow: 'Quick check',
     title: 'How you win it',
     assessment: { role: 'formative', scored: false },
-    question: `${gameTitle(pinned.title)}: what wins it for the top player?`,
+    question: `${gameTitle(pinned.title)}: the top player's win?`,
     select: 'single',
     retry: true,
     options: [
@@ -173,11 +176,11 @@ function screenReflection(s) {
     eyebrow: 'On your own',
     title: 'Your answer',
     prompt: s.probingQuestion,
-    hint: 'On your own. Not graded.',
+    hint: 'Not graded.',
     placeholder: 'Whatever comes to mind…'
   };
   if (s.privateOk) {
-    slide.hint = 'On your own. Just look at it. Nothing to write.';
+    slide.hint = 'Just look at it. Nothing to write.';
   }
   return slide;
 }
@@ -188,7 +191,7 @@ function screenIRF(s, isLast) {
     type: 'reflection',
     eyebrow: 'On your own',
     title: 'Instruction Rating Form',
-    kindLabel: 'IRF, on your own',
+    kindLabel: 'IRF',
     fields: IRF,
     requireAll: true,
     required: true,

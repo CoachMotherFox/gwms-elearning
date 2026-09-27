@@ -22,11 +22,11 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
     "games": [
       {
         "skill": "Entering",
-        "title": "Single Leg, Make Partner Fall to Hands or Hips"
+        "title": "Single Leg — Make Partner Fall to Hands or Hips (Terminal)"
       },
       {
         "skill": "Arriving",
-        "title": "Closed Guard Opening, Hands on Body"
+        "title": "Closed Guard Opening — Hands on Body"
       },
       {
         "skill": "Controlling",
@@ -59,25 +59,25 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Single Leg, Make Partner Fall to Hands or Hips"
+              "text": "Single Leg — Make Partner Fall to Hands or Hips"
             },
             {
               "kind": "list",
               "items": [
                 "The attacker wins when the defender's hips or hands touch the mat.",
-                "The defender wins by freeing the leg."
+                "The defender wins by freeing his own leg from the attacker's grip."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Closed Guard Opening, Hands on Body"
+              "text": "Closed Guard Opening — Hands on Body"
             },
             {
               "kind": "list",
               "items": [
                 "The top player wins by getting to his feet and opening the guard.",
-                "The bottom player wins by stopping the top player's win for 30 seconds. Then you switch roles."
+                "The bottom player wins by stopping the top player's win for 30 seconds. Then switch."
               ]
             },
             {
@@ -103,7 +103,7 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Referee Position Ride and Break Down: what wins it for the top player?",
+          "question": "Referee Position Ride and Break Down: the top player's win?",
           "select": "single",
           "retry": true,
           "options": [
@@ -146,7 +146,7 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What happens to your mask when you're losing?",
-          "hint": "On your own. Not graded.",
+          "hint": "Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -154,19 +154,23 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF, on your own",
+          "kindLabel": "IRF",
           "fields": [
             {
-              "id": "mat",
-              "prompt": "What happened today on the mat?"
+              "id": "liked",
+              "prompt": "What did you like?"
             },
             {
-              "id": "worked",
-              "prompt": "What worked?"
+              "id": "disliked",
+              "prompt": "What did you not like?"
             },
             {
-              "id": "didnt",
-              "prompt": "What did not work?"
+              "id": "change",
+              "prompt": "What would you change?"
+            },
+            {
+              "id": "keep",
+              "prompt": "What would you keep?"
             }
           ],
           "requireAll": true,

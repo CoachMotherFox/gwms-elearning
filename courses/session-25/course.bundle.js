@@ -29,7 +29,7 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
       },
       {
         "skill": "Controlling",
-        "title": "Back Take, Maintain Chest to Back Contact"
+        "title": "Back Take – Maintain Chest to Back Contact"
       }
     ],
     "connection": "Twelve weeks ago, you could not hold this position at all. Now you can. That is proof of change you can feel. Naming what is different in you works the same way. Real change is something you can show, not just say.",
@@ -74,14 +74,14 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
             {
               "kind": "list",
               "items": [
-                "The top player wins by shin-to-body contact inside or outside the knees.",
-                "The bottom player wins by making the top player hit his butt and sitting up with his back off the mat."
+                "The top player wins by touching his shin to the bottom player's body, inside or outside his knees.",
+                "The bottom player wins by making the top player fall on his butt, then getting his own back off the mat."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Back Take, Maintain Chest to Back Contact"
+              "text": "Back Take – Maintain Chest to Back Contact"
             },
             {
               "kind": "list",
@@ -101,7 +101,7 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Back Take, Maintain Chest to Back Contact: what wins it for the top player?",
+          "question": "Back Take – Maintain Chest to Back Contact: the top player's win?",
           "select": "single",
           "retry": true,
           "options": [
@@ -144,7 +144,7 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What's actually different in you now?",
-          "hint": "On your own. Not graded.",
+          "hint": "Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -152,19 +152,23 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF, on your own",
+          "kindLabel": "IRF",
           "fields": [
             {
-              "id": "mat",
-              "prompt": "What happened today on the mat?"
+              "id": "liked",
+              "prompt": "What did you like?"
             },
             {
-              "id": "worked",
-              "prompt": "What worked?"
+              "id": "disliked",
+              "prompt": "What did you not like?"
             },
             {
-              "id": "didnt",
-              "prompt": "What did not work?"
+              "id": "change",
+              "prompt": "What would you change?"
+            },
+            {
+              "id": "keep",
+              "prompt": "What would you keep?"
             }
           ],
           "requireAll": true,

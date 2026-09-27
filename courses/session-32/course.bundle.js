@@ -64,7 +64,7 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
               "kind": "list",
               "items": [
                 "The attacker wins when the defender touches the mat with his hips or hands.",
-                "The defender wins by freeing the leg."
+                "The defender wins by freeing his own leg from the attacker's grip."
               ]
             },
             {
@@ -75,8 +75,8 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
             {
               "kind": "list",
               "items": [
-                "The bottom player wins when the top player's hands have touched the mat above his head and his butt has touched the mat, both in the same rep.",
-                "The top player wins by getting outside both legs and making shin-to-body contact."
+                "The bottom player wins when the top player's hands touch the mat above the bottom player's own head, and the top player's butt touches the mat too.",
+                "The top player wins by getting outside the bottom player's legs and touching his body with a shin."
               ]
             },
             {
@@ -102,7 +102,7 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Chest to Back to Precursor Transitions Game: what wins it for the top player?",
+          "question": "Chest to Back to Precursor Transitions Game: the top player's win?",
           "select": "single",
           "retry": true,
           "options": [
@@ -145,7 +145,7 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What standard are you setting for whoever comes next?",
-          "hint": "On your own. Not graded.",
+          "hint": "Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -153,19 +153,23 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF, on your own",
+          "kindLabel": "IRF",
           "fields": [
             {
-              "id": "mat",
-              "prompt": "What happened today on the mat?"
+              "id": "liked",
+              "prompt": "What did you like?"
             },
             {
-              "id": "worked",
-              "prompt": "What worked?"
+              "id": "disliked",
+              "prompt": "What did you not like?"
             },
             {
-              "id": "didnt",
-              "prompt": "What did not work?"
+              "id": "change",
+              "prompt": "What would you change?"
+            },
+            {
+              "id": "keep",
+              "prompt": "What would you keep?"
             }
           ],
           "requireAll": true,

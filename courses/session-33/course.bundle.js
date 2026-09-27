@@ -21,11 +21,11 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
     "games": [
       {
         "skill": "Entering",
-        "title": "Hand Fight with Dual Win Conditions"
+        "title": "Hand Fight with Dual Win Conditions – Week 11 Game 1"
       },
       {
         "skill": "Arriving",
-        "title": "Closed Guard, Post to Underhook to Locked Hands"
+        "title": "Closed Guard — Post to Underhook to Locked Hands"
       },
       {
         "skill": "Controlling",
@@ -58,7 +58,7 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Hand Fight with Dual Win Conditions"
+              "text": "Hand Fight with Dual Win Conditions – Week 11 Game 1"
             },
             {
               "kind": "list",
@@ -69,7 +69,7 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Closed Guard, Post to Underhook to Locked Hands"
+              "text": "Closed Guard — Post to Underhook to Locked Hands"
             },
             {
               "kind": "list",
@@ -101,7 +101,7 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Chest-to-Back Connection Maintenance: what wins it for the top player?",
+          "question": "Chest-to-Back Connection Maintenance: the top player's win?",
           "select": "single",
           "retry": true,
           "options": [
@@ -144,7 +144,7 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "If someone watched how you carry yourself, what would they learn?",
-          "hint": "On your own. Not graded.",
+          "hint": "Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -152,19 +152,23 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF, on your own",
+          "kindLabel": "IRF",
           "fields": [
             {
-              "id": "mat",
-              "prompt": "What happened today on the mat?"
+              "id": "liked",
+              "prompt": "What did you like?"
             },
             {
-              "id": "worked",
-              "prompt": "What worked?"
+              "id": "disliked",
+              "prompt": "What did you not like?"
             },
             {
-              "id": "didnt",
-              "prompt": "What did not work?"
+              "id": "change",
+              "prompt": "What would you change?"
+            },
+            {
+              "id": "keep",
+              "prompt": "What would you keep?"
             }
           ],
           "requireAll": true,

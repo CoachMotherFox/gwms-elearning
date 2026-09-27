@@ -64,7 +64,7 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
             {
               "kind": "list",
               "items": [
-                "The underhook player wins by getting to the waist, directly or from the head or a leg.",
+                "The underhook player wins by getting to the overhook player's waist, directly or from his head or his leg.",
                 "The overhook player wins by freeing a head or leg connection."
               ]
             },
@@ -76,8 +76,8 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
             {
               "kind": "list",
               "items": [
-                "The top player wins by touching one outside and then the other, one right after the other.",
-                "The bottom player wins by making the top player hit his butt and sitting up with his back off the mat."
+                "The top player wins by touching one outside of the bottom player's legs, then the other outside, right after.",
+                "The bottom player wins by making the top player fall on his butt, then getting his own back off the mat."
               ]
             },
             {
@@ -103,7 +103,7 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Figure Four Grip Control Game: what wins it for the top player?",
+          "question": "Figure Four Grip Control Game: the top player's win?",
           "select": "single",
           "retry": true,
           "options": [
@@ -146,7 +146,7 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What's under the version you show people?",
-          "hint": "On your own. Not graded.",
+          "hint": "Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -154,19 +154,23 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF, on your own",
+          "kindLabel": "IRF",
           "fields": [
             {
-              "id": "mat",
-              "prompt": "What happened today on the mat?"
+              "id": "liked",
+              "prompt": "What did you like?"
             },
             {
-              "id": "worked",
-              "prompt": "What worked?"
+              "id": "disliked",
+              "prompt": "What did you not like?"
             },
             {
-              "id": "didnt",
-              "prompt": "What did not work?"
+              "id": "change",
+              "prompt": "What would you change?"
+            },
+            {
+              "id": "keep",
+              "prompt": "What would you keep?"
             }
           ],
           "requireAll": true,

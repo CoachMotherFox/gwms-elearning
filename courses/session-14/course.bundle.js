@@ -65,7 +65,7 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
               "kind": "list",
               "items": [
                 "The touch player wins with three touches in a row.",
-                "The connection player wins with a closed-hand connection from armpits to ankles."
+                "The connection player wins by locking his hands around the touch player, from armpits to ankles."
               ]
             },
             {
@@ -88,8 +88,8 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
             {
               "kind": "list",
               "items": [
-                "The top player wins by keeping the elbows away from the body the whole time.",
-                "The bottom player wins by bringing both elbows to his body, or by making the top player fall."
+                "The top player wins by keeping the bottom player's elbows away from his body the whole time.",
+                "The bottom player wins by bringing both elbows to his body, or making the top player fall."
               ]
             }
           ]
@@ -103,12 +103,12 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Chest-to-Chest Elbow Control Game: what wins it for the top player?",
+          "question": "Chest-to-Chest Elbow Control Game: the top player's win?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "The top player wins by keeping the elbows away from the body the whole time.",
+              "text": "The top player wins by keeping the bottom player's elbows away from his body the whole time.",
               "correct": true,
               "feedback": "That's it."
             },
@@ -146,7 +146,7 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "How much of someone else do you actually let in?",
-          "hint": "On your own. Not graded.",
+          "hint": "Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -154,19 +154,23 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF, on your own",
+          "kindLabel": "IRF",
           "fields": [
             {
-              "id": "mat",
-              "prompt": "What happened today on the mat?"
+              "id": "liked",
+              "prompt": "What did you like?"
             },
             {
-              "id": "worked",
-              "prompt": "What worked?"
+              "id": "disliked",
+              "prompt": "What did you not like?"
             },
             {
-              "id": "didnt",
-              "prompt": "What did not work?"
+              "id": "change",
+              "prompt": "What would you change?"
+            },
+            {
+              "id": "keep",
+              "prompt": "What would you keep?"
             }
           ],
           "requireAll": true,

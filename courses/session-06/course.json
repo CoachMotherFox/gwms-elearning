@@ -28,7 +28,7 @@
       },
       {
         "skill": "Controlling",
-        "title": "Mount, Stay Under Both Elbows"
+        "title": "Mount — Stay Under Both Elbows (Continuous)"
       }
     ],
     "connection": "Your guard protects the space behind your legs. Your mask protects something too. Naming what the guard defends is the same as naming what the mask hides.",
@@ -63,7 +63,7 @@
               "kind": "list",
               "items": [
                 "The touch player wins with three sets of two touches in a row.",
-                "The clinch player wins by closing his hands under both elbows or chest to back."
+                "The clinch player wins by closing his own hands around the touch player, under both elbows or chest to back."
               ]
             },
             {
@@ -74,20 +74,20 @@
             {
               "kind": "list",
               "items": [
-                "The top player wins by touching both knee pits with his leg while keeping his feet off.",
+                "The top player wins by touching both of the bottom player's knee pits with his own leg, feet off the mat.",
                 "The bottom player wins by sitting up."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Mount, Stay Under Both Elbows"
+              "text": "Mount — Stay Under Both Elbows"
             },
             {
               "kind": "list",
               "items": [
-                "The top player holds as long as he keeps at least one elbow covered.",
-                "The bottom player wins by touching both elbows to his body, or by making the top player fall."
+                "The top player holds as long as he keeps one of the bottom player's elbows covered.",
+                "The bottom player wins by touching both elbows to his body, or making the top player fall."
               ]
             }
           ]
@@ -101,12 +101,12 @@
             "role": "formative",
             "scored": false
           },
-          "question": "Mount, Stay Under Both Elbows: what wins it for the top player?",
+          "question": "Mount — Stay Under Both Elbows: the top player's win?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "The top player holds as long as he keeps at least one elbow covered.",
+              "text": "The top player holds as long as he keeps one of the bottom player's elbows covered.",
               "correct": true,
               "feedback": "That's it."
             },
@@ -144,7 +144,7 @@
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What does your mask protect you from?",
-          "hint": "On your own. Not graded.",
+          "hint": "Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -152,19 +152,23 @@
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF, on your own",
+          "kindLabel": "IRF",
           "fields": [
             {
-              "id": "mat",
-              "prompt": "What happened today on the mat?"
+              "id": "liked",
+              "prompt": "What did you like?"
             },
             {
-              "id": "worked",
-              "prompt": "What worked?"
+              "id": "disliked",
+              "prompt": "What did you not like?"
             },
             {
-              "id": "didnt",
-              "prompt": "What did not work?"
+              "id": "change",
+              "prompt": "What would you change?"
+            },
+            {
+              "id": "keep",
+              "prompt": "What would you keep?"
             }
           ],
           "requireAll": true,

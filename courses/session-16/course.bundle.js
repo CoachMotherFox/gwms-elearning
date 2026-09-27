@@ -26,7 +26,7 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
       },
       {
         "skill": "Arriving",
-        "title": "Post and Hook Destabilization Game"
+        "title": "Post and Hook Destabilization Game (Guard Retention)"
       },
       {
         "skill": "Controlling",
@@ -65,7 +65,7 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
               "kind": "list",
               "items": [
                 "The underhook player wins by attaching to and picking up the overhook player's leg.",
-                "The overhook player wins by stopping him for 30 seconds."
+                "The overhook player wins by stopping the underhook player for 30 seconds."
               ]
             },
             {
@@ -77,7 +77,7 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
               "kind": "list",
               "items": [
                 "The bottom player wins by putting the top player's hips on the floor using only posts and hooks.",
-                "The top player wins by stopping the bottom player's win for 30 seconds. Then you switch roles."
+                "The top player wins by stopping the bottom player's win for 30 seconds. Then switch."
               ]
             },
             {
@@ -103,7 +103,7 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Riding Bottom Position Game: what wins it for the top player?",
+          "question": "Riding Bottom Position Game: the top player's win?",
           "select": "single",
           "retry": true,
           "options": [
@@ -146,7 +146,7 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What do you do when someone pushes back?",
-          "hint": "On your own. Not graded.",
+          "hint": "Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -154,19 +154,23 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF, on your own",
+          "kindLabel": "IRF",
           "fields": [
             {
-              "id": "mat",
-              "prompt": "What happened today on the mat?"
+              "id": "liked",
+              "prompt": "What did you like?"
             },
             {
-              "id": "worked",
-              "prompt": "What worked?"
+              "id": "disliked",
+              "prompt": "What did you not like?"
             },
             {
-              "id": "didnt",
-              "prompt": "What did not work?"
+              "id": "change",
+              "prompt": "What would you change?"
+            },
+            {
+              "id": "keep",
+              "prompt": "What would you keep?"
             }
           ],
           "requireAll": true,

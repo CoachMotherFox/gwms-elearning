@@ -26,7 +26,7 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
       },
       {
         "skill": "Arriving",
-        "title": "Keep Feet Off, Belly Up Open Guard Introduction"
+        "title": "Keep Feet Off — Belly Up Open Guard Introduction"
       },
       {
         "skill": "Controlling",
@@ -70,7 +70,7 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Keep Feet Off, Belly Up Open Guard Introduction"
+              "text": "Keep Feet Off — Belly Up Open Guard Introduction"
             },
             {
               "kind": "list",
@@ -102,7 +102,7 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Riding Bottom Position Game: what wins it for the top player?",
+          "question": "Riding Bottom Position Game: the top player's win?",
           "select": "single",
           "retry": true,
           "options": [
@@ -145,7 +145,7 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "Who are you when people are watching?",
-          "hint": "On your own. Not graded.",
+          "hint": "Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -153,19 +153,23 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF, on your own",
+          "kindLabel": "IRF",
           "fields": [
             {
-              "id": "mat",
-              "prompt": "What happened today on the mat?"
+              "id": "liked",
+              "prompt": "What did you like?"
             },
             {
-              "id": "worked",
-              "prompt": "What worked?"
+              "id": "disliked",
+              "prompt": "What did you not like?"
             },
             {
-              "id": "didnt",
-              "prompt": "What did not work?"
+              "id": "change",
+              "prompt": "What would you change?"
+            },
+            {
+              "id": "keep",
+              "prompt": "What would you keep?"
             }
           ],
           "requireAll": true,

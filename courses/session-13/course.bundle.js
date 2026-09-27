@@ -87,7 +87,7 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
             {
               "kind": "list",
               "items": [
-                "The top player holds as long as he keeps both elbows covered.",
+                "The top player holds as long as he keeps both of the bottom player's elbows covered.",
                 "The bottom player wins by getting both elbows to touch his body, or by making the top player fall."
               ]
             }
@@ -102,12 +102,12 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Chest to Chest Under Elbows Maintenance: what wins it for the top player?",
+          "question": "Chest to Chest Under Elbows Maintenance: the top player's win?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "The top player holds as long as he keeps both elbows covered.",
+              "text": "The top player holds as long as he keeps both of the bottom player's elbows covered.",
               "correct": true,
               "feedback": "That's it."
             },
@@ -145,7 +145,7 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What happens in you when someone makes real contact?",
-          "hint": "On your own. Not graded.",
+          "hint": "Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -153,19 +153,23 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF, on your own",
+          "kindLabel": "IRF",
           "fields": [
             {
-              "id": "mat",
-              "prompt": "What happened today on the mat?"
+              "id": "liked",
+              "prompt": "What did you like?"
             },
             {
-              "id": "worked",
-              "prompt": "What worked?"
+              "id": "disliked",
+              "prompt": "What did you not like?"
             },
             {
-              "id": "didnt",
-              "prompt": "What did not work?"
+              "id": "change",
+              "prompt": "What would you change?"
+            },
+            {
+              "id": "keep",
+              "prompt": "What would you keep?"
             }
           ],
           "requireAll": true,

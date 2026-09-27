@@ -63,8 +63,8 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
             {
               "kind": "list",
               "items": [
-                "The attacker wins when the defender is down on his hips or hands.",
-                "The defender wins by freeing the leg and then grabbing one of the attacker's legs."
+                "The attacker wins when the defender is down on his own hips or hands.",
+                "The defender wins by freeing his own leg and then grabbing one of the attacker's legs."
               ]
             },
             {
@@ -75,7 +75,7 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
             {
               "kind": "list",
               "items": [
-                "The top player wins by getting outside with shin-to-body contact, or by locking his hands from hips to shoulders.",
+                "The top player wins by getting outside the bottom player's legs for shin contact, or locking his hands at the bottom player's hips.",
                 "The bottom player holds as long as he keeps his connections."
               ]
             },
@@ -102,7 +102,7 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Chest to Back Control Game: what wins it for the top player?",
+          "question": "Chest to Back Control Game: the top player's win?",
           "select": "single",
           "retry": true,
           "options": [
@@ -145,7 +145,7 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "How do you know the change is real and not just talk?",
-          "hint": "On your own. Not graded.",
+          "hint": "Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -153,19 +153,23 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF, on your own",
+          "kindLabel": "IRF",
           "fields": [
             {
-              "id": "mat",
-              "prompt": "What happened today on the mat?"
+              "id": "liked",
+              "prompt": "What did you like?"
             },
             {
-              "id": "worked",
-              "prompt": "What worked?"
+              "id": "disliked",
+              "prompt": "What did you not like?"
             },
             {
-              "id": "didnt",
-              "prompt": "What did not work?"
+              "id": "change",
+              "prompt": "What would you change?"
+            },
+            {
+              "id": "keep",
+              "prompt": "What would you keep?"
             }
           ],
           "requireAll": true,

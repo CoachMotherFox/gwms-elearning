@@ -30,7 +30,7 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
       },
       {
         "skill": "Finishing",
-        "title": "Figure Four Threat Introduction Game"
+        "title": "Figure Four to Precursor Positions Game"
       }
     ],
     "connection": "Open rolling puts it all together: control, finish, tap, reset, in one flow. Repair works the same way in relationships. It costs pride and comfort, and you decide it's worth paying. This closes the Initiation and points to the Return.",
@@ -64,7 +64,7 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
             {
               "kind": "list",
               "items": [
-                "Whoever gets there first wins, whether by hooking under an elbow or by picking up a leg."
+                "Whoever gets there first wins, whether by hooking under his partner's elbow or by picking up his partner's leg."
               ]
             },
             {
@@ -75,20 +75,20 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
             {
               "kind": "list",
               "items": [
-                "The bottom player wins by putting the top player down and getting up to standing, or by putting him down a different way and rising to a connection.",
+                "The bottom player wins by putting the top player down and standing up, or by rising up to a connection another way.",
                 "The top player wins with shin contact."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Figure Four Threat Introduction Game"
+              "text": "Figure Four to Precursor Positions Game"
             },
             {
               "kind": "list",
               "items": [
-                "The top player wins by any of those listed positions.",
-                "The bottom player wins by getting both elbows free."
+                "The top player wins by putting the bottom player's hand on the mat, behind his back, or locked on his arm.",
+                "The bottom player wins by freeing both of his own elbows."
               ]
             }
           ]
@@ -102,12 +102,12 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Figure Four Threat Introduction Game: what wins it for the top player?",
+          "question": "Figure Four to Precursor Positions Game: the top player's win?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "The top player wins by any of those listed positions.",
+              "text": "The top player wins by putting the bottom player's hand on the mat, behind his back, or locked on his arm.",
               "correct": true,
               "feedback": "That's it."
             },
@@ -145,7 +145,7 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What does repair cost you, and is it worth paying?",
-          "hint": "On your own. Not graded.",
+          "hint": "Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -153,19 +153,23 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF, on your own",
+          "kindLabel": "IRF",
           "fields": [
             {
-              "id": "mat",
-              "prompt": "What happened today on the mat?"
+              "id": "liked",
+              "prompt": "What did you like?"
             },
             {
-              "id": "worked",
-              "prompt": "What worked?"
+              "id": "disliked",
+              "prompt": "What did you not like?"
             },
             {
-              "id": "didnt",
-              "prompt": "What did not work?"
+              "id": "change",
+              "prompt": "What would you change?"
+            },
+            {
+              "id": "keep",
+              "prompt": "What would you keep?"
             }
           ],
           "requireAll": true,

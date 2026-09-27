@@ -74,8 +74,8 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
             {
               "kind": "list",
               "items": [
-                "The top player wins by shin-to-body contact inside or outside the knees.",
-                "The bottom player wins by making the top player hit his butt and sitting up with his back off the mat."
+                "The top player wins by touching his shin to the bottom player's body, inside or outside his knees.",
+                "The bottom player wins by making the top player fall on his butt, then getting his own back off the mat."
               ]
             },
             {
@@ -86,7 +86,7 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
             {
               "kind": "list",
               "items": [
-                "The top player wins by getting the palm to the back, then locking the wrist and hands.",
+                "The top player wins by touching the bottom player's back with his palm, then locking his own wrist into his other elbow.",
                 "The bottom player wins when his back touches the mat."
               ]
             }
@@ -101,12 +101,12 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Build to Rear Strangle Game: what wins it for the top player?",
+          "question": "Build to Rear Strangle Game: the top player's win?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "The top player wins by getting the palm to the back, then locking the wrist and hands.",
+              "text": "The top player wins by touching the bottom player's back with his palm, then locking his own wrist into his other elbow.",
               "correct": true,
               "feedback": "That's it."
             },
@@ -144,7 +144,7 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "Who did you become?",
-          "hint": "On your own. Not graded.",
+          "hint": "Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -152,19 +152,23 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF, on your own",
+          "kindLabel": "IRF",
           "fields": [
             {
-              "id": "mat",
-              "prompt": "What happened today on the mat?"
+              "id": "liked",
+              "prompt": "What did you like?"
             },
             {
-              "id": "worked",
-              "prompt": "What worked?"
+              "id": "disliked",
+              "prompt": "What did you not like?"
             },
             {
-              "id": "didnt",
-              "prompt": "What did not work?"
+              "id": "change",
+              "prompt": "What would you change?"
+            },
+            {
+              "id": "keep",
+              "prompt": "What would you keep?"
             }
           ],
           "requireAll": true,

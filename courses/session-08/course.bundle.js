@@ -30,7 +30,7 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
       },
       {
         "skill": "Controlling",
-        "title": "Pinning, Continuous Hip and Shoulder Connection from All Fours"
+        "title": "Pinning — Continuous Hip and Shoulder Connection from All Fours"
       }
     ],
     "connection": "When you and your partner get tired, the fake stuff drops on both sides, the passer and the guard. What slips out when you are too tired to perform is the truest thing about you, on the mat and off.",
@@ -75,14 +75,14 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
             {
               "kind": "list",
               "items": [
-                "The top player wins by shin-to-body contact inside or outside the knees.",
-                "The bottom player wins by making the top player hit his butt and sitting up with your back off the mat."
+                "The top player wins by touching his shin to the bottom player's body, inside or outside his knees.",
+                "The bottom player wins by making the top player fall on his butt, then getting his own back off the mat."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Pinning, Continuous Hip and Shoulder Connection from All Fours"
+              "text": "Pinning — Continuous Hip and Shoulder Connection from All Fours"
             },
             {
               "kind": "list",
@@ -102,7 +102,7 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Pinning, Continuous Hip and Shoulder Connection from All Fours: what wins it for the top player?",
+          "question": "Pinning — Continuous Hip and Shoulder Connection from All Fours: the top player's win?",
           "select": "single",
           "retry": true,
           "options": [
@@ -145,7 +145,7 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What slips out of you when you get tired and stop performing?",
-          "hint": "On your own. Not graded.",
+          "hint": "Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -153,19 +153,23 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF, on your own",
+          "kindLabel": "IRF",
           "fields": [
             {
-              "id": "mat",
-              "prompt": "What happened today on the mat?"
+              "id": "liked",
+              "prompt": "What did you like?"
             },
             {
-              "id": "worked",
-              "prompt": "What worked?"
+              "id": "disliked",
+              "prompt": "What did you not like?"
             },
             {
-              "id": "didnt",
-              "prompt": "What did not work?"
+              "id": "change",
+              "prompt": "What would you change?"
+            },
+            {
+              "id": "keep",
+              "prompt": "What would you keep?"
             }
           ],
           "requireAll": true,

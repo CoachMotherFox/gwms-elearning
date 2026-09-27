@@ -26,11 +26,11 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
       },
       {
         "skill": "Arriving",
-        "title": "Closed Guard Opening, Hands on Body"
+        "title": "Closed Guard Opening — Hands on Body"
       },
       {
         "skill": "Finishing",
-        "title": "Head and Arm Strangle, Close Position Start"
+        "title": "Head and Arm Strangle — Close Position Start"
       }
     ],
     "connection": "A finish you can apply and release on the tap is power you control. Leaving a break unrepaired is choosing not to release, not to reset. The tap is the invitation to repair. This week asks whether you take it.",
@@ -65,31 +65,31 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
               "kind": "list",
               "items": [
                 "The overhook player wins by putting the underhook player on a knee or his back.",
-                "The underhook player wins by lifting him, getting behind him, or picking up a leg."
+                "The underhook player wins by lifting the overhook player, getting behind him, or picking up his leg."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Closed Guard Opening, Hands on Body"
+              "text": "Closed Guard Opening — Hands on Body"
             },
             {
               "kind": "list",
               "items": [
                 "The top player wins by getting to his feet and opening the guard.",
-                "The bottom player wins by stopping the top player's win for 30 seconds. Then you switch roles."
+                "The bottom player wins by stopping the top player's win for 30 seconds. Then switch."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Head and Arm Strangle, Close Position Start"
+              "text": "Head and Arm Strangle — Close Position Start"
             },
             {
               "kind": "list",
               "items": [
                 "The top player wins with the arm trapped at the head.",
-                "The bottom player wins by touching that elbow to his body."
+                "The bottom player wins by pulling his own trapped elbow back against his body."
               ]
             }
           ]
@@ -103,7 +103,7 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Head and Arm Strangle, Close Position Start: what wins it for the top player?",
+          "question": "Head and Arm Strangle — Close Position Start: the top player's win?",
           "select": "single",
           "retry": true,
           "options": [
@@ -146,7 +146,7 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "Have you ever broken something with someone and left it broken?",
-          "hint": "On your own. Just look at it. Nothing to write.",
+          "hint": "Just look at it. Nothing to write.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -154,19 +154,23 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF, on your own",
+          "kindLabel": "IRF",
           "fields": [
             {
-              "id": "mat",
-              "prompt": "What happened today on the mat?"
+              "id": "liked",
+              "prompt": "What did you like?"
             },
             {
-              "id": "worked",
-              "prompt": "What worked?"
+              "id": "disliked",
+              "prompt": "What did you not like?"
             },
             {
-              "id": "didnt",
-              "prompt": "What did not work?"
+              "id": "change",
+              "prompt": "What would you change?"
+            },
+            {
+              "id": "keep",
+              "prompt": "What would you keep?"
             }
           ],
           "requireAll": true,

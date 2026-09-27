@@ -21,7 +21,7 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
     "games": [
       {
         "skill": "Entering",
-        "title": "Front Headlock to Rear, Standing"
+        "title": "Front Headlock to Rear - Standing"
       },
       {
         "skill": "Arriving",
@@ -29,7 +29,7 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
       },
       {
         "skill": "Controlling",
-        "title": "Back Control Elbow Management, No Hooks"
+        "title": "Back Control Elbow Management — No Hooks"
       }
     ],
     "connection": "Letting a partner work when you could just finish them costs you the easy win. Giving something real off the mat costs something too, time, comfort, pride. The giving that counts is the kind you feel.",
@@ -58,12 +58,12 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Front Headlock to Rear, Standing"
+              "text": "Front Headlock to Rear - Standing"
             },
             {
               "kind": "list",
               "items": [
-                "The attacker wins by getting one hands-to-mat touch and one lift while behind on the hips.",
+                "The attacker wins by putting the defender's hands on the mat, and lifting him once from behind on his hips.",
                 "The defender wins by fully disconnecting, standing, and turning to face."
               ]
             },
@@ -76,13 +76,13 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
               "kind": "list",
               "items": [
                 "The bottom player wins by putting him down and standing, or by wrestling up to a connection.",
-                "The top player wins with shin contact at the knee pit or the body from outside."
+                "The top player wins by touching his shin to the bottom player's knee pit, or his body from outside the legs."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Back Control Elbow Management, No Hooks"
+              "text": "Back Control Elbow Management — No Hooks"
             },
             {
               "kind": "list",
@@ -102,7 +102,7 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Back Control Elbow Management, No Hooks: what wins it for the top player?",
+          "question": "Back Control Elbow Management — No Hooks: the top player's win?",
           "select": "single",
           "retry": true,
           "options": [
@@ -145,7 +145,7 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What can you give that actually costs you something?",
-          "hint": "On your own. Not graded.",
+          "hint": "Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -153,19 +153,23 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF, on your own",
+          "kindLabel": "IRF",
           "fields": [
             {
-              "id": "mat",
-              "prompt": "What happened today on the mat?"
+              "id": "liked",
+              "prompt": "What did you like?"
             },
             {
-              "id": "worked",
-              "prompt": "What worked?"
+              "id": "disliked",
+              "prompt": "What did you not like?"
             },
             {
-              "id": "didnt",
-              "prompt": "What did not work?"
+              "id": "change",
+              "prompt": "What would you change?"
+            },
+            {
+              "id": "keep",
+              "prompt": "What would you keep?"
             }
           ],
           "requireAll": true,

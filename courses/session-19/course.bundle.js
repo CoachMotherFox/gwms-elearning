@@ -22,7 +22,7 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
     "games": [
       {
         "skill": "Entering",
-        "title": "Single Leg, Make Partner Fall to Hands or Hips"
+        "title": "Single Leg Takedown Game"
       },
       {
         "skill": "Arriving",
@@ -59,13 +59,13 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Single Leg, Make Partner Fall to Hands or Hips"
+              "text": "Single Leg Takedown Game"
             },
             {
               "kind": "list",
               "items": [
-                "The attacker wins when the defender's hips or hands touch the mat.",
-                "The defender wins by freeing the leg."
+                "The attacker wins when the defender touches the mat with his hips or hands.",
+                "The defender wins by freeing his own leg from the attacker's grip."
               ]
             },
             {
@@ -103,7 +103,7 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Figure Four Grip Control Game: what wins it for the top player?",
+          "question": "Figure Four Grip Control Game: the top player's win?",
           "select": "single",
           "retry": true,
           "options": [
@@ -146,7 +146,7 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
           "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What breaks in you when a connection breaks?",
-          "hint": "On your own. Not graded.",
+          "hint": "Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
@@ -154,19 +154,23 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
           "type": "reflection",
           "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF, on your own",
+          "kindLabel": "IRF",
           "fields": [
             {
-              "id": "mat",
-              "prompt": "What happened today on the mat?"
+              "id": "liked",
+              "prompt": "What did you like?"
             },
             {
-              "id": "worked",
-              "prompt": "What worked?"
+              "id": "disliked",
+              "prompt": "What did you not like?"
             },
             {
-              "id": "didnt",
-              "prompt": "What did not work?"
+              "id": "change",
+              "prompt": "What would you change?"
+            },
+            {
+              "id": "keep",
+              "prompt": "What would you keep?"
             }
           ],
           "requireAll": true,

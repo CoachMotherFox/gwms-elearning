@@ -78,7 +78,10 @@
           "start": "Both players stand in an even tie, one arm over and one arm under, on both sides.",
           "text": "Fight to get under your partner's elbows. Connect your hands anywhere from his armpits to his ankles.",
           "win": [
-            { "role": "Whoever connects first", "text": "wins. The first closed-hand connection, anywhere from armpits to ankles, takes it." }
+            {
+              "role": "Whoever connects first",
+              "text": "wins by locking his hands around his partner's body, armpits to ankles."
+            }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
         },
@@ -89,20 +92,32 @@
           "start": "The bottom player is in half guard on his side, arms out straight. The top player is inside the half guard.",
           "text": "Top player: clear the bottom player's hands and get under at least one elbow, then connect your hands. Bottom player: keep your hands on the top player to deny that spot, and close your legs around his waist.",
           "win": [
-            { "role": "The top player", "text": "wins by getting under one elbow and connecting his hands." },
-            { "role": "The bottom player", "text": "wins by closing his legs around the top player's waist." }
+            {
+              "role": "The top player",
+              "text": "wins by getting under the bottom player's elbow and locking his own hands around him."
+            },
+            {
+              "role": "The bottom player",
+              "text": "wins by closing his legs around the top player's waist."
+            }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
         },
         {
           "skill": "Controlling",
           "leavingSkill": "Leaving",
-          "title": "Mount, Stay Under Both Elbows",
+          "title": "Mount — Stay Under Both Elbows (Continuous)",
           "start": "The bottom player is on his back. The top player is in mount with both arms under both of the bottom player's elbows.",
           "text": "Top player: stay under at least one elbow the whole round. If you lose one, fight to get it back. Bottom player: get both elbows to touch your own body with nothing under them, or make the top player fall over.",
           "win": [
-            { "role": "The top player", "text": "holds as long as he keeps at least one elbow covered." },
-            { "role": "The bottom player", "text": "wins by touching both elbows to his body, or by making the top player fall." }
+            {
+              "role": "The top player",
+              "text": "holds as long as he keeps one of the bottom player's elbows covered."
+            },
+            {
+              "role": "The bottom player",
+              "text": "wins by touching both elbows to his body, or making the top player fall."
+            }
           ],
           "reset": "The top player holds no matter what. If he loses both elbows, that is the bottom player's win, and you start over. Roles switch after every win."
         }
@@ -122,7 +137,10 @@
           "start": "Both players stand facing each other, hand fighting range, no grips to start.",
           "text": "Hand fight and collect three touches, any mix. A touch is making your partner's hands touch the mat, or gripping behind one of his knees. Defend his touches at the same time.",
           "win": [
-            { "role": "Whoever gets three touches first", "text": "wins the round. The same rule applies to both players." }
+            {
+              "role": "Whoever gets three touches first",
+              "text": "wins the round. The same rule applies to both players."
+            }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
         },
@@ -133,8 +151,14 @@
           "start": "The bottom player is belly up, feet in the middle, one hand on the top player's ankle. The top player is standing.",
           "text": "Bottom player: keep your feet hooked or posted on the top player at all times, and a hand on him too. Use that to put him on his hips or hands. Top player: break those connections with your hands and feet, and work to the outside for shin-to-body contact.",
           "win": [
-            { "role": "The bottom player", "text": "holds as long as he keeps his connections." },
-            { "role": "The top player", "text": "wins by breaking every connection and making shin-to-body contact from outside the legs." }
+            {
+              "role": "The bottom player",
+              "text": "holds as long as he keeps his connections."
+            },
+            {
+              "role": "The top player",
+              "text": "wins by breaking every connection and touching the bottom player's body with his shin, from outside his legs."
+            }
           ],
           "reset": "The bottom player holds no matter what. If the top player breaks free and gets outside, that is his win, and you start over. Roles switch after every win."
         },
@@ -145,8 +169,14 @@
           "start": "The bottom player is on his back. The top player is chest to chest on top of him.",
           "text": "Top player: hold chest to chest and keep the bottom player there. Bottom player: push the top player off and get your legs back in front.",
           "win": [
-            { "role": "The top player", "text": "holds the pin." },
-            { "role": "The bottom player", "text": "wins by pushing the top player off and getting his legs back in front." }
+            {
+              "role": "The top player",
+              "text": "holds the pin."
+            },
+            {
+              "role": "The bottom player",
+              "text": "wins by pushing the top player off and getting his legs back in front."
+            }
           ],
           "reset": "The top player holds no matter what. If the bottom player pushes him off and gets his legs back, that is his win, and you start over. Roles switch after every win."
         }
@@ -166,19 +196,28 @@
           "start": "Both players stand facing each other, fully disconnected, hand fighting range.",
           "text": "Get one hand on each of two targets, wrist, elbow, or head, in any mix. Then fight to the underhook.",
           "win": [
-            { "role": "Whoever gets the underhook first", "text": "wins. The same rule applies to both players." }
+            {
+              "role": "Whoever gets the underhook first",
+              "text": "wins. The same rule applies to both players."
+            }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
         },
         {
           "skill": "Arriving",
           "leavingSkill": "Leaving",
-          "title": "Keep Feet Off, Belly Up Open Guard Introduction",
+          "title": "Keep Feet Off — Belly Up Open Guard Introduction",
           "start": "The bottom player is belly up in open guard. The top player starts with his hands on the bottom player, and may not go past the knees.",
           "text": "Bottom player: hook or post your feet on the top player any way you want, and use your hands too. Make him sit down, then get your own back off the mat. Top player: keep the bottom player on his back and your feet off his body, working step by step toward the knee pits, without going past the knees.",
           "win": [
-            { "role": "The bottom player", "text": "wins when the top player's butt hits the mat and then his own back comes off the mat." },
-            { "role": "The top player", "text": "holds as long as he keeps the bottom player down." }
+            {
+              "role": "The bottom player",
+              "text": "wins when the top player's butt hits the mat and then his own back comes off the mat."
+            },
+            {
+              "role": "The top player",
+              "text": "holds as long as he keeps the bottom player down."
+            }
           ],
           "reset": "The top player holds no matter what. If the bottom player sits him down and gets his own back up, that is his win, and you start over. Roles switch after every win."
         },
@@ -189,8 +228,14 @@
           "start": "The bottom player is on his hands and knees. The top player is on top with open hands around the bottom player's hips.",
           "text": "Top player: stay attached to the hips, break the bottom player down, and stop him from standing. Bottom player: build your base, fight to your feet, and turn to face the top player.",
           "win": [
-            { "role": "The top player", "text": "holds as long as he keeps the bottom player broken down." },
-            { "role": "The bottom player", "text": "wins by standing up and turning to face the top player." }
+            {
+              "role": "The top player",
+              "text": "holds as long as he keeps the bottom player broken down."
+            },
+            {
+              "role": "The bottom player",
+              "text": "wins by standing up and turning to face the top player."
+            }
           ],
           "reset": "The top player holds no matter what. If the bottom player stands and turns to face him, that is his win, and you start over. Roles switch after every win."
         }
@@ -210,8 +255,14 @@
           "start": "Both players stand facing each other, hand fighting range. One is the underhook player, one is the leg player.",
           "text": "Underhook player: hand fight and get one underhook, staying upright. Leg player: hand fight and pick up one leg, connecting both hands around it anywhere from hip to ankle.",
           "win": [
-            { "role": "The underhook player", "text": "wins with one underhook." },
-            { "role": "The leg player", "text": "wins by picking up a leg." }
+            {
+              "role": "The underhook player",
+              "text": "wins with one underhook."
+            },
+            {
+              "role": "The leg player",
+              "text": "wins by picking up the underhook player's leg."
+            }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
         },
@@ -222,20 +273,32 @@
           "start": "The top player stands, fully connected. The bottom player has inside hooks and a knee-pit grip.",
           "text": "Bottom player: stay connected, or get the connection back if it slips. Use it to put the top player on his butt or hands, then stand up and make his back touch the mat. Top player: put the bottom player on his back and fight to the knee pit or the outside, staying on your feet.",
           "win": [
-            { "role": "The bottom player", "text": "wins by putting him down and standing, or by wrestling up to a connection." },
-            { "role": "The top player", "text": "wins with shin contact at the knee pit or the body from outside." }
+            {
+              "role": "The bottom player",
+              "text": "wins by putting him down and standing, or by wrestling up to a connection."
+            },
+            {
+              "role": "The top player",
+              "text": "wins by touching his shin to the bottom player's knee pit, or his body from outside the legs."
+            }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
         },
         {
           "skill": "Controlling",
           "leavingSkill": "Leaving",
-          "title": "Rear Hip Connection, Keep Belly Down",
+          "title": "Rear Hip Connection - Keep Belly Down (Turtle)",
           "start": "The defender is on his elbows and knees. The attacker is behind him with his hands locked around the defender's waist.",
           "text": "Attacker: keep the defender belly down, using knee-to-knee and foot-to-foot blocking to pull his hips to the mat. Defender: rise to a quad pod, both knees and both elbows off the floor.",
           "win": [
-            { "role": "The attacker", "text": "holds as long as he keeps the defender belly down." },
-            { "role": "The defender", "text": "wins by reaching a quad pod." }
+            {
+              "role": "The attacker",
+              "text": "holds as long as he keeps the defender belly down."
+            },
+            {
+              "role": "The defender",
+              "text": "wins by reaching a quad pod."
+            }
           ],
           "reset": "The attacker holds no matter what. If the defender reaches a quad pod, that is his win, and you start over. Roles switch after every win."
         }
@@ -255,8 +318,14 @@
           "start": "Both players stand facing each other, hand fighting range, no grips.",
           "text": "Touch player: collect three sets of two touches in a row. A touch is making the clinch player's hands touch the mat, or gripping behind one of his knees. Clinch player: close both hands around the touch player under both elbows or chest to back. Headlock, hips, or ankle clinches do not count.",
           "win": [
-            { "role": "The touch player", "text": "wins with three sets of two touches in a row." },
-            { "role": "The clinch player", "text": "wins by closing his hands under both elbows or chest to back." }
+            {
+              "role": "The touch player",
+              "text": "wins with three sets of two touches in a row."
+            },
+            {
+              "role": "The clinch player",
+              "text": "wins by closing his own hands around the touch player, under both elbows or chest to back."
+            }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
         },
@@ -267,20 +336,32 @@
           "start": "The bottom player is belly up in open guard. The top player is standing and starts by clearing the feet.",
           "text": "Top player: clear the feet, then step one leg into one knee pit, then the other, in any order, keeping your feet off. Bottom player: hook and post with your feet, and use your hands to make him hit his butt, then sit up.",
           "win": [
-            { "role": "The top player", "text": "wins by touching both knee pits with his leg while keeping his feet off." },
-            { "role": "The bottom player", "text": "wins by sitting up." }
+            {
+              "role": "The top player",
+              "text": "wins by touching both of the bottom player's knee pits with his own leg, feet off the mat."
+            },
+            {
+              "role": "The bottom player",
+              "text": "wins by sitting up."
+            }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
         },
         {
           "skill": "Controlling",
           "leavingSkill": "Leaving",
-          "title": "Mount, Stay Under Both Elbows",
+          "title": "Mount — Stay Under Both Elbows (Continuous)",
           "start": "The bottom player is on his back. The top player is in mount with both arms under both of the bottom player's elbows.",
           "text": "Top player: stay under at least one elbow the whole round. If you lose one, fight to get it back. Bottom player: get both elbows to touch your own body with nothing under them, or make the top player fall over.",
           "win": [
-            { "role": "The top player", "text": "holds as long as he keeps at least one elbow covered." },
-            { "role": "The bottom player", "text": "wins by touching both elbows to his body, or by making the top player fall." }
+            {
+              "role": "The top player",
+              "text": "holds as long as he keeps one of the bottom player's elbows covered."
+            },
+            {
+              "role": "The bottom player",
+              "text": "wins by touching both elbows to his body, or making the top player fall."
+            }
           ],
           "reset": "The top player holds no matter what. If he loses both elbows, that is the bottom player's win, and you start over. Roles switch after every win."
         }
@@ -296,24 +377,36 @@
       "games": [
         {
           "skill": "Entering",
-          "title": "Single Leg, Make Partner Fall to Hands or Hips",
+          "title": "Single Leg — Make Partner Fall to Hands or Hips (Terminal)",
           "start": "Both players stand. The attacker is connected to one of the defender's legs.",
           "text": "Attacker: move the defender using only that leg, run him, pull him, turn him, or lift him, to make his hips or hands touch the mat. Defender: stay balanced and use your connections to break the grip and free your leg.",
           "win": [
-            { "role": "The attacker", "text": "wins when the defender's hips or hands touch the mat." },
-            { "role": "The defender", "text": "wins by freeing the leg." }
+            {
+              "role": "The attacker",
+              "text": "wins when the defender's hips or hands touch the mat."
+            },
+            {
+              "role": "The defender",
+              "text": "wins by freeing his own leg from the attacker's grip."
+            }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
         },
         {
           "skill": "Arriving",
           "leavingSkill": "Leaving",
-          "title": "Closed Guard Opening, Hands on Body",
+          "title": "Closed Guard Opening — Hands on Body",
           "start": "The bottom player has closed guard locked around the top player. The top player is inside the guard, hands on him.",
           "text": "Top player: hold the bottom player down, get to your feet, and press on his hips, knees, and feet to open his legs. Bottom player: keep your legs closed, using only open-hand grips on the head, wrists, and elbows.",
           "win": [
-            { "role": "The top player", "text": "wins by getting to his feet and opening the guard." },
-            { "role": "The bottom player", "text": "wins by stopping the top player's win for 30 seconds. Then you switch roles." }
+            {
+              "role": "The top player",
+              "text": "wins by getting to his feet and opening the guard."
+            },
+            {
+              "role": "The bottom player",
+              "text": "wins by stopping the top player's win for 30 seconds. Then switch."
+            }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
         },
@@ -324,8 +417,14 @@
           "start": "The bottom player is on his hands and knees. The top player is in referee position with open hands on his hips.",
           "text": "Top player: ride the bottom player, break him down, and keep his hips and hands on the mat, no closed-hand connections. Bottom player: build your base, fight to your feet, and turn to face.",
           "win": [
-            { "role": "The top player", "text": "holds as long as he keeps the bottom player broken down." },
-            { "role": "The bottom player", "text": "wins when he stands up and faces the top player." }
+            {
+              "role": "The top player",
+              "text": "holds as long as he keeps the bottom player broken down."
+            },
+            {
+              "role": "The bottom player",
+              "text": "wins when he stands up and faces the top player."
+            }
           ],
           "reset": "The top player holds no matter what. If the bottom player stands and faces him, that is his win, and you start over. Roles switch after every win."
         }
@@ -345,7 +444,10 @@
           "start": "Both players stand and hand fight for wrist, elbow, and head connections.",
           "text": "Get an inside, outside, or under-elbow connection. Then pick up your partner's leg at the knee or ankle.",
           "win": [
-            { "role": "Whoever controls and picks up a leg first", "text": "wins. The same rule applies to both players." }
+            {
+              "role": "Whoever controls and picks up a leg first",
+              "text": "wins. The same rule applies to both players."
+            }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
         },
@@ -356,20 +458,32 @@
           "start": "The bottom player is belly up in open guard. The top player is in front of him, hands already on him.",
           "text": "Top player: keep his feet off by clearing them and closing distance, stepping inside the knees or around the outside. Bottom player: use hooks, feet on the body, and posts to make the top player hit his butt or hands, then sit up with your back off the mat.",
           "win": [
-            { "role": "The top player", "text": "wins by shin-to-body contact inside or outside the knees." },
-            { "role": "The bottom player", "text": "wins by making the top player hit his butt and sitting up with your back off the mat." }
+            {
+              "role": "The top player",
+              "text": "wins by touching his shin to the bottom player's body, inside or outside his knees."
+            },
+            {
+              "role": "The bottom player",
+              "text": "wins by making the top player fall on his butt, then getting his own back off the mat."
+            }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
         },
         {
           "skill": "Controlling",
           "leavingSkill": "Leaving",
-          "title": "Pinning, Continuous Hip and Shoulder Connection from All Fours",
+          "title": "Pinning — Continuous Hip and Shoulder Connection from All Fours",
           "start": "The bottom player is on his hands and knees. The top player is behind him, hands locked around his waist.",
           "text": "Top player: use knee-to-knee and foot-to-foot blocking to pull his hips to the mat, switching between the hip grip and wrist grips to keep him belly down. Bottom player: get to a quad pod, both hands and both feet on the mat at the same time.",
           "win": [
-            { "role": "The top player", "text": "holds as long as he keeps the bottom player belly down." },
-            { "role": "The bottom player", "text": "wins by getting to a quad pod." }
+            {
+              "role": "The top player",
+              "text": "holds as long as he keeps the bottom player belly down."
+            },
+            {
+              "role": "The bottom player",
+              "text": "wins by getting to a quad pod."
+            }
           ],
           "reset": "The top player holds no matter what. If the bottom player reaches a quad pod, that is his win, and you start over. Roles switch after every win."
         }
@@ -389,8 +503,14 @@
           "start": "Both players stand. The attacker is connected to one of the defender's legs at the knee.",
           "text": "Attacker: move the defender and make him fall toward his hands or hips, running him, pulling him, turning him, or lifting him, using only that leg. Defender: stay balanced and use your connections to break the grip and free your leg.",
           "win": [
-            { "role": "The attacker", "text": "wins when the defender touches the mat with his hips or hands." },
-            { "role": "The defender", "text": "wins by freeing the leg." }
+            {
+              "role": "The attacker",
+              "text": "wins when the defender touches the mat with his hips or hands."
+            },
+            {
+              "role": "The defender",
+              "text": "wins by freeing his own leg from the attacker's grip."
+            }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
         },
@@ -401,8 +521,14 @@
           "start": "The bottom player is belly up in open guard. The top player is standing and starts by clearing the feet.",
           "text": "Top player: clear the feet, then step one leg into one knee pit, then the other, keeping your feet off. Bottom player: hook and post with your feet, using your hands to make him hit his butt, then sit up.",
           "win": [
-            { "role": "The top player", "text": "wins by touching both knee pits with his leg while keeping his feet off." },
-            { "role": "The bottom player", "text": "wins by sitting up." }
+            {
+              "role": "The top player",
+              "text": "wins by touching both of the bottom player's knee pits with his own leg, feet off the mat."
+            },
+            {
+              "role": "The bottom player",
+              "text": "wins by sitting up."
+            }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
         },
@@ -413,8 +539,14 @@
           "start": "The bottom player is on his back. The top player is chest to chest on top, both arms under both of the bottom player's elbows.",
           "text": "Top player: stay under the bottom player's elbows, keeping them away from his body. Bottom player: get both elbows to touch your body, or make the top player fall over.",
           "win": [
-            { "role": "The top player", "text": "wins by keeping the elbows away from the body the whole time." },
-            { "role": "The bottom player", "text": "wins by bringing both elbows to his body, or by making the top player fall." }
+            {
+              "role": "The top player",
+              "text": "wins by keeping the bottom player's elbows away from his body the whole time."
+            },
+            {
+              "role": "The bottom player",
+              "text": "wins by bringing both elbows to his body, or making the top player fall."
+            }
           ],
           "reset": "The top player holds no matter what. If the bottom player gets both elbows to his body, that is his win, and you start over. Roles switch after every win."
         }
@@ -434,8 +566,14 @@
           "start": "Both players stand. The underhook player has an underhook. The overhook player has an overhook.",
           "text": "Underhook player: move your partner and get to the head, waist, or a leg. The waist wins right away. A head or leg connection must be turned into a waist connection to win. Overhook player: use the overhook to keep him away, freeing the head or leg before he reaches the waist.",
           "win": [
-            { "role": "The underhook player", "text": "wins by getting to the waist, directly or from the head or a leg." },
-            { "role": "The overhook player", "text": "wins by freeing a head or leg connection." }
+            {
+              "role": "The underhook player",
+              "text": "wins by getting to the overhook player's waist, directly or from his head or his leg."
+            },
+            {
+              "role": "The overhook player",
+              "text": "wins by freeing a head or leg connection."
+            }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
         },
@@ -446,8 +584,14 @@
           "start": "The bottom player is belly up in open guard. The top player is on his feet, starting by clearing the feet.",
           "text": "Top player: get one leg outside the bottom player's feet, make shin contact from knee to head, then without stopping go around to the other side and touch there too. Bottom player: hook and post with your feet to make the top player hit his butt, then sit up with your back off the mat.",
           "win": [
-            { "role": "The top player", "text": "wins by touching one outside and then the other, one right after the other." },
-            { "role": "The bottom player", "text": "wins by making the top player hit his butt and sitting up with his back off the mat." }
+            {
+              "role": "The top player",
+              "text": "wins by touching one outside of the bottom player's legs, then the other outside, right after."
+            },
+            {
+              "role": "The bottom player",
+              "text": "wins by making the top player fall on his butt, then getting his own back off the mat."
+            }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
         },
@@ -458,8 +602,14 @@
           "start": "The bottom player is on his back. The top player covers his head with a figure-four grip, one hand on the wrist, the other arm under the elbow.",
           "text": "Top player: keep the figure-four grip and stay under at least one elbow while keeping the bottom player pinned. Bottom player: break the grip by freeing your arms and getting your elbows to your body.",
           "win": [
-            { "role": "The top player", "text": "holds as long as he keeps the grip." },
-            { "role": "The bottom player", "text": "wins by breaking the grip." }
+            {
+              "role": "The top player",
+              "text": "holds as long as he keeps the grip."
+            },
+            {
+              "role": "The bottom player",
+              "text": "wins by breaking the grip."
+            }
           ],
           "reset": "The top player holds no matter what. If the bottom player breaks the grip, that is his win, and you start over. Roles switch after every win."
         }
@@ -479,19 +629,28 @@
           "start": "Both players stand facing each other, not gripped, starting to hand fight.",
           "text": "Collect three touches. A touch is a hand behind your partner's knee or an underhook. Any mix counts. Only after three touches can you try for a closed-hand connection.",
           "win": [
-            { "role": "Whoever collects three touches and then connects first", "text": "wins, closing his hands anywhere on his partner's body from shoulders to ankles." }
+            {
+              "role": "Whoever collects three touches and then connects first",
+              "text": "wins, closing his hands anywhere on his partner's body from shoulders to ankles."
+            }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
         },
         {
           "skill": "Arriving",
           "leavingSkill": "Leaving",
-          "title": "Side Half Guard, Clear Hands to Get Under Elbow",
+          "title": "Side Half Guard — Clear Hands to Get Under Elbow",
           "start": "The bottom player is on his side in half guard, hands fully out on the top player. The top player is inside.",
           "text": "Top player: clear the bottom player's hands and get under one or both elbows, then connect your hands. Bottom player: keep your hands on the top player to deny that spot, and close your legs around his waist.",
           "win": [
-            { "role": "The top player", "text": "wins by connecting his hands under at least one elbow." },
-            { "role": "The bottom player", "text": "wins by closing his legs around the top player's waist." }
+            {
+              "role": "The top player",
+              "text": "wins by connecting his hands under at least one elbow."
+            },
+            {
+              "role": "The bottom player",
+              "text": "wins by closing his legs around the top player's waist."
+            }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
         },
@@ -502,8 +661,14 @@
           "start": "The bottom player is on his back. The top player is chest to chest on top of him.",
           "text": "Top player: hold chest to chest and keep the bottom player there. Bottom player: push the top player off and get your legs back in front.",
           "win": [
-            { "role": "The top player", "text": "holds the pin." },
-            { "role": "The bottom player", "text": "wins by pushing the top player off and getting his legs back in front." }
+            {
+              "role": "The top player",
+              "text": "holds the pin."
+            },
+            {
+              "role": "The bottom player",
+              "text": "wins by pushing the top player off and getting his legs back in front."
+            }
           ],
           "reset": "The top player holds no matter what. If the bottom player pushes him off and gets his legs back, that is his win, and you start over. Roles switch after every win."
         }
@@ -524,7 +689,10 @@
           "start": "Both players stand facing each other, hand fighting range, in a neutral position. A knee grip must be behind the knee, not the front.",
           "text": "Win one of two ways: collect three touches in any mix (making your partner's hands touch the mat, or gripping behind one of his knees), or close both hands around his head, body, or leg. Take whichever one shows up.",
           "win": [
-            { "role": "Whoever gets there first", "text": "wins, whether by three touches or by any closed-hand connection." }
+            {
+              "role": "Whoever gets there first",
+              "text": "wins, whether by three touches or by any closed-hand connection."
+            }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
         },
@@ -535,8 +703,14 @@
           "start": "The top player stands. The bottom player is on his back, fully connected, hands on the top player's ankles, feet inside his legs.",
           "text": "Bottom player: stay connected while putting the top player down on his hips or hands, then stand up, or stay connected as he rises. Top player: break the connections and make shin contact to pass.",
           "win": [
-            { "role": "The bottom player", "text": "wins by putting the top player down and getting up to standing, or by putting him down a different way and rising to a connection." },
-            { "role": "The top player", "text": "wins with shin contact." }
+            {
+              "role": "The bottom player",
+              "text": "wins by putting the top player down and standing up, or by rising up to a connection another way."
+            },
+            {
+              "role": "The top player",
+              "text": "wins with shin contact."
+            }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
         },
@@ -547,8 +721,14 @@
           "start": "The bottom player is on his hands and knees. The top player is on top with open hands around the bottom player's hips.",
           "text": "Top player: stay attached to the hips, break the bottom player down, and stop him from standing. Bottom player: build your base, fight to your feet, and turn to face the top player.",
           "win": [
-            { "role": "The top player", "text": "holds as long as he keeps the bottom player broken down." },
-            { "role": "The bottom player", "text": "wins by standing up and turning to face the top player." }
+            {
+              "role": "The top player",
+              "text": "holds as long as he keeps the bottom player broken down."
+            },
+            {
+              "role": "The bottom player",
+              "text": "wins by standing up and turning to face the top player."
+            }
           ],
           "reset": "The top player holds no matter what. If the bottom player stands and turns to face him, that is his win, and you start over. Roles switch after every win."
         }
