@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
       }
     ],
     "connection": "The Descent found the real you. Now it goes to the mat with a partner. Rolling as the real you, instead of a mask, is the same as showing up honest in a relationship instead of performing one.",
-    "takeaway": "Tonight you worked from the hand fight, closed guard, and mount. You already found the real you these past twelve weeks, and tonight that real you rolled with a partner. Being honest on the mat instead of performing is the same choice as being honest with people off it. You get to bring the real you into every room now, not just this one.",
+    "takeaway": "Tonight you worked from the hand fight, closed guard, and mount. You already found the real you since Session 1, and tonight that real you rolled with a partner. Being honest on the mat instead of performing is the same choice as being honest with people off it. You get to bring the real you into every room now, not just this one.",
     "_source": "GWMS Curriculum Guide — Session 15 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -135,7 +135,7 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from the hand fight, closed guard, and mount. You already found the real you these past twelve weeks, and tonight that real you rolled with a partner. Being honest on the mat instead of performing is the same choice as being honest with people off it. You get to bring the real you into every room now, not just this one."
+              "text": "Tonight you worked from the hand fight, closed guard, and mount. You already found the real you since Session 1, and tonight that real you rolled with a partner. Being honest on the mat instead of performing is the same choice as being honest with people off it. You get to bring the real you into every room now, not just this one."
             }
           ]
         },
