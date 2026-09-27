@@ -18,59 +18,27 @@ window.GWMS_COURSE_BUNDLE["session-02"] =
       "Self-Management"
     ],
     "bloom": "Apply",
-    "card": "Taking the Base",
-    "domain": "Enter",
-    "keyCondition": "Make a connection your partner has to answer.",
-    "gameName": "Overhook-Underhook Starting Position Game",
     "probingQuestion": "How do you show up when nobody here knows you yet?",
-    "grapplingTlo": "By the end of this session, the participant will show safe first contact with a partner they do not know.",
-    "looksBackAt": 1,
-    "grapplingElos": [
-      "Make controlled first contact with a new partner.",
-      "Stay safe while closing distance."
-    ],
-    "caselTlo": "By the end of this session, the participant will name how they act when they are new somewhere, without judging it.",
-    "caselElos": [
-      "Notice how they enter a new space.",
-      "Name that behavior in plain words."
+    "games": [
+      {
+        "skill": "Entering",
+        "title": "Over-Under to Close Hand Connection"
+      },
+      {
+        "skill": "Arriving",
+        "title": "Half Guard Side-Position Game"
+      },
+      {
+        "skill": "Controlling",
+        "title": "Mount — Stay Under Both Elbows (Continuous)"
+      }
     ],
     "connection": "How you make first contact on the mat, careful, rushed, or stiff, is your entrance. Naming how you show up when nobody knows you yet is the same pattern, seen off the mat.",
     "takeaway": "Everybody has an entrance, and now you can see yours.",
-    "_source": "GWMS Curriculum Guide — Session 2 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+    "_source": "GWMS Curriculum Guide — Session 2 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
-    {
-      "id": "start",
-      "title": "Welcome",
-      "slides": [
-        {
-          "id": "s02-welcome",
-          "type": "text-image",
-          "eyebrow": "Welcome",
-          "title": "Welcome to GWMS Online",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is Session 2 of 36: Arrival."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 2 of 36. The Descent, Week 1, Arrival. On the mat that stage runs The Paths."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Take your time. There are no wrong answers when you write about yourself."
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "today",
       "title": "Today",
@@ -80,95 +48,47 @@ window.GWMS_COURSE_BUNDLE["session-02"] =
           "type": "text-image",
           "eyebrow": "Session 2 · Today's question",
           "title": "How do you show up when nobody here knows you yet?",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the game and the lesson."
-            }
-          ],
-          "alternates": [
-            {
-              "mode": "audio",
-              "label": "Listen",
-              "src": "assets/probing-question.m4a",
-              "transcriptIsBody": true,
-              "own": true,
-              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
-            }
-          ]
+          "body": []
         },
         {
-          "id": "s02-lookback",
-          "eyebrow": "Look back",
-          "title": "Session 1 asked you this",
-          "body": [
-            {
-              "kind": "quote",
-              "text": "What makes a place feel safe to you?",
-              "attribution": "Session 1 — The Descent, Arrival"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Before you read on, see if you can remember what you answered."
-            }
-          ],
-          "type": "reveal",
-          "reveals": [
-            {
-              "id": "what-it-was-after",
-              "label": "What that one was really about",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "That is what makes a place feel safe. Everyone knows the rules will hold."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s02-game",
+          "id": "s02-games",
           "type": "text-image",
-          "eyebrow": "The game",
-          "title": "Overhook-Underhook Starting Position Game",
+          "eyebrow": "Tonight on the mat",
+          "title": "The three games",
           "body": [
             {
-              "kind": "lead",
-              "text": "Both players stand and tie up. One arm goes over, one arm goes under. There is one way to win: connect your hands anywhere on your partner's body. No takedowns. No slamming. Stay light and stay standing."
+              "kind": "heading",
+              "level": 3,
+              "text": "Over-Under to Close Hand Connection"
             },
             {
-              "kind": "paragraph",
-              "text": "You are learning to make a connection the other person has to answer. That is the first thing that happens when you meet a stranger on the mat."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "key-condition",
-              "label": "What you need first",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Make a connection your partner has to answer."
-                }
+              "kind": "list",
+              "items": [
+                "Whoever connects first wins by locking his hands around his partner's body, armpits to ankles."
               ]
             },
             {
-              "id": "the-tap",
-              "label": "Still true every session: the tap",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
+              "kind": "heading",
+              "level": 3,
+              "text": "Half Guard Side-Position Game"
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player wins by getting under the bottom player's elbow and locking his own hands around him.",
+                "The bottom player wins by closing his legs around the top player's waist."
+              ]
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Mount — Stay Under Both Elbows"
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player holds as long as he keeps one of the bottom player's elbows covered.",
+                "The bottom player wins by touching both elbows to his body, or making the top player fall."
               ]
             }
           ]
@@ -182,107 +102,22 @@ window.GWMS_COURSE_BUNDLE["session-02"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Overhook-Underhook Starting Position Game, what counts as the win?",
+          "question": "Mount — Stay Under Both Elbows: the top player's win?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Connecting your hands anywhere on your partner's body",
+              "text": "The top player holds as long as he keeps one of the bottom player's elbows covered.",
               "correct": true,
-              "feedback": "That is the win condition, and nothing else scores."
+              "feedback": "That's it."
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not part of the Paths. Enter and Arrive are the two path steps here, and neither one ends in a submission. The path leads you into a pin, not a finish."
+              "feedback": "Not tonight. These games end in a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
-              "feedback": "Never. Everyone goes light, and the tap always stops it right away, every time."
-            }
-          ],
-          "correctHead": "That's it.",
-          "correctText": "That is how you win today.",
-          "incorrectHead": "Not quite.",
-          "incorrectText": "Read the note under your choice, then try again.",
-          "revealText": "The right answer is marked above, with the reason."
-        }
-      ]
-    },
-    {
-      "id": "lesson",
-      "title": "The lesson",
-      "slides": [
-        {
-          "id": "s02-grappling",
-          "type": "text-image",
-          "eyebrow": "On the mat",
-          "title": "What you were working on",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Show safe first contact with a partner you do not know."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Make controlled first contact with a new partner.",
-                "Stay safe while closing distance."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s02-casel",
-          "type": "text-image",
-          "eyebrow": "Off the mat",
-          "title": "The part that was not about grappling",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Name how you act when you are new somewhere, without judging it."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Notice how you enter a new space.",
-                "Name that behavior in plain words."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s02-connection",
-          "type": "reveal",
-          "eyebrow": "The connection",
-          "title": "Where those two meet",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "How you make first contact on the mat, careful, rushed, or stiff, is your entrance. Naming how you show up when nobody knows you yet is the same pattern, seen off the mat."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "stage-arc",
-              "label": "Where this sits in The Descent",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Getting past a partner's guard to what it protects is the same act as looking under a mask to the real person. The Descent digs deep, on the mat and inside you."
-                }
-              ]
+              "feedback": "Never. Everyone goes light."
             }
           ]
         }
@@ -293,112 +128,48 @@ window.GWMS_COURSE_BUNDLE["session-02"] =
       "title": "Before you go",
       "slides": [
         {
-          "id": "s02-recap",
-          "type": "reveal",
-          "eyebrow": "Quick recap",
-          "title": "Before you go: Overhook-Underhook Starting Position Game",
+          "id": "s02-takeaway",
+          "type": "text-image",
+          "eyebrow": "The takeaway",
+          "title": "What tonight was really about",
           "body": [
             {
               "kind": "lead",
-              "text": "Both players stand and tie up. One arm goes over, one arm goes under. There is one way to win: connect your hands anywhere on your partner's body. No takedowns. No slamming. Stay light and stay standing."
-            },
-            {
-              "kind": "paragraph",
-              "text": "You are learning to make a connection the other person has to answer. That is the first thing that happens when you meet a stranger on the mat."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "win-again",
-              "label": "How you win it, again",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Connecting your hands anywhere on your partner's body"
-                }
-              ]
-            },
-            {
-              "id": "tap-again",
-              "label": "And the rule that never changes",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
-              ]
+              "text": "Everybody has an entrance, and now you can see yours."
             }
           ]
         },
         {
-          "id": "s02-summative",
-          "type": "quiz",
-          "eyebrow": "End-of-session check",
-          "title": "What today was asking of you",
-          "assessment": {
-            "role": "summative",
-            "scored": true
-          },
-          "question": "Which one was this session actually asking you to do?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "Name how you act when you are new somewhere, without judging it.",
-              "correct": true,
-              "feedback": "That was the target for today."
-            },
-            {
-              "text": "Trace your mask back to where or who you learned it from, without having to share the story.",
-              "feedback": "That is Session 5's target, not today's."
-            },
-            {
-              "text": "Name one true thing about yourself that lives under the act you put on.",
-              "feedback": "That is Session 10's target, not today's."
-            }
-          ],
-          "correctHead": "That's the one.",
-          "correctText": "That was the point of the whole session, on the mat and off it.",
-          "incorrectHead": "Not today.",
-          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
-          "revealText": "Today's target is marked above."
-        },
-        {
           "id": "s02-reflection",
           "type": "reflection",
-          "eyebrow": "Reflection",
+          "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "How do you show up when nobody here knows you yet?",
-          "hint": "Nothing here is graded. A few words is plenty.",
+          "hint": "Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
           "id": "s02-irf",
           "type": "reflection",
-          "eyebrow": "Before you go",
+          "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session",
+          "kindLabel": "IRF",
           "fields": [
             {
-              "id": "mat",
-              "prompt": "What happened today on the mat?"
+              "id": "liked",
+              "prompt": "What did you like?"
             },
             {
-              "id": "worked",
-              "prompt": "What worked?"
+              "id": "disliked",
+              "prompt": "What did you not like?"
             },
             {
-              "id": "didnt",
-              "prompt": "What did not work?"
+              "id": "change",
+              "prompt": "What would you change?"
+            },
+            {
+              "id": "keep",
+              "prompt": "What would you keep?"
             }
           ],
           "requireAll": true,
@@ -406,13 +177,7 @@ window.GWMS_COURSE_BUNDLE["session-02"] =
           "submit": true,
           "sendLabel": "Send it",
           "reflectionFrom": "s02-reflection",
-          "body": [
-            {
-              "kind": "callout",
-              "label": "Next session",
-              "text": "Session 3: What are you like before you trust the room?"
-            }
-          ],
+          "body": [],
           "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]

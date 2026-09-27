@@ -17,59 +17,27 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
       "Responsible Decision-Making"
     ],
     "bloom": "Apply and Analyze",
-    "card": "The Back Pin",
-    "domain": "Control",
-    "keyCondition": "Hold control, but give your partner room to work their escape.",
-    "gameName": "Back Control Elbow Management, No Hooks",
     "probingQuestion": "What can you give that actually costs you something?",
-    "grapplingTlo": "By the end of this session, the participant will use back-pin control while letting a partner work and learn, and name what it costs to give that up.",
-    "looksBackAt": 23,
-    "grapplingElos": [
-      "Hold back-pin control while deliberately giving the partner room to work.",
-      "Name what it costs to help instead of dominate."
-    ],
-    "caselTlo": "By the end of this session, the participant will name a contribution that costs them something real.",
-    "caselElos": [
-      "Tell apart easy giving from giving that costs something.",
-      "Name one thing worth giving that costs them."
+    "games": [
+      {
+        "skill": "Entering",
+        "title": "Front Headlock to Rear - Standing"
+      },
+      {
+        "skill": "Arriving",
+        "title": "Open Guard Multiple Connection Game"
+      },
+      {
+        "skill": "Controlling",
+        "title": "Back Control Elbow Management — No Hooks"
+      }
     ],
     "connection": "Letting a partner work when you could just finish them costs you the easy win. Giving something real off the mat costs something too, time, comfort, pride. The giving that counts is the kind you feel.",
     "takeaway": "The giving that costs is the giving that counts.",
-    "_source": "GWMS Curriculum Guide — Session 29 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+    "_source": "GWMS Curriculum Guide — Session 29 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
-    {
-      "id": "start",
-      "title": "Welcome",
-      "slides": [
-        {
-          "id": "s29-welcome",
-          "type": "text-image",
-          "eyebrow": "Welcome",
-          "title": "Welcome to GWMS Online",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is Session 29 of 36: Contribution."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 29 of 36. The Return, Week 10, Contribution. On the mat that stage runs Back Pin."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Take your time. There are no wrong answers when you write about yourself."
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "today",
       "title": "Today",
@@ -79,95 +47,48 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
           "type": "text-image",
           "eyebrow": "Session 29 · Today's question",
           "title": "What can you give that actually costs you something?",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the game and the lesson."
-            }
-          ],
-          "alternates": [
-            {
-              "mode": "audio",
-              "label": "Listen",
-              "src": "assets/probing-question.m4a",
-              "transcriptIsBody": true,
-              "own": true,
-              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
-            }
-          ]
+          "body": []
         },
         {
-          "id": "s29-lookback",
-          "eyebrow": "Look back",
-          "title": "Session 23 asked you this",
-          "body": [
-            {
-              "kind": "quote",
-              "text": "Can you stay when leaving would be easier?",
-              "attribution": "Session 23 — The Initiation, Repair"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Before you read on, see if you can remember what you answered."
-            }
-          ],
-          "type": "reveal",
-          "reveals": [
-            {
-              "id": "what-it-was-after",
-              "label": "What that one was really about",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Staying is a choice you can make on purpose. You just practiced it."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s29-game",
+          "id": "s29-games",
           "type": "text-image",
-          "eyebrow": "The game",
-          "title": "Back Control Elbow Management, No Hooks",
+          "eyebrow": "Tonight on the mat",
+          "title": "The three games",
           "body": [
             {
-              "kind": "lead",
-              "text": "Hold the back with no hooks in. Manage the elbows, and give the bottom partner room to work their escape. Win by keeping control while you let them fight."
+              "kind": "heading",
+              "level": 3,
+              "text": "Front Headlock to Rear - Standing"
             },
             {
-              "kind": "paragraph",
-              "text": "Real giving costs you the easy finish."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "key-condition",
-              "label": "What you need first",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Hold control, but give your partner room to work their escape."
-                }
+              "kind": "list",
+              "items": [
+                "The attacker wins by putting the defender's hands on the mat, and lifting him once from behind on his hips.",
+                "The defender wins by fully disconnecting, standing, and turning to face."
               ]
             },
             {
-              "id": "the-tap",
-              "label": "Still true every session: the tap",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
+              "kind": "heading",
+              "level": 3,
+              "text": "Open Guard Multiple Connection Game"
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The bottom player wins by putting him down and standing, or by wrestling up to a connection.",
+                "The top player wins by touching his shin to the bottom player's knee pit, or his body from outside the legs."
+              ]
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Back Control Elbow Management — No Hooks"
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The back player holds as long as he keeps control.",
+                "The front player wins when he faces the back player with elbows free."
               ]
             }
           ]
@@ -181,112 +102,22 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Back Control Elbow Management, No Hooks, what counts as the win?",
+          "question": "Back Control Elbow Management — No Hooks: the top player's win?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Keeping control while deliberately giving the partner room to work",
+              "text": "The back player holds as long as he keeps control.",
               "correct": true,
-              "feedback": "That is the win condition, and nothing else scores."
+              "feedback": "That's it."
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. You let go the second your partner taps. Every single time. The tap is law."
+              "feedback": "Never. Let go the instant he taps."
             },
             {
               "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing the Back Pin teaches you never to do. Total control, plus the choice not to hurt someone, is the heart of the whole program."
-            }
-          ],
-          "correctHead": "That's it.",
-          "correctText": "That is how you win today.",
-          "incorrectHead": "Not quite.",
-          "incorrectText": "Read the note under your choice, then try again.",
-          "revealText": "The right answer is marked above, with the reason."
-        }
-      ]
-    },
-    {
-      "id": "lesson",
-      "title": "The lesson",
-      "slides": [
-        {
-          "id": "s29-grappling",
-          "type": "text-image",
-          "eyebrow": "On the mat",
-          "title": "What you were working on",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Use back-pin control while letting a partner work and learn, and name what it costs to give that up."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Hold back-pin control while deliberately giving the partner room to work.",
-                "Name what it costs to help instead of dominate."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s29-casel",
-          "type": "text-image",
-          "eyebrow": "Off the mat",
-          "title": "The part that was not about grappling",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Name a contribution that costs you something real."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Tell apart easy giving from giving that costs something.",
-                "Name one thing worth giving that costs you."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s29-connection",
-          "type": "reveal",
-          "eyebrow": "The connection",
-          "title": "Where those two meet",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Letting a partner work when you could just finish them costs you the easy win. Giving something real off the mat costs something too, time, comfort, pride. The giving that counts is the kind you feel."
-            },
-            {
-              "kind": "callout",
-              "label": "Said simply",
-              "text": "Giving that costs you is not the same as erasing yourself. Giving until nothing is left of you is not the goal."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "stage-arc",
-              "label": "Where this sits in The Return",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Total control, plus the choice not to hurt someone, is the heart of the whole program. Now you carry that choice out the door."
-                }
-              ]
+              "feedback": "That is the one thing you never do."
             }
           ]
         }
@@ -297,112 +128,48 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
       "title": "Before you go",
       "slides": [
         {
-          "id": "s29-recap",
-          "type": "reveal",
-          "eyebrow": "Quick recap",
-          "title": "Before you go: Back Control Elbow Management, No Hooks",
+          "id": "s29-takeaway",
+          "type": "text-image",
+          "eyebrow": "The takeaway",
+          "title": "What tonight was really about",
           "body": [
             {
               "kind": "lead",
-              "text": "Hold the back with no hooks in. Manage the elbows, and give the bottom partner room to work their escape. Win by keeping control while you let them fight."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Real giving costs you the easy finish."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "win-again",
-              "label": "How you win it, again",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Keeping control while deliberately giving the partner room to work"
-                }
-              ]
-            },
-            {
-              "id": "tap-again",
-              "label": "And the rule that never changes",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
-              ]
+              "text": "The giving that costs is the giving that counts."
             }
           ]
         },
         {
-          "id": "s29-summative",
-          "type": "quiz",
-          "eyebrow": "End-of-session check",
-          "title": "What today was asking of you",
-          "assessment": {
-            "role": "summative",
-            "scored": true
-          },
-          "question": "Which one was this session actually asking you to do?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "Name a contribution that costs you something real.",
-              "correct": true,
-              "feedback": "That was the target for today."
-            },
-            {
-              "text": "Name what someone would learn from watching how you carry yourself.",
-              "feedback": "That is Session 33's target, not today's."
-            },
-            {
-              "text": "Test if a claimed change is real by checking it under pressure, and name the proof.",
-              "feedback": "That is Session 26's target, not today's."
-            }
-          ],
-          "correctHead": "That's the one.",
-          "correctText": "That was the point of the whole session, on the mat and off it.",
-          "incorrectHead": "Not today.",
-          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
-          "revealText": "Today's target is marked above."
-        },
-        {
           "id": "s29-reflection",
           "type": "reflection",
-          "eyebrow": "Reflection",
+          "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What can you give that actually costs you something?",
-          "hint": "Nothing here is graded. A few words is plenty.",
+          "hint": "Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
           "id": "s29-irf",
           "type": "reflection",
-          "eyebrow": "Before you go",
+          "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session",
+          "kindLabel": "IRF",
           "fields": [
             {
-              "id": "mat",
-              "prompt": "What happened today on the mat?"
+              "id": "liked",
+              "prompt": "What did you like?"
             },
             {
-              "id": "worked",
-              "prompt": "What worked?"
+              "id": "disliked",
+              "prompt": "What did you not like?"
             },
             {
-              "id": "didnt",
-              "prompt": "What did not work?"
+              "id": "change",
+              "prompt": "What would you change?"
+            },
+            {
+              "id": "keep",
+              "prompt": "What would you keep?"
             }
           ],
           "requireAll": true,
@@ -410,13 +177,7 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
           "submit": true,
           "sendLabel": "Send it",
           "reflectionFrom": "s29-reflection",
-          "body": [
-            {
-              "kind": "callout",
-              "label": "Next session",
-              "text": "Session 30: How do you use your strength without taking someone else's?"
-            }
-          ],
+          "body": [],
           "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]

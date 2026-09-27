@@ -16,59 +16,27 @@
       "Self-Management"
     ],
     "bloom": "Apply",
-    "card": "Controlling the Legs",
-    "domain": "Arrive",
-    "keyCondition": "Land the pin and hold the arrival for a three-count.",
-    "gameName": "Half Guard Side-Position Game",
     "probingQuestion": "What part of you have you been hiding, even from yourself?",
-    "grapplingTlo": "By the end of this session, the participant will pass the guard and arrive in a full pin.",
-    "looksBackAt": 5,
-    "grapplingElos": [
-      "Finish the pass into a controlled chest position.",
-      "Hold the arrival for a three-count."
+    "games": [
+      {
+        "skill": "Entering",
+        "title": "Hand Fight with Precondition Game"
+      },
+      {
+        "skill": "Arriving",
+        "title": "Side Half Guard — Clear Hands to Get Under Elbow"
+      },
+      {
+        "skill": "Controlling",
+        "title": "Introductory Pin Game"
+      }
     ],
-    "caselTlo": "By the end of this session, the participant will admit, at least to themselves, one part they have hidden even from themselves.",
-    "caselElos": [
-      "Look at one hidden part.",
-      "Keep it private if they choose."
-    ],
-    "connection": "Arriving past the guard puts you in touch with what was most protected. Naming the Shadow does the same thing inside you. Both reach the thing that was hidden deepest.",
+    "connection": "Arriving past the guard puts you in touch with what was most protected. Naming the shadow does the same thing inside you. Both reach the thing that was hidden deepest.",
     "takeaway": "Naming the hidden part, even silently, is the bravest thing the mat asks of you.",
-    "_source": "GWMS Curriculum Guide — Session 11 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+    "_source": "GWMS Curriculum Guide — Session 11 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
-    {
-      "id": "start",
-      "title": "Welcome",
-      "slides": [
-        {
-          "id": "s11-welcome",
-          "type": "text-image",
-          "eyebrow": "Welcome",
-          "title": "Welcome to GWMS Online",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is Session 11 of 36: Reveal."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 11 of 36. The Descent, Week 4, Reveal. On the mat that stage runs The Paths."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Take your time. There are no wrong answers when you write about yourself."
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "today",
       "title": "Today",
@@ -78,95 +46,47 @@
           "type": "text-image",
           "eyebrow": "Session 11 · Today's question",
           "title": "What part of you have you been hiding, even from yourself?",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the game and the lesson."
-            }
-          ],
-          "alternates": [
-            {
-              "mode": "audio",
-              "label": "Listen",
-              "src": "assets/probing-question.m4a",
-              "transcriptIsBody": true,
-              "own": true,
-              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
-            }
-          ]
+          "body": []
         },
         {
-          "id": "s11-lookback",
-          "eyebrow": "Look back",
-          "title": "Session 5 asked you this",
-          "body": [
-            {
-              "kind": "quote",
-              "text": "What version of you shows up here, and where did you learn it?",
-              "attribution": "Session 5 — The Descent, Mask"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Before you read on, see if you can remember what you answered."
-            }
-          ],
-          "type": "reveal",
-          "reveals": [
-            {
-              "id": "what-it-was-after",
-              "label": "What that one was really about",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "The mask made sense where you learned it. That means it is a choice, not a life sentence."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s11-game",
+          "id": "s11-games",
           "type": "text-image",
-          "eyebrow": "The game",
-          "title": "Half Guard Side-Position Game",
+          "eyebrow": "Tonight on the mat",
+          "title": "The three games",
           "body": [
             {
-              "kind": "lead",
-              "text": "The top player finishes the pass and lands the pin. Win by getting under one elbow and connecting your hands, then holding it for a three-count."
+              "kind": "heading",
+              "level": 3,
+              "text": "Hand Fight with Precondition Game"
             },
             {
-              "kind": "paragraph",
-              "text": "You have arrived past the guard. What was hidden is now out in the open."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "key-condition",
-              "label": "What you need first",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Land the pin and hold the arrival for a three-count."
-                }
+              "kind": "list",
+              "items": [
+                "Whoever collects three touches and then connects first wins, closing his hands anywhere on his partner's body from shoulders to ankles."
               ]
             },
             {
-              "id": "the-tap",
-              "label": "Still true every session: the tap",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
+              "kind": "heading",
+              "level": 3,
+              "text": "Side Half Guard — Clear Hands to Get Under Elbow"
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player wins by connecting his hands under at least one elbow.",
+                "The bottom player wins by closing his legs around the top player's waist."
+              ]
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Introductory Pin Game"
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player holds the pin.",
+                "The bottom player wins by pushing the top player off and getting his legs back in front."
               ]
             }
           ]
@@ -180,107 +100,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "In Half Guard Side-Position Game, what counts as the win?",
+          "question": "Introductory Pin Game: the top player's win?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Getting under one elbow, connecting your hands, and holding it for a three-count",
+              "text": "The top player holds the pin.",
               "correct": true,
-              "feedback": "That is the win condition, and nothing else scores."
+              "feedback": "That's it."
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not part of the Paths. Enter and Arrive are the two path steps here, and neither one ends in a submission. The path leads you into a pin, not a finish."
+              "feedback": "Not tonight. These games end in a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
-              "feedback": "Never. Everyone goes light, and the tap always stops it right away, every time."
-            }
-          ],
-          "correctHead": "That's it.",
-          "correctText": "That is how you win today.",
-          "incorrectHead": "Not quite.",
-          "incorrectText": "Read the note under your choice, then try again.",
-          "revealText": "The right answer is marked above, with the reason."
-        }
-      ]
-    },
-    {
-      "id": "lesson",
-      "title": "The lesson",
-      "slides": [
-        {
-          "id": "s11-grappling",
-          "type": "text-image",
-          "eyebrow": "On the mat",
-          "title": "What you were working on",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Pass the guard and arrive in a full pin."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Finish the pass into a controlled chest position.",
-                "Hold the arrival for a three-count."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s11-casel",
-          "type": "text-image",
-          "eyebrow": "Off the mat",
-          "title": "The part that was not about grappling",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Admit, at least to yourself, one part you have hidden even from yourself."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Look at one hidden part.",
-                "Keep it private if you choose."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s11-connection",
-          "type": "reveal",
-          "eyebrow": "The connection",
-          "title": "Where those two meet",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Arriving past the guard puts you in touch with what was most protected. Naming the Shadow does the same thing inside you. Both reach the thing that was hidden deepest."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "stage-arc",
-              "label": "Where this sits in The Descent",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Getting past a partner's guard to what it protects is the same act as looking under a mask to the real person. The Descent digs deep, on the mat and inside you."
-                }
-              ]
+              "feedback": "Never. Everyone goes light."
             }
           ]
         }
@@ -291,112 +126,48 @@
       "title": "Before you go",
       "slides": [
         {
-          "id": "s11-recap",
-          "type": "reveal",
-          "eyebrow": "Quick recap",
-          "title": "Before you go: Half Guard Side-Position Game",
+          "id": "s11-takeaway",
+          "type": "text-image",
+          "eyebrow": "The takeaway",
+          "title": "What tonight was really about",
           "body": [
             {
               "kind": "lead",
-              "text": "The top player finishes the pass and lands the pin. Win by getting under one elbow and connecting your hands, then holding it for a three-count."
-            },
-            {
-              "kind": "paragraph",
-              "text": "You have arrived past the guard. What was hidden is now out in the open."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "win-again",
-              "label": "How you win it, again",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Getting under one elbow, connecting your hands, and holding it for a three-count"
-                }
-              ]
-            },
-            {
-              "id": "tap-again",
-              "label": "And the rule that never changes",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
-              ]
+              "text": "Naming the hidden part, even silently, is the bravest thing the mat asks of you."
             }
           ]
         },
         {
-          "id": "s11-summative",
-          "type": "quiz",
-          "eyebrow": "End-of-session check",
-          "title": "What today was asking of you",
-          "assessment": {
-            "role": "summative",
-            "scored": true
-          },
-          "question": "Which one was this session actually asking you to do?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "Admit, at least to yourself, one part you have hidden even from yourself.",
-              "correct": true,
-              "feedback": "That was the target for today."
-            },
-            {
-              "text": "Name one thing you do to protect yourself before you trust a space, and call it a strength.",
-              "feedback": "That is Session 3's target, not today's."
-            },
-            {
-              "text": "Name what comes out when you are too tired to perform.",
-              "feedback": "That is Session 8's target, not today's."
-            }
-          ],
-          "correctHead": "That's the one.",
-          "correctText": "That was the point of the whole session, on the mat and off it.",
-          "incorrectHead": "Not today.",
-          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
-          "revealText": "Today's target is marked above."
-        },
-        {
           "id": "s11-reflection",
           "type": "reflection",
-          "eyebrow": "Reflection",
+          "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What part of you have you been hiding, even from yourself?",
-          "hint": "You do not have to write anything here. Looking at it yourself is the whole task.",
+          "hint": "Just look at it. Nothing to write.",
           "placeholder": "Whatever comes to mind…"
         },
         {
           "id": "s11-irf",
           "type": "reflection",
-          "eyebrow": "Before you go",
+          "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session",
+          "kindLabel": "IRF",
           "fields": [
             {
-              "id": "mat",
-              "prompt": "What happened today on the mat?"
+              "id": "liked",
+              "prompt": "What did you like?"
             },
             {
-              "id": "worked",
-              "prompt": "What worked?"
+              "id": "disliked",
+              "prompt": "What did you not like?"
             },
             {
-              "id": "didnt",
-              "prompt": "What did not work?"
+              "id": "change",
+              "prompt": "What would you change?"
+            },
+            {
+              "id": "keep",
+              "prompt": "What would you keep?"
             }
           ],
           "requireAll": true,
@@ -404,13 +175,7 @@
           "submit": true,
           "sendLabel": "Send it",
           "reflectionFrom": "s11-reflection",
-          "body": [
-            {
-              "kind": "callout",
-              "label": "Next session",
-              "text": "Session 12: If the mask came off in here, who would we meet?"
-            }
-          ],
+          "body": [],
           "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]

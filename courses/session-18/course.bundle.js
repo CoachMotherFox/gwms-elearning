@@ -18,59 +18,27 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
       "Relationship Skills"
     ],
     "bloom": "Apply",
-    "card": "The Chest Pin",
-    "domain": "Control",
-    "keyCondition": "Firm control that keeps the partner safe. Adjust the moment they tap.",
-    "gameName": "Hip Control Breakdown Game, run with an intensity constraint",
     "probingQuestion": "What does your friction do to the people across from you?",
-    "grapplingTlo": "By the end of this session, the participant will use chest-pin control hard enough to work, but controlled enough to keep the partner safe.",
-    "looksBackAt": 6,
-    "grapplingElos": [
-      "Apply the pin firmly while keeping the partner safe.",
-      "Adjust how hard they go based on the partner's signals and taps."
-    ],
-    "caselTlo": "By the end of this session, the participant will name how their conflict style affects other people, and one change they can make.",
-    "caselElos": [
-      "Notice how their friction lands on the person across from them.",
-      "Name one change that keeps the friction honest but not harmful."
+    "games": [
+      {
+        "skill": "Entering",
+        "title": "Foot-to-Foot Contact with Overhook / Underhook"
+      },
+      {
+        "skill": "Arriving",
+        "title": "Seated Open Guard Game"
+      },
+      {
+        "skill": "Controlling",
+        "title": "Figure Four Grip Control Game"
+      }
     ],
     "connection": "You can pin someone hard and still keep them safe. That is control of your own force. Your conflict off the mat lands on real people too, and the same control applies: honest friction, not harm.",
     "takeaway": "Friction is fine. Harm is a choice. The control is yours.",
-    "_source": "GWMS Curriculum Guide — Session 18 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+    "_source": "GWMS Curriculum Guide — Session 18 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
-    {
-      "id": "start",
-      "title": "Welcome",
-      "slides": [
-        {
-          "id": "s18-welcome",
-          "type": "text-image",
-          "eyebrow": "Welcome",
-          "title": "Welcome to GWMS Online",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is Session 18 of 36: Friction."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 18 of 36. The Initiation, Week 6, Friction. On the mat that stage runs Chest Pin."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Take your time. There are no wrong answers when you write about yourself."
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "today",
       "title": "Today",
@@ -80,95 +48,48 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
           "type": "text-image",
           "eyebrow": "Session 18 · Today's question",
           "title": "What does your friction do to the people across from you?",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the game and the lesson."
-            }
-          ],
-          "alternates": [
-            {
-              "mode": "audio",
-              "label": "Listen",
-              "src": "assets/probing-question.m4a",
-              "transcriptIsBody": true,
-              "own": true,
-              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
-            }
-          ]
+          "body": []
         },
         {
-          "id": "s18-lookback",
-          "eyebrow": "Look back",
-          "title": "Session 6 asked you this",
-          "body": [
-            {
-              "kind": "quote",
-              "text": "What does your mask protect you from?",
-              "attribution": "Session 6 — The Descent, Mask"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Before you read on, see if you can remember what you answered."
-            }
-          ],
-          "type": "reveal",
-          "reveals": [
-            {
-              "id": "what-it-was-after",
-              "label": "What that one was really about",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "The mask has a job. Next week we find out what happens to it under pressure."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s18-game",
+          "id": "s18-games",
           "type": "text-image",
-          "eyebrow": "The game",
-          "title": "Hip Control Breakdown Game, run with an intensity constraint",
+          "eyebrow": "Tonight on the mat",
+          "title": "The three games",
           "body": [
             {
-              "kind": "lead",
-              "text": "The top player breaks the partner down and takes control, hips down, shoulder connected, with a limit on how hard they go. Win by holding control while keeping the partner completely safe."
+              "kind": "heading",
+              "level": 3,
+              "text": "Foot-to-Foot Contact with Overhook / Underhook"
             },
             {
-              "kind": "paragraph",
-              "text": "You can pin hard and still not hurt them. That choice is yours, every round."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "key-condition",
-              "label": "What you need first",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Firm control that keeps the partner safe. Adjust the moment they tap."
-                }
+              "kind": "list",
+              "items": [
+                "The overhook player wins when the underhook player falls onto his own hips or hands.",
+                "The underhook player wins by closing his own hands under the overhook player's elbows."
               ]
             },
             {
-              "id": "the-tap",
-              "label": "Still true every session: the tap",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
+              "kind": "heading",
+              "level": 3,
+              "text": "Seated Open Guard Game"
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The bottom player wins by standing up to connect at the top player's hips, or making his back touch the mat.",
+                "The top player wins by touching his shin to the bottom player's knees or body."
+              ]
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Figure Four Grip Control Game"
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player holds as long as he keeps the grip.",
+                "The bottom player wins by breaking the grip."
               ]
             }
           ]
@@ -182,107 +103,22 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Hip Control Breakdown Game, run with an intensity constraint, what counts as the win?",
+          "question": "Figure Four Grip Control Game: the top player's win?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Holding control — hips down, shoulder connected — while keeping the partner completely safe",
+              "text": "The top player holds as long as he keeps the grip.",
               "correct": true,
-              "feedback": "That is the win condition, and nothing else scores."
+              "feedback": "That's it."
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant your partner taps. Every single time. The tap is law."
+              "feedback": "Never. Let go the instant he taps."
             },
             {
               "text": "Overpowering your partner with force",
-              "feedback": "You keep the pin by feeling your partner and moving with them, not by clamping down and squeezing hard. Staying calm beats forcing harder."
-            }
-          ],
-          "correctHead": "That's it.",
-          "correctText": "That is how you win today.",
-          "incorrectHead": "Not quite.",
-          "incorrectText": "Read the note under your choice, then try again.",
-          "revealText": "The right answer is marked above, with the reason."
-        }
-      ]
-    },
-    {
-      "id": "lesson",
-      "title": "The lesson",
-      "slides": [
-        {
-          "id": "s18-grappling",
-          "type": "text-image",
-          "eyebrow": "On the mat",
-          "title": "What you were working on",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Use chest-pin control hard enough to work, but controlled enough to keep the partner safe."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Apply the pin firmly while keeping the partner safe.",
-                "Adjust how hard you go based on the partner's signals and taps."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s18-casel",
-          "type": "text-image",
-          "eyebrow": "Off the mat",
-          "title": "The part that was not about grappling",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Name how your conflict style affects other people, and one change you can make."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Notice how your friction lands on the person across from you.",
-                "Name one change that keeps the friction honest but not harmful."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s18-connection",
-          "type": "reveal",
-          "eyebrow": "The connection",
-          "title": "Where those two meet",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "You can pin someone hard and still keep them safe. That is control of your own force. Your conflict off the mat lands on real people too, and the same control applies: honest friction, not harm."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "stage-arc",
-              "label": "Where this sits in The Initiation",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Chest-to-chest contact on the mat is like contact with people. Friction on the mat is like friction with people. A break on the mat is like a rupture between people. A reset on the mat is like repair between people. The Initiation tests the real you against other people."
-                }
-              ]
+              "feedback": "Staying calm beats forcing harder."
             }
           ]
         }
@@ -293,112 +129,48 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
       "title": "Before you go",
       "slides": [
         {
-          "id": "s18-recap",
-          "type": "reveal",
-          "eyebrow": "Quick recap",
-          "title": "Before you go: Hip Control Breakdown Game, run with an intensity constraint",
+          "id": "s18-takeaway",
+          "type": "text-image",
+          "eyebrow": "The takeaway",
+          "title": "What tonight was really about",
           "body": [
             {
               "kind": "lead",
-              "text": "The top player breaks the partner down and takes control, hips down, shoulder connected, with a limit on how hard they go. Win by holding control while keeping the partner completely safe."
-            },
-            {
-              "kind": "paragraph",
-              "text": "You can pin hard and still not hurt them. That choice is yours, every round."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "win-again",
-              "label": "How you win it, again",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Holding control — hips down, shoulder connected — while keeping the partner completely safe"
-                }
-              ]
-            },
-            {
-              "id": "tap-again",
-              "label": "And the rule that never changes",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
-              ]
+              "text": "Friction is fine. Harm is a choice. The control is yours."
             }
           ]
         },
         {
-          "id": "s18-summative",
-          "type": "quiz",
-          "eyebrow": "End-of-session check",
-          "title": "What today was asking of you",
-          "assessment": {
-            "role": "summative",
-            "scored": true
-          },
-          "question": "Which one was this session actually asking you to do?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "Name how your conflict style affects other people, and one change you can make.",
-              "correct": true,
-              "feedback": "That was the target for today."
-            },
-            {
-              "text": "Say which part of a break is your share, separate from the other person's share.",
-              "feedback": "That is Session 21's target, not today's."
-            },
-            {
-              "text": "Say how much you open up to another person, and name one thing that makes letting someone in hard.",
-              "feedback": "That is Session 14's target, not today's."
-            }
-          ],
-          "correctHead": "That's the one.",
-          "correctText": "That was the point of the whole session, on the mat and off it.",
-          "incorrectHead": "Not today.",
-          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
-          "revealText": "Today's target is marked above."
-        },
-        {
           "id": "s18-reflection",
           "type": "reflection",
-          "eyebrow": "Reflection",
+          "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "What does your friction do to the people across from you?",
-          "hint": "Nothing here is graded. A few words is plenty.",
+          "hint": "Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
           "id": "s18-irf",
           "type": "reflection",
-          "eyebrow": "Before you go",
+          "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session",
+          "kindLabel": "IRF",
           "fields": [
             {
-              "id": "mat",
-              "prompt": "What happened today on the mat?"
+              "id": "liked",
+              "prompt": "What did you like?"
             },
             {
-              "id": "worked",
-              "prompt": "What worked?"
+              "id": "disliked",
+              "prompt": "What did you not like?"
             },
             {
-              "id": "didnt",
-              "prompt": "What did not work?"
+              "id": "change",
+              "prompt": "What would you change?"
+            },
+            {
+              "id": "keep",
+              "prompt": "What would you keep?"
             }
           ],
           "requireAll": true,
@@ -406,13 +178,7 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
           "submit": true,
           "sendLabel": "Send it",
           "reflectionFrom": "s18-reflection",
-          "body": [
-            {
-              "kind": "callout",
-              "label": "Next session",
-              "text": "Session 19: What breaks in you when a connection breaks?"
-            }
-          ],
+          "body": [],
           "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]

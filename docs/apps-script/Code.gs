@@ -11,9 +11,15 @@
 const SHEET_NAME = 'IRF';
 const FACILITATOR_SHEET_NAME = 'Facilitator Reflections';
 const TOKEN = '0bcbeb58-380e-426f-9736-b0e54c686992';   // matches courses/_curriculum/irf.json
+// Replaced September 27, 2026: the IRF asks four new questions instead of the
+// original three. The three old-question columns stay in place as a
+// historical record of rows submitted before the change — new rows just
+// leave them blank — so no past answer gets relabeled under a question that
+// was never actually asked that night. See docs/IRF-BACKEND.md.
 const HEADERS = ['Received', 'Submitted', 'Session', 'Stage', 'Week', 'Theme',
                  'Probing question', 'Reflection',
-                 'What happened on the mat', 'What worked', 'What did not work',
+                 'What you liked', 'What you did not like', 'What you would change', 'What you would keep',
+                 'What happened on the mat (old)', 'What worked (old)', 'What did not work (old)',
                  'Code', 'Submission id'];
 const FACILITATOR_HEADERS = ['Received', 'Submitted', 'Who', 'Session', 'Stage', 'Week', 'Theme',
                  'Did it land', 'Game / off-mat connection', 'Step-in moment',
@@ -40,8 +46,9 @@ function doPost(e) {
     sh.appendRow([
       new Date(), d.submittedAt || '', d.session || '', d.stage || '',
       d.week || '', d.theme || '', d.probingQuestion || '', d.reflection || '',
-      a.mat || '', a.worked || '', a.didnt || '', d.participantCode || '',
-      d.submissionId || ''
+      a.liked || '', a.disliked || '', a.change || '', a.keep || '',
+      '', '', '',
+      d.participantCode || '', d.submissionId || ''
     ]);
     return out_({ ok: true });
   } catch (err) {

@@ -17,59 +17,27 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
       "Responsible Decision-Making"
     ],
     "bloom": "Apply and Analyze",
-    "card": "The Back Pin",
-    "domain": "Integrate",
-    "keyCondition": "Move between back control and your finishes. Always honor the tap.",
-    "gameName": "Chest-to-Back Connection Maintenance",
     "probingQuestion": "If someone watched how you carry yourself, what would they learn?",
-    "grapplingTlo": "By the end of this session, the participant will put back-pin control and finishing together in open rolling, and name what a watcher would learn from how they train.",
-    "looksBackAt": 21,
-    "grapplingElos": [
-      "Move between back control and their finishes in live rolling, and release on the tap.",
-      "Name what a newer student would learn watching them roll."
-    ],
-    "caselTlo": "By the end of this session, the participant will name what someone would learn from watching how they carry themselves.",
-    "caselElos": [
-      "Name the lesson their actions teach without words.",
-      "Decide if it is the lesson they want to teach."
+    "games": [
+      {
+        "skill": "Entering",
+        "title": "Hand Fight with Dual Win Conditions – Week 11 Game 1"
+      },
+      {
+        "skill": "Arriving",
+        "title": "Closed Guard — Post to Underhook to Locked Hands"
+      },
+      {
+        "skill": "Controlling",
+        "title": "Chest-to-Back Connection Maintenance"
+      }
     ],
     "connection": "Newer people learn more from watching how you roll than from anything you say. How you carry yourself in life teaches the same way, silently, to whoever is watching. You are a lesson whether you mean to be or not.",
     "takeaway": "You are a lesson already, so be the one you would choose to teach.",
-    "_source": "GWMS Curriculum Guide — Session 33 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+    "_source": "GWMS Curriculum Guide — Session 33 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
-    {
-      "id": "start",
-      "title": "Welcome",
-      "slides": [
-        {
-          "id": "s33-welcome",
-          "type": "text-image",
-          "eyebrow": "Welcome",
-          "title": "Welcome to GWMS Online",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is Session 33 of 36: Legacy."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 33 of 36. The Return, Week 11, Legacy. On the mat that stage runs Back Pin."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Take your time. There are no wrong answers when you write about yourself."
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "today",
       "title": "Today",
@@ -79,95 +47,47 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
           "type": "text-image",
           "eyebrow": "Session 33 · Today's question",
           "title": "If someone watched how you carry yourself, what would they learn?",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the game and the lesson."
-            }
-          ],
-          "alternates": [
-            {
-              "mode": "audio",
-              "label": "Listen",
-              "src": "assets/probing-question.m4a",
-              "transcriptIsBody": true,
-              "own": true,
-              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
-            }
-          ]
+          "body": []
         },
         {
-          "id": "s33-lookback",
-          "eyebrow": "Look back",
-          "title": "Session 21 asked you this",
-          "body": [
-            {
-              "kind": "quote",
-              "text": "When something breaks, what part is yours to own?",
-              "attribution": "Session 21 — The Initiation, Rupture"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Before you read on, see if you can remember what you answered."
-            }
-          ],
-          "type": "reveal",
-          "reveals": [
-            {
-              "id": "what-it-was-after",
-              "label": "What that one was really about",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Owning your part is the doorway to repair."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s33-game",
+          "id": "s33-games",
           "type": "text-image",
-          "eyebrow": "The game",
-          "title": "Chest-to-Back Connection Maintenance",
+          "eyebrow": "Tonight on the mat",
+          "title": "The three games",
           "body": [
             {
-              "kind": "lead",
-              "text": "Move between back control and your finishes during live rolling. Always honor the tap."
+              "kind": "heading",
+              "level": 3,
+              "text": "Hand Fight with Dual Win Conditions – Week 11 Game 1"
             },
             {
-              "kind": "paragraph",
-              "text": "Newer people learn more from watching you roll than from anything you say. This is the lesson you are teaching without a word."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "key-condition",
-              "label": "What you need first",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Move between back control and your finishes. Always honor the tap."
-                }
+              "kind": "list",
+              "items": [
+                "Whoever gets there first wins, whether by three touches or by the underhook plus closed hands."
               ]
             },
             {
-              "id": "the-tap",
-              "label": "Still true every session: the tap",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
+              "kind": "heading",
+              "level": 3,
+              "text": "Closed Guard — Post to Underhook to Locked Hands"
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The bottom player wins by locking his hands with an underhook after a post.",
+                "The top player wins by standing and opening the guard."
+              ]
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Chest-to-Back Connection Maintenance"
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player holds as long as he keeps chest-to-back contact.",
+                "The bottom player wins by getting his back flat to the mat, or by facing and coming on top."
               ]
             }
           ]
@@ -181,112 +101,22 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
             "role": "formative",
             "scored": false
           },
-          "question": "In Chest-to-Back Connection Maintenance, what counts as the win?",
+          "question": "Chest-to-Back Connection Maintenance: the top player's win?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Moving between back control and your finishes with the tap honored",
+              "text": "The top player holds as long as he keeps chest-to-back contact.",
               "correct": true,
-              "feedback": "That is the win condition, and nothing else scores."
+              "feedback": "That's it."
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. You let go the second your partner taps. Every single time. The tap is law."
+              "feedback": "Never. Let go the instant he taps."
             },
             {
               "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing the Back Pin teaches you never to do. Total control, plus the choice not to hurt someone, is the heart of the whole program."
-            }
-          ],
-          "correctHead": "That's it.",
-          "correctText": "That is how you win today.",
-          "incorrectHead": "Not quite.",
-          "incorrectText": "Read the note under your choice, then try again.",
-          "revealText": "The right answer is marked above, with the reason."
-        }
-      ]
-    },
-    {
-      "id": "lesson",
-      "title": "The lesson",
-      "slides": [
-        {
-          "id": "s33-grappling",
-          "type": "text-image",
-          "eyebrow": "On the mat",
-          "title": "What you were working on",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Put back-pin control and finishing together in open rolling, and name what a watcher would learn from how you train."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Move between back control and your finishes in live rolling, and release on the tap.",
-                "Name what a newer student would learn watching you roll."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s33-casel",
-          "type": "text-image",
-          "eyebrow": "Off the mat",
-          "title": "The part that was not about grappling",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Name what someone would learn from watching how you carry yourself."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Name the lesson your actions teach without words.",
-                "Decide if it is the lesson you want to teach."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s33-connection",
-          "type": "reveal",
-          "eyebrow": "The connection",
-          "title": "Where those two meet",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Newer people learn more from watching how you roll than from anything you say. How you carry yourself in life teaches the same way, silently, to whoever is watching. You are a lesson whether you mean to be or not."
-            },
-            {
-              "kind": "callout",
-              "label": "Said simply",
-              "text": "This is about influence, not being watched and judged. Nobody is grading how you carry yourself."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "stage-arc",
-              "label": "Where this sits in The Return",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Total control, plus the choice not to hurt someone, is the heart of the whole program. Now you carry that choice out the door."
-                }
-              ]
+              "feedback": "That is the one thing you never do."
             }
           ]
         }
@@ -297,112 +127,48 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
       "title": "Before you go",
       "slides": [
         {
-          "id": "s33-recap",
-          "type": "reveal",
-          "eyebrow": "Quick recap",
-          "title": "Before you go: Chest-to-Back Connection Maintenance",
+          "id": "s33-takeaway",
+          "type": "text-image",
+          "eyebrow": "The takeaway",
+          "title": "What tonight was really about",
           "body": [
             {
               "kind": "lead",
-              "text": "Move between back control and your finishes during live rolling. Always honor the tap."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Newer people learn more from watching you roll than from anything you say. This is the lesson you are teaching without a word."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "win-again",
-              "label": "How you win it, again",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Moving between back control and your finishes with the tap honored"
-                }
-              ]
-            },
-            {
-              "id": "tap-again",
-              "label": "And the rule that never changes",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
-              ]
+              "text": "You are a lesson already, so be the one you would choose to teach."
             }
           ]
         },
         {
-          "id": "s33-summative",
-          "type": "quiz",
-          "eyebrow": "End-of-session check",
-          "title": "What today was asking of you",
-          "assessment": {
-            "role": "summative",
-            "scored": true
-          },
-          "question": "Which one was this session actually asking you to do?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "Name what someone would learn from watching how you carry yourself.",
-              "correct": true,
-              "feedback": "That was the target for today."
-            },
-            {
-              "text": "Name what is really different in you now, and find real proof of the change instead of just talking about it.",
-              "feedback": "That is Session 25's target, not today's."
-            },
-            {
-              "text": "Name how you use your strength to help others, not to control you.",
-              "feedback": "That is Session 30's target, not today's."
-            }
-          ],
-          "correctHead": "That's the one.",
-          "correctText": "That was the point of the whole session, on the mat and off it.",
-          "incorrectHead": "Not today.",
-          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
-          "revealText": "Today's target is marked above."
-        },
-        {
           "id": "s33-reflection",
           "type": "reflection",
-          "eyebrow": "Reflection",
+          "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "If someone watched how you carry yourself, what would they learn?",
-          "hint": "Nothing here is graded. A few words is plenty.",
+          "hint": "Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
           "id": "s33-irf",
           "type": "reflection",
-          "eyebrow": "Before you go",
+          "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session",
+          "kindLabel": "IRF",
           "fields": [
             {
-              "id": "mat",
-              "prompt": "What happened today on the mat?"
+              "id": "liked",
+              "prompt": "What did you like?"
             },
             {
-              "id": "worked",
-              "prompt": "What worked?"
+              "id": "disliked",
+              "prompt": "What did you not like?"
             },
             {
-              "id": "didnt",
-              "prompt": "What did not work?"
+              "id": "change",
+              "prompt": "What would you change?"
+            },
+            {
+              "id": "keep",
+              "prompt": "What would you keep?"
             }
           ],
           "requireAll": true,
@@ -410,13 +176,7 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
           "submit": true,
           "sendLabel": "Send it",
           "reflectionFrom": "s33-reflection",
-          "body": [
-            {
-              "kind": "callout",
-              "label": "Next session",
-              "text": "Session 34: What did this cost you, and what did you get for it?"
-            }
-          ],
+          "body": [],
           "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]

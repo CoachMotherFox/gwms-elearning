@@ -6,182 +6,182 @@ window.GWMS_COURSE_INDEX =
     {
       "id": "session-01",
       "title": "Session 1 — Arrival — The Descent",
-      "summary": "Week 1, Arrival. “What makes a place feel safe to you?” Game: Kids Dirty Feet / Dragon Tag Game (mud and guard version, locked win condition)."
+      "summary": "Week 1, Arrival. “What makes a place feel safe to you?” Orientation night, GOLMEST."
     },
     {
       "id": "session-02",
       "title": "Session 2 — Arrival — The Descent",
-      "summary": "Week 1, Arrival. “How do you show up when nobody here knows you yet?” Game: Overhook-Underhook Starting Position Game."
+      "summary": "Week 1, Arrival. “How do you show up when nobody here knows you yet?” Games: Over-Under to Close Hand Connection, Half Guard Side-Position Game, Mount — Stay Under Both Elbows."
     },
     {
       "id": "session-03",
       "title": "Session 3 — Arrival — The Descent",
-      "summary": "Week 1, Arrival. “What are you like before you trust the room?” Game: Hand Fight with Progression Game."
+      "summary": "Week 1, Arrival. “What are you like before you trust the room?” Games: Hand Touch / Knee Touch Collection Game, Belly-Up Open Guard Connection Foundation, Introductory Pin Game."
     },
     {
       "id": "session-04",
       "title": "Session 4 — Mask — The Descent",
-      "summary": "Week 2, Mask. “Who are you when people are watching?” Game: Keep Feet Off, Belly Up Open Guard Introduction."
+      "summary": "Week 2, Mask. “Who are you when people are watching?” Games: Hand Fight to Underhook Game, Keep Feet Off — Belly Up Open Guard Introduction, Riding Bottom Position Game."
     },
     {
       "id": "session-05",
       "title": "Session 5 — Mask — The Descent",
-      "summary": "Week 2, Mask. “What version of you shows up here, and where did you learn it?” Game: Open Guard Multiple Connection Game."
+      "summary": "Week 2, Mask. “What version of you shows up here, and where did you learn it?” Games: Uneven Hand Fight Game, Open Guard Multiple Connection Game, Rear Hip Connection - Keep Belly Down."
     },
     {
       "id": "session-06",
       "title": "Session 6 — Mask — The Descent",
-      "summary": "Week 2, Mask. “What does your mask protect you from?” Game: Knee Pit Touchdown Game, played from the retaining side."
+      "summary": "Week 2, Mask. “What does your mask protect you from?” Games: Consecutive Touches with Clinch Counter, Knee Pit Touchdown Game, Mount — Stay Under Both Elbows."
     },
     {
       "id": "session-07",
       "title": "Session 7 — Crack — The Descent",
-      "summary": "Week 3, Crack. “What happens to your mask when you're losing?” Game: Closed Guard Opening, Hands on Body."
+      "summary": "Week 3, Crack. “What happens to your mask when you're losing?” Games: Single Leg — Make Partner Fall to Hands or Hips, Closed Guard Opening — Hands on Body, Referee Position Ride and Break Down."
     },
     {
       "id": "session-08",
       "title": "Session 8 — Crack — The Descent",
-      "summary": "Week 3, Crack. “What slips out of you when you get tired and stop performing?” Game: Feet-Off Guard Passing Game."
+      "summary": "Week 3, Crack. “What slips out of you when you get tired and stop performing?” Games: Hand Fight with Leg Pickup Option, Feet-Off Guard Passing Game, Pinning — Continuous Hip and Shoulder Connection from All Fours."
     },
     {
       "id": "session-09",
       "title": "Session 9 — Crack — The Descent",
-      "summary": "Week 3, Crack. “When you crack, what's the first thing that shows?” Game: Knee Pit Touchdown Game, played from the passing side (same game as Session 6, opposite role, intentional repeat)."
+      "summary": "Week 3, Crack. “When you crack, what's the first thing that shows?” Games: Single Leg Takedown Game, Knee Pit Touchdown Game, Chest-to-Chest Elbow Control Game."
     },
     {
       "id": "session-10",
       "title": "Session 10 — Reveal — The Descent",
-      "summary": "Week 4, Reveal. “What's under the version you show people?” Game: Around-the-Legs Passing Game."
+      "summary": "Week 4, Reveal. “What's under the version you show people?” Games: Waist-Centric Underhook Game, Around-the-Legs Passing Game, Figure Four Grip Control Game."
     },
     {
       "id": "session-11",
       "title": "Session 11 — Reveal — The Descent",
-      "summary": "Week 4, Reveal. “What part of you have you been hiding, even from yourself?” Game: Half Guard Side-Position Game."
+      "summary": "Week 4, Reveal. “What part of you have you been hiding, even from yourself?” Games: Hand Fight with Precondition Game, Side Half Guard — Clear Hands to Get Under Elbow, Introductory Pin Game."
     },
     {
       "id": "session-12",
       "title": "Session 12 — Reveal — The Descent",
-      "summary": "Week 4, Reveal. “If the mask came off in here, who would we meet?” Game: Open Guard Takedown and Escape Game."
+      "summary": "Week 4, Reveal. “If the mask came off in here, who would we meet?” Games: Hand Touch / Knee Touch with Close Hand Connection, Open Guard Takedown and Escape Game, Riding Bottom Position Game."
     },
     {
       "id": "session-13",
       "title": "Session 13 — Contact — The Initiation",
-      "summary": "Week 5, Contact. “What happens in you when someone makes real contact?” Game: Chest to Chest Under Elbows Maintenance."
+      "summary": "Week 5, Contact. “What happens in you when someone makes real contact?” Games: Standing Hand Connection Game, Chest-to-Chest via Outside Line Only, Chest to Chest Under Elbows Maintenance."
     },
     {
       "id": "session-14",
       "title": "Session 14 — Contact — The Initiation",
-      "summary": "Week 5, Contact. “How much of someone else do you actually let in?” Game: Chest-to-Chest Elbow Control Game."
+      "summary": "Week 5, Contact. “How much of someone else do you actually let in?” Games: Role-Based Consecutive Touch vs Close Hand Game, Closed Guard Hand Fighting Game, Chest-to-Chest Elbow Control Game."
     },
     {
       "id": "session-15",
       "title": "Session 15 — Contact — The Initiation",
-      "summary": "Week 5, Contact. “Who are you with other people, now that you've met yourself?” Game: Mount, Stay Under Both Elbows (Continuous)."
+      "summary": "Week 5, Contact. “Who are you with other people, now that you've met yourself?” Games: Hand Fight to Connection Game, Closed Guard — Post to Underhook to Locked Hands, Mount — Stay Under Both Elbows."
     },
     {
       "id": "session-16",
       "title": "Session 16 — Friction — The Initiation",
-      "summary": "Week 6, Friction. “What do you do when someone pushes back?” Game: Mounted and Side Control Pin Game."
+      "summary": "Week 6, Friction. “What do you do when someone pushes back?” Games: Underhook Introduction Game, Post and Hook Destabilization Game, Riding Bottom Position Game."
     },
     {
       "id": "session-17",
       "title": "Session 17 — Friction — The Initiation",
-      "summary": "Week 6, Friction. “Can you stay present when it gets uncomfortable?” Game: Wrist Pin Game."
+      "summary": "Week 6, Friction. “Can you stay present when it gets uncomfortable?” Games: Waist Control Leg Stuffing Game, Guard Recovery with Passing Resistance Game, Rear Hip Connection - Keep Belly Down."
     },
     {
       "id": "session-18",
       "title": "Session 18 — Friction — The Initiation",
-      "summary": "Week 6, Friction. “What does your friction do to the people across from you?” Game: Hip Control Breakdown Game, run with an intensity constraint."
+      "summary": "Week 6, Friction. “What does your friction do to the people across from you?” Games: Foot-to-Foot Contact with Overhook / Underhook, Seated Open Guard Game, Figure Four Grip Control Game."
     },
     {
       "id": "session-19",
       "title": "Session 19 — Rupture — The Initiation",
-      "summary": "Week 7, Rupture. “What breaks in you when a connection breaks?” Game: Riding Bottom Position Game."
+      "summary": "Week 7, Rupture. “What breaks in you when a connection breaks?” Games: Single Leg Takedown Game, Guard Recovery After Leg Pass Game, Figure Four Grip Control Game."
     },
     {
       "id": "session-20",
       "title": "Session 20 — Rupture — The Initiation",
-      "summary": "Week 7, Rupture. “Have you ever broken something with someone and left it broken?” Game: Mount Head and Arm Trap Game."
+      "summary": "Week 7, Rupture. “Have you ever broken something with someone and left it broken?” Games: Stick and Pull Foot Sweep Game, Closed Guard Opening — Hands on Body, Head and Arm Strangle — Close Position Start."
     },
     {
       "id": "session-21",
       "title": "Session 21 — Rupture — The Initiation",
-      "summary": "Week 7, Rupture. “When something breaks, what part is yours to own?” Game: Arm Lock Breaking Position Game."
+      "summary": "Week 7, Rupture. “When something breaks, what part is yours to own?” Games: Single Leg Destabilization — Two Paths, Knee Pit Touchdown Game, Arm Lock Breaking Position Game."
     },
     {
       "id": "session-22",
       "title": "Session 22 — Repair — The Initiation",
-      "summary": "Week 8, Repair. “What does it take for you to say sorry and mean it?” Game: Perpendicular Chest-to-Chest Pin Game."
+      "summary": "Week 8, Repair. “What does it take for you to say sorry and mean it?” Games: Hand Fight with Dual Win Conditions – Week 11 Game 1, Guard Recovery with Passing Resistance Game, Figure Four — Reintroduction with Hand-to-Mat or Knuckles-Behind Win."
     },
     {
       "id": "session-23",
       "title": "Session 23 — Repair — The Initiation",
-      "summary": "Week 8, Repair. “Can you stay when leaving would be easier?” Game: Guard Recovery with Passing Resistance Game."
+      "summary": "Week 8, Repair. “Can you stay when leaving would be easier?” Games: Underhook Multiple Connection Game, Guard Retention Connection Game, Chest to Chest Under Elbows Maintenance."
     },
     {
       "id": "session-24",
       "title": "Session 24 — Repair — The Initiation",
-      "summary": "Week 8, Repair. “What does repair cost you, and is it worth paying?” Game: Hunt for Hips and Shoulders (Perpendicular Start)."
+      "summary": "Week 8, Repair. “What does repair cost you, and is it worth paying?” Games: Hand Fight with Progression Game, Open Guard Takedown and Escape Game, Figure Four to Precursor Positions Game."
     },
     {
       "id": "session-25",
       "title": "Session 25 — Emergence — The Return",
-      "summary": "Week 9, Emergence. “What's actually different in you now?” Game: Back Take, Maintain Chest to Back Contact."
+      "summary": "Week 9, Emergence. “What's actually different in you now?” Games: Consecutive Touches Game, Feet-Off Guard Passing Game, Back Take – Maintain Chest to Back Contact."
     },
     {
       "id": "session-26",
       "title": "Session 26 — Emergence — The Return",
-      "summary": "Week 9, Emergence. “How do you know the change is real and not just talk?” Game: Chest to Back Control Game."
+      "summary": "Week 9, Emergence. “How do you know the change is real and not just talk?” Games: Single Leg Takedown to Hip Connection Game, Post and Hook Continuous Connection Game, Chest to Back Control Game."
     },
     {
       "id": "session-27",
       "title": "Session 27 — Emergence — The Return",
-      "summary": "Week 9, Emergence. “What can you do now that the old you couldn't?” Game: Back to Chest Control Transition Game."
+      "summary": "Week 9, Emergence. “What can you do now that the old you couldn't?” Games: Underhook to Head, Waist, or Leg with Hip-Centric Win, Half Guard Opening Game, Chest-to-Back Position Maintenance."
     },
     {
       "id": "session-28",
       "title": "Session 28 — Contribution — The Return",
-      "summary": "Week 10, Contribution. “Who needs what you've learned?” Game: Chest-to-Back Position Maintenance, run as a coaching round."
+      "summary": "Week 10, Contribution. “Who needs what you've learned?” Games: Upper vs Lower Body Division Game — Open Hand Connections, Seated Open Guard Game, Back Take – Maintain Chest to Back Contact."
     },
     {
       "id": "session-29",
       "title": "Session 29 — Contribution — The Return",
-      "summary": "Week 10, Contribution. “What can you give that actually costs you something?” Game: Back Control Elbow Management, No Hooks."
+      "summary": "Week 10, Contribution. “What can you give that actually costs you something?” Games: Front Headlock to Rear - Standing, Open Guard Multiple Connection Game, Back Control Elbow Management — No Hooks."
     },
     {
       "id": "session-30",
       "title": "Session 30 — Contribution — The Return",
-      "summary": "Week 10, Contribution. “How do you use your strength without taking someone else's?” Game: Back Control Turn-Over Game."
+      "summary": "Week 10, Contribution. “How do you use your strength without taking someone else's?” Games: Foot-to-Foot Contact with Overhook / Underhook, Half Guard with Standing Transition Game, Chest to Back Control Game."
     },
     {
       "id": "session-31",
       "title": "Session 31 — Legacy — The Return",
-      "summary": "Week 11, Legacy. “What do you want to leave behind you here?” Game: Build to Rear Strangle Game."
+      "summary": "Week 11, Legacy. “What do you want to leave behind you here?” Games: Hand Fight to Closed Hand Connection via Underhook, Around-the-Legs Passing Game, Build to Rear Strangle Game."
     },
     {
       "id": "session-32",
       "title": "Session 32 — Legacy — The Return",
-      "summary": "Week 11, Legacy. “What standard are you setting for whoever comes next?” Game: Chest to Back to Precursor Transitions Game."
+      "summary": "Week 11, Legacy. “What standard are you setting for whoever comes next?” Games: Single Leg Takedown Game, Guard Destabilization Game, Chest to Back to Precursor Transitions Game."
     },
     {
       "id": "session-33",
       "title": "Session 33 — Legacy — The Return",
-      "summary": "Week 11, Legacy. “If someone watched how you carry yourself, what would they learn?” Game: Chest-to-Back Connection Maintenance."
+      "summary": "Week 11, Legacy. “If someone watched how you carry yourself, what would they learn?” Games: Hand Fight with Dual Win Conditions – Week 11 Game 1, Closed Guard — Post to Underhook to Locked Hands, Chest-to-Back Connection Maintenance."
     },
     {
       "id": "session-34",
       "title": "Session 34 — Celebration — The Return",
-      "summary": "Week 12, Celebration. “What did this cost you, and what did you get for it?” Game: Back Control with Multiple Arm Escape Options (deliberate capstone-week exception, Intermediate tier)."
+      "summary": "Week 12, Celebration. “What did this cost you, and what did you get for it?” Games: 2v1 Hand Fight to Underhook to Close Hand Connection, Open Guard Takedown and Escape Game, Chest to Back to Precursor Transitions Game."
     },
     {
       "id": "session-35",
       "title": "Session 35 — Celebration — The Return",
-      "summary": "Week 12, Celebration. “Who did you become?” Game: Chest to Back No Hooks Game (same capstone-week exception as 34)."
+      "summary": "Week 12, Celebration. “Who did you become?” Games: Hand Fight with Precondition Game, Feet-Off Guard Passing Game, Build to Rear Strangle Game."
     },
     {
       "id": "session-36",
       "title": "Session 36 — Celebration — The Return",
-      "summary": "Week 12, Celebration. “What do you carry out this door?” Game: First to Chest-to-Back: Find, Maintain, and Submit (same capstone-week exception as 34 and 35)."
+      "summary": "Week 12, Celebration. “What do you carry out this door?” Games: Over-Under to Close Hand Connection, Half Guard Side-Position Game, Back Take – Maintain Chest to Back Contact."
     },
     {
       "id": "engine-demo",

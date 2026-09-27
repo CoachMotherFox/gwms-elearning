@@ -16,59 +16,27 @@
       "Relationship Skills"
     ],
     "bloom": "Apply",
-    "card": "The Chest Pin",
-    "domain": "Finish, top seat Arm Lock",
-    "keyCondition": "Both hands controlling the wrist, set before you straighten the arm. Release the instant your partner taps.",
-    "gameName": "Arm Lock Breaking Position Game",
     "probingQuestion": "When something breaks, what part is yours to own?",
-    "grapplingTlo": "By the end of this session, the participant will apply a second owned chest-pin finish, an arm lock, with control, and name one mistake they made in a round without making excuses.",
-    "looksBackAt": 9,
-    "grapplingElos": [
-      "Get an owned chest-pin arm lock locked in with control, and release on the tap.",
-      "Name one mistake they made in a round honestly, without blaming the partner."
-    ],
-    "caselTlo": "By the end of this session, the participant will say which part of a break is their share, separate from the other person's share.",
-    "caselElos": [
-      "Tell apart their share of a rupture from the other person's share.",
-      "Name the one piece of it that belongs to them."
+    "games": [
+      {
+        "skill": "Entering",
+        "title": "Single Leg Destabilization — Two Paths"
+      },
+      {
+        "skill": "Arriving",
+        "title": "Knee Pit Touchdown Game"
+      },
+      {
+        "skill": "Finishing",
+        "title": "Arm Lock Breaking Position Game"
+      }
     ],
     "connection": "On the mat you can name your own mistake in a round without blaming your partner. Owning your part of a rupture works the same way. It starts with separating your piece from theirs.",
     "takeaway": "Owning your part is the doorway to repair.",
-    "_source": "GWMS Curriculum Guide — Session 21 Lesson and Intervention Guide (Unit 7), GWMS Technical Map, Unit 4 (Block 4 structure), Unit 6 (stage objectives)."
+    "_source": "GWMS Curriculum Guide — Session 21 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
-    {
-      "id": "start",
-      "title": "Welcome",
-      "slides": [
-        {
-          "id": "s21-welcome",
-          "type": "text-image",
-          "eyebrow": "Welcome",
-          "title": "Welcome to GWMS Online",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is Session 21 of 36: Rupture."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Today you will do a game, a quick check on it, a short lesson, and a few questions about yourself."
-            },
-            {
-              "kind": "callout",
-              "label": "Where this sits",
-              "text": "Session 21 of 36. The Initiation, Week 7, Rupture. On the mat that stage runs Chest Pin."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Take your time. There are no wrong answers when you write about yourself."
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "today",
       "title": "Today",
@@ -78,95 +46,48 @@
           "type": "text-image",
           "eyebrow": "Session 21 · Today's question",
           "title": "When something breaks, what part is yours to own?",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "This is your question for today. Keep it in mind during the game and the lesson."
-            }
-          ],
-          "alternates": [
-            {
-              "mode": "audio",
-              "label": "Listen",
-              "src": "assets/probing-question.m4a",
-              "transcriptIsBody": true,
-              "own": true,
-              "_todo": "Placeholder narration, machine-generated. Replace with the facilitator's voice."
-            }
-          ]
+          "body": []
         },
         {
-          "id": "s21-lookback",
-          "eyebrow": "Look back",
-          "title": "Session 9 asked you this",
-          "body": [
-            {
-              "kind": "quote",
-              "text": "When you crack, what's the first thing that shows?",
-              "attribution": "Session 9 — The Descent, Crack"
-            },
-            {
-              "kind": "paragraph",
-              "text": "Before you read on, see if you can remember what you answered."
-            }
-          ],
-          "type": "reveal",
-          "reveals": [
-            {
-              "id": "what-it-was-after",
-              "label": "What that one was really about",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Knowing your tell is power, because you can catch yourself."
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s21-game",
+          "id": "s21-games",
           "type": "text-image",
-          "eyebrow": "The game",
-          "title": "Arm Lock Breaking Position Game",
+          "eyebrow": "Tonight on the mat",
+          "title": "The three games",
           "body": [
             {
-              "kind": "lead",
-              "text": "This is the second finish you own: an arm lock. Separate your partner's hands and get two grips on the wrist. Set both control points before you straighten the arm. Release the instant they tap."
+              "kind": "heading",
+              "level": 3,
+              "text": "Single Leg Destabilization — Two Paths"
             },
             {
-              "kind": "paragraph",
-              "text": "Owning your part when something breaks starts with control, not a yank."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "key-condition",
-              "label": "What you need first",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Both hands controlling the wrist, set before you straighten the arm. Release the instant your partner taps."
-                }
+              "kind": "list",
+              "items": [
+                "The attacker wins when the defender's hips or hands touch the mat.",
+                "The defender wins by freeing himself completely."
               ]
             },
             {
-              "id": "the-tap",
-              "label": "Still true every session: the tap",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
+              "kind": "heading",
+              "level": 3,
+              "text": "Knee Pit Touchdown Game"
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player wins by touching both of the bottom player's knee pits with his own leg, feet off the mat.",
+                "The bottom player wins by sitting up."
+              ]
+            },
+            {
+              "kind": "heading",
+              "level": 3,
+              "text": "Arm Lock Breaking Position Game"
+            },
+            {
+              "kind": "list",
+              "items": [
+                "The top player wins by separating the bottom player's hands and locking two grips on his wrist.",
+                "The bottom player wins by freeing his own trapped arm, or by reversing the position."
               ]
             }
           ]
@@ -180,107 +101,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "In Arm Lock Breaking Position Game, what counts as the win?",
+          "question": "Arm Lock Breaking Position Game: the top player's win?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Separating the hands and getting two grips on the wrist, with control set before straightening the arm",
+              "text": "The top player wins by separating the bottom player's hands and locking two grips on his wrist.",
               "correct": true,
-              "feedback": "That is the win condition, and nothing else scores."
+              "feedback": "That's it."
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant your partner taps. Every single time. The tap is law."
+              "feedback": "Never. Let go the instant he taps."
             },
             {
               "text": "Overpowering your partner with force",
-              "feedback": "You keep the pin by feeling your partner and moving with them, not by clamping down and squeezing hard. Staying calm beats forcing harder."
-            }
-          ],
-          "correctHead": "That's it.",
-          "correctText": "That is how you win today.",
-          "incorrectHead": "Not quite.",
-          "incorrectText": "Read the note under your choice, then try again.",
-          "revealText": "The right answer is marked above, with the reason."
-        }
-      ]
-    },
-    {
-      "id": "lesson",
-      "title": "The lesson",
-      "slides": [
-        {
-          "id": "s21-grappling",
-          "type": "text-image",
-          "eyebrow": "On the mat",
-          "title": "What you were working on",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Apply a second owned chest-pin finish, an arm lock, with control, and name one mistake you made in a round without making excuses."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Get an owned chest-pin arm lock locked in with control, and release on the tap.",
-                "Name one mistake you made in a round honestly, without blaming the partner."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s21-casel",
-          "type": "text-image",
-          "eyebrow": "Off the mat",
-          "title": "The part that was not about grappling",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "Say which part of a break is your share, separate from the other person's share."
-            },
-            {
-              "kind": "heading",
-              "level": 3,
-              "text": "Here is what that means"
-            },
-            {
-              "kind": "list",
-              "ordered": true,
-              "items": [
-                "Tell apart your share of a rupture from the other person's share.",
-                "Name the one piece of it that belongs to you."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "s21-connection",
-          "type": "reveal",
-          "eyebrow": "The connection",
-          "title": "Where those two meet",
-          "body": [
-            {
-              "kind": "lead",
-              "text": "On the mat you can name your own mistake in a round without blaming your partner. Owning your part of a rupture works the same way. It starts with separating your piece from theirs."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "stage-arc",
-              "label": "Where this sits in The Initiation",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Chest-to-chest contact on the mat is like contact with people. Friction on the mat is like friction with people. A break on the mat is like a rupture between people. A reset on the mat is like repair between people. The Initiation tests the real you against other people."
-                }
-              ]
+              "feedback": "Staying calm beats forcing harder."
             }
           ]
         }
@@ -291,112 +127,48 @@
       "title": "Before you go",
       "slides": [
         {
-          "id": "s21-recap",
-          "type": "reveal",
-          "eyebrow": "Quick recap",
-          "title": "Before you go: Arm Lock Breaking Position Game",
+          "id": "s21-takeaway",
+          "type": "text-image",
+          "eyebrow": "The takeaway",
+          "title": "What tonight was really about",
           "body": [
             {
               "kind": "lead",
-              "text": "This is the second finish you own: an arm lock. Separate your partner's hands and get two grips on the wrist. Set both control points before you straighten the arm. Release the instant they tap."
-            },
-            {
-              "kind": "paragraph",
-              "text": "Owning your part when something breaks starts with control, not a yank."
-            }
-          ],
-          "reveals": [
-            {
-              "id": "win-again",
-              "label": "How you win it, again",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Separating the hands and getting two grips on the wrist, with control set before straightening the arm"
-                }
-              ]
-            },
-            {
-              "id": "tap-again",
-              "label": "And the rule that never changes",
-              "content": [
-                {
-                  "kind": "list",
-                  "ordered": true,
-                  "items": [
-                    "Tap your partner's body",
-                    "Tap the mat",
-                    "Say stop"
-                  ]
-                },
-                {
-                  "kind": "paragraph",
-                  "text": "Any one of the three stops the round right away. When your partner taps, you stop right then. Not after you finish your move. Stop right away."
-                }
-              ]
+              "text": "Owning your part is the doorway to repair."
             }
           ]
         },
         {
-          "id": "s21-summative",
-          "type": "quiz",
-          "eyebrow": "End-of-session check",
-          "title": "What today was asking of you",
-          "assessment": {
-            "role": "summative",
-            "scored": true
-          },
-          "question": "Which one was this session actually asking you to do?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "Say which part of a break is your share, separate from the other person's share.",
-              "correct": true,
-              "feedback": "That was the target for today."
-            },
-            {
-              "text": "Name what repair costs you, and decide if it's worth paying that cost.",
-              "feedback": "That is Session 24's target, not today's."
-            },
-            {
-              "text": "Practice staying present when things feel uncomfortable, and name what makes you want to bail.",
-              "feedback": "That is Session 17's target, not today's."
-            }
-          ],
-          "correctHead": "That's the one.",
-          "correctText": "That was the point of the whole session, on the mat and off it.",
-          "incorrectHead": "Not today.",
-          "incorrectText": "That is a real target from this stage, just not this session. Try again.",
-          "revealText": "Today's target is marked above."
-        },
-        {
           "id": "s21-reflection",
           "type": "reflection",
-          "eyebrow": "Reflection",
+          "eyebrow": "On your own",
           "title": "Your answer",
           "prompt": "When something breaks, what part is yours to own?",
-          "hint": "Nothing here is graded. A few words is plenty.",
+          "hint": "Not graded.",
           "placeholder": "Whatever comes to mind…"
         },
         {
           "id": "s21-irf",
           "type": "reflection",
-          "eyebrow": "Before you go",
+          "eyebrow": "On your own",
           "title": "Instruction Rating Form",
-          "kindLabel": "IRF — everyone fills this out, every session",
+          "kindLabel": "IRF",
           "fields": [
             {
-              "id": "mat",
-              "prompt": "What happened today on the mat?"
+              "id": "liked",
+              "prompt": "What did you like?"
             },
             {
-              "id": "worked",
-              "prompt": "What worked?"
+              "id": "disliked",
+              "prompt": "What did you not like?"
             },
             {
-              "id": "didnt",
-              "prompt": "What did not work?"
+              "id": "change",
+              "prompt": "What would you change?"
+            },
+            {
+              "id": "keep",
+              "prompt": "What would you keep?"
             }
           ],
           "requireAll": true,
@@ -404,13 +176,7 @@
           "submit": true,
           "sendLabel": "Send it",
           "reflectionFrom": "s21-reflection",
-          "body": [
-            {
-              "kind": "callout",
-              "label": "Next session",
-              "text": "Session 22: What does it take for you to say sorry and mean it?"
-            }
-          ],
+          "body": [],
           "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]
