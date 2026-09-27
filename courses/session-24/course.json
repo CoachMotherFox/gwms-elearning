@@ -32,7 +32,7 @@
       }
     ],
     "connection": "Open rolling puts it all together: control, finish, tap, reset, in one flow. Repair works the same way in relationships. It costs pride and comfort, and you decide it's worth paying. This closes the Initiation and points to the Return.",
-    "takeaway": "You made contact, took the friction, survived the rupture, and learned repair.",
+    "takeaway": "Tonight you worked from the hand fight, open guard, and a figure-four grip, putting control, the tap, and the reset together in one flow. Repair off the mat works the same way, and it costs something real, pride, comfort, time. You get to decide that cost is worth paying. You made contact, took the friction, and survived the break to get here.",
     "_source": "GWMS Curriculum Guide — Session 24 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -118,6 +118,34 @@
               "feedback": "Staying calm beats forcing harder."
             }
           ]
+        },
+        {
+          "id": "s24-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You've got a figure-four grip, and more than one finish looks open. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Take whichever finish the position gives you first.",
+              "feedback": "Right. Taking whatever repair the moment gives you, in any order, is how real repair actually works.",
+              "correct": true
+            },
+            {
+              "text": "Stick to one fixed sequence no matter what.",
+              "feedback": "A fixed sequence ignores what the position is actually giving you."
+            },
+            {
+              "text": "Pause and plan out every step first.",
+              "feedback": "Pausing to plan loses the position. Take what's open now."
+            }
+          ]
         }
       ]
     },
@@ -133,7 +161,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "You made contact, took the friction, survived the rupture, and learned repair."
+              "text": "Tonight you worked from the hand fight, open guard, and a figure-four grip, putting control, the tap, and the reset together in one flow. Repair off the mat works the same way, and it costs something real, pride, comfort, time. You get to decide that cost is worth paying. You made contact, took the friction, and survived the break to get here."
             }
           ]
         },

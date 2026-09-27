@@ -32,7 +32,7 @@
       }
     ],
     "connection": "On the mat you can name your own mistake in a round without blaming your partner. Owning your part of a rupture works the same way. It starts with separating your piece from theirs.",
-    "takeaway": "Owning your part is the doorway to repair.",
+    "takeaway": "Tonight you worked from a single leg, open guard, and an arm lock position. On the mat you can name your own mistake in a round without blaming your partner. Owning a break works the same way, starting with separating your piece from theirs. You get to own your part and let the rest be his.",
     "_source": "GWMS Curriculum Guide — Session 21 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -119,6 +119,34 @@
               "feedback": "Staying calm beats forcing harder."
             }
           ]
+        },
+        {
+          "id": "s21-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You're working toward an arm lock, and your partner's hands are still together. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Separate his hands and trap the arm in front.",
+              "feedback": "Right. Trapping your own piece of the position is like owning your own part of a break.",
+              "correct": true
+            },
+            {
+              "text": "Grab for the far arm instead of separating hands.",
+              "feedback": "Reaching for the far arm skips a step you need first."
+            },
+            {
+              "text": "Wait for him to move his hands himself.",
+              "feedback": "Waiting here stalls the position. Separate the hands yourself."
+            }
+          ]
         }
       ]
     },
@@ -134,7 +162,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "Owning your part is the doorway to repair."
+              "text": "Tonight you worked from a single leg, open guard, and an arm lock position. On the mat you can name your own mistake in a round without blaming your partner. Owning a break works the same way, starting with separating your piece from theirs. You get to own your part and let the rest be his."
             }
           ]
         },

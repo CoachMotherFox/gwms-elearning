@@ -157,6 +157,27 @@ function screenCheck(s, stage) {
   };
 }
 
+/* A second, separate quiz from screenCheck: this one is not about that
+   night's games at all. It draws on a white- or blue-level Enabling
+   Objective from the Codex (Chapter 21), matched to one of that night's
+   actual games and phrased as an in-progress moment on the mat. Belt
+   names and colors never appear to the learner. Only present when the
+   curriculum data supplies s.concept (every session but Session 1). */
+function screenConcept(s) {
+  const c = s.concept;
+  return {
+    id: `s${pad(s.n)}-concept`,
+    type: 'quiz',
+    eyebrow: 'On the mat',
+    title: 'What would you do?',
+    assessment: { role: 'formative', scored: false },
+    question: c.question,
+    select: 'single',
+    retry: true,
+    options: c.options
+  };
+}
+
 function screenTakeaway(s) {
   return {
     id: `s${pad(s.n)}-takeaway`,
@@ -211,6 +232,7 @@ function buildCourse(s, stage) {
     s.golmest ? screenGolmestRecap(s) : screenGames(s),
     screenCheck(s, stage)
   ];
+  if (s.concept) today.push(screenConcept(s));
 
   const close = [
     screenTakeaway(s),

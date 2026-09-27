@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
       }
     ],
     "connection": "Keeping a pin means feeling your partner and adjusting to them, not clamping down and ignoring them. Letting someone in works the same way. You hold the connection by reading the other person, not by shutting them out and pushing through alone.",
-    "takeaway": "Letting people in is like a dial you control. You just found yours.",
+    "takeaway": "Tonight you worked from the hand fight, closed guard, and a chest-to-chest pin. Keeping a pin means feeling your partner and adjusting to him, not clamping down and ignoring him. You can turn that same dial with people, adjusting to them instead of shutting them out. Letting someone in is a choice you make.",
     "_source": "GWMS Curriculum Guide — Session 14 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -121,6 +121,34 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
               "feedback": "Staying calm beats forcing harder."
             }
           ]
+        },
+        {
+          "id": "s14-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You're holding a chest-to-chest pin, and your partner is fighting to pull one elbow free. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Stay under the elbow, or get back under fast.",
+              "feedback": "Right. Staying under the elbow is what keeps the pin alive, the same dial you turn to let someone in.",
+              "correct": true
+            },
+            {
+              "text": "Let the elbow go and grab his wrist instead.",
+              "feedback": "That gives up the pin completely. Stay under the elbow."
+            },
+            {
+              "text": "Push down harder with your whole body weight.",
+              "feedback": "Leaning your weight isn't the pin. Stay under the elbow."
+            }
+          ]
         }
       ]
     },
@@ -136,7 +164,7 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Letting people in is like a dial you control. You just found yours."
+              "text": "Tonight you worked from the hand fight, closed guard, and a chest-to-chest pin. Keeping a pin means feeling your partner and adjusting to him, not clamping down and ignoring him. You can turn that same dial with people, adjusting to them instead of shutting them out. Letting someone in is a choice you make."
             }
           ]
         },

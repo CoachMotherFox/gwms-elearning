@@ -32,7 +32,7 @@
       }
     ],
     "connection": "How you make first contact on the mat, careful, rushed, or stiff, is your entrance. Naming how you show up when nobody knows you yet is the same pattern, seen off the mat.",
-    "takeaway": "Everybody has an entrance, and now you can see yours.",
+    "takeaway": "Tonight you worked from the over-under tie, half guard, and mount. How you make first contact on the mat, careful, rushed, or stiff, is your entrance. You can choose that entrance on purpose instead of by accident. Choosing how you show up works the same way off the mat.",
     "_source": "GWMS Curriculum Guide — Session 2 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -118,6 +118,34 @@
               "feedback": "Never. Everyone goes light."
             }
           ]
+        },
+        {
+          "id": "s02-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You and your partner are locked in an over-under tie, one arm over, one arm under, on both sides. What's the smart next move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Fight to close your hands under his elbows.",
+              "feedback": "That's the connection. Closing your hands under his elbows is how you arrive for real, not just show up.",
+              "correct": true
+            },
+            {
+              "text": "Let go and grab a fresh new hold.",
+              "feedback": "Don't drop a good tie. Keep fighting from where you already are."
+            },
+            {
+              "text": "Hold still and wait for him to move.",
+              "feedback": "Waiting here loses ground. Keep working to close your hands."
+            }
+          ]
         }
       ]
     },
@@ -133,7 +161,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "Everybody has an entrance, and now you can see yours."
+              "text": "Tonight you worked from the over-under tie, half guard, and mount. How you make first contact on the mat, careful, rushed, or stiff, is your entrance. You can choose that entrance on purpose instead of by accident. Choosing how you show up works the same way off the mat."
             }
           ]
         },

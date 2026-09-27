@@ -31,7 +31,7 @@
       }
     ],
     "connection": "The person rolling now is not the one who walked in on Session 1. You can see the difference in how you move. Naming who you became is the return itself, not who you were told to be, but the one you built.",
-    "takeaway": "You became someone, and you built them yourself.",
+    "takeaway": "Tonight you worked from the hand fight, open guard, and back control. The person rolling now is not the one who walked in on Session 1, and you can see it in how you move. Naming who you became is the return itself. You get to claim that person, because you are the one who built him.",
     "_source": "GWMS Curriculum Guide — Session 35 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -117,6 +117,34 @@
               "feedback": "That is the one thing you never do."
             }
           ]
+        },
+        {
+          "id": "s35-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "Your palm has just touched your partner's back, building toward the finish. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Lock your wrist into your elbow right there.",
+              "feedback": "Right. Finishing clean, from the person you built, is the return itself.",
+              "correct": true
+            },
+            {
+              "text": "Pull back and look for a different angle.",
+              "feedback": "Pulling back loses the exact spot you already found."
+            },
+            {
+              "text": "Wait and let your partner move first.",
+              "feedback": "Waiting stalls the finish. Lock your wrist in now."
+            }
+          ]
         }
       ]
     },
@@ -132,7 +160,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "You became someone, and you built them yourself."
+              "text": "Tonight you worked from the hand fight, open guard, and back control. The person rolling now is not the one who walked in on Session 1, and you can see it in how you move. Naming who you became is the return itself. You get to claim that person, because you are the one who built him."
             }
           ]
         },

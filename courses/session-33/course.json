@@ -31,7 +31,7 @@
       }
     ],
     "connection": "Newer people learn more from watching how you roll than from anything you say. How you carry yourself in life teaches the same way, silently, to whoever is watching. You are a lesson whether you mean to be or not.",
-    "takeaway": "You are a lesson already, so be the one you would choose to teach.",
+    "takeaway": "Tonight you worked from the hand fight, closed guard, and back control. Newer people learn more from watching how you roll than from anything you say. You teach people the same way off the mat, just by how you act. You get to choose what you teach, since you are teaching either way.",
     "_source": "GWMS Curriculum Guide — Session 33 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -117,6 +117,34 @@
               "feedback": "That is the one thing you never do."
             }
           ]
+        },
+        {
+          "id": "s33-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You're working from closed guard, and you've just caused your partner to post his hand on the mat. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Take the underhook, then lock your hands around him.",
+              "feedback": "Right. Causing the post, then the underhook, then the lock, in order, is exactly what a newer partner learns from watching you build it.",
+              "correct": true
+            },
+            {
+              "text": "Grab for a submission before the post settles.",
+              "feedback": "Rushing the finish here skips the setup you just earned."
+            },
+            {
+              "text": "Let go and hand fight from scratch again.",
+              "feedback": "Starting over gives away the post you already caused."
+            }
+          ]
         }
       ]
     },
@@ -132,7 +160,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "You are a lesson already, so be the one you would choose to teach."
+              "text": "Tonight you worked from the hand fight, closed guard, and back control. Newer people learn more from watching how you roll than from anything you say. You teach people the same way off the mat, just by how you act. You get to choose what you teach, since you are teaching either way."
             }
           ]
         },

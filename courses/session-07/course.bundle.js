@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
       }
     ],
     "connection": "When your guard gets passed, the mask cracks and something real shows. Getting passed on the mat and cracking under pressure are the same moment. You feel it in your body first.",
-    "takeaway": "Losing cracks the mask. What comes out tells you something. It is not failure.",
+    "takeaway": "Tonight you worked from a single leg, closed guard, and referee position. When your guard gets passed, something real slips out from under the mask, and you feel it in your body first. That crack is not failure, it is information. You get to notice what shows up and decide what to do with it.",
     "_source": "GWMS Curriculum Guide — Session 7 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -121,6 +121,34 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
               "feedback": "Never. Everyone goes light."
             }
           ]
+        },
+        {
+          "id": "s07-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You're opening your partner's closed guard, and your hands drift up toward his head. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Keep your hands on his hips and knees.",
+              "feedback": "Right. Staying on the legs is what opens the guard, the same way pressure is what cracks the mask.",
+              "correct": true
+            },
+            {
+              "text": "Reach for his head to control it.",
+              "feedback": "Reaching for the head stalls the guard, not opens it."
+            },
+            {
+              "text": "Pull both hands back and reset your grip.",
+              "feedback": "Resetting here loses your progress. Stay on the legs."
+            }
+          ]
         }
       ]
     },
@@ -136,7 +164,7 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Losing cracks the mask. What comes out tells you something. It is not failure."
+              "text": "Tonight you worked from a single leg, closed guard, and referee position. When your guard gets passed, something real slips out from under the mask, and you feel it in your body first. That crack is not failure, it is information. You get to notice what shows up and decide what to do with it."
             }
           ]
         },

@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
       }
     ],
     "connection": "Staying with a hard partner on the mat instead of switching is commitment made physical. Staying in a hard relationship when leaving is easier is the same choice. Both build the muscle of not bailing on people.",
-    "takeaway": "Staying is a choice you can make on purpose. You just practiced it.",
+    "takeaway": "Tonight you worked from an underhook tie, open guard, and a chest-to-chest pin. Staying with a hard partner instead of switching is commitment made physical, and it builds the muscle of not bailing on people. That muscle works off the mat too, in hard relationships. You get to choose to stay on purpose, and choosing to leave a harmful one is smart too.",
     "_source": "GWMS Curriculum Guide — Session 23 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -121,6 +121,34 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
               "feedback": "Staying calm beats forcing harder."
             }
           ]
+        },
+        {
+          "id": "s23-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "Your partner is standing to pass, and your feet are still hooked on him. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Keep both feet hooked on him no matter what.",
+              "feedback": "Right. Staying connected under pressure is commitment made physical, the same choice as staying when leaving is easier.",
+              "correct": true
+            },
+            {
+              "text": "Let your feet go and scramble up to stand.",
+              "feedback": "Letting go here gives up your only connection."
+            },
+            {
+              "text": "Hold still and hope he stops moving.",
+              "feedback": "Hoping doesn't hold guard. Keep your feet hooked on him."
+            }
+          ]
         }
       ]
     },
@@ -136,7 +164,7 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Staying is a choice you can make on purpose. You just practiced it."
+              "text": "Tonight you worked from an underhook tie, open guard, and a chest-to-chest pin. Staying with a hard partner instead of switching is commitment made physical, and it builds the muscle of not bailing on people. That muscle works off the mat too, in hard relationships. You get to choose to stay on purpose, and choosing to leave a harmful one is smart too."
             }
           ]
         },

@@ -33,7 +33,7 @@ window.GWMS_COURSE_BUNDLE["session-31"] =
       }
     ],
     "connection": "The finish is the sharpest power in the system. How you use it, controlled, releasing on the tap, is what people remember about rolling with you. What you leave behind in life is built the same way, out of how you treat people when you hold the power.",
-    "takeaway": "Legacy is built from how you act now, not someday.",
+    "takeaway": "Tonight you worked from the hand fight, open guard, and back control. A finish gives you real power over someone. Letting go the second he taps is what people remember. Your legacy off the mat works the same way. It comes from how you treat people when you have the upper hand.",
     "_source": "GWMS Curriculum Guide — Session 31 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -119,6 +119,34 @@ window.GWMS_COURSE_BUNDLE["session-31"] =
               "feedback": "That is the one thing you never do."
             }
           ]
+        },
+        {
+          "id": "s31-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You're building a strangle from behind, and your palm has just touched your partner's back. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Lock your wrist into your own elbow from there.",
+              "feedback": "Right. Finishing it clean is what people remember, the legacy you leave in how you finish.",
+              "correct": true
+            },
+            {
+              "text": "Pull your hand back and grab his shoulder instead.",
+              "feedback": "Pulling back loses the exact spot you just found."
+            },
+            {
+              "text": "Wait there and let him move first.",
+              "feedback": "Waiting here stalls the finish. Lock your wrist in now."
+            }
+          ]
         }
       ]
     },
@@ -134,7 +162,7 @@ window.GWMS_COURSE_BUNDLE["session-31"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Legacy is built from how you act now, not someday."
+              "text": "Tonight you worked from the hand fight, open guard, and back control. A finish gives you real power over someone. Letting go the second he taps is what people remember. Your legacy off the mat works the same way. It comes from how you treat people when you have the upper hand."
             }
           ]
         },

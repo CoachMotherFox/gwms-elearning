@@ -33,7 +33,7 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
       }
     ],
     "connection": "There is one exact thing you can do on the mat now that you could not before, and you can name it. Your growth off the mat works the same way. Not \"I am better,\" but \"I can do this now.\"",
-    "takeaway": "You can name what you gained, exactly.",
+    "takeaway": "Tonight you worked from an underhook tie, half guard, and back control. There is one exact thing you can do now that you could not do before, and you can name it. Growth off the mat works the same way, not \"I am better\" but \"I can do this now.\" You get to name the exact thing you gained.",
     "_source": "GWMS Curriculum Guide — Session 27 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -120,6 +120,34 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
               "feedback": "That is the one thing you never do."
             }
           ]
+        },
+        {
+          "id": "s27-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You're passing half guard, and you've already cleared your partner's feet. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Clear the knees next, then work to the hips.",
+              "feedback": "Right. Clearing it in order is one exact thing you couldn't do before, and now you can.",
+              "correct": true
+            },
+            {
+              "text": "Skip ahead and reach straight for the hips.",
+              "feedback": "Skipping the order here usually costs you the pass."
+            },
+            {
+              "text": "Stop and reset back to the feet again.",
+              "feedback": "Resetting here wastes ground you've already cleared."
+            }
+          ]
         }
       ]
     },
@@ -135,7 +163,7 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
           "body": [
             {
               "kind": "lead",
-              "text": "You can name what you gained, exactly."
+              "text": "Tonight you worked from an underhook tie, half guard, and back control. There is one exact thing you can do now that you could not do before, and you can name it. Growth off the mat works the same way, not \"I am better\" but \"I can do this now.\" You get to name the exact thing you gained."
             }
           ]
         },

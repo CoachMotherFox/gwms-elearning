@@ -32,7 +32,7 @@
       }
     ],
     "connection": "A partner resisting the pin is pushback made physical. What you do when they fight the pin is usually what you do when people push back in life. Both reward staying calm and adjusting over forcing harder.",
-    "takeaway": "Pushback is normal. Your response to it is a choice, not a reflex you're stuck with.",
+    "takeaway": "Tonight you worked from an underhook tie, open guard, and riding position. A partner fighting your pin is pushback made physical, and staying calm beats forcing harder every time. That is usually true with people too. You get to choose your response to pushback instead of reacting on reflex.",
     "_source": "GWMS Curriculum Guide — Session 16 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -119,6 +119,34 @@
               "feedback": "Staying calm beats forcing harder."
             }
           ]
+        },
+        {
+          "id": "s16-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You're riding your partner, and he starts fighting hard to stand up. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Block his hips down with knee and foot.",
+              "feedback": "Right. Staying calm and blocking beats forcing harder, the same way you handle pushback anywhere else.",
+              "correct": true
+            },
+            {
+              "text": "Force him down harder with your whole body.",
+              "feedback": "Forcing harder burns you out faster than it works."
+            },
+            {
+              "text": "Back off and reset your position from scratch.",
+              "feedback": "Backing off gives up ground. Block with knee and foot instead."
+            }
+          ]
         }
       ]
     },
@@ -134,7 +162,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "Pushback is normal. Your response to it is a choice, not a reflex you're stuck with."
+              "text": "Tonight you worked from an underhook tie, open guard, and riding position. A partner fighting your pin is pushback made physical, and staying calm beats forcing harder every time. That is usually true with people too. You get to choose your response to pushback instead of reacting on reflex."
             }
           ]
         },

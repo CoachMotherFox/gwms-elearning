@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
       }
     ],
     "connection": "The guard you keep was drilled into you somewhere, and so was the mask. Both are learned defenses. Finding where you learned to guard is the same move on and off the mat.",
-    "takeaway": "The mask made sense where you learned it. That means it is a choice, not a life sentence.",
+    "takeaway": "Tonight you worked from the hand fight, open guard, and turtle. The guard you keep on the mat was learned somewhere, and so was your mask. Both were smart moves once, in the place you learned them. You get to keep what still helps you and set down what doesn't.",
     "_source": "GWMS Curriculum Guide — Session 5 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -121,6 +121,34 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
               "feedback": "Never. Everyone goes light."
             }
           ]
+        },
+        {
+          "id": "s05-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You're hand fighting for the underhook, and your hands keep landing in different spots. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Grip his wrist, elbow, or head on purpose.",
+              "feedback": "Good. Gripping on purpose is a learned move, the same way your mask was learned somewhere too.",
+              "correct": true
+            },
+            {
+              "text": "Grab wherever your hands happen to land.",
+              "feedback": "Grabbing at random wastes the position. Grip on purpose instead."
+            },
+            {
+              "text": "Keep your hands off him and circle.",
+              "feedback": "Staying disconnected loses the hand fight. Get a grip on purpose."
+            }
+          ]
         }
       ]
     },
@@ -136,7 +164,7 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
           "body": [
             {
               "kind": "lead",
-              "text": "The mask made sense where you learned it. That means it is a choice, not a life sentence."
+              "text": "Tonight you worked from the hand fight, open guard, and turtle. The guard you keep on the mat was learned somewhere, and so was your mask. Both were smart moves once, in the place you learned them. You get to keep what still helps you and set down what doesn't."
             }
           ]
         },

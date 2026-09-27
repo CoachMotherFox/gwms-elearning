@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
       }
     ],
     "connection": "Arriving past the guard puts you in touch with what was most protected. Naming the shadow does the same thing inside you. Both reach the thing that was hidden deepest.",
-    "takeaway": "Naming the hidden part, even silently, is the bravest thing the mat asks of you.",
+    "takeaway": "Tonight you worked from the hand fight, half guard, and a chest-to-chest pin. Arriving past a guard puts you in touch with what was most protected. Naming the part of yourself you keep hidden works the same way. You get to name it silently, just for you, and that alone is brave.",
     "_source": "GWMS Curriculum Guide — Session 11 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -120,6 +120,34 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
               "feedback": "Never. Everyone goes light."
             }
           ]
+        },
+        {
+          "id": "s11-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You're hand fighting and you've already collected two of your three touches. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Keep working from the grip you already have.",
+              "feedback": "Right. Working from what you already hold is how you reach the part of yourself you keep hidden.",
+              "correct": true
+            },
+            {
+              "text": "Let go and search for a totally new grip.",
+              "feedback": "Searching for something new here wastes ground you've already won."
+            },
+            {
+              "text": "Stop and wait to see what he tries.",
+              "feedback": "Waiting here stalls your count. Keep working your grip."
+            }
+          ]
         }
       ]
     },
@@ -135,7 +163,7 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Naming the hidden part, even silently, is the bravest thing the mat asks of you."
+              "text": "Tonight you worked from the hand fight, half guard, and a chest-to-chest pin. Arriving past a guard puts you in touch with what was most protected. Naming the part of yourself you keep hidden works the same way. You get to name it silently, just for you, and that alone is brave."
             }
           ]
         },

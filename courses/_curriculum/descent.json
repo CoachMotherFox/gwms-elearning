@@ -64,7 +64,7 @@
         ]
       },
       "connection": "Tonight the room agreed on the rules together, out loud. That is what makes a place feel safe: everyone knows the rules will hold, and everyone had a hand in making them.",
-      "takeaway": "A safe place is one where everyone knows the rules will hold. Tonight you helped write them."
+      "takeaway": "Tonight you learned the standing rules, the tap, and how to stop a round right away. Those rules work because everyone agreed to them out loud, together. You helped build them, not just follow them. A safe place is one you get to build, not just enter."
     },
     {
       "n": 2,
@@ -123,7 +123,25 @@
         }
       ],
       "connection": "How you make first contact on the mat, careful, rushed, or stiff, is your entrance. Naming how you show up when nobody knows you yet is the same pattern, seen off the mat.",
-      "takeaway": "Everybody has an entrance, and now you can see yours."
+      "takeaway": "Tonight you worked from the over-under tie, half guard, and mount. How you make first contact on the mat, careful, rushed, or stiff, is your entrance. You can choose that entrance on purpose instead of by accident. Choosing how you show up works the same way off the mat.",
+      "concept": {
+        "question": "You and your partner are locked in an over-under tie, one arm over, one arm under, on both sides. What's the smart next move?",
+        "options": [
+          {
+            "text": "Fight to close your hands under his elbows.",
+            "feedback": "That's the connection. Closing your hands under his elbows is how you arrive for real, not just show up.",
+            "correct": true
+          },
+          {
+            "text": "Let go and grab a fresh new hold.",
+            "feedback": "Don't drop a good tie. Keep fighting from where you already are."
+          },
+          {
+            "text": "Hold still and wait for him to move.",
+            "feedback": "Waiting here loses ground. Keep working to close your hands."
+          }
+        ]
+      }
     },
     {
       "n": 3,
@@ -182,7 +200,25 @@
         }
       ],
       "connection": "Staying safe and guarded on the mat before you trust a partner is the same guard you use before you trust a room. Both are smart. Naming it is the work.",
-      "takeaway": "The guard is smart. Next week we look at the face that guard wears: the mask."
+      "takeaway": "Tonight you worked from the hand fight, open guard, and a chest-to-chest pin. Staying guarded before you trust a partner is smart, and it works the same way before you trust a room. You get to decide how much guard to keep up. Noticing your own guard is the first step to choosing when to drop it.",
+      "concept": {
+        "question": "You're hand fighting and you've already got a grip on your partner's wrist. What's the smart next move?",
+        "options": [
+          {
+            "text": "Use that grip to collect your touches.",
+            "feedback": "Right. Working from a grip you already hold is how you build trust step by step, not all at once.",
+            "correct": true
+          },
+          {
+            "text": "Drop the grip and look for a new one.",
+            "feedback": "Don't give up a grip you've already earned."
+          },
+          {
+            "text": "Freeze and hope he touches first.",
+            "feedback": "Freezing gives him the round. Keep working your grip."
+          }
+        ]
+      }
     },
     {
       "n": 4,
@@ -241,7 +277,25 @@
         }
       ],
       "connection": "Keeping your guard means keeping a boundary between you and the other person. The mask does the same job with people. Guard retention on the mat and the mask you wear are the same thing.",
-      "takeaway": "Everybody wears a face for the crowd. Now yours has a name."
+      "takeaway": "Tonight you worked from the hand fight, open guard, and riding position. Keeping your guard means keeping a boundary between you and another person, and a mask does that same job with people. You get to choose what your mask protects and when to use it. Naming your mask is the first step to owning it.",
+      "concept": {
+        "question": "You've already got two grips on your partner during the hand fight. What's the smart next move?",
+        "options": [
+          {
+            "text": "Chain those two grips into the underhook.",
+            "feedback": "Right. Chaining your grips into the underhook is building toward something, not just performing for the room.",
+            "correct": true
+          },
+          {
+            "text": "Drop both grips and start the fight over.",
+            "feedback": "Don't reset a hand fight you're already winning."
+          },
+          {
+            "text": "Hold the two grips and wait there.",
+            "feedback": "Holding still here stalls you. Keep chaining toward the underhook."
+          }
+        ]
+      }
     },
     {
       "n": 5,
@@ -304,7 +358,25 @@
         }
       ],
       "connection": "The guard you keep was drilled into you somewhere, and so was the mask. Both are learned defenses. Finding where you learned to guard is the same move on and off the mat.",
-      "takeaway": "The mask made sense where you learned it. That means it is a choice, not a life sentence."
+      "takeaway": "Tonight you worked from the hand fight, open guard, and turtle. The guard you keep on the mat was learned somewhere, and so was your mask. Both were smart moves once, in the place you learned them. You get to keep what still helps you and set down what doesn't.",
+      "concept": {
+        "question": "You're hand fighting for the underhook, and your hands keep landing in different spots. What's the smart move?",
+        "options": [
+          {
+            "text": "Grip his wrist, elbow, or head on purpose.",
+            "feedback": "Good. Gripping on purpose is a learned move, the same way your mask was learned somewhere too.",
+            "correct": true
+          },
+          {
+            "text": "Grab wherever your hands happen to land.",
+            "feedback": "Grabbing at random wastes the position. Grip on purpose instead."
+          },
+          {
+            "text": "Keep your hands off him and circle.",
+            "feedback": "Staying disconnected loses the hand fight. Get a grip on purpose."
+          }
+        ]
+      }
     },
     {
       "n": 6,
@@ -367,7 +439,25 @@
         }
       ],
       "connection": "Your guard protects the space behind your legs. Your mask protects something too. Naming what the guard defends is the same as naming what the mask hides.",
-      "takeaway": "The mask has a job. Next week we find out what happens to it under pressure."
+      "takeaway": "Tonight you worked from the hand fight, open guard, and mount. Your guard protects the space behind your legs, and your mask protects something in you too. Naming exactly what your mask guards is a skill, the same as naming what a good guard defends. You get to know your own mask well enough to use it on purpose.",
+      "concept": {
+        "question": "You're in mount, and your partner is fighting to pull his elbow free. What's the smart move?",
+        "options": [
+          {
+            "text": "Stay under that elbow no matter what.",
+            "feedback": "Right. Staying under the elbow protects the position, the same way your mask protects something in you.",
+            "correct": true
+          },
+          {
+            "text": "Let the elbow go and grab his wrist.",
+            "feedback": "Letting the elbow go gives up the mount."
+          },
+          {
+            "text": "Sit back and wait for him to stop.",
+            "feedback": "Waiting here loses the elbow. Stay under it instead."
+          }
+        ]
+      }
     },
     {
       "n": 7,
@@ -430,7 +520,25 @@
         }
       ],
       "connection": "When your guard gets passed, the mask cracks and something real shows. Getting passed on the mat and cracking under pressure are the same moment. You feel it in your body first.",
-      "takeaway": "Losing cracks the mask. What comes out tells you something. It is not failure."
+      "takeaway": "Tonight you worked from a single leg, closed guard, and referee position. When your guard gets passed, something real slips out from under the mask, and you feel it in your body first. That crack is not failure, it is information. You get to notice what shows up and decide what to do with it.",
+      "concept": {
+        "question": "You're opening your partner's closed guard, and your hands drift up toward his head. What's the smart move?",
+        "options": [
+          {
+            "text": "Keep your hands on his hips and knees.",
+            "feedback": "Right. Staying on the legs is what opens the guard, the same way pressure is what cracks the mask.",
+            "correct": true
+          },
+          {
+            "text": "Reach for his head to control it.",
+            "feedback": "Reaching for the head stalls the guard, not opens it."
+          },
+          {
+            "text": "Pull both hands back and reset your grip.",
+            "feedback": "Resetting here loses your progress. Stay on the legs."
+          }
+        ]
+      }
     },
     {
       "n": 8,
@@ -489,7 +597,25 @@
         }
       ],
       "connection": "When you and your partner get tired, the fake stuff drops on both sides, the passer and the guard. What slips out when you are too tired to perform is the truest thing about you, on the mat and off.",
-      "takeaway": "What shows up when you are empty is often the truest thing about you."
+      "takeaway": "Tonight you worked from the hand fight, open guard, and turtle. When you get tired, the performing stops on both sides, and something truer shows up in its place. That truer version is worth paying attention to, not hiding again. You get to decide what you do with what you noticed.",
+      "concept": {
+        "question": "You're riding your partner from behind, and his hips start lifting off the mat. What's the smart move?",
+        "options": [
+          {
+            "text": "Block his hips down with knee and foot.",
+            "feedback": "Right. Blocking the hips down is honest work, the same as staying honest when you're too tired to perform.",
+            "correct": true
+          },
+          {
+            "text": "Let the hips rise and reach for a choke.",
+            "feedback": "Chasing a finish here loses the position completely."
+          },
+          {
+            "text": "Push down with your whole upper body.",
+            "feedback": "Leaning your weight doesn't hold hips down. Block with your knee and foot."
+          }
+        ]
+      }
     },
     {
       "n": 9,
@@ -552,7 +678,25 @@
         }
       ],
       "connection": "The checkpoint where a guard always breaks is a tell, and so is the first thing that shows when you crack. Finding the exact break point on the mat is the same skill as knowing your own tell.",
-      "takeaway": "Knowing your tell is power, because you can catch yourself."
+      "takeaway": "Tonight you worked from a single leg, open guard, and a chest-to-chest pin. Every guard has an exact point where it breaks, and so do you. Finding that point on the mat is the same skill as knowing the sign you give off. Once you know it, you can catch yourself before it runs the show.",
+      "concept": {
+        "question": "You've got both hands locked around your partner's leg, and he's trying to pull away. What's the smart move?",
+        "options": [
+          {
+            "text": "Keep moving him while staying on the leg.",
+            "feedback": "Right. Staying attached while he moves is the same as noticing the sign you give off before it runs the show.",
+            "correct": true
+          },
+          {
+            "text": "Let go of the leg and reset your stance.",
+            "feedback": "Letting go here gives the leg back for nothing."
+          },
+          {
+            "text": "Freeze in place and grip as hard as possible.",
+            "feedback": "Freezing in place lets him escape. Keep moving him instead."
+          }
+        ]
+      }
     },
     {
       "n": 10,
@@ -615,7 +759,25 @@
         }
       ],
       "connection": "Getting past the legs shows what the guard was hiding. Looking under your mask shows the real you. Passing and revealing are the same move: get past the defense to what is behind it.",
-      "takeaway": "What is under the mask is not worse than the mask, it is just true."
+      "takeaway": "Tonight you worked from an underhook tie, open guard, and a figure-four pin. Getting past a guard shows what it was hiding, and looking under your own mask works the same way. What is underneath is not worse than the mask, it is just true. You get to look at it and keep what is real.",
+      "concept": {
+        "question": "You've got an underhook and a grip on your partner's head. What's the smart next move?",
+        "options": [
+          {
+            "text": "Use that grip as a waypoint to his waist.",
+            "feedback": "Right. Treating it as a waypoint gets you to what's underneath, the same way passing gets past the mask.",
+            "correct": true
+          },
+          {
+            "text": "Stay locked on the head grip and hold there.",
+            "feedback": "Stopping at the head grip stalls your progress toward the waist."
+          },
+          {
+            "text": "Release the grip and start the hand fight over.",
+            "feedback": "Releasing here gives up ground you already earned."
+          }
+        ]
+      }
     },
     {
       "n": 11,
@@ -675,7 +837,25 @@
       ],
       "connection": "Arriving past the guard puts you in touch with what was most protected. Naming the shadow does the same thing inside you. Both reach the thing that was hidden deepest.",
       "privateOk": true,
-      "takeaway": "Naming the hidden part, even silently, is the bravest thing the mat asks of you."
+      "takeaway": "Tonight you worked from the hand fight, half guard, and a chest-to-chest pin. Arriving past a guard puts you in touch with what was most protected. Naming the part of yourself you keep hidden works the same way. You get to name it silently, just for you, and that alone is brave.",
+      "concept": {
+        "question": "You're hand fighting and you've already collected two of your three touches. What's the smart move?",
+        "options": [
+          {
+            "text": "Keep working from the grip you already have.",
+            "feedback": "Right. Working from what you already hold is how you reach the part of yourself you keep hidden.",
+            "correct": true
+          },
+          {
+            "text": "Let go and search for a totally new grip.",
+            "feedback": "Searching for something new here wastes ground you've already won."
+          },
+          {
+            "text": "Stop and wait to see what he tries.",
+            "feedback": "Waiting here stalls your count. Keep working your grip."
+          }
+        ]
+      }
     },
     {
       "n": 12,
@@ -735,7 +915,25 @@
       ],
       "connection": "Running both games from standing to a pin is the mat's version of the whole Descent, from arrival to the real self revealed. This session brings both journeys together into one.",
       "stageClose": true,
-      "takeaway": "You showed up, cracked, and stayed, and the room met the real you."
+      "takeaway": "Tonight you worked from the hand fight, open guard, and riding position, running the whole trip from standing to a pin in one round. That is the same trip you have made since Session 1, from arrival to the real you underneath. You showed up, you cracked, and you stayed anyway. You get to keep showing up as that real person.",
+      "concept": {
+        "question": "You're riding your partner from on top, hands on his hips, and he's trying to stand. What's the smart move?",
+        "options": [
+          {
+            "text": "Block his hips down with knee and foot.",
+            "feedback": "Right. Blocking his hips down is the same discipline that got you from arrival all the way to who you are now.",
+            "correct": true
+          },
+          {
+            "text": "Grab for a choke and forget his hips.",
+            "feedback": "Chasing a finish here lets him stand up free."
+          },
+          {
+            "text": "Push down with your chest and stop moving.",
+            "feedback": "Leaning your chest doesn't block hips. Use your knee and foot."
+          }
+        ]
+      }
     }
   ]
 }

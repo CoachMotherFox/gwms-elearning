@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
       }
     ],
     "connection": "Getting past the legs shows what the guard was hiding. Looking under your mask shows the real you. Passing and revealing are the same move: get past the defense to what is behind it.",
-    "takeaway": "What is under the mask is not worse than the mask, it is just true.",
+    "takeaway": "Tonight you worked from an underhook tie, open guard, and a figure-four pin. Getting past a guard shows what it was hiding, and looking under your own mask works the same way. What is underneath is not worse than the mask, it is just true. You get to look at it and keep what is real.",
     "_source": "GWMS Curriculum Guide — Session 10 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -121,6 +121,34 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
               "feedback": "Never. Everyone goes light."
             }
           ]
+        },
+        {
+          "id": "s10-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You've got an underhook and a grip on your partner's head. What's the smart next move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Use that grip as a waypoint to his waist.",
+              "feedback": "Right. Treating it as a waypoint gets you to what's underneath, the same way passing gets past the mask.",
+              "correct": true
+            },
+            {
+              "text": "Stay locked on the head grip and hold there.",
+              "feedback": "Stopping at the head grip stalls your progress toward the waist."
+            },
+            {
+              "text": "Release the grip and start the hand fight over.",
+              "feedback": "Releasing here gives up ground you already earned."
+            }
+          ]
         }
       ]
     },
@@ -136,7 +164,7 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
           "body": [
             {
               "kind": "lead",
-              "text": "What is under the mask is not worse than the mask, it is just true."
+              "text": "Tonight you worked from an underhook tie, open guard, and a figure-four pin. Getting past a guard shows what it was hiding, and looking under your own mask works the same way. What is underneath is not worse than the mask, it is just true. You get to look at it and keep what is real."
             }
           ]
         },

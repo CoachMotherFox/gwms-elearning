@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
       }
     ],
     "connection": "Your guard protects the space behind your legs. Your mask protects something too. Naming what the guard defends is the same as naming what the mask hides.",
-    "takeaway": "The mask has a job. Next week we find out what happens to it under pressure.",
+    "takeaway": "Tonight you worked from the hand fight, open guard, and mount. Your guard protects the space behind your legs, and your mask protects something in you too. Naming exactly what your mask guards is a skill, the same as naming what a good guard defends. You get to know your own mask well enough to use it on purpose.",
     "_source": "GWMS Curriculum Guide — Session 6 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -121,6 +121,34 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
               "feedback": "Never. Everyone goes light."
             }
           ]
+        },
+        {
+          "id": "s06-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You're in mount, and your partner is fighting to pull his elbow free. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Stay under that elbow no matter what.",
+              "feedback": "Right. Staying under the elbow protects the position, the same way your mask protects something in you.",
+              "correct": true
+            },
+            {
+              "text": "Let the elbow go and grab his wrist.",
+              "feedback": "Letting the elbow go gives up the mount."
+            },
+            {
+              "text": "Sit back and wait for him to stop.",
+              "feedback": "Waiting here loses the elbow. Stay under it instead."
+            }
+          ]
         }
       ]
     },
@@ -136,7 +164,7 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
           "body": [
             {
               "kind": "lead",
-              "text": "The mask has a job. Next week we find out what happens to it under pressure."
+              "text": "Tonight you worked from the hand fight, open guard, and mount. Your guard protects the space behind your legs, and your mask protects something in you too. Naming exactly what your mask guards is a skill, the same as naming what a good guard defends. You get to know your own mask well enough to use it on purpose."
             }
           ]
         },

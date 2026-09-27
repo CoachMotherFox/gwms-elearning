@@ -31,7 +31,7 @@
       }
     ],
     "connection": "The last roll ends, and then you walk out the door. What you carry out, control, mercy, the ability to stay, the real self, is the whole point. The mat was never the destination. What you carry out of it is.",
-    "takeaway": "You descended and met yourself. You were initiated and tested against others. You returned, and you carry it out with you.",
+    "takeaway": "Tonight you worked from the over-under tie, half guard, and back control, the same three moves the whole program built toward. The mat was never the real destination. What you carry out the door, control, mercy, the ability to stay, the real you, is the whole point. You get to choose to carry it out with you.",
     "_source": "GWMS Curriculum Guide — Session 36 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -117,6 +117,34 @@
               "feedback": "That is the one thing you never do."
             }
           ]
+        },
+        {
+          "id": "s36-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You and your partner are locked in an over-under tie on the very last roll. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Fight to close your hands under his elbows.",
+              "feedback": "Right. Closing the connection clean, on the last roll, is exactly what you carry out the door with you.",
+              "correct": true
+            },
+            {
+              "text": "Let go and grab a totally different hold.",
+              "feedback": "Letting go here gives away the tie you already have."
+            },
+            {
+              "text": "Hold still and wait for him to move.",
+              "feedback": "Waiting here loses ground. Keep fighting to close your hands."
+            }
+          ]
         }
       ]
     },
@@ -132,7 +160,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "You descended and met yourself. You were initiated and tested against others. You returned, and you carry it out with you."
+              "text": "Tonight you worked from the over-under tie, half guard, and back control, the same three moves the whole program built toward. The mat was never the real destination. What you carry out the door, control, mercy, the ability to stay, the real you, is the whole point. You get to choose to carry it out with you."
             }
           ]
         },

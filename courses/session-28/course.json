@@ -31,7 +31,7 @@
       }
     ],
     "connection": "Helping a newer partner instead of just tapping them out is the first act of giving on the mat. Turning your growth toward someone who needs it works the same way in life. You stop being the one who gets helped. You start being the help.",
-    "takeaway": "You have something worth giving now.",
+    "takeaway": "Tonight you worked from the hand fight, open guard, and back control. Helping a newer partner instead of just tapping him out is the first act of giving on the mat. Turning what you've learned toward someone who needs it works the same way. You get to decide when you're ready to help, and that's your call.",
     "_source": "GWMS Curriculum Guide — Session 28 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -118,6 +118,34 @@
               "feedback": "That is the one thing you never do."
             }
           ]
+        },
+        {
+          "id": "s28-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You're moving your partner using only touches to his wrist, elbow, or head. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Keep every touch on the wrist, elbow, or head.",
+              "feedback": "Right. Gripping on purpose, not grabbing anywhere, is the same as giving something that actually helps, not just anything.",
+              "correct": true
+            },
+            {
+              "text": "Touch anywhere on his body to move him.",
+              "feedback": "Touching anywhere breaks the rule and stalls your progress."
+            },
+            {
+              "text": "Grab his leg to move him faster.",
+              "feedback": "Grabbing the leg isn't your job here. Stay on wrist, elbow, or head."
+            }
+          ]
         }
       ]
     },
@@ -133,7 +161,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "You have something worth giving now."
+              "text": "Tonight you worked from the hand fight, open guard, and back control. Helping a newer partner instead of just tapping him out is the first act of giving on the mat. Turning what you've learned toward someone who needs it works the same way. You get to decide when you're ready to help, and that's your call."
             }
           ]
         },

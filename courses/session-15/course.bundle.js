@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
       }
     ],
     "connection": "The Descent found the real you. Now it goes to the mat with a partner. Rolling as the real you, instead of a mask, is the same as showing up honest in a relationship instead of performing one.",
-    "takeaway": "The real you is in the room now, and other people are in it too.",
+    "takeaway": "Tonight you worked from the hand fight, closed guard, and mount. You already found the real you since Session 1, and tonight that real you rolled with a partner. Being honest on the mat instead of performing is the same choice as being honest with people off it. You get to bring the real you into every room now, not just this one.",
     "_source": "GWMS Curriculum Guide — Session 15 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -120,6 +120,34 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
               "feedback": "Staying calm beats forcing harder."
             }
           ]
+        },
+        {
+          "id": "s15-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You're in mount, staying under one of your partner's elbows while he fights to free it. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Keep fighting to stay under that same elbow.",
+              "feedback": "Right. Staying honest under pressure is rolling as the real you, not a performance.",
+              "correct": true
+            },
+            {
+              "text": "Switch elbows early and let this one go.",
+              "feedback": "Switching early gives up ground you're already holding."
+            },
+            {
+              "text": "Sit back and let him work it free.",
+              "feedback": "Sitting back gives the elbow away. Keep fighting to stay under it."
+            }
+          ]
         }
       ]
     },
@@ -135,7 +163,7 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
           "body": [
             {
               "kind": "lead",
-              "text": "The real you is in the room now, and other people are in it too."
+              "text": "Tonight you worked from the hand fight, closed guard, and mount. You already found the real you since Session 1, and tonight that real you rolled with a partner. Being honest on the mat instead of performing is the same choice as being honest with people off it. You get to bring the real you into every room now, not just this one."
             }
           ]
         },

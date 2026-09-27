@@ -31,7 +31,7 @@
       }
     ],
     "connection": "Letting a partner work when you could just finish them costs you the easy win. Giving something real off the mat costs something too, time, comfort, pride. The giving that counts is the kind you feel.",
-    "takeaway": "The giving that costs is the giving that counts.",
+    "takeaway": "Tonight you worked from a front headlock, open guard, and back control. Letting a partner keep working instead of finishing him costs you the easy win, on purpose. Giving something real off the mat costs something too, time, comfort, pride. You get to choose what you give, without giving away all of yourself.",
     "_source": "GWMS Curriculum Guide — Session 29 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -118,6 +118,34 @@
               "feedback": "That is the one thing you never do."
             }
           ]
+        },
+        {
+          "id": "s29-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You've worked behind your partner and locked your hands around his hips. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Stay beside his hips, not straight behind him.",
+              "feedback": "Right. Positioning smart instead of taking the easy grab is giving that actually costs you something.",
+              "correct": true
+            },
+            {
+              "text": "Move straight behind him and squeeze harder.",
+              "feedback": "Going straight behind here is easier to escape."
+            },
+            {
+              "text": "Let go and re-enter from the front again.",
+              "feedback": "Letting go gives up ground you already earned."
+            }
+          ]
         }
       ]
     },
@@ -133,7 +161,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "The giving that costs is the giving that counts."
+              "text": "Tonight you worked from a front headlock, open guard, and back control. Letting a partner keep working instead of finishing him costs you the easy win, on purpose. Giving something real off the mat costs something too, time, comfort, pride. You get to choose what you give, without giving away all of yourself."
             }
           ]
         },

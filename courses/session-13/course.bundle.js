@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
       }
     ],
     "connection": "Holding contact on the mat and noticing what contact does to you are the same skill. Both mean staying present when someone gets close, instead of pushing them away. The pin teaches your body to stay. Thinking about it teaches your mind why staying is hard.",
-    "takeaway": "Contact does something to all of us. Now you can feel yours.",
+    "takeaway": "Tonight you worked from an underhook tie, open guard, and a chest-to-chest pin. Holding a pin teaches your body to stay present when someone gets close instead of pushing them away. Real contact does something to everyone, and now you can feel what it does to you. You get to notice that feeling instead of running from it.",
     "_source": "GWMS Curriculum Guide — Session 13 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -120,6 +120,34 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
               "feedback": "Staying calm beats forcing harder."
             }
           ]
+        },
+        {
+          "id": "s13-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You're holding a chest-to-chest pin, and it would be easy to just lean your weight down. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Hold the pin without leaning your weight on him.",
+              "feedback": "Right. Holding without crushing him is what real contact feels like when you stay present instead of pushing away.",
+              "correct": true
+            },
+            {
+              "text": "Lean your full weight down to hold him still.",
+              "feedback": "Leaning your weight isn't the pin, and it isn't real contact either."
+            },
+            {
+              "text": "Back off the pin and re-grip from farther away.",
+              "feedback": "Backing off loses contact completely. Hold steady without leaning."
+            }
+          ]
         }
       ]
     },
@@ -135,7 +163,7 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Contact does something to all of us. Now you can feel yours."
+              "text": "Tonight you worked from an underhook tie, open guard, and a chest-to-chest pin. Holding a pin teaches your body to stay present when someone gets close instead of pushing them away. Real contact does something to everyone, and now you can feel what it does to you. You get to notice that feeling instead of running from it."
             }
           ]
         },

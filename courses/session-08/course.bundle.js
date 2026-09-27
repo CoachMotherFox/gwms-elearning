@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
       }
     ],
     "connection": "When you and your partner get tired, the fake stuff drops on both sides, the passer and the guard. What slips out when you are too tired to perform is the truest thing about you, on the mat and off.",
-    "takeaway": "What shows up when you are empty is often the truest thing about you.",
+    "takeaway": "Tonight you worked from the hand fight, open guard, and turtle. When you get tired, the performing stops on both sides, and something truer shows up in its place. That truer version is worth paying attention to, not hiding again. You get to decide what you do with what you noticed.",
     "_source": "GWMS Curriculum Guide — Session 8 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -120,6 +120,34 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
               "feedback": "Never. Everyone goes light."
             }
           ]
+        },
+        {
+          "id": "s08-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You're riding your partner from behind, and his hips start lifting off the mat. What's the smart move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Block his hips down with knee and foot.",
+              "feedback": "Right. Blocking the hips down is honest work, the same as staying honest when you're too tired to perform.",
+              "correct": true
+            },
+            {
+              "text": "Let the hips rise and reach for a choke.",
+              "feedback": "Chasing a finish here loses the position completely."
+            },
+            {
+              "text": "Push down with your whole upper body.",
+              "feedback": "Leaning your weight doesn't hold hips down. Block with your knee and foot."
+            }
+          ]
         }
       ]
     },
@@ -135,7 +163,7 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
           "body": [
             {
               "kind": "lead",
-              "text": "What shows up when you are empty is often the truest thing about you."
+              "text": "Tonight you worked from the hand fight, open guard, and turtle. When you get tired, the performing stops on both sides, and something truer shows up in its place. That truer version is worth paying attention to, not hiding again. You get to decide what you do with what you noticed."
             }
           ]
         },

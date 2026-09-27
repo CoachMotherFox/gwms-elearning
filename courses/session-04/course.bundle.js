@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
       }
     ],
     "connection": "Keeping your guard means keeping a boundary between you and the other person. The mask does the same job with people. Guard retention on the mat and the mask you wear are the same thing.",
-    "takeaway": "Everybody wears a face for the crowd. Now yours has a name.",
+    "takeaway": "Tonight you worked from the hand fight, open guard, and riding position. Keeping your guard means keeping a boundary between you and another person, and a mask does that same job with people. You get to choose what your mask protects and when to use it. Naming your mask is the first step to owning it.",
     "_source": "GWMS Curriculum Guide — Session 4 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -120,6 +120,34 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
               "feedback": "Never. Everyone goes light."
             }
           ]
+        },
+        {
+          "id": "s04-concept",
+          "type": "quiz",
+          "eyebrow": "On the mat",
+          "title": "What would you do?",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "question": "You've already got two grips on your partner during the hand fight. What's the smart next move?",
+          "select": "single",
+          "retry": true,
+          "options": [
+            {
+              "text": "Chain those two grips into the underhook.",
+              "feedback": "Right. Chaining your grips into the underhook is building toward something, not just performing for the room.",
+              "correct": true
+            },
+            {
+              "text": "Drop both grips and start the fight over.",
+              "feedback": "Don't reset a hand fight you're already winning."
+            },
+            {
+              "text": "Hold the two grips and wait there.",
+              "feedback": "Holding still here stalls you. Keep chaining toward the underhook."
+            }
+          ]
         }
       ]
     },
@@ -135,7 +163,7 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Everybody wears a face for the crowd. Now yours has a name."
+              "text": "Tonight you worked from the hand fight, open guard, and riding position. Keeping your guard means keeping a boundary between you and another person, and a mask does that same job with people. You get to choose what your mask protects and when to use it. Naming your mask is the first step to owning it."
             }
           ]
         },
