@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
       }
     ],
     "connection": "You can pin someone hard and still keep them safe. That is control of your own force. Your conflict off the mat lands on real people too, and the same control applies: honest friction, not harm.",
-    "takeaway": "Friction is fine. Harm is a choice. The control is yours.",
+    "takeaway": "Tonight you worked from an underhook tie, open guard, and a figure-four pin. You can hold someone hard and still keep them completely safe, and that control is yours to use on purpose. Your friction off the mat lands on real people too. You get to choose honest friction over harm, every time.",
     "_source": "GWMS Curriculum Guide — Session 18 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -136,7 +136,7 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Friction is fine. Harm is a choice. The control is yours."
+              "text": "Tonight you worked from an underhook tie, open guard, and a figure-four pin. You can hold someone hard and still keep them completely safe, and that control is yours to use on purpose. Your friction off the mat lands on real people too. You get to choose honest friction over harm, every time."
             }
           ]
         },

@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
       }
     ],
     "connection": "Losing the pin and getting reversed is a small rupture. How you handle that break on the mat, a clean reset or payback, is a lot like how you handle broken connections in life.",
-    "takeaway": "A rupture teaches you something. You survived naming it.",
+    "takeaway": "Tonight you worked from a single leg, side control, and a figure-four pin. Losing a pin and getting reversed is a small rupture, and how you respond, a clean reset or payback, is a real choice. That same choice shows up when a connection breaks with someone in life. You get to choose the reset over the payback.",
     "_source": "GWMS Curriculum Guide — Session 19 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -136,7 +136,7 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
           "body": [
             {
               "kind": "lead",
-              "text": "A rupture teaches you something. You survived naming it."
+              "text": "Tonight you worked from a single leg, side control, and a figure-four pin. Losing a pin and getting reversed is a small rupture, and how you respond, a clean reset or payback, is a real choice. That same choice shows up when a connection breaks with someone in life. You get to choose the reset over the payback."
             }
           ]
         },

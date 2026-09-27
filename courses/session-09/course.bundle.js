@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-09"] =
       }
     ],
     "connection": "The checkpoint where a guard always breaks is a tell, and so is the first thing that shows when you crack. Finding the exact break point on the mat is the same skill as knowing your own tell.",
-    "takeaway": "Knowing your tell is power, because you can catch yourself.",
+    "takeaway": "Tonight you worked from a single leg, open guard, and a chest-to-chest pin. Every guard has an exact point where it breaks, and so do you. Finding that point on the mat is the same skill as knowing your own tell. Once you know your tell, you can catch yourself before it runs the show.",
     "_source": "GWMS Curriculum Guide — Session 9 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -136,7 +136,7 @@ window.GWMS_COURSE_BUNDLE["session-09"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Knowing your tell is power, because you can catch yourself."
+              "text": "Tonight you worked from a single leg, open guard, and a chest-to-chest pin. Every guard has an exact point where it breaks, and so do you. Finding that point on the mat is the same skill as knowing your own tell. Once you know your tell, you can catch yourself before it runs the show."
             }
           ]
         },

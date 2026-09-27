@@ -31,7 +31,7 @@
       }
     ],
     "connection": "There is one exact thing you can do on the mat now that you could not before, and you can name it. Your growth off the mat works the same way. Not \"I am better,\" but \"I can do this now.\"",
-    "takeaway": "You can name what you gained, exactly.",
+    "takeaway": "Tonight you worked from an underhook tie, half guard, and back control. There is one exact thing you can do now that you could not do before, and you can name it. Growth off the mat works the same way, not \"I am better\" but \"I can do this now.\" You get to name the exact thing you gained.",
     "_source": "GWMS Curriculum Guide — Session 27 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -133,7 +133,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "You can name what you gained, exactly."
+              "text": "Tonight you worked from an underhook tie, half guard, and back control. There is one exact thing you can do now that you could not do before, and you can name it. Growth off the mat works the same way, not \"I am better\" but \"I can do this now.\" You get to name the exact thing you gained."
             }
           ]
         },

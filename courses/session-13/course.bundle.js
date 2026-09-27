@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
       }
     ],
     "connection": "Holding contact on the mat and noticing what contact does to you are the same skill. Both mean staying present when someone gets close, instead of pushing them away. The pin teaches your body to stay. Thinking about it teaches your mind why staying is hard.",
-    "takeaway": "Contact does something to all of us. Now you can feel yours.",
+    "takeaway": "Tonight you worked from an underhook tie, open guard, and a chest-to-chest pin. Holding a pin teaches your body to stay present when someone gets close instead of pushing them away. Real contact does something to everyone, and now you can feel what it does to you. You get to notice that feeling instead of running from it.",
     "_source": "GWMS Curriculum Guide — Session 13 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -135,7 +135,7 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Contact does something to all of us. Now you can feel yours."
+              "text": "Tonight you worked from an underhook tie, open guard, and a chest-to-chest pin. Holding a pin teaches your body to stay present when someone gets close instead of pushing them away. Real contact does something to everyone, and now you can feel what it does to you. You get to notice that feeling instead of running from it."
             }
           ]
         },

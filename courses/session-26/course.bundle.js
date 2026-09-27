@@ -33,7 +33,7 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
       }
     ],
     "connection": "A change that only works when it is easy is not a real change yet. Holding the back against a fighting partner puts it to the test. Who you have become gets proven the same way, by whether it holds up when things get hard.",
-    "takeaway": "Tested change is change you can trust.",
+    "takeaway": "Tonight you worked from a single leg, open guard, and back control. A change that only works when it is easy is not real change yet, and holding the back against a fighting partner puts it to the test. Who you have become gets tested the same way, when things get hard. You get to trust the change once you've seen it hold.",
     "_source": "GWMS Curriculum Guide — Session 26 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -135,7 +135,7 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Tested change is change you can trust."
+              "text": "Tonight you worked from a single leg, open guard, and back control. A change that only works when it is easy is not real change yet, and holding the back against a fighting partner puts it to the test. Who you have become gets tested the same way, when things get hard. You get to trust the change once you've seen it hold."
             }
           ]
         },

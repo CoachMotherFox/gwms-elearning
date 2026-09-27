@@ -19,7 +19,7 @@
     "probingQuestion": "What makes a place feel safe to you?",
     "games": null,
     "connection": "Tonight the room agreed on the rules together, out loud. That is what makes a place feel safe: everyone knows the rules will hold, and everyone had a hand in making them.",
-    "takeaway": "A safe place is one where everyone knows the rules will hold. Tonight you helped write them.",
+    "takeaway": "Tonight you learned the standing rules, the tap, and how to stop a round right away. Those rules work because everyone agreed to them out loud, together. You helped build them, not just follow them. A safe place is one you get to build, not just enter.",
     "_source": "GWMS Curriculum Guide — Session 1 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -118,7 +118,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "A safe place is one where everyone knows the rules will hold. Tonight you helped write them."
+              "text": "Tonight you learned the standing rules, the tap, and how to stop a round right away. Those rules work because everyone agreed to them out loud, together. You helped build them, not just follow them. A safe place is one you get to build, not just enter."
             }
           ]
         },

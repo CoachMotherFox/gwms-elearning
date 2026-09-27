@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
       }
     ],
     "connection": "Resetting and rolling clean with someone right after a hard round is like squaring up with words. A real apology is the same kind of reset: you get back in instead of carrying the grudge.",
-    "takeaway": "Real repair has parts, and now you can name them.",
+    "takeaway": "Tonight you worked from the hand fight, side control, and a figure-four grip. Resetting and rolling clean with someone right after a hard round is a physical version of a real apology. Both mean getting back in instead of carrying the grudge. You get to choose the reset over the grudge, every time you say sorry.",
     "_source": "GWMS Curriculum Guide — Session 22 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -135,7 +135,7 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Real repair has parts, and now you can name them."
+              "text": "Tonight you worked from the hand fight, side control, and a figure-four grip. Resetting and rolling clean with someone right after a hard round is a physical version of a real apology. Both mean getting back in instead of carrying the grudge. You get to choose the reset over the grudge, every time you say sorry."
             }
           ]
         },

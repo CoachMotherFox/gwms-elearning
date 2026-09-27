@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
       }
     ],
     "connection": "Keeping your guard means keeping a boundary between you and the other person. The mask does the same job with people. Guard retention on the mat and the mask you wear are the same thing.",
-    "takeaway": "Everybody wears a face for the crowd. Now yours has a name.",
+    "takeaway": "Tonight you worked from the hand fight, open guard, and riding position. Keeping your guard means keeping a boundary between you and another person, and a mask does that same job with people. You get to choose what your mask protects and when to use it. Naming your mask is the first step to owning it.",
     "_source": "GWMS Curriculum Guide — Session 4 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -135,7 +135,7 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Everybody wears a face for the crowd. Now yours has a name."
+              "text": "Tonight you worked from the hand fight, open guard, and riding position. Keeping your guard means keeping a boundary between you and another person, and a mask does that same job with people. You get to choose what your mask protects and when to use it. Naming your mask is the first step to owning it."
             }
           ]
         },

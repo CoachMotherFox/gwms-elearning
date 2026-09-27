@@ -32,7 +32,7 @@
       }
     ],
     "connection": "The guard you keep was drilled into you somewhere, and so was the mask. Both are learned defenses. Finding where you learned to guard is the same move on and off the mat.",
-    "takeaway": "The mask made sense where you learned it. That means it is a choice, not a life sentence.",
+    "takeaway": "Tonight you worked from the hand fight, open guard, and turtle. The guard you keep on the mat was learned somewhere, and so was your mask. Both were smart moves once, in the place you learned them. You get to keep what still helps you and set down what doesn't.",
     "_source": "GWMS Curriculum Guide — Session 5 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -134,7 +134,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "The mask made sense where you learned it. That means it is a choice, not a life sentence."
+              "text": "Tonight you worked from the hand fight, open guard, and turtle. The guard you keep on the mat was learned somewhere, and so was your mask. Both were smart moves once, in the place you learned them. You get to keep what still helps you and set down what doesn't."
             }
           ]
         },

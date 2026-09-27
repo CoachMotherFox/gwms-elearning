@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
       }
     ],
     "connection": "A partner resisting the pin is pushback made physical. What you do when they fight the pin is usually what you do when people push back in life. Both reward staying calm and adjusting over forcing harder.",
-    "takeaway": "Pushback is normal. Your response to it is a choice, not a reflex you're stuck with.",
+    "takeaway": "Tonight you worked from an underhook tie, open guard, and riding position. A partner fighting your pin is pushback made physical, and staying calm beats forcing harder every time. That is usually true with people too. You get to choose your response to pushback instead of reacting on reflex.",
     "_source": "GWMS Curriculum Guide — Session 16 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -136,7 +136,7 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Pushback is normal. Your response to it is a choice, not a reflex you're stuck with."
+              "text": "Tonight you worked from an underhook tie, open guard, and riding position. A partner fighting your pin is pushback made physical, and staying calm beats forcing harder every time. That is usually true with people too. You get to choose your response to pushback instead of reacting on reflex."
             }
           ]
         },

@@ -33,7 +33,7 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
       }
     ],
     "connection": "Twelve weeks of getting tapped, cracked, and rebuilt cost something and gave something. Rolling now, you can feel both in your body. The honest ledger of what this cost and what you got is the first step of the return.",
-    "takeaway": "The ledger is honest, and it landed on the side of growth.",
+    "takeaway": "Tonight you worked from the hand fight, open guard, and back control. Twelve weeks of getting tapped, cracked, and rebuilt cost something, and it gave you something too. You can feel both in your body when you roll now. You get to hold the cost and the gain at the same time, without one canceling the other.",
     "_source": "GWMS Curriculum Guide — Session 34 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -134,7 +134,7 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
           "body": [
             {
               "kind": "lead",
-              "text": "The ledger is honest, and it landed on the side of growth."
+              "text": "Tonight you worked from the hand fight, open guard, and back control. Twelve weeks of getting tapped, cracked, and rebuilt cost something, and it gave you something too. You can feel both in your body when you roll now. You get to hold the cost and the gain at the same time, without one canceling the other."
             }
           ]
         },

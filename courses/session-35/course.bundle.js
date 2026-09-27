@@ -33,7 +33,7 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
       }
     ],
     "connection": "The person rolling now is not the one who walked in on Session 1. You can see the difference in how you move. Naming who you became is the return itself, not who you were told to be, but the one you built.",
-    "takeaway": "You became someone, and you built them yourself.",
+    "takeaway": "Tonight you worked from the hand fight, open guard, and back control. The person rolling now is not the one who walked in on Session 1, and you can see it in how you move. Naming who you became is the return itself. You get to claim that person, because you are the one who built him.",
     "_source": "GWMS Curriculum Guide — Session 35 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -134,7 +134,7 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
           "body": [
             {
               "kind": "lead",
-              "text": "You became someone, and you built them yourself."
+              "text": "Tonight you worked from the hand fight, open guard, and back control. The person rolling now is not the one who walked in on Session 1, and you can see it in how you move. Naming who you became is the return itself. You get to claim that person, because you are the one who built him."
             }
           ]
         },

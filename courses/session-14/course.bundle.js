@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
       }
     ],
     "connection": "Keeping a pin means feeling your partner and adjusting to them, not clamping down and ignoring them. Letting someone in works the same way. You hold the connection by reading the other person, not by shutting them out and pushing through alone.",
-    "takeaway": "Letting people in is like a dial you control. You just found yours.",
+    "takeaway": "Tonight you worked from the hand fight, closed guard, and a chest-to-chest pin. Keeping a pin means feeling your partner and adjusting to him, not clamping down and ignoring him. You can turn that same dial with people, adjusting to them instead of shutting them out. Letting someone in is a choice you make.",
     "_source": "GWMS Curriculum Guide — Session 14 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -136,7 +136,7 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Letting people in is like a dial you control. You just found yours."
+              "text": "Tonight you worked from the hand fight, closed guard, and a chest-to-chest pin. Keeping a pin means feeling your partner and adjusting to him, not clamping down and ignoring him. You can turn that same dial with people, adjusting to them instead of shutting them out. Letting someone in is a choice you make."
             }
           ]
         },

@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
       }
     ],
     "connection": "Arriving past the guard puts you in touch with what was most protected. Naming the shadow does the same thing inside you. Both reach the thing that was hidden deepest.",
-    "takeaway": "Naming the hidden part, even silently, is the bravest thing the mat asks of you.",
+    "takeaway": "Tonight you worked from the hand fight, half guard, and a chest-to-chest pin. Arriving past a guard puts you in touch with what was most protected. Naming the part of yourself you keep hidden works the same way. You get to name it silently, just for you, and that alone is brave.",
     "_source": "GWMS Curriculum Guide — Session 11 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -135,7 +135,7 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Naming the hidden part, even silently, is the bravest thing the mat asks of you."
+              "text": "Tonight you worked from the hand fight, half guard, and a chest-to-chest pin. Arriving past a guard puts you in touch with what was most protected. Naming the part of yourself you keep hidden works the same way. You get to name it silently, just for you, and that alone is brave."
             }
           ]
         },

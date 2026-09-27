@@ -33,7 +33,7 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
       }
     ],
     "connection": "The last roll ends, and then you walk out the door. What you carry out, control, mercy, the ability to stay, the real self, is the whole point. The mat was never the destination. What you carry out of it is.",
-    "takeaway": "You descended and met yourself. You were initiated and tested against others. You returned, and you carry it out with you.",
+    "takeaway": "Tonight you worked from the over-under tie, half guard, and back control, the same three moves the whole program built toward. The mat was never the real destination. What you carry out the door, control, mercy, the ability to stay, the real you, is the whole point. You get to choose to carry it out with you.",
     "_source": "GWMS Curriculum Guide — Session 36 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -134,7 +134,7 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
           "body": [
             {
               "kind": "lead",
-              "text": "You descended and met yourself. You were initiated and tested against others. You returned, and you carry it out with you."
+              "text": "Tonight you worked from the over-under tie, half guard, and back control, the same three moves the whole program built toward. The mat was never the real destination. What you carry out the door, control, mercy, the ability to stay, the real you, is the whole point. You get to choose to carry it out with you."
             }
           ]
         },

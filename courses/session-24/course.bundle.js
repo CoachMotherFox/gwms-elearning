@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
       }
     ],
     "connection": "Open rolling puts it all together: control, finish, tap, reset, in one flow. Repair works the same way in relationships. It costs pride and comfort, and you decide it's worth paying. This closes the Initiation and points to the Return.",
-    "takeaway": "You made contact, took the friction, survived the rupture, and learned repair.",
+    "takeaway": "Tonight you worked from the hand fight, open guard, and a figure-four grip, putting control, the tap, and the reset together in one flow. Repair off the mat works the same way, and it costs something real, pride, comfort, time. You get to decide that cost is worth paying. You made contact, took the friction, and survived the rupture to get here.",
     "_source": "GWMS Curriculum Guide — Session 24 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -135,7 +135,7 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
           "body": [
             {
               "kind": "lead",
-              "text": "You made contact, took the friction, survived the rupture, and learned repair."
+              "text": "Tonight you worked from the hand fight, open guard, and a figure-four grip, putting control, the tap, and the reset together in one flow. Repair off the mat works the same way, and it costs something real, pride, comfort, time. You get to decide that cost is worth paying. You made contact, took the friction, and survived the rupture to get here."
             }
           ]
         },
