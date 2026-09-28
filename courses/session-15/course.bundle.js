@@ -62,6 +62,10 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
               "text": "Hand Fight to Connection Game"
             },
             {
+              "kind": "lead",
+              "text": "This is using both hands on one arm to get close."
+            },
+            {
               "kind": "list",
               "items": [
                 "Whoever reaches a connection first wins. The same rule applies to both players."
@@ -71,6 +75,10 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
               "kind": "heading",
               "level": 3,
               "text": "Closed Guard — Post to Underhook to Locked Hands"
+            },
+            {
+              "kind": "lead",
+              "text": "This is catching an arm from your back and locking your hands."
             },
             {
               "kind": "list",
@@ -83,6 +91,10 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
               "kind": "heading",
               "level": 3,
               "text": "Mount — Stay Under Both Elbows"
+            },
+            {
+              "kind": "lead",
+              "text": "This is staying on top while sitting on his belly."
             },
             {
               "kind": "list",
@@ -113,7 +125,7 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
+              "feedback": "Let go the instant he taps."
             },
             {
               "text": "Overpowering your partner with force",
@@ -136,7 +148,7 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
           "options": [
             {
               "text": "Keep fighting to stay under that same elbow.",
-              "feedback": "Right. Staying honest under pressure is rolling as the real you, not a performance.",
+              "feedback": "Staying honest under pressure is rolling as the real you, not a performance.",
               "correct": true
             },
             {
@@ -145,7 +157,7 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
             },
             {
               "text": "Sit back and let him work it free.",
-              "feedback": "Sitting back gives the elbow away. Keep fighting to stay under it."
+              "feedback": "Keep fighting to stay under it."
             }
           ]
         }

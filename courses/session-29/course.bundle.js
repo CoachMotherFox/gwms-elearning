@@ -61,6 +61,10 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
               "text": "Front Headlock to Rear - Standing"
             },
             {
+              "kind": "lead",
+              "text": "This is getting behind someone who is bent over."
+            },
+            {
               "kind": "list",
               "items": [
                 "The attacker wins by putting the defender's hands on the mat, and lifting him once from behind on his hips.",
@@ -71,6 +75,10 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
               "kind": "heading",
               "level": 3,
               "text": "Open Guard Multiple Connection Game"
+            },
+            {
+              "kind": "lead",
+              "text": "This is knocking a standing partner down using your feet and one hand."
             },
             {
               "kind": "list",
@@ -85,10 +93,14 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
               "text": "Back Control Elbow Management — No Hooks"
             },
             {
+              "kind": "lead",
+              "text": "This is staying behind someone using only your arms."
+            },
+            {
               "kind": "list",
               "items": [
                 "The back player holds as long as he keeps control.",
-                "The front player wins when he faces the back player with elbows free."
+                "The front player wins by turning to face the back player with both elbows free."
               ]
             }
           ]
@@ -113,7 +125,7 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
+              "feedback": "Let go the instant he taps."
             },
             {
               "text": "Hurting your partner because you can",
@@ -136,7 +148,7 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
           "options": [
             {
               "text": "Stay beside his hips, not straight behind him.",
-              "feedback": "Right. Positioning smart instead of taking the easy grab is giving that actually costs you something.",
+              "feedback": "Positioning smart instead of taking the easy grab is giving that actually costs you something.",
               "correct": true
             },
             {
@@ -145,7 +157,7 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
             },
             {
               "text": "Let go and re-enter from the front again.",
-              "feedback": "Letting go gives up ground you already earned."
+              "feedback": "Stay beside his hips instead of going straight behind."
             }
           ]
         }

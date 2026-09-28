@@ -61,6 +61,10 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
               "text": "Over-Under to Close Hand Connection"
             },
             {
+              "kind": "lead",
+              "text": "This is fighting to get both arms under a standing player's arms."
+            },
+            {
               "kind": "list",
               "items": [
                 "Whoever connects first wins by locking his hands around his partner's body, armpits to ankles."
@@ -70,6 +74,10 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
               "kind": "heading",
               "level": 3,
               "text": "Half Guard Side-Position Game"
+            },
+            {
+              "kind": "lead",
+              "text": "This is getting close to a partner holding one of your legs."
             },
             {
               "kind": "list",
@@ -82,6 +90,10 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
               "kind": "heading",
               "level": 3,
               "text": "Back Take – Maintain Chest to Back Contact"
+            },
+            {
+              "kind": "lead",
+              "text": "This is holding him from behind with your chest on his back."
             },
             {
               "kind": "list",
@@ -112,7 +124,7 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
+              "feedback": "Let go the instant he taps."
             },
             {
               "text": "Hurting your partner because you can",
@@ -135,7 +147,7 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
           "options": [
             {
               "text": "Fight to close your hands under his elbows.",
-              "feedback": "Right. Closing the connection clean, on the last roll, is exactly what you carry out the door with you.",
+              "feedback": "Closing the connection clean, on the last roll, is exactly what you carry out the door with you.",
               "correct": true
             },
             {
@@ -144,7 +156,7 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
             },
             {
               "text": "Hold still and wait for him to move.",
-              "feedback": "Waiting here loses ground. Keep fighting to close your hands."
+              "feedback": "Keep fighting to close your hands instead of waiting."
             }
           ]
         }

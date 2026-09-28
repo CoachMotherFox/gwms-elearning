@@ -61,6 +61,10 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
               "text": "Single Leg Takedown Game"
             },
             {
+              "kind": "lead",
+              "text": "This is a takedown to one leg."
+            },
+            {
               "kind": "list",
               "items": [
                 "The attacker wins when the defender touches the mat with his hips or hands.",
@@ -73,6 +77,10 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
               "text": "Guard Destabilization Game"
             },
             {
+              "kind": "lead",
+              "text": "This is tipping a standing player from on your back."
+            },
+            {
               "kind": "list",
               "items": [
                 "The bottom player wins when the top player's hands touch the mat above the bottom player's own head, and the top player's butt touches the mat too.",
@@ -83,6 +91,10 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
               "kind": "heading",
               "level": 3,
               "text": "Chest to Back to Precursor Transitions Game"
+            },
+            {
+              "kind": "lead",
+              "text": "This is staying on his back and moving to a finishing start."
             },
             {
               "kind": "list",
@@ -113,7 +125,7 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
+              "feedback": "Let go the instant he taps."
             },
             {
               "text": "Hurting your partner because you can",
@@ -136,7 +148,7 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
           "options": [
             {
               "text": "Shift toward shoulder control without losing the pin.",
-              "feedback": "Right. Moving forward without losing what you hold sets the standard for whoever watches you.",
+              "feedback": "Moving forward without losing what you hold sets the standard for whoever watches you.",
               "correct": true
             },
             {
@@ -145,7 +157,7 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
             },
             {
               "text": "Stay locked on the hips and go no further.",
-              "feedback": "Staying still here stalls your progress toward the finish."
+              "feedback": "Shift to the shoulder instead of staying still."
             }
           ]
         }

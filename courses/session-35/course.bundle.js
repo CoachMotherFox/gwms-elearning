@@ -61,6 +61,10 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
               "text": "Hand Fight with Precondition Game"
             },
             {
+              "kind": "lead",
+              "text": "This is fighting for the hands until you can wrap him up."
+            },
+            {
               "kind": "list",
               "items": [
                 "Whoever collects three touches and then connects first wins, closing his hands anywhere on his partner's body from shoulders to ankles."
@@ -70,6 +74,10 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
               "kind": "heading",
               "level": 3,
               "text": "Feet-Off Guard Passing Game"
+            },
+            {
+              "kind": "lead",
+              "text": "This is getting past the legs of a partner on his back."
             },
             {
               "kind": "list",
@@ -82,6 +90,10 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
               "kind": "heading",
               "level": 3,
               "text": "Build to Rear Strangle Game"
+            },
+            {
+              "kind": "lead",
+              "text": "This is building a lock from behind, stopping before any squeeze."
             },
             {
               "kind": "list",
@@ -112,7 +124,7 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
+              "feedback": "Let go the instant he taps."
             },
             {
               "text": "Hurting your partner because you can",
@@ -135,7 +147,7 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
           "options": [
             {
               "text": "Lock your wrist into your elbow right there.",
-              "feedback": "Right. Finishing clean, from the person you built, is the return itself.",
+              "feedback": "Finishing clean, from the person you built, is the return itself.",
               "correct": true
             },
             {
@@ -144,7 +156,7 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
             },
             {
               "text": "Wait and let your partner move first.",
-              "feedback": "Waiting stalls the finish. Lock your wrist in now."
+              "feedback": "Lock your wrist in instead of waiting."
             }
           ]
         }

@@ -62,6 +62,10 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
               "text": "Underhook Multiple Connection Game"
             },
             {
+              "kind": "lead",
+              "text": "This is using an arm under the armpit to get to a leg."
+            },
+            {
               "kind": "list",
               "items": [
                 "The attacker wins only by picking up the defender's leg, from any connection.",
@@ -74,6 +78,10 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
               "text": "Guard Retention Connection Game"
             },
             {
+              "kind": "lead",
+              "text": "This is keeping your feet on him so he cannot pass."
+            },
+            {
               "kind": "list",
               "items": [
                 "The bottom player holds as long as he keeps the connection.",
@@ -84,6 +92,10 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
               "kind": "heading",
               "level": 3,
               "text": "Chest to Chest Under Elbows Maintenance"
+            },
+            {
+              "kind": "lead",
+              "text": "This is staying on top with your arms under his elbows."
             },
             {
               "kind": "list",
@@ -114,7 +126,7 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
+              "feedback": "Let go the instant he taps."
             },
             {
               "text": "Overpowering your partner with force",
@@ -137,7 +149,7 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
           "options": [
             {
               "text": "Keep both feet hooked on him no matter what.",
-              "feedback": "Right. Staying connected under pressure is commitment made physical, the same choice as staying when leaving is easier.",
+              "feedback": "Staying connected under pressure is commitment made physical, the same choice as staying when leaving is easier.",
               "correct": true
             },
             {
@@ -146,7 +158,7 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
             },
             {
               "text": "Hold still and hope he stops moving.",
-              "feedback": "Hoping doesn't hold guard. Keep your feet hooked on him."
+              "feedback": "Keep your feet hooked instead of hoping."
             }
           ]
         }

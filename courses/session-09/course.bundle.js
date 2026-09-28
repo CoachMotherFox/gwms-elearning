@@ -62,6 +62,10 @@ window.GWMS_COURSE_BUNDLE["session-09"] =
               "text": "Single Leg Takedown Game"
             },
             {
+              "kind": "lead",
+              "text": "This is a takedown to one leg."
+            },
+            {
               "kind": "list",
               "items": [
                 "The attacker wins when the defender touches the mat with his hips or hands.",
@@ -74,16 +78,24 @@ window.GWMS_COURSE_BUNDLE["session-09"] =
               "text": "Knee Pit Touchdown Game"
             },
             {
+              "kind": "lead",
+              "text": "This is getting past the legs of a partner on his back."
+            },
+            {
               "kind": "list",
               "items": [
                 "The top player wins by touching both of the bottom player's knee pits with his own leg, feet off the mat.",
-                "The bottom player wins by sitting up."
+                "The bottom player wins by making the top player sit down, then sitting up himself."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
               "text": "Chest-to-Chest Elbow Control Game"
+            },
+            {
+              "kind": "lead",
+              "text": "This is holding someone down by keeping his elbows open."
             },
             {
               "kind": "list",
@@ -114,11 +126,11 @@ window.GWMS_COURSE_BUNDLE["session-09"] =
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not tonight. These games end in a pin, not a finish."
+              "feedback": "These games end in a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
-              "feedback": "Never. Everyone goes light."
+              "feedback": "Everyone always goes light."
             }
           ]
         },
@@ -137,7 +149,7 @@ window.GWMS_COURSE_BUNDLE["session-09"] =
           "options": [
             {
               "text": "Keep moving him while staying on the leg.",
-              "feedback": "Right. Staying attached while he moves is the same as noticing the sign you give off before it runs the show.",
+              "feedback": "Staying attached while he moves is the same as noticing the sign you give off before it runs the show.",
               "correct": true
             },
             {
@@ -146,7 +158,7 @@ window.GWMS_COURSE_BUNDLE["session-09"] =
             },
             {
               "text": "Freeze in place and grip as hard as possible.",
-              "feedback": "Freezing in place lets him escape. Keep moving him instead."
+              "feedback": "Keep moving him instead of freezing."
             }
           ]
         }

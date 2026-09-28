@@ -61,6 +61,10 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
               "text": "2v1 Hand Fight to Underhook to Close Hand Connection"
             },
             {
+              "kind": "lead",
+              "text": "This is getting an underhook, then wrapping him up."
+            },
+            {
               "kind": "list",
               "items": [
                 "Whoever connects first wins. The same rule applies to both players."
@@ -70,6 +74,10 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
               "kind": "heading",
               "level": 3,
               "text": "Open Guard Takedown and Escape Game"
+            },
+            {
+              "kind": "lead",
+              "text": "This is knocking a standing man down, then standing up."
             },
             {
               "kind": "list",
@@ -82,6 +90,10 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
               "kind": "heading",
               "level": 3,
               "text": "Chest to Back to Precursor Transitions Game"
+            },
+            {
+              "kind": "lead",
+              "text": "This is staying on his back and moving to a finishing start."
             },
             {
               "kind": "list",
@@ -112,7 +124,7 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
+              "feedback": "Let go the instant he taps."
             },
             {
               "text": "Hurting your partner because you can",
@@ -135,7 +147,7 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
           "options": [
             {
               "text": "Move to shoulder control without losing the pin.",
-              "feedback": "Right. Moving forward without losing what you built is counting the cost and the gain, both at once.",
+              "feedback": "Moving forward without losing what you built is counting the cost and the gain.",
               "correct": true
             },
             {
@@ -144,7 +156,7 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
             },
             {
               "text": "Stay on the hips and skip the shoulder entirely.",
-              "feedback": "Staying still here leaves progress on the table."
+              "feedback": "Move to the shoulder instead of staying still."
             }
           ]
         }

@@ -62,6 +62,10 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
               "text": "Single Leg Takedown Game"
             },
             {
+              "kind": "lead",
+              "text": "This is a takedown to one leg."
+            },
+            {
               "kind": "list",
               "items": [
                 "The attacker wins when the defender touches the mat with his hips or hands.",
@@ -74,6 +78,10 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
               "text": "Guard Recovery After Leg Pass Game"
             },
             {
+              "kind": "lead",
+              "text": "This is getting your legs back after he passes them."
+            },
+            {
               "kind": "list",
               "items": [
                 "The bottom player wins by getting his legs back in front in any real guard.",
@@ -84,6 +92,10 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
               "kind": "heading",
               "level": 3,
               "text": "Figure Four Grip Control Game"
+            },
+            {
+              "kind": "lead",
+              "text": "This is holding one arm with both hands locked."
             },
             {
               "kind": "list",
@@ -114,7 +126,7 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
+              "feedback": "Let go the instant he taps."
             },
             {
               "text": "Overpowering your partner with force",
@@ -137,7 +149,7 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
           "options": [
             {
               "text": "Get a new connection back right away.",
-              "feedback": "Right. Getting the connection back fast is how you survive a break instead of staying stuck in it.",
+              "feedback": "Getting the connection back fast is how you survive a break instead of staying stuck in it.",
               "correct": true
             },
             {
@@ -146,7 +158,7 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
             },
             {
               "text": "Give up the position and start standing.",
-              "feedback": "Standing up abandons ground. Get your connection back first."
+              "feedback": "Get your connection back first."
             }
           ]
         }

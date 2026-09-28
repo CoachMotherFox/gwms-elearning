@@ -62,6 +62,10 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
               "text": "Uneven Hand Fight Game"
             },
             {
+              "kind": "lead",
+              "text": "This is fighting for grips, an underhook or a leg."
+            },
+            {
               "kind": "list",
               "items": [
                 "The underhook player wins with one underhook.",
@@ -74,6 +78,10 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
               "text": "Open Guard Multiple Connection Game"
             },
             {
+              "kind": "lead",
+              "text": "This is knocking a standing partner down using your feet and one hand."
+            },
+            {
               "kind": "list",
               "items": [
                 "The bottom player wins by putting him down and standing, or by wrestling up to a connection.",
@@ -84,6 +92,10 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
               "kind": "heading",
               "level": 3,
               "text": "Rear Hip Connection - Keep Belly Down"
+            },
+            {
+              "kind": "lead",
+              "text": "This is keeping a man flat when he balls up."
             },
             {
               "kind": "list",
@@ -114,11 +126,11 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not tonight. These games end in a pin, not a finish."
+              "feedback": "These games end in a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
-              "feedback": "Never. Everyone goes light."
+              "feedback": "Everyone always goes light."
             }
           ]
         },
@@ -137,16 +149,16 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
           "options": [
             {
               "text": "Grip his wrist, elbow, or head on purpose.",
-              "feedback": "Good. Gripping on purpose is a learned move, the same way your mask was learned somewhere too.",
+              "feedback": "Gripping on purpose is a learned move, the same way your mask was learned somewhere too.",
               "correct": true
             },
             {
               "text": "Grab wherever your hands happen to land.",
-              "feedback": "Grabbing at random wastes the position. Grip on purpose instead."
+              "feedback": "Grip on purpose instead of grabbing at random."
             },
             {
               "text": "Keep your hands off him and circle.",
-              "feedback": "Staying disconnected loses the hand fight. Get a grip on purpose."
+              "feedback": "Get a grip on purpose instead."
             }
           ]
         }

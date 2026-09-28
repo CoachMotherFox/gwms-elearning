@@ -61,6 +61,10 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
               "text": "Consecutive Touches Game"
             },
             {
+              "kind": "lead",
+              "text": "This is touching the same spot on his arm twice in a row."
+            },
+            {
               "kind": "list",
               "items": [
                 "Whoever makes two touches in a row first wins. The same rule applies to both players."
@@ -70,6 +74,10 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
               "kind": "heading",
               "level": 3,
               "text": "Feet-Off Guard Passing Game"
+            },
+            {
+              "kind": "lead",
+              "text": "This is getting past the legs of a partner on his back."
             },
             {
               "kind": "list",
@@ -82,6 +90,10 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
               "kind": "heading",
               "level": 3,
               "text": "Back Take – Maintain Chest to Back Contact"
+            },
+            {
+              "kind": "lead",
+              "text": "This is holding him from behind with your chest on his back."
             },
             {
               "kind": "list",
@@ -112,7 +124,7 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
+              "feedback": "Let go the instant he taps."
             },
             {
               "text": "Hurting your partner because you can",
@@ -135,7 +147,7 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
           "options": [
             {
               "text": "Follow his turn and keep your hands connected.",
-              "feedback": "Right. Following without letting go is proof of change you can feel, not just say.",
+              "feedback": "Following without letting go is proof of change you can feel, not just say.",
               "correct": true
             },
             {
@@ -144,7 +156,7 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
             },
             {
               "text": "Hold still and wait for him to stop turning.",
-              "feedback": "Waiting here loses the back. Follow his turn instead."
+              "feedback": "Follow his turn instead of waiting."
             }
           ]
         }

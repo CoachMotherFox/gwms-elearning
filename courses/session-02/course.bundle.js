@@ -62,6 +62,10 @@ window.GWMS_COURSE_BUNDLE["session-02"] =
               "text": "Over-Under to Close Hand Connection"
             },
             {
+              "kind": "lead",
+              "text": "This is fighting to get both arms under a standing player's arms."
+            },
+            {
               "kind": "list",
               "items": [
                 "Whoever connects first wins by locking his hands around his partner's body, armpits to ankles."
@@ -71,6 +75,10 @@ window.GWMS_COURSE_BUNDLE["session-02"] =
               "kind": "heading",
               "level": 3,
               "text": "Half Guard Side-Position Game"
+            },
+            {
+              "kind": "lead",
+              "text": "This is getting close to a partner holding one of your legs."
             },
             {
               "kind": "list",
@@ -83,6 +91,10 @@ window.GWMS_COURSE_BUNDLE["session-02"] =
               "kind": "heading",
               "level": 3,
               "text": "Mount — Stay Under Both Elbows"
+            },
+            {
+              "kind": "lead",
+              "text": "This is staying on top while sitting on his belly."
             },
             {
               "kind": "list",
@@ -113,11 +125,11 @@ window.GWMS_COURSE_BUNDLE["session-02"] =
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not tonight. These games end in a pin, not a finish."
+              "feedback": "These games end in a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
-              "feedback": "Never. Everyone goes light."
+              "feedback": "Everyone always goes light."
             }
           ]
         },
@@ -136,16 +148,16 @@ window.GWMS_COURSE_BUNDLE["session-02"] =
           "options": [
             {
               "text": "Fight to close your hands under his elbows.",
-              "feedback": "That's the connection. Closing your hands under his elbows is how you arrive for real, not just show up.",
+              "feedback": "Closing your hands under his elbows is how you arrive for real, not just show up.",
               "correct": true
             },
             {
               "text": "Let go and grab a fresh new hold.",
-              "feedback": "Don't drop a good tie. Keep fighting from where you already are."
+              "feedback": "Keep fighting from where you already are."
             },
             {
               "text": "Hold still and wait for him to move.",
-              "feedback": "Waiting here loses ground. Keep working to close your hands."
+              "feedback": "Keep working to close your hands."
             }
           ]
         }

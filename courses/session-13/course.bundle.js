@@ -62,6 +62,10 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
               "text": "Standing Hand Connection Game"
             },
             {
+              "kind": "lead",
+              "text": "This is locking your hands around his body while standing."
+            },
+            {
               "kind": "list",
               "items": [
                 "Whoever connects first wins. The same rule applies to both players."
@@ -71,6 +75,10 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
               "kind": "heading",
               "level": 3,
               "text": "Chest-to-Chest via Outside Line Only"
+            },
+            {
+              "kind": "lead",
+              "text": "This is going around the legs to get chest to chest."
             },
             {
               "kind": "list",
@@ -83,6 +91,10 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
               "kind": "heading",
               "level": 3,
               "text": "Chest to Chest Under Elbows Maintenance"
+            },
+            {
+              "kind": "lead",
+              "text": "This is staying on top with your arms under his elbows."
             },
             {
               "kind": "list",
@@ -113,7 +125,7 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
+              "feedback": "Let go the instant he taps."
             },
             {
               "text": "Overpowering your partner with force",
@@ -136,16 +148,16 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
           "options": [
             {
               "text": "Hold the pin without leaning your weight on him.",
-              "feedback": "Right. Holding without crushing him is what real contact feels like when you stay present instead of pushing away.",
+              "feedback": "Holding without crushing him is what real contact feels like when you stay present instead of pushing away.",
               "correct": true
             },
             {
               "text": "Lean your full weight down to hold him still.",
-              "feedback": "Leaning your weight isn't the pin, and it isn't real contact either."
+              "feedback": "Leaning your weight isn't the pin."
             },
             {
               "text": "Back off the pin and re-grip from farther away.",
-              "feedback": "Backing off loses contact completely. Hold steady without leaning."
+              "feedback": "Hold steady instead of backing off."
             }
           ]
         }

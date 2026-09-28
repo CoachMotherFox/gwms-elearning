@@ -61,6 +61,10 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
               "text": "Upper vs Lower Body Division Game — Open Hand Connections"
             },
             {
+              "kind": "lead",
+              "text": "This is fighting for the upper body while he fights for the legs."
+            },
+            {
               "kind": "list",
               "items": [
                 "The upper body player wins with an underhook on the lower body player, or by putting his hands on the mat.",
@@ -73,9 +77,13 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
               "text": "Seated Open Guard Game"
             },
             {
+              "kind": "lead",
+              "text": "This is knocking a standing man down from sitting."
+            },
+            {
               "kind": "list",
               "items": [
-                "The bottom player wins by standing up to connect at the top player's hips, or making his back touch the mat.",
+                "The bottom player wins by standing up to grab the top player's hips, or by putting the top player's back on the mat and standing.",
                 "The top player wins by touching his shin to the bottom player's knees or body."
               ]
             },
@@ -83,6 +91,10 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
               "kind": "heading",
               "level": 3,
               "text": "Back Take – Maintain Chest to Back Contact"
+            },
+            {
+              "kind": "lead",
+              "text": "This is holding him from behind with your chest on his back."
             },
             {
               "kind": "list",
@@ -113,7 +125,7 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
+              "feedback": "Let go the instant he taps."
             },
             {
               "text": "Hurting your partner because you can",
@@ -136,7 +148,7 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
           "options": [
             {
               "text": "Keep every touch on the wrist, elbow, or head.",
-              "feedback": "Right. Gripping on purpose, not grabbing anywhere, is the same as giving something that actually helps, not just anything.",
+              "feedback": "Gripping on purpose, not grabbing anywhere, is the same as giving something that actually helps.",
               "correct": true
             },
             {
@@ -145,7 +157,7 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
             },
             {
               "text": "Grab his leg to move him faster.",
-              "feedback": "Grabbing the leg isn't your job here. Stay on wrist, elbow, or head."
+              "feedback": "Stay on wrist, elbow, or head instead."
             }
           ]
         }

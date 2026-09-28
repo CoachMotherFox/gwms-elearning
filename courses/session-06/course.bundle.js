@@ -62,6 +62,10 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
               "text": "Consecutive Touches with Clinch Counter"
             },
             {
+              "kind": "lead",
+              "text": "This is scoring quick touches before he can hug you."
+            },
+            {
               "kind": "list",
               "items": [
                 "The touch player wins with three sets of two touches in a row.",
@@ -74,16 +78,24 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
               "text": "Knee Pit Touchdown Game"
             },
             {
+              "kind": "lead",
+              "text": "This is getting past the legs of a partner on his back."
+            },
+            {
               "kind": "list",
               "items": [
                 "The top player wins by touching both of the bottom player's knee pits with his own leg, feet off the mat.",
-                "The bottom player wins by sitting up."
+                "The bottom player wins by making the top player sit down, then sitting up himself."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
               "text": "Mount — Stay Under Both Elbows"
+            },
+            {
+              "kind": "lead",
+              "text": "This is staying on top while sitting on his belly."
             },
             {
               "kind": "list",
@@ -114,11 +126,11 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not tonight. These games end in a pin, not a finish."
+              "feedback": "These games end in a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
-              "feedback": "Never. Everyone goes light."
+              "feedback": "Everyone always goes light."
             }
           ]
         },
@@ -137,7 +149,7 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
           "options": [
             {
               "text": "Stay under that elbow no matter what.",
-              "feedback": "Right. Staying under the elbow protects the position, the same way your mask protects something in you.",
+              "feedback": "Staying under the elbow protects the position, the same way your mask protects something in you.",
               "correct": true
             },
             {
@@ -146,7 +158,7 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
             },
             {
               "text": "Sit back and wait for him to stop.",
-              "feedback": "Waiting here loses the elbow. Stay under it instead."
+              "feedback": "Stay under the elbow instead of waiting."
             }
           ]
         }

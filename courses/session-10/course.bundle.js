@@ -62,6 +62,10 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
               "text": "Waist-Centric Underhook Game"
             },
             {
+              "kind": "lead",
+              "text": "This is using an underhook to get around his waist."
+            },
+            {
               "kind": "list",
               "items": [
                 "The underhook player wins by getting to the overhook player's waist, directly or from his head or his leg.",
@@ -74,6 +78,10 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
               "text": "Around-the-Legs Passing Game"
             },
             {
+              "kind": "lead",
+              "text": "This is getting around the legs."
+            },
+            {
               "kind": "list",
               "items": [
                 "The top player wins by touching one outside of the bottom player's legs, then the other outside, right after.",
@@ -84,6 +92,10 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
               "kind": "heading",
               "level": 3,
               "text": "Figure Four Grip Control Game"
+            },
+            {
+              "kind": "lead",
+              "text": "This is holding one arm with both hands locked."
             },
             {
               "kind": "list",
@@ -114,11 +126,11 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not tonight. These games end in a pin, not a finish."
+              "feedback": "These games end in a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
-              "feedback": "Never. Everyone goes light."
+              "feedback": "Everyone always goes light."
             }
           ]
         },
@@ -137,16 +149,16 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
           "options": [
             {
               "text": "Use that grip as a waypoint to his waist.",
-              "feedback": "Right. Treating it as a waypoint gets you to what's underneath, the same way passing gets past the mask.",
+              "feedback": "Treating it as a waypoint gets you to what's underneath, the same way passing gets past the mask.",
               "correct": true
             },
             {
               "text": "Stay locked on the head grip and hold there.",
-              "feedback": "Stopping at the head grip stalls your progress toward the waist."
+              "feedback": "Stopping at the head grip stalls your progress."
             },
             {
               "text": "Release the grip and start the hand fight over.",
-              "feedback": "Releasing here gives up ground you already earned."
+              "feedback": "Keep working toward his waist instead."
             }
           ]
         }

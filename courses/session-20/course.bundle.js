@@ -62,6 +62,10 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
               "text": "Stick and Pull Foot Sweep Game"
             },
             {
+              "kind": "lead",
+              "text": "This is a foot trip from a standing clinch."
+            },
+            {
               "kind": "list",
               "items": [
                 "The overhook player wins by putting the underhook player on a knee or his back.",
@@ -72,6 +76,10 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
               "kind": "heading",
               "level": 3,
               "text": "Closed Guard Opening — Hands on Body"
+            },
+            {
+              "kind": "lead",
+              "text": "This is standing up to open legs locked around your waist."
             },
             {
               "kind": "list",
@@ -86,10 +94,14 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
               "text": "Head and Arm Strangle — Close Position Start"
             },
             {
+              "kind": "lead",
+              "text": "This is trapping the head and one arm together."
+            },
+            {
               "kind": "list",
               "items": [
                 "The top player wins with the arm trapped at the head.",
-                "The bottom player wins by pulling his own trapped elbow back against his body."
+                "The bottom player wins by pulling his own trapped elbow back against his body, or by bridging and rolling the top player off."
               ]
             }
           ]
@@ -114,7 +126,7 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
+              "feedback": "Let go the instant he taps."
             },
             {
               "text": "Overpowering your partner with force",
@@ -137,7 +149,7 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
           "options": [
             {
               "text": "Keep that arm right where it landed.",
-              "feedback": "Keeping the arm in place takes patience. Fixing a break takes the same patience.",
+              "feedback": "Keeping the arm in place takes the same patience as fixing a break.",
               "correct": true
             },
             {

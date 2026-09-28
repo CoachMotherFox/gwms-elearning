@@ -73,15 +73,20 @@ function screenQuestion(s) {
 }
 
 /* Cut to the bone, per instructor direction September 27, 2026: a boy at a
-   7th grade reading level, typing four answers after, has to clear the whole
-   module in five minutes. This screen shows only the three game names and
-   each player's win, one line each — no start, no rules text, no SLO label.
-   The full game (start, task, skill) still lives in courses/_curriculum/ and
-   on that session's Grappling Class Guide for the coach. */
+   5th grade reading level, typing four answers after, has to clear the whole
+   module in five minutes. This screen shows the three game names, a one-line
+   player-facing "what it is," and each player's win — no start, no rules
+   text, no SLO label. Re-pulled September 28, 2026 from the rewritten
+   Grappling Class Guides: whatItIs comes straight from each game's "What it
+   is" line, player-facing by design. How it works, Scale it, Ask them, and
+   Watch for are coach-only and never appear here. The full game (start,
+   task, skill) still lives in courses/_curriculum/ and on that session's
+   Grappling Class Guide for the coach. */
 function screenGames(s) {
   const body = [];
   s.games.forEach((game) => {
     body.push({ kind: 'heading', level: 3, text: gameTitle(game.title) });
+    if (game.whatItIs) body.push({ kind: 'lead', text: game.whatItIs });
     body.push({ kind: 'list', items: game.win.map((w) => `${w.role} ${w.text}`) });
   });
 

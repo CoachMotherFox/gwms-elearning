@@ -62,6 +62,10 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
               "text": "Single Leg — Make Partner Fall to Hands or Hips"
             },
             {
+              "kind": "lead",
+              "text": "This is a takedown to one leg."
+            },
+            {
               "kind": "list",
               "items": [
                 "The attacker wins when the defender's hips or hands touch the mat.",
@@ -74,6 +78,10 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
               "text": "Closed Guard Opening — Hands on Body"
             },
             {
+              "kind": "lead",
+              "text": "This is standing up to open legs locked around your waist."
+            },
+            {
               "kind": "list",
               "items": [
                 "The top player wins by getting to his feet and opening the guard.",
@@ -84,6 +92,10 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
               "kind": "heading",
               "level": 3,
               "text": "Referee Position Ride and Break Down"
+            },
+            {
+              "kind": "lead",
+              "text": "This is flattening someone on his hands and knees."
             },
             {
               "kind": "list",
@@ -114,11 +126,11 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not tonight. These games end in a pin, not a finish."
+              "feedback": "These games end in a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
-              "feedback": "Never. Everyone goes light."
+              "feedback": "Everyone always goes light."
             }
           ]
         },
@@ -137,16 +149,16 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
           "options": [
             {
               "text": "Keep your hands on his hips and knees.",
-              "feedback": "Right. Staying on the legs is what opens the guard, the same way pressure is what cracks the mask.",
+              "feedback": "Staying on the legs is what opens the guard, the same way pressure is what cracks the mask.",
               "correct": true
             },
             {
               "text": "Reach for his head to control it.",
-              "feedback": "Reaching for the head stalls the guard, not opens it."
+              "feedback": "Reaching for the head stalls the guard."
             },
             {
               "text": "Pull both hands back and reset your grip.",
-              "feedback": "Resetting here loses your progress. Stay on the legs."
+              "feedback": "Stay on the legs instead of resetting."
             }
           ]
         }

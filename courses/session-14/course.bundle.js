@@ -62,6 +62,10 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
               "text": "Role-Based Consecutive Touch vs Close Hand Game"
             },
             {
+              "kind": "lead",
+              "text": "This is one player wrapping up while the other stays away."
+            },
+            {
               "kind": "list",
               "items": [
                 "The touch player wins with three touches in a row.",
@@ -74,16 +78,24 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
               "text": "Closed Guard Hand Fighting Game"
             },
             {
+              "kind": "lead",
+              "text": "This is fighting for the hands while trapped in his legs."
+            },
+            {
               "kind": "list",
               "items": [
                 "The bottom player wins by making the top player's hands touch the mat one time.",
-                "The top player wins by getting his hands off the bottom player and standing up."
+                "The top player wins by standing all the way up while still controlling a wrist or pinning the hips."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
               "text": "Chest-to-Chest Elbow Control Game"
+            },
+            {
+              "kind": "lead",
+              "text": "This is holding a person down by keeping his elbows open."
             },
             {
               "kind": "list",
@@ -114,7 +126,7 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
+              "feedback": "Let go the instant he taps."
             },
             {
               "text": "Overpowering your partner with force",
@@ -137,16 +149,16 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
           "options": [
             {
               "text": "Stay under the elbow, or get back under fast.",
-              "feedback": "Right. Staying under the elbow is what keeps the pin alive, the same dial you turn to let someone in.",
+              "feedback": "Staying under the elbow is what keeps the pin alive, the same dial you turn to let someone in.",
               "correct": true
             },
             {
               "text": "Let the elbow go and grab his wrist instead.",
-              "feedback": "That gives up the pin completely. Stay under the elbow."
+              "feedback": "That gives up the pin completely."
             },
             {
               "text": "Push down harder with your whole body weight.",
-              "feedback": "Leaning your weight isn't the pin. Stay under the elbow."
+              "feedback": "Stay under the elbow instead of pushing harder."
             }
           ]
         }

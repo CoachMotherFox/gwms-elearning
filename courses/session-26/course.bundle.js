@@ -61,6 +61,10 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
               "text": "Single Leg Takedown to Hip Connection Game"
             },
             {
+              "kind": "lead",
+              "text": "This is a takedown to one leg."
+            },
+            {
               "kind": "list",
               "items": [
                 "The attacker wins when the defender is down on his own hips or hands.",
@@ -73,6 +77,10 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
               "text": "Post and Hook Continuous Connection Game"
             },
             {
+              "kind": "lead",
+              "text": "This is staying attached to a standing player with your hands and feet."
+            },
+            {
               "kind": "list",
               "items": [
                 "The top player wins by getting outside the bottom player's legs for shin contact, or locking his hands at the bottom player's hips.",
@@ -83,6 +91,10 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
               "kind": "heading",
               "level": 3,
               "text": "Chest to Back Control Game"
+            },
+            {
+              "kind": "lead",
+              "text": "This is holding him from behind with your chest on his back."
             },
             {
               "kind": "list",
@@ -113,7 +125,7 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
+              "feedback": "Let go the instant he taps."
             },
             {
               "text": "Hurting your partner because you can",
@@ -136,12 +148,12 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
           "options": [
             {
               "text": "Keep chest-to-back contact through his hardest fight.",
-              "feedback": "Right. Change that only works when it's easy isn't real. Holding through the hard part proves it.",
+              "feedback": "Holding through the hard part is what proves a change is real.",
               "correct": true
             },
             {
               "text": "Ease off contact until he calms down.",
-              "feedback": "Easing off here gives away the position for nothing."
+              "feedback": "Easing off here gives away the position."
             },
             {
               "text": "Grab for hooks and forget the chest contact.",

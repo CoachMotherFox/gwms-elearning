@@ -62,6 +62,10 @@ window.GWMS_COURSE_BUNDLE["session-17"] =
               "text": "Waist Control Leg Stuffing Game"
             },
             {
+              "kind": "lead",
+              "text": "This is taking him down from behind by blocking one leg."
+            },
+            {
               "kind": "list",
               "items": [
                 "The back player wins when the front player's hands touch the mat.",
@@ -74,6 +78,10 @@ window.GWMS_COURSE_BUNDLE["session-17"] =
               "text": "Guard Recovery with Passing Resistance Game"
             },
             {
+              "kind": "lead",
+              "text": "This is getting your legs back in front of you."
+            },
+            {
               "kind": "list",
               "items": [
                 "The bottom player wins by recovering to any real guard position while staying mobile.",
@@ -84,6 +92,10 @@ window.GWMS_COURSE_BUNDLE["session-17"] =
               "kind": "heading",
               "level": 3,
               "text": "Rear Hip Connection - Keep Belly Down"
+            },
+            {
+              "kind": "lead",
+              "text": "This is keeping a man flat when he balls up."
             },
             {
               "kind": "list",
@@ -114,7 +126,7 @@ window.GWMS_COURSE_BUNDLE["session-17"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
+              "feedback": "Let go the instant he taps."
             },
             {
               "text": "Overpowering your partner with force",
@@ -137,7 +149,7 @@ window.GWMS_COURSE_BUNDLE["session-17"] =
           "options": [
             {
               "text": "Stay close and work your legs back in.",
-              "feedback": "Right. Staying inside the discomfort is the same skill as staying in a hard conversation.",
+              "feedback": "Staying inside the discomfort is the same skill as staying in a hard conversation.",
               "correct": true
             },
             {
@@ -146,7 +158,7 @@ window.GWMS_COURSE_BUNDLE["session-17"] =
             },
             {
               "text": "Freeze in place and wait for an opening.",
-              "feedback": "Freezing here loses ground. Stay close and work your legs back."
+              "feedback": "Stay close and work your legs back in."
             }
           ]
         }

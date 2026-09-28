@@ -20,7 +20,7 @@
     "wrongAnswers": [
       {
         "text": "Holding the finish after your partner taps",
-        "feedback": "Never. Let go the instant he taps."
+        "feedback": "Let go the instant he taps."
       },
       {
         "text": "Hurting your partner because you can",
@@ -46,7 +46,8 @@
               "text": "wins. The same rule applies to both players."
             }
           ],
-          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
+          "whatItIs": "This is touching the same spot on his arm twice in a row."
         },
         {
           "skill": "Entering",
@@ -63,7 +64,8 @@
               "text": "wins by making the top player fall on his butt, then getting his own back off the mat."
             }
           ],
-          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
+          "whatItIs": "This is getting past the legs of a partner on his back."
         },
         {
           "skill": "Controlling",
@@ -81,7 +83,8 @@
               "text": "wins by getting his back to the mat or turning face to face."
             }
           ],
-          "reset": "The attacker holds no matter what. If the defender gets his back down or turns to face him, that is his win, and you start over. Roles switch after every win."
+          "reset": "The attacker holds no matter what. If the defender gets his back down or turns to face him, that is his win, and you start over. Roles switch after every win.",
+          "whatItIs": "This is holding him from behind with your chest on his back."
         }
       ],
       "connection": "Twelve weeks ago, you could not hold this position at all. Now you can. That is proof of change you can feel. Naming what is different in you works the same way. Real change is something you can show, not just say.",
@@ -91,7 +94,7 @@
         "options": [
           {
             "text": "Follow his turn and keep your hands connected.",
-            "feedback": "Right. Following without letting go is proof of change you can feel, not just say.",
+            "feedback": "Following without letting go is proof of change you can feel, not just say.",
             "correct": true
           },
           {
@@ -100,7 +103,7 @@
           },
           {
             "text": "Hold still and wait for him to stop turning.",
-            "feedback": "Waiting here loses the back. Follow his turn instead."
+            "feedback": "Follow his turn instead of waiting."
           }
         ]
       }
@@ -126,7 +129,8 @@
               "text": "wins by freeing his own leg and then grabbing one of the attacker's legs."
             }
           ],
-          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
+          "whatItIs": "This is a takedown to one leg."
         },
         {
           "skill": "Entering",
@@ -143,7 +147,8 @@
               "text": "holds as long as he keeps his connections."
             }
           ],
-          "reset": "The bottom player holds no matter what. If the top player breaks free and connects, that is his win, and you start over. Roles switch after every win."
+          "reset": "The bottom player holds no matter what. If the top player breaks free and connects, that is his win, and you start over. Roles switch after every win.",
+          "whatItIs": "This is staying attached to a standing player with your hands and feet."
         },
         {
           "skill": "Controlling",
@@ -161,7 +166,8 @@
               "text": "wins by getting his back to the mat or turning face to face."
             }
           ],
-          "reset": "The top player holds no matter what. If the bottom player gets his back down or turns to face him, that is his win, and you start over. Roles switch after every win."
+          "reset": "The top player holds no matter what. If the bottom player gets his back down or turns to face him, that is his win, and you start over. Roles switch after every win.",
+          "whatItIs": "This is holding him from behind with your chest on his back."
         }
       ],
       "connection": "A change that only works when it is easy is not a real change yet. Holding the back against a fighting partner puts it to the test. Who you have become gets proven the same way, by whether it holds up when things get hard.",
@@ -171,12 +177,12 @@
         "options": [
           {
             "text": "Keep chest-to-back contact through his hardest fight.",
-            "feedback": "Right. Change that only works when it's easy isn't real. Holding through the hard part proves it.",
+            "feedback": "Holding through the hard part is what proves a change is real.",
             "correct": true
           },
           {
             "text": "Ease off contact until he calms down.",
-            "feedback": "Easing off here gives away the position for nothing."
+            "feedback": "Easing off here gives away the position."
           },
           {
             "text": "Grab for hooks and forget the chest contact.",
@@ -206,7 +212,8 @@
               "text": "wins by freeing a head or leg connection before the underhook player reaches his hips."
             }
           ],
-          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
+          "whatItIs": "This is using an arm under his armpit to lock around his waist."
         },
         {
           "skill": "Arriving",
@@ -224,7 +231,8 @@
               "text": "wins by putting the top player on his butt and sitting up, or by getting to closed guard."
             }
           ],
-          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
+          "whatItIs": "This is getting a trapped leg free and getting around the legs."
         },
         {
           "skill": "Controlling",
@@ -242,7 +250,8 @@
               "text": "wins by guard recovery, reversal, or standing."
             }
           ],
-          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
+          "whatItIs": "This is staying stuck to his back while he tries to turn."
         }
       ],
       "connection": "There is one exact thing you can do on the mat now that you could not before, and you can name it. Your growth off the mat works the same way. Not \"I am better,\" but \"I can do this now.\"",
@@ -252,7 +261,7 @@
         "options": [
           {
             "text": "Clear the knees next, then work to the hips.",
-            "feedback": "Right. Clearing it in order is one exact thing you couldn't do before, and now you can.",
+            "feedback": "Clearing it in order is one exact thing you couldn't do before, and now you can.",
             "correct": true
           },
           {
@@ -261,7 +270,7 @@
           },
           {
             "text": "Stop and reset back to the feet again.",
-            "feedback": "Resetting here wastes ground you've already cleared."
+            "feedback": "Clear the knees next instead of skipping ahead."
           }
         ]
       }
@@ -287,7 +296,8 @@
               "text": "wins with a touch behind the upper body player's leg, or by putting his hands on the mat."
             }
           ],
-          "reset": "Whoever wins goes first next time, and you switch jobs, the upper body player becoming the lower body player. Then you run it again."
+          "reset": "Whoever wins goes first next time, and you switch jobs, the upper body player becoming the lower body player. Then you run it again.",
+          "whatItIs": "This is fighting for the upper body while he fights for the legs."
         },
         {
           "skill": "Arriving",
@@ -298,14 +308,15 @@
           "win": [
             {
               "role": "The bottom player",
-              "text": "wins by standing up to connect at the top player's hips, or making his back touch the mat."
+              "text": "wins by standing up to grab the top player's hips, or by putting the top player's back on the mat and standing."
             },
             {
               "role": "The top player",
               "text": "wins by touching his shin to the bottom player's knees or body."
             }
           ],
-          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
+          "whatItIs": "This is knocking a standing man down from sitting."
         },
         {
           "skill": "Controlling",
@@ -323,7 +334,8 @@
               "text": "wins by getting his back to the mat or turning face to face."
             }
           ],
-          "reset": "The attacker holds no matter what. If the defender gets his back down or turns to face him, that is his win, and you start over. Roles switch after every win."
+          "reset": "The attacker holds no matter what. If the defender gets his back down or turns to face him, that is his win, and you start over. Roles switch after every win.",
+          "whatItIs": "This is holding him from behind with your chest on his back."
         }
       ],
       "connection": "Helping a newer partner instead of just tapping them out is the first act of giving on the mat. Turning your growth toward someone who needs it works the same way in life. You stop being the one who gets helped. You start being the help.",
@@ -334,7 +346,7 @@
         "options": [
           {
             "text": "Keep every touch on the wrist, elbow, or head.",
-            "feedback": "Right. Gripping on purpose, not grabbing anywhere, is the same as giving something that actually helps, not just anything.",
+            "feedback": "Gripping on purpose, not grabbing anywhere, is the same as giving something that actually helps.",
             "correct": true
           },
           {
@@ -343,7 +355,7 @@
           },
           {
             "text": "Grab his leg to move him faster.",
-            "feedback": "Grabbing the leg isn't your job here. Stay on wrist, elbow, or head."
+            "feedback": "Stay on wrist, elbow, or head instead."
           }
         ]
       }
@@ -369,7 +381,8 @@
               "text": "wins by fully disconnecting, standing, and turning to face."
             }
           ],
-          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
+          "whatItIs": "This is getting behind someone who is bent over."
         },
         {
           "skill": "Arriving",
@@ -387,7 +400,8 @@
               "text": "wins by touching his shin to the bottom player's knee pit, or his body from outside the legs."
             }
           ],
-          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
+          "whatItIs": "This is knocking a standing partner down using your feet and one hand."
         },
         {
           "skill": "Controlling",
@@ -402,10 +416,11 @@
             },
             {
               "role": "The front player",
-              "text": "wins when he faces the back player with elbows free."
+              "text": "wins by turning to face the back player with both elbows free."
             }
           ],
-          "reset": "The back player holds no matter what. If the front player faces him with elbows free, that is his win, and you start over. Roles switch after every win."
+          "reset": "The back player holds no matter what. If the front player faces him with elbows free, that is his win, and you start over. Roles switch after every win.",
+          "whatItIs": "This is staying behind someone using only your arms."
         }
       ],
       "connection": "Letting a partner work when you could just finish them costs you the easy win. Giving something real off the mat costs something too, time, comfort, pride. The giving that counts is the kind you feel.",
@@ -416,7 +431,7 @@
         "options": [
           {
             "text": "Stay beside his hips, not straight behind him.",
-            "feedback": "Right. Positioning smart instead of taking the easy grab is giving that actually costs you something.",
+            "feedback": "Positioning smart instead of taking the easy grab is giving that actually costs you something.",
             "correct": true
           },
           {
@@ -425,7 +440,7 @@
           },
           {
             "text": "Let go and re-enter from the front again.",
-            "feedback": "Letting go gives up ground you already earned."
+            "feedback": "Stay beside his hips instead of going straight behind."
           }
         ]
       }
@@ -451,7 +466,8 @@
               "text": "wins by closing his own hands under the overhook player's elbows."
             }
           ],
-          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
+          "whatItIs": "This is tripping a standing player by blocking his foot."
         },
         {
           "skill": "Arriving",
@@ -470,7 +486,8 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "note": "Wrestling up to the hips is not a win by itself. It is a path to the listed wins."
+          "note": "Wrestling up to the hips is not a win by itself. It is a path to the listed wins.",
+          "whatItIs": "This is getting close to a partner on his back."
         },
         {
           "skill": "Controlling",
@@ -488,7 +505,8 @@
               "text": "wins by getting his back to the mat or turning face to face."
             }
           ],
-          "reset": "The top player holds no matter what. If the bottom player gets his back down or turns to face him, that is his win, and you start over. Roles switch after every win."
+          "reset": "The top player holds no matter what. If the bottom player gets his back down or turns to face him, that is his win, and you start over. Roles switch after every win.",
+          "whatItIs": "This is holding him from behind with your chest on his back."
         }
       ],
       "connection": "You can have full control of someone's back and still choose not to hurt them. That is the whole system: the power to hurt, and the choice not to. Using your strength for people instead of over them is that same choice, made in your life.",
@@ -498,7 +516,7 @@
         "options": [
           {
             "text": "Stick that foot and pull for the sweep.",
-            "feedback": "Right. Using your strength to sweep him is power aimed at winning position, not at hurting him.",
+            "feedback": "Using your strength to sweep him is power aimed at winning position, not at hurting him.",
             "correct": true
           },
           {
@@ -507,7 +525,7 @@
           },
           {
             "text": "Grab for his head instead of his foot.",
-            "feedback": "Grabbing for the head skips the setup you already have."
+            "feedback": "Stick the foot instead of grabbing his head."
           }
         ]
       }
@@ -529,7 +547,8 @@
               "text": "wins. The same rule applies to both players."
             }
           ],
-          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
+          "whatItIs": "This is a hand fight that ends in a body lock."
         },
         {
           "skill": "Arriving",
@@ -547,7 +566,8 @@
               "text": "wins by making the top player fall on his butt, then getting his own back off the mat."
             }
           ],
-          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
+          "whatItIs": "This is getting around the legs."
         },
         {
           "skill": "Finishing",
@@ -566,7 +586,8 @@
             }
           ],
           "reset": "The win is the locked grip, not the finish. No finish is shown. The tap is honored instantly, every time. Roles switch after every win.",
-          "note": "The win here is the locked grip, not the finish. No finish is demonstrated."
+          "note": "The win here is the locked grip, not the finish. No finish is demonstrated.",
+          "whatItIs": "This is building a lock from behind, stopping before any squeeze."
         }
       ],
       "connection": "The finish is the sharpest power in the system. How you use it, controlled, releasing on the tap, is what people remember about rolling with you. What you leave behind in life is built the same way, out of how you treat people when you hold the power.",
@@ -577,7 +598,7 @@
         "options": [
           {
             "text": "Lock your wrist into your own elbow from there.",
-            "feedback": "Right. Finishing it clean is what people remember, the legacy you leave in how you finish.",
+            "feedback": "Finishing it clean is what people remember, the legacy you leave in how you finish.",
             "correct": true
           },
           {
@@ -586,7 +607,7 @@
           },
           {
             "text": "Wait there and let him move first.",
-            "feedback": "Waiting here stalls the finish. Lock your wrist in now."
+            "feedback": "Lock your wrist in instead of waiting."
           }
         ]
       }
@@ -612,7 +633,8 @@
               "text": "wins by freeing his own leg from the attacker's grip."
             }
           ],
-          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
+          "whatItIs": "This is a takedown to one leg."
         },
         {
           "skill": "Arriving",
@@ -630,7 +652,8 @@
               "text": "wins by getting outside the bottom player's legs and touching his body with a shin."
             }
           ],
-          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
+          "whatItIs": "This is tipping a standing player from on your back."
         },
         {
           "skill": "Finishing",
@@ -649,7 +672,8 @@
             }
           ],
           "reset": "Chest to back is a continuous hold with no time count. He holds, and if the bottom player escapes, you reset. Reaching a precursor position on top is the other win. Roles switch after every win.",
-          "note": "The win here is the precursor position, not the finish. No finish is demonstrated."
+          "note": "The win here is the precursor position, not the finish. No finish is demonstrated.",
+          "whatItIs": "This is staying on his back and moving to a finishing start."
         }
       ],
       "connection": "How you carry yourself in the room, how you finish, how you treat a new partner, quietly sets the bar for everyone watching. The standard you set for whoever comes next in life works the same way. How you act is the standard.",
@@ -659,7 +683,7 @@
         "options": [
           {
             "text": "Shift toward shoulder control without losing the pin.",
-            "feedback": "Right. Moving forward without losing what you hold sets the standard for whoever watches you.",
+            "feedback": "Moving forward without losing what you hold sets the standard for whoever watches you.",
             "correct": true
           },
           {
@@ -668,7 +692,7 @@
           },
           {
             "text": "Stay locked on the hips and go no further.",
-            "feedback": "Staying still here stalls your progress toward the finish."
+            "feedback": "Shift to the shoulder instead of staying still."
           }
         ]
       }
@@ -690,7 +714,8 @@
               "text": "wins, whether by three touches or by the underhook plus closed hands."
             }
           ],
-          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
+          "whatItIs": "This is fighting for grips to score touches or get an underhook."
         },
         {
           "skill": "Arriving",
@@ -708,7 +733,8 @@
               "text": "wins by standing and opening the guard."
             }
           ],
-          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
+          "whatItIs": "This is catching an arm from your back and locking your hands."
         },
         {
           "skill": "Controlling",
@@ -726,7 +752,8 @@
               "text": "wins by getting his back flat to the mat, or by facing and coming on top."
             }
           ],
-          "reset": "The top player holds no matter what. If the bottom player escapes, that is his win, and you switch to a new partner for the next round."
+          "reset": "The top player holds no matter what. If the bottom player escapes, that is his win, and you switch to a new partner for the next round.",
+          "whatItIs": "This is staying on someone's back."
         }
       ],
       "connection": "Newer people learn more from watching how you roll than from anything you say. How you carry yourself in life teaches the same way, silently, to whoever is watching. You are a lesson whether you mean to be or not.",
@@ -737,7 +764,7 @@
         "options": [
           {
             "text": "Take the underhook, then lock your hands around him.",
-            "feedback": "Right. Causing the post, then the underhook, then the lock, in order, is exactly what a newer partner learns from watching you build it.",
+            "feedback": "Causing the post, then the underhook, then the lock is exactly what a newer partner learns from watching you.",
             "correct": true
           },
           {
@@ -746,7 +773,7 @@
           },
           {
             "text": "Let go and hand fight from scratch again.",
-            "feedback": "Starting over gives away the post you already caused."
+            "feedback": "Take the underhook instead of starting over."
           }
         ]
       }
@@ -768,7 +795,8 @@
               "text": "wins. The same rule applies to both players."
             }
           ],
-          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
+          "whatItIs": "This is getting an underhook, then wrapping him up."
         },
         {
           "skill": "Arriving",
@@ -786,7 +814,8 @@
               "text": "wins with shin contact."
             }
           ],
-          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
+          "whatItIs": "This is knocking a standing man down, then standing up."
         },
         {
           "skill": "Finishing",
@@ -805,7 +834,8 @@
             }
           ],
           "reset": "Chest to back is a continuous hold with no time count. He holds, and if the bottom player escapes, you reset. Reaching a precursor position on top is the other win. Roles switch after every win.",
-          "note": "The win here is the precursor position, not the finish. No finish is demonstrated."
+          "note": "The win here is the precursor position, not the finish. No finish is demonstrated.",
+          "whatItIs": "This is staying on his back and moving to a finishing start."
         }
       ],
       "connection": "Twelve weeks of getting tapped, cracked, and rebuilt cost something and gave something. Rolling now, you can feel both in your body. The honest ledger of what this cost and what you got is the first step of the return.",
@@ -816,7 +846,7 @@
         "options": [
           {
             "text": "Move to shoulder control without losing the pin.",
-            "feedback": "Right. Moving forward without losing what you built is counting the cost and the gain, both at once.",
+            "feedback": "Moving forward without losing what you built is counting the cost and the gain.",
             "correct": true
           },
           {
@@ -825,7 +855,7 @@
           },
           {
             "text": "Stay on the hips and skip the shoulder entirely.",
-            "feedback": "Staying still here leaves progress on the table."
+            "feedback": "Move to the shoulder instead of staying still."
           }
         ]
       }
@@ -847,7 +877,8 @@
               "text": "wins, closing his hands anywhere on his partner's body from shoulders to ankles."
             }
           ],
-          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
+          "whatItIs": "This is fighting for the hands until you can wrap him up."
         },
         {
           "skill": "Arriving",
@@ -865,7 +896,8 @@
               "text": "wins by making the top player fall on his butt, then getting his own back off the mat."
             }
           ],
-          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
+          "whatItIs": "This is getting past the legs of a partner on his back."
         },
         {
           "skill": "Finishing",
@@ -884,7 +916,8 @@
             }
           ],
           "reset": "The win is the locked grip, not the finish. No finish is shown. The tap is honored instantly, every time. Roles switch after every win.",
-          "note": "The win here is the locked grip, not the finish. No finish is demonstrated."
+          "note": "The win here is the locked grip, not the finish. No finish is demonstrated.",
+          "whatItIs": "This is building a lock from behind, stopping before any squeeze."
         }
       ],
       "connection": "The person rolling now is not the one who walked in on Session 1. You can see the difference in how you move. Naming who you became is the return itself, not who you were told to be, but the one you built.",
@@ -894,7 +927,7 @@
         "options": [
           {
             "text": "Lock your wrist into your elbow right there.",
-            "feedback": "Right. Finishing clean, from the person you built, is the return itself.",
+            "feedback": "Finishing clean, from the person you built, is the return itself.",
             "correct": true
           },
           {
@@ -903,7 +936,7 @@
           },
           {
             "text": "Wait and let your partner move first.",
-            "feedback": "Waiting stalls the finish. Lock your wrist in now."
+            "feedback": "Lock your wrist in instead of waiting."
           }
         ]
       }
@@ -925,7 +958,8 @@
               "text": "wins by locking his hands around his partner's body, armpits to ankles."
             }
           ],
-          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
+          "whatItIs": "This is fighting to get both arms under a standing player's arms."
         },
         {
           "skill": "Arriving",
@@ -943,7 +977,8 @@
               "text": "wins by closing his legs around the top player's waist."
             }
           ],
-          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win."
+          "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
+          "whatItIs": "This is getting close to a partner holding one of your legs."
         },
         {
           "skill": "Controlling",
@@ -961,7 +996,8 @@
               "text": "wins by getting his back to the mat or turning face to face."
             }
           ],
-          "reset": "The attacker holds no matter what. If the defender gets his back down or turns to face him, that is his win, and you start over. Roles switch after every win."
+          "reset": "The attacker holds no matter what. If the defender gets his back down or turns to face him, that is his win, and you start over. Roles switch after every win.",
+          "whatItIs": "This is holding him from behind with your chest on his back."
         }
       ],
       "connection": "The last roll ends, and then you walk out the door. What you carry out, control, mercy, the ability to stay, the real self, is the whole point. The mat was never the destination. What you carry out of it is.",
@@ -973,7 +1009,7 @@
         "options": [
           {
             "text": "Fight to close your hands under his elbows.",
-            "feedback": "Right. Closing the connection clean, on the last roll, is exactly what you carry out the door with you.",
+            "feedback": "Closing the connection clean, on the last roll, is exactly what you carry out the door with you.",
             "correct": true
           },
           {
@@ -982,7 +1018,7 @@
           },
           {
             "text": "Hold still and wait for him to move.",
-            "feedback": "Waiting here loses ground. Keep fighting to close your hands."
+            "feedback": "Keep fighting to close your hands instead of waiting."
           }
         ]
       }

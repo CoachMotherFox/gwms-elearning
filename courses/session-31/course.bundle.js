@@ -61,6 +61,10 @@ window.GWMS_COURSE_BUNDLE["session-31"] =
               "text": "Hand Fight to Closed Hand Connection via Underhook"
             },
             {
+              "kind": "lead",
+              "text": "This is a hand fight that ends in a body lock."
+            },
+            {
               "kind": "list",
               "items": [
                 "Whoever connects first wins. The same rule applies to both players."
@@ -70,6 +74,10 @@ window.GWMS_COURSE_BUNDLE["session-31"] =
               "kind": "heading",
               "level": 3,
               "text": "Around-the-Legs Passing Game"
+            },
+            {
+              "kind": "lead",
+              "text": "This is getting around the legs."
             },
             {
               "kind": "list",
@@ -82,6 +90,10 @@ window.GWMS_COURSE_BUNDLE["session-31"] =
               "kind": "heading",
               "level": 3,
               "text": "Build to Rear Strangle Game"
+            },
+            {
+              "kind": "lead",
+              "text": "This is building a lock from behind, stopping before any squeeze."
             },
             {
               "kind": "list",
@@ -112,7 +124,7 @@ window.GWMS_COURSE_BUNDLE["session-31"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
+              "feedback": "Let go the instant he taps."
             },
             {
               "text": "Hurting your partner because you can",
@@ -135,7 +147,7 @@ window.GWMS_COURSE_BUNDLE["session-31"] =
           "options": [
             {
               "text": "Lock your wrist into your own elbow from there.",
-              "feedback": "Right. Finishing it clean is what people remember, the legacy you leave in how you finish.",
+              "feedback": "Finishing it clean is what people remember, the legacy you leave in how you finish.",
               "correct": true
             },
             {
@@ -144,7 +156,7 @@ window.GWMS_COURSE_BUNDLE["session-31"] =
             },
             {
               "text": "Wait there and let him move first.",
-              "feedback": "Waiting here stalls the finish. Lock your wrist in now."
+              "feedback": "Lock your wrist in instead of waiting."
             }
           ]
         }

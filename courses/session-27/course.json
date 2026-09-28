@@ -59,6 +59,10 @@
               "text": "Underhook to Head, Waist, or Leg with Hip-Centric Win"
             },
             {
+              "kind": "lead",
+              "text": "This is using an arm under his armpit to lock around his waist."
+            },
+            {
               "kind": "list",
               "items": [
                 "The underhook player wins by connecting to the overhook player's waist, directly or from his head or leg.",
@@ -71,6 +75,10 @@
               "text": "Half Guard Opening Game"
             },
             {
+              "kind": "lead",
+              "text": "This is getting a trapped leg free and getting around the legs."
+            },
+            {
               "kind": "list",
               "items": [
                 "The top player wins by standing and touching both outsides of the bottom player's legs.",
@@ -81,6 +89,10 @@
               "kind": "heading",
               "level": 3,
               "text": "Chest-to-Back Position Maintenance"
+            },
+            {
+              "kind": "lead",
+              "text": "This is staying stuck to his back while he tries to turn."
             },
             {
               "kind": "list",
@@ -111,7 +123,7 @@
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
+              "feedback": "Let go the instant he taps."
             },
             {
               "text": "Hurting your partner because you can",
@@ -134,7 +146,7 @@
           "options": [
             {
               "text": "Clear the knees next, then work to the hips.",
-              "feedback": "Right. Clearing it in order is one exact thing you couldn't do before, and now you can.",
+              "feedback": "Clearing it in order is one exact thing you couldn't do before, and now you can.",
               "correct": true
             },
             {
@@ -143,7 +155,7 @@
             },
             {
               "text": "Stop and reset back to the feet again.",
-              "feedback": "Resetting here wastes ground you've already cleared."
+              "feedback": "Clear the knees next instead of skipping ahead."
             }
           ]
         }

@@ -62,6 +62,10 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
               "text": "Hand Fight to Underhook Game"
             },
             {
+              "kind": "lead",
+              "text": "This is a standing hand fight to get an arm under his armpit."
+            },
+            {
               "kind": "list",
               "items": [
                 "Whoever gets the underhook first wins. The same rule applies to both players."
@@ -71,6 +75,10 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
               "kind": "heading",
               "level": 3,
               "text": "Keep Feet Off — Belly Up Open Guard Introduction"
+            },
+            {
+              "kind": "lead",
+              "text": "This is keeping someone's feet off you while you step in close."
             },
             {
               "kind": "list",
@@ -83,6 +91,10 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
               "kind": "heading",
               "level": 3,
               "text": "Riding Bottom Position Game"
+            },
+            {
+              "kind": "lead",
+              "text": "This is staying on top of someone on his hands and knees."
             },
             {
               "kind": "list",
@@ -113,11 +125,11 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not tonight. These games end in a pin, not a finish."
+              "feedback": "These games end in a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
-              "feedback": "Never. Everyone goes light."
+              "feedback": "Everyone always goes light."
             }
           ]
         },
@@ -136,7 +148,7 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
           "options": [
             {
               "text": "Chain those two grips into the underhook.",
-              "feedback": "Right. Chaining your grips into the underhook is building toward something, not just performing for the room.",
+              "feedback": "Chaining your grips into the underhook is building toward something, not just performing for the room.",
               "correct": true
             },
             {
@@ -145,7 +157,7 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
             },
             {
               "text": "Hold the two grips and wait there.",
-              "feedback": "Holding still here stalls you. Keep chaining toward the underhook."
+              "feedback": "Keep chaining toward the underhook."
             }
           ]
         }

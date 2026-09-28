@@ -62,6 +62,10 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
               "text": "Foot-to-Foot Contact with Overhook / Underhook"
             },
             {
+              "kind": "lead",
+              "text": "This is tripping a standing player by blocking his foot."
+            },
+            {
               "kind": "list",
               "items": [
                 "The overhook player wins when the underhook player falls onto his own hips or hands.",
@@ -74,9 +78,13 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
               "text": "Seated Open Guard Game"
             },
             {
+              "kind": "lead",
+              "text": "This is knocking a standing man down from sitting."
+            },
+            {
               "kind": "list",
               "items": [
-                "The bottom player wins by standing up to connect at the top player's hips, or making his back touch the mat.",
+                "The bottom player wins by standing up to grab the top player's hips, or by putting the top player's back on the mat and standing.",
                 "The top player wins by touching his shin to the bottom player's knees or body."
               ]
             },
@@ -84,6 +92,10 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
               "kind": "heading",
               "level": 3,
               "text": "Figure Four Grip Control Game"
+            },
+            {
+              "kind": "lead",
+              "text": "This is holding one arm with both hands locked."
             },
             {
               "kind": "list",
@@ -114,7 +126,7 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
+              "feedback": "Let go the instant he taps."
             },
             {
               "text": "Overpowering your partner with force",
@@ -137,7 +149,7 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
           "options": [
             {
               "text": "Keep the grip locked from under his elbow.",
-              "feedback": "Right. Holding it there is control without harm, honest friction instead of forcing something.",
+              "feedback": "Holding it there is control without harm, honest friction instead of forcing something.",
               "correct": true
             },
             {
@@ -146,7 +158,7 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
             },
             {
               "text": "Loosen the grip to let him breathe easier.",
-              "feedback": "Loosening the grip gives the position away for nothing."
+              "feedback": "Loosening the grip gives the position away."
             }
           ]
         }

@@ -61,6 +61,10 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
               "text": "Foot-to-Foot Contact with Overhook / Underhook"
             },
             {
+              "kind": "lead",
+              "text": "This is tripping a standing player by blocking his foot."
+            },
+            {
               "kind": "list",
               "items": [
                 "The overhook player wins when the underhook player falls onto his own hips or hands.",
@@ -73,6 +77,10 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
               "text": "Half Guard with Standing Transition Game"
             },
             {
+              "kind": "lead",
+              "text": "This is getting close to a partner on his back."
+            },
+            {
               "kind": "list",
               "items": [
                 "The bottom player wins by getting his feet inside and sitting up, or entangling the top player once he stands.",
@@ -83,6 +91,10 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
               "kind": "heading",
               "level": 3,
               "text": "Chest to Back Control Game"
+            },
+            {
+              "kind": "lead",
+              "text": "This is holding him from behind with your chest on his back."
             },
             {
               "kind": "list",
@@ -113,7 +125,7 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
+              "feedback": "Let go the instant he taps."
             },
             {
               "text": "Hurting your partner because you can",
@@ -136,7 +148,7 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
           "options": [
             {
               "text": "Stick that foot and pull for the sweep.",
-              "feedback": "Right. Using your strength to sweep him is power aimed at winning position, not at hurting him.",
+              "feedback": "Using your strength to sweep him is power aimed at winning position, not at hurting him.",
               "correct": true
             },
             {
@@ -145,7 +157,7 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
             },
             {
               "text": "Grab for his head instead of his foot.",
-              "feedback": "Grabbing for the head skips the setup you already have."
+              "feedback": "Stick the foot instead of grabbing his head."
             }
           ]
         }

@@ -62,6 +62,10 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
               "text": "Hand Fight with Precondition Game"
             },
             {
+              "kind": "lead",
+              "text": "This is fighting for the hands until you can wrap him up."
+            },
+            {
               "kind": "list",
               "items": [
                 "Whoever collects three touches and then connects first wins, closing his hands anywhere on his partner's body from shoulders to ankles."
@@ -71,6 +75,10 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
               "kind": "heading",
               "level": 3,
               "text": "Side Half Guard — Clear Hands to Get Under Elbow"
+            },
+            {
+              "kind": "lead",
+              "text": "This is clearing his arms to get under his elbow."
             },
             {
               "kind": "list",
@@ -83,6 +91,10 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
               "kind": "heading",
               "level": 3,
               "text": "Introductory Pin Game"
+            },
+            {
+              "kind": "lead",
+              "text": "This is holding someone down and escaping a hold."
             },
             {
               "kind": "list",
@@ -113,11 +125,11 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not tonight. These games end in a pin, not a finish."
+              "feedback": "These games end in a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
-              "feedback": "Never. Everyone goes light."
+              "feedback": "Everyone always goes light."
             }
           ]
         },
@@ -136,16 +148,16 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
           "options": [
             {
               "text": "Keep working from the grip you already have.",
-              "feedback": "Right. Working from what you already hold is how you reach the part of yourself you keep hidden.",
+              "feedback": "Working from what you already hold is how you reach the part of yourself you keep hidden.",
               "correct": true
             },
             {
               "text": "Let go and search for a totally new grip.",
-              "feedback": "Searching for something new here wastes ground you've already won."
+              "feedback": "Searching for something new wastes ground you've already won."
             },
             {
               "text": "Stop and wait to see what he tries.",
-              "feedback": "Waiting here stalls your count. Keep working your grip."
+              "feedback": "Keep working your grip instead of stopping."
             }
           ]
         }

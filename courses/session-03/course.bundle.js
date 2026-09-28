@@ -62,6 +62,10 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
               "text": "Hand Touch / Knee Touch Collection Game"
             },
             {
+              "kind": "lead",
+              "text": "This is scoring touches on the hands and knees while standing."
+            },
+            {
               "kind": "list",
               "items": [
                 "Whoever gets three touches first wins the round. The same rule applies to both players."
@@ -71,6 +75,10 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
               "kind": "heading",
               "level": 3,
               "text": "Belly-Up Open Guard Connection Foundation"
+            },
+            {
+              "kind": "lead",
+              "text": "This is getting past the legs of a partner holding your ankle."
             },
             {
               "kind": "list",
@@ -83,6 +91,10 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
               "kind": "heading",
               "level": 3,
               "text": "Introductory Pin Game"
+            },
+            {
+              "kind": "lead",
+              "text": "This is holding someone down and escaping a hold."
             },
             {
               "kind": "list",
@@ -113,11 +125,11 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not tonight. These games end in a pin, not a finish."
+              "feedback": "These games end in a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
-              "feedback": "Never. Everyone goes light."
+              "feedback": "Everyone always goes light."
             }
           ]
         },
@@ -136,7 +148,7 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
           "options": [
             {
               "text": "Use that grip to collect your touches.",
-              "feedback": "Right. Working from a grip you already hold is how you build trust step by step, not all at once.",
+              "feedback": "Working from a grip you already hold is how you build trust step by step.",
               "correct": true
             },
             {
@@ -145,7 +157,7 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
             },
             {
               "text": "Freeze and hope he touches first.",
-              "feedback": "Freezing gives him the round. Keep working your grip."
+              "feedback": "Keep working your grip."
             }
           ]
         }

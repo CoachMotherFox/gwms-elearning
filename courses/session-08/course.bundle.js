@@ -62,6 +62,10 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
               "text": "Hand Fight with Leg Pickup Option"
             },
             {
+              "kind": "lead",
+              "text": "This is fighting for the hands to pick up a leg."
+            },
+            {
               "kind": "list",
               "items": [
                 "Whoever controls and picks up a leg first wins. The same rule applies to both players."
@@ -71,6 +75,10 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
               "kind": "heading",
               "level": 3,
               "text": "Feet-Off Guard Passing Game"
+            },
+            {
+              "kind": "lead",
+              "text": "This is getting past the legs of a partner on his back."
             },
             {
               "kind": "list",
@@ -83,6 +91,10 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
               "kind": "heading",
               "level": 3,
               "text": "Pinning — Continuous Hip and Shoulder Connection from All Fours"
+            },
+            {
+              "kind": "lead",
+              "text": "This is keeping someone flat on the mat from behind."
             },
             {
               "kind": "list",
@@ -113,11 +125,11 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not tonight. These games end in a pin, not a finish."
+              "feedback": "These games end in a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
-              "feedback": "Never. Everyone goes light."
+              "feedback": "Everyone always goes light."
             }
           ]
         },
@@ -136,16 +148,16 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
           "options": [
             {
               "text": "Block his hips down with knee and foot.",
-              "feedback": "Right. Blocking the hips down is honest work, the same as staying honest when you're too tired to perform.",
+              "feedback": "Blocking the hips down is honest work, the same as staying honest when you're too tired to perform.",
               "correct": true
             },
             {
               "text": "Let the hips rise and reach for a choke.",
-              "feedback": "Chasing a finish here loses the position completely."
+              "feedback": "Chasing a finish here loses the position."
             },
             {
               "text": "Push down with your whole upper body.",
-              "feedback": "Leaning your weight doesn't hold hips down. Block with your knee and foot."
+              "feedback": "Block hips down with your knee and foot."
             }
           ]
         }

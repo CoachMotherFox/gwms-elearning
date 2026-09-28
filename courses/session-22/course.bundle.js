@@ -62,6 +62,10 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
               "text": "Hand Fight with Dual Win Conditions – Week 11 Game 1"
             },
             {
+              "kind": "lead",
+              "text": "This is fighting for grips to score touches or get an underhook."
+            },
+            {
               "kind": "list",
               "items": [
                 "Whoever gets there first wins, whether by three touches or by the underhook plus closed hands."
@@ -71,6 +75,10 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
               "kind": "heading",
               "level": 3,
               "text": "Guard Recovery with Passing Resistance Game"
+            },
+            {
+              "kind": "lead",
+              "text": "This is getting your legs back in front of you."
             },
             {
               "kind": "list",
@@ -83,6 +91,10 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
               "kind": "heading",
               "level": 3,
               "text": "Figure Four — Reintroduction with Hand-to-Mat or Knuckles-Behind Win"
+            },
+            {
+              "kind": "lead",
+              "text": "This is slowly moving a pinned arm to a touch."
             },
             {
               "kind": "list",
@@ -113,7 +125,7 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
+              "feedback": "Let go the instant he taps."
             },
             {
               "text": "Overpowering your partner with force",
@@ -136,7 +148,7 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
           "options": [
             {
               "text": "Drive his hand to the mat or his back.",
-              "feedback": "Right. Finishing slow and in control is what makes the move clean, the same control it takes to fix anything right.",
+              "feedback": "Finishing slow and in control is what makes the move clean.",
               "correct": true
             },
             {

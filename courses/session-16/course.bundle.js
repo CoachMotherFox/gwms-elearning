@@ -62,6 +62,10 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
               "text": "Underhook Introduction Game"
             },
             {
+              "kind": "lead",
+              "text": "This is using an arm under the armpit to get to a leg."
+            },
+            {
               "kind": "list",
               "items": [
                 "The underhook player wins by attaching to and picking up the overhook player's leg.",
@@ -74,6 +78,10 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
               "text": "Post and Hook Destabilization Game"
             },
             {
+              "kind": "lead",
+              "text": "This is knocking someone off balance with your feet."
+            },
+            {
               "kind": "list",
               "items": [
                 "The bottom player wins by putting the top player's hips on the floor using only posts and hooks.",
@@ -84,6 +92,10 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
               "kind": "heading",
               "level": 3,
               "text": "Riding Bottom Position Game"
+            },
+            {
+              "kind": "lead",
+              "text": "This is staying on top of someone on his hands and knees."
             },
             {
               "kind": "list",
@@ -114,7 +126,7 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
+              "feedback": "Let go the instant he taps."
             },
             {
               "text": "Overpowering your partner with force",
@@ -137,7 +149,7 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
           "options": [
             {
               "text": "Block his hips down with knee and foot.",
-              "feedback": "Right. Staying calm and blocking beats forcing harder, the same way you handle pushback anywhere else.",
+              "feedback": "Staying calm and blocking beats forcing harder, the same way you handle pushback anywhere else.",
               "correct": true
             },
             {
@@ -146,7 +158,7 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
             },
             {
               "text": "Back off and reset your position from scratch.",
-              "feedback": "Backing off gives up ground. Block with knee and foot instead."
+              "feedback": "Block with knee and foot instead of backing off."
             }
           ]
         }

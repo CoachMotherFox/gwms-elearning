@@ -59,6 +59,10 @@
               "text": "2v1 Hand Fight to Underhook to Close Hand Connection"
             },
             {
+              "kind": "lead",
+              "text": "This is getting an underhook, then wrapping him up."
+            },
+            {
               "kind": "list",
               "items": [
                 "Whoever connects first wins. The same rule applies to both players."
@@ -68,6 +72,10 @@
               "kind": "heading",
               "level": 3,
               "text": "Open Guard Takedown and Escape Game"
+            },
+            {
+              "kind": "lead",
+              "text": "This is knocking a standing man down, then standing up."
             },
             {
               "kind": "list",
@@ -80,6 +88,10 @@
               "kind": "heading",
               "level": 3,
               "text": "Chest to Back to Precursor Transitions Game"
+            },
+            {
+              "kind": "lead",
+              "text": "This is staying on his back and moving to a finishing start."
             },
             {
               "kind": "list",
@@ -110,7 +122,7 @@
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
+              "feedback": "Let go the instant he taps."
             },
             {
               "text": "Hurting your partner because you can",
@@ -133,7 +145,7 @@
           "options": [
             {
               "text": "Move to shoulder control without losing the pin.",
-              "feedback": "Right. Moving forward without losing what you built is counting the cost and the gain, both at once.",
+              "feedback": "Moving forward without losing what you built is counting the cost and the gain.",
               "correct": true
             },
             {
@@ -142,7 +154,7 @@
             },
             {
               "text": "Stay on the hips and skip the shoulder entirely.",
-              "feedback": "Staying still here leaves progress on the table."
+              "feedback": "Move to the shoulder instead of staying still."
             }
           ]
         }

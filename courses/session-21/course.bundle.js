@@ -62,6 +62,10 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
               "text": "Single Leg Destabilization — Two Paths"
             },
             {
+              "kind": "lead",
+              "text": "This is a takedown to one leg, two ways."
+            },
+            {
               "kind": "list",
               "items": [
                 "The attacker wins when the defender's hips or hands touch the mat.",
@@ -74,16 +78,24 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
               "text": "Knee Pit Touchdown Game"
             },
             {
+              "kind": "lead",
+              "text": "This is getting past the legs of a partner on his back."
+            },
+            {
               "kind": "list",
               "items": [
                 "The top player wins by touching both of the bottom player's knee pits with his own leg, feet off the mat.",
-                "The bottom player wins by sitting up."
+                "The bottom player wins by making the top player sit down, then sitting up himself."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
               "text": "Arm Lock Breaking Position Game"
+            },
+            {
+              "kind": "lead",
+              "text": "This is pulling apart locked hands to control one arm."
             },
             {
               "kind": "list",
@@ -114,7 +126,7 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
+              "feedback": "Let go the instant he taps."
             },
             {
               "text": "Overpowering your partner with force",
@@ -137,7 +149,7 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
           "options": [
             {
               "text": "Separate his hands and trap the arm in front.",
-              "feedback": "Right. Trapping your own piece of the position is like owning your own part of a break.",
+              "feedback": "Trapping your own piece of the position is like owning your own part of a break.",
               "correct": true
             },
             {
@@ -146,7 +158,7 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
             },
             {
               "text": "Wait for him to move his hands himself.",
-              "feedback": "Waiting here stalls the position. Separate the hands yourself."
+              "feedback": "Separate the hands yourself instead of waiting."
             }
           ]
         }

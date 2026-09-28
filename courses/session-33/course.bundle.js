@@ -61,6 +61,10 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
               "text": "Hand Fight with Dual Win Conditions – Week 11 Game 1"
             },
             {
+              "kind": "lead",
+              "text": "This is fighting for grips to score touches or get an underhook."
+            },
+            {
               "kind": "list",
               "items": [
                 "Whoever gets there first wins, whether by three touches or by the underhook plus closed hands."
@@ -70,6 +74,10 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
               "kind": "heading",
               "level": 3,
               "text": "Closed Guard — Post to Underhook to Locked Hands"
+            },
+            {
+              "kind": "lead",
+              "text": "This is catching an arm from your back and locking your hands."
             },
             {
               "kind": "list",
@@ -82,6 +90,10 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
               "kind": "heading",
               "level": 3,
               "text": "Chest-to-Back Connection Maintenance"
+            },
+            {
+              "kind": "lead",
+              "text": "This is staying on someone's back."
             },
             {
               "kind": "list",
@@ -112,7 +124,7 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
+              "feedback": "Let go the instant he taps."
             },
             {
               "text": "Hurting your partner because you can",
@@ -135,7 +147,7 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
           "options": [
             {
               "text": "Take the underhook, then lock your hands around him.",
-              "feedback": "Right. Causing the post, then the underhook, then the lock, in order, is exactly what a newer partner learns from watching you build it.",
+              "feedback": "Causing the post, then the underhook, then the lock is exactly what a newer partner learns from watching you.",
               "correct": true
             },
             {
@@ -144,7 +156,7 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
             },
             {
               "text": "Let go and hand fight from scratch again.",
-              "feedback": "Starting over gives away the post you already caused."
+              "feedback": "Take the underhook instead of starting over."
             }
           ]
         }

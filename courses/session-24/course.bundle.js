@@ -62,6 +62,10 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
               "text": "Hand Fight with Progression Game"
             },
             {
+              "kind": "lead",
+              "text": "This is a hand fight to get an underhook or a leg."
+            },
+            {
               "kind": "list",
               "items": [
                 "Whoever gets there first wins, whether by hooking under his partner's elbow or by picking up his partner's leg."
@@ -71,6 +75,10 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
               "kind": "heading",
               "level": 3,
               "text": "Open Guard Takedown and Escape Game"
+            },
+            {
+              "kind": "lead",
+              "text": "This is knocking a standing man down, then standing up."
             },
             {
               "kind": "list",
@@ -85,9 +93,13 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
               "text": "Figure Four to Precursor Positions Game"
             },
             {
+              "kind": "lead",
+              "text": "This is a shoulder lock start."
+            },
+            {
               "kind": "list",
               "items": [
-                "The top player wins by putting the bottom player's hand on the mat, behind his back, or locked on his arm.",
+                "The top player wins by putting the bottom player's hand on the mat or behind his back, or by reaching a finishing hold on his arm or his back.",
                 "The bottom player wins by freeing both of his own elbows."
               ]
             }
@@ -107,13 +119,13 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
           "retry": true,
           "options": [
             {
-              "text": "The top player wins by putting the bottom player's hand on the mat, behind his back, or locked on his arm.",
+              "text": "The top player wins by putting the bottom player's hand on the mat or behind his back, or by reaching a finishing hold on his arm or his back.",
               "correct": true,
               "feedback": "That's it."
             },
             {
               "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
+              "feedback": "Let go the instant he taps."
             },
             {
               "text": "Overpowering your partner with force",
@@ -136,16 +148,16 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
           "options": [
             {
               "text": "Take whichever finish the position gives you first.",
-              "feedback": "Right. Taking whatever repair the moment gives you, in any order, is how real repair actually works.",
+              "feedback": "Taking whatever repair the moment gives you is how real repair actually works.",
               "correct": true
             },
             {
               "text": "Stick to one fixed sequence no matter what.",
-              "feedback": "A fixed sequence ignores what the position is actually giving you."
+              "feedback": "A fixed sequence ignores what the position is giving you."
             },
             {
               "text": "Pause and plan out every step first.",
-              "feedback": "Pausing to plan loses the position. Take what's open now."
+              "feedback": "Take what's open now instead of planning."
             }
           ]
         }

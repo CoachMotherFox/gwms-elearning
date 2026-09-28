@@ -62,6 +62,10 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
               "text": "Hand Touch / Knee Touch with Close Hand Connection"
             },
             {
+              "kind": "lead",
+              "text": "This is a standing game of touches and body locks."
+            },
+            {
               "kind": "list",
               "items": [
                 "Whoever gets there first wins, whether by three touches or by any closed-hand connection."
@@ -71,6 +75,10 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
               "kind": "heading",
               "level": 3,
               "text": "Open Guard Takedown and Escape Game"
+            },
+            {
+              "kind": "lead",
+              "text": "This is knocking a standing man down, then standing up."
             },
             {
               "kind": "list",
@@ -83,6 +91,10 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
               "kind": "heading",
               "level": 3,
               "text": "Riding Bottom Position Game"
+            },
+            {
+              "kind": "lead",
+              "text": "This is staying on top of someone on his hands and knees."
             },
             {
               "kind": "list",
@@ -113,11 +125,11 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
             },
             {
               "text": "Submitting your partner",
-              "feedback": "Not tonight. These games end in a pin, not a finish."
+              "feedback": "These games end in a pin, not a finish."
             },
             {
               "text": "Putting your partner down hard",
-              "feedback": "Never. Everyone goes light."
+              "feedback": "Everyone always goes light."
             }
           ]
         },
@@ -136,16 +148,16 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
           "options": [
             {
               "text": "Block his hips down with knee and foot.",
-              "feedback": "Right. Blocking his hips down is the same discipline that got you from arrival all the way to who you are now.",
+              "feedback": "Blocking his hips down is the same discipline that got you from arrival all the way to who you are now.",
               "correct": true
             },
             {
               "text": "Grab for a choke and forget his hips.",
-              "feedback": "Chasing a finish here lets him stand up free."
+              "feedback": "Chasing a choke here lets him stand up free."
             },
             {
               "text": "Push down with your chest and stop moving.",
-              "feedback": "Leaning your chest doesn't block hips. Use your knee and foot."
+              "feedback": "Use your knee and foot, not your chest."
             }
           ]
         }
