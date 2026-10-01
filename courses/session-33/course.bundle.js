@@ -62,7 +62,7 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
             },
             {
               "kind": "lead",
-              "text": "This is fighting for grips to score touches or get an underhook."
+              "text": "This is fighting for touches or an underhook."
             },
             {
               "kind": "list",
@@ -77,7 +77,7 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
             },
             {
               "kind": "lead",
-              "text": "This is catching an arm from your back and locking your hands."
+              "text": "This is catching an arm and locking hands."
             },
             {
               "kind": "list",
@@ -105,38 +105,10 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
           ]
         },
         {
-          "id": "s33-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Chest-to-Back Connection Maintenance: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player holds as long as he keeps chest-to-back contact.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Holding the finish after your partner taps",
-              "feedback": "Let go the instant he taps."
-            },
-            {
-              "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing you never do."
-            }
-          ]
-        },
-        {
           "id": "s33-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false

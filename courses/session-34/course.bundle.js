@@ -62,7 +62,7 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
             },
             {
               "kind": "lead",
-              "text": "This is getting an underhook, then wrapping him up."
+              "text": "This is getting an underhook, then wrapping up."
             },
             {
               "kind": "list",
@@ -77,7 +77,7 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
             },
             {
               "kind": "lead",
-              "text": "This is knocking a standing man down, then standing up."
+              "text": "This is knocking a man down, then standing."
             },
             {
               "kind": "list",
@@ -93,7 +93,7 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
             },
             {
               "kind": "lead",
-              "text": "This is staying on his back and moving to a finishing start."
+              "text": "This is moving on his back to finish."
             },
             {
               "kind": "list",
@@ -105,38 +105,10 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
           ]
         },
         {
-          "id": "s34-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Chest to Back to Precursor Transitions Game: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player wins by reaching a precursor position on top.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Holding the finish after your partner taps",
-              "feedback": "Let go the instant he taps."
-            },
-            {
-              "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing you never do."
-            }
-          ]
-        },
-        {
           "id": "s34-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false

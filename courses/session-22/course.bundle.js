@@ -63,7 +63,7 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
             },
             {
               "kind": "lead",
-              "text": "This is fighting for grips to score touches or get an underhook."
+              "text": "This is fighting for touches or an underhook."
             },
             {
               "kind": "list",
@@ -78,7 +78,7 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
             },
             {
               "kind": "lead",
-              "text": "This is getting your legs back in front of you."
+              "text": "This is getting your legs back in front."
             },
             {
               "kind": "list",
@@ -94,7 +94,7 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
             },
             {
               "kind": "lead",
-              "text": "This is slowly moving a pinned arm to a touch."
+              "text": "This is slowly moving a pinned arm down."
             },
             {
               "kind": "list",
@@ -106,38 +106,10 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
           ]
         },
         {
-          "id": "s22-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Figure Four — Reintroduction with Hand-to-Mat or Knuckles-Behind Win: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player wins by putting the bottom player's palm on the mat, or his knuckles behind his back.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Holding the finish after your partner taps",
-              "feedback": "Let go the instant he taps."
-            },
-            {
-              "text": "Overpowering your partner with force",
-              "feedback": "Staying calm beats forcing harder."
-            }
-          ]
-        },
-        {
           "id": "s22-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false

@@ -63,12 +63,12 @@ window.GWMS_COURSE_BUNDLE["session-02"] =
             },
             {
               "kind": "lead",
-              "text": "This is fighting to get both arms under a standing player's arms."
+              "text": "This is fighting to get an underhook."
             },
             {
               "kind": "list",
               "items": [
-                "Whoever connects first wins by locking his hands around his partner's body, armpits to ankles."
+                "Whoever connects first locks his hands around his partner, armpits to ankles."
               ]
             },
             {
@@ -78,12 +78,12 @@ window.GWMS_COURSE_BUNDLE["session-02"] =
             },
             {
               "kind": "lead",
-              "text": "This is getting close to a partner holding one of your legs."
+              "text": "This is getting close while he blocks you."
             },
             {
               "kind": "list",
               "items": [
-                "The top player wins by getting under the bottom player's elbow and locking his own hands around him.",
+                "The top player wins by locking his hands under the bottom player's elbow.",
                 "The bottom player wins by closing his legs around the top player's waist."
               ]
             },
@@ -94,70 +94,42 @@ window.GWMS_COURSE_BUNDLE["session-02"] =
             },
             {
               "kind": "lead",
-              "text": "This is staying on top while sitting on his belly."
+              "text": "This is sitting on top of his belly."
             },
             {
               "kind": "list",
               "items": [
-                "The top player holds as long as he keeps one of the bottom player's elbows covered.",
-                "The bottom player wins by touching both elbows to his body, or making the top player fall."
+                "The top player holds by keeping an elbow covered.",
+                "The bottom player wins by getting both elbows home, or making the top player fall."
               ]
-            }
-          ]
-        },
-        {
-          "id": "s02-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Mount — Stay Under Both Elbows: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player holds as long as he keeps one of the bottom player's elbows covered.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Submitting your partner",
-              "feedback": "These games end in a pin, not a finish."
-            },
-            {
-              "text": "Putting your partner down hard",
-              "feedback": "Everyone always goes light."
             }
           ]
         },
         {
           "id": "s02-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false
           },
-          "question": "You and your partner are locked in an over-under tie, one arm over, one arm under, on both sides. What's the smart next move?",
+          "question": "Tonight you connected to a stranger's wrist, legs, and elbow. What made it hold?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Fight to close your hands under his elbows.",
-              "feedback": "Closing your hands under his elbows is how you arrive for real, not just show up.",
-              "correct": true
+              "text": "You made it on purpose, then you kept it.",
+              "correct": true,
+              "feedback": "A connection made on purpose can hold. One grabbed at random can't."
             },
             {
-              "text": "Let go and grab a fresh new hold.",
-              "feedback": "Keep fighting from where you already are."
+              "text": "You grabbed whatever was open and let it go.",
+              "feedback": "Grabbing at random is not the same as making a connection."
             },
             {
-              "text": "Hold still and wait for him to move.",
-              "feedback": "Keep working to close your hands."
+              "text": "You waited for him to make the first move.",
+              "feedback": "Waiting is not how you make contact with a stranger."
             }
           ]
         }

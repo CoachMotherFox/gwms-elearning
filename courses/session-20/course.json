@@ -61,13 +61,13 @@
             },
             {
               "kind": "lead",
-              "text": "This is a foot trip from a standing clinch."
+              "text": "This is a foot trip from a clinch."
             },
             {
               "kind": "list",
               "items": [
-                "The overhook player wins by putting the underhook player on a knee or his back.",
-                "The underhook player wins by lifting the overhook player, getting behind him, or picking up his leg."
+                "The overhook player wins by putting the underhook player on a knee or back.",
+                "The underhook player wins by lifting, stepping behind, or picking up a leg."
               ]
             },
             {
@@ -77,13 +77,13 @@
             },
             {
               "kind": "lead",
-              "text": "This is standing up to open legs locked around your waist."
+              "text": "This is standing up to open his guard."
             },
             {
               "kind": "list",
               "items": [
-                "The top player wins by getting to his feet and opening the guard.",
-                "The bottom player wins by stopping the top player's win for 30 seconds. Then switch."
+                "The top player wins by standing and opening the guard.",
+                "The bottom player wins by stopping the top player for 30 seconds, then switching."
               ]
             },
             {
@@ -93,70 +93,42 @@
             },
             {
               "kind": "lead",
-              "text": "This is trapping the head and one arm together."
+              "text": "This is trapping his head and one arm."
             },
             {
               "kind": "list",
               "items": [
                 "The top player wins with the arm trapped at the head.",
-                "The bottom player wins by pulling his own trapped elbow back against his body, or by bridging and rolling the top player off."
+                "The bottom player wins by pulling his trapped elbow home, or rolling the top player off."
               ]
-            }
-          ]
-        },
-        {
-          "id": "s20-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Head and Arm Strangle — Close Position Start: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player wins with the arm trapped at the head.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Holding the finish after your partner taps",
-              "feedback": "Let go the instant he taps."
-            },
-            {
-              "text": "Overpowering your partner with force",
-              "feedback": "Staying calm beats forcing harder."
             }
           ]
         },
         {
           "id": "s20-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false
           },
-          "question": "You're building a strangle from your partner's back, and your arm has just touched him. What's the smart move?",
+          "question": "Tonight you broke his balance, his lock, and his defense. What made each break work?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Keep that arm right where it landed.",
-              "feedback": "Keeping the arm in place takes the same patience as fixing a break.",
-              "correct": true
+              "text": "You did it in order and stopped at the win.",
+              "correct": true,
+              "feedback": "A break you control can be fixed. A break you leave is the real problem."
             },
             {
-              "text": "Pull the arm back to make more space.",
-              "feedback": "Pulling back loses the finish you just started."
+              "text": "You went as hard and as fast as you could.",
+              "feedback": "Speed and force are not what made the break work."
             },
             {
-              "text": "Switch your grip to his head instead.",
-              "feedback": "The finish starts on his back, not his head."
+              "text": "You kept going until your partner could not continue.",
+              "feedback": "Not stopping at the win is not the same as winning."
             }
           ]
         }

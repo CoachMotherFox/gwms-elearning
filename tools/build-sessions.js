@@ -116,65 +116,46 @@ function screenGolmestRecap(s) {
   };
 }
 
-/* The quiz always checks the pinned game's win for the top player — the
-   position every session builds toward, and the one the stage's two wrong
-   answers (the finish/harm rules) are written against. Session 1 has no
-   pinned game, so it checks the tap instead. correctHead/correctText/
+/* Session 1 only: checks the tap rule instead of a pinned game, since the
+   GOLMEST orientation night has no games. Dropped for every other session
+   on October 1, 2026 — screenConcept is now the one quiz per session, and it
+   no longer tests a game's win at all. correctHead/correctText/
    incorrectHead/incorrectText/revealText are left out on purpose: the engine
-   already has its own default wording for all five, repeated identically
-   across all 36 sessions otherwise. */
-function screenCheck(s, stage) {
-  if (s.golmest) {
-    const g = s.golmest;
-    return {
-      id: `s${pad(s.n)}-check`,
-      type: 'quiz',
-      eyebrow: 'Quick check',
-      title: 'What you just learned',
-      assessment: { role: 'formative', scored: false },
-      question: g.quizQuestion,
-      select: 'single',
-      retry: true,
-      options: [
-        { text: g.quizCorrect, correct: true, feedback: 'That\'s it, every session.' },
-        { text: g.quizWrong[0], feedback: 'Too slow. Stop right away.' },
-        { text: g.quizWrong[1], feedback: 'Too slow. Stop right away.' }
-      ]
-    };
-  }
-
-  const pinned = s.games[2];
-  const win = pinned.win[0];
+   already has its own default wording for all five. */
+function screenCheck(s) {
+  const g = s.golmest;
   return {
     id: `s${pad(s.n)}-check`,
     type: 'quiz',
     eyebrow: 'Quick check',
-    title: 'How you win it',
+    title: 'What you just learned',
     assessment: { role: 'formative', scored: false },
-    question: `${gameTitle(pinned.title)}: the top player's win?`,
+    question: g.quizQuestion,
     select: 'single',
     retry: true,
     options: [
-      { text: `${win.role} ${win.text}`, correct: true, feedback: "That's it." },
-      stage.wrongAnswers[0],
-      stage.wrongAnswers[1]
+      { text: g.quizCorrect, correct: true, feedback: 'That\'s it, every session.' },
+      { text: g.quizWrong[0], feedback: 'Too slow. Stop right away.' },
+      { text: g.quizWrong[1], feedback: 'Too slow. Stop right away.' }
     ]
   };
 }
 
-/* A second, separate quiz from screenCheck: this one is not about that
-   night's games at all. It draws on a white- or blue-level Enabling
-   Objective from the Codex (Chapter 21), matched to one of that night's
-   actual games and phrased as an in-progress moment on the mat. Belt
-   names and colors never appear to the learner. Only present when the
-   curriculum data supplies s.concept (every session but Session 1). */
+/* The one quiz for sessions 2-36, rebuilt October 1, 2026. It no longer
+   tests a game's win (that screen is gone) or an isolated moment on the
+   mat (the September 27 version). It tests that night's own lesson: the
+   curriculum data's "lesson" field, synthesized from that session's
+   Grappling Class Guide in Notion — tonight's thread plus the three
+   Conceptualize lines, one per game — and ties the correct answer back to
+   the night's probing question. Only present when the curriculum data
+   supplies s.concept (every session but Session 1). */
 function screenConcept(s) {
   const c = s.concept;
   return {
     id: `s${pad(s.n)}-concept`,
     type: 'quiz',
-    eyebrow: 'On the mat',
-    title: 'What would you do?',
+    eyebrow: "Tonight's lesson",
+    title: 'What made it work?',
     assessment: { role: 'formative', scored: false },
     question: c.question,
     select: 'single',
@@ -234,9 +215,9 @@ function screenIRF(s, isLast) {
 function buildCourse(s, stage) {
   const today = [
     screenQuestion(s),
-    s.golmest ? screenGolmestRecap(s) : screenGames(s),
-    screenCheck(s, stage)
+    s.golmest ? screenGolmestRecap(s) : screenGames(s)
   ];
+  if (s.golmest) today.push(screenCheck(s));
   if (s.concept) today.push(screenConcept(s));
 
   const close = [

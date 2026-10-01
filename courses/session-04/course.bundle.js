@@ -63,7 +63,7 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
             },
             {
               "kind": "lead",
-              "text": "This is a standing hand fight to get an arm under his armpit."
+              "text": "This is a hand fight for the underhook."
             },
             {
               "kind": "list",
@@ -78,7 +78,7 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
             },
             {
               "kind": "lead",
-              "text": "This is keeping someone's feet off you while you step in close."
+              "text": "This is keeping his feet off you."
             },
             {
               "kind": "list",
@@ -94,7 +94,7 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
             },
             {
               "kind": "lead",
-              "text": "This is staying on top of someone on his hands and knees."
+              "text": "This is staying on top, hands and knees."
             },
             {
               "kind": "list",
@@ -106,38 +106,10 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
           ]
         },
         {
-          "id": "s04-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Riding Bottom Position Game: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player holds as long as he keeps the bottom player broken down.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Submitting your partner",
-              "feedback": "These games end in a pin, not a finish."
-            },
-            {
-              "text": "Putting your partner down hard",
-              "feedback": "Everyone always goes light."
-            }
-          ]
-        },
-        {
           "id": "s04-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false

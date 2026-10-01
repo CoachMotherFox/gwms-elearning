@@ -61,13 +61,13 @@
             },
             {
               "kind": "lead",
-              "text": "This is one player wrapping up while the other stays away."
+              "text": "This is wrapping up while he stays away."
             },
             {
               "kind": "list",
               "items": [
                 "The touch player wins with three touches in a row.",
-                "The connection player wins by locking his hands around the touch player, from armpits to ankles."
+                "The connection player wins by locking hands around him, armpits to ankles."
               ]
             },
             {
@@ -77,13 +77,13 @@
             },
             {
               "kind": "lead",
-              "text": "This is fighting for the hands while trapped in his legs."
+              "text": "This is fighting for hands inside his guard."
             },
             {
               "kind": "list",
               "items": [
-                "The bottom player wins by making the top player's hands touch the mat one time.",
-                "The top player wins by standing all the way up while still controlling a wrist or pinning the hips."
+                "The bottom player wins by making the top player's hand touch mat.",
+                "The top player wins by standing while controlling a wrist or pinning the hips."
               ]
             },
             {
@@ -93,70 +93,42 @@
             },
             {
               "kind": "lead",
-              "text": "This is holding a person down by keeping his elbows open."
+              "text": "This is holding someone by his elbows."
             },
             {
               "kind": "list",
               "items": [
-                "The top player wins by keeping the bottom player's elbows away from his body the whole time.",
-                "The bottom player wins by bringing both elbows to his body, or making the top player fall."
+                "The top player wins by keeping the bottom player's elbows off him.",
+                "The bottom player wins by bringing both elbows home, or making the top player fall."
               ]
-            }
-          ]
-        },
-        {
-          "id": "s14-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Chest-to-Chest Elbow Control Game: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player wins by keeping the bottom player's elbows away from his body the whole time.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Holding the finish after your partner taps",
-              "feedback": "Let go the instant he taps."
-            },
-            {
-              "text": "Overpowering your partner with force",
-              "feedback": "Staying calm beats forcing harder."
             }
           ]
         },
         {
           "id": "s14-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false
           },
-          "question": "You're holding a chest-to-chest pin, and your partner is fighting to pull one elbow free. What's the smart move?",
+          "question": "Tonight you and your partner chased two different wins. What made that work?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Stay under the elbow, or get back under fast.",
-              "feedback": "Staying under the elbow is what keeps the pin alive, the same dial you turn to let someone in.",
-              "correct": true
+              "text": "You each had a different job, and that was fine.",
+              "correct": true,
+              "feedback": "Letting someone in is not doing his job. It's trusting you both have one."
             },
             {
-              "text": "Let the elbow go and grab his wrist instead.",
-              "feedback": "That gives up the pin completely."
+              "text": "You both had to chase the exact same win.",
+              "feedback": "Two players in the same game can still have two different jobs."
             },
             {
-              "text": "Push down harder with your whole body weight.",
-              "feedback": "Stay under the elbow instead of pushing harder."
+              "text": "Whoever tried the hardest was doing it right.",
+              "feedback": "Trying hard at the wrong job still misses the point."
             }
           ]
         }

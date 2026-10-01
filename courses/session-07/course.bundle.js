@@ -79,7 +79,7 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
             },
             {
               "kind": "lead",
-              "text": "This is standing up to open legs locked around your waist."
+              "text": "This is standing up to open his guard."
             },
             {
               "kind": "list",
@@ -95,7 +95,7 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
             },
             {
               "kind": "lead",
-              "text": "This is flattening someone on his hands and knees."
+              "text": "This is flattening someone on hands and knees."
             },
             {
               "kind": "list",
@@ -107,38 +107,10 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
           ]
         },
         {
-          "id": "s07-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Referee Position Ride and Break Down: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player holds as long as he keeps the bottom player broken down.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Submitting your partner",
-              "feedback": "These games end in a pin, not a finish."
-            },
-            {
-              "text": "Putting your partner down hard",
-              "feedback": "Everyone always goes light."
-            }
-          ]
-        },
-        {
           "id": "s07-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false

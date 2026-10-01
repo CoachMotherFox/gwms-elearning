@@ -63,7 +63,7 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
             },
             {
               "kind": "lead",
-              "text": "This is using both hands on one arm to get close."
+              "text": "This is using both hands to get close."
             },
             {
               "kind": "list",
@@ -78,7 +78,7 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
             },
             {
               "kind": "lead",
-              "text": "This is catching an arm from your back and locking your hands."
+              "text": "This is catching an arm and locking hands."
             },
             {
               "kind": "list",
@@ -94,7 +94,7 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
             },
             {
               "kind": "lead",
-              "text": "This is staying on top while sitting on his belly."
+              "text": "This is sitting on top of his belly."
             },
             {
               "kind": "list",
@@ -106,38 +106,10 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
           ]
         },
         {
-          "id": "s15-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Mount — Stay Under Both Elbows: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player holds as long as he keeps one of the bottom player's elbows covered.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Holding the finish after your partner taps",
-              "feedback": "Let go the instant he taps."
-            },
-            {
-              "text": "Overpowering your partner with force",
-              "feedback": "Staying calm beats forcing harder."
-            }
-          ]
-        },
-        {
           "id": "s15-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false

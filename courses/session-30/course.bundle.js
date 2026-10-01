@@ -62,7 +62,7 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
             },
             {
               "kind": "lead",
-              "text": "This is tripping a standing player by blocking his foot."
+              "text": "This is tripping him by blocking his foot."
             },
             {
               "kind": "list",
@@ -78,7 +78,7 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
             },
             {
               "kind": "lead",
-              "text": "This is getting close to a partner on his back."
+              "text": "This is getting close to his back."
             },
             {
               "kind": "list",
@@ -94,7 +94,7 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
             },
             {
               "kind": "lead",
-              "text": "This is holding him from behind with your chest on his back."
+              "text": "This is holding his back from behind."
             },
             {
               "kind": "list",
@@ -106,38 +106,10 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
           ]
         },
         {
-          "id": "s30-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Chest to Back Control Game: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player holds as long as he keeps contact.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Holding the finish after your partner taps",
-              "feedback": "Let go the instant he taps."
-            },
-            {
-              "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing you never do."
-            }
-          ]
-        },
-        {
           "id": "s30-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false

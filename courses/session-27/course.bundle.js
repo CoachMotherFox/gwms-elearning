@@ -62,7 +62,7 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
             },
             {
               "kind": "lead",
-              "text": "This is using an arm under his armpit to lock around his waist."
+              "text": "This is locking his waist with an underhook."
             },
             {
               "kind": "list",
@@ -78,7 +78,7 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
             },
             {
               "kind": "lead",
-              "text": "This is getting a trapped leg free and getting around the legs."
+              "text": "This is freeing a trapped leg to pass."
             },
             {
               "kind": "list",
@@ -94,7 +94,7 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
             },
             {
               "kind": "lead",
-              "text": "This is staying stuck to his back while he tries to turn."
+              "text": "This is staying stuck to his back, turning."
             },
             {
               "kind": "list",
@@ -106,38 +106,10 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
           ]
         },
         {
-          "id": "s27-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Chest-to-Back Position Maintenance: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player wins by keeping control through the round.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Holding the finish after your partner taps",
-              "feedback": "Let go the instant he taps."
-            },
-            {
-              "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing you never do."
-            }
-          ]
-        },
-        {
           "id": "s27-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false

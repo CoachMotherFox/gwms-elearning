@@ -62,7 +62,7 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
             },
             {
               "kind": "lead",
-              "text": "This is getting behind someone who is bent over."
+              "text": "This is getting behind someone bent over."
             },
             {
               "kind": "list",
@@ -78,7 +78,7 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
             },
             {
               "kind": "lead",
-              "text": "This is knocking a standing partner down using your feet and one hand."
+              "text": "This is knocking a standing partner down."
             },
             {
               "kind": "list",
@@ -94,7 +94,7 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
             },
             {
               "kind": "lead",
-              "text": "This is staying behind someone using only your arms."
+              "text": "This is staying behind someone, arms only."
             },
             {
               "kind": "list",
@@ -106,38 +106,10 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
           ]
         },
         {
-          "id": "s29-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Back Control Elbow Management — No Hooks: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The back player holds as long as he keeps control.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Holding the finish after your partner taps",
-              "feedback": "Let go the instant he taps."
-            },
-            {
-              "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing you never do."
-            }
-          ]
-        },
-        {
           "id": "s29-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false

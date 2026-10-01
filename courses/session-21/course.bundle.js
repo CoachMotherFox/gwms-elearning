@@ -63,7 +63,7 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
             },
             {
               "kind": "lead",
-              "text": "This is a takedown to one leg, two ways."
+              "text": "This is a takedown to one leg, twice."
             },
             {
               "kind": "list",
@@ -79,7 +79,7 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
             },
             {
               "kind": "lead",
-              "text": "This is getting past the legs of a partner on his back."
+              "text": "This is passing the legs from on top."
             },
             {
               "kind": "list",
@@ -95,7 +95,7 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
             },
             {
               "kind": "lead",
-              "text": "This is pulling apart locked hands to control one arm."
+              "text": "This is separating hands to trap one arm."
             },
             {
               "kind": "list",
@@ -107,38 +107,10 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
           ]
         },
         {
-          "id": "s21-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Arm Lock Breaking Position Game: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player wins by separating the bottom player's hands and locking two grips on his wrist.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Holding the finish after your partner taps",
-              "feedback": "Let go the instant he taps."
-            },
-            {
-              "text": "Overpowering your partner with force",
-              "feedback": "Staying calm beats forcing harder."
-            }
-          ]
-        },
-        {
           "id": "s21-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false

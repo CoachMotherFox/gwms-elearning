@@ -63,7 +63,7 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
             },
             {
               "kind": "lead",
-              "text": "This is scoring touches on the hands and knees while standing."
+              "text": "This is scoring touches while standing."
             },
             {
               "kind": "list",
@@ -78,7 +78,7 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
             },
             {
               "kind": "lead",
-              "text": "This is getting past the legs of a partner holding your ankle."
+              "text": "This is passing the legs from on top."
             },
             {
               "kind": "list",
@@ -94,7 +94,7 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
             },
             {
               "kind": "lead",
-              "text": "This is holding someone down and escaping a hold."
+              "text": "This is holding someone down, then escaping."
             },
             {
               "kind": "list",
@@ -106,38 +106,10 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
           ]
         },
         {
-          "id": "s03-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Introductory Pin Game: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player holds the pin.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Submitting your partner",
-              "feedback": "These games end in a pin, not a finish."
-            },
-            {
-              "text": "Putting your partner down hard",
-              "feedback": "Everyone always goes light."
-            }
-          ]
-        },
-        {
           "id": "s03-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false

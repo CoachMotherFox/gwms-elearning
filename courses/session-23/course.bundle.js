@@ -63,7 +63,7 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
             },
             {
               "kind": "lead",
-              "text": "This is using an arm under the armpit to get to a leg."
+              "text": "This is using an underhook for a leg."
             },
             {
               "kind": "list",
@@ -79,7 +79,7 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
             },
             {
               "kind": "lead",
-              "text": "This is keeping your feet on him so he cannot pass."
+              "text": "This is keeping your feet on him, close."
             },
             {
               "kind": "list",
@@ -95,7 +95,7 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
             },
             {
               "kind": "lead",
-              "text": "This is staying on top with your arms under his elbows."
+              "text": "This is staying on top, under his elbows."
             },
             {
               "kind": "list",
@@ -107,38 +107,10 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
           ]
         },
         {
-          "id": "s23-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Chest to Chest Under Elbows Maintenance: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player holds as long as he keeps both of the bottom player's elbows covered.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Holding the finish after your partner taps",
-              "feedback": "Let go the instant he taps."
-            },
-            {
-              "text": "Overpowering your partner with force",
-              "feedback": "Staying calm beats forcing harder."
-            }
-          ]
-        },
-        {
           "id": "s23-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false

@@ -48,7 +48,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is locking your hands around his body while standing."
+          "whatItIs": "This is locking hands around him while standing."
         },
         {
           "skill": "Arriving",
@@ -67,7 +67,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is going around the legs to get chest to chest."
+          "whatItIs": "This is passing around to reach his chest."
         },
         {
           "skill": "Controlling",
@@ -86,7 +86,7 @@
             }
           ],
           "reset": "The top player holds no matter what. If the bottom player gets both elbows to his body, that is his win, and you start over. Roles switch after every win.",
-          "whatItIs": "This is staying on top with your arms under his elbows."
+          "whatItIs": "This is staying on top, under his elbows."
         }
       ],
       "connection": "Holding contact on the mat and noticing what contact does to you are the same skill. Both mean staying present when someone gets close, instead of pushing them away. The pin teaches your body to stay. Thinking about it teaches your mind why staying is hard.",
@@ -128,11 +128,11 @@
             },
             {
               "role": "The connection player",
-              "text": "wins by locking his hands around the touch player, from armpits to ankles."
+              "text": "wins by locking hands around him, armpits to ankles."
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is one player wrapping up while the other stays away."
+          "whatItIs": "This is wrapping up while he stays away."
         },
         {
           "skill": "Arriving",
@@ -143,15 +143,15 @@
           "win": [
             {
               "role": "The bottom player",
-              "text": "wins by making the top player's hands touch the mat one time."
+              "text": "wins by making the top player's hand touch mat."
             },
             {
               "role": "The top player",
-              "text": "wins by standing all the way up while still controlling a wrist or pinning the hips."
+              "text": "wins by standing while controlling a wrist or pinning the hips."
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is fighting for the hands while trapped in his legs."
+          "whatItIs": "This is fighting for hands inside his guard."
         },
         {
           "skill": "Controlling",
@@ -162,34 +162,35 @@
           "win": [
             {
               "role": "The top player",
-              "text": "wins by keeping the bottom player's elbows away from his body the whole time."
+              "text": "wins by keeping the bottom player's elbows off him."
             },
             {
               "role": "The bottom player",
-              "text": "wins by bringing both elbows to his body, or making the top player fall."
+              "text": "wins by bringing both elbows home, or making the top player fall."
             }
           ],
           "reset": "The top player holds no matter what. If the bottom player gets both elbows to his body, that is his win, and you start over. Roles switch after every win.",
-          "whatItIs": "This is holding a person down by keeping his elbows open."
+          "whatItIs": "This is holding someone by his elbows."
         }
       ],
       "connection": "Keeping a pin means feeling your partner and adjusting to them, not clamping down and ignoring them. Letting someone in works the same way. You hold the connection by reading the other person, not by shutting them out and pushing through alone.",
       "takeaway": "Tonight you worked from the hand fight, closed guard, and a chest-to-chest pin. Keeping a pin means feeling your partner and adjusting to him, not clamping down and ignoring him. You can turn that same dial with people, adjusting to them instead of shutting them out. Letting someone in is a choice you make.",
       "concept": {
-        "question": "You're holding a chest-to-chest pin, and your partner is fighting to pull one elbow free. What's the smart move?",
+        "lesson": "Each game had two different wins, for two different jobs. Letting someone in does not mean doing his job.",
+        "question": "Tonight you and your partner chased two different wins. What made that work?",
         "options": [
           {
-            "text": "Stay under the elbow, or get back under fast.",
-            "feedback": "Staying under the elbow is what keeps the pin alive, the same dial you turn to let someone in.",
-            "correct": true
+            "text": "You each had a different job, and that was fine.",
+            "correct": true,
+            "feedback": "Letting someone in is not doing his job. It's trusting you both have one."
           },
           {
-            "text": "Let the elbow go and grab his wrist instead.",
-            "feedback": "That gives up the pin completely."
+            "text": "You both had to chase the exact same win.",
+            "feedback": "Two players in the same game can still have two different jobs."
           },
           {
-            "text": "Push down harder with your whole body weight.",
-            "feedback": "Stay under the elbow instead of pushing harder."
+            "text": "Whoever tried the hardest was doing it right.",
+            "feedback": "Trying hard at the wrong job still misses the point."
           }
         ]
       }
@@ -212,7 +213,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is using both hands on one arm to get close."
+          "whatItIs": "This is using both hands to get close."
         },
         {
           "skill": "Arriving",
@@ -231,7 +232,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is catching an arm from your back and locking your hands."
+          "whatItIs": "This is catching an arm and locking hands."
         },
         {
           "skill": "Controlling",
@@ -250,7 +251,7 @@
             }
           ],
           "reset": "The top player holds no matter what. If he loses both elbows, that is the bottom player's win, and you start over. Roles switch after every win.",
-          "whatItIs": "This is staying on top while sitting on his belly."
+          "whatItIs": "This is sitting on top of his belly."
         }
       ],
       "connection": "The Descent found the real you. Now it goes to the mat with a partner. Rolling as the real you, instead of a mask, is the same as showing up honest in a relationship instead of performing one.",
@@ -296,7 +297,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is using an arm under the armpit to get to a leg."
+          "whatItIs": "This is using an underhook for a leg."
         },
         {
           "skill": "Arriving",
@@ -315,7 +316,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is knocking someone off balance with your feet."
+          "whatItIs": "This is knocking someone off balance, feet only."
         },
         {
           "skill": "Controlling",
@@ -334,7 +335,7 @@
             }
           ],
           "reset": "The top player holds no matter what. If the bottom player stands and turns to face him, that is his win, and you start over. Roles switch after every win.",
-          "whatItIs": "This is staying on top of someone on his hands and knees."
+          "whatItIs": "This is staying on top, hands and knees."
         }
       ],
       "connection": "A partner resisting the pin is pushback made physical. What you do when they fight the pin is usually what you do when people push back in life. Both reward staying calm and adjusting over forcing harder.",
@@ -380,7 +381,7 @@
             }
           ],
           "reset": "This one runs without a break. Play continues until someone wins, then you switch roles.",
-          "whatItIs": "This is taking him down from behind by blocking one leg."
+          "whatItIs": "This is a takedown from behind, one leg."
         },
         {
           "skill": "Arriving",
@@ -399,7 +400,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is getting your legs back in front of you."
+          "whatItIs": "This is getting your legs back in front."
         },
         {
           "skill": "Controlling",
@@ -418,7 +419,7 @@
             }
           ],
           "reset": "The attacker holds no matter what. If the defender reaches a quad pod, that is his win, and you start over. Roles switch after every win.",
-          "whatItIs": "This is keeping a man flat when he balls up."
+          "whatItIs": "This is keeping a balled up man flat."
         }
       ],
       "connection": "Staying in an uncomfortable pin instead of scrambling out is like staying in a hard conversation. Both take the same skill: putting up with discomfort instead of running from it.",
@@ -465,7 +466,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is tripping a standing player by blocking his foot."
+          "whatItIs": "This is tripping him by blocking his foot."
         },
         {
           "skill": "Arriving",
@@ -484,7 +485,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is knocking a standing man down from sitting."
+          "whatItIs": "This is knocking a standing man down, sitting."
         },
         {
           "skill": "Controlling",
@@ -503,7 +504,7 @@
             }
           ],
           "reset": "The top player holds no matter what. If the bottom player breaks the grip, that is his win, and you start over. Roles switch after every win.",
-          "whatItIs": "This is holding one arm with both hands locked."
+          "whatItIs": "This is holding one arm with both hands."
         }
       ],
       "connection": "You can pin someone hard and still keep them safe. That is control of your own force. Your conflict off the mat lands on real people too, and the same control applies: honest friction, not harm.",
@@ -568,7 +569,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is getting your legs back after he passes them."
+          "whatItIs": "This is getting your legs back after passing."
         },
         {
           "skill": "Controlling",
@@ -587,7 +588,7 @@
             }
           ],
           "reset": "The top player holds no matter what. If the bottom player breaks the grip, that is his win, and you start over. Roles switch after every win.",
-          "whatItIs": "This is holding one arm with both hands locked."
+          "whatItIs": "This is holding one arm with both hands."
         }
       ],
       "connection": "Losing the pin and getting reversed is a small rupture. How you handle that break on the mat, a clean reset or payback, is a lot like how you handle broken connections in life.",
@@ -625,15 +626,15 @@
           "win": [
             {
               "role": "The overhook player",
-              "text": "wins by putting the underhook player on a knee or his back."
+              "text": "wins by putting the underhook player on a knee or back."
             },
             {
               "role": "The underhook player",
-              "text": "wins by lifting the overhook player, getting behind him, or picking up his leg."
+              "text": "wins by lifting, stepping behind, or picking up a leg."
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is a foot trip from a standing clinch."
+          "whatItIs": "This is a foot trip from a clinch."
         },
         {
           "skill": "Arriving",
@@ -644,15 +645,15 @@
           "win": [
             {
               "role": "The top player",
-              "text": "wins by getting to his feet and opening the guard."
+              "text": "wins by standing and opening the guard."
             },
             {
               "role": "The bottom player",
-              "text": "wins by stopping the top player's win for 30 seconds. Then switch."
+              "text": "wins by stopping the top player for 30 seconds, then switching."
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is standing up to open legs locked around your waist."
+          "whatItIs": "This is standing up to open his guard."
         },
         {
           "skill": "Finishing",
@@ -667,32 +668,33 @@
             },
             {
               "role": "The bottom player",
-              "text": "wins by pulling his own trapped elbow back against his body, or by bridging and rolling the top player off."
+              "text": "wins by pulling his trapped elbow home, or rolling the top player off."
             }
           ],
           "reset": "The win is the trap, not the strangle. No finish is shown. The tap is honored instantly, every time. Roles switch after every win.",
           "note": "The win here is the trap, not the finish. No finish is demonstrated.",
-          "whatItIs": "This is trapping the head and one arm together."
+          "whatItIs": "This is trapping his head and one arm."
         }
       ],
       "connection": "A finish you can apply and release on the tap is power you control. Leaving a break unrepaired is choosing not to release, not to reset. The tap is the invitation to repair. This week asks whether you take it.",
       "privateOk": true,
       "takeaway": "Tonight you worked from an underhook tie, closed guard, and mount. On the mat, a finish is only safe if you let go the second your partner taps. Letting go is a choice you control. Fixing something broken between two people is a choice too.",
       "concept": {
-        "question": "You're building a strangle from your partner's back, and your arm has just touched him. What's the smart move?",
+        "lesson": "You break something on purpose, in order, with control, and you choose where it stops.",
+        "question": "Tonight you broke his balance, his lock, and his defense. What made each break work?",
         "options": [
           {
-            "text": "Keep that arm right where it landed.",
-            "feedback": "Keeping the arm in place takes the same patience as fixing a break.",
-            "correct": true
+            "text": "You did it in order and stopped at the win.",
+            "correct": true,
+            "feedback": "A break you control can be fixed. A break you leave is the real problem."
           },
           {
-            "text": "Pull the arm back to make more space.",
-            "feedback": "Pulling back loses the finish you just started."
+            "text": "You went as hard and as fast as you could.",
+            "feedback": "Speed and force are not what made the break work."
           },
           {
-            "text": "Switch your grip to his head instead.",
-            "feedback": "The finish starts on his back, not his head."
+            "text": "You kept going until your partner could not continue.",
+            "feedback": "Not stopping at the win is not the same as winning."
           }
         ]
       }
@@ -719,7 +721,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is a takedown to one leg, two ways."
+          "whatItIs": "This is a takedown to one leg, twice."
         },
         {
           "skill": "Arriving",
@@ -738,7 +740,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is getting past the legs of a partner on his back."
+          "whatItIs": "This is passing the legs from on top."
         },
         {
           "skill": "Finishing",
@@ -758,7 +760,7 @@
           ],
           "reset": "The win is the breaking position, not the break. No finish is shown. The tap is honored instantly, every time. Roles switch after every win.",
           "note": "The win here is the position, not the finish. No finish is demonstrated.",
-          "whatItIs": "This is pulling apart locked hands to control one arm."
+          "whatItIs": "This is separating hands to trap one arm."
         }
       ],
       "connection": "On the mat you can name your own mistake in a round without blaming your partner. Owning your part of a rupture works the same way. It starts with separating your piece from theirs.",
@@ -800,7 +802,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is fighting for grips to score touches or get an underhook."
+          "whatItIs": "This is fighting for touches or an underhook."
         },
         {
           "skill": "Arriving",
@@ -819,7 +821,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is getting your legs back in front of you."
+          "whatItIs": "This is getting your legs back in front."
         },
         {
           "skill": "Finishing",
@@ -839,7 +841,7 @@
           ],
           "reset": "Switch arms every time someone wins, and swap top and bottom too. The win is the hand to the mat, not the finish. No finish is shown.",
           "note": "The win here is the hand to the mat or behind the back, not the finish. No finish is demonstrated.",
-          "whatItIs": "This is slowly moving a pinned arm to a touch."
+          "whatItIs": "This is slowly moving a pinned arm down."
         }
       ],
       "connection": "Resetting and rolling clean with someone right after a hard round is like squaring up with words. A real apology is the same kind of reset: you get back in instead of carrying the grudge.",
@@ -885,7 +887,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is using an arm under the armpit to get to a leg."
+          "whatItIs": "This is using an underhook for a leg."
         },
         {
           "skill": "Arriving",
@@ -904,7 +906,7 @@
             }
           ],
           "reset": "The bottom player holds no matter what. If the top player gets outside and connects, that is his win, and you start over. Roles switch after every win.",
-          "whatItIs": "This is keeping your feet on him so he cannot pass."
+          "whatItIs": "This is keeping your feet on him, close."
         },
         {
           "skill": "Controlling",
@@ -923,7 +925,7 @@
             }
           ],
           "reset": "The top player holds no matter what. If the bottom player gets both elbows to his body, that is his win, and you start over. Roles switch after every win.",
-          "whatItIs": "This is staying on top with your arms under his elbows."
+          "whatItIs": "This is staying on top, under his elbows."
         }
       ],
       "connection": "Staying with a hard partner on the mat instead of switching is commitment made physical. Staying in a hard relationship when leaving is easier is the same choice. Both build the muscle of not bailing on people.",
@@ -966,7 +968,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is a hand fight to get an underhook or a leg."
+          "whatItIs": "This is fighting for an underhook or leg."
         },
         {
           "skill": "Arriving",
@@ -985,7 +987,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is knocking a standing man down, then standing up."
+          "whatItIs": "This is knocking a man down, then standing."
         },
         {
           "skill": "Finishing",

@@ -62,7 +62,7 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
             },
             {
               "kind": "lead",
-              "text": "This is fighting for the hands until you can wrap him up."
+              "text": "This is fighting to wrap him up."
             },
             {
               "kind": "list",
@@ -77,7 +77,7 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
             },
             {
               "kind": "lead",
-              "text": "This is getting past the legs of a partner on his back."
+              "text": "This is passing the legs from on top."
             },
             {
               "kind": "list",
@@ -93,7 +93,7 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
             },
             {
               "kind": "lead",
-              "text": "This is building a lock from behind, stopping before any squeeze."
+              "text": "This is building a lock from behind, slowly."
             },
             {
               "kind": "list",
@@ -105,38 +105,10 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
           ]
         },
         {
-          "id": "s35-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Build to Rear Strangle Game: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player wins by touching the bottom player's back with his palm, then locking his own wrist into his other elbow.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Holding the finish after your partner taps",
-              "feedback": "Let go the instant he taps."
-            },
-            {
-              "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing you never do."
-            }
-          ]
-        },
-        {
           "id": "s35-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false

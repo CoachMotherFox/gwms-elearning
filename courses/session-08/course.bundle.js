@@ -63,7 +63,7 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
             },
             {
               "kind": "lead",
-              "text": "This is fighting for the hands to pick up a leg."
+              "text": "This is fighting to pick up a leg."
             },
             {
               "kind": "list",
@@ -78,7 +78,7 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
             },
             {
               "kind": "lead",
-              "text": "This is getting past the legs of a partner on his back."
+              "text": "This is passing the legs from on top."
             },
             {
               "kind": "list",
@@ -94,7 +94,7 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
             },
             {
               "kind": "lead",
-              "text": "This is keeping someone flat on the mat from behind."
+              "text": "This is keeping someone flat from behind."
             },
             {
               "kind": "list",
@@ -106,38 +106,10 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
           ]
         },
         {
-          "id": "s08-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Pinning — Continuous Hip and Shoulder Connection from All Fours: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player holds as long as he keeps the bottom player belly down.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Submitting your partner",
-              "feedback": "These games end in a pin, not a finish."
-            },
-            {
-              "text": "Putting your partner down hard",
-              "feedback": "Everyone always goes light."
-            }
-          ]
-        },
-        {
           "id": "s08-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false

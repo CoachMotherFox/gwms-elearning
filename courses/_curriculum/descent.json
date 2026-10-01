@@ -80,11 +80,11 @@
           "win": [
             {
               "role": "Whoever connects first",
-              "text": "wins by locking his hands around his partner's body, armpits to ankles."
+              "text": "locks his hands around his partner, armpits to ankles."
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is fighting to get both arms under a standing player's arms."
+          "whatItIs": "This is fighting to get an underhook."
         },
         {
           "skill": "Arriving",
@@ -95,7 +95,7 @@
           "win": [
             {
               "role": "The top player",
-              "text": "wins by getting under the bottom player's elbow and locking his own hands around him."
+              "text": "wins by locking his hands under the bottom player's elbow."
             },
             {
               "role": "The bottom player",
@@ -103,7 +103,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is getting close to a partner holding one of your legs."
+          "whatItIs": "This is getting close while he blocks you."
         },
         {
           "skill": "Controlling",
@@ -114,34 +114,35 @@
           "win": [
             {
               "role": "The top player",
-              "text": "holds as long as he keeps one of the bottom player's elbows covered."
+              "text": "holds by keeping an elbow covered."
             },
             {
               "role": "The bottom player",
-              "text": "wins by touching both elbows to his body, or making the top player fall."
+              "text": "wins by getting both elbows home, or making the top player fall."
             }
           ],
           "reset": "The top player holds no matter what. If he loses both elbows, that is the bottom player's win, and you start over. Roles switch after every win.",
-          "whatItIs": "This is staying on top while sitting on his belly."
+          "whatItIs": "This is sitting on top of his belly."
         }
       ],
       "connection": "How you make first contact on the mat, careful, rushed, or stiff, is your entrance. Naming how you show up when nobody knows you yet is the same pattern, seen off the mat.",
       "takeaway": "Tonight you worked from the over-under tie, half guard, and mount. How you make first contact on the mat, careful, rushed, or stiff, is your entrance. You can choose that entrance on purpose instead of by accident. Choosing how you show up works the same way off the mat.",
       "concept": {
-        "question": "You and your partner are locked in an over-under tie, one arm over, one arm under, on both sides. What's the smart next move?",
+        "lesson": "You make the connection on purpose, then you keep it instead of letting go.",
+        "question": "Tonight you connected to a stranger's wrist, legs, and elbow. What made it hold?",
         "options": [
           {
-            "text": "Fight to close your hands under his elbows.",
-            "feedback": "Closing your hands under his elbows is how you arrive for real, not just show up.",
-            "correct": true
+            "text": "You made it on purpose, then you kept it.",
+            "correct": true,
+            "feedback": "A connection made on purpose can hold. One grabbed at random can't."
           },
           {
-            "text": "Let go and grab a fresh new hold.",
-            "feedback": "Keep fighting from where you already are."
+            "text": "You grabbed whatever was open and let it go.",
+            "feedback": "Grabbing at random is not the same as making a connection."
           },
           {
-            "text": "Hold still and wait for him to move.",
-            "feedback": "Keep working to close your hands."
+            "text": "You waited for him to make the first move.",
+            "feedback": "Waiting is not how you make contact with a stranger."
           }
         ]
       }
@@ -164,7 +165,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is scoring touches on the hands and knees while standing."
+          "whatItIs": "This is scoring touches while standing."
         },
         {
           "skill": "Arriving",
@@ -183,7 +184,7 @@
             }
           ],
           "reset": "The bottom player holds no matter what. If the top player breaks free and gets outside, that is his win, and you start over. Roles switch after every win.",
-          "whatItIs": "This is getting past the legs of a partner holding your ankle."
+          "whatItIs": "This is passing the legs from on top."
         },
         {
           "skill": "Controlling",
@@ -202,7 +203,7 @@
             }
           ],
           "reset": "The top player holds no matter what. If the bottom player pushes him off and gets his legs back, that is his win, and you start over. Roles switch after every win.",
-          "whatItIs": "This is holding someone down and escaping a hold."
+          "whatItIs": "This is holding someone down, then escaping."
         }
       ],
       "connection": "Staying safe and guarded on the mat before you trust a partner is the same guard you use before you trust a room. Both are smart. Naming it is the work.",
@@ -244,7 +245,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is a standing hand fight to get an arm under his armpit."
+          "whatItIs": "This is a hand fight for the underhook."
         },
         {
           "skill": "Arriving",
@@ -263,7 +264,7 @@
             }
           ],
           "reset": "The top player holds no matter what. If the bottom player sits him down and gets his own back up, that is his win, and you start over. Roles switch after every win.",
-          "whatItIs": "This is keeping someone's feet off you while you step in close."
+          "whatItIs": "This is keeping his feet off you."
         },
         {
           "skill": "Controlling",
@@ -282,7 +283,7 @@
             }
           ],
           "reset": "The top player holds no matter what. If the bottom player stands and turns to face him, that is his win, and you start over. Roles switch after every win.",
-          "whatItIs": "This is staying on top of someone on his hands and knees."
+          "whatItIs": "This is staying on top, hands and knees."
         }
       ],
       "connection": "Keeping your guard means keeping a boundary between you and the other person. The mask does the same job with people. Guard retention on the mat and the mask you wear are the same thing.",
@@ -328,7 +329,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is fighting for grips, an underhook or a leg."
+          "whatItIs": "This is fighting for an underhook or leg."
         },
         {
           "skill": "Arriving",
@@ -347,7 +348,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is knocking a standing partner down using your feet and one hand."
+          "whatItIs": "This is knocking a standing partner down."
         },
         {
           "skill": "Controlling",
@@ -366,7 +367,7 @@
             }
           ],
           "reset": "The attacker holds no matter what. If the defender reaches a quad pod, that is his win, and you start over. Roles switch after every win.",
-          "whatItIs": "This is keeping a man flat when he balls up."
+          "whatItIs": "This is keeping a balled up man flat."
         }
       ],
       "connection": "The guard you keep was drilled into you somewhere, and so was the mask. Both are learned defenses. Finding where you learned to guard is the same move on and off the mat.",
@@ -412,7 +413,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is scoring quick touches before he can hug you."
+          "whatItIs": "This is scoring quick touches before a hug."
         },
         {
           "skill": "Arriving",
@@ -431,7 +432,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is getting past the legs of a partner on his back."
+          "whatItIs": "This is passing the legs from on top."
         },
         {
           "skill": "Controlling",
@@ -450,7 +451,7 @@
             }
           ],
           "reset": "The top player holds no matter what. If he loses both elbows, that is the bottom player's win, and you start over. Roles switch after every win.",
-          "whatItIs": "This is staying on top while sitting on his belly."
+          "whatItIs": "This is sitting on top of his belly."
         }
       ],
       "connection": "Your guard protects the space behind your legs. Your mask protects something too. Naming what the guard defends is the same as naming what the mask hides.",
@@ -515,7 +516,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is standing up to open legs locked around your waist."
+          "whatItIs": "This is standing up to open his guard."
         },
         {
           "skill": "Controlling",
@@ -534,7 +535,7 @@
             }
           ],
           "reset": "The top player holds no matter what. If the bottom player stands and faces him, that is his win, and you start over. Roles switch after every win.",
-          "whatItIs": "This is flattening someone on his hands and knees."
+          "whatItIs": "This is flattening someone on hands and knees."
         }
       ],
       "connection": "When your guard gets passed, the mask cracks and something real shows. Getting passed on the mat and cracking under pressure are the same moment. You feel it in your body first.",
@@ -576,7 +577,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is fighting for the hands to pick up a leg."
+          "whatItIs": "This is fighting to pick up a leg."
         },
         {
           "skill": "Arriving",
@@ -595,7 +596,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is getting past the legs of a partner on his back."
+          "whatItIs": "This is passing the legs from on top."
         },
         {
           "skill": "Controlling",
@@ -614,7 +615,7 @@
             }
           ],
           "reset": "The top player holds no matter what. If the bottom player reaches a quad pod, that is his win, and you start over. Roles switch after every win.",
-          "whatItIs": "This is keeping someone flat on the mat from behind."
+          "whatItIs": "This is keeping someone flat from behind."
         }
       ],
       "connection": "When you and your partner get tired, the fake stuff drops on both sides, the passer and the guard. What slips out when you are too tired to perform is the truest thing about you, on the mat and off.",
@@ -679,7 +680,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is getting past the legs of a partner on his back."
+          "whatItIs": "This is passing the legs from on top."
         },
         {
           "skill": "Controlling",
@@ -698,7 +699,7 @@
             }
           ],
           "reset": "The top player holds no matter what. If the bottom player gets both elbows to his body, that is his win, and you start over. Roles switch after every win.",
-          "whatItIs": "This is holding someone down by keeping his elbows open."
+          "whatItIs": "This is holding someone down by his elbows."
         }
       ],
       "connection": "The checkpoint where a guard always breaks is a tell, and so is the first thing that shows when you crack. Finding the exact break point on the mat is the same skill as knowing your own tell.",
@@ -744,7 +745,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is using an underhook to get around his waist."
+          "whatItIs": "This is getting an underhook to his waist."
         },
         {
           "skill": "Arriving",
@@ -782,7 +783,7 @@
             }
           ],
           "reset": "The top player holds no matter what. If the bottom player breaks the grip, that is his win, and you start over. Roles switch after every win.",
-          "whatItIs": "This is holding one arm with both hands locked."
+          "whatItIs": "This is holding one arm with both hands."
         }
       ],
       "connection": "Getting past the legs shows what the guard was hiding. Looking under your mask shows the real you. Passing and revealing are the same move: get past the defense to what is behind it.",
@@ -824,7 +825,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is fighting for the hands until you can wrap him up."
+          "whatItIs": "This is fighting to wrap him up."
         },
         {
           "skill": "Arriving",
@@ -843,7 +844,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is clearing his arms to get under his elbow."
+          "whatItIs": "This is clearing his arms to get under."
         },
         {
           "skill": "Controlling",
@@ -862,7 +863,7 @@
             }
           ],
           "reset": "The top player holds no matter what. If the bottom player pushes him off and gets his legs back, that is his win, and you start over. Roles switch after every win.",
-          "whatItIs": "This is holding someone down and escaping a hold."
+          "whatItIs": "This is holding someone down, then escaping."
         }
       ],
       "connection": "Arriving past the guard puts you in touch with what was most protected. Naming the shadow does the same thing inside you. Both reach the thing that was hidden deepest.",
@@ -905,7 +906,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is a standing game of touches and body locks."
+          "whatItIs": "This is a standing game of touches."
         },
         {
           "skill": "Arriving",
@@ -924,7 +925,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is knocking a standing man down, then standing up."
+          "whatItIs": "This is knocking a man down, then standing."
         },
         {
           "skill": "Controlling",
@@ -943,7 +944,7 @@
             }
           ],
           "reset": "The top player holds no matter what. If the bottom player stands and turns to face him, that is his win, and you start over. Roles switch after every win.",
-          "whatItIs": "This is staying on top of someone on his hands and knees."
+          "whatItIs": "This is staying on top, hands and knees."
         }
       ],
       "connection": "Running both games from standing to a pin is the mat's version of the whole Descent, from arrival to the real self revealed. This session brings both journeys together into one.",

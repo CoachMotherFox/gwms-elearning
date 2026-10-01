@@ -61,7 +61,7 @@
             },
             {
               "kind": "lead",
-              "text": "This is a hand fight to get an underhook or a leg."
+              "text": "This is fighting for an underhook or leg."
             },
             {
               "kind": "list",
@@ -76,7 +76,7 @@
             },
             {
               "kind": "lead",
-              "text": "This is knocking a standing man down, then standing up."
+              "text": "This is knocking a man down, then standing."
             },
             {
               "kind": "list",
@@ -104,38 +104,10 @@
           ]
         },
         {
-          "id": "s24-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Figure Four to Precursor Positions Game: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player wins by putting the bottom player's hand on the mat or behind his back, or by reaching a finishing hold on his arm or his back.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Holding the finish after your partner taps",
-              "feedback": "Let go the instant he taps."
-            },
-            {
-              "text": "Overpowering your partner with force",
-              "feedback": "Staying calm beats forcing harder."
-            }
-          ]
-        },
-        {
           "id": "s24-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false

@@ -63,7 +63,7 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
             },
             {
               "kind": "lead",
-              "text": "This is using an arm under the armpit to get to a leg."
+              "text": "This is using an underhook for a leg."
             },
             {
               "kind": "list",
@@ -79,7 +79,7 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
             },
             {
               "kind": "lead",
-              "text": "This is knocking someone off balance with your feet."
+              "text": "This is knocking someone off balance, feet only."
             },
             {
               "kind": "list",
@@ -95,7 +95,7 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
             },
             {
               "kind": "lead",
-              "text": "This is staying on top of someone on his hands and knees."
+              "text": "This is staying on top, hands and knees."
             },
             {
               "kind": "list",
@@ -107,38 +107,10 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
           ]
         },
         {
-          "id": "s16-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Riding Bottom Position Game: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player holds as long as he keeps the bottom player broken down.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Holding the finish after your partner taps",
-              "feedback": "Let go the instant he taps."
-            },
-            {
-              "text": "Overpowering your partner with force",
-              "feedback": "Staying calm beats forcing harder."
-            }
-          ]
-        },
-        {
           "id": "s16-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false

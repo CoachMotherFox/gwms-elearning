@@ -62,7 +62,7 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
             },
             {
               "kind": "lead",
-              "text": "This is fighting for the upper body while he fights for the legs."
+              "text": "This is fighting for upper body or legs."
             },
             {
               "kind": "list",
@@ -78,7 +78,7 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
             },
             {
               "kind": "lead",
-              "text": "This is knocking a standing man down from sitting."
+              "text": "This is knocking a standing man down, sitting."
             },
             {
               "kind": "list",
@@ -94,7 +94,7 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
             },
             {
               "kind": "lead",
-              "text": "This is holding him from behind with your chest on his back."
+              "text": "This is holding his back from behind."
             },
             {
               "kind": "list",
@@ -106,38 +106,10 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
           ]
         },
         {
-          "id": "s28-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Back Take – Maintain Chest to Back Contact: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The attacker holds as long as he keeps contact.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Holding the finish after your partner taps",
-              "feedback": "Let go the instant he taps."
-            },
-            {
-              "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing you never do."
-            }
-          ]
-        },
-        {
           "id": "s28-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false

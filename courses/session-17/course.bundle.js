@@ -63,7 +63,7 @@ window.GWMS_COURSE_BUNDLE["session-17"] =
             },
             {
               "kind": "lead",
-              "text": "This is taking him down from behind by blocking one leg."
+              "text": "This is a takedown from behind, one leg."
             },
             {
               "kind": "list",
@@ -79,7 +79,7 @@ window.GWMS_COURSE_BUNDLE["session-17"] =
             },
             {
               "kind": "lead",
-              "text": "This is getting your legs back in front of you."
+              "text": "This is getting your legs back in front."
             },
             {
               "kind": "list",
@@ -95,7 +95,7 @@ window.GWMS_COURSE_BUNDLE["session-17"] =
             },
             {
               "kind": "lead",
-              "text": "This is keeping a man flat when he balls up."
+              "text": "This is keeping a balled up man flat."
             },
             {
               "kind": "list",
@@ -107,38 +107,10 @@ window.GWMS_COURSE_BUNDLE["session-17"] =
           ]
         },
         {
-          "id": "s17-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Rear Hip Connection - Keep Belly Down: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The attacker holds as long as he keeps the defender belly down.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Holding the finish after your partner taps",
-              "feedback": "Let go the instant he taps."
-            },
-            {
-              "text": "Overpowering your partner with force",
-              "feedback": "Staying calm beats forcing harder."
-            }
-          ]
-        },
-        {
           "id": "s17-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false
