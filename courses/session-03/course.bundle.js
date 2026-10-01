@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
       }
     ],
     "connection": "Staying safe and guarded on the mat before you trust a partner is the same guard you use before you trust a room. Both are smart. Naming it is the work.",
-    "takeaway": "Tonight you worked from the hand fight, open guard, and a chest-to-chest pin. Staying guarded before you trust a partner is smart, and it works the same way before you trust a room. You get to decide how much guard to keep up. Noticing your own guard is the first step to choosing when to drop it.",
+    "takeaway": "Tonight you worked from the hand fight, open guard, and a chest-to-chest pin. Staying guarded before you trust a partner is smart, the same way it is before you trust a room. You get to decide how much guard to keep, and when to drop it.",
     "_source": "GWMS Curriculum Guide — Session 3 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -59,7 +59,7 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Hand Touch / Knee Touch Collection Game"
+              "text": "Game 1: Standing"
             },
             {
               "kind": "lead",
@@ -74,7 +74,7 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Belly-Up Open Guard Connection Foundation"
+              "text": "Game 2: Guarded"
             },
             {
               "kind": "lead",
@@ -90,7 +90,7 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Introductory Pin Game"
+              "text": "Game 3: Pinned"
             },
             {
               "kind": "lead",
@@ -147,7 +147,7 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from the hand fight, open guard, and a chest-to-chest pin. Staying guarded before you trust a partner is smart, and it works the same way before you trust a room. You get to decide how much guard to keep up. Noticing your own guard is the first step to choosing when to drop it."
+              "text": "Tonight you worked from the hand fight, open guard, and a chest-to-chest pin. Staying guarded before you trust a partner is smart, the same way it is before you trust a room. You get to decide how much guard to keep, and when to drop it."
             }
           ]
         },

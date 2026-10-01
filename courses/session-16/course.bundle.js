@@ -59,7 +59,7 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Underhook Introduction Game"
+              "text": "Game 1: Standing"
             },
             {
               "kind": "lead",
@@ -75,7 +75,7 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Post and Hook Destabilization Game"
+              "text": "Game 2: Guarded"
             },
             {
               "kind": "lead",
@@ -91,7 +91,7 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Riding Bottom Position Game"
+              "text": "Game 3: Pinned"
             },
             {
               "kind": "lead",

@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
       }
     ],
     "connection": "You can pin someone hard and still keep them safe. That is control of your own force. Your conflict off the mat lands on real people too, and the same control applies: honest friction, not harm.",
-    "takeaway": "Tonight you worked from an underhook tie, open guard, and a figure-four pin. You can hold someone hard and still keep them completely safe, and that control is yours to use on purpose. Your friction off the mat lands on real people too. You get to choose honest friction over harm, every time.",
+    "takeaway": "Tonight you worked from an underhook tie, open guard, and a figure-four pin. You can hold someone hard and still keep them safe, and that control is yours to use on purpose. Your friction off the mat lands on real people too. You get to choose honest friction over harm.",
     "_source": "GWMS Curriculum Guide — Session 18 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -59,7 +59,7 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Foot-to-Foot Contact with Overhook / Underhook"
+              "text": "Game 1: Standing"
             },
             {
               "kind": "lead",
@@ -75,7 +75,7 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Seated Open Guard Game"
+              "text": "Game 2: Guarded"
             },
             {
               "kind": "lead",
@@ -91,7 +91,7 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Figure Four Grip Control Game"
+              "text": "Game 3: Pinned"
             },
             {
               "kind": "lead",
@@ -148,7 +148,7 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from an underhook tie, open guard, and a figure-four pin. You can hold someone hard and still keep them completely safe, and that control is yours to use on purpose. Your friction off the mat lands on real people too. You get to choose honest friction over harm, every time."
+              "text": "Tonight you worked from an underhook tie, open guard, and a figure-four pin. You can hold someone hard and still keep them safe, and that control is yours to use on purpose. Your friction off the mat lands on real people too. You get to choose honest friction over harm."
             }
           ]
         },

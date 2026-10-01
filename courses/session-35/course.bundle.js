@@ -33,7 +33,7 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
       }
     ],
     "connection": "The person rolling now is not the one who walked in on Session 1. You can see the difference in how you move. Naming who you became is the return itself, not who you were told to be, but the one you built.",
-    "takeaway": "Tonight you worked from the hand fight, open guard, and back control. The person rolling now is not the one who walked in on Session 1, and you can see it in how you move. Naming who you became is the return itself. You get to claim that person, because you are the one who built him.",
+    "takeaway": "Tonight you worked from the hand fight, open guard, and back control. You are not who walked in on Session 1. You can see it in how you move. Naming who you became is the return itself. You get to claim that person, because you built him.",
     "_source": "GWMS Curriculum Guide — Session 35 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -58,7 +58,7 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Hand Fight with Precondition Game"
+              "text": "Game 1: Standing"
             },
             {
               "kind": "lead",
@@ -73,7 +73,7 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Feet-Off Guard Passing Game"
+              "text": "Game 2: Guarded"
             },
             {
               "kind": "lead",
@@ -89,7 +89,7 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Build to Rear Strangle Game"
+              "text": "Game 3: Pinned"
             },
             {
               "kind": "lead",
@@ -146,7 +146,7 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from the hand fight, open guard, and back control. The person rolling now is not the one who walked in on Session 1, and you can see it in how you move. Naming who you became is the return itself. You get to claim that person, because you are the one who built him."
+              "text": "Tonight you worked from the hand fight, open guard, and back control. You are not who walked in on Session 1. You can see it in how you move. Naming who you became is the return itself. You get to claim that person, because you built him."
             }
           ]
         },

@@ -59,7 +59,7 @@ window.GWMS_COURSE_BUNDLE["session-02"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Over-Under to Close Hand Connection"
+              "text": "Game 1: Standing"
             },
             {
               "kind": "lead",
@@ -74,7 +74,7 @@ window.GWMS_COURSE_BUNDLE["session-02"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Half Guard Side-Position Game"
+              "text": "Game 2: Guarded"
             },
             {
               "kind": "lead",
@@ -90,7 +90,7 @@ window.GWMS_COURSE_BUNDLE["session-02"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Mount — Stay Under Both Elbows"
+              "text": "Game 3: Pinned"
             },
             {
               "kind": "lead",

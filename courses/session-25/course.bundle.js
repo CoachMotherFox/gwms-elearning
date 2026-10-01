@@ -58,7 +58,7 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Consecutive Touches Game"
+              "text": "Game 1: Standing"
             },
             {
               "kind": "lead",
@@ -73,7 +73,7 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Feet-Off Guard Passing Game"
+              "text": "Game 2: Guarded"
             },
             {
               "kind": "lead",
@@ -89,7 +89,7 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Back Take – Maintain Chest to Back Contact"
+              "text": "Game 3: Pinned"
             },
             {
               "kind": "lead",

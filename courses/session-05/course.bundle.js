@@ -59,7 +59,7 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Uneven Hand Fight Game"
+              "text": "Game 1: Standing"
             },
             {
               "kind": "lead",
@@ -75,7 +75,7 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Open Guard Multiple Connection Game"
+              "text": "Game 2: Guarded"
             },
             {
               "kind": "lead",
@@ -91,7 +91,7 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Rear Hip Connection - Keep Belly Down"
+              "text": "Game 3: Pinned"
             },
             {
               "kind": "lead",

@@ -33,7 +33,7 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
       }
     ],
     "connection": "Twelve weeks of getting tapped, cracked, and rebuilt cost something and gave something. Rolling now, you can feel both in your body. The honest ledger of what this cost and what you got is the first step of the return.",
-    "takeaway": "Tonight you worked from the hand fight, open guard, and back control. Twelve weeks of getting tapped, cracked, and rebuilt cost something, and it gave you something too. You can feel both in your body when you roll now. You get to hold the cost and the gain at the same time, without one canceling the other.",
+    "takeaway": "Tonight you worked from the hand fight, open guard, and back control. Twelve weeks of getting tapped and rebuilt cost something, and gave something too. You feel both in your body when you roll now. You get to hold the cost and the gain together, without losing either one.",
     "_source": "GWMS Curriculum Guide — Session 34 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -58,7 +58,7 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "2v1 Hand Fight to Underhook to Close Hand Connection"
+              "text": "Game 1: Standing"
             },
             {
               "kind": "lead",
@@ -73,7 +73,7 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Open Guard Takedown and Escape Game"
+              "text": "Game 2: Guarded"
             },
             {
               "kind": "lead",
@@ -89,7 +89,7 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Chest to Back to Precursor Transitions Game"
+              "text": "Game 3: Pinned"
             },
             {
               "kind": "lead",
@@ -146,7 +146,7 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from the hand fight, open guard, and back control. Twelve weeks of getting tapped, cracked, and rebuilt cost something, and it gave you something too. You can feel both in your body when you roll now. You get to hold the cost and the gain at the same time, without one canceling the other."
+              "text": "Tonight you worked from the hand fight, open guard, and back control. Twelve weeks of getting tapped and rebuilt cost something, and gave something too. You feel both in your body when you roll now. You get to hold the cost and the gain together, without losing either one."
             }
           ]
         },

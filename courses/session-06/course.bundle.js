@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
       }
     ],
     "connection": "Your guard protects the space behind your legs. Your mask protects something too. Naming what the guard defends is the same as naming what the mask hides.",
-    "takeaway": "Tonight you worked from the hand fight, open guard, and mount. Your guard protects the space behind your legs, and your mask protects something in you too. Naming exactly what your mask guards is a skill, the same as naming what a good guard defends. You get to know your own mask well enough to use it on purpose.",
+    "takeaway": "Tonight you worked from the hand fight, open guard, and mount. Your guard protects your legs, and your mask protects something in you. Naming what your mask guards is the same skill as naming what a guard defends. You get to use your mask on purpose.",
     "_source": "GWMS Curriculum Guide — Session 6 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -59,7 +59,7 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Consecutive Touches with Clinch Counter"
+              "text": "Game 1: Standing"
             },
             {
               "kind": "lead",
@@ -75,7 +75,7 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Knee Pit Touchdown Game"
+              "text": "Game 2: Guarded"
             },
             {
               "kind": "lead",
@@ -91,7 +91,7 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Mount — Stay Under Both Elbows"
+              "text": "Game 3: Pinned"
             },
             {
               "kind": "lead",
@@ -148,7 +148,7 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from the hand fight, open guard, and mount. Your guard protects the space behind your legs, and your mask protects something in you too. Naming exactly what your mask guards is a skill, the same as naming what a good guard defends. You get to know your own mask well enough to use it on purpose."
+              "text": "Tonight you worked from the hand fight, open guard, and mount. Your guard protects your legs, and your mask protects something in you. Naming what your mask guards is the same skill as naming what a guard defends. You get to use your mask on purpose."
             }
           ]
         },

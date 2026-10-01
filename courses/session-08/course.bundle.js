@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
       }
     ],
     "connection": "When you and your partner get tired, the fake stuff drops on both sides, the passer and the guard. What slips out when you are too tired to perform is the truest thing about you, on the mat and off.",
-    "takeaway": "Tonight you worked from the hand fight, open guard, and turtle. When you get tired, the performing stops on both sides, and something truer shows up in its place. That truer version is worth paying attention to, not hiding again. You get to decide what you do with what you noticed.",
+    "takeaway": "Tonight you worked from the hand fight, open guard, and turtle. When you get tired, the performing stops, and something truer shows up in its place. That truer version is worth paying attention to, not hiding again. You get to decide what you do with what you noticed.",
     "_source": "GWMS Curriculum Guide — Session 8 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -59,7 +59,7 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Hand Fight with Leg Pickup Option"
+              "text": "Game 1: Standing"
             },
             {
               "kind": "lead",
@@ -74,7 +74,7 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Feet-Off Guard Passing Game"
+              "text": "Game 2: Guarded"
             },
             {
               "kind": "lead",
@@ -90,7 +90,7 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Pinning — Continuous Hip and Shoulder Connection from All Fours"
+              "text": "Game 3: Pinned"
             },
             {
               "kind": "lead",
@@ -147,7 +147,7 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from the hand fight, open guard, and turtle. When you get tired, the performing stops on both sides, and something truer shows up in its place. That truer version is worth paying attention to, not hiding again. You get to decide what you do with what you noticed."
+              "text": "Tonight you worked from the hand fight, open guard, and turtle. When you get tired, the performing stops, and something truer shows up in its place. That truer version is worth paying attention to, not hiding again. You get to decide what you do with what you noticed."
             }
           ]
         },

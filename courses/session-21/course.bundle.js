@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
       }
     ],
     "connection": "On the mat you can name your own mistake in a round without blaming your partner. Owning your part of a rupture works the same way. It starts with separating your piece from theirs.",
-    "takeaway": "Tonight you worked from a single leg, open guard, and an arm lock position. On the mat you can name your own mistake in a round without blaming your partner. Owning a break works the same way, starting with separating your piece from theirs. You get to own your part and let the rest be his.",
+    "takeaway": "Tonight you worked from a single leg, open guard, and an arm lock position. On the mat you can name your mistake without blaming your partner. Owning a break works the same way: separate your piece from theirs. You get to own your part and let the rest be his.",
     "_source": "GWMS Curriculum Guide — Session 21 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -59,7 +59,7 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Single Leg Destabilization — Two Paths"
+              "text": "Game 1: Standing"
             },
             {
               "kind": "lead",
@@ -75,7 +75,7 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Knee Pit Touchdown Game"
+              "text": "Game 2: Guarded"
             },
             {
               "kind": "lead",
@@ -91,7 +91,7 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Arm Lock Breaking Position Game"
+              "text": "Game 3: Pinned"
             },
             {
               "kind": "lead",
@@ -148,7 +148,7 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from a single leg, open guard, and an arm lock position. On the mat you can name your own mistake in a round without blaming your partner. Owning a break works the same way, starting with separating your piece from theirs. You get to own your part and let the rest be his."
+              "text": "Tonight you worked from a single leg, open guard, and an arm lock position. On the mat you can name your mistake without blaming your partner. Owning a break works the same way: separate your piece from theirs. You get to own your part and let the rest be his."
             }
           ]
         },

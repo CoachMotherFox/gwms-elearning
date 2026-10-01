@@ -33,7 +33,7 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
       }
     ],
     "connection": "The last roll ends, and then you walk out the door. What you carry out, control, mercy, the ability to stay, the real self, is the whole point. The mat was never the destination. What you carry out of it is.",
-    "takeaway": "Tonight you worked from the over-under tie, half guard, and back control, the same three moves the whole program built toward. The mat was never the real destination. What you carry out the door, control, mercy, the ability to stay, the real you, is the whole point. You get to choose to carry it out with you.",
+    "takeaway": "Tonight you worked from the over-under tie, half guard, and back control, the three moves the whole program built toward. The mat was never the destination. What you carry out the door, control, mercy, the ability to stay, the real you, is the point. You get to carry it out.",
     "_source": "GWMS Curriculum Guide — Session 36 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -58,7 +58,7 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Over-Under to Close Hand Connection"
+              "text": "Game 1: Standing"
             },
             {
               "kind": "lead",
@@ -73,7 +73,7 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Half Guard Side-Position Game"
+              "text": "Game 2: Guarded"
             },
             {
               "kind": "lead",
@@ -89,7 +89,7 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Back Take – Maintain Chest to Back Contact"
+              "text": "Game 3: Pinned"
             },
             {
               "kind": "lead",
@@ -146,7 +146,7 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from the over-under tie, half guard, and back control, the same three moves the whole program built toward. The mat was never the real destination. What you carry out the door, control, mercy, the ability to stay, the real you, is the whole point. You get to choose to carry it out with you."
+              "text": "Tonight you worked from the over-under tie, half guard, and back control, the three moves the whole program built toward. The mat was never the destination. What you carry out the door, control, mercy, the ability to stay, the real you, is the point. You get to carry it out."
             }
           ]
         },

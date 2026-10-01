@@ -32,7 +32,7 @@
       }
     ],
     "connection": "The Descent found the real you. Now it goes to the mat with a partner. Rolling as the real you, instead of a mask, is the same as showing up honest in a relationship instead of performing one.",
-    "takeaway": "Tonight you worked from the hand fight, closed guard, and mount. You already found the real you since Session 1, and tonight that real you rolled with a partner. Being honest on the mat instead of performing is the same choice as being honest with people off it. You get to bring the real you into every room now, not just this one.",
+    "takeaway": "Tonight you worked from the hand fight, closed guard, and mount. You found the real you since Session 1, and tonight you rolled with a partner. Being honest on the mat is the same choice as being honest with people. You get to bring the real you into every room.",
     "_source": "GWMS Curriculum Guide — Session 15 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -57,7 +57,7 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Hand Fight to Connection Game"
+              "text": "Game 1: Standing"
             },
             {
               "kind": "lead",
@@ -72,7 +72,7 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Closed Guard — Post to Underhook to Locked Hands"
+              "text": "Game 2: Guarded"
             },
             {
               "kind": "lead",
@@ -88,7 +88,7 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Mount — Stay Under Both Elbows"
+              "text": "Game 3: Pinned"
             },
             {
               "kind": "lead",
@@ -145,7 +145,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from the hand fight, closed guard, and mount. You already found the real you since Session 1, and tonight that real you rolled with a partner. Being honest on the mat instead of performing is the same choice as being honest with people off it. You get to bring the real you into every room now, not just this one."
+              "text": "Tonight you worked from the hand fight, closed guard, and mount. You found the real you since Session 1, and tonight you rolled with a partner. Being honest on the mat is the same choice as being honest with people. You get to bring the real you into every room."
             }
           ]
         },

@@ -32,7 +32,7 @@
       }
     ],
     "connection": "Keeping a pin means feeling your partner and adjusting to them, not clamping down and ignoring them. Letting someone in works the same way. You hold the connection by reading the other person, not by shutting them out and pushing through alone.",
-    "takeaway": "Tonight you worked from the hand fight, closed guard, and a chest-to-chest pin. Keeping a pin means feeling your partner and adjusting to him, not clamping down and ignoring him. You can turn that same dial with people, adjusting to them instead of shutting them out. Letting someone in is a choice you make.",
+    "takeaway": "Tonight you worked from the hand fight, closed guard, and a chest-to-chest pin. Keeping a pin means feeling your partner and adjusting, not clamping down and ignoring him. You can turn that same dial with people, instead of shutting them out. Letting someone in is a choice you make.",
     "_source": "GWMS Curriculum Guide — Session 14 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -57,7 +57,7 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Role-Based Consecutive Touch vs Close Hand Game"
+              "text": "Game 1: Standing"
             },
             {
               "kind": "lead",
@@ -73,7 +73,7 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Closed Guard Hand Fighting Game"
+              "text": "Game 2: Guarded"
             },
             {
               "kind": "lead",
@@ -89,7 +89,7 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Chest-to-Chest Elbow Control Game"
+              "text": "Game 3: Pinned"
             },
             {
               "kind": "lead",
@@ -113,22 +113,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight you and your partner chased two different wins. What made that work?",
+          "question": "Tonight one player tried to get close and one kept him out. What decided how close he got?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "You each had a different job, and that was fine.",
+              "text": "Who controlled the hands and elbows.",
               "correct": true,
-              "feedback": "Letting someone in is not doing his job. It's trusting you both have one."
+              "feedback": "You choose how much of someone you let in. It is not all or nothing."
             },
             {
-              "text": "You both had to chase the exact same win.",
-              "feedback": "Two players in the same game can still have two different jobs."
+              "text": "Whoever moved first won the round.",
+              "feedback": "Speed is not what decided this, control was."
             },
             {
-              "text": "Whoever tried the hardest was doing it right.",
-              "feedback": "Trying hard at the wrong job still misses the point."
+              "text": "Whoever wanted it more got through.",
+              "feedback": "Wanting it more is not the same as controlling the hands and elbows."
             }
           ]
         }
@@ -146,7 +146,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from the hand fight, closed guard, and a chest-to-chest pin. Keeping a pin means feeling your partner and adjusting to him, not clamping down and ignoring him. You can turn that same dial with people, adjusting to them instead of shutting them out. Letting someone in is a choice you make."
+              "text": "Tonight you worked from the hand fight, closed guard, and a chest-to-chest pin. Keeping a pin means feeling your partner and adjusting, not clamping down and ignoring him. You can turn that same dial with people, instead of shutting them out. Letting someone in is a choice you make."
             }
           ]
         },

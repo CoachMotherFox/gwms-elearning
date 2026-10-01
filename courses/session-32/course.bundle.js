@@ -58,7 +58,7 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Single Leg Takedown Game"
+              "text": "Game 1: Standing"
             },
             {
               "kind": "lead",
@@ -74,7 +74,7 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Guard Destabilization Game"
+              "text": "Game 2: Guarded"
             },
             {
               "kind": "lead",
@@ -90,7 +90,7 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Chest to Back to Precursor Transitions Game"
+              "text": "Game 3: Pinned"
             },
             {
               "kind": "lead",

@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
       }
     ],
     "connection": "Keeping your guard means keeping a boundary between you and the other person. The mask does the same job with people. Guard retention on the mat and the mask you wear are the same thing.",
-    "takeaway": "Tonight you worked from the hand fight, open guard, and riding position. Keeping your guard means keeping a boundary between you and another person, and a mask does that same job with people. You get to choose what your mask protects and when to use it. Naming your mask is the first step to owning it.",
+    "takeaway": "Tonight you worked from the hand fight, open guard, and riding position. Keeping your guard means keeping a boundary, and a mask does that same job with people. You get to choose what your mask protects, and naming it is the first step to owning it.",
     "_source": "GWMS Curriculum Guide — Session 4 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -59,7 +59,7 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Hand Fight to Underhook Game"
+              "text": "Game 1: Standing"
             },
             {
               "kind": "lead",
@@ -74,7 +74,7 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Keep Feet Off — Belly Up Open Guard Introduction"
+              "text": "Game 2: Guarded"
             },
             {
               "kind": "lead",
@@ -90,7 +90,7 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Riding Bottom Position Game"
+              "text": "Game 3: Pinned"
             },
             {
               "kind": "lead",
@@ -147,7 +147,7 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from the hand fight, open guard, and riding position. Keeping your guard means keeping a boundary between you and another person, and a mask does that same job with people. You get to choose what your mask protects and when to use it. Naming your mask is the first step to owning it."
+              "text": "Tonight you worked from the hand fight, open guard, and riding position. Keeping your guard means keeping a boundary, and a mask does that same job with people. You get to choose what your mask protects, and naming it is the first step to owning it."
             }
           ]
         },

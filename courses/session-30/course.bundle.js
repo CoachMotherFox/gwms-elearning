@@ -33,7 +33,7 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
       }
     ],
     "connection": "You can have full control of someone's back and still choose not to hurt them. That is the whole system: the power to hurt, and the choice not to. Using your strength for people instead of over them is that same choice, made in your life.",
-    "takeaway": "Tonight you worked from an underhook tie, half guard, and back control. You can have full control of someone's back and still choose not to hurt them, and that choice is the whole point. Using your strength for people, instead of over them, is that same choice made off the mat. You get to hold real power and still choose mercy.",
+    "takeaway": "Tonight you worked from an underhook tie, half guard, and back control. You can control someone's back and still choose not to hurt him. That is the point. Using strength for people, not over them, is the same choice off the mat. You get to hold power and choose mercy.",
     "_source": "GWMS Curriculum Guide — Session 30 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -58,7 +58,7 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Foot-to-Foot Contact with Overhook / Underhook"
+              "text": "Game 1: Standing"
             },
             {
               "kind": "lead",
@@ -74,7 +74,7 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Half Guard with Standing Transition Game"
+              "text": "Game 2: Guarded"
             },
             {
               "kind": "lead",
@@ -90,7 +90,7 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Chest to Back Control Game"
+              "text": "Game 3: Pinned"
             },
             {
               "kind": "lead",
@@ -147,7 +147,7 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from an underhook tie, half guard, and back control. You can have full control of someone's back and still choose not to hurt them, and that choice is the whole point. Using your strength for people, instead of over them, is that same choice made off the mat. You get to hold real power and still choose mercy."
+              "text": "Tonight you worked from an underhook tie, half guard, and back control. You can control someone's back and still choose not to hurt him. That is the point. Using strength for people, not over them, is the same choice off the mat. You get to hold power and choose mercy."
             }
           ]
         },

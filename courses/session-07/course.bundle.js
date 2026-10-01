@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
       }
     ],
     "connection": "When your guard gets passed, the mask cracks and something real shows. Getting passed on the mat and cracking under pressure are the same moment. You feel it in your body first.",
-    "takeaway": "Tonight you worked from a single leg, closed guard, and referee position. When your guard gets passed, something real slips out from under the mask, and you feel it in your body first. That crack is not failure, it is information. You get to notice what shows up and decide what to do with it.",
+    "takeaway": "Tonight you worked from a single leg, closed guard, and referee position. When your guard gets passed, something real slips out from under the mask. That crack is not failure, it is information. You get to notice what shows up and decide what to do with it.",
     "_source": "GWMS Curriculum Guide — Session 7 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -59,7 +59,7 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Single Leg — Make Partner Fall to Hands or Hips"
+              "text": "Game 1: Standing"
             },
             {
               "kind": "lead",
@@ -75,7 +75,7 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Closed Guard Opening — Hands on Body"
+              "text": "Game 2: Guarded"
             },
             {
               "kind": "lead",
@@ -91,7 +91,7 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Referee Position Ride and Break Down"
+              "text": "Game 3: Pinned"
             },
             {
               "kind": "lead",
@@ -148,7 +148,7 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from a single leg, closed guard, and referee position. When your guard gets passed, something real slips out from under the mask, and you feel it in your body first. That crack is not failure, it is information. You get to notice what shows up and decide what to do with it."
+              "text": "Tonight you worked from a single leg, closed guard, and referee position. When your guard gets passed, something real slips out from under the mask. That crack is not failure, it is information. You get to notice what shows up and decide what to do with it."
             }
           ]
         },

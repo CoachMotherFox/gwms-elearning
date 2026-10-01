@@ -33,7 +33,7 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
       }
     ],
     "connection": "Newer people learn more from watching how you roll than from anything you say. How you carry yourself in life teaches the same way, silently, to whoever is watching. You are a lesson whether you mean to be or not.",
-    "takeaway": "Tonight you worked from the hand fight, closed guard, and back control. Newer people learn more from watching how you roll than from anything you say. You teach people the same way off the mat, just by how you act. You get to choose what you teach, since you are teaching either way.",
+    "takeaway": "Tonight you worked from the hand fight, closed guard, and back control. Newer people learn more from watching how you roll than from anything you say. You teach people the same way off the mat, by how you act. You get to choose what you teach, since you're teaching anyway.",
     "_source": "GWMS Curriculum Guide — Session 33 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -58,7 +58,7 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Hand Fight with Dual Win Conditions – Week 11 Game 1"
+              "text": "Game 1: Standing"
             },
             {
               "kind": "lead",
@@ -73,7 +73,7 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Closed Guard — Post to Underhook to Locked Hands"
+              "text": "Game 2: Guarded"
             },
             {
               "kind": "lead",
@@ -89,7 +89,7 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Chest-to-Back Connection Maintenance"
+              "text": "Game 3: Pinned"
             },
             {
               "kind": "lead",
@@ -146,7 +146,7 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from the hand fight, closed guard, and back control. Newer people learn more from watching how you roll than from anything you say. You teach people the same way off the mat, just by how you act. You get to choose what you teach, since you are teaching either way."
+              "text": "Tonight you worked from the hand fight, closed guard, and back control. Newer people learn more from watching how you roll than from anything you say. You teach people the same way off the mat, by how you act. You get to choose what you teach, since you're teaching anyway."
             }
           ]
         },

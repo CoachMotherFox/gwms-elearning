@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
       }
     ],
     "connection": "Losing the pin and getting reversed is a small rupture. How you handle that break on the mat, a clean reset or payback, is a lot like how you handle broken connections in life.",
-    "takeaway": "Tonight you worked from a single leg, side control, and a figure-four pin. Losing a pin and getting reversed is a small break, and how you respond, a clean reset or payback, is a real choice. That same choice shows up when a connection breaks with someone in life. You get to choose the reset over the payback.",
+    "takeaway": "Tonight you worked from a single leg, side control, and a figure-four pin. Losing a pin and getting reversed is a small break, and how you respond is a real choice. That same choice shows up when a connection breaks with someone. You get to choose the reset over payback.",
     "_source": "GWMS Curriculum Guide — Session 19 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -59,7 +59,7 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Single Leg Takedown Game"
+              "text": "Game 1: Standing"
             },
             {
               "kind": "lead",
@@ -75,7 +75,7 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Guard Recovery After Leg Pass Game"
+              "text": "Game 2: Guarded"
             },
             {
               "kind": "lead",
@@ -91,7 +91,7 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Figure Four Grip Control Game"
+              "text": "Game 3: Pinned"
             },
             {
               "kind": "lead",
@@ -148,7 +148,7 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from a single leg, side control, and a figure-four pin. Losing a pin and getting reversed is a small break, and how you respond, a clean reset or payback, is a real choice. That same choice shows up when a connection breaks with someone in life. You get to choose the reset over the payback."
+              "text": "Tonight you worked from a single leg, side control, and a figure-four pin. Losing a pin and getting reversed is a small break, and how you respond is a real choice. That same choice shows up when a connection breaks with someone. You get to choose the reset over payback."
             }
           ]
         },

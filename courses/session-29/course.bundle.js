@@ -33,7 +33,7 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
       }
     ],
     "connection": "Letting a partner work when you could just finish them costs you the easy win. Giving something real off the mat costs something too, time, comfort, pride. The giving that counts is the kind you feel.",
-    "takeaway": "Tonight you worked from a front headlock, open guard, and back control. Letting a partner keep working instead of finishing him costs you the easy win, on purpose. Giving something real off the mat costs something too, time, comfort, pride. You get to choose what you give, without giving away all of yourself.",
+    "takeaway": "Tonight you worked from a front headlock, open guard, and back control. Letting a partner keep working instead of finishing him costs you the easy win. Giving something real off the mat costs something too: time, comfort, pride. You get to choose what you give, without giving away everything.",
     "_source": "GWMS Curriculum Guide — Session 29 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -58,7 +58,7 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Front Headlock to Rear - Standing"
+              "text": "Game 1: Standing"
             },
             {
               "kind": "lead",
@@ -74,7 +74,7 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Open Guard Multiple Connection Game"
+              "text": "Game 2: Guarded"
             },
             {
               "kind": "lead",
@@ -90,7 +90,7 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Back Control Elbow Management — No Hooks"
+              "text": "Game 3: Pinned"
             },
             {
               "kind": "lead",
@@ -147,7 +147,7 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from a front headlock, open guard, and back control. Letting a partner keep working instead of finishing him costs you the easy win, on purpose. Giving something real off the mat costs something too, time, comfort, pride. You get to choose what you give, without giving away all of yourself."
+              "text": "Tonight you worked from a front headlock, open guard, and back control. Letting a partner keep working instead of finishing him costs you the easy win. Giving something real off the mat costs something too: time, comfort, pride. You get to choose what you give, without giving away everything."
             }
           ]
         },

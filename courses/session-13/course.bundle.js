@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
       }
     ],
     "connection": "Holding contact on the mat and noticing what contact does to you are the same skill. Both mean staying present when someone gets close, instead of pushing them away. The pin teaches your body to stay. Thinking about it teaches your mind why staying is hard.",
-    "takeaway": "Tonight you worked from an underhook tie, open guard, and a chest-to-chest pin. Holding a pin teaches your body to stay present when someone gets close instead of pushing them away. Real contact does something to everyone, and now you can feel what it does to you. You get to notice that feeling instead of running from it.",
+    "takeaway": "Tonight you worked from an underhook tie, open guard, and a chest-to-chest pin. Holding a pin teaches your body to stay present instead of pushing someone away. Real contact does something to everyone, and now you can feel it. You get to notice that feeling instead of running from it.",
     "_source": "GWMS Curriculum Guide — Session 13 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -59,7 +59,7 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Standing Hand Connection Game"
+              "text": "Game 1: Standing"
             },
             {
               "kind": "lead",
@@ -74,7 +74,7 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Chest-to-Chest via Outside Line Only"
+              "text": "Game 2: Guarded"
             },
             {
               "kind": "lead",
@@ -90,7 +90,7 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Chest to Chest Under Elbows Maintenance"
+              "text": "Game 3: Pinned"
             },
             {
               "kind": "lead",
@@ -147,7 +147,7 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from an underhook tie, open guard, and a chest-to-chest pin. Holding a pin teaches your body to stay present when someone gets close instead of pushing them away. Real contact does something to everyone, and now you can feel what it does to you. You get to notice that feeling instead of running from it."
+              "text": "Tonight you worked from an underhook tie, open guard, and a chest-to-chest pin. Holding a pin teaches your body to stay present instead of pushing someone away. Real contact does something to everyone, and now you can feel it. You get to notice that feeling instead of running from it."
             }
           ]
         },

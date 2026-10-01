@@ -32,7 +32,7 @@
       }
     ],
     "connection": "Resetting and rolling clean with someone right after a hard round is like squaring up with words. A real apology is the same kind of reset: you get back in instead of carrying the grudge.",
-    "takeaway": "Tonight you worked from the hand fight, side control, and a figure-four grip. Resetting and rolling clean with someone right after a hard round is a physical version of a real apology. Both mean getting back in instead of carrying the grudge. You get to choose the reset over the grudge, every time you say sorry.",
+    "takeaway": "Tonight you worked from the hand fight, side control, and a figure-four grip. Resetting and rolling clean right after a hard round is a physical version of a real apology. Both mean getting back in instead of carrying the grudge. You get to choose the reset over the grudge.",
     "_source": "GWMS Curriculum Guide — Session 22 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -57,7 +57,7 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Hand Fight with Dual Win Conditions – Week 11 Game 1"
+              "text": "Game 1: Standing"
             },
             {
               "kind": "lead",
@@ -72,7 +72,7 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Guard Recovery with Passing Resistance Game"
+              "text": "Game 2: Guarded"
             },
             {
               "kind": "lead",
@@ -88,7 +88,7 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Figure Four — Reintroduction with Hand-to-Mat or Knuckles-Behind Win"
+              "text": "Game 3: Pinned"
             },
             {
               "kind": "lead",
@@ -145,7 +145,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from the hand fight, side control, and a figure-four grip. Resetting and rolling clean with someone right after a hard round is a physical version of a real apology. Both mean getting back in instead of carrying the grudge. You get to choose the reset over the grudge, every time you say sorry."
+              "text": "Tonight you worked from the hand fight, side control, and a figure-four grip. Resetting and rolling clean right after a hard round is a physical version of a real apology. Both mean getting back in instead of carrying the grudge. You get to choose the reset over the grudge."
             }
           ]
         },

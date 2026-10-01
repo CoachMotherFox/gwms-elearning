@@ -32,7 +32,7 @@
       }
     ],
     "connection": "Getting past the legs shows what the guard was hiding. Looking under your mask shows the real you. Passing and revealing are the same move: get past the defense to what is behind it.",
-    "takeaway": "Tonight you worked from an underhook tie, open guard, and a figure-four pin. Getting past a guard shows what it was hiding, and looking under your own mask works the same way. What is underneath is not worse than the mask, it is just true. You get to look at it and keep what is real.",
+    "takeaway": "Tonight you worked from an underhook tie, open guard, and a figure-four pin. Getting past a guard shows what it was hiding, and looking under your mask works the same way. What is underneath is not worse, it is just true. You get to keep what is real.",
     "_source": "GWMS Curriculum Guide — Session 10 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -57,7 +57,7 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Waist-Centric Underhook Game"
+              "text": "Game 1: Standing"
             },
             {
               "kind": "lead",
@@ -73,7 +73,7 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Around-the-Legs Passing Game"
+              "text": "Game 2: Guarded"
             },
             {
               "kind": "lead",
@@ -89,7 +89,7 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Figure Four Grip Control Game"
+              "text": "Game 3: Pinned"
             },
             {
               "kind": "lead",
@@ -146,7 +146,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from an underhook tie, open guard, and a figure-four pin. Getting past a guard shows what it was hiding, and looking under your own mask works the same way. What is underneath is not worse than the mask, it is just true. You get to look at it and keep what is real."
+              "text": "Tonight you worked from an underhook tie, open guard, and a figure-four pin. Getting past a guard shows what it was hiding, and looking under your mask works the same way. What is underneath is not worse, it is just true. You get to keep what is real."
             }
           ]
         },

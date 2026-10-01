@@ -33,7 +33,7 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
       }
     ],
     "connection": "Helping a newer partner instead of just tapping them out is the first act of giving on the mat. Turning your growth toward someone who needs it works the same way in life. You stop being the one who gets helped. You start being the help.",
-    "takeaway": "Tonight you worked from the hand fight, open guard, and back control. Helping a newer partner instead of just tapping him out is the first act of giving on the mat. Turning what you've learned toward someone who needs it works the same way. You get to decide when you're ready to help, and that's your call.",
+    "takeaway": "Tonight you worked from the hand fight, open guard, and back control. Helping a newer partner instead of tapping him out is the first act of giving on the mat. Turning what you've learned toward someone who needs it works the same way. You get to decide when you're ready.",
     "_source": "GWMS Curriculum Guide — Session 28 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -58,7 +58,7 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Upper vs Lower Body Division Game — Open Hand Connections"
+              "text": "Game 1: Standing"
             },
             {
               "kind": "lead",
@@ -74,7 +74,7 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Seated Open Guard Game"
+              "text": "Game 2: Guarded"
             },
             {
               "kind": "lead",
@@ -90,7 +90,7 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Back Take – Maintain Chest to Back Contact"
+              "text": "Game 3: Pinned"
             },
             {
               "kind": "lead",
@@ -147,7 +147,7 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from the hand fight, open guard, and back control. Helping a newer partner instead of just tapping him out is the first act of giving on the mat. Turning what you've learned toward someone who needs it works the same way. You get to decide when you're ready to help, and that's your call."
+              "text": "Tonight you worked from the hand fight, open guard, and back control. Helping a newer partner instead of tapping him out is the first act of giving on the mat. Turning what you've learned toward someone who needs it works the same way. You get to decide when you're ready."
             }
           ]
         },

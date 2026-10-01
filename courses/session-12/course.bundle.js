@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
       }
     ],
     "connection": "Running both games from standing to a pin is the mat's version of the whole Descent, from arrival to the real self revealed. This session brings both journeys together into one.",
-    "takeaway": "Tonight you worked from the hand fight, open guard, and riding position, running the whole trip from standing to a pin in one round. That is the same trip you have made since Session 1, from arrival to the real you underneath. You showed up, you cracked, and you stayed anyway. You get to keep showing up as that real person.",
+    "takeaway": "Tonight you worked from the hand fight, open guard, and riding position, standing to a pin in one round. That is the same trip you have made since Session 1. You showed up, you cracked, and you stayed anyway. You get to keep showing up as that person.",
     "_source": "GWMS Curriculum Guide — Session 12 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -59,7 +59,7 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Hand Touch / Knee Touch with Close Hand Connection"
+              "text": "Game 1: Standing"
             },
             {
               "kind": "lead",
@@ -74,7 +74,7 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Open Guard Takedown and Escape Game"
+              "text": "Game 2: Guarded"
             },
             {
               "kind": "lead",
@@ -90,7 +90,7 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Riding Bottom Position Game"
+              "text": "Game 3: Pinned"
             },
             {
               "kind": "lead",
@@ -147,7 +147,7 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from the hand fight, open guard, and riding position, running the whole trip from standing to a pin in one round. That is the same trip you have made since Session 1, from arrival to the real you underneath. You showed up, you cracked, and you stayed anyway. You get to keep showing up as that real person."
+              "text": "Tonight you worked from the hand fight, open guard, and riding position, standing to a pin in one round. That is the same trip you have made since Session 1. You showed up, you cracked, and you stayed anyway. You get to keep showing up as that person."
             }
           ]
         },

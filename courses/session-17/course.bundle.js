@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-17"] =
       }
     ],
     "connection": "Staying in an uncomfortable pin instead of scrambling out is like staying in a hard conversation. Both take the same skill: putting up with discomfort instead of running from it.",
-    "takeaway": "Tonight you worked from a waist lock, side control, and turtle. Staying in an uncomfortable pin instead of scrambling out takes the same skill as staying in a hard conversation. You can choose to stay with discomfort instead of running from it. And when a situation is truly harmful, choosing to leave is smart too.",
+    "takeaway": "Tonight you worked from a waist lock, side control, and turtle. Staying in an uncomfortable pin instead of scrambling out takes the same skill as staying in a hard conversation. You can choose to stay with discomfort instead of running. Leaving something truly harmful is smart too.",
     "_source": "GWMS Curriculum Guide — Session 17 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -59,7 +59,7 @@ window.GWMS_COURSE_BUNDLE["session-17"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Waist Control Leg Stuffing Game"
+              "text": "Game 1: Standing"
             },
             {
               "kind": "lead",
@@ -75,7 +75,7 @@ window.GWMS_COURSE_BUNDLE["session-17"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Guard Recovery with Passing Resistance Game"
+              "text": "Game 2: Guarded"
             },
             {
               "kind": "lead",
@@ -91,7 +91,7 @@ window.GWMS_COURSE_BUNDLE["session-17"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Rear Hip Connection - Keep Belly Down"
+              "text": "Game 3: Pinned"
             },
             {
               "kind": "lead",
@@ -148,7 +148,7 @@ window.GWMS_COURSE_BUNDLE["session-17"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from a waist lock, side control, and turtle. Staying in an uncomfortable pin instead of scrambling out takes the same skill as staying in a hard conversation. You can choose to stay with discomfort instead of running from it. And when a situation is truly harmful, choosing to leave is smart too."
+              "text": "Tonight you worked from a waist lock, side control, and turtle. Staying in an uncomfortable pin instead of scrambling out takes the same skill as staying in a hard conversation. You can choose to stay with discomfort instead of running. Leaving something truly harmful is smart too."
             }
           ]
         },

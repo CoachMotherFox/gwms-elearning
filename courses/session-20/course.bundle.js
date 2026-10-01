@@ -59,7 +59,7 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Stick and Pull Foot Sweep Game"
+              "text": "Game 1: Standing"
             },
             {
               "kind": "lead",
@@ -75,7 +75,7 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Closed Guard Opening — Hands on Body"
+              "text": "Game 2: Guarded"
             },
             {
               "kind": "lead",
@@ -91,7 +91,7 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Head and Arm Strangle — Close Position Start"
+              "text": "Game 3: Pinned"
             },
             {
               "kind": "lead",

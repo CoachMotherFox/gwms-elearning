@@ -74,18 +74,26 @@ function screenQuestion(s) {
 
 /* Cut to the bone, per instructor direction September 27, 2026: a boy at a
    5th grade reading level, typing four answers after, has to clear the whole
-   module in five minutes. This screen shows the three game names, a one-line
-   player-facing "what it is," and each player's win — no start, no rules
-   text, no SLO label. Re-pulled September 28, 2026 from the rewritten
+   module in five minutes. Re-pulled September 28, 2026 from the rewritten
    Grappling Class Guides: whatItIs comes straight from each game's "What it
    is" line, player-facing by design. How it works, Scale it, Ask them, and
-   Watch for are coach-only and never appear here. The full game (start,
-   task, skill) still lives in courses/_curriculum/ and on that session's
-   Grappling Class Guide for the coach. */
+   Watch for are coach-only and never appear here.
+
+   October 1, 2026: the KB game title (e.g. "Role-Based Consecutive Touch vs
+   Close Hand Game") means nothing to a kid and was costing up to seven
+   words a game for no comprehension payoff. Each game now leads with a
+   plain "Game N: Standing/Guarded/Pinned" label — the same three words the
+   Grappling Class Guide itself uses for the CVP section headers — followed
+   immediately by the whatItIs line. The KB title still lives in
+   courses/_curriculum/ as game.title for the coach and for courses/index.json;
+   it just never renders on this screen anymore. The full game (start, task,
+   skill) still lives in courses/_curriculum/ and on that session's Grappling
+   Class Guide for the coach. */
+const GAME_LABELS = ['Standing', 'Guarded', 'Pinned'];
 function screenGames(s) {
   const body = [];
-  s.games.forEach((game) => {
-    body.push({ kind: 'heading', level: 3, text: gameTitle(game.title) });
+  s.games.forEach((game, i) => {
+    body.push({ kind: 'heading', level: 3, text: `Game ${i + 1}: ${GAME_LABELS[i]}` });
     if (game.whatItIs) body.push({ kind: 'lead', text: game.whatItIs });
     body.push({ kind: 'list', items: game.win.map((w) => `${w.role} ${w.text}`) });
   });
