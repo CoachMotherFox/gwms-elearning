@@ -111,22 +111,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "You've got your partner's back, and he keeps turning to escape. What's the smart move?",
+          "question": "Tonight you followed him wherever he went, standing, passing, and holding his back. What proved the change was real?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Follow his turn and keep your hands connected.",
-              "feedback": "Following without letting go is proof of change you can feel, not just say.",
+              "text": "Following through instead of reaching for more.",
+              "feedback": "Following through, instead of reaching for more too soon, is proof the change is real.",
               "correct": true
             },
             {
-              "text": "Let go and reset your grip from scratch.",
-              "feedback": "Resetting here gives up ground you already hold."
+              "text": "Reaching for more the first chance you got.",
+              "feedback": "Reaching for more too soon is not the same as following through."
             },
             {
-              "text": "Hold still and wait for him to stop turning.",
-              "feedback": "Follow his turn instead of waiting."
+              "text": "Holding on only when it was easy.",
+              "feedback": "Holding on only when easy is not proof of anything."
             }
           ]
         }

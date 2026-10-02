@@ -115,22 +115,22 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
             "role": "formative",
             "scored": false
           },
-          "question": "You've got an underhook and a grip on your partner's head. What's the smart next move?",
+          "question": "Tonight you got past the first layer standing, passing, and pinning. What was waiting underneath?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Use that grip as a waypoint to his waist.",
-              "feedback": "Treating it as a waypoint gets you to what's underneath, the same way passing gets past the mask.",
+              "text": "Something true, not something worse.",
+              "feedback": "What's under the first layer is not worse than it. It's just true.",
               "correct": true
             },
             {
-              "text": "Stay locked on the head grip and hold there.",
-              "feedback": "Stopping at the head grip stalls your progress."
+              "text": "Something worse than the front layer.",
+              "feedback": "What's underneath is not worse, it is just true."
             },
             {
-              "text": "Release the grip and start the hand fight over.",
-              "feedback": "Keep working toward his waist instead."
+              "text": "Nothing, the front layer was all there was.",
+              "feedback": "There is always something underneath the first layer."
             }
           ]
         }

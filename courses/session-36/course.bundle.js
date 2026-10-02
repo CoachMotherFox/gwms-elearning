@@ -113,22 +113,22 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
             "role": "formative",
             "scored": false
           },
-          "question": "You and your partner are locked in an over-under tie on the very last roll. What's the smart move?",
+          "question": "Tonight you played the same games as your very first night, standing, passing, and on his back. What was actually different this time?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Fight to close your hands under his elbows.",
-              "feedback": "Closing the connection clean, on the last roll, is exactly what you carry out the door with you.",
+              "text": "Who was playing them, not the games themselves.",
+              "feedback": "The games never changed. What you carry out the door is who was playing them.",
               "correct": true
             },
             {
-              "text": "Let go and grab a totally different hold.",
-              "feedback": "Letting go here gives away the tie you already have."
+              "text": "The games were harder than before.",
+              "feedback": "The games stayed the same, you were the one who changed."
             },
             {
-              "text": "Hold still and wait for him to move.",
-              "feedback": "Keep fighting to close your hands instead of waiting."
+              "text": "Nothing, it felt exactly the same.",
+              "feedback": "Something was different, even if the games looked the same."
             }
           ]
         }

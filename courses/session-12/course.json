@@ -112,22 +112,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "You're riding your partner from on top, hands on his hips, and he's trying to stand. What's the smart move?",
+          "question": "Tonight you ran the whole trip, standing to a pin, playing both seats. What did finishing the whole thing prove?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Block his hips down with knee and foot.",
-              "feedback": "Blocking his hips down is the same discipline that got you from arrival all the way to who you are now.",
+              "text": "That you can stay yourself the whole way through.",
+              "feedback": "Staying yourself through the whole trip, not just one part of it, is what the mask coming off means.",
               "correct": true
             },
             {
-              "text": "Grab for a choke and forget his hips.",
-              "feedback": "Chasing a choke here lets him stand up free."
+              "text": "That you're better at one seat than the other.",
+              "feedback": "Being better at one seat misses the point of running the whole trip."
             },
             {
-              "text": "Push down with your chest and stop moving.",
-              "feedback": "Use your knee and foot, not your chest."
+              "text": "That the trip only matters at the end.",
+              "feedback": "The whole trip matters, not just how it ends."
             }
           ]
         }

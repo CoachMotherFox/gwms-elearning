@@ -112,22 +112,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "You've got the figure-four grip locked under your partner's elbow. What's the smart move?",
+          "question": "Tonight you held clean positions standing, passing, and pinning, and released the moment it was time. What made that real?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Drive his hand to the mat or his back.",
-              "feedback": "Finishing slow and in control is what makes the move clean.",
+              "text": "Releasing completely, not partway.",
+              "feedback": "Releasing completely, not partway, is what makes meaning it real instead of just saying it.",
               "correct": true
             },
             {
-              "text": "Hold the grip still and wait there.",
-              "feedback": "Holding still here stalls the finish completely."
+              "text": "Holding on a little longer than you had to.",
+              "feedback": "Holding on longer than needed is not a clean release."
             },
             {
-              "text": "Switch to a different grip on his arm.",
-              "feedback": "Switching grips gives up ground you already built."
+              "text": "Releasing before you had actually won anything.",
+              "feedback": "Releasing early is not the same as releasing completely at the right time."
             }
           ]
         }

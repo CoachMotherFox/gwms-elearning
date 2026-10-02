@@ -114,22 +114,22 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
             "role": "formative",
             "scored": false
           },
-          "question": "You're in mount, staying under one of your partner's elbows while he fights to free it. What's the smart move?",
+          "question": "Tonight you built every connection with a real partner, standing, passing, and pinning. What made each one hold?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Keep fighting to stay under that same elbow.",
-              "feedback": "Staying honest under pressure is rolling as the real you, not a performance.",
+              "text": "You built it with him, not just for him.",
+              "feedback": "The real you shows up with other people, not alone. That's what makes a connection hold.",
               "correct": true
             },
             {
-              "text": "Switch elbows early and let this one go.",
-              "feedback": "Switching early gives up ground you're already holding."
+              "text": "You built it alone and he just watched.",
+              "feedback": "A connection built alone is not really a connection."
             },
             {
-              "text": "Sit back and let him work it free.",
-              "feedback": "Keep fighting to stay under it."
+              "text": "You built it exactly like last time.",
+              "feedback": "Copying last time is not the same as building it with him."
             }
           ]
         }

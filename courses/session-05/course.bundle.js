@@ -115,22 +115,22 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
             "role": "formative",
             "scored": false
           },
-          "question": "You're hand fighting for the underhook, and your hands keep landing in different spots. What's the smart move?",
+          "question": "Tonight you played two different jobs in every game, standing, passing, and pinning. What let you do both well?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Grip his wrist, elbow, or head on purpose.",
-              "feedback": "Gripping on purpose is a learned move, the same way your mask was learned somewhere too.",
+              "text": "Learning the moves for each job, not just one.",
+              "feedback": "You learned a version of you for each job. That is not fake, it is skill.",
               "correct": true
             },
             {
-              "text": "Grab wherever your hands happen to land.",
-              "feedback": "Grip on purpose instead of grabbing at random."
+              "text": "Picking the job you liked best.",
+              "feedback": "Picking only one job leaves the other one untrained."
             },
             {
-              "text": "Keep your hands off him and circle.",
-              "feedback": "Get a grip on purpose instead."
+              "text": "Doing the same thing no matter which job.",
+              "feedback": "The same move does not work for both jobs."
             }
           ]
         }

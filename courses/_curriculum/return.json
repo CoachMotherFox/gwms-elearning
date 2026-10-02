@@ -90,20 +90,21 @@
       "connection": "Twelve weeks ago, you could not hold this position at all. Now you can. That is proof of change you can feel. Naming what is different in you works the same way. Real change is something you can show, not just say.",
       "takeaway": "Tonight you worked from the hand fight, open guard, and back control. At Session 1 you could not hold these positions. Now you can. That is proof of change you can feel in your body, not just say out loud. You get to name exactly what changed and show it.",
       "concept": {
-        "question": "You've got your partner's back, and he keeps turning to escape. What's the smart move?",
+        "lesson": "Following through, not reaching for more too soon, proves change is real.",
+        "question": "Tonight you followed him wherever he went, standing, passing, and holding his back. What proved the change was real?",
         "options": [
           {
-            "text": "Follow his turn and keep your hands connected.",
-            "feedback": "Following without letting go is proof of change you can feel, not just say.",
+            "text": "Following through instead of reaching for more.",
+            "feedback": "Following through, instead of reaching for more too soon, is proof the change is real.",
             "correct": true
           },
           {
-            "text": "Let go and reset your grip from scratch.",
-            "feedback": "Resetting here gives up ground you already hold."
+            "text": "Reaching for more the first chance you got.",
+            "feedback": "Reaching for more too soon is not the same as following through."
           },
           {
-            "text": "Hold still and wait for him to stop turning.",
-            "feedback": "Follow his turn instead of waiting."
+            "text": "Holding on only when it was easy.",
+            "feedback": "Holding on only when easy is not proof of anything."
           }
         ]
       }
@@ -173,20 +174,21 @@
       "connection": "A change that only works when it is easy is not a real change yet. Holding the back against a fighting partner puts it to the test. Who you have become gets proven the same way, by whether it holds up when things get hard.",
       "takeaway": "Tonight you worked from a single leg, open guard, and back control. A change that's only easy isn't real yet, and holding the back against a fighting partner tests it. Who you've become gets tested the same way, when things get hard. You get to trust it once it holds.",
       "concept": {
-        "question": "You're holding your partner's back, and he's fighting harder than ever to turn out. What's the smart move?",
+        "lesson": "Change that only holds when it's easy isn't real yet.",
+        "question": "Tonight you held on standing, passing, and on his back, against someone really trying. What proved it?",
         "options": [
           {
-            "text": "Keep chest-to-back contact through his hardest fight.",
-            "feedback": "Holding through the hard part is what proves a change is real.",
+            "text": "It held even when he fought hard.",
+            "feedback": "Real change holds up against real effort, not just when it's easy.",
             "correct": true
           },
           {
-            "text": "Ease off contact until he calms down.",
-            "feedback": "Easing off here gives away the position."
+            "text": "It worked when he wasn't trying very hard.",
+            "feedback": "Working only when he's not trying is not proof of anything."
           },
           {
-            "text": "Grab for hooks and forget the chest contact.",
-            "feedback": "Chasing hooks loses the contact that actually holds him."
+            "text": "You said it, and that was enough.",
+            "feedback": "Saying it is real does not make it real."
           }
         ]
       }
@@ -257,20 +259,21 @@
       "connection": "There is one exact thing you can do on the mat now that you could not before, and you can name it. Your growth off the mat works the same way. Not \"I am better,\" but \"I can do this now.\"",
       "takeaway": "Tonight you worked from an underhook tie, half guard, and back control. There is one exact thing you can do now that you couldn't before, and you can name it. Growth off the mat works the same way. You get to name exactly what you gained.",
       "concept": {
-        "question": "You're passing half guard, and you've already cleared your partner's feet. What's the smart move?",
+        "lesson": "Growth is one exact thing you can name.",
+        "question": "Tonight you held on standing, passing, and on his back, with less help than before. What exactly changed?",
         "options": [
           {
-            "text": "Clear the knees next, then work to the hips.",
-            "feedback": "Clearing it in order is one exact thing you couldn't do before, and now you can.",
+            "text": "One exact thing you can name, not just a feeling.",
+            "feedback": "Growth is one exact thing you can name, not a feeling of being better.",
             "correct": true
           },
           {
-            "text": "Skip ahead and reach straight for the hips.",
-            "feedback": "Skipping the order here usually costs you the pass."
+            "text": "A general feeling that you got better.",
+            "feedback": "A feeling is not the same as naming one exact thing."
           },
           {
-            "text": "Stop and reset back to the feet again.",
-            "feedback": "Clear the knees next instead of skipping ahead."
+            "text": "Something you can't quite describe yet.",
+            "feedback": "If you can't name it yet, you haven't found it yet."
           }
         ]
       }
@@ -342,20 +345,21 @@
       "note": "Not everyone is ready to give yet. That is okay. Nothing here is owed.",
       "takeaway": "Tonight you worked from the hand fight, open guard, and back control. Helping a newer partner instead of tapping him out is the first act of giving on the mat. Turning what you've learned toward someone who needs it works the same way. You get to decide when you're ready.",
       "concept": {
-        "question": "You're moving your partner using only touches to his wrist, elbow, or head. What's the smart move?",
+        "lesson": "Holding someone so he can learn is giving, not winning.",
+        "question": "Tonight you held him standing, passing, and pinning, so he could learn. What made that giving?",
         "options": [
           {
-            "text": "Keep every touch on the wrist, elbow, or head.",
-            "feedback": "Gripping on purpose, not grabbing anywhere, is the same as giving something that actually helps.",
+            "text": "You held him so he could learn, not to win.",
+            "feedback": "Holding someone so he can learn is giving, not winning.",
             "correct": true
           },
           {
-            "text": "Touch anywhere on his body to move him.",
-            "feedback": "Touching anywhere breaks the rule and stalls your progress."
+            "text": "You held him hard.",
+            "feedback": "Holding as hard as possible is winning, not giving."
           },
           {
-            "text": "Grab his leg to move him faster.",
-            "feedback": "Stay on wrist, elbow, or head instead."
+            "text": "You let him go early.",
+            "feedback": "Letting him go skips the struggle he needs."
           }
         ]
       }
@@ -427,20 +431,21 @@
       "note": "Giving that costs you is not the same as erasing yourself. Giving until nothing is left of you is not the goal.",
       "takeaway": "Tonight you worked from a front headlock, open guard, and back control. Letting a partner keep working instead of finishing him costs you the easy win. Giving something real off the mat costs something too: time, comfort, pride. You get to choose what you give, without giving away everything.",
       "concept": {
-        "question": "You've worked behind your partner and locked your hands around his hips. What's the smart move?",
+        "lesson": "Giving up the easy win is what makes giving cost something.",
+        "question": "Tonight you gave him room to work, standing, passing, and on his back, while still holding on. What did that cost you?",
         "options": [
           {
-            "text": "Stay beside his hips, not straight behind him.",
-            "feedback": "Positioning smart instead of taking the easy grab is giving that actually costs you something.",
+            "text": "The easy win you could have taken.",
+            "feedback": "Giving up the easy win is what makes it cost something.",
             "correct": true
           },
           {
-            "text": "Move straight behind him and squeeze harder.",
-            "feedback": "Going straight behind here is easier to escape."
+            "text": "Nothing, holding on is always easy.",
+            "feedback": "Holding on while giving him room is not the easy version."
           },
           {
-            "text": "Let go and re-enter from the front again.",
-            "feedback": "Stay beside his hips instead of going straight behind."
+            "text": "Your grip, since you let go completely.",
+            "feedback": "Letting go completely is not the same as giving him room while still holding."
           }
         ]
       }
@@ -512,20 +517,21 @@
       "connection": "You can have full control of someone's back and still choose not to hurt them. That is the whole system: the power to hurt, and the choice not to. Using your strength for people instead of over them is that same choice, made in your life.",
       "takeaway": "Tonight you worked from an underhook tie, half guard, and back control. You can control someone's back and still choose not to hurt him. That is the point. Using strength for people, not over them, is the same choice off the mat. You get to hold power and choose mercy.",
       "concept": {
-        "question": "You've got an overhook, and you've just made foot-to-foot contact with your partner. What's the smart move?",
+        "lesson": "Choosing not to hurt him is what keeps strength from becoming harm.",
+        "question": "Tonight you had full control standing, passing, and on his back, and chose not to hurt him every time. What was that choice worth?",
         "options": [
           {
-            "text": "Stick that foot and pull for the sweep.",
-            "feedback": "Using your strength to sweep him is power aimed at winning position, not at hurting him.",
+            "text": "It kept your strength from becoming harm.",
+            "feedback": "Choosing not to hurt him, every time you could have, is what keeps strength from becoming harm.",
             "correct": true
           },
           {
-            "text": "Let go of the foot contact and reset.",
-            "feedback": "Letting go here gives up ground you just built."
+            "text": "It proved you were stronger than him.",
+            "feedback": "Proving you're stronger is not the same as choosing not to hurt him."
           },
           {
-            "text": "Grab for his head instead of his foot.",
-            "feedback": "Stick the foot instead of grabbing his head."
+            "text": "It made the round take longer.",
+            "feedback": "How long the round took is not the point of the choice."
           }
         ]
       }
@@ -594,20 +600,21 @@
       "note": "The jaw-based counters are not taught yet. They wait until the Therapeutic Manager approves them. Coaches do not teach them.",
       "takeaway": "Tonight you worked from the hand fight, open guard, and back control. A finish gives you real power. Letting go the second he taps is what people remember. Your legacy off the mat works the same way, built from how you treat people when you have the upper hand.",
       "concept": {
-        "question": "You're building a strangle from behind, and your palm has just touched your partner's back. What's the smart move?",
+        "lesson": "A legacy is built step by step, with a controlled release.",
+        "question": "Tonight you built each position step by step, standing, passing, and finishing, and released on the tap every time. What does that leave behind?",
         "options": [
           {
-            "text": "Lock your wrist into your own elbow from there.",
-            "feedback": "Finishing it clean is what people remember, the legacy you leave in how you finish.",
+            "text": "A legacy built on control, not on seizing it.",
+            "feedback": "What you leave behind is built from control, step by step, not from seizing the moment.",
             "correct": true
           },
           {
-            "text": "Pull your hand back and grab his shoulder instead.",
-            "feedback": "Pulling back loses the exact spot you just found."
+            "text": "A legacy built on how fast you finished.",
+            "feedback": "Speed is not what the legacy is built from."
           },
           {
-            "text": "Wait there and let him move first.",
-            "feedback": "Lock your wrist in instead of waiting."
+            "text": "A legacy nobody will actually remember.",
+            "feedback": "What people remember is exactly how you built and released it."
           }
         ]
       }
@@ -679,20 +686,21 @@
       "connection": "How you carry yourself in the room, how you finish, how you treat a new partner, quietly sets the bar for everyone watching. The standard you set for whoever comes next in life works the same way. How you act is the standard.",
       "takeaway": "Tonight you worked from a single leg, open guard, and back control. How you act in the room quietly sets the standard for everyone watching. That is true on the mat and off it. You get to set that standard on purpose.",
       "concept": {
-        "question": "You've got chest-to-back contact, and you want to move toward a finishing position. What's the smart move?",
+        "lesson": "What you do with a reached position quietly sets the standard.",
+        "question": "Tonight you reached a finishing position standing, passing, and on his back, and then chose what to do with it. What did that choice set?",
         "options": [
           {
-            "text": "Shift toward shoulder control without losing the pin.",
-            "feedback": "Moving forward without losing what you hold sets the standard for whoever watches you.",
+            "text": "The standard for whoever is watching you.",
+            "feedback": "How you act once you're there sets the standard for whoever comes next.",
             "correct": true
           },
           {
-            "text": "Let go of the pin to reach the shoulder.",
-            "feedback": "Letting go here gives up the whole position."
+            "text": "Nothing, nobody was really watching.",
+            "feedback": "Someone is always watching, even when it doesn't feel like it."
           },
           {
-            "text": "Stay locked on the hips and go no further.",
-            "feedback": "Shift to the shoulder instead of staying still."
+            "text": "A standard only for this one round.",
+            "feedback": "The standard you set does not stop at the end of one round."
           }
         ]
       }
@@ -760,20 +768,21 @@
       "note": "This is about influence, not being watched and judged. Nobody is grading how you carry yourself.",
       "takeaway": "Tonight you worked from the hand fight, closed guard, and back control. Newer people learn more from watching how you roll than from anything you say. You teach people the same way off the mat, by how you act. You get to choose what you teach, since you're teaching anyway.",
       "concept": {
-        "question": "You're working from closed guard, and you've just caused your partner to post his hand on the mat. What's the smart move?",
+        "lesson": "Control without reaching for the finish teaches more than any finish.",
+        "question": "Tonight you held full control standing, passing, and on his back, without ever reaching for the finish. What did that teach whoever was watching?",
         "options": [
           {
-            "text": "Take the underhook, then lock your hands around him.",
-            "feedback": "Causing the post, then the underhook, then the lock is exactly what a newer partner learns from watching you.",
+            "text": "That control, not the finish, is the lesson.",
+            "feedback": "Control without reaching for the finish teaches more than any finish could.",
             "correct": true
           },
           {
-            "text": "Grab for a submission before the post settles.",
-            "feedback": "Rushing the finish here skips the setup you just earned."
+            "text": "That finishing fast is what matters most.",
+            "feedback": "Finishing fast is not the lesson a newer partner actually needs."
           },
           {
-            "text": "Let go and hand fight from scratch again.",
-            "feedback": "Take the underhook instead of starting over."
+            "text": "Nothing, since you never finished anything.",
+            "feedback": "Not finishing on purpose is still teaching something."
           }
         ]
       }
@@ -842,20 +851,21 @@
       "note": "Grief and pride both belong here. Neither one cancels the other.",
       "takeaway": "Tonight you worked from the hand fight, open guard, and back control. Twelve weeks of getting tapped and rebuilt cost something, and gave something too. You feel both in your body when you roll now. You get to hold the cost and the gain together, without losing either one.",
       "concept": {
-        "question": "You've held chest-to-back contact, and a shoulder-control position looks open. What's the smart move?",
+        "lesson": "Playing both seats means feeling the cost and the gain at once.",
+        "question": "Tonight you played both seats, standing, passing, and on his back, full rounds, every time. What did playing both seats let you feel?",
         "options": [
           {
-            "text": "Move to shoulder control without losing the pin.",
-            "feedback": "Moving forward without losing what you built is counting the cost and the gain.",
+            "text": "Both the cost and the gain, at once.",
+            "feedback": "Playing both seats lets you feel the cost and the gain at the same time, and both are real.",
             "correct": true
           },
           {
-            "text": "Let the pin go to grab the shoulder faster.",
-            "feedback": "Letting go here loses everything you already built."
+            "text": "Only the gain, since you won most rounds.",
+            "feedback": "Only feeling the gain misses half of what both seats teach."
           },
           {
-            "text": "Stay on the hips and skip the shoulder entirely.",
-            "feedback": "Move to the shoulder instead of staying still."
+            "text": "Only the cost, since every round is hard.",
+            "feedback": "Only feeling the cost misses the gain that came with it."
           }
         ]
       }
@@ -923,20 +933,21 @@
       "connection": "The person rolling now is not the one who walked in on Session 1. You can see the difference in how you move. Naming who you became is the return itself, not who you were told to be, but the one you built.",
       "takeaway": "Tonight you worked from the hand fight, open guard, and back control. You are not who walked in on Session 1. You can see it in how you move. Naming who you became is the return itself. You get to claim that person, because you built him.",
       "concept": {
-        "question": "Your palm has just touched your partner's back, building toward the finish. What's the smart move?",
+        "lesson": "Who you became was built and released on purpose.",
+        "question": "Tonight you built each position standing, passing, and finishing, and let go on the tap every time. What does that process say about who you became?",
         "options": [
           {
-            "text": "Lock your wrist into your elbow right there.",
-            "feedback": "Finishing clean, from the person you built, is the return itself.",
+            "text": "You built him and you released him on purpose.",
+            "feedback": "Building something on purpose, then releasing it on purpose, is exactly how you became who you are.",
             "correct": true
           },
           {
-            "text": "Pull back and look for a different angle.",
-            "feedback": "Pulling back loses the exact spot you already found."
+            "text": "He just happened to you over time.",
+            "feedback": "Who you became did not just happen, you built him."
           },
           {
-            "text": "Wait and let your partner move first.",
-            "feedback": "Lock your wrist in instead of waiting."
+            "text": "He is who you were told to be.",
+            "feedback": "Who you became is who you built, not who you were told to be."
           }
         ]
       }
@@ -1005,20 +1016,21 @@
       "programClose": true,
       "takeaway": "Tonight you worked from the over-under tie, half guard, and back control, the three moves the whole program built toward. The mat was never the destination. What you carry out the door, control, mercy, the ability to stay, the real you, is the point. You get to carry it out.",
       "concept": {
-        "question": "You and your partner are locked in an over-under tie on the very last roll. What's the smart move?",
+        "lesson": "The games stayed the same. You are who changed.",
+        "question": "Tonight you played the same games as your very first night, standing, passing, and on his back. What was actually different this time?",
         "options": [
           {
-            "text": "Fight to close your hands under his elbows.",
-            "feedback": "Closing the connection clean, on the last roll, is exactly what you carry out the door with you.",
+            "text": "Who was playing them, not the games themselves.",
+            "feedback": "The games never changed. What you carry out the door is who was playing them.",
             "correct": true
           },
           {
-            "text": "Let go and grab a totally different hold.",
-            "feedback": "Letting go here gives away the tie you already have."
+            "text": "The games were harder than before.",
+            "feedback": "The games stayed the same, you were the one who changed."
           },
           {
-            "text": "Hold still and wait for him to move.",
-            "feedback": "Keep fighting to close your hands instead of waiting."
+            "text": "Nothing, it felt exactly the same.",
+            "feedback": "Something was different, even if the games looked the same."
           }
         ]
       }

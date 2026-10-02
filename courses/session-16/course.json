@@ -113,22 +113,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "You're riding your partner, and he starts fighting hard to stand up. What's the smart move?",
+          "question": "Tonight he pushed back standing, passing, and pinning, and you kept your spot every time. What made that work?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Block his hips down with knee and foot.",
-              "feedback": "Staying calm and blocking beats forcing harder, the same way you handle pushback anywhere else.",
+              "text": "Staying calm instead of forcing harder.",
+              "feedback": "Staying calm under pushback is a choice. Forcing harder is just a reflex.",
               "correct": true
             },
             {
-              "text": "Force him down harder with your whole body.",
-              "feedback": "Forcing harder burns you out faster than it works."
+              "text": "Forcing harder until he stopped.",
+              "feedback": "Forcing harder usually costs more than it wins."
             },
             {
-              "text": "Back off and reset your position from scratch.",
-              "feedback": "Block with knee and foot instead of backing off."
+              "text": "Giving up your spot to avoid the push.",
+              "feedback": "Giving up your spot is not the same as handling the push."
             }
           ]
         }

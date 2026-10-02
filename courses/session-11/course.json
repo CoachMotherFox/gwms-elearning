@@ -112,22 +112,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "You're hand fighting and you've already collected two of your three touches. What's the smart move?",
+          "question": "Tonight you earned your way closer, standing, passing, and pinning, one step at a time. What did that earn you?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Keep working from the grip you already have.",
-              "feedback": "Working from what you already hold is how you reach the part of yourself you keep hidden.",
+              "text": "Access to what was most protected.",
+              "feedback": "What's most protected has to be earned. Reaching for it directly just gets it pulled further away.",
               "correct": true
             },
             {
-              "text": "Let go and search for a totally new grip.",
-              "feedback": "Searching for something new wastes ground you've already won."
+              "text": "Nothing, reaching for it directly works just as well.",
+              "feedback": "Reaching for it directly usually pulls it further away."
             },
             {
-              "text": "Stop and wait to see what he tries.",
-              "feedback": "Keep working your grip instead of stopping."
+              "text": "Whatever you could grab the fastest.",
+              "feedback": "Grabbing fast is not the same as earning access."
             }
           ]
         }

@@ -113,22 +113,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "Your partner is standing to pass, and your feet are still hooked on him. What's the smart move?",
+          "question": "Tonight you held the connection standing, passing, and pinning, for the whole round, every time. What made staying possible?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Keep both feet hooked on him no matter what.",
-              "feedback": "Staying connected under pressure is commitment made physical, the same choice as staying when leaving is easier.",
+              "text": "Choosing to stay instead of bailing early.",
+              "feedback": "Choosing to stay the whole round is commitment. Leaving something truly harmful is still smart.",
               "correct": true
             },
             {
-              "text": "Let your feet go and scramble up to stand.",
-              "feedback": "Letting go here gives up your only connection."
+              "text": "Waiting for it to get easier.",
+              "feedback": "Waiting for easier is not the same as choosing to stay now."
             },
             {
-              "text": "Hold still and hope he stops moving.",
-              "feedback": "Keep your feet hooked instead of hoping."
+              "text": "Leaving as soon as it got hard.",
+              "feedback": "Leaving at the first hard moment is not staying."
             }
           ]
         }

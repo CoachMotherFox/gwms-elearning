@@ -113,22 +113,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "You're opening your partner's closed guard, and your hands drift up toward his head. What's the smart move?",
+          "question": "Tonight you lost rounds on purpose, standing, passing, and pinning. What did losing safely let you see?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Keep your hands on his hips and knees.",
-              "feedback": "Staying on the legs is what opens the guard, the same way pressure is what cracks the mask.",
+              "text": "What you actually do when you're losing.",
+              "feedback": "Losing safely shows you something true. It is information, not failure.",
               "correct": true
             },
             {
-              "text": "Reach for his head to control it.",
-              "feedback": "Reaching for the head stalls the guard."
+              "text": "How to avoid losing next time.",
+              "feedback": "Avoiding losing skips the point of losing safely on purpose."
             },
             {
-              "text": "Pull both hands back and reset your grip.",
-              "feedback": "Stay on the legs instead of resetting."
+              "text": "That losing means you did something wrong.",
+              "feedback": "Losing on purpose is not the same as doing something wrong."
             }
           ]
         }

@@ -113,22 +113,22 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
             "role": "formative",
             "scored": false
           },
-          "question": "You're working from closed guard, and you've just caused your partner to post his hand on the mat. What's the smart move?",
+          "question": "Tonight you held full control standing, passing, and on his back, without ever reaching for the finish. What did that teach whoever was watching?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Take the underhook, then lock your hands around him.",
-              "feedback": "Causing the post, then the underhook, then the lock is exactly what a newer partner learns from watching you.",
+              "text": "That control, not the finish, is the lesson.",
+              "feedback": "Control without reaching for the finish teaches more than any finish could.",
               "correct": true
             },
             {
-              "text": "Grab for a submission before the post settles.",
-              "feedback": "Rushing the finish here skips the setup you just earned."
+              "text": "That finishing fast is what matters most.",
+              "feedback": "Finishing fast is not the lesson a newer partner actually needs."
             },
             {
-              "text": "Let go and hand fight from scratch again.",
-              "feedback": "Take the underhook instead of starting over."
+              "text": "Nothing, since you never finished anything.",
+              "feedback": "Not finishing on purpose is still teaching something."
             }
           ]
         }

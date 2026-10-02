@@ -115,22 +115,22 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Your partner just passed your legs, and your connection to him is gone. What's the smart move?",
+          "question": "Tonight a connection broke standing, passing, and pinning, every time. What mattered most after it broke?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Get a new connection back right away.",
-              "feedback": "Getting the connection back fast is how you survive a break instead of staying stuck in it.",
+              "text": "Getting it back right away.",
+              "feedback": "Getting a broken connection back right away matters more than how it broke.",
               "correct": true
             },
             {
-              "text": "Wait for the right moment before reconnecting.",
-              "feedback": "Waiting here lets the pass finish completely."
+              "text": "Figuring out exactly why it broke.",
+              "feedback": "Figuring out why can wait, getting it back can't."
             },
             {
-              "text": "Give up the position and start standing.",
-              "feedback": "Get your connection back first."
+              "text": "Waiting for the right moment to reconnect.",
+              "feedback": "Waiting for the right moment usually means the pass finishes first."
             }
           ]
         }

@@ -112,22 +112,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "You're passing half guard, and you've already cleared your partner's feet. What's the smart move?",
+          "question": "Tonight you held on standing, passing, and on his back, with less help than before. What exactly changed?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Clear the knees next, then work to the hips.",
-              "feedback": "Clearing it in order is one exact thing you couldn't do before, and now you can.",
+              "text": "One exact thing you can name, not just a feeling.",
+              "feedback": "Growth is one exact thing you can name, not a feeling of being better.",
               "correct": true
             },
             {
-              "text": "Skip ahead and reach straight for the hips.",
-              "feedback": "Skipping the order here usually costs you the pass."
+              "text": "A general feeling that you got better.",
+              "feedback": "A feeling is not the same as naming one exact thing."
             },
             {
-              "text": "Stop and reset back to the feet again.",
-              "feedback": "Clear the knees next instead of skipping ahead."
+              "text": "Something you can't quite describe yet.",
+              "feedback": "If you can't name it yet, you haven't found it yet."
             }
           ]
         }

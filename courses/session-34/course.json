@@ -111,22 +111,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "You've held chest-to-back contact, and a shoulder-control position looks open. What's the smart move?",
+          "question": "Tonight you played both seats, standing, passing, and on his back, full rounds, every time. What did playing both seats let you feel?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Move to shoulder control without losing the pin.",
-              "feedback": "Moving forward without losing what you built is counting the cost and the gain.",
+              "text": "Both the cost and the gain, at once.",
+              "feedback": "Playing both seats lets you feel the cost and the gain at the same time, and both are real.",
               "correct": true
             },
             {
-              "text": "Let the pin go to grab the shoulder faster.",
-              "feedback": "Letting go here loses everything you already built."
+              "text": "Only the gain, since you won most rounds.",
+              "feedback": "Only feeling the gain misses half of what both seats teach."
             },
             {
-              "text": "Stay on the hips and skip the shoulder entirely.",
-              "feedback": "Move to the shoulder instead of staying still."
+              "text": "Only the cost, since every round is hard.",
+              "feedback": "Only feeling the cost misses the gain that came with it."
             }
           ]
         }

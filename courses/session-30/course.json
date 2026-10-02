@@ -112,22 +112,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "You've got an overhook, and you've just made foot-to-foot contact with your partner. What's the smart move?",
+          "question": "Tonight you had full control standing, passing, and on his back, and chose not to hurt him every time. What was that choice worth?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Stick that foot and pull for the sweep.",
-              "feedback": "Using your strength to sweep him is power aimed at winning position, not at hurting him.",
+              "text": "It kept your strength from becoming harm.",
+              "feedback": "Choosing not to hurt him, every time you could have, is what keeps strength from becoming harm.",
               "correct": true
             },
             {
-              "text": "Let go of the foot contact and reset.",
-              "feedback": "Letting go here gives up ground you just built."
+              "text": "It proved you were stronger than him.",
+              "feedback": "Proving you're stronger is not the same as choosing not to hurt him."
             },
             {
-              "text": "Grab for his head instead of his foot.",
-              "feedback": "Stick the foot instead of grabbing his head."
+              "text": "It made the round take longer.",
+              "feedback": "How long the round took is not the point of the choice."
             }
           ]
         }

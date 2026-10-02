@@ -115,22 +115,22 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
             "role": "formative",
             "scored": false
           },
-          "question": "You're working toward an arm lock, and your partner's hands are still together. What's the smart move?",
+          "question": "Tonight you built a position standing, passing, and pinning, and it was yours to hold or let go. What made it yours?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Separate his hands and trap the arm in front.",
-              "feedback": "Trapping your own piece of the position is like owning your own part of a break.",
+              "text": "You owned both the hold and the release.",
+              "feedback": "Owning your part means owning the release too, not just the win.",
               "correct": true
             },
             {
-              "text": "Grab for the far arm instead of separating hands.",
-              "feedback": "Reaching for the far arm skips a step you need first."
+              "text": "You owned it only while you were winning.",
+              "feedback": "Only owning the winning part is not owning your whole part."
             },
             {
-              "text": "Wait for him to move his hands himself.",
-              "feedback": "Separate the hands yourself instead of waiting."
+              "text": "You owned it only once it was over.",
+              "feedback": "Waiting until it's over to own it is too late."
             }
           ]
         }

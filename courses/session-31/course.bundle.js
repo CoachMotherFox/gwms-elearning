@@ -113,22 +113,22 @@ window.GWMS_COURSE_BUNDLE["session-31"] =
             "role": "formative",
             "scored": false
           },
-          "question": "You're building a strangle from behind, and your palm has just touched your partner's back. What's the smart move?",
+          "question": "Tonight you built each position step by step, standing, passing, and finishing, and released on the tap every time. What does that leave behind?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Lock your wrist into your own elbow from there.",
-              "feedback": "Finishing it clean is what people remember, the legacy you leave in how you finish.",
+              "text": "A legacy built on control, not on seizing it.",
+              "feedback": "What you leave behind is built from control, step by step, not from seizing the moment.",
               "correct": true
             },
             {
-              "text": "Pull your hand back and grab his shoulder instead.",
-              "feedback": "Pulling back loses the exact spot you just found."
+              "text": "A legacy built on how fast you finished.",
+              "feedback": "Speed is not what the legacy is built from."
             },
             {
-              "text": "Wait there and let him move first.",
-              "feedback": "Lock your wrist in instead of waiting."
+              "text": "A legacy nobody will actually remember.",
+              "feedback": "What people remember is exactly how you built and released it."
             }
           ]
         }

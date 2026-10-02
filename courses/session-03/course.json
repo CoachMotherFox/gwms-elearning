@@ -112,22 +112,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "You're hand fighting and you've already got a grip on your partner's wrist. What's the smart next move?",
+          "question": "Tonight you felt him out standing, passing, and pinning, a little at a time. What let you do that safely?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Use that grip to collect your touches.",
-              "feedback": "Working from a grip you already hold is how you build trust step by step.",
+              "text": "Keeping some distance while you read him.",
+              "feedback": "Reading the room first is smart. Trusting it all at once is not.",
               "correct": true
             },
             {
-              "text": "Drop the grip and look for a new one.",
-              "feedback": "Don't give up a grip you've already earned."
+              "text": "Rushing in before you knew him.",
+              "feedback": "Rushing in skips the part where you actually read him."
             },
             {
-              "text": "Freeze and hope he touches first.",
-              "feedback": "Keep working your grip."
+              "text": "Trusting him completely, right away.",
+              "feedback": "Trusting all at once is not the same as reading the room."
             }
           ]
         }

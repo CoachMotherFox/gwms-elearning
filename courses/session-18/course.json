@@ -113,22 +113,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "You've got a figure-four grip locked from under your partner's elbow. What's the smart move?",
+          "question": "Tonight you off-balanced him standing, passing, and pinning, with control. What kept it from becoming harm?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Keep the grip locked from under his elbow.",
-              "feedback": "Holding it there is control without harm, honest friction instead of forcing something.",
+              "text": "You aimed it at his balance, not at him.",
+              "feedback": "Friction aimed at his balance is control. Friction aimed at him is harm.",
               "correct": true
             },
             {
-              "text": "Slide the grip up onto his shoulder instead.",
-              "feedback": "Sliding up loses the grip you already built."
+              "text": "You went as hard as you could every time.",
+              "feedback": "Going hard is not the same as aiming with control."
             },
             {
-              "text": "Loosen the grip to let him breathe easier.",
-              "feedback": "Loosening the grip gives the position away."
+              "text": "You avoided any real friction at all.",
+              "feedback": "Avoiding friction entirely is not the same as controlling it."
             }
           ]
         }

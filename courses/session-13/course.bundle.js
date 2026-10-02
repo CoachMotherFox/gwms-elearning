@@ -114,22 +114,22 @@ window.GWMS_COURSE_BUNDLE["session-13"] =
             "role": "formative",
             "scored": false
           },
-          "question": "You're holding a chest-to-chest pin, and it would be easy to just lean your weight down. What's the smart move?",
+          "question": "Tonight you stayed chest to chest, standing, passing, and pinning. What made that contact real?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Hold the pin without leaning your weight on him.",
-              "feedback": "Holding without crushing him is what real contact feels like when you stay present instead of pushing away.",
+              "text": "You stayed instead of pulling back.",
+              "feedback": "Staying present in contact, instead of pulling back, is what makes it real.",
               "correct": true
             },
             {
-              "text": "Lean your full weight down to hold him still.",
-              "feedback": "Leaning your weight isn't the pin."
+              "text": "You kept your distance the whole time.",
+              "feedback": "Keeping your distance is not the same as making contact."
             },
             {
-              "text": "Back off the pin and re-grip from farther away.",
-              "feedback": "Hold steady instead of backing off."
+              "text": "You pushed through without noticing him.",
+              "feedback": "Pushing through without noticing him is not real contact."
             }
           ]
         }

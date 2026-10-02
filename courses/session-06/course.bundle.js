@@ -115,22 +115,22 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
             "role": "formative",
             "scored": false
           },
-          "question": "You're in mount, and your partner is fighting to pull his elbow free. What's the smart move?",
+          "question": "Tonight your guard kept people out while standing, passing, and pinning. What was it actually protecting?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Stay under that elbow no matter what.",
-              "feedback": "Staying under the elbow protects the position, the same way your mask protects something in you.",
+              "text": "Something specific, not just everything.",
+              "feedback": "A guard that protects something specific can be lowered on purpose. One that guards everything never comes down.",
               "correct": true
             },
             {
-              "text": "Let the elbow go and grab his wrist.",
-              "feedback": "Letting the elbow go gives up the mount."
+              "text": "Nothing in particular, just habit.",
+              "feedback": "A habit with no reason behind it is hard to ever put down."
             },
             {
-              "text": "Sit back and wait for him to stop.",
-              "feedback": "Stay under the elbow instead of waiting."
+              "text": "Whatever felt threatening at the time.",
+              "feedback": "Guarding whatever feels threatening changes every day, and protects nothing in particular."
             }
           ]
         }

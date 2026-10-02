@@ -113,22 +113,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "Your partner has passed your legs, and staying close feels uncomfortable. What's the smart move?",
+          "question": "Tonight you stayed through the uncomfortable part, standing, passing, and pinning. What let you stay?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Stay close and work your legs back in.",
-              "feedback": "Staying inside the discomfort is the same skill as staying in a hard conversation.",
+              "text": "Choosing discomfort over quitting the round.",
+              "feedback": "Choosing to stay in discomfort is the skill. Leaving something truly harmful is still smart.",
               "correct": true
             },
             {
-              "text": "Scramble away to get space and reset.",
-              "feedback": "Scrambling out gives up your position for nothing."
+              "text": "Waiting for it to stop being uncomfortable.",
+              "feedback": "Waiting for comfort is not the same as choosing to stay."
             },
             {
-              "text": "Freeze in place and wait for an opening.",
-              "feedback": "Stay close and work your legs back in."
+              "text": "Quitting the round the moment it got hard.",
+              "feedback": "Quitting at the first hard moment is not staying."
             }
           ]
         }

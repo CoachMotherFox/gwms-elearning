@@ -112,22 +112,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "You're holding your partner's back, and he's fighting harder than ever to turn out. What's the smart move?",
+          "question": "Tonight you held on standing, passing, and on his back, against someone really trying. What proved it?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Keep chest-to-back contact through his hardest fight.",
-              "feedback": "Holding through the hard part is what proves a change is real.",
+              "text": "It held even when he fought hard.",
+              "feedback": "Real change holds up against real effort, not just when it's easy.",
               "correct": true
             },
             {
-              "text": "Ease off contact until he calms down.",
-              "feedback": "Easing off here gives away the position."
+              "text": "It worked when he wasn't trying very hard.",
+              "feedback": "Working only when he's not trying is not proof of anything."
             },
             {
-              "text": "Grab for hooks and forget the chest contact.",
-              "feedback": "Chasing hooks loses the contact that actually holds him."
+              "text": "You said it, and that was enough.",
+              "feedback": "Saying it is real does not make it real."
             }
           ]
         }

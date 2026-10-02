@@ -112,22 +112,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "You've got chest-to-back contact, and you want to move toward a finishing position. What's the smart move?",
+          "question": "Tonight you reached a finishing position standing, passing, and on his back, and then chose what to do with it. What did that choice set?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Shift toward shoulder control without losing the pin.",
-              "feedback": "Moving forward without losing what you hold sets the standard for whoever watches you.",
+              "text": "The standard for whoever is watching you.",
+              "feedback": "How you act once you're there sets the standard for whoever comes next.",
               "correct": true
             },
             {
-              "text": "Let go of the pin to reach the shoulder.",
-              "feedback": "Letting go here gives up the whole position."
+              "text": "Nothing, nobody was really watching.",
+              "feedback": "Someone is always watching, even when it doesn't feel like it."
             },
             {
-              "text": "Stay locked on the hips and go no further.",
-              "feedback": "Shift to the shoulder instead of staying still."
+              "text": "A standard only for this one round.",
+              "feedback": "The standard you set does not stop at the end of one round."
             }
           ]
         }

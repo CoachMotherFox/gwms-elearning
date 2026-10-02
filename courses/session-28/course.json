@@ -112,22 +112,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "You're moving your partner using only touches to his wrist, elbow, or head. What's the smart move?",
+          "question": "Tonight you held him standing, passing, and pinning, so he could learn. What made that giving?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Keep every touch on the wrist, elbow, or head.",
-              "feedback": "Gripping on purpose, not grabbing anywhere, is the same as giving something that actually helps.",
+              "text": "You held him so he could learn, not to win.",
+              "feedback": "Holding someone so he can learn is giving, not winning.",
               "correct": true
             },
             {
-              "text": "Touch anywhere on his body to move him.",
-              "feedback": "Touching anywhere breaks the rule and stalls your progress."
+              "text": "You held him hard.",
+              "feedback": "Holding as hard as possible is winning, not giving."
             },
             {
-              "text": "Grab his leg to move him faster.",
-              "feedback": "Stay on wrist, elbow, or head instead."
+              "text": "You let him go early.",
+              "feedback": "Letting him go skips the struggle he needs."
             }
           ]
         }

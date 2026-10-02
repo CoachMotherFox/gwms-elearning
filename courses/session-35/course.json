@@ -111,22 +111,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "Your palm has just touched your partner's back, building toward the finish. What's the smart move?",
+          "question": "Tonight you built each position standing, passing, and finishing, and let go on the tap every time. What does that process say about who you became?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Lock your wrist into your elbow right there.",
-              "feedback": "Finishing clean, from the person you built, is the return itself.",
+              "text": "You built him and you released him on purpose.",
+              "feedback": "Building something on purpose, then releasing it on purpose, is exactly how you became who you are.",
               "correct": true
             },
             {
-              "text": "Pull back and look for a different angle.",
-              "feedback": "Pulling back loses the exact spot you already found."
+              "text": "He just happened to you over time.",
+              "feedback": "Who you became did not just happen, you built him."
             },
             {
-              "text": "Wait and let your partner move first.",
-              "feedback": "Lock your wrist in instead of waiting."
+              "text": "He is who you were told to be.",
+              "feedback": "Who you became is who you built, not who you were told to be."
             }
           ]
         }

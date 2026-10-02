@@ -113,22 +113,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "You've got both hands locked around your partner's leg, and he's trying to pull away. What's the smart move?",
+          "question": "Tonight your guard broke at an exact point, standing, passing, and pinning. What does that let you do?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Keep moving him while staying on the leg.",
-              "feedback": "Staying attached while he moves is the same as noticing the sign you give off before it runs the show.",
+              "text": "Catch yourself before it runs the show.",
+              "feedback": "Knowing the exact point your guard breaks is power, because you can catch yourself there.",
               "correct": true
             },
             {
-              "text": "Let go of the leg and reset your stance.",
-              "feedback": "Letting go here gives the leg back for nothing."
+              "text": "Avoid ever breaking at all.",
+              "feedback": "Never breaking is not the goal, noticing where you break is."
             },
             {
-              "text": "Freeze in place and grip as hard as possible.",
-              "feedback": "Keep moving him instead of freezing."
+              "text": "Blame the moment it happened.",
+              "feedback": "Blame does not teach you where the break actually is."
             }
           ]
         }

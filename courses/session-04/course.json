@@ -112,22 +112,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "You've already got two grips on your partner during the hand fight. What's the smart next move?",
+          "question": "Tonight people watched you grip on purpose, pass on purpose, and hold on purpose. What made it real, not a show?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Chain those two grips into the underhook.",
-              "feedback": "Chaining your grips into the underhook is building toward something, not just performing for the room.",
+              "text": "You did it on purpose, not for the crowd.",
+              "feedback": "A mask worn on purpose is still a choice. One worn for the crowd is a performance.",
               "correct": true
             },
             {
-              "text": "Drop both grips and start the fight over.",
-              "feedback": "Don't reset a hand fight you're already winning."
+              "text": "You did it for whoever was watching.",
+              "feedback": "Doing it for the crowd is the performance, not the real thing."
             },
             {
-              "text": "Hold the two grips and wait there.",
-              "feedback": "Keep chaining toward the underhook."
+              "text": "You did whatever felt easiest in the moment.",
+              "feedback": "Easiest is not the same as on purpose."
             }
           ]
         }

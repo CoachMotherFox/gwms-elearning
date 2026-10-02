@@ -92,20 +92,21 @@
       "connection": "Holding contact on the mat and noticing what contact does to you are the same skill. Both mean staying present when someone gets close, instead of pushing them away. The pin teaches your body to stay. Thinking about it teaches your mind why staying is hard.",
       "takeaway": "Tonight you worked from an underhook tie, open guard, and a chest-to-chest pin. Holding a pin teaches your body to stay present instead of pushing someone away. Real contact does something to everyone, and now you can feel it. You get to notice that feeling instead of running from it.",
       "concept": {
-        "question": "You're holding a chest-to-chest pin, and it would be easy to just lean your weight down. What's the smart move?",
+        "lesson": "Real contact means staying present instead of pulling back.",
+        "question": "Tonight you stayed chest to chest, standing, passing, and pinning. What made that contact real?",
         "options": [
           {
-            "text": "Hold the pin without leaning your weight on him.",
-            "feedback": "Holding without crushing him is what real contact feels like when you stay present instead of pushing away.",
+            "text": "You stayed instead of pulling back.",
+            "feedback": "Staying present in contact, instead of pulling back, is what makes it real.",
             "correct": true
           },
           {
-            "text": "Lean your full weight down to hold him still.",
-            "feedback": "Leaning your weight isn't the pin."
+            "text": "You kept your distance the whole time.",
+            "feedback": "Keeping your distance is not the same as making contact."
           },
           {
-            "text": "Back off the pin and re-grip from farther away.",
-            "feedback": "Hold steady instead of backing off."
+            "text": "You pushed through without noticing him.",
+            "feedback": "Pushing through without noticing him is not real contact."
           }
         ]
       }
@@ -257,20 +258,21 @@
       "connection": "The Descent found the real you. Now it goes to the mat with a partner. Rolling as the real you, instead of a mask, is the same as showing up honest in a relationship instead of performing one.",
       "takeaway": "Tonight you worked from the hand fight, closed guard, and mount. You found the real you since Session 1, and tonight you rolled with a partner. Being honest on the mat is the same choice as being honest with people. You get to bring the real you into every room.",
       "concept": {
-        "question": "You're in mount, staying under one of your partner's elbows while he fights to free it. What's the smart move?",
+        "lesson": "A real connection is built with someone, not performed alone.",
+        "question": "Tonight you built every connection with a real partner, standing, passing, and pinning. What made each one hold?",
         "options": [
           {
-            "text": "Keep fighting to stay under that same elbow.",
-            "feedback": "Staying honest under pressure is rolling as the real you, not a performance.",
+            "text": "You built it with him, not just for him.",
+            "feedback": "The real you shows up with other people, not alone. That's what makes a connection hold.",
             "correct": true
           },
           {
-            "text": "Switch elbows early and let this one go.",
-            "feedback": "Switching early gives up ground you're already holding."
+            "text": "You built it alone and he just watched.",
+            "feedback": "A connection built alone is not really a connection."
           },
           {
-            "text": "Sit back and let him work it free.",
-            "feedback": "Keep fighting to stay under it."
+            "text": "You built it exactly like last time.",
+            "feedback": "Copying last time is not the same as building it with him."
           }
         ]
       }
@@ -341,20 +343,21 @@
       "connection": "A partner resisting the pin is pushback made physical. What you do when they fight the pin is usually what you do when people push back in life. Both reward staying calm and adjusting over forcing harder.",
       "takeaway": "Tonight you worked from an underhook tie, open guard, and riding position. A partner fighting your pin is pushback made physical, and staying calm beats forcing harder every time. That is usually true with people too. You get to choose your response to pushback instead of reacting on reflex.",
       "concept": {
-        "question": "You're riding your partner, and he starts fighting hard to stand up. What's the smart move?",
+        "lesson": "Staying calm under pushback is a choice, not a reflex.",
+        "question": "Tonight he pushed back standing, passing, and pinning, and you kept your spot every time. What made that work?",
         "options": [
           {
-            "text": "Block his hips down with knee and foot.",
-            "feedback": "Staying calm and blocking beats forcing harder, the same way you handle pushback anywhere else.",
+            "text": "Staying calm instead of forcing harder.",
+            "feedback": "Staying calm under pushback is a choice. Forcing harder is just a reflex.",
             "correct": true
           },
           {
-            "text": "Force him down harder with your whole body.",
-            "feedback": "Forcing harder burns you out faster than it works."
+            "text": "Forcing harder until he stopped.",
+            "feedback": "Forcing harder usually costs more than it wins."
           },
           {
-            "text": "Back off and reset your position from scratch.",
-            "feedback": "Block with knee and foot instead of backing off."
+            "text": "Giving up your spot to avoid the push.",
+            "feedback": "Giving up your spot is not the same as handling the push."
           }
         ]
       }
@@ -426,20 +429,21 @@
       "note": "Staying is the skill. But leaving a harmful situation is wise, not a failure.",
       "takeaway": "Tonight you worked from a waist lock, side control, and turtle. Staying in an uncomfortable pin instead of scrambling out takes the same skill as staying in a hard conversation. You can choose to stay with discomfort instead of running. Leaving something truly harmful is smart too.",
       "concept": {
-        "question": "Your partner has passed your legs, and staying close feels uncomfortable. What's the smart move?",
+        "lesson": "Choosing to stay in discomfort is the skill.",
+        "question": "Tonight you stayed through the uncomfortable part, standing, passing, and pinning. What let you stay?",
         "options": [
           {
-            "text": "Stay close and work your legs back in.",
-            "feedback": "Staying inside the discomfort is the same skill as staying in a hard conversation.",
+            "text": "Choosing discomfort over quitting the round.",
+            "feedback": "Choosing to stay in discomfort is the skill. Leaving something truly harmful is still smart.",
             "correct": true
           },
           {
-            "text": "Scramble away to get space and reset.",
-            "feedback": "Scrambling out gives up your position for nothing."
+            "text": "Waiting for it to stop being uncomfortable.",
+            "feedback": "Waiting for comfort is not the same as choosing to stay."
           },
           {
-            "text": "Freeze in place and wait for an opening.",
-            "feedback": "Stay close and work your legs back in."
+            "text": "Quitting the round the moment it got hard.",
+            "feedback": "Quitting at the first hard moment is not staying."
           }
         ]
       }
@@ -510,20 +514,21 @@
       "connection": "You can pin someone hard and still keep them safe. That is control of your own force. Your conflict off the mat lands on real people too, and the same control applies: honest friction, not harm.",
       "takeaway": "Tonight you worked from an underhook tie, open guard, and a figure-four pin. You can hold someone hard and still keep them safe, and that control is yours to use on purpose. Your friction off the mat lands on real people too. You get to choose honest friction over harm.",
       "concept": {
-        "question": "You've got a figure-four grip locked from under your partner's elbow. What's the smart move?",
+        "lesson": "Friction aimed at his balance is control. Aimed at him, it's harm.",
+        "question": "Tonight you off-balanced him standing, passing, and pinning, with control. What kept it from becoming harm?",
         "options": [
           {
-            "text": "Keep the grip locked from under his elbow.",
-            "feedback": "Holding it there is control without harm, honest friction instead of forcing something.",
+            "text": "You aimed it at his balance, not at him.",
+            "feedback": "Friction aimed at his balance is control. Friction aimed at him is harm.",
             "correct": true
           },
           {
-            "text": "Slide the grip up onto his shoulder instead.",
-            "feedback": "Sliding up loses the grip you already built."
+            "text": "You went as hard as you could every time.",
+            "feedback": "Going hard is not the same as aiming with control."
           },
           {
-            "text": "Loosen the grip to let him breathe easier.",
-            "feedback": "Loosening the grip gives the position away."
+            "text": "You avoided any real friction at all.",
+            "feedback": "Avoiding friction entirely is not the same as controlling it."
           }
         ]
       }
@@ -594,20 +599,21 @@
       "connection": "Losing the pin and getting reversed is a small rupture. How you handle that break on the mat, a clean reset or payback, is a lot like how you handle broken connections in life.",
       "takeaway": "Tonight you worked from a single leg, side control, and a figure-four pin. Losing a pin and getting reversed is a small break, and how you respond is a real choice. That same choice shows up when a connection breaks with someone. You get to choose the reset over payback.",
       "concept": {
-        "question": "Your partner just passed your legs, and your connection to him is gone. What's the smart move?",
+        "lesson": "Getting a broken connection back fast matters more than why it broke.",
+        "question": "Tonight a connection broke standing, passing, and pinning, every time. What mattered most after it broke?",
         "options": [
           {
-            "text": "Get a new connection back right away.",
-            "feedback": "Getting the connection back fast is how you survive a break instead of staying stuck in it.",
+            "text": "Getting it back right away.",
+            "feedback": "Getting a broken connection back right away matters more than how it broke.",
             "correct": true
           },
           {
-            "text": "Wait for the right moment before reconnecting.",
-            "feedback": "Waiting here lets the pass finish completely."
+            "text": "Figuring out exactly why it broke.",
+            "feedback": "Figuring out why can wait, getting it back can't."
           },
           {
-            "text": "Give up the position and start standing.",
-            "feedback": "Get your connection back first."
+            "text": "Waiting for the right moment to reconnect.",
+            "feedback": "Waiting for the right moment usually means the pass finishes first."
           }
         ]
       }
@@ -766,20 +772,21 @@
       "connection": "On the mat you can name your own mistake in a round without blaming your partner. Owning your part of a rupture works the same way. It starts with separating your piece from theirs.",
       "takeaway": "Tonight you worked from a single leg, open guard, and an arm lock position. On the mat you can name your mistake without blaming your partner. Owning a break works the same way: separate your piece from theirs. You get to own your part and let the rest be his.",
       "concept": {
-        "question": "You're working toward an arm lock, and your partner's hands are still together. What's the smart move?",
+        "lesson": "Owning your part means owning the release, not just the win.",
+        "question": "Tonight you built a position standing, passing, and pinning, and it was yours to hold or let go. What made it yours?",
         "options": [
           {
-            "text": "Separate his hands and trap the arm in front.",
-            "feedback": "Trapping your own piece of the position is like owning your own part of a break.",
+            "text": "You owned both the hold and the release.",
+            "feedback": "Owning your part means owning the release too, not just the win.",
             "correct": true
           },
           {
-            "text": "Grab for the far arm instead of separating hands.",
-            "feedback": "Reaching for the far arm skips a step you need first."
+            "text": "You owned it only while you were winning.",
+            "feedback": "Only owning the winning part is not owning your whole part."
           },
           {
-            "text": "Wait for him to move his hands himself.",
-            "feedback": "Separate the hands yourself instead of waiting."
+            "text": "You owned it only once it was over.",
+            "feedback": "Waiting until it's over to own it is too late."
           }
         ]
       }
@@ -847,20 +854,21 @@
       "connection": "Resetting and rolling clean with someone right after a hard round is like squaring up with words. A real apology is the same kind of reset: you get back in instead of carrying the grudge.",
       "takeaway": "Tonight you worked from the hand fight, side control, and a figure-four grip. Resetting and rolling clean right after a hard round is a physical version of a real apology. Both mean getting back in instead of carrying the grudge. You get to choose the reset over the grudge.",
       "concept": {
-        "question": "You've got the figure-four grip locked under your partner's elbow. What's the smart move?",
+        "lesson": "Meaning it means releasing completely, not partway.",
+        "question": "Tonight you held clean positions standing, passing, and pinning, and released the moment it was time. What made that real?",
         "options": [
           {
-            "text": "Drive his hand to the mat or his back.",
-            "feedback": "Finishing slow and in control is what makes the move clean.",
+            "text": "Releasing completely, not partway.",
+            "feedback": "Releasing completely, not partway, is what makes meaning it real instead of just saying it.",
             "correct": true
           },
           {
-            "text": "Hold the grip still and wait there.",
-            "feedback": "Holding still here stalls the finish completely."
+            "text": "Holding on a little longer than you had to.",
+            "feedback": "Holding on longer than needed is not a clean release."
           },
           {
-            "text": "Switch to a different grip on his arm.",
-            "feedback": "Switching grips gives up ground you already built."
+            "text": "Releasing before you had actually won anything.",
+            "feedback": "Releasing early is not the same as releasing completely at the right time."
           }
         ]
       }
@@ -932,20 +940,21 @@
       "note": "Staying is the skill. But leaving a harmful relationship is not failure. This is never an all-or-nothing rule.",
       "takeaway": "Tonight you worked from an underhook tie, open guard, and a chest-to-chest pin. Staying with a hard partner is commitment made physical, building the muscle of not bailing on people. That works off the mat too. You get to choose to stay on purpose, or leave if it's harmful.",
       "concept": {
-        "question": "Your partner is standing to pass, and your feet are still hooked on him. What's the smart move?",
+        "lesson": "Choosing to stay the whole round is commitment.",
+        "question": "Tonight you held the connection standing, passing, and pinning, for the whole round, every time. What made staying possible?",
         "options": [
           {
-            "text": "Keep both feet hooked on him no matter what.",
-            "feedback": "Staying connected under pressure is commitment made physical, the same choice as staying when leaving is easier.",
+            "text": "Choosing to stay instead of bailing early.",
+            "feedback": "Choosing to stay the whole round is commitment. Leaving something truly harmful is still smart.",
             "correct": true
           },
           {
-            "text": "Let your feet go and scramble up to stand.",
-            "feedback": "Letting go here gives up your only connection."
+            "text": "Waiting for it to get easier.",
+            "feedback": "Waiting for easier is not the same as choosing to stay now."
           },
           {
-            "text": "Hold still and hope he stops moving.",
-            "feedback": "Keep your feet hooked instead of hoping."
+            "text": "Leaving as soon as it got hard.",
+            "feedback": "Leaving at the first hard moment is not staying."
           }
         ]
       }
@@ -1014,20 +1023,21 @@
       "stageClose": true,
       "takeaway": "Tonight you worked from the hand fight, open guard, and a figure-four grip, putting control and the reset together. Repair off the mat costs something real too, pride, comfort, time. You get to decide that cost is worth paying. You made contact, took the friction, and survived the break.",
       "concept": {
-        "question": "You've got a figure-four grip, and more than one finish looks open. What's the smart move?",
+        "lesson": "Repair costs real work before you even get to choose.",
+        "question": "Tonight you worked to reach each position, standing, passing, and pinning, before you got to choose anything. What did the work buy you?",
         "options": [
           {
-            "text": "Take whichever finish the position gives you first.",
-            "feedback": "Taking whatever repair the moment gives you is how real repair actually works.",
+            "text": "A real choice, earned instead of given.",
+            "feedback": "Repair costs real work before you even get to choose.",
             "correct": true
           },
           {
-            "text": "Stick to one fixed sequence no matter what.",
-            "feedback": "A fixed sequence ignores what the position is giving you."
+            "text": "A shortcut to the same choice.",
+            "feedback": "A shortcut skips the work that makes the choice mean something."
           },
           {
-            "text": "Pause and plan out every step first.",
-            "feedback": "Take what's open now instead of planning."
+            "text": "Nothing, the choice was the same either way.",
+            "feedback": "The choice is not the same without the work that earned it."
           }
         ]
       }

@@ -114,22 +114,22 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
             "role": "formative",
             "scored": false
           },
-          "question": "You've got a figure-four grip, and more than one finish looks open. What's the smart move?",
+          "question": "Tonight you worked to reach each position, standing, passing, and pinning, before you got to choose anything. What did the work buy you?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Take whichever finish the position gives you first.",
-              "feedback": "Taking whatever repair the moment gives you is how real repair actually works.",
+              "text": "A real choice, earned instead of given.",
+              "feedback": "Repair costs real work before you even get to choose.",
               "correct": true
             },
             {
-              "text": "Stick to one fixed sequence no matter what.",
-              "feedback": "A fixed sequence ignores what the position is giving you."
+              "text": "A shortcut to the same choice.",
+              "feedback": "A shortcut skips the work that makes the choice mean something."
             },
             {
-              "text": "Pause and plan out every step first.",
-              "feedback": "Take what's open now instead of planning."
+              "text": "Nothing, the choice was the same either way.",
+              "feedback": "The choice is not the same without the work that earned it."
             }
           ]
         }

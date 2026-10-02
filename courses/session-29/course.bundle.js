@@ -114,22 +114,22 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
             "role": "formative",
             "scored": false
           },
-          "question": "You've worked behind your partner and locked your hands around his hips. What's the smart move?",
+          "question": "Tonight you gave him room to work, standing, passing, and on his back, while still holding on. What did that cost you?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Stay beside his hips, not straight behind him.",
-              "feedback": "Positioning smart instead of taking the easy grab is giving that actually costs you something.",
+              "text": "The easy win you could have taken.",
+              "feedback": "Giving up the easy win is what makes it cost something.",
               "correct": true
             },
             {
-              "text": "Move straight behind him and squeeze harder.",
-              "feedback": "Going straight behind here is easier to escape."
+              "text": "Nothing, holding on is always easy.",
+              "feedback": "Holding on while giving him room is not the easy version."
             },
             {
-              "text": "Let go and re-enter from the front again.",
-              "feedback": "Stay beside his hips instead of going straight behind."
+              "text": "Your grip, since you let go completely.",
+              "feedback": "Letting go completely is not the same as giving him room while still holding."
             }
           ]
         }

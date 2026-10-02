@@ -112,22 +112,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "You're riding your partner from behind, and his hips start lifting off the mat. What's the smart move?",
+          "question": "Tonight the rounds ran long, standing, passing, and pinning. What showed up once you got tired?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Block his hips down with knee and foot.",
-              "feedback": "Blocking the hips down is honest work, the same as staying honest when you're too tired to perform.",
+              "text": "Whatever was true underneath the performance.",
+              "feedback": "What's left when you're too tired to perform is usually the truest thing about you.",
               "correct": true
             },
             {
-              "text": "Let the hips rise and reach for a choke.",
-              "feedback": "Chasing a finish here loses the position."
+              "text": "Whatever worked best when you were fresh.",
+              "feedback": "What works when you're fresh is the performance, not what's underneath it."
             },
             {
-              "text": "Push down with your whole upper body.",
-              "feedback": "Block hips down with your knee and foot."
+              "text": "Nothing changed once you got tired.",
+              "feedback": "Something always changes once the performing stops."
             }
           ]
         }
