@@ -83,8 +83,8 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
             {
               "kind": "list",
               "items": [
-                "The bottom player wins by putting the top player down and standing up, or by rising up to a connection another way.",
-                "The top player wins with shin contact."
+                "The bottom player wins by knocking the top player down and standing up, or by coming up while still holding on to him.",
+                "The top player wins by going around the bottom player's legs and touching him with a shin."
               ]
             },
             {
@@ -114,22 +114,22 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight you worked to reach each position, standing, passing, and pinning, before you got to choose anything. What did the work buy you?",
+          "question": "Tonight you trapped his arm with both of your hands. What kept it trapped?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "A real choice, earned instead of given.",
-              "feedback": "Repair costs real work before you even get to choose.",
-              "correct": true
+              "text": "Keeping your arm under his elbow.",
+              "correct": true,
+              "feedback": "Holding it right takes steady work, and so does repair."
             },
             {
-              "text": "A shortcut to the same choice.",
-              "feedback": "A shortcut skips the work that makes the choice mean something."
+              "text": "Pulling his hand up toward his head.",
+              "feedback": "Pulling the wrong way frees his elbow."
             },
             {
-              "text": "Nothing, the choice was the same either way.",
-              "feedback": "The choice is not the same without the work that earned it."
+              "text": "Lying on his chest to rest.",
+              "feedback": "Resting lets his elbow slip free."
             }
           ]
         }

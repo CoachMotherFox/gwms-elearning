@@ -62,13 +62,13 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
             },
             {
               "kind": "lead",
-              "text": "This is locking his waist with an underhook."
+              "text": "This is locking his waist."
             },
             {
               "kind": "list",
               "items": [
-                "The underhook player wins by connecting to the overhook player's waist, directly or from his head or leg.",
-                "The overhook player wins by freeing a head or leg connection before the underhook player reaches his hips."
+                "The underhook player wins by locking his hands around the overhook player's waist.",
+                "The overhook player wins by freeing his head or leg before the underhook player reaches his hips."
               ]
             },
             {
@@ -78,13 +78,13 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
             },
             {
               "kind": "lead",
-              "text": "This is freeing a trapped leg to pass."
+              "text": "This is freeing a trapped leg."
             },
             {
               "kind": "list",
               "items": [
-                "The top player wins by standing and touching both outsides of the bottom player's legs.",
-                "The bottom player wins by putting the top player on his butt and sitting up, or by getting to closed guard."
+                "The top player wins by standing, getting past his legs, and touching his shin to the bottom player's body on both sides.",
+                "The bottom player wins by putting the top player on his butt and sitting up, or locking his legs around him."
               ]
             },
             {
@@ -94,13 +94,13 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
             },
             {
               "kind": "lead",
-              "text": "This is staying stuck to his back, turning."
+              "text": "This is staying on his back."
             },
             {
               "kind": "list",
               "items": [
-                "The top player wins by keeping control through the round.",
-                "The bottom player wins by guard recovery, reversal, or standing."
+                "The top player wins by staying stuck to his back with an arm under one elbow. If he escapes, reset.",
+                "The bottom player wins by getting his legs back in front of the top player, rolling him over, or standing up."
               ]
             }
           ]
@@ -114,22 +114,22 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight you held on standing, passing, and on his back, with less help than before. What exactly changed?",
+          "question": "Tonight you held his back with no hooks. What kept you there?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "One exact thing you can name, not just a feeling.",
-              "feedback": "Growth is one exact thing you can name, not a feeling of being better.",
-              "correct": true
+              "text": "Staying stuck to him and under his elbow.",
+              "correct": true,
+              "feedback": "Growth is doing the same job with less help."
             },
             {
-              "text": "A general feeling that you got better.",
-              "feedback": "A feeling is not the same as naming one exact thing."
+              "text": "Squeezing as hard as you can.",
+              "feedback": "Squeezing tires you out and doesn't keep you on."
             },
             {
-              "text": "Something you can't quite describe yet.",
-              "feedback": "If you can't name it yet, you haven't found it yet."
+              "text": "Waiting for him to stop moving.",
+              "feedback": "He won't stop, so stay with him."
             }
           ]
         }

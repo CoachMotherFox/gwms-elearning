@@ -65,7 +65,7 @@
             {
               "kind": "list",
               "items": [
-                "Whoever connects first wins. The same rule applies to both players."
+                "Whoever first locks his hands around his partner's head, body, or leg wins. The same rule applies to both players."
               ]
             },
             {
@@ -80,7 +80,7 @@
             {
               "kind": "list",
               "items": [
-                "The top player wins by touching one outside of the bottom player's legs, then the other outside, right after.",
+                "The top player wins by touching his shin to one side of the bottom player's body, then going around and touching the other side.",
                 "The bottom player wins by making the top player fall on his butt, then getting his own back off the mat."
               ]
             },
@@ -111,22 +111,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight you built each position step by step, standing, passing, and finishing, and released on the tap every time. What does that leave behind?",
+          "question": "Tonight you built a lock from behind, one step at a time. What came first?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "A legacy built on control, not on seizing it.",
-              "feedback": "What you leave behind is built from control, step by step, not from seizing the moment.",
-              "correct": true
+              "text": "Your palm flat on his back.",
+              "correct": true,
+              "feedback": "What you leave behind is built one step at a time."
             },
             {
-              "text": "A legacy built on how fast you finished.",
-              "feedback": "Speed is not what the legacy is built from."
+              "text": "Your hands locked right away.",
+              "feedback": "Locking first skips the steps that make it work."
             },
             {
-              "text": "A legacy nobody will actually remember.",
-              "feedback": "What people remember is exactly how you built and released it."
+              "text": "Your legs wrapped around him.",
+              "feedback": "This lock starts with your hand, not your legs."
             }
           ]
         }

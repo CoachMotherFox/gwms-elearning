@@ -77,12 +77,12 @@
             },
             {
               "kind": "lead",
-              "text": "This is getting your legs back after passing."
+              "text": "This is getting your legs back in front."
             },
             {
               "kind": "list",
               "items": [
-                "The bottom player wins by getting his legs back in front in any real guard.",
+                "The bottom player wins by getting his legs back in front of the top player.",
                 "The top player wins by locking his hands around the bottom player."
               ]
             },
@@ -113,22 +113,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight a connection broke standing, passing, and pinning, every time. What mattered most after it broke?",
+          "question": "Tonight he fought to pull his trapped arm free. What kept your grip?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Getting it back right away.",
-              "feedback": "Getting a broken connection back right away matters more than how it broke.",
-              "correct": true
+              "text": "Getting back under his elbow fast.",
+              "correct": true,
+              "feedback": "When a connection breaks, you get it back right away."
             },
             {
-              "text": "Figuring out exactly why it broke.",
-              "feedback": "Figuring out why can wait, getting it back can't."
+              "text": "Squeezing his wrist as hard as you can.",
+              "feedback": "Squeezing his wrist won't stop his elbow."
             },
             {
-              "text": "Waiting for the right moment to reconnect.",
-              "feedback": "Waiting for the right moment usually means the pass finishes first."
+              "text": "Letting go and grabbing his head.",
+              "feedback": "Letting go loses the arm."
             }
           ]
         }

@@ -66,7 +66,7 @@
             {
               "kind": "list",
               "items": [
-                "The attacker wins only by picking up the defender's leg, from any connection.",
+                "The attacker wins only by picking up the defender's leg, from any grip.",
                 "The defender wins by stopping the attacker for 30 seconds."
               ]
             },
@@ -82,8 +82,8 @@
             {
               "kind": "list",
               "items": [
-                "The bottom player holds as long as he keeps the connection.",
-                "The top player wins by getting outside the bottom player's legs and touching his body with a shin."
+                "The bottom player holds as long as he keeps his feet and a hand on the top player.",
+                "The top player wins by going around the bottom player's legs and touching him with a shin."
               ]
             },
             {
@@ -98,7 +98,7 @@
             {
               "kind": "list",
               "items": [
-                "The top player holds as long as he keeps both of the bottom player's elbows covered.",
+                "The top player holds as long as he keeps something between the bottom player's elbows and his ribs.",
                 "The bottom player wins by getting both elbows to touch his body, or by making the top player fall."
               ]
             }
@@ -113,22 +113,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight you held the connection standing, passing, and pinning, for the whole round, every time. What made staying possible?",
+          "question": "Tonight he tried to get around your legs while you lay on your back. What kept him in front?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Choosing to stay instead of bailing early.",
-              "feedback": "Choosing to stay the whole round is commitment. Leaving something truly harmful is still smart.",
-              "correct": true
+              "text": "Keeping your feet and a hand on him.",
+              "correct": true,
+              "feedback": "Staying when leaving would be easier is a choice you make."
             },
             {
-              "text": "Waiting for it to get easier.",
-              "feedback": "Waiting for easier is not the same as choosing to stay now."
+              "text": "Letting your feet drop to rest.",
+              "feedback": "Resting your feet lets him walk around."
             },
             {
-              "text": "Leaving as soon as it got hard.",
-              "feedback": "Leaving at the first hard moment is not staying."
+              "text": "Rolling away to get some space.",
+              "feedback": "Rolling away gives him your back."
             }
           ]
         }

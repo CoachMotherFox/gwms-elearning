@@ -68,7 +68,7 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
             {
               "kind": "list",
               "items": [
-                "Whoever gets there first wins, whether by three touches or by the underhook plus closed hands."
+                "Whoever gets there first wins, whether by three touches or by getting an underhook and then locking his hands around his partner."
               ]
             },
             {
@@ -83,8 +83,8 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
             {
               "kind": "list",
               "items": [
-                "The bottom player wins by recovering to any real guard position while staying mobile.",
-                "The top player wins by locking his hands."
+                "The bottom player wins by getting his legs back in front of the top player.",
+                "The top player wins by locking his hands around the bottom player."
               ]
             },
             {
@@ -100,7 +100,7 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
               "kind": "list",
               "items": [
                 "The top player wins by putting the bottom player's palm on the mat, or his knuckles behind his back.",
-                "The bottom player wins by removing the figure four from under his own elbow."
+                "The bottom player wins by pulling his hand back to his body and getting the top player's arm out from under his elbow."
               ]
             }
           ]
@@ -114,22 +114,22 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight you held clean positions standing, passing, and pinning, and released the moment it was time. What made that real?",
+          "question": "Tonight you moved his trapped arm toward the mat. How did you move it?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Releasing completely, not partway.",
-              "feedback": "Releasing completely, not partway, is what makes meaning it real instead of just saying it.",
-              "correct": true
+              "text": "Slowly, and you stopped at the touch.",
+              "correct": true,
+              "feedback": "Meaning it looks slow and clean, on the mat and when you say sorry."
             },
             {
-              "text": "Holding on a little longer than you had to.",
-              "feedback": "Holding on longer than needed is not a clean release."
+              "text": "Fast, before he could fight it.",
+              "feedback": "Fast is how an arm gets hurt."
             },
             {
-              "text": "Releasing before you had actually won anything.",
-              "feedback": "Releasing early is not the same as releasing completely at the right time."
+              "text": "Hard, until he couldn't move.",
+              "feedback": "The win is the touch, not more."
             }
           ]
         }

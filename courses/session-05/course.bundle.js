@@ -84,8 +84,8 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
             {
               "kind": "list",
               "items": [
-                "The bottom player wins by putting him down and standing, or by wrestling up to a connection.",
-                "The top player wins by touching his shin to the bottom player's knee pit, or his body from outside the legs."
+                "The bottom player wins by knocking the top player down and standing, or by sitting up to grab his legs or hips.",
+                "The top player wins by touching his shin behind the bottom player's knee, or to his body from beside his legs."
               ]
             },
             {
@@ -101,7 +101,7 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
               "kind": "list",
               "items": [
                 "The attacker holds as long as he keeps the defender belly down.",
-                "The defender wins by reaching a quad pod."
+                "The defender wins by getting up on his hands and feet with his knees off the mat."
               ]
             }
           ]
@@ -115,22 +115,22 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight you played two different jobs in every game, standing, passing, and pinning. What let you do both well?",
+          "question": "Tonight you kept a balled up partner belly down. What held him there?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Learning the moves for each job, not just one.",
-              "feedback": "You learned a version of you for each job. That is not fake, it is skill.",
-              "correct": true
+              "text": "Blocking his knees and feet with yours.",
+              "correct": true,
+              "feedback": "The version of you that shows up here is the one you practice."
             },
             {
-              "text": "Picking the job you liked best.",
-              "feedback": "Picking only one job leaves the other one untrained."
+              "text": "Lying on him with all your weight.",
+              "feedback": "Weight alone lets him push up."
             },
             {
-              "text": "Doing the same thing no matter which job.",
-              "feedback": "The same move does not work for both jobs."
+              "text": "Squeezing his waist as hard as you can.",
+              "feedback": "Squeezing tires you out before he does."
             }
           ]
         }

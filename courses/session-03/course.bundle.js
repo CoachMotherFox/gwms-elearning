@@ -78,13 +78,13 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
             },
             {
               "kind": "lead",
-              "text": "This is passing the legs from on top."
+              "text": "This is getting past his legs and feet."
             },
             {
               "kind": "list",
               "items": [
-                "The bottom player holds as long as he keeps his connections.",
-                "The top player wins by breaking every connection and touching the bottom player's body with his shin, from outside his legs."
+                "The bottom player holds as long as he keeps a foot and a hand on the top player.",
+                "The top player wins by getting free of the bottom player's feet and hands, going around his legs, and touching his body with a shin."
               ]
             },
             {
@@ -114,22 +114,22 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight you felt him out standing, passing, and pinning, a little at a time. What let you do that safely?",
+          "question": "Tonight you scored touches on his hands and knees. Where did each touch start?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Keeping some distance while you read him.",
-              "feedback": "Reading the room first is smart. Trusting it all at once is not.",
-              "correct": true
+              "text": "From a grip you already had.",
+              "correct": true,
+              "feedback": "Before you trust someone, you start small, from what you already have."
             },
             {
-              "text": "Rushing in before you knew him.",
-              "feedback": "Rushing in skips the part where you actually read him."
+              "text": "From a wild grab at anything.",
+              "feedback": "Wild grabs leave you open."
             },
             {
-              "text": "Trusting him completely, right away.",
-              "feedback": "Trusting all at once is not the same as reading the room."
+              "text": "From diving in close to him.",
+              "feedback": "Diving in skips reading him first."
             }
           ]
         }

@@ -82,8 +82,8 @@
             {
               "kind": "list",
               "items": [
-                "The bottom player wins by recovering to any real guard position while staying mobile.",
-                "The top player wins by locking his hands."
+                "The bottom player wins by getting his legs back in front of the top player.",
+                "The top player wins by locking his hands around the bottom player."
               ]
             },
             {
@@ -99,7 +99,7 @@
               "kind": "list",
               "items": [
                 "The attacker holds as long as he keeps the defender belly down.",
-                "The defender wins by reaching a quad pod."
+                "The defender wins by getting up on his hands and feet with his knees off the mat."
               ]
             }
           ]
@@ -113,22 +113,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight you stayed through the uncomfortable part, standing, passing, and pinning. What let you stay?",
+          "question": "Tonight you held his waist from behind while he fought to turn. What took him down?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Choosing discomfort over quitting the round.",
-              "feedback": "Choosing to stay in discomfort is the skill. Leaving something truly harmful is still smart.",
-              "correct": true
+              "text": "Staying on your feet and blocking his leg.",
+              "correct": true,
+              "feedback": "Staying on your feet when it gets hard is how you stay present."
             },
             {
-              "text": "Waiting for it to stop being uncomfortable.",
-              "feedback": "Waiting for comfort is not the same as choosing to stay."
+              "text": "Falling down to the mat with him.",
+              "feedback": "If you fall, he can turn and face you."
             },
             {
-              "text": "Quitting the round the moment it got hard.",
-              "feedback": "Quitting at the first hard moment is not staying."
+              "text": "Letting go when he started turning.",
+              "feedback": "Letting go is quitting the round."
             }
           ]
         }

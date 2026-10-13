@@ -66,7 +66,7 @@
             {
               "kind": "list",
               "items": [
-                "Whoever collects three touches and then connects first wins, closing his hands anywhere on his partner's body from shoulders to ankles."
+                "Whoever first gets three touches and then locks his hands around his partner wins, anywhere from shoulders to ankles."
               ]
             },
             {
@@ -81,7 +81,7 @@
             {
               "kind": "list",
               "items": [
-                "The top player wins by connecting his hands under at least one elbow.",
+                "The top player wins by locking his hands with an arm under one of the bottom player's elbows.",
                 "The bottom player wins by closing his legs around the top player's waist."
               ]
             },
@@ -112,22 +112,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight you earned your way closer, standing, passing, and pinning, one step at a time. What did that earn you?",
+          "question": "Tonight you needed three touches before you could wrap him up. What let you wrap him?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Access to what was most protected.",
-              "feedback": "What's most protected has to be earned. Reaching for it directly just gets it pulled further away.",
-              "correct": true
+              "text": "Earning your three touches first.",
+              "correct": true,
+              "feedback": "What is hidden has to be earned, one touch at a time."
             },
             {
-              "text": "Nothing, reaching for it directly works just as well.",
-              "feedback": "Reaching for it directly usually pulls it further away."
+              "text": "Grabbing for the lock right away.",
+              "feedback": "The lock only counts after three touches."
             },
             {
-              "text": "Whatever you could grab the fastest.",
-              "feedback": "Grabbing fast is not the same as earning access."
+              "text": "Waiting for him to hold still.",
+              "feedback": "He won't hold still for you."
             }
           ]
         }

@@ -79,12 +79,12 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
             },
             {
               "kind": "lead",
-              "text": "This is passing the legs from on top."
+              "text": "This is getting past his legs and feet."
             },
             {
               "kind": "list",
               "items": [
-                "The top player wins by touching both of the bottom player's knee pits with his own leg, feet off the mat.",
+                "The top player wins by touching the backs of both of the bottom player's knees with his shin, one and then the other.",
                 "The bottom player wins by making the top player sit down, then sitting up himself."
               ]
             },
@@ -100,8 +100,8 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
             {
               "kind": "list",
               "items": [
-                "The top player wins by separating the bottom player's hands and locking two grips on his wrist.",
-                "The bottom player wins by freeing his own trapped arm, or by reversing the position."
+                "The top player wins by pulling the bottom player's hands apart and getting both hands on one wrist.",
+                "The bottom player wins by pulling his trapped arm free, or by turning in and coming up to his knees."
               ]
             }
           ]
@@ -115,22 +115,22 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight you built a position standing, passing, and pinning, and it was yours to hold or let go. What made it yours?",
+          "question": "Tonight you pulled his locked hands apart. What did you do next?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "You owned both the hold and the release.",
-              "feedback": "Owning your part means owning the release too, not just the win.",
-              "correct": true
+              "text": "Got both hands on one wrist and stopped.",
+              "correct": true,
+              "feedback": "Your part is yours to hold, and yours to let go."
             },
             {
-              "text": "You owned it only while you were winning.",
-              "feedback": "Only owning the winning part is not owning your whole part."
+              "text": "Yanked the arm as hard as you could.",
+              "feedback": "Yanking is how people get hurt."
             },
             {
-              "text": "You owned it only once it was over.",
-              "feedback": "Waiting until it's over to own it is too late."
+              "text": "Let go to grab his head.",
+              "feedback": "Letting go gives the arm back."
             }
           ]
         }

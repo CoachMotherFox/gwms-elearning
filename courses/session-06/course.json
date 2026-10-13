@@ -77,12 +77,12 @@
             },
             {
               "kind": "lead",
-              "text": "This is passing the legs from on top."
+              "text": "This is getting past his legs and feet."
             },
             {
               "kind": "list",
               "items": [
-                "The top player wins by touching both of the bottom player's knee pits with his own leg, feet off the mat.",
+                "The top player wins by touching the backs of both of the bottom player's knees with his shin, one and then the other.",
                 "The bottom player wins by making the top player sit down, then sitting up himself."
               ]
             },
@@ -98,7 +98,7 @@
             {
               "kind": "list",
               "items": [
-                "The top player holds as long as he keeps one of the bottom player's elbows covered.",
+                "The top player holds as long as he keeps an arm under one of the bottom player's elbows.",
                 "The bottom player wins by touching both elbows to his body, or making the top player fall."
               ]
             }
@@ -113,22 +113,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight your guard kept people out while standing, passing, and pinning. What was it actually protecting?",
+          "question": "Tonight you got past his legs while he lay on his back. What got you in?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Something specific, not just everything.",
-              "feedback": "A guard that protects something specific can be lowered on purpose. One that guards everything never comes down.",
-              "correct": true
+              "text": "Your shin stepping behind his knee.",
+              "correct": true,
+              "feedback": "His legs protect his body, the way a mask protects what is under it."
             },
             {
-              "text": "Nothing in particular, just habit.",
-              "feedback": "A habit with no reason behind it is hard to ever put down."
+              "text": "Jumping over both of his legs.",
+              "feedback": "Jumping gives his feet a chance to push you."
             },
             {
-              "text": "Whatever felt threatening at the time.",
-              "feedback": "Guarding whatever feels threatening changes every day, and protects nothing in particular."
+              "text": "Pulling his head toward you.",
+              "feedback": "His head is not where the gap is."
             }
           ]
         }

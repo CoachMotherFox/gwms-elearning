@@ -76,12 +76,12 @@
             },
             {
               "kind": "lead",
-              "text": "This is passing the legs from on top."
+              "text": "This is getting past his legs and feet."
             },
             {
               "kind": "list",
               "items": [
-                "The top player wins by touching his shin to the bottom player's body, inside or outside his knees.",
+                "The top player wins by pressing his shin on the bottom player's belly or side.",
                 "The bottom player wins by making the top player fall on his butt, then getting his own back off the mat."
               ]
             },
@@ -98,7 +98,7 @@
               "kind": "list",
               "items": [
                 "The top player holds as long as he keeps the bottom player belly down.",
-                "The bottom player wins by getting to a quad pod."
+                "The bottom player wins by getting up on his hands and feet with his knees off the mat."
               ]
             }
           ]
@@ -112,22 +112,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight the rounds ran long, standing, passing, and pinning. What showed up once you got tired?",
+          "question": "Tonight the hand fight ran long and you got tired. What did your hands need to do?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Whatever was true underneath the performance.",
-              "feedback": "What's left when you're too tired to perform is usually the truest thing about you.",
-              "correct": true
+              "text": "Keep gripping wrists and elbows on purpose.",
+              "correct": true,
+              "feedback": "When you're tired, the real you shows in where your hands go."
             },
             {
-              "text": "Whatever worked best when you were fresh.",
-              "feedback": "What works when you're fresh is the performance, not what's underneath it."
+              "text": "Grab anywhere just to hold on.",
+              "feedback": "Grabbing anywhere is what tired hands do."
             },
             {
-              "text": "Nothing changed once you got tired.",
-              "feedback": "Something always changes once the performing stops."
+              "text": "Drop down and rest for a second.",
+              "feedback": "Resting in the middle gives him the leg."
             }
           ]
         }

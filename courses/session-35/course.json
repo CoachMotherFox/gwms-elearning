@@ -65,7 +65,7 @@
             {
               "kind": "list",
               "items": [
-                "Whoever collects three touches and then connects first wins, closing his hands anywhere on his partner's body from shoulders to ankles."
+                "Whoever first gets three touches and then locks his hands around his partner wins, anywhere from shoulders to ankles."
               ]
             },
             {
@@ -75,12 +75,12 @@
             },
             {
               "kind": "lead",
-              "text": "This is passing the legs from on top."
+              "text": "This is getting past his legs and feet."
             },
             {
               "kind": "list",
               "items": [
-                "The top player wins by touching his shin to the bottom player's body, inside or outside his knees.",
+                "The top player wins by pressing his shin on the bottom player's belly or side.",
                 "The bottom player wins by making the top player fall on his butt, then getting his own back off the mat."
               ]
             },
@@ -111,22 +111,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight you built each position standing, passing, and finishing, and let go on the tap every time. What does that process say about who you became?",
+          "question": "Tonight you had to earn three touches before the lock. What earned them?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "You built him and you released him on purpose.",
-              "feedback": "Building something on purpose, then releasing it on purpose, is exactly how you became who you are.",
-              "correct": true
+              "text": "Gripping his wrists and elbows on purpose.",
+              "correct": true,
+              "feedback": "Who you became is someone who earns it instead of grabbing."
             },
             {
-              "text": "He just happened to you over time.",
-              "feedback": "Who you became did not just happen, you built him."
+              "text": "Grabbing anything you could reach.",
+              "feedback": "Reaching for anything is not on purpose."
             },
             {
-              "text": "He is who you were told to be.",
-              "feedback": "Who you became is who you built, not who you were told to be."
+              "text": "Rushing in for the lock early.",
+              "feedback": "The lock only counts after three touches."
             }
           ]
         }

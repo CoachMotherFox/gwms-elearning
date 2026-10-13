@@ -67,7 +67,7 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
             {
               "kind": "list",
               "items": [
-                "Whoever connects first wins. The same rule applies to both players."
+                "Whoever first gets an underhook, then locks his hands around his leg, body, or head wins. The same rule applies to both players."
               ]
             },
             {
@@ -82,8 +82,8 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
             {
               "kind": "list",
               "items": [
-                "The bottom player wins by putting the top player down and standing up, or by rising up to a connection another way.",
-                "The top player wins with shin contact."
+                "The bottom player wins by knocking the top player down and standing up, or by coming up while still holding on to him.",
+                "The top player wins by going around the bottom player's legs and touching him with a shin."
               ]
             },
             {
@@ -98,8 +98,8 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
             {
               "kind": "list",
               "items": [
-                "The top player wins by reaching a precursor position on top.",
-                "The bottom player wins by his back on the mat or by turning face to face."
+                "The top player wins by moving from the bottom player's back to a finishing hold on top.",
+                "The bottom player wins by getting his back on the mat or by turning face to face."
               ]
             }
           ]
@@ -113,22 +113,22 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight you played both seats, standing, passing, and on his back, full rounds, every time. What did playing both seats let you feel?",
+          "question": "Tonight you fought for two grips, then an underhook, then a lock. What made it work?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Both the cost and the gain, at once.",
-              "feedback": "Playing both seats lets you feel the cost and the gain at the same time, and both are real.",
-              "correct": true
+              "text": "Each grip on purpose, in order.",
+              "correct": true,
+              "feedback": "Every grip cost you work, and every one got you closer."
             },
             {
-              "text": "Only the gain, since you won most rounds.",
-              "feedback": "Only feeling the gain misses half of what both seats teach."
+              "text": "Grabbing whatever was open.",
+              "feedback": "Grabbing anything skips the order."
             },
             {
-              "text": "Only the cost, since every round is hard.",
-              "feedback": "Only feeling the cost misses the gain that came with it."
+              "text": "Going straight for the lock.",
+              "feedback": "Skipping steps leaves the lock loose."
             }
           ]
         }

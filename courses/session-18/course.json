@@ -113,22 +113,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight you off-balanced him standing, passing, and pinning, with control. What kept it from becoming harm?",
+          "question": "Tonight you tripped him from the overhook. What made him fall?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "You aimed it at his balance, not at him.",
-              "feedback": "Friction aimed at his balance is control. Friction aimed at him is harm.",
-              "correct": true
+              "text": "Blocking his foot, then pulling.",
+              "correct": true,
+              "feedback": "Your friction lands on a real person, so use control, not force."
             },
             {
-              "text": "You went as hard as you could every time.",
-              "feedback": "Going hard is not the same as aiming with control."
+              "text": "Kicking his leg out hard.",
+              "feedback": "Kicking hurts. Blocking moves him."
             },
             {
-              "text": "You avoided any real friction at all.",
-              "feedback": "Avoiding friction entirely is not the same as controlling it."
+              "text": "Shoving him straight back.",
+              "feedback": "Shoving just walks him backward."
             }
           ]
         }

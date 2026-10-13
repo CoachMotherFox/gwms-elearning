@@ -67,7 +67,7 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
             {
               "kind": "list",
               "items": [
-                "Whoever gets there first wins, whether by three touches or by the underhook plus closed hands."
+                "Whoever gets there first wins, whether by three touches or by getting an underhook and then locking his hands around his partner."
               ]
             },
             {
@@ -82,8 +82,8 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
             {
               "kind": "list",
               "items": [
-                "The bottom player wins by locking his hands with an underhook after a post.",
-                "The top player wins by standing and opening the guard."
+                "The bottom player wins by sliding an arm under the top player's armpit after his hand touches the mat, then locking his hands.",
+                "The top player wins by standing up and pushing the bottom player's knees down to open his legs."
               ]
             },
             {
@@ -98,7 +98,7 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
             {
               "kind": "list",
               "items": [
-                "The top player holds as long as he keeps chest-to-back contact.",
+                "The top player holds as long as his chest stays on the bottom player's back.",
                 "The bottom player wins by getting his back flat to the mat, or by facing and coming on top."
               ]
             }
@@ -113,22 +113,22 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight you held full control standing, passing, and on his back, without ever reaching for the finish. What did that teach whoever was watching?",
+          "question": "Tonight he tried to pull you down from inside his locked legs. What kept you up?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "That control, not the finish, is the lesson.",
-              "feedback": "Control without reaching for the finish teaches more than any finish could.",
-              "correct": true
+              "text": "Sitting tall with your back straight.",
+              "correct": true,
+              "feedback": "How you carry yourself shows in how steady you stay."
             },
             {
-              "text": "That finishing fast is what matters most.",
-              "feedback": "Finishing fast is not the lesson a newer partner actually needs."
+              "text": "Leaning forward onto your hands.",
+              "feedback": "A hand on the mat is what he wants."
             },
             {
-              "text": "Nothing, since you never finished anything.",
-              "feedback": "Not finishing on purpose is still teaching something."
+              "text": "Reaching up to grab his head.",
+              "feedback": "Reaching gives him your balance."
             }
           ]
         }

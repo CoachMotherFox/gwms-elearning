@@ -79,8 +79,8 @@
           "text": "Fight to get under your partner's elbows. Connect your hands anywhere from his armpits to his ankles.",
           "win": [
             {
-              "role": "Whoever connects first",
-              "text": "locks his hands around his partner, armpits to ankles."
+              "role": "Whoever first locks his hands around his partner's body",
+              "text": "wins, anywhere from armpits to ankles."
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
@@ -114,11 +114,11 @@
           "win": [
             {
               "role": "The top player",
-              "text": "holds by keeping an elbow covered."
+              "text": "holds as long as he keeps an arm under one of the bottom player's elbows."
             },
             {
               "role": "The bottom player",
-              "text": "wins by getting both elbows home, or making the top player fall."
+              "text": "wins by getting both elbows to his body, or making the top player fall."
             }
           ],
           "reset": "The top player holds no matter what. If he loses both elbows, that is the bottom player's win, and you start over. Roles switch after every win.",
@@ -176,15 +176,15 @@
           "win": [
             {
               "role": "The bottom player",
-              "text": "holds as long as he keeps his connections."
+              "text": "holds as long as he keeps a foot and a hand on the top player."
             },
             {
               "role": "The top player",
-              "text": "wins by breaking every connection and touching the bottom player's body with his shin, from outside his legs."
+              "text": "wins by getting free of the bottom player's feet and hands, going around his legs, and touching his body with a shin."
             }
           ],
           "reset": "The bottom player holds no matter what. If the top player breaks free and gets outside, that is his win, and you start over. Roles switch after every win.",
-          "whatItIs": "This is passing the legs from on top."
+          "whatItIs": "This is getting past his legs and feet."
         },
         {
           "skill": "Controlling",
@@ -209,21 +209,21 @@
       "connection": "Staying safe and guarded on the mat before you trust a partner is the same guard you use before you trust a room. Both are smart. Naming it is the work.",
       "takeaway": "Tonight you worked from the hand fight, open guard, and a chest-to-chest pin. Staying guarded before you trust a partner is smart, the same way it is before you trust a room. You get to decide how much guard to keep, and when to drop it.",
       "concept": {
-        "lesson": "Reading the room before you trust it, a little at a time.",
-        "question": "Tonight you felt him out standing, passing, and pinning, a little at a time. What let you do that safely?",
+        "lesson": "Before you trust someone, you work from a grip you already have.",
+        "question": "Tonight you scored touches on his hands and knees. Where did each touch start?",
         "options": [
           {
-            "text": "Keeping some distance while you read him.",
-            "feedback": "Reading the room first is smart. Trusting it all at once is not.",
-            "correct": true
+            "text": "From a grip you already had.",
+            "correct": true,
+            "feedback": "Before you trust someone, you start small, from what you already have."
           },
           {
-            "text": "Rushing in before you knew him.",
-            "feedback": "Rushing in skips the part where you actually read him."
+            "text": "From a wild grab at anything.",
+            "feedback": "Wild grabs leave you open."
           },
           {
-            "text": "Trusting him completely, right away.",
-            "feedback": "Trusting all at once is not the same as reading the room."
+            "text": "From diving in close to him.",
+            "feedback": "Diving in skips reading him first."
           }
         ]
       }
@@ -261,7 +261,7 @@
             },
             {
               "role": "The top player",
-              "text": "holds as long as he keeps the bottom player down."
+              "text": "wins by keeping the bottom player on his back for 30 seconds."
             }
           ],
           "reset": "The top player holds no matter what. If the bottom player sits him down and gets his own back up, that is his win, and you start over. Roles switch after every win.",
@@ -276,7 +276,7 @@
           "win": [
             {
               "role": "The top player",
-              "text": "holds as long as he keeps the bottom player broken down."
+              "text": "holds as long as he keeps the bottom player flat on his side or belly."
             },
             {
               "role": "The bottom player",
@@ -290,21 +290,21 @@
       "connection": "Keeping your guard means keeping a boundary between you and the other person. The mask does the same job with people. Guard retention on the mat and the mask you wear are the same thing.",
       "takeaway": "Tonight you worked from the hand fight, open guard, and riding position. Keeping your guard means keeping a boundary, and a mask does that same job with people. You get to choose what your mask protects, and naming it is the first step to owning it.",
       "concept": {
-        "lesson": "Doing it on purpose, not for whoever is watching.",
-        "question": "Tonight people watched you grip on purpose, pass on purpose, and hold on purpose. What made it real, not a show?",
+        "lesson": "Grip the wrists, elbows, and head on purpose, even with people watching.",
+        "question": "Tonight you hand fought for the underhook. What did your hands go for?",
         "options": [
           {
-            "text": "You did it on purpose, not for the crowd.",
-            "feedback": "A mask worn on purpose is still a choice. One worn for the crowd is a performance.",
-            "correct": true
+            "text": "His wrists, elbows, and head, on purpose.",
+            "correct": true,
+            "feedback": "Who you are when people watch shows in what you do on purpose."
           },
           {
-            "text": "You did it for whoever was watching.",
-            "feedback": "Doing it for the crowd is the performance, not the real thing."
+            "text": "Whatever part of him was closest.",
+            "feedback": "Closest is not the same as on purpose."
           },
           {
-            "text": "You did whatever felt easiest in the moment.",
-            "feedback": "Easiest is not the same as on purpose."
+            "text": "Nothing, until he grabbed you first.",
+            "feedback": "Waiting gives him the first grip."
           }
         ]
       }
@@ -342,11 +342,11 @@
           "win": [
             {
               "role": "The bottom player",
-              "text": "wins by putting him down and standing, or by wrestling up to a connection."
+              "text": "wins by knocking the top player down and standing, or by sitting up to grab his legs or hips."
             },
             {
               "role": "The top player",
-              "text": "wins by touching his shin to the bottom player's knee pit, or his body from outside the legs."
+              "text": "wins by touching his shin behind the bottom player's knee, or to his body from beside his legs."
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
@@ -365,7 +365,7 @@
             },
             {
               "role": "The defender",
-              "text": "wins by reaching a quad pod."
+              "text": "wins by getting up on his hands and feet with his knees off the mat."
             }
           ],
           "reset": "The attacker holds no matter what. If the defender reaches a quad pod, that is his win, and you start over. Roles switch after every win.",
@@ -375,21 +375,21 @@
       "connection": "The guard you keep was drilled into you somewhere, and so was the mask. Both are learned defenses. Finding where you learned to guard is the same move on and off the mat.",
       "takeaway": "Tonight you worked from the hand fight, open guard, and turtle. The guard you keep on the mat was learned somewhere, and so was your mask. Both were smart moves once, in the place you learned them. You get to keep what still helps you and set down what doesn't.",
       "concept": {
-        "lesson": "Playing a different job well is a skill, not a fake self.",
-        "question": "Tonight you played two different jobs in every game, standing, passing, and pinning. What let you do both well?",
+        "lesson": "Block his knees and feet with yours to keep him belly down.",
+        "question": "Tonight you kept a balled up partner belly down. What held him there?",
         "options": [
           {
-            "text": "Learning the moves for each job, not just one.",
-            "feedback": "You learned a version of you for each job. That is not fake, it is skill.",
-            "correct": true
+            "text": "Blocking his knees and feet with yours.",
+            "correct": true,
+            "feedback": "The version of you that shows up here is the one you practice."
           },
           {
-            "text": "Picking the job you liked best.",
-            "feedback": "Picking only one job leaves the other one untrained."
+            "text": "Lying on him with all your weight.",
+            "feedback": "Weight alone lets him push up."
           },
           {
-            "text": "Doing the same thing no matter which job.",
-            "feedback": "The same move does not work for both jobs."
+            "text": "Squeezing his waist as hard as you can.",
+            "feedback": "Squeezing tires you out before he does."
           }
         ]
       }
@@ -427,7 +427,7 @@
           "win": [
             {
               "role": "The top player",
-              "text": "wins by touching both of the bottom player's knee pits with his own leg, feet off the mat."
+              "text": "wins by touching the backs of both of the bottom player's knees with his shin, one and then the other."
             },
             {
               "role": "The bottom player",
@@ -435,7 +435,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is passing the legs from on top."
+          "whatItIs": "This is getting past his legs and feet."
         },
         {
           "skill": "Controlling",
@@ -446,7 +446,7 @@
           "win": [
             {
               "role": "The top player",
-              "text": "holds as long as he keeps one of the bottom player's elbows covered."
+              "text": "holds as long as he keeps an arm under one of the bottom player's elbows."
             },
             {
               "role": "The bottom player",
@@ -460,21 +460,21 @@
       "connection": "Your guard protects the space behind your legs. Your mask protects something too. Naming what the guard defends is the same as naming what the mask hides.",
       "takeaway": "Tonight you worked from the hand fight, open guard, and mount. Your guard protects your legs, and your mask protects something in you. Naming what your mask guards is the same skill as naming what a guard defends. You get to use your mask on purpose.",
       "concept": {
-        "lesson": "A guard protects something specific, not just everything.",
-        "question": "Tonight your guard kept people out while standing, passing, and pinning. What was it actually protecting?",
+        "lesson": "His legs guard the space in front of him. Your shin behind his knee gets you past.",
+        "question": "Tonight you got past his legs while he lay on his back. What got you in?",
         "options": [
           {
-            "text": "Something specific, not just everything.",
-            "feedback": "A guard that protects something specific can be lowered on purpose. One that guards everything never comes down.",
-            "correct": true
+            "text": "Your shin stepping behind his knee.",
+            "correct": true,
+            "feedback": "His legs protect his body, the way a mask protects what is under it."
           },
           {
-            "text": "Nothing in particular, just habit.",
-            "feedback": "A habit with no reason behind it is hard to ever put down."
+            "text": "Jumping over both of his legs.",
+            "feedback": "Jumping gives his feet a chance to push you."
           },
           {
-            "text": "Whatever felt threatening at the time.",
-            "feedback": "Guarding whatever feels threatening changes every day, and protects nothing in particular."
+            "text": "Pulling his head toward you.",
+            "feedback": "His head is not where the gap is."
           }
         ]
       }
@@ -512,7 +512,7 @@
           "win": [
             {
               "role": "The top player",
-              "text": "wins by getting to his feet and opening the guard."
+              "text": "wins by standing up and opening the bottom player's legs so his ankles uncross."
             },
             {
               "role": "The bottom player",
@@ -520,7 +520,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is standing up to open his guard."
+          "whatItIs": "This is standing to open his locked legs."
         },
         {
           "skill": "Controlling",
@@ -531,7 +531,7 @@
           "win": [
             {
               "role": "The top player",
-              "text": "holds as long as he keeps the bottom player broken down."
+              "text": "holds as long as he keeps the bottom player flat on his side or belly."
             },
             {
               "role": "The bottom player",
@@ -545,21 +545,21 @@
       "connection": "When your guard gets passed, the mask cracks and something real shows. Getting passed on the mat and cracking under pressure are the same moment. You feel it in your body first.",
       "takeaway": "Tonight you worked from a single leg, closed guard, and referee position. When your guard gets passed, something real slips out from under the mask. That crack is not failure, it is information. You get to notice what shows up and decide what to do with it.",
       "concept": {
-        "lesson": "Losing safely shows you something true about yourself.",
-        "question": "Tonight you lost rounds on purpose, standing, passing, and pinning. What did losing safely let you see?",
+        "lesson": "Keep him moving while you stay on the leg.",
+        "question": "Tonight you held one of his legs while he fought to get it back. What made him fall?",
         "options": [
           {
-            "text": "What you actually do when you're losing.",
-            "feedback": "Losing safely shows you something true. It is information, not failure.",
-            "correct": true
+            "text": "Keeping him moving while you held on.",
+            "correct": true,
+            "feedback": "When a round goes bad, keep moving. That is when the real you shows."
           },
           {
-            "text": "How to avoid losing next time.",
-            "feedback": "Avoiding losing skips the point of losing safely on purpose."
+            "text": "Holding still and squeezing harder.",
+            "feedback": "Holding still gives him time to free his leg."
           },
           {
-            "text": "That losing means you did something wrong.",
-            "feedback": "Losing on purpose is not the same as doing something wrong."
+            "text": "Letting go to grab something else.",
+            "feedback": "Letting go gives the leg back."
           }
         ]
       }
@@ -593,7 +593,7 @@
           "win": [
             {
               "role": "The top player",
-              "text": "wins by touching his shin to the bottom player's body, inside or outside his knees."
+              "text": "wins by pressing his shin on the bottom player's belly or side."
             },
             {
               "role": "The bottom player",
@@ -601,7 +601,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is passing the legs from on top."
+          "whatItIs": "This is getting past his legs and feet."
         },
         {
           "skill": "Controlling",
@@ -616,7 +616,7 @@
             },
             {
               "role": "The bottom player",
-              "text": "wins by getting to a quad pod."
+              "text": "wins by getting up on his hands and feet with his knees off the mat."
             }
           ],
           "reset": "The top player holds no matter what. If the bottom player reaches a quad pod, that is his win, and you start over. Roles switch after every win.",
@@ -626,21 +626,21 @@
       "connection": "When you and your partner get tired, the fake stuff drops on both sides, the passer and the guard. What slips out when you are too tired to perform is the truest thing about you, on the mat and off.",
       "takeaway": "Tonight you worked from the hand fight, open guard, and turtle. When you get tired, the performing stops, and something truer shows up in its place. That truer version is worth paying attention to, not hiding again. You get to decide what you do with what you noticed.",
       "concept": {
-        "lesson": "What's left when you're too tired to perform is the truest thing.",
-        "question": "Tonight the rounds ran long, standing, passing, and pinning. What showed up once you got tired?",
+        "lesson": "Tired hands grab anything. Keep gripping wrists and elbows on purpose.",
+        "question": "Tonight the hand fight ran long and you got tired. What did your hands need to do?",
         "options": [
           {
-            "text": "Whatever was true underneath the performance.",
-            "feedback": "What's left when you're too tired to perform is usually the truest thing about you.",
-            "correct": true
+            "text": "Keep gripping wrists and elbows on purpose.",
+            "correct": true,
+            "feedback": "When you're tired, the real you shows in where your hands go."
           },
           {
-            "text": "Whatever worked best when you were fresh.",
-            "feedback": "What works when you're fresh is the performance, not what's underneath it."
+            "text": "Grab anywhere just to hold on.",
+            "feedback": "Grabbing anywhere is what tired hands do."
           },
           {
-            "text": "Nothing changed once you got tired.",
-            "feedback": "Something always changes once the performing stops."
+            "text": "Drop down and rest for a second.",
+            "feedback": "Resting in the middle gives him the leg."
           }
         ]
       }
@@ -678,7 +678,7 @@
           "win": [
             {
               "role": "The top player",
-              "text": "wins by touching both of the bottom player's knee pits with his own leg, feet off the mat."
+              "text": "wins by touching the backs of both of the bottom player's knees with his shin, one and then the other."
             },
             {
               "role": "The bottom player",
@@ -686,7 +686,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is passing the legs from on top."
+          "whatItIs": "This is getting past his legs and feet."
         },
         {
           "skill": "Controlling",
@@ -711,21 +711,21 @@
       "connection": "The checkpoint where a guard always breaks is a tell, and so is the first thing that shows when you crack. Finding the exact break point on the mat is the same skill as knowing your own tell.",
       "takeaway": "Tonight you worked from a single leg, open guard, and a chest-to-chest pin. Every guard has an exact point where it breaks, and so do you. Finding that point is the same skill as knowing the sign you give off, so you can catch yourself before it runs the show.",
       "concept": {
-        "lesson": "Knowing the exact point you break is power.",
-        "question": "Tonight your guard broke at an exact point, standing, passing, and pinning. What does that let you do?",
+        "lesson": "Stay under at least one elbow. Notice when one cracks free and get it back.",
+        "question": "Tonight he fought to pull his elbows in under you. What kept him down?",
         "options": [
           {
-            "text": "Catch yourself before it runs the show.",
-            "feedback": "Knowing the exact point your guard breaks is power, because you can catch yourself there.",
-            "correct": true
+            "text": "Staying under at least one elbow.",
+            "correct": true,
+            "feedback": "Noticing the first crack is how you stop it from growing."
           },
           {
-            "text": "Avoid ever breaking at all.",
-            "feedback": "Never breaking is not the goal, noticing where you break is."
+            "text": "Lying flat on him with all your weight.",
+            "feedback": "Weight alone won't stop his elbows."
           },
           {
-            "text": "Blame the moment it happened.",
-            "feedback": "Blame does not teach you where the break actually is."
+            "text": "Letting go to grab his head.",
+            "feedback": "Letting go frees both elbows."
           }
         ]
       }
@@ -744,11 +744,11 @@
           "win": [
             {
               "role": "The underhook player",
-              "text": "wins by getting to the overhook player's waist, directly or from his head or his leg."
+              "text": "wins by locking his hands around the overhook player's waist."
             },
             {
               "role": "The overhook player",
-              "text": "wins by freeing a head or leg connection."
+              "text": "wins by freeing his head or leg before the underhook player gets to his waist."
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
@@ -763,7 +763,7 @@
           "win": [
             {
               "role": "The top player",
-              "text": "wins by touching one outside of the bottom player's legs, then the other outside, right after."
+              "text": "wins by touching his shin to one side of the bottom player's body, then going around and touching the other side."
             },
             {
               "role": "The bottom player",
@@ -796,21 +796,21 @@
       "connection": "Getting past the legs shows what the guard was hiding. Looking under your mask shows the real you. Passing and revealing are the same move: get past the defense to what is behind it.",
       "takeaway": "Tonight you worked from an underhook tie, open guard, and a figure-four pin. Getting past a guard shows what it was hiding, and looking under your mask works the same way. What is underneath is not worse, it is just true. You get to keep what is real.",
       "concept": {
-        "lesson": "What's underneath the first layer is true, not worse.",
-        "question": "Tonight you got past the first layer standing, passing, and pinning. What was waiting underneath?",
+        "lesson": "Clear his feet before anything else to get past the front.",
+        "question": "Tonight you got around his legs to his side. What did you clear first?",
         "options": [
           {
-            "text": "Something true, not something worse.",
-            "feedback": "What's under the first layer is not worse than it. It's just true.",
-            "correct": true
+            "text": "His feet, before anything else.",
+            "correct": true,
+            "feedback": "To see what is under the front, you get past the first layer."
           },
           {
-            "text": "Something worse than the front layer.",
-            "feedback": "What's underneath is not worse, it is just true."
+            "text": "His head, so he couldn't see.",
+            "feedback": "His feet stay in your way."
           },
           {
-            "text": "Nothing, the front layer was all there was.",
-            "feedback": "There is always something underneath the first layer."
+            "text": "His arms, so he couldn't grab.",
+            "feedback": "His feet can still push you off."
           }
         ]
       }
@@ -828,8 +828,8 @@
           "text": "Collect three touches. A touch is a hand behind your partner's knee or an underhook. Any mix counts. Only after three touches can you try for a closed-hand connection.",
           "win": [
             {
-              "role": "Whoever collects three touches and then connects first",
-              "text": "wins, closing his hands anywhere on his partner's body from shoulders to ankles."
+              "role": "Whoever first gets three touches and then locks his hands around his partner",
+              "text": "wins, anywhere from shoulders to ankles."
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
@@ -844,7 +844,7 @@
           "win": [
             {
               "role": "The top player",
-              "text": "wins by connecting his hands under at least one elbow."
+              "text": "wins by locking his hands with an arm under one of the bottom player's elbows."
             },
             {
               "role": "The bottom player",
@@ -878,21 +878,21 @@
       "privateOk": true,
       "takeaway": "Tonight you worked from the hand fight, half guard, and a chest-to-chest pin. Arriving past a guard puts you in touch with what was most protected. Naming the part of yourself you keep hidden works the same way. You get to name it silently, for you, and that is brave.",
       "concept": {
-        "lesson": "What's most protected has to be earned, not grabbed.",
-        "question": "Tonight you earned your way closer, standing, passing, and pinning, one step at a time. What did that earn you?",
+        "lesson": "Earn three touches before you reach for the lock.",
+        "question": "Tonight you needed three touches before you could wrap him up. What let you wrap him?",
         "options": [
           {
-            "text": "Access to what was most protected.",
-            "feedback": "What's most protected has to be earned. Reaching for it directly just gets it pulled further away.",
-            "correct": true
+            "text": "Earning your three touches first.",
+            "correct": true,
+            "feedback": "What is hidden has to be earned, one touch at a time."
           },
           {
-            "text": "Nothing, reaching for it directly works just as well.",
-            "feedback": "Reaching for it directly usually pulls it further away."
+            "text": "Grabbing for the lock right away.",
+            "feedback": "The lock only counts after three touches."
           },
           {
-            "text": "Whatever you could grab the fastest.",
-            "feedback": "Grabbing fast is not the same as earning access."
+            "text": "Waiting for him to hold still.",
+            "feedback": "He won't hold still for you."
           }
         ]
       }
@@ -911,7 +911,7 @@
           "win": [
             {
               "role": "Whoever gets there first",
-              "text": "wins, whether by three touches or by any closed-hand connection."
+              "text": "wins, whether by three touches or by locking his hands around his partner's head, body, or leg."
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
@@ -926,11 +926,11 @@
           "win": [
             {
               "role": "The bottom player",
-              "text": "wins by putting the top player down and standing up, or by rising up to a connection another way."
+              "text": "wins by knocking the top player down and standing up, or by coming up while still holding on to him."
             },
             {
               "role": "The top player",
-              "text": "wins with shin contact."
+              "text": "wins by going around the bottom player's legs and touching him with a shin."
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
@@ -945,7 +945,7 @@
           "win": [
             {
               "role": "The top player",
-              "text": "holds as long as he keeps the bottom player broken down."
+              "text": "holds as long as he keeps the bottom player flat on his side or belly."
             },
             {
               "role": "The bottom player",
@@ -960,21 +960,21 @@
       "stageClose": true,
       "takeaway": "Tonight you worked from the hand fight, open guard, and riding position, standing to a pin in one round. That is the same trip you have made since Session 1. You showed up, you cracked, and you stayed anyway. You get to keep showing up as that person.",
       "concept": {
-        "lesson": "Staying yourself through the whole trip is what the mask coming off means.",
-        "question": "Tonight you ran the whole trip, standing to a pin, playing both seats. What did finishing the whole thing prove?",
+        "lesson": "Stay on your feet instead of dropping to your knees.",
+        "question": "Tonight he tried to knock you down from his back. What kept you up?",
         "options": [
           {
-            "text": "That you can stay yourself the whole way through.",
-            "feedback": "Staying yourself through the whole trip, not just one part of it, is what the mask coming off means.",
-            "correct": true
+            "text": "Staying on your feet, not your knees.",
+            "correct": true,
+            "feedback": "With the mask off, you still stay on your feet."
           },
           {
-            "text": "That you're better at one seat than the other.",
-            "feedback": "Being better at one seat misses the point of running the whole trip."
+            "text": "Dropping to your knees to rest.",
+            "feedback": "On your knees, he can tip you over."
           },
           {
-            "text": "That the trip only matters at the end.",
-            "feedback": "The whole trip matters, not just how it ends."
+            "text": "Leaning over to grab his head.",
+            "feedback": "Leaning over gives him your balance."
           }
         ]
       }

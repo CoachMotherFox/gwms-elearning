@@ -68,7 +68,7 @@ window.GWMS_COURSE_BUNDLE["session-02"] =
             {
               "kind": "list",
               "items": [
-                "Whoever connects first locks his hands around his partner, armpits to ankles."
+                "Whoever first locks his hands around his partner's body wins, anywhere from armpits to ankles."
               ]
             },
             {
@@ -99,8 +99,8 @@ window.GWMS_COURSE_BUNDLE["session-02"] =
             {
               "kind": "list",
               "items": [
-                "The top player holds by keeping an elbow covered.",
-                "The bottom player wins by getting both elbows home, or making the top player fall."
+                "The top player holds as long as he keeps an arm under one of the bottom player's elbows.",
+                "The bottom player wins by getting both elbows to his body, or making the top player fall."
               ]
             }
           ]

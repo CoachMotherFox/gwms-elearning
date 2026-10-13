@@ -84,7 +84,7 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
               "kind": "list",
               "items": [
                 "The bottom player wins when the top player's butt hits the mat and then his own back comes off the mat.",
-                "The top player holds as long as he keeps the bottom player down."
+                "The top player wins by keeping the bottom player on his back for 30 seconds."
               ]
             },
             {
@@ -99,7 +99,7 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
             {
               "kind": "list",
               "items": [
-                "The top player holds as long as he keeps the bottom player broken down.",
+                "The top player holds as long as he keeps the bottom player flat on his side or belly.",
                 "The bottom player wins by standing up and turning to face the top player."
               ]
             }
@@ -114,22 +114,22 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight people watched you grip on purpose, pass on purpose, and hold on purpose. What made it real, not a show?",
+          "question": "Tonight you hand fought for the underhook. What did your hands go for?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "You did it on purpose, not for the crowd.",
-              "feedback": "A mask worn on purpose is still a choice. One worn for the crowd is a performance.",
-              "correct": true
+              "text": "His wrists, elbows, and head, on purpose.",
+              "correct": true,
+              "feedback": "Who you are when people watch shows in what you do on purpose."
             },
             {
-              "text": "You did it for whoever was watching.",
-              "feedback": "Doing it for the crowd is the performance, not the real thing."
+              "text": "Whatever part of him was closest.",
+              "feedback": "Closest is not the same as on purpose."
             },
             {
-              "text": "You did whatever felt easiest in the moment.",
-              "feedback": "Easiest is not the same as on purpose."
+              "text": "Nothing, until he grabbed you first.",
+              "feedback": "Waiting gives him the first grip."
             }
           ]
         }

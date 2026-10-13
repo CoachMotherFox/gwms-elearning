@@ -66,8 +66,8 @@
             {
               "kind": "list",
               "items": [
-                "The underhook player wins by getting to the overhook player's waist, directly or from his head or his leg.",
-                "The overhook player wins by freeing a head or leg connection."
+                "The underhook player wins by locking his hands around the overhook player's waist.",
+                "The overhook player wins by freeing his head or leg before the underhook player gets to his waist."
               ]
             },
             {
@@ -82,7 +82,7 @@
             {
               "kind": "list",
               "items": [
-                "The top player wins by touching one outside of the bottom player's legs, then the other outside, right after.",
+                "The top player wins by touching his shin to one side of the bottom player's body, then going around and touching the other side.",
                 "The bottom player wins by making the top player fall on his butt, then getting his own back off the mat."
               ]
             },
@@ -113,22 +113,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight you got past the first layer standing, passing, and pinning. What was waiting underneath?",
+          "question": "Tonight you got around his legs to his side. What did you clear first?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Something true, not something worse.",
-              "feedback": "What's under the first layer is not worse than it. It's just true.",
-              "correct": true
+              "text": "His feet, before anything else.",
+              "correct": true,
+              "feedback": "To see what is under the front, you get past the first layer."
             },
             {
-              "text": "Something worse than the front layer.",
-              "feedback": "What's underneath is not worse, it is just true."
+              "text": "His head, so he couldn't see.",
+              "feedback": "His feet stay in your way."
             },
             {
-              "text": "Nothing, the front layer was all there was.",
-              "feedback": "There is always something underneath the first layer."
+              "text": "His arms, so he couldn't grab.",
+              "feedback": "His feet can still push you off."
             }
           ]
         }

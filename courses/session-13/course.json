@@ -66,7 +66,7 @@
             {
               "kind": "list",
               "items": [
-                "Whoever connects first wins. The same rule applies to both players."
+                "Whoever first locks his hands around his partner wins, arms under the elbows. The same rule applies to both players."
               ]
             },
             {
@@ -76,12 +76,12 @@
             },
             {
               "kind": "lead",
-              "text": "This is passing around to reach his chest."
+              "text": "This is going around him to his chest."
             },
             {
               "kind": "list",
               "items": [
-                "The top player wins by connecting his hands around the bottom player from the outside.",
+                "The top player wins by going around the bottom player's legs and locking his hands around him.",
                 "The bottom player wins by making the top player's butt hit the mat and sitting up."
               ]
             },
@@ -97,7 +97,7 @@
             {
               "kind": "list",
               "items": [
-                "The top player holds as long as he keeps both of the bottom player's elbows covered.",
+                "The top player holds as long as he keeps something between the bottom player's elbows and his ribs.",
                 "The bottom player wins by getting both elbows to touch his body, or by making the top player fall."
               ]
             }
@@ -112,22 +112,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight you stayed chest to chest, standing, passing, and pinning. What made that contact real?",
+          "question": "Tonight you stayed chest to chest while he fought to pull his elbows in. What kept you there?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "You stayed instead of pulling back.",
-              "feedback": "Staying present in contact, instead of pulling back, is what makes it real.",
-              "correct": true
+              "text": "Keeping something under his elbows.",
+              "correct": true,
+              "feedback": "Real contact means you stay close, even when he fights it."
             },
             {
-              "text": "You kept your distance the whole time.",
-              "feedback": "Keeping your distance is not the same as making contact."
+              "text": "Lifting your chest off to rest.",
+              "feedback": "Lifting off gives him room to escape."
             },
             {
-              "text": "You pushed through without noticing him.",
-              "feedback": "Pushing through without noticing him is not real contact."
+              "text": "Grabbing his head with both hands.",
+              "feedback": "His elbows come free when you let go."
             }
           ]
         }

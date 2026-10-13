@@ -79,12 +79,12 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
             },
             {
               "kind": "lead",
-              "text": "This is fighting for hands inside his guard."
+              "text": "This is hand fighting inside his locked legs."
             },
             {
               "kind": "list",
               "items": [
-                "The bottom player wins by making the top player's hand touch mat.",
+                "The bottom player wins by making the top player's hand touch the mat.",
                 "The top player wins by standing while controlling a wrist or pinning the hips."
               ]
             },
@@ -100,8 +100,8 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
             {
               "kind": "list",
               "items": [
-                "The top player wins by keeping the bottom player's elbows off him.",
-                "The bottom player wins by bringing both elbows home, or making the top player fall."
+                "The top player wins by keeping his arms under the bottom player's elbows. If he gets them free, reset.",
+                "The bottom player wins by bringing both elbows to his body, or making the top player fall."
               ]
             }
           ]

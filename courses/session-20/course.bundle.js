@@ -79,12 +79,12 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
             },
             {
               "kind": "lead",
-              "text": "This is standing up to open his guard."
+              "text": "This is standing to open his locked legs."
             },
             {
               "kind": "list",
               "items": [
-                "The top player wins by standing and opening the guard.",
+                "The top player wins by standing up and opening the bottom player's legs so his ankles uncross.",
                 "The bottom player wins by stopping the top player for 30 seconds, then switching."
               ]
             },
@@ -101,7 +101,7 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
               "kind": "list",
               "items": [
                 "The top player wins with the arm trapped at the head.",
-                "The bottom player wins by pulling his trapped elbow home, or rolling the top player off."
+                "The bottom player wins by pulling his trapped elbow to his body, or rolling the top player off."
               ]
             }
           ]

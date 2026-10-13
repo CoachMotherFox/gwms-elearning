@@ -68,7 +68,7 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
             {
               "kind": "list",
               "items": [
-                "Whoever gets there first wins, whether by three touches or by any closed-hand connection."
+                "Whoever gets there first wins, whether by three touches or by locking his hands around his partner's head, body, or leg."
               ]
             },
             {
@@ -83,8 +83,8 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
             {
               "kind": "list",
               "items": [
-                "The bottom player wins by putting the top player down and standing up, or by rising up to a connection another way.",
-                "The top player wins with shin contact."
+                "The bottom player wins by knocking the top player down and standing up, or by coming up while still holding on to him.",
+                "The top player wins by going around the bottom player's legs and touching him with a shin."
               ]
             },
             {
@@ -99,7 +99,7 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
             {
               "kind": "list",
               "items": [
-                "The top player holds as long as he keeps the bottom player broken down.",
+                "The top player holds as long as he keeps the bottom player flat on his side or belly.",
                 "The bottom player wins by standing up and turning to face the top player."
               ]
             }
@@ -114,22 +114,22 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight you ran the whole trip, standing to a pin, playing both seats. What did finishing the whole thing prove?",
+          "question": "Tonight he tried to knock you down from his back. What kept you up?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "That you can stay yourself the whole way through.",
-              "feedback": "Staying yourself through the whole trip, not just one part of it, is what the mask coming off means.",
-              "correct": true
+              "text": "Staying on your feet, not your knees.",
+              "correct": true,
+              "feedback": "With the mask off, you still stay on your feet."
             },
             {
-              "text": "That you're better at one seat than the other.",
-              "feedback": "Being better at one seat misses the point of running the whole trip."
+              "text": "Dropping to your knees to rest.",
+              "feedback": "On your knees, he can tip you over."
             },
             {
-              "text": "That the trip only matters at the end.",
-              "feedback": "The whole trip matters, not just how it ends."
+              "text": "Leaning over to grab his head.",
+              "feedback": "Leaning over gives him your balance."
             }
           ]
         }

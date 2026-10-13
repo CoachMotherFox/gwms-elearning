@@ -67,8 +67,8 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
             {
               "kind": "list",
               "items": [
-                "The upper body player wins with an underhook on the lower body player, or by putting his hands on the mat.",
-                "The lower body player wins with a touch behind the upper body player's leg, or by putting his hands on the mat."
+                "The upper body player wins with an underhook on the lower body player, or by pushing his hands to the mat.",
+                "The lower body player wins with a touch behind the upper body player's leg, or by pushing his hands to the mat."
               ]
             },
             {
@@ -99,7 +99,7 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
             {
               "kind": "list",
               "items": [
-                "The attacker holds as long as he keeps contact.",
+                "The attacker holds as long as his chest stays on the defender's back.",
                 "The defender wins by getting his back to the mat or turning face to face."
               ]
             }
@@ -114,22 +114,22 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight you held him standing, passing, and pinning, so he could learn. What made that giving?",
+          "question": "Tonight you fought for the upper body or the legs. How did you score?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "You held him so he could learn, not to win.",
-              "feedback": "Holding someone so he can learn is giving, not winning.",
-              "correct": true
+              "text": "Working from a grip you already had.",
+              "correct": true,
+              "feedback": "Someone newer needs what you've learned."
             },
             {
-              "text": "You held him hard.",
-              "feedback": "Holding as hard as possible is winning, not giving."
+              "text": "Diving at his legs with no grip.",
+              "feedback": "No grip leaves you open."
             },
             {
-              "text": "You let him go early.",
-              "feedback": "Letting him go skips the struggle he needs."
+              "text": "Waiting for him to come to you.",
+              "feedback": "Waiting gives him the first score."
             }
           ]
         }

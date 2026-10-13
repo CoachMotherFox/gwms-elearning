@@ -75,12 +75,12 @@
             },
             {
               "kind": "lead",
-              "text": "This is passing the legs from on top."
+              "text": "This is getting past his legs and feet."
             },
             {
               "kind": "list",
               "items": [
-                "The top player wins by touching his shin to the bottom player's body, inside or outside his knees.",
+                "The top player wins by pressing his shin on the bottom player's belly or side.",
                 "The bottom player wins by making the top player fall on his butt, then getting his own back off the mat."
               ]
             },
@@ -96,7 +96,7 @@
             {
               "kind": "list",
               "items": [
-                "The attacker holds as long as he keeps contact.",
+                "The attacker holds as long as his chest stays on the defender's back.",
                 "The defender wins by getting his back to the mat or turning face to face."
               ]
             }
@@ -111,22 +111,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight you followed him wherever he went, standing, passing, and holding his back. What proved the change was real?",
+          "question": "Tonight you held his back while he moved around. What kept you on him?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Following through instead of reaching for more.",
-              "feedback": "Following through, instead of reaching for more too soon, is proof the change is real.",
-              "correct": true
+              "text": "Following him with your chest on his back.",
+              "correct": true,
+              "feedback": "What is different now is that you can follow him instead of freezing."
             },
             {
-              "text": "Reaching for more the first chance you got.",
-              "feedback": "Reaching for more too soon is not the same as following through."
+              "text": "Wrapping your legs around him right away.",
+              "feedback": "Reaching with your legs lets your chest come off."
             },
             {
-              "text": "Holding on only when it was easy.",
-              "feedback": "Holding on only when easy is not proof of anything."
+              "text": "Holding still until he stopped.",
+              "feedback": "He won't stop, so you have to follow."
             }
           ]
         }

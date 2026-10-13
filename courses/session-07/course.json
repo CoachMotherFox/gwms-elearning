@@ -77,12 +77,12 @@
             },
             {
               "kind": "lead",
-              "text": "This is standing up to open his guard."
+              "text": "This is standing to open his locked legs."
             },
             {
               "kind": "list",
               "items": [
-                "The top player wins by getting to his feet and opening the guard.",
+                "The top player wins by standing up and opening the bottom player's legs so his ankles uncross.",
                 "The bottom player wins by stopping the top player's win for 30 seconds. Then switch."
               ]
             },
@@ -98,7 +98,7 @@
             {
               "kind": "list",
               "items": [
-                "The top player holds as long as he keeps the bottom player broken down.",
+                "The top player holds as long as he keeps the bottom player flat on his side or belly.",
                 "The bottom player wins when he stands up and faces the top player."
               ]
             }
@@ -113,22 +113,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight you lost rounds on purpose, standing, passing, and pinning. What did losing safely let you see?",
+          "question": "Tonight you held one of his legs while he fought to get it back. What made him fall?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "What you actually do when you're losing.",
-              "feedback": "Losing safely shows you something true. It is information, not failure.",
-              "correct": true
+              "text": "Keeping him moving while you held on.",
+              "correct": true,
+              "feedback": "When a round goes bad, keep moving. That is when the real you shows."
             },
             {
-              "text": "How to avoid losing next time.",
-              "feedback": "Avoiding losing skips the point of losing safely on purpose."
+              "text": "Holding still and squeezing harder.",
+              "feedback": "Holding still gives him time to free his leg."
             },
             {
-              "text": "That losing means you did something wrong.",
-              "feedback": "Losing on purpose is not the same as doing something wrong."
+              "text": "Letting go to grab something else.",
+              "feedback": "Letting go gives the leg back."
             }
           ]
         }

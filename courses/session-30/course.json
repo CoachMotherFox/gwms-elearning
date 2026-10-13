@@ -76,13 +76,13 @@
             },
             {
               "kind": "lead",
-              "text": "This is getting close to his back."
+              "text": "This is getting close to someone lying down."
             },
             {
               "kind": "list",
               "items": [
-                "The bottom player wins by getting his feet inside and sitting up, or entangling the top player once he stands.",
-                "The top player wins by locking his hands."
+                "The bottom player wins by getting his feet inside and sitting up, or, once the top player stands, by wrapping both legs around one of his legs.",
+                "The top player wins by locking his hands around the bottom player."
               ]
             },
             {
@@ -97,7 +97,7 @@
             {
               "kind": "list",
               "items": [
-                "The top player holds as long as he keeps contact.",
+                "The top player holds as long as his chest stays on the bottom player's back.",
                 "The bottom player wins by getting his back to the mat or turning face to face."
               ]
             }
@@ -112,22 +112,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight you had full control standing, passing, and on his back, and chose not to hurt him every time. What was that choice worth?",
+          "question": "Tonight you had full control of his back. What kept him safe?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "It kept your strength from becoming harm.",
-              "feedback": "Choosing not to hurt him, every time you could have, is what keeps strength from becoming harm.",
-              "correct": true
+              "text": "Keeping your chest on him, not squeezing.",
+              "correct": true,
+              "feedback": "Strength used for control keeps him safe instead of taking from him."
             },
             {
-              "text": "It proved you were stronger than him.",
-              "feedback": "Proving you're stronger is not the same as choosing not to hurt him."
+              "text": "Squeezing him as hard as you can.",
+              "feedback": "Squeezing takes his strength instead of using yours."
             },
             {
-              "text": "It made the round take longer.",
-              "feedback": "How long the round took is not the point of the choice."
+              "text": "Wrapping your legs around his waist.",
+              "feedback": "Your legs aren't what kept him safe."
             }
           ]
         }

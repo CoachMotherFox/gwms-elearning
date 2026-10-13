@@ -82,7 +82,7 @@
             {
               "kind": "list",
               "items": [
-                "The bottom player wins by putting the top player's hips on the floor using only posts and hooks.",
+                "The bottom player wins by putting the top player's hips on the floor using only his feet.",
                 "The top player wins by stopping the bottom player's win for 30 seconds. Then switch."
               ]
             },
@@ -98,7 +98,7 @@
             {
               "kind": "list",
               "items": [
-                "The top player holds as long as he keeps the bottom player broken down.",
+                "The top player holds as long as he keeps the bottom player flat on his side or belly.",
                 "The bottom player wins by standing up and turning to face the top player."
               ]
             }
@@ -113,22 +113,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight he pushed back standing, passing, and pinning, and you kept your spot every time. What made that work?",
+          "question": "Tonight he pushed up hard to stand while you rode on top. What kept him down?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Staying calm instead of forcing harder.",
-              "feedback": "Staying calm under pushback is a choice. Forcing harder is just a reflex.",
-              "correct": true
+              "text": "Blocking his hips with your knees and feet.",
+              "correct": true,
+              "feedback": "When someone pushes back, you answer with your body position, not force."
             },
             {
-              "text": "Forcing harder until he stopped.",
-              "feedback": "Forcing harder usually costs more than it wins."
+              "text": "Pushing back harder with your arms.",
+              "feedback": "Arms tire out before his legs do."
             },
             {
-              "text": "Giving up your spot to avoid the push.",
-              "feedback": "Giving up your spot is not the same as handling the push."
+              "text": "Jumping off and starting over.",
+              "feedback": "Jumping off lets him stand up."
             }
           ]
         }

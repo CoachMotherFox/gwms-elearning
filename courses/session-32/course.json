@@ -82,7 +82,7 @@
               "kind": "list",
               "items": [
                 "The bottom player wins when the top player's hands touch the mat above the bottom player's own head, and the top player's butt touches the mat too.",
-                "The top player wins by getting outside the bottom player's legs and touching his body with a shin."
+                "The top player wins by going around the bottom player's legs and touching him with a shin."
               ]
             },
             {
@@ -97,8 +97,8 @@
             {
               "kind": "list",
               "items": [
-                "The top player wins by reaching a precursor position on top.",
-                "The bottom player wins by his back on the mat or by turning face to face."
+                "The top player wins by moving from the bottom player's back to a finishing hold on top.",
+                "The bottom player wins by getting his back on the mat or by turning face to face."
               ]
             }
           ]
@@ -112,22 +112,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight you reached a finishing position standing, passing, and on his back, and then chose what to do with it. What did that choice set?",
+          "question": "Tonight you moved from his back to a hold on top. What did you keep the whole way?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "The standard for whoever is watching you.",
-              "feedback": "How you act once you're there sets the standard for whoever comes next.",
-              "correct": true
+              "text": "Your chest on his back.",
+              "correct": true,
+              "feedback": "The standard you set is what you keep doing, the whole way."
             },
             {
-              "text": "Nothing, nobody was really watching.",
-              "feedback": "Someone is always watching, even when it doesn't feel like it."
+              "text": "Your legs locked around his waist.",
+              "feedback": "This hold is about your chest, not your legs."
             },
             {
-              "text": "A standard only for this one round.",
-              "feedback": "The standard you set does not stop at the end of one round."
+              "text": "Your weight off of him.",
+              "feedback": "With your weight off, he turns away."
             }
           ]
         }

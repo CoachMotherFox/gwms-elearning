@@ -65,7 +65,7 @@
             {
               "kind": "list",
               "items": [
-                "Whoever connects first wins by locking his hands around his partner's body, armpits to ankles."
+                "Whoever first locks his hands around his partner's body wins, anywhere from armpits to ankles."
               ]
             },
             {
@@ -96,7 +96,7 @@
             {
               "kind": "list",
               "items": [
-                "The attacker holds as long as he keeps contact.",
+                "The attacker holds as long as his chest stays on the defender's back.",
                 "The defender wins by getting his back to the mat or turning face to face."
               ]
             }
@@ -111,22 +111,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight you played the same games as your very first night, standing, passing, and on his back. What was actually different this time?",
+          "question": "Tonight you played the same first game as your second night. What did your hands go for?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Who was playing them, not the games themselves.",
-              "feedback": "The games never changed. What you carry out the door is who was playing them.",
-              "correct": true
+              "text": "His wrists and elbows, on purpose.",
+              "correct": true,
+              "feedback": "What you carry out the door is doing it on purpose."
             },
             {
-              "text": "The games were harder than before.",
-              "feedback": "The games stayed the same, you were the one who changed."
+              "text": "Anything they touched first.",
+              "feedback": "That was the old you."
             },
             {
-              "text": "Nothing, it felt exactly the same.",
-              "feedback": "Something was different, even if the games looked the same."
+              "text": "His head, to pull him down.",
+              "feedback": "Pulling his head isn't this game."
             }
           ]
         }

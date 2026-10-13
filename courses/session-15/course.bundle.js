@@ -68,7 +68,7 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
             {
               "kind": "list",
               "items": [
-                "Whoever reaches a connection first wins. The same rule applies to both players."
+                "Whoever first gets an underhook and then grabs the head, waist, or a leg wins. The same rule applies to both players."
               ]
             },
             {
@@ -83,8 +83,8 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
             {
               "kind": "list",
               "items": [
-                "The bottom player wins by locking his hands with an underhook after a post.",
-                "The top player wins by standing and opening the guard."
+                "The bottom player wins by sliding an arm under the top player's armpit after his hand touches the mat, then locking his hands.",
+                "The top player wins by standing up and pushing the bottom player's knees down to open his legs."
               ]
             },
             {
@@ -99,7 +99,7 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
             {
               "kind": "list",
               "items": [
-                "The top player holds as long as he keeps one of the bottom player's elbows covered.",
+                "The top player holds as long as he keeps an arm under one of the bottom player's elbows.",
                 "The bottom player wins by touching both elbows to his body, or making the top player fall."
               ]
             }
@@ -114,22 +114,22 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight you built every connection with a real partner, standing, passing, and pinning. What made each one hold?",
+          "question": "Tonight you both fought for the same grip. What got you close?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "You built it with him, not just for him.",
-              "feedback": "The real you shows up with other people, not alone. That's what makes a connection hold.",
-              "correct": true
+              "text": "Gripping his wrists and elbows on purpose.",
+              "correct": true,
+              "feedback": "Who you are with other people shows in how you make contact."
             },
             {
-              "text": "You built it alone and he just watched.",
-              "feedback": "A connection built alone is not really a connection."
+              "text": "Grabbing whatever you touched first.",
+              "feedback": "Grabbing anything is not the same as on purpose."
             },
             {
-              "text": "You built it exactly like last time.",
-              "feedback": "Copying last time is not the same as building it with him."
+              "text": "Pushing him away to make space.",
+              "feedback": "Pushing away is the opposite of getting close."
             }
           ]
         }

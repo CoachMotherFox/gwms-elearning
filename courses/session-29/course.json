@@ -66,7 +66,7 @@
               "kind": "list",
               "items": [
                 "The attacker wins by putting the defender's hands on the mat, and lifting him once from behind on his hips.",
-                "The defender wins by fully disconnecting, standing, and turning to face."
+                "The defender wins by pushing the attacker's arms off, standing up, and turning to face him."
               ]
             },
             {
@@ -81,8 +81,8 @@
             {
               "kind": "list",
               "items": [
-                "The bottom player wins by putting him down and standing, or by wrestling up to a connection.",
-                "The top player wins by touching his shin to the bottom player's knee pit, or his body from outside the legs."
+                "The bottom player wins by knocking the top player down and standing, or by sitting up to grab his legs or hips.",
+                "The top player wins by touching his shin behind the bottom player's knee, or to his body from beside his legs."
               ]
             },
             {
@@ -97,7 +97,7 @@
             {
               "kind": "list",
               "items": [
-                "The back player holds as long as he keeps control.",
+                "The back player holds as long as he keeps his arms under the front player's elbows.",
                 "The front player wins by turning to face the back player with both elbows free."
               ]
             }
@@ -112,22 +112,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight you gave him room to work, standing, passing, and on his back, while still holding on. What did that cost you?",
+          "question": "Tonight you held him from behind, arms only. What kept him facing down?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "The easy win you could have taken.",
-              "feedback": "Giving up the easy win is what makes it cost something.",
-              "correct": true
+              "text": "Your forearms under his elbows.",
+              "correct": true,
+              "feedback": "Giving him room while still holding on costs you something."
             },
             {
-              "text": "Nothing, holding on is always easy.",
-              "feedback": "Holding on while giving him room is not the easy version."
+              "text": "Your legs locked around his waist.",
+              "feedback": "You hold with your arms here, not your legs."
             },
             {
-              "text": "Your grip, since you let go completely.",
-              "feedback": "Letting go completely is not the same as giving him room while still holding."
+              "text": "Pulling his shoulders back hard.",
+              "feedback": "Pulling hard won't keep him facing the mat."
             }
           ]
         }

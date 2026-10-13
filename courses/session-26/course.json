@@ -65,8 +65,8 @@
             {
               "kind": "list",
               "items": [
-                "The attacker wins when the defender is down on his own hips or hands.",
-                "The defender wins by freeing his own leg and then grabbing one of the attacker's legs."
+                "The attacker wins when the defender's hips or hands touch the mat.",
+                "The defender wins by freeing his leg, then grabbing one of the attacker's legs."
               ]
             },
             {
@@ -81,8 +81,8 @@
             {
               "kind": "list",
               "items": [
-                "The top player wins by getting outside the bottom player's legs for shin contact, or locking his hands at the bottom player's hips.",
-                "The bottom player holds as long as he keeps his connections."
+                "The top player wins by going around the bottom player's legs and touching him with a shin, or by locking his hands around his hips.",
+                "The bottom player holds as long as he keeps a foot on the top player and a hand on his ankle."
               ]
             },
             {
@@ -97,7 +97,7 @@
             {
               "kind": "list",
               "items": [
-                "The top player holds as long as he keeps contact.",
+                "The top player holds as long as his chest stays on the bottom player's back.",
                 "The bottom player wins by getting his back to the mat or turning face to face."
               ]
             }
@@ -112,22 +112,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight you held on standing, passing, and on his back, against someone really trying. What proved it?",
+          "question": "Tonight he kicked hard to free his leg. What brought him down?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "It held even when he fought hard.",
-              "feedback": "Real change holds up against real effort, not just when it's easy.",
-              "correct": true
+              "text": "Moving him while you held the leg.",
+              "correct": true,
+              "feedback": "Proof is holding on when he really tries."
             },
             {
-              "text": "It worked when he wasn't trying very hard.",
-              "feedback": "Working only when he's not trying is not proof of anything."
+              "text": "Holding still and pulling up.",
+              "feedback": "Holding still gives him time to kick free."
             },
             {
-              "text": "You said it, and that was enough.",
-              "feedback": "Saying it is real does not make it real."
+              "text": "Letting go to grab his waist.",
+              "feedback": "Letting go gives him the leg back."
             }
           ]
         }

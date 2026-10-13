@@ -43,8 +43,8 @@
           "text": "Fight to get under your partner's elbows. Make a closed-hand connection anywhere from armpits to ankles.",
           "win": [
             {
-              "role": "Whoever connects first",
-              "text": "wins. The same rule applies to both players."
+              "role": "Whoever first locks his hands around his partner",
+              "text": "wins, arms under the elbows. The same rule applies to both players."
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
@@ -59,7 +59,7 @@
           "win": [
             {
               "role": "The top player",
-              "text": "wins by connecting his hands around the bottom player from the outside."
+              "text": "wins by going around the bottom player's legs and locking his hands around him."
             },
             {
               "role": "The bottom player",
@@ -67,7 +67,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is passing around to reach his chest."
+          "whatItIs": "This is going around him to his chest."
         },
         {
           "skill": "Controlling",
@@ -78,7 +78,7 @@
           "win": [
             {
               "role": "The top player",
-              "text": "holds as long as he keeps both of the bottom player's elbows covered."
+              "text": "holds as long as he keeps something between the bottom player's elbows and his ribs."
             },
             {
               "role": "The bottom player",
@@ -92,21 +92,21 @@
       "connection": "Holding contact on the mat and noticing what contact does to you are the same skill. Both mean staying present when someone gets close, instead of pushing them away. The pin teaches your body to stay. Thinking about it teaches your mind why staying is hard.",
       "takeaway": "Tonight you worked from an underhook tie, open guard, and a chest-to-chest pin. Holding a pin teaches your body to stay present instead of pushing someone away. Real contact does something to everyone, and now you can feel it. You get to notice that feeling instead of running from it.",
       "concept": {
-        "lesson": "Real contact means staying present instead of pulling back.",
-        "question": "Tonight you stayed chest to chest, standing, passing, and pinning. What made that contact real?",
+        "lesson": "Real contact means you stay close and keep something under his elbows.",
+        "question": "Tonight you stayed chest to chest while he fought to pull his elbows in. What kept you there?",
         "options": [
           {
-            "text": "You stayed instead of pulling back.",
-            "feedback": "Staying present in contact, instead of pulling back, is what makes it real.",
-            "correct": true
+            "text": "Keeping something under his elbows.",
+            "correct": true,
+            "feedback": "Real contact means you stay close, even when he fights it."
           },
           {
-            "text": "You kept your distance the whole time.",
-            "feedback": "Keeping your distance is not the same as making contact."
+            "text": "Lifting your chest off to rest.",
+            "feedback": "Lifting off gives him room to escape."
           },
           {
-            "text": "You pushed through without noticing him.",
-            "feedback": "Pushing through without noticing him is not real contact."
+            "text": "Grabbing his head with both hands.",
+            "feedback": "His elbows come free when you let go."
           }
         ]
       }
@@ -144,7 +144,7 @@
           "win": [
             {
               "role": "The bottom player",
-              "text": "wins by making the top player's hand touch mat."
+              "text": "wins by making the top player's hand touch the mat."
             },
             {
               "role": "The top player",
@@ -152,7 +152,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is fighting for hands inside his guard."
+          "whatItIs": "This is hand fighting inside his locked legs."
         },
         {
           "skill": "Controlling",
@@ -163,11 +163,11 @@
           "win": [
             {
               "role": "The top player",
-              "text": "wins by keeping the bottom player's elbows off him."
+              "text": "wins by keeping his arms under the bottom player's elbows. If he gets them free, reset."
             },
             {
               "role": "The bottom player",
-              "text": "wins by bringing both elbows home, or making the top player fall."
+              "text": "wins by bringing both elbows to his body, or making the top player fall."
             }
           ],
           "reset": "The top player holds no matter what. If the bottom player gets both elbows to his body, that is his win, and you start over. Roles switch after every win.",
@@ -209,7 +209,7 @@
           "text": "Get a two-on-one connection, then the underhook, and work to a connection at the head, waist, or leg.",
           "win": [
             {
-              "role": "Whoever reaches a connection first",
+              "role": "Whoever first gets an underhook and then grabs the head, waist, or a leg",
               "text": "wins. The same rule applies to both players."
             }
           ],
@@ -225,11 +225,11 @@
           "win": [
             {
               "role": "The bottom player",
-              "text": "wins by locking his hands with an underhook after a post."
+              "text": "wins by sliding an arm under the top player's armpit after his hand touches the mat, then locking his hands."
             },
             {
               "role": "The top player",
-              "text": "wins by standing and opening the guard."
+              "text": "wins by standing up and pushing the bottom player's knees down to open his legs."
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
@@ -244,7 +244,7 @@
           "win": [
             {
               "role": "The top player",
-              "text": "holds as long as he keeps one of the bottom player's elbows covered."
+              "text": "holds as long as he keeps an arm under one of the bottom player's elbows."
             },
             {
               "role": "The bottom player",
@@ -258,21 +258,21 @@
       "connection": "The Descent found the real you. Now it goes to the mat with a partner. Rolling as the real you, instead of a mask, is the same as showing up honest in a relationship instead of performing one.",
       "takeaway": "Tonight you worked from the hand fight, closed guard, and mount. You found the real you since Session 1, and tonight you rolled with a partner. Being honest on the mat is the same choice as being honest with people. You get to bring the real you into every room.",
       "concept": {
-        "lesson": "A real connection is built with someone, not performed alone.",
-        "question": "Tonight you built every connection with a real partner, standing, passing, and pinning. What made each one hold?",
+        "lesson": "Grip his wrists and elbows on purpose to get close.",
+        "question": "Tonight you both fought for the same grip. What got you close?",
         "options": [
           {
-            "text": "You built it with him, not just for him.",
-            "feedback": "The real you shows up with other people, not alone. That's what makes a connection hold.",
-            "correct": true
+            "text": "Gripping his wrists and elbows on purpose.",
+            "correct": true,
+            "feedback": "Who you are with other people shows in how you make contact."
           },
           {
-            "text": "You built it alone and he just watched.",
-            "feedback": "A connection built alone is not really a connection."
+            "text": "Grabbing whatever you touched first.",
+            "feedback": "Grabbing anything is not the same as on purpose."
           },
           {
-            "text": "You built it exactly like last time.",
-            "feedback": "Copying last time is not the same as building it with him."
+            "text": "Pushing him away to make space.",
+            "feedback": "Pushing away is the opposite of getting close."
           }
         ]
       }
@@ -310,7 +310,7 @@
           "win": [
             {
               "role": "The bottom player",
-              "text": "wins by putting the top player's hips on the floor using only posts and hooks."
+              "text": "wins by putting the top player's hips on the floor using only his feet."
             },
             {
               "role": "The top player",
@@ -329,7 +329,7 @@
           "win": [
             {
               "role": "The top player",
-              "text": "holds as long as he keeps the bottom player broken down."
+              "text": "holds as long as he keeps the bottom player flat on his side or belly."
             },
             {
               "role": "The bottom player",
@@ -343,21 +343,21 @@
       "connection": "A partner resisting the pin is pushback made physical. What you do when they fight the pin is usually what you do when people push back in life. Both reward staying calm and adjusting over forcing harder.",
       "takeaway": "Tonight you worked from an underhook tie, open guard, and riding position. A partner fighting your pin is pushback made physical, and staying calm beats forcing harder every time. That is usually true with people too. You get to choose your response to pushback instead of reacting on reflex.",
       "concept": {
-        "lesson": "Staying calm under pushback is a choice, not a reflex.",
-        "question": "Tonight he pushed back standing, passing, and pinning, and you kept your spot every time. What made that work?",
+        "lesson": "Answer the push with knee and foot blocks, not force.",
+        "question": "Tonight he pushed up hard to stand while you rode on top. What kept him down?",
         "options": [
           {
-            "text": "Staying calm instead of forcing harder.",
-            "feedback": "Staying calm under pushback is a choice. Forcing harder is just a reflex.",
-            "correct": true
+            "text": "Blocking his hips with your knees and feet.",
+            "correct": true,
+            "feedback": "When someone pushes back, you answer with your body position, not force."
           },
           {
-            "text": "Forcing harder until he stopped.",
-            "feedback": "Forcing harder usually costs more than it wins."
+            "text": "Pushing back harder with your arms.",
+            "feedback": "Arms tire out before his legs do."
           },
           {
-            "text": "Giving up your spot to avoid the push.",
-            "feedback": "Giving up your spot is not the same as handling the push."
+            "text": "Jumping off and starting over.",
+            "feedback": "Jumping off lets him stand up."
           }
         ]
       }
@@ -395,11 +395,11 @@
           "win": [
             {
               "role": "The bottom player",
-              "text": "wins by recovering to any real guard position while staying mobile."
+              "text": "wins by getting his legs back in front of the top player."
             },
             {
               "role": "The top player",
-              "text": "wins by locking his hands."
+              "text": "wins by locking his hands around the bottom player."
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
@@ -418,7 +418,7 @@
             },
             {
               "role": "The defender",
-              "text": "wins by reaching a quad pod."
+              "text": "wins by getting up on his hands and feet with his knees off the mat."
             }
           ],
           "reset": "The attacker holds no matter what. If the defender reaches a quad pod, that is his win, and you start over. Roles switch after every win.",
@@ -429,21 +429,21 @@
       "note": "Staying is the skill. But leaving a harmful situation is wise, not a failure.",
       "takeaway": "Tonight you worked from a waist lock, side control, and turtle. Staying in an uncomfortable pin instead of scrambling out takes the same skill as staying in a hard conversation. You can choose to stay with discomfort instead of running. Leaving something truly harmful is smart too.",
       "concept": {
-        "lesson": "Choosing to stay in discomfort is the skill.",
-        "question": "Tonight you stayed through the uncomfortable part, standing, passing, and pinning. What let you stay?",
+        "lesson": "Stay on your feet and keep your grip when it gets hard.",
+        "question": "Tonight you held his waist from behind while he fought to turn. What took him down?",
         "options": [
           {
-            "text": "Choosing discomfort over quitting the round.",
-            "feedback": "Choosing to stay in discomfort is the skill. Leaving something truly harmful is still smart.",
-            "correct": true
+            "text": "Staying on your feet and blocking his leg.",
+            "correct": true,
+            "feedback": "Staying on your feet when it gets hard is how you stay present."
           },
           {
-            "text": "Waiting for it to stop being uncomfortable.",
-            "feedback": "Waiting for comfort is not the same as choosing to stay."
+            "text": "Falling down to the mat with him.",
+            "feedback": "If you fall, he can turn and face you."
           },
           {
-            "text": "Quitting the round the moment it got hard.",
-            "feedback": "Quitting at the first hard moment is not staying."
+            "text": "Letting go when he started turning.",
+            "feedback": "Letting go is quitting the round."
           }
         ]
       }
@@ -514,21 +514,21 @@
       "connection": "You can pin someone hard and still keep them safe. That is control of your own force. Your conflict off the mat lands on real people too, and the same control applies: honest friction, not harm.",
       "takeaway": "Tonight you worked from an underhook tie, open guard, and a figure-four pin. You can hold someone hard and still keep them safe, and that control is yours to use on purpose. Your friction off the mat lands on real people too. You get to choose honest friction over harm.",
       "concept": {
-        "lesson": "Friction aimed at his balance is control. Aimed at him, it's harm.",
-        "question": "Tonight you off-balanced him standing, passing, and pinning, with control. What kept it from becoming harm?",
+        "lesson": "Block his foot, then pull. Off balance him with control.",
+        "question": "Tonight you tripped him from the overhook. What made him fall?",
         "options": [
           {
-            "text": "You aimed it at his balance, not at him.",
-            "feedback": "Friction aimed at his balance is control. Friction aimed at him is harm.",
-            "correct": true
+            "text": "Blocking his foot, then pulling.",
+            "correct": true,
+            "feedback": "Your friction lands on a real person, so use control, not force."
           },
           {
-            "text": "You went as hard as you could every time.",
-            "feedback": "Going hard is not the same as aiming with control."
+            "text": "Kicking his leg out hard.",
+            "feedback": "Kicking hurts. Blocking moves him."
           },
           {
-            "text": "You avoided any real friction at all.",
-            "feedback": "Avoiding friction entirely is not the same as controlling it."
+            "text": "Shoving him straight back.",
+            "feedback": "Shoving just walks him backward."
           }
         ]
       }
@@ -566,7 +566,7 @@
           "win": [
             {
               "role": "The bottom player",
-              "text": "wins by getting his legs back in front in any real guard."
+              "text": "wins by getting his legs back in front of the top player."
             },
             {
               "role": "The top player",
@@ -574,7 +574,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is getting your legs back after passing."
+          "whatItIs": "This is getting your legs back in front."
         },
         {
           "skill": "Controlling",
@@ -599,21 +599,21 @@
       "connection": "Losing the pin and getting reversed is a small rupture. How you handle that break on the mat, a clean reset or payback, is a lot like how you handle broken connections in life.",
       "takeaway": "Tonight you worked from a single leg, side control, and a figure-four pin. Losing a pin and getting reversed is a small break, and how you respond is a real choice. That same choice shows up when a connection breaks with someone. You get to choose the reset over payback.",
       "concept": {
-        "lesson": "Getting a broken connection back fast matters more than why it broke.",
-        "question": "Tonight a connection broke standing, passing, and pinning, every time. What mattered most after it broke?",
+        "lesson": "When the grip slips, get back under his elbow right away.",
+        "question": "Tonight he fought to pull his trapped arm free. What kept your grip?",
         "options": [
           {
-            "text": "Getting it back right away.",
-            "feedback": "Getting a broken connection back right away matters more than how it broke.",
-            "correct": true
+            "text": "Getting back under his elbow fast.",
+            "correct": true,
+            "feedback": "When a connection breaks, you get it back right away."
           },
           {
-            "text": "Figuring out exactly why it broke.",
-            "feedback": "Figuring out why can wait, getting it back can't."
+            "text": "Squeezing his wrist as hard as you can.",
+            "feedback": "Squeezing his wrist won't stop his elbow."
           },
           {
-            "text": "Waiting for the right moment to reconnect.",
-            "feedback": "Waiting for the right moment usually means the pass finishes first."
+            "text": "Letting go and grabbing his head.",
+            "feedback": "Letting go loses the arm."
           }
         ]
       }
@@ -651,7 +651,7 @@
           "win": [
             {
               "role": "The top player",
-              "text": "wins by standing and opening the guard."
+              "text": "wins by standing up and opening the bottom player's legs so his ankles uncross."
             },
             {
               "role": "The bottom player",
@@ -659,7 +659,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is standing up to open his guard."
+          "whatItIs": "This is standing to open his locked legs."
         },
         {
           "skill": "Finishing",
@@ -674,7 +674,7 @@
             },
             {
               "role": "The bottom player",
-              "text": "wins by pulling his trapped elbow home, or rolling the top player off."
+              "text": "wins by pulling his trapped elbow to his body, or rolling the top player off."
             }
           ],
           "reset": "The win is the trap, not the strangle. No finish is shown. The tap is honored instantly, every time. Roles switch after every win.",
@@ -738,7 +738,7 @@
           "win": [
             {
               "role": "The top player",
-              "text": "wins by touching both of the bottom player's knee pits with his own leg, feet off the mat."
+              "text": "wins by touching the backs of both of the bottom player's knees with his shin, one and then the other."
             },
             {
               "role": "The bottom player",
@@ -746,7 +746,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is passing the legs from on top."
+          "whatItIs": "This is getting past his legs and feet."
         },
         {
           "skill": "Finishing",
@@ -757,11 +757,11 @@
           "win": [
             {
               "role": "The top player",
-              "text": "wins by separating the bottom player's hands and locking two grips on his wrist."
+              "text": "wins by pulling the bottom player's hands apart and getting both hands on one wrist."
             },
             {
               "role": "The bottom player",
-              "text": "wins by freeing his own trapped arm, or by reversing the position."
+              "text": "wins by pulling his trapped arm free, or by turning in and coming up to his knees."
             }
           ],
           "reset": "The win is the breaking position, not the break. No finish is shown. The tap is honored instantly, every time. Roles switch after every win.",
@@ -772,21 +772,21 @@
       "connection": "On the mat you can name your own mistake in a round without blaming your partner. Owning your part of a rupture works the same way. It starts with separating your piece from theirs.",
       "takeaway": "Tonight you worked from a single leg, open guard, and an arm lock position. On the mat you can name your mistake without blaming your partner. Owning a break works the same way: separate your piece from theirs. You get to own your part and let the rest be his.",
       "concept": {
-        "lesson": "Owning your part means owning the release, not just the win.",
-        "question": "Tonight you built a position standing, passing, and pinning, and it was yours to hold or let go. What made it yours?",
+        "lesson": "Pull his hands apart, get both hands on one wrist, and stop.",
+        "question": "Tonight you pulled his locked hands apart. What did you do next?",
         "options": [
           {
-            "text": "You owned both the hold and the release.",
-            "feedback": "Owning your part means owning the release too, not just the win.",
-            "correct": true
+            "text": "Got both hands on one wrist and stopped.",
+            "correct": true,
+            "feedback": "Your part is yours to hold, and yours to let go."
           },
           {
-            "text": "You owned it only while you were winning.",
-            "feedback": "Only owning the winning part is not owning your whole part."
+            "text": "Yanked the arm as hard as you could.",
+            "feedback": "Yanking is how people get hurt."
           },
           {
-            "text": "You owned it only once it was over.",
-            "feedback": "Waiting until it's over to own it is too late."
+            "text": "Let go to grab his head.",
+            "feedback": "Letting go gives the arm back."
           }
         ]
       }
@@ -805,7 +805,7 @@
           "win": [
             {
               "role": "Whoever gets there first",
-              "text": "wins, whether by three touches or by the underhook plus closed hands."
+              "text": "wins, whether by three touches or by getting an underhook and then locking his hands around his partner."
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
@@ -820,11 +820,11 @@
           "win": [
             {
               "role": "The bottom player",
-              "text": "wins by recovering to any real guard position while staying mobile."
+              "text": "wins by getting his legs back in front of the top player."
             },
             {
               "role": "The top player",
-              "text": "wins by locking his hands."
+              "text": "wins by locking his hands around the bottom player."
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
@@ -843,7 +843,7 @@
             },
             {
               "role": "The bottom player",
-              "text": "wins by removing the figure four from under his own elbow."
+              "text": "wins by pulling his hand back to his body and getting the top player's arm out from under his elbow."
             }
           ],
           "reset": "Switch arms every time someone wins, and swap top and bottom too. The win is the hand to the mat, not the finish. No finish is shown.",
@@ -854,21 +854,21 @@
       "connection": "Resetting and rolling clean with someone right after a hard round is like squaring up with words. A real apology is the same kind of reset: you get back in instead of carrying the grudge.",
       "takeaway": "Tonight you worked from the hand fight, side control, and a figure-four grip. Resetting and rolling clean right after a hard round is a physical version of a real apology. Both mean getting back in instead of carrying the grudge. You get to choose the reset over the grudge.",
       "concept": {
-        "lesson": "Meaning it means releasing completely, not partway.",
-        "question": "Tonight you held clean positions standing, passing, and pinning, and released the moment it was time. What made that real?",
+        "lesson": "Move the trapped arm slowly and stop at the touch.",
+        "question": "Tonight you moved his trapped arm toward the mat. How did you move it?",
         "options": [
           {
-            "text": "Releasing completely, not partway.",
-            "feedback": "Releasing completely, not partway, is what makes meaning it real instead of just saying it.",
-            "correct": true
+            "text": "Slowly, and you stopped at the touch.",
+            "correct": true,
+            "feedback": "Meaning it looks slow and clean, on the mat and when you say sorry."
           },
           {
-            "text": "Holding on a little longer than you had to.",
-            "feedback": "Holding on longer than needed is not a clean release."
+            "text": "Fast, before he could fight it.",
+            "feedback": "Fast is how an arm gets hurt."
           },
           {
-            "text": "Releasing before you had actually won anything.",
-            "feedback": "Releasing early is not the same as releasing completely at the right time."
+            "text": "Hard, until he couldn't move.",
+            "feedback": "The win is the touch, not more."
           }
         ]
       }
@@ -887,7 +887,7 @@
           "win": [
             {
               "role": "The attacker",
-              "text": "wins only by picking up the defender's leg, from any connection."
+              "text": "wins only by picking up the defender's leg, from any grip."
             },
             {
               "role": "The defender",
@@ -906,11 +906,11 @@
           "win": [
             {
               "role": "The bottom player",
-              "text": "holds as long as he keeps the connection."
+              "text": "holds as long as he keeps his feet and a hand on the top player."
             },
             {
               "role": "The top player",
-              "text": "wins by getting outside the bottom player's legs and touching his body with a shin."
+              "text": "wins by going around the bottom player's legs and touching him with a shin."
             }
           ],
           "reset": "The bottom player holds no matter what. If the top player gets outside and connects, that is his win, and you start over. Roles switch after every win.",
@@ -925,7 +925,7 @@
           "win": [
             {
               "role": "The top player",
-              "text": "holds as long as he keeps both of the bottom player's elbows covered."
+              "text": "holds as long as he keeps something between the bottom player's elbows and his ribs."
             },
             {
               "role": "The bottom player",
@@ -940,21 +940,21 @@
       "note": "Staying is the skill. But leaving a harmful relationship is not failure. This is never an all-or-nothing rule.",
       "takeaway": "Tonight you worked from an underhook tie, open guard, and a chest-to-chest pin. Staying with a hard partner is commitment made physical, building the muscle of not bailing on people. That works off the mat too. You get to choose to stay on purpose, or leave if it's harmful.",
       "concept": {
-        "lesson": "Choosing to stay the whole round is commitment.",
-        "question": "Tonight you held the connection standing, passing, and pinning, for the whole round, every time. What made staying possible?",
+        "lesson": "Keep your feet and a hand on him the whole round.",
+        "question": "Tonight he tried to get around your legs while you lay on your back. What kept him in front?",
         "options": [
           {
-            "text": "Choosing to stay instead of bailing early.",
-            "feedback": "Choosing to stay the whole round is commitment. Leaving something truly harmful is still smart.",
-            "correct": true
+            "text": "Keeping your feet and a hand on him.",
+            "correct": true,
+            "feedback": "Staying when leaving would be easier is a choice you make."
           },
           {
-            "text": "Waiting for it to get easier.",
-            "feedback": "Waiting for easier is not the same as choosing to stay now."
+            "text": "Letting your feet drop to rest.",
+            "feedback": "Resting your feet lets him walk around."
           },
           {
-            "text": "Leaving as soon as it got hard.",
-            "feedback": "Leaving at the first hard moment is not staying."
+            "text": "Rolling away to get some space.",
+            "feedback": "Rolling away gives him your back."
           }
         ]
       }
@@ -988,11 +988,11 @@
           "win": [
             {
               "role": "The bottom player",
-              "text": "wins by putting the top player down and standing up, or by rising up to a connection another way."
+              "text": "wins by knocking the top player down and standing up, or by coming up while still holding on to him."
             },
             {
               "role": "The top player",
-              "text": "wins with shin contact."
+              "text": "wins by going around the bottom player's legs and touching him with a shin."
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
@@ -1023,21 +1023,21 @@
       "stageClose": true,
       "takeaway": "Tonight you worked from the hand fight, open guard, and a figure-four grip, putting control and the reset together. Repair off the mat costs something real too, pride, comfort, time. You get to decide that cost is worth paying. You made contact, took the friction, and survived the break.",
       "concept": {
-        "lesson": "Repair costs real work before you even get to choose.",
-        "question": "Tonight you worked to reach each position, standing, passing, and pinning, before you got to choose anything. What did the work buy you?",
+        "lesson": "Keep your arm under his elbow to hold the trapped arm.",
+        "question": "Tonight you trapped his arm with both of your hands. What kept it trapped?",
         "options": [
           {
-            "text": "A real choice, earned instead of given.",
-            "feedback": "Repair costs real work before you even get to choose.",
-            "correct": true
+            "text": "Keeping your arm under his elbow.",
+            "correct": true,
+            "feedback": "Holding it right takes steady work, and so does repair."
           },
           {
-            "text": "A shortcut to the same choice.",
-            "feedback": "A shortcut skips the work that makes the choice mean something."
+            "text": "Pulling his hand up toward his head.",
+            "feedback": "Pulling the wrong way frees his elbow."
           },
           {
-            "text": "Nothing, the choice was the same either way.",
-            "feedback": "The choice is not the same without the work that earned it."
+            "text": "Lying on his chest to rest.",
+            "feedback": "Resting lets his elbow slip free."
           }
         ]
       }

@@ -77,12 +77,12 @@
             },
             {
               "kind": "lead",
-              "text": "This is passing the legs from on top."
+              "text": "This is getting past his legs and feet."
             },
             {
               "kind": "list",
               "items": [
-                "The top player wins by touching both of the bottom player's knee pits with his own leg, feet off the mat.",
+                "The top player wins by touching the backs of both of the bottom player's knees with his shin, one and then the other.",
                 "The bottom player wins by making the top player sit down, then sitting up himself."
               ]
             },
@@ -113,22 +113,22 @@
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight your guard broke at an exact point, standing, passing, and pinning. What does that let you do?",
+          "question": "Tonight he fought to pull his elbows in under you. What kept him down?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Catch yourself before it runs the show.",
-              "feedback": "Knowing the exact point your guard breaks is power, because you can catch yourself there.",
-              "correct": true
+              "text": "Staying under at least one elbow.",
+              "correct": true,
+              "feedback": "Noticing the first crack is how you stop it from growing."
             },
             {
-              "text": "Avoid ever breaking at all.",
-              "feedback": "Never breaking is not the goal, noticing where you break is."
+              "text": "Lying flat on him with all your weight.",
+              "feedback": "Weight alone won't stop his elbows."
             },
             {
-              "text": "Blame the moment it happened.",
-              "feedback": "Blame does not teach you where the break actually is."
+              "text": "Letting go to grab his head.",
+              "feedback": "Letting go frees both elbows."
             }
           ]
         }
