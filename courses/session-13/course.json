@@ -112,14 +112,14 @@
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight you stayed chest to chest while he fought to pull his elbows in. What kept you there?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "Keeping something under his elbows.",
-              "correct": true,
-              "feedback": "Real contact means you stay close, even when he fights it."
+              "correct": true
             },
             {
               "text": "Lifting your chest off to rest.",
@@ -129,7 +129,8 @@
               "text": "Grabbing his head with both hands.",
               "feedback": "His elbows come free when you let go."
             }
-          ]
+          ],
+          "bridge": "Real contact means you stay close, even when he fights it."
         }
       ]
     },

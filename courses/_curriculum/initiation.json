@@ -97,8 +97,7 @@
         "options": [
           {
             "text": "Keeping something under his elbows.",
-            "correct": true,
-            "feedback": "Real contact means you stay close, even when he fights it."
+            "correct": true
           },
           {
             "text": "Lifting your chest off to rest.",
@@ -108,7 +107,8 @@
             "text": "Grabbing his head with both hands.",
             "feedback": "His elbows come free when you let go."
           }
-        ]
+        ],
+        "bridge": "Real contact means you stay close, even when he fights it."
       }
     },
     {
@@ -182,8 +182,7 @@
         "options": [
           {
             "text": "Who controlled the hands and elbows.",
-            "correct": true,
-            "feedback": "You choose how much of someone you let in. It is not all or nothing."
+            "correct": true
           },
           {
             "text": "Whoever moved first won the round.",
@@ -193,7 +192,8 @@
             "text": "Whoever wanted it more got through.",
             "feedback": "Wanting it more is not the same as controlling the hands and elbows."
           }
-        ]
+        ],
+        "bridge": "You choose how much of someone you let in. It is not all or nothing."
       }
     },
     {
@@ -263,8 +263,7 @@
         "options": [
           {
             "text": "Gripping his wrists and elbows on purpose.",
-            "correct": true,
-            "feedback": "Who you are with other people shows in how you make contact."
+            "correct": true
           },
           {
             "text": "Grabbing whatever you touched first.",
@@ -274,7 +273,8 @@
             "text": "Pushing him away to make space.",
             "feedback": "Pushing away is the opposite of getting close."
           }
-        ]
+        ],
+        "bridge": "Who you are with other people shows in how you make contact."
       }
     },
     {
@@ -348,8 +348,7 @@
         "options": [
           {
             "text": "Blocking his hips with your knees and feet.",
-            "correct": true,
-            "feedback": "When someone pushes back, you answer with your body position, not force."
+            "correct": true
           },
           {
             "text": "Pushing back harder with your arms.",
@@ -359,7 +358,8 @@
             "text": "Jumping off and starting over.",
             "feedback": "Jumping off lets him stand up."
           }
-        ]
+        ],
+        "bridge": "When someone pushes back, you answer with your body position, not force."
       }
     },
     {
@@ -434,8 +434,7 @@
         "options": [
           {
             "text": "Staying on your feet and blocking his leg.",
-            "correct": true,
-            "feedback": "Staying on your feet when it gets hard is how you stay present."
+            "correct": true
           },
           {
             "text": "Falling down to the mat with him.",
@@ -445,7 +444,8 @@
             "text": "Letting go when he started turning.",
             "feedback": "Letting go is quitting the round."
           }
-        ]
+        ],
+        "bridge": "Staying on your feet when it gets hard is how you stay present."
       }
     },
     {
@@ -519,8 +519,7 @@
         "options": [
           {
             "text": "Blocking his foot, then pulling.",
-            "correct": true,
-            "feedback": "Your friction lands on a real person, so use control, not force."
+            "correct": true
           },
           {
             "text": "Kicking his leg out hard.",
@@ -530,7 +529,8 @@
             "text": "Shoving him straight back.",
             "feedback": "Shoving just walks him backward."
           }
-        ]
+        ],
+        "bridge": "Your friction lands on a real person, so use control, not force."
       }
     },
     {
@@ -604,8 +604,7 @@
         "options": [
           {
             "text": "Getting back under his elbow fast.",
-            "correct": true,
-            "feedback": "When a connection breaks, you get it back right away."
+            "correct": true
           },
           {
             "text": "Squeezing his wrist as hard as you can.",
@@ -615,7 +614,8 @@
             "text": "Letting go and grabbing his head.",
             "feedback": "Letting go loses the arm."
           }
-        ]
+        ],
+        "bridge": "When a connection breaks, you get it back right away."
       }
     },
     {
@@ -691,8 +691,7 @@
         "options": [
           {
             "text": "You did it in order and stopped at the win.",
-            "correct": true,
-            "feedback": "A break you control can be fixed. A break you leave is the real problem."
+            "correct": true
           },
           {
             "text": "You went as hard and as fast as you could.",
@@ -702,7 +701,8 @@
             "text": "You kept going until your partner could not continue.",
             "feedback": "Not stopping at the win is not the same as winning."
           }
-        ]
+        ],
+        "bridge": "A break you control can be fixed. A break you leave is the real problem."
       }
     },
     {
@@ -777,8 +777,7 @@
         "options": [
           {
             "text": "Got both hands on one wrist and stopped.",
-            "correct": true,
-            "feedback": "Your part is yours to hold, and yours to let go."
+            "correct": true
           },
           {
             "text": "Yanked the arm as hard as you could.",
@@ -788,7 +787,8 @@
             "text": "Let go to grab his head.",
             "feedback": "Letting go gives the arm back."
           }
-        ]
+        ],
+        "bridge": "Your part is yours to hold, and yours to let go."
       }
     },
     {
@@ -859,8 +859,7 @@
         "options": [
           {
             "text": "Slowly, and you stopped at the touch.",
-            "correct": true,
-            "feedback": "A real apology is like that: slow, clean, and you stop when it is done."
+            "correct": true
           },
           {
             "text": "Fast, before he could fight it.",
@@ -870,7 +869,8 @@
             "text": "Hard, until he couldn't move.",
             "feedback": "The win is the touch, not more."
           }
-        ]
+        ],
+        "bridge": "A real apology is like that: slow, clean, and you stop when it is done."
       }
     },
     {
@@ -945,8 +945,7 @@
         "options": [
           {
             "text": "Keeping your feet and a hand on him.",
-            "correct": true,
-            "feedback": "Staying when leaving would be easier is a choice you make."
+            "correct": true
           },
           {
             "text": "Letting your feet drop to rest.",
@@ -956,7 +955,8 @@
             "text": "Rolling away to get some space.",
             "feedback": "Rolling away gives him your back."
           }
-        ]
+        ],
+        "bridge": "Staying when leaving would be easier is a choice you make."
       }
     },
     {
@@ -1028,8 +1028,7 @@
         "options": [
           {
             "text": "Keeping your arm under his elbow.",
-            "correct": true,
-            "feedback": "Holding it right takes steady work, and so does repair."
+            "correct": true
           },
           {
             "text": "Pulling his hand up toward his head.",
@@ -1039,7 +1038,8 @@
             "text": "Lying on his chest to rest.",
             "feedback": "Resting lets his elbow slip free."
           }
-        ]
+        ],
+        "bridge": "Holding it right takes steady work, and so does repair."
       }
     }
   ]

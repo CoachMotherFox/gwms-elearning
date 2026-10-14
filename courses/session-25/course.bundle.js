@@ -113,14 +113,14 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight you held his back while he moved around. What kept you on him?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "Following him with your chest on his back.",
-              "correct": true,
-              "feedback": "What is different now is that you can follow him instead of freezing."
+              "correct": true
             },
             {
               "text": "Wrapping your legs around him right away.",
@@ -130,7 +130,8 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
               "text": "Holding still until he stopped.",
               "feedback": "He won't stop, so you have to follow."
             }
-          ]
+          ],
+          "bridge": "What is different now is that you can follow him instead of freezing."
         }
       ]
     },

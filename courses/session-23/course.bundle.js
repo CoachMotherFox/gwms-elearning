@@ -115,14 +115,14 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight he tried to get around your legs while you lay on your back. What kept him in front?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "Keeping your feet and a hand on him.",
-              "correct": true,
-              "feedback": "Staying when leaving would be easier is a choice you make."
+              "correct": true
             },
             {
               "text": "Letting your feet drop to rest.",
@@ -132,7 +132,8 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
               "text": "Rolling away to get some space.",
               "feedback": "Rolling away gives him your back."
             }
-          ]
+          ],
+          "bridge": "Staying when leaving would be easier is a choice you make."
         }
       ]
     },

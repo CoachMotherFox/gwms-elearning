@@ -114,14 +114,14 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight you both fought for the same grip. What got you close?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "Gripping his wrists and elbows on purpose.",
-              "correct": true,
-              "feedback": "Who you are with other people shows in how you make contact."
+              "correct": true
             },
             {
               "text": "Grabbing whatever you touched first.",
@@ -131,7 +131,8 @@ window.GWMS_COURSE_BUNDLE["session-15"] =
               "text": "Pushing him away to make space.",
               "feedback": "Pushing away is the opposite of getting close."
             }
-          ]
+          ],
+          "bridge": "Who you are with other people shows in how you make contact."
         }
       ]
     },

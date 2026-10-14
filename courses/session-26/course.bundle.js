@@ -114,14 +114,14 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight he kicked hard to free his leg. What brought him down?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "Moving him while you held the leg.",
-              "correct": true,
-              "feedback": "Proof is holding on when he really tries."
+              "correct": true
             },
             {
               "text": "Holding still and pulling up.",
@@ -131,7 +131,8 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
               "text": "Letting go to grab his waist.",
               "feedback": "Letting go gives him the leg back."
             }
-          ]
+          ],
+          "bridge": "Proof is holding on when he really tries."
         }
       ]
     },

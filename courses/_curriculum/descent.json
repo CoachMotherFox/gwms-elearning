@@ -133,8 +133,7 @@
         "options": [
           {
             "text": "You made it on purpose, then you kept it.",
-            "correct": true,
-            "feedback": "A connection made on purpose can hold. One grabbed at random can't."
+            "correct": true
           },
           {
             "text": "You grabbed whatever was open and let it go.",
@@ -144,7 +143,8 @@
             "text": "You waited for him to make the first move.",
             "feedback": "Waiting is not how you make contact with a stranger."
           }
-        ]
+        ],
+        "bridge": "A connection made on purpose can hold. One grabbed at random can't."
       }
     },
     {
@@ -214,8 +214,7 @@
         "options": [
           {
             "text": "From a grip you already had.",
-            "correct": true,
-            "feedback": "Before you trust someone, you start small, from what you already have."
+            "correct": true
           },
           {
             "text": "From a wild grab at anything.",
@@ -225,7 +224,8 @@
             "text": "From diving in close to him.",
             "feedback": "Diving in skips reading him first."
           }
-        ]
+        ],
+        "bridge": "Before you trust someone, you start small, from what you already have."
       }
     },
     {
@@ -295,8 +295,7 @@
         "options": [
           {
             "text": "His wrists, elbows, and head, on purpose.",
-            "correct": true,
-            "feedback": "Who you are when people watch shows in what you do on purpose."
+            "correct": true
           },
           {
             "text": "Whatever part of him was closest.",
@@ -306,7 +305,8 @@
             "text": "Nothing, until he grabbed you first.",
             "feedback": "Waiting gives him the first grip."
           }
-        ]
+        ],
+        "bridge": "Who you are when people watch shows in what you do on purpose."
       }
     },
     {
@@ -380,8 +380,7 @@
         "options": [
           {
             "text": "Blocking his knees and feet with yours.",
-            "correct": true,
-            "feedback": "The version of you that shows up here is the one you practice."
+            "correct": true
           },
           {
             "text": "Lying on him with all your weight.",
@@ -391,7 +390,8 @@
             "text": "Squeezing his waist as hard as you can.",
             "feedback": "Squeezing tires you out before he does."
           }
-        ]
+        ],
+        "bridge": "The version of you that shows up here is the one you practice."
       }
     },
     {
@@ -465,8 +465,7 @@
         "options": [
           {
             "text": "Your shin stepping behind his knee.",
-            "correct": true,
-            "feedback": "His legs protect his body, the way a mask protects what is under it."
+            "correct": true
           },
           {
             "text": "Jumping over both of his legs.",
@@ -476,7 +475,8 @@
             "text": "Pulling his head toward you.",
             "feedback": "His head is not where the gap is."
           }
-        ]
+        ],
+        "bridge": "His legs protect his body, the way a mask protects what is under it."
       }
     },
     {
@@ -550,8 +550,7 @@
         "options": [
           {
             "text": "Keeping him moving while you held on.",
-            "correct": true,
-            "feedback": "When a round goes bad, keep moving. That is when the real you shows."
+            "correct": true
           },
           {
             "text": "Holding still and squeezing harder.",
@@ -561,7 +560,8 @@
             "text": "Letting go to grab something else.",
             "feedback": "Letting go gives the leg back."
           }
-        ]
+        ],
+        "bridge": "When a round goes bad, keep moving. That is when the real you shows."
       }
     },
     {
@@ -631,8 +631,7 @@
         "options": [
           {
             "text": "Keep gripping wrists and elbows on purpose.",
-            "correct": true,
-            "feedback": "When you're tired, the real you shows in where your hands go."
+            "correct": true
           },
           {
             "text": "Grab anywhere just to hold on.",
@@ -642,7 +641,8 @@
             "text": "Drop down and rest for a second.",
             "feedback": "Resting in the middle gives him the leg."
           }
-        ]
+        ],
+        "bridge": "When you're tired, the real you shows in where your hands go."
       }
     },
     {
@@ -716,8 +716,7 @@
         "options": [
           {
             "text": "Staying under at least one elbow.",
-            "correct": true,
-            "feedback": "Noticing the first crack is how you stop it from growing."
+            "correct": true
           },
           {
             "text": "Lying flat on him with all your weight.",
@@ -727,7 +726,8 @@
             "text": "Letting go to grab his head.",
             "feedback": "Letting go frees both elbows."
           }
-        ]
+        ],
+        "bridge": "Noticing the first crack is how you stop it from growing."
       }
     },
     {
@@ -801,8 +801,7 @@
         "options": [
           {
             "text": "His feet, before anything else.",
-            "correct": true,
-            "feedback": "To see what is under the front, you get past the first layer."
+            "correct": true
           },
           {
             "text": "His head, so he couldn't see.",
@@ -812,7 +811,8 @@
             "text": "His arms, so he couldn't grab.",
             "feedback": "His feet can still push you off."
           }
-        ]
+        ],
+        "bridge": "To see what is under the front, you get past the first layer."
       }
     },
     {
@@ -883,8 +883,7 @@
         "options": [
           {
             "text": "Earning your three touches first.",
-            "correct": true,
-            "feedback": "What is hidden has to be earned, one touch at a time."
+            "correct": true
           },
           {
             "text": "Grabbing for the lock right away.",
@@ -894,7 +893,8 @@
             "text": "Waiting for him to hold still.",
             "feedback": "He won't hold still for you."
           }
-        ]
+        ],
+        "bridge": "What is hidden has to be earned, one touch at a time."
       }
     },
     {
@@ -965,8 +965,7 @@
         "options": [
           {
             "text": "Staying on your feet, not your knees.",
-            "correct": true,
-            "feedback": "With the mask off, you still stay on your feet."
+            "correct": true
           },
           {
             "text": "Dropping to your knees to rest.",
@@ -976,7 +975,8 @@
             "text": "Leaning over to grab his head.",
             "feedback": "Leaning over gives him your balance."
           }
-        ]
+        ],
+        "bridge": "With the mask off, you still stay on your feet."
       }
     }
   ]

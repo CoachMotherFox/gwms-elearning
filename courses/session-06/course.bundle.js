@@ -115,14 +115,14 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight you got past his legs while he lay on his back. What got you in?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "Your shin stepping behind his knee.",
-              "correct": true,
-              "feedback": "His legs protect his body, the way a mask protects what is under it."
+              "correct": true
             },
             {
               "text": "Jumping over both of his legs.",
@@ -132,7 +132,8 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
               "text": "Pulling his head toward you.",
               "feedback": "His head is not where the gap is."
             }
-          ]
+          ],
+          "bridge": "His legs protect his body, the way a mask protects what is under it."
         }
       ]
     },

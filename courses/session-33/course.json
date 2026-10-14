@@ -111,14 +111,14 @@
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight he tried to pull you down from inside his locked legs. What kept you up?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "Sitting tall with your back straight.",
-              "correct": true,
-              "feedback": "How you carry yourself shows in how steady you stay."
+              "correct": true
             },
             {
               "text": "Leaning forward onto your hands.",
@@ -128,7 +128,8 @@
               "text": "Reaching up to grab his head.",
               "feedback": "Reaching gives him your balance."
             }
-          ]
+          ],
+          "bridge": "How you carry yourself shows in how steady you stay."
         }
       ]
     },

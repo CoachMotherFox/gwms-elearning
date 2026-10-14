@@ -114,14 +114,14 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight he tried to knock you down from his back. What kept you up?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "Staying on your feet, not your knees.",
-              "correct": true,
-              "feedback": "With the mask off, you still stay on your feet."
+              "correct": true
             },
             {
               "text": "Dropping to your knees to rest.",
@@ -131,7 +131,8 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
               "text": "Leaning over to grab his head.",
               "feedback": "Leaning over gives him your balance."
             }
-          ]
+          ],
+          "bridge": "With the mask off, you still stay on your feet."
         }
       ]
     },

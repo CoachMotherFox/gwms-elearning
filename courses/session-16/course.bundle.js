@@ -115,14 +115,14 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight he pushed up hard to stand while you rode on top. What kept him down?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "Blocking his hips with your knees and feet.",
-              "correct": true,
-              "feedback": "When someone pushes back, you answer with your body position, not force."
+              "correct": true
             },
             {
               "text": "Pushing back harder with your arms.",
@@ -132,7 +132,8 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
               "text": "Jumping off and starting over.",
               "feedback": "Jumping off lets him stand up."
             }
-          ]
+          ],
+          "bridge": "When someone pushes back, you answer with your body position, not force."
         }
       ]
     },

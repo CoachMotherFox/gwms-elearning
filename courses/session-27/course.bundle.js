@@ -114,14 +114,14 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight you held his back with no hooks. What kept you there?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "Staying stuck to him and under his elbow.",
-              "correct": true,
-              "feedback": "Growth is doing the same job with less help."
+              "correct": true
             },
             {
               "text": "Squeezing as hard as you can.",
@@ -131,7 +131,8 @@ window.GWMS_COURSE_BUNDLE["session-27"] =
               "text": "Waiting for him to stop moving.",
               "feedback": "He won't stop, so stay with him."
             }
-          ]
+          ],
+          "bridge": "Growth is doing the same job with less help."
         }
       ]
     },

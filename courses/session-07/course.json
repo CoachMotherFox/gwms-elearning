@@ -113,14 +113,14 @@
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight you held one of his legs while he fought to get it back. What made him fall?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "Keeping him moving while you held on.",
-              "correct": true,
-              "feedback": "When a round goes bad, keep moving. That is when the real you shows."
+              "correct": true
             },
             {
               "text": "Holding still and squeezing harder.",
@@ -130,7 +130,8 @@
               "text": "Letting go to grab something else.",
               "feedback": "Letting go gives the leg back."
             }
-          ]
+          ],
+          "bridge": "When a round goes bad, keep moving. That is when the real you shows."
         }
       ]
     },

@@ -114,14 +114,14 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight you held his back with no hooks. What kept him from turning to face you?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "Your forearms under his elbows.",
-              "correct": true,
-              "feedback": "Giving him room while still holding on costs you something."
+              "correct": true
             },
             {
               "text": "Your legs locked around his waist.",
@@ -131,7 +131,8 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
               "text": "Pulling his shoulders back hard.",
               "feedback": "Pulling hard won't keep him facing the mat."
             }
-          ]
+          ],
+          "bridge": "Giving him room while still holding on costs you something."
         }
       ]
     },

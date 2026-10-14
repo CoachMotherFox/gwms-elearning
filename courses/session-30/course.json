@@ -112,14 +112,14 @@
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight you had full control of his back. What kept him safe?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "Keeping your chest on him, not squeezing.",
-              "correct": true,
-              "feedback": "Strength used for control keeps him safe instead of taking from him."
+              "correct": true
             },
             {
               "text": "Squeezing him as hard as you can.",
@@ -129,7 +129,8 @@
               "text": "Wrapping your legs around his waist.",
               "feedback": "Your legs aren't what kept him safe."
             }
-          ]
+          ],
+          "bridge": "Strength used for control keeps him safe instead of taking from him."
         }
       ]
     },

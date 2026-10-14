@@ -165,10 +165,17 @@ function screenConcept(s) {
     eyebrow: "Tonight's lesson",
     title: 'What made it work?',
     assessment: { role: 'formative', scored: false },
+    // Required so every learner reaches the bridge: answer, and if it's wrong,
+    // one more try. The answer is shown after the second try either way.
+    required: true,
     question: c.question,
     select: 'single',
     retry: true,
-    options: c.options
+    options: c.options,
+    // The tie from tonight's lesson to tonight's question. Shown to every
+    // learner once the answer is settled, right or wrong, not only to the
+    // ones who pick the right option (October 14, 2026).
+    bridge: c.bridge
   };
 }
 

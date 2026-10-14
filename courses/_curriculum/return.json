@@ -95,8 +95,7 @@
         "options": [
           {
             "text": "Following him with your chest on his back.",
-            "correct": true,
-            "feedback": "What is different now is that you can follow him instead of freezing."
+            "correct": true
           },
           {
             "text": "Wrapping your legs around him right away.",
@@ -106,7 +105,8 @@
             "text": "Holding still until he stopped.",
             "feedback": "He won't stop, so you have to follow."
           }
-        ]
+        ],
+        "bridge": "What is different now is that you can follow him instead of freezing."
       }
     },
     {
@@ -179,8 +179,7 @@
         "options": [
           {
             "text": "Moving him while you held the leg.",
-            "correct": true,
-            "feedback": "Proof is holding on when he really tries."
+            "correct": true
           },
           {
             "text": "Holding still and pulling up.",
@@ -190,7 +189,8 @@
             "text": "Letting go to grab his waist.",
             "feedback": "Letting go gives him the leg back."
           }
-        ]
+        ],
+        "bridge": "Proof is holding on when he really tries."
       }
     },
     {
@@ -264,8 +264,7 @@
         "options": [
           {
             "text": "Staying stuck to him and under his elbow.",
-            "correct": true,
-            "feedback": "Growth is doing the same job with less help."
+            "correct": true
           },
           {
             "text": "Squeezing as hard as you can.",
@@ -275,7 +274,8 @@
             "text": "Waiting for him to stop moving.",
             "feedback": "He won't stop, so stay with him."
           }
-        ]
+        ],
+        "bridge": "Growth is doing the same job with less help."
       }
     },
     {
@@ -350,8 +350,7 @@
         "options": [
           {
             "text": "Working from a grip you already had.",
-            "correct": true,
-            "feedback": "Starting from what you already have is how you help someone newer, too."
+            "correct": true
           },
           {
             "text": "Diving at his legs with no grip.",
@@ -361,7 +360,8 @@
             "text": "Waiting for him to come to you.",
             "feedback": "Waiting gives him the first score."
           }
-        ]
+        ],
+        "bridge": "Starting from what you already have is how you help someone newer, too."
       }
     },
     {
@@ -436,8 +436,7 @@
         "options": [
           {
             "text": "Your forearms under his elbows.",
-            "correct": true,
-            "feedback": "Giving him room while still holding on costs you something."
+            "correct": true
           },
           {
             "text": "Your legs locked around his waist.",
@@ -447,7 +446,8 @@
             "text": "Pulling his shoulders back hard.",
             "feedback": "Pulling hard won't keep him facing the mat."
           }
-        ]
+        ],
+        "bridge": "Giving him room while still holding on costs you something."
       }
     },
     {
@@ -522,8 +522,7 @@
         "options": [
           {
             "text": "Keeping your chest on him, not squeezing.",
-            "correct": true,
-            "feedback": "Strength used for control keeps him safe instead of taking from him."
+            "correct": true
           },
           {
             "text": "Squeezing him as hard as you can.",
@@ -533,7 +532,8 @@
             "text": "Wrapping your legs around his waist.",
             "feedback": "Your legs aren't what kept him safe."
           }
-        ]
+        ],
+        "bridge": "Strength used for control keeps him safe instead of taking from him."
       }
     },
     {
@@ -605,8 +605,7 @@
         "options": [
           {
             "text": "Your palm flat on his back.",
-            "correct": true,
-            "feedback": "What you leave behind is built one step at a time."
+            "correct": true
           },
           {
             "text": "Your hands locked right away.",
@@ -616,7 +615,8 @@
             "text": "Your legs wrapped around him.",
             "feedback": "This lock starts with your hand, not your legs."
           }
-        ]
+        ],
+        "bridge": "What you leave behind is built one step at a time."
       }
     },
     {
@@ -691,8 +691,7 @@
         "options": [
           {
             "text": "Your chest on his back.",
-            "correct": true,
-            "feedback": "The standard you set is what you keep doing, the whole way."
+            "correct": true
           },
           {
             "text": "Your legs locked around his waist.",
@@ -702,7 +701,8 @@
             "text": "Your weight off of him.",
             "feedback": "With your weight off, he turns away."
           }
-        ]
+        ],
+        "bridge": "The standard you set is what you keep doing, the whole way."
       }
     },
     {
@@ -773,8 +773,7 @@
         "options": [
           {
             "text": "Sitting tall with your back straight.",
-            "correct": true,
-            "feedback": "How you carry yourself shows in how steady you stay."
+            "correct": true
           },
           {
             "text": "Leaning forward onto your hands.",
@@ -784,7 +783,8 @@
             "text": "Reaching up to grab his head.",
             "feedback": "Reaching gives him your balance."
           }
-        ]
+        ],
+        "bridge": "How you carry yourself shows in how steady you stay."
       }
     },
     {
@@ -856,8 +856,7 @@
         "options": [
           {
             "text": "Each grip on purpose, in order.",
-            "correct": true,
-            "feedback": "Every grip cost you work, and every one got you closer."
+            "correct": true
           },
           {
             "text": "Grabbing whatever was open.",
@@ -867,7 +866,8 @@
             "text": "Going straight for the lock.",
             "feedback": "Skipping steps leaves the lock loose."
           }
-        ]
+        ],
+        "bridge": "Every grip cost you work, and every one got you closer."
       }
     },
     {
@@ -938,8 +938,7 @@
         "options": [
           {
             "text": "Gripping his wrists and elbows on purpose.",
-            "correct": true,
-            "feedback": "Who you became is someone who earns it instead of grabbing."
+            "correct": true
           },
           {
             "text": "Grabbing anything you could reach.",
@@ -949,7 +948,8 @@
             "text": "Rushing in for the lock early.",
             "feedback": "The lock only counts after three touches."
           }
-        ]
+        ],
+        "bridge": "Who you became is someone who earns it instead of grabbing."
       }
     },
     {
@@ -1021,8 +1021,7 @@
         "options": [
           {
             "text": "His wrists and elbows, on purpose.",
-            "correct": true,
-            "feedback": "What you carry out the door is doing it on purpose."
+            "correct": true
           },
           {
             "text": "Anything they touched first.",
@@ -1032,7 +1031,8 @@
             "text": "His head, to pull him down.",
             "feedback": "Pulling his head isn't this game."
           }
-        ]
+        ],
+        "bridge": "What you carry out the door is doing it on purpose."
       }
     }
   ]

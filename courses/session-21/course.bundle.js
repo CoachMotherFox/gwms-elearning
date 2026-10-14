@@ -115,14 +115,14 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight you pulled his locked hands apart. What did you do next?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "Got both hands on one wrist and stopped.",
-              "correct": true,
-              "feedback": "Your part is yours to hold, and yours to let go."
+              "correct": true
             },
             {
               "text": "Yanked the arm as hard as you could.",
@@ -132,7 +132,8 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
               "text": "Let go to grab his head.",
               "feedback": "Letting go gives the arm back."
             }
-          ]
+          ],
+          "bridge": "Your part is yours to hold, and yours to let go."
         }
       ]
     },
