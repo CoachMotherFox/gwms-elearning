@@ -32,7 +32,7 @@
       }
     ],
     "connection": "Arriving past the guard puts you in touch with what was most protected. Naming the shadow does the same thing inside you. Both reach the thing that was hidden deepest.",
-    "takeaway": "Tonight you worked from the hand fight, half guard, and a chest-to-chest pin. Arriving past a guard puts you in touch with what was most protected. Naming the part of yourself you keep hidden works the same way. You get to name it silently, just for you, and that alone is brave.",
+    "takeaway": "Tonight you worked from the hand fight, half guard, and a chest-to-chest pin. Arriving past a guard puts you in touch with what was most protected. Naming the part of yourself you keep hidden works the same way. You get to name it silently, for you, and that is brave.",
     "_source": "GWMS Curriculum Guide — Session 11 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -57,30 +57,42 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Hand Fight with Precondition Game"
+              "text": "Game 1: Standing"
+            },
+            {
+              "kind": "lead",
+              "text": "This is fighting to wrap him up."
             },
             {
               "kind": "list",
               "items": [
-                "Whoever collects three touches and then connects first wins, closing his hands anywhere on his partner's body from shoulders to ankles."
+                "Whoever first gets three touches and then locks his hands around his partner wins, anywhere from shoulders to ankles."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Side Half Guard — Clear Hands to Get Under Elbow"
+              "text": "Game 2: Guarded"
+            },
+            {
+              "kind": "lead",
+              "text": "This is clearing his arms to get under."
             },
             {
               "kind": "list",
               "items": [
-                "The top player wins by connecting his hands under at least one elbow.",
+                "The top player wins by locking his hands with an arm under one of the bottom player's elbows.",
                 "The bottom player wins by closing his legs around the top player's waist."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Introductory Pin Game"
+              "text": "Game 3: Pinned"
+            },
+            {
+              "kind": "lead",
+              "text": "This is holding someone down, then escaping."
             },
             {
               "kind": "list",
@@ -92,58 +104,30 @@
           ]
         },
         {
-          "id": "s11-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Introductory Pin Game: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player holds the pin.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Submitting your partner",
-              "feedback": "Not tonight. These games end in a pin, not a finish."
-            },
-            {
-              "text": "Putting your partner down hard",
-              "feedback": "Never. Everyone goes light."
-            }
-          ]
-        },
-        {
           "id": "s11-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false
           },
-          "question": "You're hand fighting and you've already collected two of your three touches. What's the smart move?",
+          "question": "Tonight you needed three touches before you could wrap him up. What let you wrap him?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Keep working from the grip you already have.",
-              "feedback": "Right. Working from what you already hold is how you reach the part of yourself you keep hidden.",
-              "correct": true
+              "text": "Earning your three touches first.",
+              "correct": true,
+              "feedback": "What is hidden has to be earned, one touch at a time."
             },
             {
-              "text": "Let go and search for a totally new grip.",
-              "feedback": "Searching for something new here wastes ground you've already won."
+              "text": "Grabbing for the lock right away.",
+              "feedback": "The lock only counts after three touches."
             },
             {
-              "text": "Stop and wait to see what he tries.",
-              "feedback": "Waiting here stalls your count. Keep working your grip."
+              "text": "Waiting for him to hold still.",
+              "feedback": "He won't hold still for you."
             }
           ]
         }
@@ -161,7 +145,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from the hand fight, half guard, and a chest-to-chest pin. Arriving past a guard puts you in touch with what was most protected. Naming the part of yourself you keep hidden works the same way. You get to name it silently, just for you, and that alone is brave."
+              "text": "Tonight you worked from the hand fight, half guard, and a chest-to-chest pin. Arriving past a guard puts you in touch with what was most protected. Naming the part of yourself you keep hidden works the same way. You get to name it silently, for you, and that is brave."
             }
           ]
         },

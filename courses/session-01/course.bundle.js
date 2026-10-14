@@ -97,11 +97,11 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
               "feedback": "That's it, every session."
             },
             {
-              "text": "Waiting for the coach to notice.",
+              "text": "Stop right away, don't wait.",
               "feedback": "Too slow. Stop right away."
             },
             {
-              "text": "Going still and hoping he feels it.",
+              "text": "Stop right away, don't wait.",
               "feedback": "Too slow. Stop right away."
             }
           ]

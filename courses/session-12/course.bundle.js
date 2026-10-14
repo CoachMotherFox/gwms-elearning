@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
       }
     ],
     "connection": "Running both games from standing to a pin is the mat's version of the whole Descent, from arrival to the real self revealed. This session brings both journeys together into one.",
-    "takeaway": "Tonight you worked from the hand fight, open guard, and riding position, running the whole trip from standing to a pin in one round. That is the same trip you have made since Session 1, from arrival to the real you underneath. You showed up, you cracked, and you stayed anyway. You get to keep showing up as that real person.",
+    "takeaway": "Tonight you worked from the hand fight, open guard, and riding position, standing to a pin in one round. That is the same trip you have made since Session 1. You showed up, you cracked, and you stayed anyway. You get to keep showing up as that person.",
     "_source": "GWMS Curriculum Guide — Session 12 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -59,93 +59,77 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Hand Touch / Knee Touch with Close Hand Connection"
+              "text": "Game 1: Standing"
+            },
+            {
+              "kind": "lead",
+              "text": "This is a standing game of touches."
             },
             {
               "kind": "list",
               "items": [
-                "Whoever gets there first wins, whether by three touches or by any closed-hand connection."
+                "Whoever gets there first wins, whether by three touches or by locking his hands around his partner's head, body, or leg."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Open Guard Takedown and Escape Game"
+              "text": "Game 2: Guarded"
+            },
+            {
+              "kind": "lead",
+              "text": "This is knocking a man down, then standing."
             },
             {
               "kind": "list",
               "items": [
-                "The bottom player wins by putting the top player down and standing up, or by rising up to a connection another way.",
-                "The top player wins with shin contact."
+                "The bottom player wins by knocking the top player down and standing up, or by coming up while still holding on to him.",
+                "The top player wins by going around the bottom player's legs and touching him with a shin."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Riding Bottom Position Game"
+              "text": "Game 3: Pinned"
+            },
+            {
+              "kind": "lead",
+              "text": "This is staying on top, hands and knees."
             },
             {
               "kind": "list",
               "items": [
-                "The top player holds as long as he keeps the bottom player broken down.",
+                "The top player holds as long as he keeps the bottom player flat on his side or belly.",
                 "The bottom player wins by standing up and turning to face the top player."
               ]
             }
           ]
         },
         {
-          "id": "s12-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Riding Bottom Position Game: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player holds as long as he keeps the bottom player broken down.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Submitting your partner",
-              "feedback": "Not tonight. These games end in a pin, not a finish."
-            },
-            {
-              "text": "Putting your partner down hard",
-              "feedback": "Never. Everyone goes light."
-            }
-          ]
-        },
-        {
           "id": "s12-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false
           },
-          "question": "You're riding your partner from on top, hands on his hips, and he's trying to stand. What's the smart move?",
+          "question": "Tonight he tried to knock you down from his back. What kept you up?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Block his hips down with knee and foot.",
-              "feedback": "Right. Blocking his hips down is the same discipline that got you from arrival all the way to who you are now.",
-              "correct": true
+              "text": "Staying on your feet, not your knees.",
+              "correct": true,
+              "feedback": "With the mask off, you still stay on your feet."
             },
             {
-              "text": "Grab for a choke and forget his hips.",
-              "feedback": "Chasing a finish here lets him stand up free."
+              "text": "Dropping to your knees to rest.",
+              "feedback": "On your knees, he can tip you over."
             },
             {
-              "text": "Push down with your chest and stop moving.",
-              "feedback": "Leaning your chest doesn't block hips. Use your knee and foot."
+              "text": "Leaning over to grab his head.",
+              "feedback": "Leaning over gives him your balance."
             }
           ]
         }
@@ -163,7 +147,7 @@ window.GWMS_COURSE_BUNDLE["session-12"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from the hand fight, open guard, and riding position, running the whole trip from standing to a pin in one round. That is the same trip you have made since Session 1, from arrival to the real you underneath. You showed up, you cracked, and you stayed anyway. You get to keep showing up as that real person."
+              "text": "Tonight you worked from the hand fight, open guard, and riding position, standing to a pin in one round. That is the same trip you have made since Session 1. You showed up, you cracked, and you stayed anyway. You get to keep showing up as that person."
             }
           ]
         },

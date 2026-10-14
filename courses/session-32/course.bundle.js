@@ -58,7 +58,11 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Single Leg Takedown Game"
+              "text": "Game 1: Standing"
+            },
+            {
+              "kind": "lead",
+              "text": "This is a takedown to one leg."
             },
             {
               "kind": "list",
@@ -70,82 +74,62 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Guard Destabilization Game"
+              "text": "Game 2: Guarded"
+            },
+            {
+              "kind": "lead",
+              "text": "This is tipping a standing player from below."
             },
             {
               "kind": "list",
               "items": [
                 "The bottom player wins when the top player's hands touch the mat above the bottom player's own head, and the top player's butt touches the mat too.",
-                "The top player wins by getting outside the bottom player's legs and touching his body with a shin."
+                "The top player wins by going around the bottom player's legs and touching him with a shin."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Chest to Back to Precursor Transitions Game"
+              "text": "Game 3: Pinned"
+            },
+            {
+              "kind": "lead",
+              "text": "This is moving on his back to finish."
             },
             {
               "kind": "list",
               "items": [
-                "The top player wins by reaching a precursor position on top.",
-                "The bottom player wins by his back on the mat or by turning face to face."
+                "The top player wins by moving from the bottom player's back to a finishing hold on top.",
+                "The bottom player wins by getting his back on the mat or by turning face to face."
               ]
-            }
-          ]
-        },
-        {
-          "id": "s32-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Chest to Back to Precursor Transitions Game: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player wins by reaching a precursor position on top.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
-            },
-            {
-              "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing you never do."
             }
           ]
         },
         {
           "id": "s32-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false
           },
-          "question": "You've got chest-to-back contact, and you want to move toward a finishing position. What's the smart move?",
+          "question": "Tonight you moved from his back to a hold on top. What did you keep the whole way?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Shift toward shoulder control without losing the pin.",
-              "feedback": "Right. Moving forward without losing what you hold sets the standard for whoever watches you.",
-              "correct": true
+              "text": "Your chest on his back.",
+              "correct": true,
+              "feedback": "The standard you set is what you keep doing, the whole way."
             },
             {
-              "text": "Let go of the pin to reach the shoulder.",
-              "feedback": "Letting go here gives up the whole position."
+              "text": "Your legs locked around his waist.",
+              "feedback": "This hold is about your chest, not your legs."
             },
             {
-              "text": "Stay locked on the hips and go no further.",
-              "feedback": "Staying still here stalls your progress toward the finish."
+              "text": "Your weight off of him.",
+              "feedback": "With your weight off, he turns away."
             }
           ]
         }

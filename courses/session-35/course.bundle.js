@@ -33,7 +33,7 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
       }
     ],
     "connection": "The person rolling now is not the one who walked in on Session 1. You can see the difference in how you move. Naming who you became is the return itself, not who you were told to be, but the one you built.",
-    "takeaway": "Tonight you worked from the hand fight, open guard, and back control. The person rolling now is not the one who walked in on Session 1, and you can see it in how you move. Naming who you became is the return itself. You get to claim that person, because you are the one who built him.",
+    "takeaway": "Tonight you worked from the hand fight, open guard, and back control. You are not who walked in on Session 1. You can see it in how you move. Naming who you became is the return itself. You get to claim that person, because you built him.",
     "_source": "GWMS Curriculum Guide — Session 35 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -58,30 +58,42 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Hand Fight with Precondition Game"
+              "text": "Game 1: Standing"
+            },
+            {
+              "kind": "lead",
+              "text": "This is fighting to wrap him up."
             },
             {
               "kind": "list",
               "items": [
-                "Whoever collects three touches and then connects first wins, closing his hands anywhere on his partner's body from shoulders to ankles."
+                "Whoever first gets three touches and then locks his hands around his partner wins, anywhere from shoulders to ankles."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Feet-Off Guard Passing Game"
+              "text": "Game 2: Guarded"
+            },
+            {
+              "kind": "lead",
+              "text": "This is getting past his legs and feet."
             },
             {
               "kind": "list",
               "items": [
-                "The top player wins by touching his shin to the bottom player's body, inside or outside his knees.",
+                "The top player wins by pressing his shin on the bottom player's belly or side.",
                 "The bottom player wins by making the top player fall on his butt, then getting his own back off the mat."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Build to Rear Strangle Game"
+              "text": "Game 3: Pinned"
+            },
+            {
+              "kind": "lead",
+              "text": "This is building a lock from behind, slowly."
             },
             {
               "kind": "list",
@@ -93,58 +105,30 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
           ]
         },
         {
-          "id": "s35-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Build to Rear Strangle Game: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player wins by touching the bottom player's back with his palm, then locking his own wrist into his other elbow.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
-            },
-            {
-              "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing you never do."
-            }
-          ]
-        },
-        {
           "id": "s35-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false
           },
-          "question": "Your palm has just touched your partner's back, building toward the finish. What's the smart move?",
+          "question": "Tonight you had to earn three touches before the lock. What earned them?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Lock your wrist into your elbow right there.",
-              "feedback": "Right. Finishing clean, from the person you built, is the return itself.",
-              "correct": true
+              "text": "Gripping his wrists and elbows on purpose.",
+              "correct": true,
+              "feedback": "Who you became is someone who earns it instead of grabbing."
             },
             {
-              "text": "Pull back and look for a different angle.",
-              "feedback": "Pulling back loses the exact spot you already found."
+              "text": "Grabbing anything you could reach.",
+              "feedback": "Reaching for anything is not on purpose."
             },
             {
-              "text": "Wait and let your partner move first.",
-              "feedback": "Waiting stalls the finish. Lock your wrist in now."
+              "text": "Rushing in for the lock early.",
+              "feedback": "The lock only counts after three touches."
             }
           ]
         }
@@ -162,7 +146,7 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from the hand fight, open guard, and back control. The person rolling now is not the one who walked in on Session 1, and you can see it in how you move. Naming who you became is the return itself. You get to claim that person, because you are the one who built him."
+              "text": "Tonight you worked from the hand fight, open guard, and back control. You are not who walked in on Session 1. You can see it in how you move. Naming who you became is the return itself. You get to claim that person, because you built him."
             }
           ]
         },

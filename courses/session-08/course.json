@@ -32,7 +32,7 @@
       }
     ],
     "connection": "When you and your partner get tired, the fake stuff drops on both sides, the passer and the guard. What slips out when you are too tired to perform is the truest thing about you, on the mat and off.",
-    "takeaway": "Tonight you worked from the hand fight, open guard, and turtle. When you get tired, the performing stops on both sides, and something truer shows up in its place. That truer version is worth paying attention to, not hiding again. You get to decide what you do with what you noticed.",
+    "takeaway": "Tonight you worked from the hand fight, open guard, and turtle. When you get tired, the performing stops, and something truer shows up in its place. That truer version is worth paying attention to, not hiding again. You get to decide what you do with what you noticed.",
     "_source": "GWMS Curriculum Guide — Session 8 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -57,7 +57,11 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Hand Fight with Leg Pickup Option"
+              "text": "Game 1: Standing"
+            },
+            {
+              "kind": "lead",
+              "text": "This is fighting to pick up a leg."
             },
             {
               "kind": "list",
@@ -68,82 +72,62 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Feet-Off Guard Passing Game"
+              "text": "Game 2: Guarded"
+            },
+            {
+              "kind": "lead",
+              "text": "This is getting past his legs and feet."
             },
             {
               "kind": "list",
               "items": [
-                "The top player wins by touching his shin to the bottom player's body, inside or outside his knees.",
+                "The top player wins by pressing his shin on the bottom player's belly or side.",
                 "The bottom player wins by making the top player fall on his butt, then getting his own back off the mat."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Pinning — Continuous Hip and Shoulder Connection from All Fours"
+              "text": "Game 3: Pinned"
+            },
+            {
+              "kind": "lead",
+              "text": "This is keeping someone flat from behind."
             },
             {
               "kind": "list",
               "items": [
                 "The top player holds as long as he keeps the bottom player belly down.",
-                "The bottom player wins by getting to a quad pod."
+                "The bottom player wins by getting up on his hands and feet with his knees off the mat."
               ]
-            }
-          ]
-        },
-        {
-          "id": "s08-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Pinning — Continuous Hip and Shoulder Connection from All Fours: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player holds as long as he keeps the bottom player belly down.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Submitting your partner",
-              "feedback": "Not tonight. These games end in a pin, not a finish."
-            },
-            {
-              "text": "Putting your partner down hard",
-              "feedback": "Never. Everyone goes light."
             }
           ]
         },
         {
           "id": "s08-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false
           },
-          "question": "You're riding your partner from behind, and his hips start lifting off the mat. What's the smart move?",
+          "question": "Tonight the hand fight ran long and you got tired. What did your hands need to do?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Block his hips down with knee and foot.",
-              "feedback": "Right. Blocking the hips down is honest work, the same as staying honest when you're too tired to perform.",
-              "correct": true
+              "text": "Keep gripping wrists and elbows on purpose.",
+              "correct": true,
+              "feedback": "When you're tired, the real you shows in where your hands go."
             },
             {
-              "text": "Let the hips rise and reach for a choke.",
-              "feedback": "Chasing a finish here loses the position completely."
+              "text": "Grab anywhere just to hold on.",
+              "feedback": "Grabbing anywhere is what tired hands do."
             },
             {
-              "text": "Push down with your whole upper body.",
-              "feedback": "Leaning your weight doesn't hold hips down. Block with your knee and foot."
+              "text": "Drop down and rest for a second.",
+              "feedback": "Resting in the middle gives him the leg."
             }
           ]
         }
@@ -161,7 +145,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from the hand fight, open guard, and turtle. When you get tired, the performing stops on both sides, and something truer shows up in its place. That truer version is worth paying attention to, not hiding again. You get to decide what you do with what you noticed."
+              "text": "Tonight you worked from the hand fight, open guard, and turtle. When you get tired, the performing stops, and something truer shows up in its place. That truer version is worth paying attention to, not hiding again. You get to decide what you do with what you noticed."
             }
           ]
         },

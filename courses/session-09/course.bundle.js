@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-09"] =
       }
     ],
     "connection": "The checkpoint where a guard always breaks is a tell, and so is the first thing that shows when you crack. Finding the exact break point on the mat is the same skill as knowing your own tell.",
-    "takeaway": "Tonight you worked from a single leg, open guard, and a chest-to-chest pin. Every guard has an exact point where it breaks, and so do you. Finding that point on the mat is the same skill as knowing the sign you give off. Once you know it, you can catch yourself before it runs the show.",
+    "takeaway": "Tonight you worked from a single leg, open guard, and a chest-to-chest pin. Every guard has an exact point where it breaks, and so do you. Finding that point is the same skill as knowing the sign you give off, so you can catch yourself before it runs the show.",
     "_source": "GWMS Curriculum Guide — Session 9 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -59,7 +59,11 @@ window.GWMS_COURSE_BUNDLE["session-09"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Single Leg Takedown Game"
+              "text": "Game 1: Standing"
+            },
+            {
+              "kind": "lead",
+              "text": "This is a takedown to one leg."
             },
             {
               "kind": "list",
@@ -71,19 +75,27 @@ window.GWMS_COURSE_BUNDLE["session-09"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Knee Pit Touchdown Game"
+              "text": "Game 2: Guarded"
+            },
+            {
+              "kind": "lead",
+              "text": "This is getting past his legs and feet."
             },
             {
               "kind": "list",
               "items": [
-                "The top player wins by touching both of the bottom player's knee pits with his own leg, feet off the mat.",
-                "The bottom player wins by sitting up."
+                "The top player wins by touching the backs of both of the bottom player's knees with his shin, one and then the other.",
+                "The bottom player wins by making the top player sit down, then sitting up himself."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Chest-to-Chest Elbow Control Game"
+              "text": "Game 3: Pinned"
+            },
+            {
+              "kind": "lead",
+              "text": "This is holding someone down by his elbows."
             },
             {
               "kind": "list",
@@ -95,58 +107,30 @@ window.GWMS_COURSE_BUNDLE["session-09"] =
           ]
         },
         {
-          "id": "s09-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Chest-to-Chest Elbow Control Game: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player wins by keeping the bottom player's elbows away from his body the whole time.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Submitting your partner",
-              "feedback": "Not tonight. These games end in a pin, not a finish."
-            },
-            {
-              "text": "Putting your partner down hard",
-              "feedback": "Never. Everyone goes light."
-            }
-          ]
-        },
-        {
           "id": "s09-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false
           },
-          "question": "You've got both hands locked around your partner's leg, and he's trying to pull away. What's the smart move?",
+          "question": "Tonight he fought to pull his elbows in under you. What kept him down?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Keep moving him while staying on the leg.",
-              "feedback": "Right. Staying attached while he moves is the same as noticing the sign you give off before it runs the show.",
-              "correct": true
+              "text": "Staying under at least one elbow.",
+              "correct": true,
+              "feedback": "Noticing the first crack is how you stop it from growing."
             },
             {
-              "text": "Let go of the leg and reset your stance.",
-              "feedback": "Letting go here gives the leg back for nothing."
+              "text": "Lying flat on him with all your weight.",
+              "feedback": "Weight alone won't stop his elbows."
             },
             {
-              "text": "Freeze in place and grip as hard as possible.",
-              "feedback": "Freezing in place lets him escape. Keep moving him instead."
+              "text": "Letting go to grab his head.",
+              "feedback": "Letting go frees both elbows."
             }
           ]
         }
@@ -164,7 +148,7 @@ window.GWMS_COURSE_BUNDLE["session-09"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from a single leg, open guard, and a chest-to-chest pin. Every guard has an exact point where it breaks, and so do you. Finding that point on the mat is the same skill as knowing the sign you give off. Once you know it, you can catch yourself before it runs the show."
+              "text": "Tonight you worked from a single leg, open guard, and a chest-to-chest pin. Every guard has an exact point where it breaks, and so do you. Finding that point is the same skill as knowing the sign you give off, so you can catch yourself before it runs the show."
             }
           ]
         },

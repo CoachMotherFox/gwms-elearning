@@ -58,7 +58,11 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Consecutive Touches Game"
+              "text": "Game 1: Standing"
+            },
+            {
+              "kind": "lead",
+              "text": "This is touching the same elbow spot twice."
             },
             {
               "kind": "list",
@@ -69,82 +73,62 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Feet-Off Guard Passing Game"
+              "text": "Game 2: Guarded"
+            },
+            {
+              "kind": "lead",
+              "text": "This is getting past his legs and feet."
             },
             {
               "kind": "list",
               "items": [
-                "The top player wins by touching his shin to the bottom player's body, inside or outside his knees.",
+                "The top player wins by pressing his shin on the bottom player's belly or side.",
                 "The bottom player wins by making the top player fall on his butt, then getting his own back off the mat."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Back Take – Maintain Chest to Back Contact"
+              "text": "Game 3: Pinned"
+            },
+            {
+              "kind": "lead",
+              "text": "This is holding his back from behind."
             },
             {
               "kind": "list",
               "items": [
-                "The attacker holds as long as he keeps contact.",
+                "The attacker holds while his chest stays on the defender's back.",
                 "The defender wins by getting his back to the mat or turning face to face."
               ]
             }
           ]
         },
         {
-          "id": "s25-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Back Take – Maintain Chest to Back Contact: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The attacker holds as long as he keeps contact.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
-            },
-            {
-              "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing you never do."
-            }
-          ]
-        },
-        {
           "id": "s25-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false
           },
-          "question": "You've got your partner's back, and he keeps turning to escape. What's the smart move?",
+          "question": "Tonight you held his back while he moved around. What kept you on him?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Follow his turn and keep your hands connected.",
-              "feedback": "Right. Following without letting go is proof of change you can feel, not just say.",
-              "correct": true
+              "text": "Following him with your chest on his back.",
+              "correct": true,
+              "feedback": "What is different now is that you can follow him instead of freezing."
             },
             {
-              "text": "Let go and reset your grip from scratch.",
-              "feedback": "Resetting here gives up ground you already hold."
+              "text": "Wrapping your legs around him right away.",
+              "feedback": "Reaching with your legs lets your chest come off."
             },
             {
-              "text": "Hold still and wait for him to stop turning.",
-              "feedback": "Waiting here loses the back. Follow his turn instead."
+              "text": "Holding still until he stopped.",
+              "feedback": "He won't stop, so you have to follow."
             }
           ]
         }

@@ -33,7 +33,7 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
       }
     ],
     "connection": "Helping a newer partner instead of just tapping them out is the first act of giving on the mat. Turning your growth toward someone who needs it works the same way in life. You stop being the one who gets helped. You start being the help.",
-    "takeaway": "Tonight you worked from the hand fight, open guard, and back control. Helping a newer partner instead of just tapping him out is the first act of giving on the mat. Turning what you've learned toward someone who needs it works the same way. You get to decide when you're ready to help, and that's your call.",
+    "takeaway": "Tonight you worked from the hand fight, open guard, and back control. Helping a newer partner instead of tapping him out is the first act of giving on the mat. Turning what you've learned toward someone who needs it works the same way. You get to decide when you're ready.",
     "_source": "GWMS Curriculum Guide — Session 28 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -58,94 +58,78 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Upper vs Lower Body Division Game — Open Hand Connections"
+              "text": "Game 1: Standing"
+            },
+            {
+              "kind": "lead",
+              "text": "This is fighting for upper body or legs."
             },
             {
               "kind": "list",
               "items": [
-                "The upper body player wins with an underhook on the lower body player, or by putting his hands on the mat.",
-                "The lower body player wins with a touch behind the upper body player's leg, or by putting his hands on the mat."
+                "The upper body player wins with an underhook on the lower body player, or by pushing his hands to the mat.",
+                "The lower body player wins with a touch behind the upper body player's leg, or by pushing his hands to the mat."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Seated Open Guard Game"
+              "text": "Game 2: Guarded"
+            },
+            {
+              "kind": "lead",
+              "text": "This is knocking him down from sitting."
             },
             {
               "kind": "list",
               "items": [
-                "The bottom player wins by standing up to connect at the top player's hips, or making his back touch the mat.",
+                "The bottom player wins by standing up to grab the top player's hips, or by putting the top player's back on the mat and standing.",
                 "The top player wins by touching his shin to the bottom player's knees or body."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Back Take – Maintain Chest to Back Contact"
+              "text": "Game 3: Pinned"
+            },
+            {
+              "kind": "lead",
+              "text": "This is holding his back from behind."
             },
             {
               "kind": "list",
               "items": [
-                "The attacker holds as long as he keeps contact.",
+                "The attacker holds while his chest stays on the defender's back.",
                 "The defender wins by getting his back to the mat or turning face to face."
               ]
             }
           ]
         },
         {
-          "id": "s28-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Back Take – Maintain Chest to Back Contact: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The attacker holds as long as he keeps contact.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
-            },
-            {
-              "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing you never do."
-            }
-          ]
-        },
-        {
           "id": "s28-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false
           },
-          "question": "You're moving your partner using only touches to his wrist, elbow, or head. What's the smart move?",
+          "question": "Tonight you fought for the upper body or legs. How did you score?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Keep every touch on the wrist, elbow, or head.",
-              "feedback": "Right. Gripping on purpose, not grabbing anywhere, is the same as giving something that actually helps, not just anything.",
-              "correct": true
+              "text": "Working from a grip you already had.",
+              "correct": true,
+              "feedback": "Starting from what you already have is how you help someone newer, too."
             },
             {
-              "text": "Touch anywhere on his body to move him.",
-              "feedback": "Touching anywhere breaks the rule and stalls your progress."
+              "text": "Diving at his legs with no grip.",
+              "feedback": "No grip leaves you open."
             },
             {
-              "text": "Grab his leg to move him faster.",
-              "feedback": "Grabbing the leg isn't your job here. Stay on wrist, elbow, or head."
+              "text": "Waiting for him to come to you.",
+              "feedback": "Waiting gives him the first score."
             }
           ]
         }
@@ -163,7 +147,7 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from the hand fight, open guard, and back control. Helping a newer partner instead of just tapping him out is the first act of giving on the mat. Turning what you've learned toward someone who needs it works the same way. You get to decide when you're ready to help, and that's your call."
+              "text": "Tonight you worked from the hand fight, open guard, and back control. Helping a newer partner instead of tapping him out is the first act of giving on the mat. Turning what you've learned toward someone who needs it works the same way. You get to decide when you're ready."
             }
           ]
         },

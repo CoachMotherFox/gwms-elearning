@@ -31,7 +31,7 @@
       }
     ],
     "connection": "Letting a partner work when you could just finish them costs you the easy win. Giving something real off the mat costs something too, time, comfort, pride. The giving that counts is the kind you feel.",
-    "takeaway": "Tonight you worked from a front headlock, open guard, and back control. Letting a partner keep working instead of finishing him costs you the easy win, on purpose. Giving something real off the mat costs something too, time, comfort, pride. You get to choose what you give, without giving away all of yourself.",
+    "takeaway": "Tonight you worked from a front headlock, open guard, and back control. Letting a partner keep working instead of finishing him costs you the easy win. Giving something real off the mat costs something too: time, comfort, pride. You get to choose what you give, without giving away everything.",
     "_source": "GWMS Curriculum Guide — Session 29 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -56,94 +56,78 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Front Headlock to Rear - Standing"
+              "text": "Game 1: Standing"
+            },
+            {
+              "kind": "lead",
+              "text": "This is getting behind someone bent over."
             },
             {
               "kind": "list",
               "items": [
                 "The attacker wins by putting the defender's hands on the mat, and lifting him once from behind on his hips.",
-                "The defender wins by fully disconnecting, standing, and turning to face."
+                "The defender wins by pushing the attacker's arms off, standing up, and turning to face him."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Open Guard Multiple Connection Game"
+              "text": "Game 2: Guarded"
+            },
+            {
+              "kind": "lead",
+              "text": "This is knocking a standing partner down."
             },
             {
               "kind": "list",
               "items": [
-                "The bottom player wins by putting him down and standing, or by wrestling up to a connection.",
-                "The top player wins by touching his shin to the bottom player's knee pit, or his body from outside the legs."
+                "The bottom player wins by knocking the top player down and standing, or by sitting up to grab his legs or hips.",
+                "The top player wins by touching his shin behind the bottom player's knee, or to his body from beside his legs."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Back Control Elbow Management — No Hooks"
+              "text": "Game 3: Pinned"
+            },
+            {
+              "kind": "lead",
+              "text": "This is staying behind someone, arms only."
             },
             {
               "kind": "list",
               "items": [
-                "The back player holds as long as he keeps control.",
-                "The front player wins when he faces the back player with elbows free."
+                "The back player holds while he keeps his arms under the front player's elbows.",
+                "The front player wins by turning to face the back player with both elbows free."
               ]
-            }
-          ]
-        },
-        {
-          "id": "s29-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Back Control Elbow Management — No Hooks: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The back player holds as long as he keeps control.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
-            },
-            {
-              "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing you never do."
             }
           ]
         },
         {
           "id": "s29-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false
           },
-          "question": "You've worked behind your partner and locked your hands around his hips. What's the smart move?",
+          "question": "Tonight you held his back with no hooks. What kept him from turning to face you?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Stay beside his hips, not straight behind him.",
-              "feedback": "Right. Positioning smart instead of taking the easy grab is giving that actually costs you something.",
-              "correct": true
+              "text": "Your forearms under his elbows.",
+              "correct": true,
+              "feedback": "Giving him room while still holding on costs you something."
             },
             {
-              "text": "Move straight behind him and squeeze harder.",
-              "feedback": "Going straight behind here is easier to escape."
+              "text": "Your legs locked around his waist.",
+              "feedback": "You hold with your arms here, not your legs."
             },
             {
-              "text": "Let go and re-enter from the front again.",
-              "feedback": "Letting go gives up ground you already earned."
+              "text": "Pulling his shoulders back hard.",
+              "feedback": "Pulling hard won't keep him facing the mat."
             }
           ]
         }
@@ -161,7 +145,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from a front headlock, open guard, and back control. Letting a partner keep working instead of finishing him costs you the easy win, on purpose. Giving something real off the mat costs something too, time, comfort, pride. You get to choose what you give, without giving away all of yourself."
+              "text": "Tonight you worked from a front headlock, open guard, and back control. Letting a partner keep working instead of finishing him costs you the easy win. Giving something real off the mat costs something too: time, comfort, pride. You get to choose what you give, without giving away everything."
             }
           ]
         },

@@ -32,7 +32,7 @@
       }
     ],
     "connection": "Keeping a pin means feeling your partner and adjusting to them, not clamping down and ignoring them. Letting someone in works the same way. You hold the connection by reading the other person, not by shutting them out and pushing through alone.",
-    "takeaway": "Tonight you worked from the hand fight, closed guard, and a chest-to-chest pin. Keeping a pin means feeling your partner and adjusting to him, not clamping down and ignoring him. You can turn that same dial with people, adjusting to them instead of shutting them out. Letting someone in is a choice you make.",
+    "takeaway": "Tonight you worked from the hand fight, closed guard, and a chest-to-chest pin. Keeping a pin means feeling your partner and adjusting, not clamping down and ignoring him. You can turn that same dial with people, instead of shutting them out. Letting someone in is a choice you make.",
     "_source": "GWMS Curriculum Guide — Session 14 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -57,94 +57,78 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Role-Based Consecutive Touch vs Close Hand Game"
+              "text": "Game 1: Standing"
+            },
+            {
+              "kind": "lead",
+              "text": "This is wrapping up while he stays away."
             },
             {
               "kind": "list",
               "items": [
                 "The touch player wins with three touches in a row.",
-                "The connection player wins by locking his hands around the touch player, from armpits to ankles."
+                "The connection player wins by locking hands around him, armpits to ankles."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Closed Guard Hand Fighting Game"
+              "text": "Game 2: Guarded"
+            },
+            {
+              "kind": "lead",
+              "text": "This is hand fighting inside his locked legs."
             },
             {
               "kind": "list",
               "items": [
-                "The bottom player wins by making the top player's hands touch the mat one time.",
-                "The top player wins by getting his hands off the bottom player and standing up."
+                "The bottom player wins by making the top player's hand touch the mat.",
+                "The top player wins by standing while controlling a wrist or pinning the hips."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Chest-to-Chest Elbow Control Game"
+              "text": "Game 3: Pinned"
+            },
+            {
+              "kind": "lead",
+              "text": "This is holding someone by his elbows."
             },
             {
               "kind": "list",
               "items": [
-                "The top player wins by keeping the bottom player's elbows away from his body the whole time.",
+                "The top player wins by keeping his arms under the bottom player's elbows. If he gets them free, reset.",
                 "The bottom player wins by bringing both elbows to his body, or making the top player fall."
               ]
             }
           ]
         },
         {
-          "id": "s14-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Chest-to-Chest Elbow Control Game: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player wins by keeping the bottom player's elbows away from his body the whole time.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
-            },
-            {
-              "text": "Overpowering your partner with force",
-              "feedback": "Staying calm beats forcing harder."
-            }
-          ]
-        },
-        {
           "id": "s14-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false
           },
-          "question": "You're holding a chest-to-chest pin, and your partner is fighting to pull one elbow free. What's the smart move?",
+          "question": "Tonight one player tried to get close and one kept him out. What decided how close he got?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Stay under the elbow, or get back under fast.",
-              "feedback": "Right. Staying under the elbow is what keeps the pin alive, the same dial you turn to let someone in.",
-              "correct": true
+              "text": "Who controlled the hands and elbows.",
+              "correct": true,
+              "feedback": "You choose how much of someone you let in. It is not all or nothing."
             },
             {
-              "text": "Let the elbow go and grab his wrist instead.",
-              "feedback": "That gives up the pin completely. Stay under the elbow."
+              "text": "Whoever moved first won the round.",
+              "feedback": "Speed is not what decided this, control was."
             },
             {
-              "text": "Push down harder with your whole body weight.",
-              "feedback": "Leaning your weight isn't the pin. Stay under the elbow."
+              "text": "Whoever wanted it more got through.",
+              "feedback": "Wanting it more is not the same as controlling the hands and elbows."
             }
           ]
         }
@@ -162,7 +146,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from the hand fight, closed guard, and a chest-to-chest pin. Keeping a pin means feeling your partner and adjusting to him, not clamping down and ignoring him. You can turn that same dial with people, adjusting to them instead of shutting them out. Letting someone in is a choice you make."
+              "text": "Tonight you worked from the hand fight, closed guard, and a chest-to-chest pin. Keeping a pin means feeling your partner and adjusting, not clamping down and ignoring him. You can turn that same dial with people, instead of shutting them out. Letting someone in is a choice you make."
             }
           ]
         },

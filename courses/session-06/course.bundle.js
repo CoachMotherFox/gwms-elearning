@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
       }
     ],
     "connection": "Your guard protects the space behind your legs. Your mask protects something too. Naming what the guard defends is the same as naming what the mask hides.",
-    "takeaway": "Tonight you worked from the hand fight, open guard, and mount. Your guard protects the space behind your legs, and your mask protects something in you too. Naming exactly what your mask guards is a skill, the same as naming what a good guard defends. You get to know your own mask well enough to use it on purpose.",
+    "takeaway": "Tonight you worked from the hand fight, open guard, and mount. Your guard protects your legs, and your mask protects something in you. Naming what your mask guards is the same skill as naming what a guard defends. You get to use your mask on purpose.",
     "_source": "GWMS Curriculum Guide — Session 6 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -59,7 +59,11 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Consecutive Touches with Clinch Counter"
+              "text": "Game 1: Standing"
+            },
+            {
+              "kind": "lead",
+              "text": "This is scoring quick touches before a hug."
             },
             {
               "kind": "list",
@@ -71,82 +75,62 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Knee Pit Touchdown Game"
+              "text": "Game 2: Guarded"
+            },
+            {
+              "kind": "lead",
+              "text": "This is getting past his legs and feet."
             },
             {
               "kind": "list",
               "items": [
-                "The top player wins by touching both of the bottom player's knee pits with his own leg, feet off the mat.",
-                "The bottom player wins by sitting up."
+                "The top player wins by touching the backs of both of the bottom player's knees with his shin, one and then the other.",
+                "The bottom player wins by making the top player sit down, then sitting up himself."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Mount — Stay Under Both Elbows"
+              "text": "Game 3: Pinned"
+            },
+            {
+              "kind": "lead",
+              "text": "This is sitting on top of his belly."
             },
             {
               "kind": "list",
               "items": [
-                "The top player holds as long as he keeps one of the bottom player's elbows covered.",
+                "The top player holds as long as he keeps an arm under one of the bottom player's elbows.",
                 "The bottom player wins by touching both elbows to his body, or making the top player fall."
               ]
             }
           ]
         },
         {
-          "id": "s06-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Mount — Stay Under Both Elbows: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player holds as long as he keeps one of the bottom player's elbows covered.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Submitting your partner",
-              "feedback": "Not tonight. These games end in a pin, not a finish."
-            },
-            {
-              "text": "Putting your partner down hard",
-              "feedback": "Never. Everyone goes light."
-            }
-          ]
-        },
-        {
           "id": "s06-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false
           },
-          "question": "You're in mount, and your partner is fighting to pull his elbow free. What's the smart move?",
+          "question": "Tonight you got past his legs while he lay on his back. What got you in?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Stay under that elbow no matter what.",
-              "feedback": "Right. Staying under the elbow protects the position, the same way your mask protects something in you.",
-              "correct": true
+              "text": "Your shin stepping behind his knee.",
+              "correct": true,
+              "feedback": "His legs protect his body, the way a mask protects what is under it."
             },
             {
-              "text": "Let the elbow go and grab his wrist.",
-              "feedback": "Letting the elbow go gives up the mount."
+              "text": "Jumping over both of his legs.",
+              "feedback": "Jumping gives his feet a chance to push you."
             },
             {
-              "text": "Sit back and wait for him to stop.",
-              "feedback": "Waiting here loses the elbow. Stay under it instead."
+              "text": "Pulling his head toward you.",
+              "feedback": "His head is not where the gap is."
             }
           ]
         }
@@ -164,7 +148,7 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from the hand fight, open guard, and mount. Your guard protects the space behind your legs, and your mask protects something in you too. Naming exactly what your mask guards is a skill, the same as naming what a good guard defends. You get to know your own mask well enough to use it on purpose."
+              "text": "Tonight you worked from the hand fight, open guard, and mount. Your guard protects your legs, and your mask protects something in you. Naming what your mask guards is the same skill as naming what a guard defends. You get to use your mask on purpose."
             }
           ]
         },

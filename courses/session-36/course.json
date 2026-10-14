@@ -31,7 +31,7 @@
       }
     ],
     "connection": "The last roll ends, and then you walk out the door. What you carry out, control, mercy, the ability to stay, the real self, is the whole point. The mat was never the destination. What you carry out of it is.",
-    "takeaway": "Tonight you worked from the over-under tie, half guard, and back control, the same three moves the whole program built toward. The mat was never the real destination. What you carry out the door, control, mercy, the ability to stay, the real you, is the whole point. You get to choose to carry it out with you.",
+    "takeaway": "Tonight you worked from the over-under tie, half guard, and back control, the three moves the whole program built toward. The mat was never the destination. What you carry out the door, control, mercy, the ability to stay, the real you, is the point. You get to carry it out.",
     "_source": "GWMS Curriculum Guide — Session 36 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -56,18 +56,26 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Over-Under to Close Hand Connection"
+              "text": "Game 1: Standing"
+            },
+            {
+              "kind": "lead",
+              "text": "This is fighting to get an underhook."
             },
             {
               "kind": "list",
               "items": [
-                "Whoever connects first wins by locking his hands around his partner's body, armpits to ankles."
+                "Whoever first locks his hands around his partner's body wins, anywhere from armpits to ankles."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Half Guard Side-Position Game"
+              "text": "Game 2: Guarded"
+            },
+            {
+              "kind": "lead",
+              "text": "This is getting close while he blocks you."
             },
             {
               "kind": "list",
@@ -79,70 +87,46 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Back Take – Maintain Chest to Back Contact"
+              "text": "Game 3: Pinned"
+            },
+            {
+              "kind": "lead",
+              "text": "This is holding his back from behind."
             },
             {
               "kind": "list",
               "items": [
-                "The attacker holds as long as he keeps contact.",
+                "The attacker holds while his chest stays on the defender's back.",
                 "The defender wins by getting his back to the mat or turning face to face."
               ]
             }
           ]
         },
         {
-          "id": "s36-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Back Take – Maintain Chest to Back Contact: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The attacker holds as long as he keeps contact.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
-            },
-            {
-              "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing you never do."
-            }
-          ]
-        },
-        {
           "id": "s36-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false
           },
-          "question": "You and your partner are locked in an over-under tie on the very last roll. What's the smart move?",
+          "question": "Tonight you played the same first game as your second night. What did your hands go for?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Fight to close your hands under his elbows.",
-              "feedback": "Right. Closing the connection clean, on the last roll, is exactly what you carry out the door with you.",
-              "correct": true
+              "text": "His wrists and elbows, on purpose.",
+              "correct": true,
+              "feedback": "What you carry out the door is doing it on purpose."
             },
             {
-              "text": "Let go and grab a totally different hold.",
-              "feedback": "Letting go here gives away the tie you already have."
+              "text": "Anything they touched first.",
+              "feedback": "That was the old you."
             },
             {
-              "text": "Hold still and wait for him to move.",
-              "feedback": "Waiting here loses ground. Keep fighting to close your hands."
+              "text": "His head, to pull him down.",
+              "feedback": "Pulling his head isn't this game."
             }
           ]
         }
@@ -160,7 +144,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from the over-under tie, half guard, and back control, the same three moves the whole program built toward. The mat was never the real destination. What you carry out the door, control, mercy, the ability to stay, the real you, is the whole point. You get to choose to carry it out with you."
+              "text": "Tonight you worked from the over-under tie, half guard, and back control, the three moves the whole program built toward. The mat was never the destination. What you carry out the door, control, mercy, the ability to stay, the real you, is the point. You get to carry it out."
             }
           ]
         },

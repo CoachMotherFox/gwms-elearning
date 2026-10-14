@@ -31,7 +31,7 @@
       }
     ],
     "connection": "You can have full control of someone's back and still choose not to hurt them. That is the whole system: the power to hurt, and the choice not to. Using your strength for people instead of over them is that same choice, made in your life.",
-    "takeaway": "Tonight you worked from an underhook tie, half guard, and back control. You can have full control of someone's back and still choose not to hurt them, and that choice is the whole point. Using your strength for people, instead of over them, is that same choice made off the mat. You get to hold real power and still choose mercy.",
+    "takeaway": "Tonight you worked from an underhook tie, half guard, and back control. You can control someone's back and still choose not to hurt him. That is the point. Using strength for people, not over them, is the same choice off the mat. You get to hold power and choose mercy.",
     "_source": "GWMS Curriculum Guide — Session 30 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -56,7 +56,11 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Foot-to-Foot Contact with Overhook / Underhook"
+              "text": "Game 1: Standing"
+            },
+            {
+              "kind": "lead",
+              "text": "This is tripping him by blocking his foot."
             },
             {
               "kind": "list",
@@ -68,82 +72,62 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Half Guard with Standing Transition Game"
+              "text": "Game 2: Guarded"
+            },
+            {
+              "kind": "lead",
+              "text": "This is getting close to someone lying down."
             },
             {
               "kind": "list",
               "items": [
-                "The bottom player wins by getting his feet inside and sitting up, or entangling the top player once he stands.",
-                "The top player wins by locking his hands."
+                "The bottom player wins by getting his feet inside and sitting up, or, once the top player stands, by wrapping both legs around one of his legs.",
+                "The top player wins by locking his hands around the bottom player."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Chest to Back Control Game"
+              "text": "Game 3: Pinned"
+            },
+            {
+              "kind": "lead",
+              "text": "This is holding his back from behind."
             },
             {
               "kind": "list",
               "items": [
-                "The top player holds as long as he keeps contact.",
+                "The top player holds as long as his chest stays on the bottom player's back.",
                 "The bottom player wins by getting his back to the mat or turning face to face."
               ]
             }
           ]
         },
         {
-          "id": "s30-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Chest to Back Control Game: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player holds as long as he keeps contact.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
-            },
-            {
-              "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing you never do."
-            }
-          ]
-        },
-        {
           "id": "s30-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false
           },
-          "question": "You've got an overhook, and you've just made foot-to-foot contact with your partner. What's the smart move?",
+          "question": "Tonight you had full control of his back. What kept him safe?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Stick that foot and pull for the sweep.",
-              "feedback": "Right. Using your strength to sweep him is power aimed at winning position, not at hurting him.",
-              "correct": true
+              "text": "Keeping your chest on him, not squeezing.",
+              "correct": true,
+              "feedback": "Strength used for control keeps him safe instead of taking from him."
             },
             {
-              "text": "Let go of the foot contact and reset.",
-              "feedback": "Letting go here gives up ground you just built."
+              "text": "Squeezing him as hard as you can.",
+              "feedback": "Squeezing takes his strength instead of using yours."
             },
             {
-              "text": "Grab for his head instead of his foot.",
-              "feedback": "Grabbing for the head skips the setup you already have."
+              "text": "Wrapping your legs around his waist.",
+              "feedback": "Your legs aren't what kept him safe."
             }
           ]
         }
@@ -161,7 +145,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from an underhook tie, half guard, and back control. You can have full control of someone's back and still choose not to hurt them, and that choice is the whole point. Using your strength for people, instead of over them, is that same choice made off the mat. You get to hold real power and still choose mercy."
+              "text": "Tonight you worked from an underhook tie, half guard, and back control. You can control someone's back and still choose not to hurt him. That is the point. Using strength for people, not over them, is the same choice off the mat. You get to hold power and choose mercy."
             }
           ]
         },

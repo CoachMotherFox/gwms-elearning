@@ -33,7 +33,7 @@ window.GWMS_COURSE_BUNDLE["session-31"] =
       }
     ],
     "connection": "The finish is the sharpest power in the system. How you use it, controlled, releasing on the tap, is what people remember about rolling with you. What you leave behind in life is built the same way, out of how you treat people when you hold the power.",
-    "takeaway": "Tonight you worked from the hand fight, open guard, and back control. A finish gives you real power over someone. Letting go the second he taps is what people remember. Your legacy off the mat works the same way. It comes from how you treat people when you have the upper hand.",
+    "takeaway": "Tonight you worked from the hand fight, open guard, and back control. A finish gives you real power. Letting go the second he taps is what people remember. Your legacy off the mat works the same way, built from how you treat people when you have the upper hand.",
     "_source": "GWMS Curriculum Guide — Session 31 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -58,30 +58,42 @@ window.GWMS_COURSE_BUNDLE["session-31"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Hand Fight to Closed Hand Connection via Underhook"
+              "text": "Game 1: Standing"
+            },
+            {
+              "kind": "lead",
+              "text": "This is a hand fight that locks him."
             },
             {
               "kind": "list",
               "items": [
-                "Whoever connects first wins. The same rule applies to both players."
+                "Whoever first locks his hands around his partner's head, body, or leg wins. The same rule applies to both players."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Around-the-Legs Passing Game"
+              "text": "Game 2: Guarded"
+            },
+            {
+              "kind": "lead",
+              "text": "This is getting around the legs."
             },
             {
               "kind": "list",
               "items": [
-                "The top player wins by touching one outside of the bottom player's legs, then the other outside, right after.",
+                "The top player wins by touching his shin to one side of the bottom player's body, then going around and touching the other side.",
                 "The bottom player wins by making the top player fall on his butt, then getting his own back off the mat."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Build to Rear Strangle Game"
+              "text": "Game 3: Pinned"
+            },
+            {
+              "kind": "lead",
+              "text": "This is building a lock from behind, slowly."
             },
             {
               "kind": "list",
@@ -93,58 +105,30 @@ window.GWMS_COURSE_BUNDLE["session-31"] =
           ]
         },
         {
-          "id": "s31-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Build to Rear Strangle Game: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player wins by touching the bottom player's back with his palm, then locking his own wrist into his other elbow.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
-            },
-            {
-              "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing you never do."
-            }
-          ]
-        },
-        {
           "id": "s31-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false
           },
-          "question": "You're building a strangle from behind, and your palm has just touched your partner's back. What's the smart move?",
+          "question": "Tonight you built a lock from behind, one step at a time. What came first?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Lock your wrist into your own elbow from there.",
-              "feedback": "Right. Finishing it clean is what people remember, the legacy you leave in how you finish.",
-              "correct": true
+              "text": "Your palm flat on his back.",
+              "correct": true,
+              "feedback": "What you leave behind is built one step at a time."
             },
             {
-              "text": "Pull your hand back and grab his shoulder instead.",
-              "feedback": "Pulling back loses the exact spot you just found."
+              "text": "Your hands locked right away.",
+              "feedback": "Locking first skips the steps that make it work."
             },
             {
-              "text": "Wait there and let him move first.",
-              "feedback": "Waiting here stalls the finish. Lock your wrist in now."
+              "text": "Your legs wrapped around him.",
+              "feedback": "This lock starts with your hand, not your legs."
             }
           ]
         }
@@ -162,7 +146,7 @@ window.GWMS_COURSE_BUNDLE["session-31"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from the hand fight, open guard, and back control. A finish gives you real power over someone. Letting go the second he taps is what people remember. Your legacy off the mat works the same way. It comes from how you treat people when you have the upper hand."
+              "text": "Tonight you worked from the hand fight, open guard, and back control. A finish gives you real power. Letting go the second he taps is what people remember. Your legacy off the mat works the same way, built from how you treat people when you have the upper hand."
             }
           ]
         },

@@ -57,7 +57,11 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Uneven Hand Fight Game"
+              "text": "Game 1: Standing"
+            },
+            {
+              "kind": "lead",
+              "text": "This is fighting for an underhook or leg."
             },
             {
               "kind": "list",
@@ -69,82 +73,62 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Open Guard Multiple Connection Game"
+              "text": "Game 2: Guarded"
+            },
+            {
+              "kind": "lead",
+              "text": "This is knocking a standing partner down."
             },
             {
               "kind": "list",
               "items": [
-                "The bottom player wins by putting him down and standing, or by wrestling up to a connection.",
-                "The top player wins by touching his shin to the bottom player's knee pit, or his body from outside the legs."
+                "The bottom player wins by knocking the top player down and standing, or by sitting up to grab his legs or hips.",
+                "The top player wins by touching his shin behind the bottom player's knee, or to his body from beside his legs."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Rear Hip Connection - Keep Belly Down"
+              "text": "Game 3: Pinned"
+            },
+            {
+              "kind": "lead",
+              "text": "This is keeping a balled up man flat."
             },
             {
               "kind": "list",
               "items": [
                 "The attacker holds as long as he keeps the defender belly down.",
-                "The defender wins by reaching a quad pod."
+                "The defender wins by getting up on his hands and feet with his knees off the mat."
               ]
-            }
-          ]
-        },
-        {
-          "id": "s05-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Rear Hip Connection - Keep Belly Down: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The attacker holds as long as he keeps the defender belly down.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Submitting your partner",
-              "feedback": "Not tonight. These games end in a pin, not a finish."
-            },
-            {
-              "text": "Putting your partner down hard",
-              "feedback": "Never. Everyone goes light."
             }
           ]
         },
         {
           "id": "s05-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false
           },
-          "question": "You're hand fighting for the underhook, and your hands keep landing in different spots. What's the smart move?",
+          "question": "Tonight you kept a balled up partner belly down. What held him there?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Grip his wrist, elbow, or head on purpose.",
-              "feedback": "Good. Gripping on purpose is a learned move, the same way your mask was learned somewhere too.",
-              "correct": true
+              "text": "Blocking his knees and feet with yours.",
+              "correct": true,
+              "feedback": "The version of you that shows up here is the one you practice."
             },
             {
-              "text": "Grab wherever your hands happen to land.",
-              "feedback": "Grabbing at random wastes the position. Grip on purpose instead."
+              "text": "Lying on him with all your weight.",
+              "feedback": "Weight alone lets him push up."
             },
             {
-              "text": "Keep your hands off him and circle.",
-              "feedback": "Staying disconnected loses the hand fight. Get a grip on purpose."
+              "text": "Squeezing his waist as hard as you can.",
+              "feedback": "Squeezing tires you out before he does."
             }
           ]
         }

@@ -31,7 +31,7 @@
       }
     ],
     "connection": "Newer people learn more from watching how you roll than from anything you say. How you carry yourself in life teaches the same way, silently, to whoever is watching. You are a lesson whether you mean to be or not.",
-    "takeaway": "Tonight you worked from the hand fight, closed guard, and back control. Newer people learn more from watching how you roll than from anything you say. You teach people the same way off the mat, just by how you act. You get to choose what you teach, since you are teaching either way.",
+    "takeaway": "Tonight you worked from the hand fight, closed guard, and back control. Newer people learn more from watching how you roll than from anything you say. You teach people the same way off the mat, by how you act. You get to choose what you teach, since you're teaching anyway.",
     "_source": "GWMS Curriculum Guide — Session 33 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -56,93 +56,77 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Hand Fight with Dual Win Conditions – Week 11 Game 1"
+              "text": "Game 1: Standing"
+            },
+            {
+              "kind": "lead",
+              "text": "This is fighting for touches or an underhook."
             },
             {
               "kind": "list",
               "items": [
-                "Whoever gets there first wins, whether by three touches or by the underhook plus closed hands."
+                "Whoever gets there first wins, whether by three touches or by getting an underhook and then locking his hands around his partner."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Closed Guard — Post to Underhook to Locked Hands"
+              "text": "Game 2: Guarded"
+            },
+            {
+              "kind": "lead",
+              "text": "This is catching an arm and locking hands."
             },
             {
               "kind": "list",
               "items": [
-                "The bottom player wins by locking his hands with an underhook after a post.",
-                "The top player wins by standing and opening the guard."
+                "The bottom player wins by sliding an arm under the top player's armpit after his hand touches the mat, then locking his hands.",
+                "The top player wins by standing up and pushing the bottom player's knees down to open his legs."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Chest-to-Back Connection Maintenance"
+              "text": "Game 3: Pinned"
+            },
+            {
+              "kind": "lead",
+              "text": "This is staying on someone's back."
             },
             {
               "kind": "list",
               "items": [
-                "The top player holds as long as he keeps chest-to-back contact.",
+                "The top player holds as long as his chest stays on the bottom player's back.",
                 "The bottom player wins by getting his back flat to the mat, or by facing and coming on top."
               ]
             }
           ]
         },
         {
-          "id": "s33-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Chest-to-Back Connection Maintenance: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player holds as long as he keeps chest-to-back contact.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
-            },
-            {
-              "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing you never do."
-            }
-          ]
-        },
-        {
           "id": "s33-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false
           },
-          "question": "You're working from closed guard, and you've just caused your partner to post his hand on the mat. What's the smart move?",
+          "question": "Tonight he tried to pull you down from inside his locked legs. What kept you up?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Take the underhook, then lock your hands around him.",
-              "feedback": "Right. Causing the post, then the underhook, then the lock, in order, is exactly what a newer partner learns from watching you build it.",
-              "correct": true
+              "text": "Sitting tall with your back straight.",
+              "correct": true,
+              "feedback": "How you carry yourself shows in how steady you stay."
             },
             {
-              "text": "Grab for a submission before the post settles.",
-              "feedback": "Rushing the finish here skips the setup you just earned."
+              "text": "Leaning forward onto your hands.",
+              "feedback": "A hand on the mat is what he wants."
             },
             {
-              "text": "Let go and hand fight from scratch again.",
-              "feedback": "Starting over gives away the post you already caused."
+              "text": "Reaching up to grab his head.",
+              "feedback": "Reaching gives him your balance."
             }
           ]
         }
@@ -160,7 +144,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from the hand fight, closed guard, and back control. Newer people learn more from watching how you roll than from anything you say. You teach people the same way off the mat, just by how you act. You get to choose what you teach, since you are teaching either way."
+              "text": "Tonight you worked from the hand fight, closed guard, and back control. Newer people learn more from watching how you roll than from anything you say. You teach people the same way off the mat, by how you act. You get to choose what you teach, since you're teaching anyway."
             }
           ]
         },

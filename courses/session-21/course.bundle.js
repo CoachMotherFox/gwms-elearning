@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
       }
     ],
     "connection": "On the mat you can name your own mistake in a round without blaming your partner. Owning your part of a rupture works the same way. It starts with separating your piece from theirs.",
-    "takeaway": "Tonight you worked from a single leg, open guard, and an arm lock position. On the mat you can name your own mistake in a round without blaming your partner. Owning a break works the same way, starting with separating your piece from theirs. You get to own your part and let the rest be his.",
+    "takeaway": "Tonight you worked from a single leg, open guard, and an arm lock position. On the mat you can name your mistake without blaming your partner. Owning a break works the same way: separate your piece from theirs. You get to own your part and let the rest be his.",
     "_source": "GWMS Curriculum Guide — Session 21 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -59,7 +59,11 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Single Leg Destabilization — Two Paths"
+              "text": "Game 1: Standing"
+            },
+            {
+              "kind": "lead",
+              "text": "This is a takedown to one leg, twice."
             },
             {
               "kind": "list",
@@ -71,82 +75,62 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Knee Pit Touchdown Game"
+              "text": "Game 2: Guarded"
+            },
+            {
+              "kind": "lead",
+              "text": "This is getting past his legs and feet."
             },
             {
               "kind": "list",
               "items": [
-                "The top player wins by touching both of the bottom player's knee pits with his own leg, feet off the mat.",
-                "The bottom player wins by sitting up."
+                "The top player wins by touching the backs of both of the bottom player's knees with his shin, one and then the other.",
+                "The bottom player wins by making the top player sit down, then sitting up himself."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Arm Lock Breaking Position Game"
+              "text": "Game 3: Pinned"
+            },
+            {
+              "kind": "lead",
+              "text": "This is separating hands to trap one arm."
             },
             {
               "kind": "list",
               "items": [
-                "The top player wins by separating the bottom player's hands and locking two grips on his wrist.",
-                "The bottom player wins by freeing his own trapped arm, or by reversing the position."
+                "The top player wins by pulling the bottom player's hands apart and getting both hands on one wrist.",
+                "The bottom player wins by pulling his trapped arm free, or by turning in and coming up to his knees."
               ]
-            }
-          ]
-        },
-        {
-          "id": "s21-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Arm Lock Breaking Position Game: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player wins by separating the bottom player's hands and locking two grips on his wrist.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
-            },
-            {
-              "text": "Overpowering your partner with force",
-              "feedback": "Staying calm beats forcing harder."
             }
           ]
         },
         {
           "id": "s21-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false
           },
-          "question": "You're working toward an arm lock, and your partner's hands are still together. What's the smart move?",
+          "question": "Tonight you pulled his locked hands apart. What did you do next?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Separate his hands and trap the arm in front.",
-              "feedback": "Right. Trapping your own piece of the position is like owning your own part of a break.",
-              "correct": true
+              "text": "Got both hands on one wrist and stopped.",
+              "correct": true,
+              "feedback": "Your part is yours to hold, and yours to let go."
             },
             {
-              "text": "Grab for the far arm instead of separating hands.",
-              "feedback": "Reaching for the far arm skips a step you need first."
+              "text": "Yanked the arm as hard as you could.",
+              "feedback": "Yanking is how people get hurt."
             },
             {
-              "text": "Wait for him to move his hands himself.",
-              "feedback": "Waiting here stalls the position. Separate the hands yourself."
+              "text": "Let go to grab his head.",
+              "feedback": "Letting go gives the arm back."
             }
           ]
         }
@@ -164,7 +148,7 @@ window.GWMS_COURSE_BUNDLE["session-21"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from a single leg, open guard, and an arm lock position. On the mat you can name your own mistake in a round without blaming your partner. Owning a break works the same way, starting with separating your piece from theirs. You get to own your part and let the rest be his."
+              "text": "Tonight you worked from a single leg, open guard, and an arm lock position. On the mat you can name your mistake without blaming your partner. Owning a break works the same way: separate your piece from theirs. You get to own your part and let the rest be his."
             }
           ]
         },

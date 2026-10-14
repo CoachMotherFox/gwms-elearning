@@ -32,7 +32,7 @@
       }
     ],
     "connection": "Staying with a hard partner on the mat instead of switching is commitment made physical. Staying in a hard relationship when leaving is easier is the same choice. Both build the muscle of not bailing on people.",
-    "takeaway": "Tonight you worked from an underhook tie, open guard, and a chest-to-chest pin. Staying with a hard partner instead of switching is commitment made physical, and it builds the muscle of not bailing on people. That muscle works off the mat too, in hard relationships. You get to choose to stay on purpose, and choosing to leave a harmful one is smart too.",
+    "takeaway": "Tonight you worked from an underhook tie, open guard, and a chest-to-chest pin. Staying with a hard partner is commitment made physical, building the muscle of not bailing on people. That works off the mat too. You get to choose to stay on purpose, or leave if it's harmful.",
     "_source": "GWMS Curriculum Guide — Session 23 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -57,94 +57,78 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Underhook Multiple Connection Game"
+              "text": "Game 1: Standing"
+            },
+            {
+              "kind": "lead",
+              "text": "This is using an underhook for a leg."
             },
             {
               "kind": "list",
               "items": [
-                "The attacker wins only by picking up the defender's leg, from any connection.",
+                "The attacker wins only by picking up the defender's leg, from any grip.",
                 "The defender wins by stopping the attacker for 30 seconds."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Guard Retention Connection Game"
+              "text": "Game 2: Guarded"
+            },
+            {
+              "kind": "lead",
+              "text": "This is keeping your feet on him, close."
             },
             {
               "kind": "list",
               "items": [
-                "The bottom player holds as long as he keeps the connection.",
-                "The top player wins by getting outside the bottom player's legs and touching his body with a shin."
+                "The bottom player holds as long as he keeps his feet and a hand on the top player.",
+                "The top player wins by going around the bottom player's legs and touching him with a shin."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Chest to Chest Under Elbows Maintenance"
+              "text": "Game 3: Pinned"
+            },
+            {
+              "kind": "lead",
+              "text": "This is staying on top, under his elbows."
             },
             {
               "kind": "list",
               "items": [
-                "The top player holds as long as he keeps both of the bottom player's elbows covered.",
+                "The top player holds as long as he keeps something between the bottom player's elbows and his ribs.",
                 "The bottom player wins by getting both elbows to touch his body, or by making the top player fall."
               ]
             }
           ]
         },
         {
-          "id": "s23-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Chest to Chest Under Elbows Maintenance: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player holds as long as he keeps both of the bottom player's elbows covered.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
-            },
-            {
-              "text": "Overpowering your partner with force",
-              "feedback": "Staying calm beats forcing harder."
-            }
-          ]
-        },
-        {
           "id": "s23-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false
           },
-          "question": "Your partner is standing to pass, and your feet are still hooked on him. What's the smart move?",
+          "question": "Tonight he tried to get around your legs while you lay on your back. What kept him in front?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Keep both feet hooked on him no matter what.",
-              "feedback": "Right. Staying connected under pressure is commitment made physical, the same choice as staying when leaving is easier.",
-              "correct": true
+              "text": "Keeping your feet and a hand on him.",
+              "correct": true,
+              "feedback": "Staying when leaving would be easier is a choice you make."
             },
             {
-              "text": "Let your feet go and scramble up to stand.",
-              "feedback": "Letting go here gives up your only connection."
+              "text": "Letting your feet drop to rest.",
+              "feedback": "Resting your feet lets him walk around."
             },
             {
-              "text": "Hold still and hope he stops moving.",
-              "feedback": "Hoping doesn't hold guard. Keep your feet hooked on him."
+              "text": "Rolling away to get some space.",
+              "feedback": "Rolling away gives him your back."
             }
           ]
         }
@@ -162,7 +146,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from an underhook tie, open guard, and a chest-to-chest pin. Staying with a hard partner instead of switching is commitment made physical, and it builds the muscle of not bailing on people. That muscle works off the mat too, in hard relationships. You get to choose to stay on purpose, and choosing to leave a harmful one is smart too."
+              "text": "Tonight you worked from an underhook tie, open guard, and a chest-to-chest pin. Staying with a hard partner is commitment made physical, building the muscle of not bailing on people. That works off the mat too. You get to choose to stay on purpose, or leave if it's harmful."
             }
           ]
         },

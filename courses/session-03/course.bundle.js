@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
       }
     ],
     "connection": "Staying safe and guarded on the mat before you trust a partner is the same guard you use before you trust a room. Both are smart. Naming it is the work.",
-    "takeaway": "Tonight you worked from the hand fight, open guard, and a chest-to-chest pin. Staying guarded before you trust a partner is smart, and it works the same way before you trust a room. You get to decide how much guard to keep up. Noticing your own guard is the first step to choosing when to drop it.",
+    "takeaway": "Tonight you worked from the hand fight, open guard, and a chest-to-chest pin. Staying guarded before you trust a partner is smart, the same way it is before you trust a room. You get to decide how much guard to keep, and when to drop it.",
     "_source": "GWMS Curriculum Guide — Session 3 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -59,7 +59,11 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Hand Touch / Knee Touch Collection Game"
+              "text": "Game 1: Standing"
+            },
+            {
+              "kind": "lead",
+              "text": "This is scoring touches while standing."
             },
             {
               "kind": "list",
@@ -70,19 +74,27 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Belly-Up Open Guard Connection Foundation"
+              "text": "Game 2: Guarded"
+            },
+            {
+              "kind": "lead",
+              "text": "This is getting past his legs and feet."
             },
             {
               "kind": "list",
               "items": [
-                "The bottom player holds as long as he keeps his connections.",
-                "The top player wins by breaking every connection and touching the bottom player's body with his shin, from outside his legs."
+                "The bottom player holds as long as he keeps a foot and a hand on the top player.",
+                "The top player wins by getting free of the bottom player's feet and hands, going around his legs, and touching his body with a shin."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Introductory Pin Game"
+              "text": "Game 3: Pinned"
+            },
+            {
+              "kind": "lead",
+              "text": "This is holding someone down, then escaping."
             },
             {
               "kind": "list",
@@ -94,58 +106,30 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
           ]
         },
         {
-          "id": "s03-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Introductory Pin Game: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player holds the pin.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Submitting your partner",
-              "feedback": "Not tonight. These games end in a pin, not a finish."
-            },
-            {
-              "text": "Putting your partner down hard",
-              "feedback": "Never. Everyone goes light."
-            }
-          ]
-        },
-        {
           "id": "s03-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false
           },
-          "question": "You're hand fighting and you've already got a grip on your partner's wrist. What's the smart next move?",
+          "question": "Tonight you scored touches on his hands and knees. Where did each touch start?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Use that grip to collect your touches.",
-              "feedback": "Right. Working from a grip you already hold is how you build trust step by step, not all at once.",
-              "correct": true
+              "text": "From a grip you already had.",
+              "correct": true,
+              "feedback": "Before you trust someone, you start small, from what you already have."
             },
             {
-              "text": "Drop the grip and look for a new one.",
-              "feedback": "Don't give up a grip you've already earned."
+              "text": "From a wild grab at anything.",
+              "feedback": "Wild grabs leave you open."
             },
             {
-              "text": "Freeze and hope he touches first.",
-              "feedback": "Freezing gives him the round. Keep working your grip."
+              "text": "From diving in close to him.",
+              "feedback": "Diving in skips reading him first."
             }
           ]
         }
@@ -163,7 +147,7 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from the hand fight, open guard, and a chest-to-chest pin. Staying guarded before you trust a partner is smart, and it works the same way before you trust a room. You get to decide how much guard to keep up. Noticing your own guard is the first step to choosing when to drop it."
+              "text": "Tonight you worked from the hand fight, open guard, and a chest-to-chest pin. Staying guarded before you trust a partner is smart, the same way it is before you trust a room. You get to decide how much guard to keep, and when to drop it."
             }
           ]
         },

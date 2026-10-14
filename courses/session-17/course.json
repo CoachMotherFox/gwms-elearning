@@ -32,7 +32,7 @@
       }
     ],
     "connection": "Staying in an uncomfortable pin instead of scrambling out is like staying in a hard conversation. Both take the same skill: putting up with discomfort instead of running from it.",
-    "takeaway": "Tonight you worked from a waist lock, side control, and turtle. Staying in an uncomfortable pin instead of scrambling out takes the same skill as staying in a hard conversation. You can choose to stay with discomfort instead of running from it. And when a situation is truly harmful, choosing to leave is smart too.",
+    "takeaway": "Tonight you worked from a waist lock, side control, and turtle. Staying in an uncomfortable pin instead of scrambling out takes the same skill as staying in a hard conversation. You can choose to stay with discomfort instead of running. Leaving something truly harmful is smart too.",
     "_source": "GWMS Curriculum Guide — Session 17 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -57,7 +57,11 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Waist Control Leg Stuffing Game"
+              "text": "Game 1: Standing"
+            },
+            {
+              "kind": "lead",
+              "text": "This is a takedown from behind, one leg."
             },
             {
               "kind": "list",
@@ -69,82 +73,62 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Guard Recovery with Passing Resistance Game"
+              "text": "Game 2: Guarded"
+            },
+            {
+              "kind": "lead",
+              "text": "This is getting your legs back in front."
             },
             {
               "kind": "list",
               "items": [
-                "The bottom player wins by recovering to any real guard position while staying mobile.",
-                "The top player wins by locking his hands."
+                "The bottom player wins by getting his legs back in front of the top player.",
+                "The top player wins by locking his hands around the bottom player."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Rear Hip Connection - Keep Belly Down"
+              "text": "Game 3: Pinned"
+            },
+            {
+              "kind": "lead",
+              "text": "This is keeping a balled up man flat."
             },
             {
               "kind": "list",
               "items": [
                 "The attacker holds as long as he keeps the defender belly down.",
-                "The defender wins by reaching a quad pod."
+                "The defender wins by getting up on his hands and feet with his knees off the mat."
               ]
-            }
-          ]
-        },
-        {
-          "id": "s17-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Rear Hip Connection - Keep Belly Down: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The attacker holds as long as he keeps the defender belly down.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
-            },
-            {
-              "text": "Overpowering your partner with force",
-              "feedback": "Staying calm beats forcing harder."
             }
           ]
         },
         {
           "id": "s17-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false
           },
-          "question": "Your partner has passed your legs, and staying close feels uncomfortable. What's the smart move?",
+          "question": "Tonight you held his waist from behind while he fought to turn. What took him down?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Stay close and work your legs back in.",
-              "feedback": "Right. Staying inside the discomfort is the same skill as staying in a hard conversation.",
-              "correct": true
+              "text": "Staying on your feet and blocking his leg.",
+              "correct": true,
+              "feedback": "Staying on your feet when it gets hard is how you stay present."
             },
             {
-              "text": "Scramble away to get space and reset.",
-              "feedback": "Scrambling out gives up your position for nothing."
+              "text": "Falling down to the mat with him.",
+              "feedback": "If you fall, he can turn and face you."
             },
             {
-              "text": "Freeze in place and wait for an opening.",
-              "feedback": "Freezing here loses ground. Stay close and work your legs back."
+              "text": "Letting go when he started turning.",
+              "feedback": "Letting go is quitting the round."
             }
           ]
         }
@@ -162,7 +146,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from a waist lock, side control, and turtle. Staying in an uncomfortable pin instead of scrambling out takes the same skill as staying in a hard conversation. You can choose to stay with discomfort instead of running from it. And when a situation is truly harmful, choosing to leave is smart too."
+              "text": "Tonight you worked from a waist lock, side control, and turtle. Staying in an uncomfortable pin instead of scrambling out takes the same skill as staying in a hard conversation. You can choose to stay with discomfort instead of running. Leaving something truly harmful is smart too."
             }
           ]
         },

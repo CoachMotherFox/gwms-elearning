@@ -31,7 +31,7 @@
       }
     ],
     "connection": "There is one exact thing you can do on the mat now that you could not before, and you can name it. Your growth off the mat works the same way. Not \"I am better,\" but \"I can do this now.\"",
-    "takeaway": "Tonight you worked from an underhook tie, half guard, and back control. There is one exact thing you can do now that you could not do before, and you can name it. Growth off the mat works the same way, not \"I am better\" but \"I can do this now.\" You get to name the exact thing you gained.",
+    "takeaway": "Tonight you worked from an underhook tie, half guard, and back control. There is one exact thing you can do now that you couldn't before, and you can name it. Growth off the mat works the same way. You get to name exactly what you gained.",
     "_source": "GWMS Curriculum Guide — Session 27 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -56,94 +56,78 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Underhook to Head, Waist, or Leg with Hip-Centric Win"
+              "text": "Game 1: Standing"
+            },
+            {
+              "kind": "lead",
+              "text": "This is locking his waist."
             },
             {
               "kind": "list",
               "items": [
-                "The underhook player wins by connecting to the overhook player's waist, directly or from his head or leg.",
-                "The overhook player wins by freeing a head or leg connection before the underhook player reaches his hips."
+                "The underhook player wins by locking his hands around the overhook player's waist.",
+                "The overhook player wins by freeing his head or leg before the underhook player reaches his hips."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Half Guard Opening Game"
+              "text": "Game 2: Guarded"
+            },
+            {
+              "kind": "lead",
+              "text": "This is freeing a trapped leg."
             },
             {
               "kind": "list",
               "items": [
-                "The top player wins by standing and touching both outsides of the bottom player's legs.",
-                "The bottom player wins by putting the top player on his butt and sitting up, or by getting to closed guard."
+                "The top player wins by standing, getting past his legs, and touching his shin to the bottom player's body on both sides.",
+                "The bottom player wins by putting the top player on his butt and sitting up, or locking his legs around him."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Chest-to-Back Position Maintenance"
+              "text": "Game 3: Pinned"
+            },
+            {
+              "kind": "lead",
+              "text": "This is staying on his back."
             },
             {
               "kind": "list",
               "items": [
-                "The top player wins by keeping control through the round.",
-                "The bottom player wins by guard recovery, reversal, or standing."
+                "The top player wins by staying stuck to his back with an arm under one elbow. If he escapes, reset.",
+                "The bottom player wins by getting his legs back in front of the top player, rolling him over, or standing up."
               ]
-            }
-          ]
-        },
-        {
-          "id": "s27-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Chest-to-Back Position Maintenance: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player wins by keeping control through the round.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
-            },
-            {
-              "text": "Hurting your partner because you can",
-              "feedback": "That is the one thing you never do."
             }
           ]
         },
         {
           "id": "s27-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false
           },
-          "question": "You're passing half guard, and you've already cleared your partner's feet. What's the smart move?",
+          "question": "Tonight you held his back with no hooks. What kept you there?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Clear the knees next, then work to the hips.",
-              "feedback": "Right. Clearing it in order is one exact thing you couldn't do before, and now you can.",
-              "correct": true
+              "text": "Staying stuck to him and under his elbow.",
+              "correct": true,
+              "feedback": "Growth is doing the same job with less help."
             },
             {
-              "text": "Skip ahead and reach straight for the hips.",
-              "feedback": "Skipping the order here usually costs you the pass."
+              "text": "Squeezing as hard as you can.",
+              "feedback": "Squeezing tires you out and doesn't keep you on."
             },
             {
-              "text": "Stop and reset back to the feet again.",
-              "feedback": "Resetting here wastes ground you've already cleared."
+              "text": "Waiting for him to stop moving.",
+              "feedback": "He won't stop, so stay with him."
             }
           ]
         }
@@ -161,7 +145,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from an underhook tie, half guard, and back control. There is one exact thing you can do now that you could not do before, and you can name it. Growth off the mat works the same way, not \"I am better\" but \"I can do this now.\" You get to name the exact thing you gained."
+              "text": "Tonight you worked from an underhook tie, half guard, and back control. There is one exact thing you can do now that you couldn't before, and you can name it. Growth off the mat works the same way. You get to name exactly what you gained."
             }
           ]
         },

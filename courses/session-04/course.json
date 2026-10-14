@@ -32,7 +32,7 @@
       }
     ],
     "connection": "Keeping your guard means keeping a boundary between you and the other person. The mask does the same job with people. Guard retention on the mat and the mask you wear are the same thing.",
-    "takeaway": "Tonight you worked from the hand fight, open guard, and riding position. Keeping your guard means keeping a boundary between you and another person, and a mask does that same job with people. You get to choose what your mask protects and when to use it. Naming your mask is the first step to owning it.",
+    "takeaway": "Tonight you worked from the hand fight, open guard, and riding position. Keeping your guard means keeping a boundary, and a mask does that same job with people. You get to choose what your mask protects, and naming it is the first step to owning it.",
     "_source": "GWMS Curriculum Guide — Session 4 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -57,7 +57,11 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Hand Fight to Underhook Game"
+              "text": "Game 1: Standing"
+            },
+            {
+              "kind": "lead",
+              "text": "This is a hand fight for the underhook."
             },
             {
               "kind": "list",
@@ -68,82 +72,62 @@
             {
               "kind": "heading",
               "level": 3,
-              "text": "Keep Feet Off — Belly Up Open Guard Introduction"
+              "text": "Game 2: Guarded"
+            },
+            {
+              "kind": "lead",
+              "text": "This is keeping his feet off you."
             },
             {
               "kind": "list",
               "items": [
                 "The bottom player wins when the top player's butt hits the mat and then his own back comes off the mat.",
-                "The top player holds as long as he keeps the bottom player down."
+                "The top player wins by keeping the bottom player on his back for 30 seconds."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Riding Bottom Position Game"
+              "text": "Game 3: Pinned"
+            },
+            {
+              "kind": "lead",
+              "text": "This is staying on top, hands and knees."
             },
             {
               "kind": "list",
               "items": [
-                "The top player holds as long as he keeps the bottom player broken down.",
+                "The top player holds as long as he keeps the bottom player flat on his side or belly.",
                 "The bottom player wins by standing up and turning to face the top player."
               ]
             }
           ]
         },
         {
-          "id": "s04-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Riding Bottom Position Game: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player holds as long as he keeps the bottom player broken down.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Submitting your partner",
-              "feedback": "Not tonight. These games end in a pin, not a finish."
-            },
-            {
-              "text": "Putting your partner down hard",
-              "feedback": "Never. Everyone goes light."
-            }
-          ]
-        },
-        {
           "id": "s04-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false
           },
-          "question": "You've already got two grips on your partner during the hand fight. What's the smart next move?",
+          "question": "Tonight you hand fought for the underhook. What did your hands go for?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Chain those two grips into the underhook.",
-              "feedback": "Right. Chaining your grips into the underhook is building toward something, not just performing for the room.",
-              "correct": true
+              "text": "His wrists, elbows, and head, on purpose.",
+              "correct": true,
+              "feedback": "Who you are when people watch shows in what you do on purpose."
             },
             {
-              "text": "Drop both grips and start the fight over.",
-              "feedback": "Don't reset a hand fight you're already winning."
+              "text": "Whatever part of him was closest.",
+              "feedback": "Closest is not the same as on purpose."
             },
             {
-              "text": "Hold the two grips and wait there.",
-              "feedback": "Holding still here stalls you. Keep chaining toward the underhook."
+              "text": "Nothing, until he grabbed you first.",
+              "feedback": "Waiting gives him the first grip."
             }
           ]
         }
@@ -161,7 +145,7 @@
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from the hand fight, open guard, and riding position. Keeping your guard means keeping a boundary between you and another person, and a mask does that same job with people. You get to choose what your mask protects and when to use it. Naming your mask is the first step to owning it."
+              "text": "Tonight you worked from the hand fight, open guard, and riding position. Keeping your guard means keeping a boundary, and a mask does that same job with people. You get to choose what your mask protects, and naming it is the first step to owning it."
             }
           ]
         },

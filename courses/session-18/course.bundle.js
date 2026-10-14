@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
       }
     ],
     "connection": "You can pin someone hard and still keep them safe. That is control of your own force. Your conflict off the mat lands on real people too, and the same control applies: honest friction, not harm.",
-    "takeaway": "Tonight you worked from an underhook tie, open guard, and a figure-four pin. You can hold someone hard and still keep them completely safe, and that control is yours to use on purpose. Your friction off the mat lands on real people too. You get to choose honest friction over harm, every time.",
+    "takeaway": "Tonight you worked from an underhook tie, open guard, and a figure-four pin. You can hold someone hard and still keep them safe, and that control is yours to use on purpose. Your friction off the mat lands on real people too. You get to choose honest friction over harm.",
     "_source": "GWMS Curriculum Guide — Session 18 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
@@ -59,7 +59,11 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Foot-to-Foot Contact with Overhook / Underhook"
+              "text": "Game 1: Standing"
+            },
+            {
+              "kind": "lead",
+              "text": "This is tripping him by blocking his foot."
             },
             {
               "kind": "list",
@@ -71,19 +75,27 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Seated Open Guard Game"
+              "text": "Game 2: Guarded"
+            },
+            {
+              "kind": "lead",
+              "text": "This is knocking him down from sitting."
             },
             {
               "kind": "list",
               "items": [
-                "The bottom player wins by standing up to connect at the top player's hips, or making his back touch the mat.",
+                "The bottom player wins by standing up to grab the top player's hips, or by putting the top player's back on the mat and standing.",
                 "The top player wins by touching his shin to the bottom player's knees or body."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Figure Four Grip Control Game"
+              "text": "Game 3: Pinned"
+            },
+            {
+              "kind": "lead",
+              "text": "This is holding one arm with both hands."
             },
             {
               "kind": "list",
@@ -95,58 +107,30 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
           ]
         },
         {
-          "id": "s18-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Figure Four Grip Control Game: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player holds as long as he keeps the grip.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
-            },
-            {
-              "text": "Overpowering your partner with force",
-              "feedback": "Staying calm beats forcing harder."
-            }
-          ]
-        },
-        {
           "id": "s18-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false
           },
-          "question": "You've got a figure-four grip locked from under your partner's elbow. What's the smart move?",
+          "question": "Tonight you tripped him from the overhook. What made him fall?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Keep the grip locked from under his elbow.",
-              "feedback": "Right. Holding it there is control without harm, honest friction instead of forcing something.",
-              "correct": true
+              "text": "Blocking his foot, then pulling.",
+              "correct": true,
+              "feedback": "Your friction lands on a real person, so use control, not force."
             },
             {
-              "text": "Slide the grip up onto his shoulder instead.",
-              "feedback": "Sliding up loses the grip you already built."
+              "text": "Kicking his leg out hard.",
+              "feedback": "Kicking hurts. Blocking moves him."
             },
             {
-              "text": "Loosen the grip to let him breathe easier.",
-              "feedback": "Loosening the grip gives the position away for nothing."
+              "text": "Shoving him straight back.",
+              "feedback": "Shoving just walks him backward."
             }
           ]
         }
@@ -164,7 +148,7 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
           "body": [
             {
               "kind": "lead",
-              "text": "Tonight you worked from an underhook tie, open guard, and a figure-four pin. You can hold someone hard and still keep them completely safe, and that control is yours to use on purpose. Your friction off the mat lands on real people too. You get to choose honest friction over harm, every time."
+              "text": "Tonight you worked from an underhook tie, open guard, and a figure-four pin. You can hold someone hard and still keep them safe, and that control is yours to use on purpose. Your friction off the mat lands on real people too. You get to choose honest friction over harm."
             }
           ]
         },

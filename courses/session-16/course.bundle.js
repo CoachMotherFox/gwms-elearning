@@ -59,7 +59,11 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Underhook Introduction Game"
+              "text": "Game 1: Standing"
+            },
+            {
+              "kind": "lead",
+              "text": "This is using an underhook for a leg."
             },
             {
               "kind": "list",
@@ -71,82 +75,62 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
             {
               "kind": "heading",
               "level": 3,
-              "text": "Post and Hook Destabilization Game"
+              "text": "Game 2: Guarded"
+            },
+            {
+              "kind": "lead",
+              "text": "This is knocking someone off balance, feet only."
             },
             {
               "kind": "list",
               "items": [
-                "The bottom player wins by putting the top player's hips on the floor using only posts and hooks.",
+                "The bottom player wins by putting the top player's hips on the floor using only his feet.",
                 "The top player wins by stopping the bottom player's win for 30 seconds. Then switch."
               ]
             },
             {
               "kind": "heading",
               "level": 3,
-              "text": "Riding Bottom Position Game"
+              "text": "Game 3: Pinned"
+            },
+            {
+              "kind": "lead",
+              "text": "This is staying on top, hands and knees."
             },
             {
               "kind": "list",
               "items": [
-                "The top player holds as long as he keeps the bottom player broken down.",
+                "The top player holds as long as he keeps the bottom player flat on his side or belly.",
                 "The bottom player wins by standing up and turning to face the top player."
               ]
             }
           ]
         },
         {
-          "id": "s16-check",
-          "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "How you win it",
-          "assessment": {
-            "role": "formative",
-            "scored": false
-          },
-          "question": "Riding Bottom Position Game: the top player's win?",
-          "select": "single",
-          "retry": true,
-          "options": [
-            {
-              "text": "The top player holds as long as he keeps the bottom player broken down.",
-              "correct": true,
-              "feedback": "That's it."
-            },
-            {
-              "text": "Holding the finish after your partner taps",
-              "feedback": "Never. Let go the instant he taps."
-            },
-            {
-              "text": "Overpowering your partner with force",
-              "feedback": "Staying calm beats forcing harder."
-            }
-          ]
-        },
-        {
           "id": "s16-concept",
           "type": "quiz",
-          "eyebrow": "On the mat",
-          "title": "What would you do?",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false
           },
-          "question": "You're riding your partner, and he starts fighting hard to stand up. What's the smart move?",
+          "question": "Tonight he pushed up hard to stand while you rode on top. What kept him down?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Block his hips down with knee and foot.",
-              "feedback": "Right. Staying calm and blocking beats forcing harder, the same way you handle pushback anywhere else.",
-              "correct": true
+              "text": "Blocking his hips with your knees and feet.",
+              "correct": true,
+              "feedback": "When someone pushes back, you answer with your body position, not force."
             },
             {
-              "text": "Force him down harder with your whole body.",
-              "feedback": "Forcing harder burns you out faster than it works."
+              "text": "Pushing back harder with your arms.",
+              "feedback": "Arms tire out before his legs do."
             },
             {
-              "text": "Back off and reset your position from scratch.",
-              "feedback": "Backing off gives up ground. Block with knee and foot instead."
+              "text": "Jumping off and starting over.",
+              "feedback": "Jumping off lets him stand up."
             }
           ]
         }
