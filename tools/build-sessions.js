@@ -232,7 +232,9 @@ function buildCourse(s, stage) {
     screenQuestion(s),
     s.golmest ? screenGolmestRecap(s) : screenGames(s)
   ];
-  if (s.golmest) today.push(screenCheck(s));
+  // Session 1 moved to the concept check with a bridge on October 14, 2026.
+  // screenCheck stays only as a fallback for orientation data without one.
+  if (s.golmest && !s.concept) today.push(screenCheck(s));
   if (s.concept) today.push(screenConcept(s));
 
   const close = [
