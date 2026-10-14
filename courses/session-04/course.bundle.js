@@ -114,14 +114,14 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight you hand fought for the underhook. What did your hands go for?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "His wrists, elbows, and head, on purpose.",
-              "correct": true,
-              "feedback": "Who you are when people watch shows in what you do on purpose."
+              "correct": true
             },
             {
               "text": "Whatever part of him was closest.",
@@ -131,7 +131,8 @@ window.GWMS_COURSE_BUNDLE["session-04"] =
               "text": "Nothing, until he grabbed you first.",
               "feedback": "Waiting gives him the first grip."
             }
-          ]
+          ],
+          "bridge": "Who you are when people watch shows in what you do on purpose."
         }
       ]
     },

@@ -115,14 +115,14 @@ window.GWMS_COURSE_BUNDLE["session-09"] =
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight he fought to pull his elbows in under you. What kept him down?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "Staying under at least one elbow.",
-              "correct": true,
-              "feedback": "Noticing the first crack is how you stop it from growing."
+              "correct": true
             },
             {
               "text": "Lying flat on him with all your weight.",
@@ -132,7 +132,8 @@ window.GWMS_COURSE_BUNDLE["session-09"] =
               "text": "Letting go to grab his head.",
               "feedback": "Letting go frees both elbows."
             }
-          ]
+          ],
+          "bridge": "Noticing the first crack is how you stop it from growing."
         }
       ]
     },

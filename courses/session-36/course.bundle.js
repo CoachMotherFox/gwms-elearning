@@ -113,14 +113,14 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight you played the same first game as your second night. What did your hands go for?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "His wrists and elbows, on purpose.",
-              "correct": true,
-              "feedback": "What you carry out the door is doing it on purpose."
+              "correct": true
             },
             {
               "text": "Anything they touched first.",
@@ -130,7 +130,8 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
               "text": "His head, to pull him down.",
               "feedback": "Pulling his head isn't this game."
             }
-          ]
+          ],
+          "bridge": "What you carry out the door is doing it on purpose."
         }
       ]
     },

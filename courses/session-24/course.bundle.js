@@ -114,14 +114,14 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight you trapped his arm with both of your hands. What kept it trapped?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "Keeping your arm under his elbow.",
-              "correct": true,
-              "feedback": "Holding it right takes steady work, and so does repair."
+              "correct": true
             },
             {
               "text": "Pulling his hand up toward his head.",
@@ -131,7 +131,8 @@ window.GWMS_COURSE_BUNDLE["session-24"] =
               "text": "Lying on his chest to rest.",
               "feedback": "Resting lets his elbow slip free."
             }
-          ]
+          ],
+          "bridge": "Holding it right takes steady work, and so does repair."
         }
       ]
     },

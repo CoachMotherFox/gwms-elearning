@@ -113,14 +113,14 @@
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight you held his waist from behind while he fought to turn. What took him down?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "Staying on your feet and blocking his leg.",
-              "correct": true,
-              "feedback": "Staying on your feet when it gets hard is how you stay present."
+              "correct": true
             },
             {
               "text": "Falling down to the mat with him.",
@@ -130,7 +130,8 @@
               "text": "Letting go when he started turning.",
               "feedback": "Letting go is quitting the round."
             }
-          ]
+          ],
+          "bridge": "Staying on your feet when it gets hard is how you stay present."
         }
       ]
     },

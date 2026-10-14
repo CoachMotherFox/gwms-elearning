@@ -114,14 +114,14 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight you fought for the upper body or legs. How did you score?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "Working from a grip you already had.",
-              "correct": true,
-              "feedback": "Starting from what you already have is how you help someone newer, too."
+              "correct": true
             },
             {
               "text": "Diving at his legs with no grip.",
@@ -131,7 +131,8 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
               "text": "Waiting for him to come to you.",
               "feedback": "Waiting gives him the first score."
             }
-          ]
+          ],
+          "bridge": "Starting from what you already have is how you help someone newer, too."
         }
       ]
     },

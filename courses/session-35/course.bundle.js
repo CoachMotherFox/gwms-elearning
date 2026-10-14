@@ -113,14 +113,14 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight you had to earn three touches before the lock. What earned them?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "Gripping his wrists and elbows on purpose.",
-              "correct": true,
-              "feedback": "Who you became is someone who earns it instead of grabbing."
+              "correct": true
             },
             {
               "text": "Grabbing anything you could reach.",
@@ -130,7 +130,8 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
               "text": "Rushing in for the lock early.",
               "feedback": "The lock only counts after three touches."
             }
-          ]
+          ],
+          "bridge": "Who you became is someone who earns it instead of grabbing."
         }
       ]
     },

@@ -114,14 +114,14 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight the hand fight ran long and you got tired. What did your hands need to do?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "Keep gripping wrists and elbows on purpose.",
-              "correct": true,
-              "feedback": "When you're tired, the real you shows in where your hands go."
+              "correct": true
             },
             {
               "text": "Grab anywhere just to hold on.",
@@ -131,7 +131,8 @@ window.GWMS_COURSE_BUNDLE["session-08"] =
               "text": "Drop down and rest for a second.",
               "feedback": "Resting in the middle gives him the leg."
             }
-          ]
+          ],
+          "bridge": "When you're tired, the real you shows in where your hands go."
         }
       ]
     },

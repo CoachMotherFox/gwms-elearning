@@ -113,14 +113,14 @@ window.GWMS_COURSE_BUNDLE["session-31"] =
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight you built a lock from behind, one step at a time. What came first?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "Your palm flat on his back.",
-              "correct": true,
-              "feedback": "What you leave behind is built one step at a time."
+              "correct": true
             },
             {
               "text": "Your hands locked right away.",
@@ -130,7 +130,8 @@ window.GWMS_COURSE_BUNDLE["session-31"] =
               "text": "Your legs wrapped around him.",
               "feedback": "This lock starts with your hand, not your legs."
             }
-          ]
+          ],
+          "bridge": "What you leave behind is built one step at a time."
         }
       ]
     },

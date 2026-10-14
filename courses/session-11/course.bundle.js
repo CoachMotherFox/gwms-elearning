@@ -114,14 +114,14 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight you needed three touches before you could wrap him up. What let you wrap him?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "Earning your three touches first.",
-              "correct": true,
-              "feedback": "What is hidden has to be earned, one touch at a time."
+              "correct": true
             },
             {
               "text": "Grabbing for the lock right away.",
@@ -131,7 +131,8 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
               "text": "Waiting for him to hold still.",
               "feedback": "He won't hold still for you."
             }
-          ]
+          ],
+          "bridge": "What is hidden has to be earned, one touch at a time."
         }
       ]
     },

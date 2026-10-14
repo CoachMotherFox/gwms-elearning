@@ -150,7 +150,7 @@
         }
         slide.options.forEach(function (o, i) {
           if (!o.text) err(where, 'Quiz option ' + (i + 1) + ' has no "text".');
-          if (!o.feedback) warn(where, 'Quiz option ' + (i + 1) + ' has no "feedback". Immediate, specific feedback is the point of a knowledge check.');
+          if (!o.feedback && !(o.correct && slide.bridge)) warn(where, 'Quiz option ' + (i + 1) + ' has no "feedback". Immediate, specific feedback is the point of a knowledge check.');
         });
       }
     }

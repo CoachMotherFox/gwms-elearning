@@ -115,14 +115,14 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight you kept a balled up partner belly down. What held him there?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "Blocking his knees and feet with yours.",
-              "correct": true,
-              "feedback": "The version of you that shows up here is the one you practice."
+              "correct": true
             },
             {
               "text": "Lying on him with all your weight.",
@@ -132,7 +132,8 @@ window.GWMS_COURSE_BUNDLE["session-05"] =
               "text": "Squeezing his waist as hard as you can.",
               "feedback": "Squeezing tires you out before he does."
             }
-          ]
+          ],
+          "bridge": "The version of you that shows up here is the one you practice."
         }
       ]
     },

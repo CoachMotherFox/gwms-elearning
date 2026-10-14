@@ -439,6 +439,11 @@
           : (revealAnswer
               ? (slide.revealText || 'The right answer is marked above, with the reasoning.')
               : (slide.incorrectText || 'Read the note under your choice, then try again.'));
+        // A bridge ties the lesson to the night's question. Every learner
+        // sees it once the answer is settled (right, or out of tries), so the
+        // ones who miss still get the connection. Held back on a first wrong
+        // try so it does not give the answer away.
+        if (slide.bridge && revealAnswer) text = slide.bridge;
 
         clear(feedbackHost).appendChild(
           el('div', { class: 'feedback ' + (isCorrect ? 'feedback--ok' : 'feedback--no') }, [
@@ -489,12 +494,18 @@
     isComplete: function (slide, progress) {
       var a = progress.answers[slide.id];
       if (!a) return false;
-      return slide.requireCorrect ? !!a.correct : true;
+      if (slide.requireCorrect) return !!a.correct;
+      // With a bridge, a first wrong try is not the end: the learner tries
+      // again, so everyone reaches the bridge before moving on.
+      if (slide.bridge && slide.retry !== false) {
+        return !!a.correct || (a.attempts || 0) >= (slide.maxAttempts || 2);
+      }
+      return true;
     },
     gateMessage: function (slide) {
-      return slide.requireCorrect
-        ? 'Answer this check correctly to continue.'
-        : 'Answer this check to continue.';
+      if (slide.requireCorrect) return 'Answer this check correctly to continue.';
+      if (slide.bridge && slide.retry !== false) return 'Try once more to continue.';
+      return 'Answer this check to continue.';
     }
   };
 

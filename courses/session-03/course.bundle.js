@@ -114,14 +114,14 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight you scored touches on his hands and knees. Where did each touch start?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "From a grip you already had.",
-              "correct": true,
-              "feedback": "Before you trust someone, you start small, from what you already have."
+              "correct": true
             },
             {
               "text": "From a wild grab at anything.",
@@ -131,7 +131,8 @@ window.GWMS_COURSE_BUNDLE["session-03"] =
               "text": "From diving in close to him.",
               "feedback": "Diving in skips reading him first."
             }
-          ]
+          ],
+          "bridge": "Before you trust someone, you start small, from what you already have."
         }
       ]
     },

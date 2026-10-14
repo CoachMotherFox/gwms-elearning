@@ -115,14 +115,14 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight one player tried to get close and one kept him out. What decided how close he got?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "Who controlled the hands and elbows.",
-              "correct": true,
-              "feedback": "You choose how much of someone you let in. It is not all or nothing."
+              "correct": true
             },
             {
               "text": "Whoever moved first won the round.",
@@ -132,7 +132,8 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
               "text": "Whoever wanted it more got through.",
               "feedback": "Wanting it more is not the same as controlling the hands and elbows."
             }
-          ]
+          ],
+          "bridge": "You choose how much of someone you let in. It is not all or nothing."
         }
       ]
     },

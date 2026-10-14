@@ -114,14 +114,14 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight you moved from his back to a hold on top. What did you keep the whole way?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "Your chest on his back.",
-              "correct": true,
-              "feedback": "The standard you set is what you keep doing, the whole way."
+              "correct": true
             },
             {
               "text": "Your legs locked around his waist.",
@@ -131,7 +131,8 @@ window.GWMS_COURSE_BUNDLE["session-32"] =
               "text": "Your weight off of him.",
               "feedback": "With your weight off, he turns away."
             }
-          ]
+          ],
+          "bridge": "The standard you set is what you keep doing, the whole way."
         }
       ]
     },

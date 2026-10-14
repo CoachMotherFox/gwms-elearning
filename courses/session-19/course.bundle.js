@@ -115,14 +115,14 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight he fought to pull his trapped arm free. What kept your grip?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "Getting back under his elbow fast.",
-              "correct": true,
-              "feedback": "When a connection breaks, you get it back right away."
+              "correct": true
             },
             {
               "text": "Squeezing his wrist as hard as you can.",
@@ -132,7 +132,8 @@ window.GWMS_COURSE_BUNDLE["session-19"] =
               "text": "Letting go and grabbing his head.",
               "feedback": "Letting go loses the arm."
             }
-          ]
+          ],
+          "bridge": "When a connection breaks, you get it back right away."
         }
       ]
     },

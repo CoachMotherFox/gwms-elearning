@@ -113,14 +113,14 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight you fought for two grips, then an underhook, then a lock. What made it work?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "Each grip on purpose, in order.",
-              "correct": true,
-              "feedback": "Every grip cost you work, and every one got you closer."
+              "correct": true
             },
             {
               "text": "Grabbing whatever was open.",
@@ -130,7 +130,8 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
               "text": "Going straight for the lock.",
               "feedback": "Skipping steps leaves the lock loose."
             }
-          ]
+          ],
+          "bridge": "Every grip cost you work, and every one got you closer."
         }
       ]
     },

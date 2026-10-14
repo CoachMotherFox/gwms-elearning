@@ -115,14 +115,14 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight you got around his legs to his side. What did you clear first?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "His feet, before anything else.",
-              "correct": true,
-              "feedback": "To see what is under the front, you get past the first layer."
+              "correct": true
             },
             {
               "text": "His head, so he couldn't see.",
@@ -132,7 +132,8 @@ window.GWMS_COURSE_BUNDLE["session-10"] =
               "text": "His arms, so he couldn't grab.",
               "feedback": "His feet can still push you off."
             }
-          ]
+          ],
+          "bridge": "To see what is under the front, you get past the first layer."
         }
       ]
     },

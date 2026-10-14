@@ -113,14 +113,14 @@
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight you tripped him from the overhook. What made him fall?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "Blocking his foot, then pulling.",
-              "correct": true,
-              "feedback": "Your friction lands on a real person, so use control, not force."
+              "correct": true
             },
             {
               "text": "Kicking his leg out hard.",
@@ -130,7 +130,8 @@
               "text": "Shoving him straight back.",
               "feedback": "Shoving just walks him backward."
             }
-          ]
+          ],
+          "bridge": "Your friction lands on a real person, so use control, not force."
         }
       ]
     },

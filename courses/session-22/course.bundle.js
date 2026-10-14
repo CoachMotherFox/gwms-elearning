@@ -114,14 +114,14 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
             "role": "formative",
             "scored": false
           },
+          "required": true,
           "question": "Tonight you moved his trapped arm toward the mat. How did you move it?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "Slowly, and you stopped at the touch.",
-              "correct": true,
-              "feedback": "A real apology is like that: slow, clean, and you stop when it is done."
+              "correct": true
             },
             {
               "text": "Fast, before he could fight it.",
@@ -131,7 +131,8 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
               "text": "Hard, until he couldn't move.",
               "feedback": "The win is the touch, not more."
             }
-          ]
+          ],
+          "bridge": "A real apology is like that: slow, clean, and you stop when it is done."
         }
       ]
     },
