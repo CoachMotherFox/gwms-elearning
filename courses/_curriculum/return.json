@@ -76,7 +76,7 @@
           "win": [
             {
               "role": "The attacker",
-              "text": "holds as long as his chest stays on the defender's back."
+              "text": "holds while his chest stays on the defender's back."
             },
             {
               "role": "The defender",
@@ -319,7 +319,7 @@
             }
           ],
           "reset": "Win it and the next round gets harder. Lose it and you run it again. Roles switch after every win.",
-          "whatItIs": "This is knocking a standing man down, sitting."
+          "whatItIs": "This is knocking him down from sitting."
         },
         {
           "skill": "Controlling",
@@ -330,7 +330,7 @@
           "win": [
             {
               "role": "The attacker",
-              "text": "holds as long as his chest stays on the defender's back."
+              "text": "holds while his chest stays on the defender's back."
             },
             {
               "role": "The defender",
@@ -346,12 +346,12 @@
       "takeaway": "Tonight you worked from the hand fight, open guard, and back control. Helping a newer partner instead of tapping him out is the first act of giving on the mat. Turning what you've learned toward someone who needs it works the same way. You get to decide when you're ready.",
       "concept": {
         "lesson": "Score from a grip you already have.",
-        "question": "Tonight you fought for the upper body or the legs. How did you score?",
+        "question": "Tonight you fought for the upper body or legs. How did you score?",
         "options": [
           {
             "text": "Working from a grip you already had.",
             "correct": true,
-            "feedback": "Someone newer needs what you've learned."
+            "feedback": "Starting from what you already have is how you help someone newer, too."
           },
           {
             "text": "Diving at his legs with no grip.",
@@ -416,7 +416,7 @@
           "win": [
             {
               "role": "The back player",
-              "text": "holds as long as he keeps his arms under the front player's elbows."
+              "text": "holds while he keeps his arms under the front player's elbows."
             },
             {
               "role": "The front player",
@@ -432,7 +432,7 @@
       "takeaway": "Tonight you worked from a front headlock, open guard, and back control. Letting a partner keep working instead of finishing him costs you the easy win. Giving something real off the mat costs something too: time, comfort, pride. You get to choose what you give, without giving away everything.",
       "concept": {
         "lesson": "Hold him from behind with your forearms under his elbows.",
-        "question": "Tonight you held him from behind, arms only. What kept him facing down?",
+        "question": "Tonight you held his back with no hooks. What kept him from turning to face you?",
         "options": [
           {
             "text": "Your forearms under his elbows.",
@@ -1000,7 +1000,7 @@
           "win": [
             {
               "role": "The attacker",
-              "text": "holds as long as his chest stays on the defender's back."
+              "text": "holds while his chest stays on the defender's back."
             },
             {
               "role": "The defender",

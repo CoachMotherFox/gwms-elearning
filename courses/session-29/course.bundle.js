@@ -99,7 +99,7 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
             {
               "kind": "list",
               "items": [
-                "The back player holds as long as he keeps his arms under the front player's elbows.",
+                "The back player holds while he keeps his arms under the front player's elbows.",
                 "The front player wins by turning to face the back player with both elbows free."
               ]
             }
@@ -114,7 +114,7 @@ window.GWMS_COURSE_BUNDLE["session-29"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight you held him from behind, arms only. What kept him facing down?",
+          "question": "Tonight you held his back with no hooks. What kept him from turning to face you?",
           "select": "single",
           "retry": true,
           "options": [

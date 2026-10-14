@@ -98,7 +98,7 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
             {
               "kind": "list",
               "items": [
-                "The attacker holds as long as his chest stays on the defender's back.",
+                "The attacker holds while his chest stays on the defender's back.",
                 "The defender wins by getting his back to the mat or turning face to face."
               ]
             }

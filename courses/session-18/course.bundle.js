@@ -79,7 +79,7 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
             },
             {
               "kind": "lead",
-              "text": "This is knocking a standing man down, sitting."
+              "text": "This is knocking him down from sitting."
             },
             {
               "kind": "list",

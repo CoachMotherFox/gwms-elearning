@@ -78,7 +78,7 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
             },
             {
               "kind": "lead",
-              "text": "This is knocking a standing man down, sitting."
+              "text": "This is knocking him down from sitting."
             },
             {
               "kind": "list",
@@ -99,7 +99,7 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
             {
               "kind": "list",
               "items": [
-                "The attacker holds as long as his chest stays on the defender's back.",
+                "The attacker holds while his chest stays on the defender's back.",
                 "The defender wins by getting his back to the mat or turning face to face."
               ]
             }
@@ -114,14 +114,14 @@ window.GWMS_COURSE_BUNDLE["session-28"] =
             "role": "formative",
             "scored": false
           },
-          "question": "Tonight you fought for the upper body or the legs. How did you score?",
+          "question": "Tonight you fought for the upper body or legs. How did you score?",
           "select": "single",
           "retry": true,
           "options": [
             {
               "text": "Working from a grip you already had.",
               "correct": true,
-              "feedback": "Someone newer needs what you've learned."
+              "feedback": "Starting from what you already have is how you help someone newer, too."
             },
             {
               "text": "Diving at his legs with no grip.",

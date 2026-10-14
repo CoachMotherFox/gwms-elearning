@@ -121,7 +121,7 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
             {
               "text": "Slowly, and you stopped at the touch.",
               "correct": true,
-              "feedback": "Meaning it looks slow and clean, on the mat and when you say sorry."
+              "feedback": "A real apology is like that: slow, clean, and you stop when it is done."
             },
             {
               "text": "Fast, before he could fight it.",
