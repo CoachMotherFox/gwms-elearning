@@ -79,32 +79,33 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
           ]
         },
         {
-          "id": "s01-check",
+          "id": "s01-concept",
           "type": "quiz",
-          "eyebrow": "Quick check",
-          "title": "What you just learned",
+          "eyebrow": "Tonight's lesson",
+          "title": "What made it work?",
           "assessment": {
             "role": "formative",
             "scored": false
           },
-          "question": "What ends a round right away?",
+          "required": true,
+          "question": "Tonight everyone agreed to the tap. What do you do the second your partner taps?",
           "select": "single",
           "retry": true,
           "options": [
             {
-              "text": "Tapping your partner, tapping the mat, or saying stop.",
-              "correct": true,
-              "feedback": "That's it, every session."
+              "text": "Let go and stop right away.",
+              "correct": true
             },
             {
-              "text": "Stop right away, don't wait.",
-              "feedback": "Too slow. Stop right away."
+              "text": "Finish the move first, then stop.",
+              "feedback": "Finishing first is how people get hurt. Stop on the tap."
             },
             {
-              "text": "Stop right away, don't wait.",
-              "feedback": "Too slow. Stop right away."
+              "text": "Wait for the coach to say stop.",
+              "feedback": "The tap is enough. You stop without being told."
             }
-          ]
+          ],
+          "bridge": "Everyone stops on the tap, every time. That is what makes this place safe."
         }
       ]
     },
