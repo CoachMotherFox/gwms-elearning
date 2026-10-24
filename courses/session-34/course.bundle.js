@@ -2,7 +2,7 @@ window.GWMS_COURSE_BUNDLE = window.GWMS_COURSE_BUNDLE || {};
 window.GWMS_COURSE_BUNDLE["session-34"] =
 {
   "id": "session-34",
-  "title": "Session 34 — Celebration",
+  "title": "Session 34: Celebration",
   "lang": "en",
   "rightsHolder": "Jamey Phoenix Bethea, Conceptual Combat Academy",
   "meta": {
@@ -12,7 +12,7 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
     "week": 12,
     "theme": "Celebration",
     "neighborhood": "Back Pin",
-    "block": "Block 4 — Cleanup, eLearning, IRF",
+    "block": "Block 4: Cleanup, eLearning, IRF",
     "casel": [
       "Responsible Decision-Making"
     ],
@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
     ],
     "connection": "Twelve weeks of getting tapped, cracked, and rebuilt cost something and gave something. Rolling now, you can feel both in your body. The honest ledger of what this cost and what you got is the first step of the return.",
     "takeaway": "Tonight you worked from the hand fight, open guard, and back control. Twelve weeks of getting tapped and rebuilt cost something, and gave something too. You feel both in your body when you roll now. You get to hold the cost and the gain together, without losing either one.",
-    "_source": "GWMS Curriculum Guide — Session 34 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
+    "_source": "GWMS Curriculum Guide, Session 34 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
@@ -190,7 +190,7 @@ window.GWMS_COURSE_BUNDLE["session-34"] =
           "sendLabel": "Send it",
           "reflectionFrom": "s34-reflection",
           "body": [],
-          "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
+          "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json; see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]
     }

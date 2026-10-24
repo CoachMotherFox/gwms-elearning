@@ -2,7 +2,7 @@ window.GWMS_COURSE_BUNDLE = window.GWMS_COURSE_BUNDLE || {};
 window.GWMS_COURSE_BUNDLE["session-31"] =
 {
   "id": "session-31",
-  "title": "Session 31 — Legacy",
+  "title": "Session 31: Legacy",
   "lang": "en",
   "rightsHolder": "Jamey Phoenix Bethea, Conceptual Combat Academy",
   "meta": {
@@ -12,7 +12,7 @@ window.GWMS_COURSE_BUNDLE["session-31"] =
     "week": 11,
     "theme": "Legacy",
     "neighborhood": "Back Pin",
-    "block": "Block 4 — Cleanup, eLearning, IRF",
+    "block": "Block 4: Cleanup, eLearning, IRF",
     "casel": [
       "Responsible Decision-Making"
     ],
@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-31"] =
     ],
     "connection": "The finish is the sharpest power in the system. How you use it, controlled, releasing on the tap, is what people remember about rolling with you. What you leave behind in life is built the same way, out of how you treat people when you hold the power.",
     "takeaway": "Tonight you worked from the hand fight, open guard, and back control. A finish gives you real power. Letting go the second he taps is what people remember. Your legacy off the mat works the same way, built from how you treat people when you have the upper hand.",
-    "_source": "GWMS Curriculum Guide — Session 31 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
+    "_source": "GWMS Curriculum Guide, Session 31 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
@@ -190,7 +190,7 @@ window.GWMS_COURSE_BUNDLE["session-31"] =
           "sendLabel": "Send it",
           "reflectionFrom": "s31-reflection",
           "body": [],
-          "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
+          "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json; see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]
     }

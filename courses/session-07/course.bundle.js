@@ -2,7 +2,7 @@ window.GWMS_COURSE_BUNDLE = window.GWMS_COURSE_BUNDLE || {};
 window.GWMS_COURSE_BUNDLE["session-07"] =
 {
   "id": "session-07",
-  "title": "Session 7 — Crack",
+  "title": "Session 7: Crack",
   "lang": "en",
   "rightsHolder": "Jamey Phoenix Bethea, Conceptual Combat Academy",
   "meta": {
@@ -12,7 +12,7 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
     "week": 3,
     "theme": "Crack",
     "neighborhood": "The Paths",
-    "block": "Block 4 — Cleanup, eLearning, IRF",
+    "block": "Block 4: Cleanup, eLearning, IRF",
     "casel": [
       "Self-Awareness",
       "Self-Management"
@@ -35,7 +35,7 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
     ],
     "connection": "When your guard gets passed, the mask cracks and something real shows. Getting passed on the mat and cracking under pressure are the same moment. You feel it in your body first.",
     "takeaway": "Tonight you worked from a single leg, closed guard, and referee position. When your guard gets passed, something real slips out from under the mask. That crack is not failure, it is information. You get to notice what shows up and decide what to do with it.",
-    "_source": "GWMS Curriculum Guide — Session 7 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
+    "_source": "GWMS Curriculum Guide, Session 7 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
@@ -192,7 +192,7 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
           "sendLabel": "Send it",
           "reflectionFrom": "s07-reflection",
           "body": [],
-          "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
+          "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json; see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]
     }

@@ -2,7 +2,7 @@ window.GWMS_COURSE_BUNDLE = window.GWMS_COURSE_BUNDLE || {};
 window.GWMS_COURSE_BUNDLE["session-26"] =
 {
   "id": "session-26",
-  "title": "Session 26 — Emergence",
+  "title": "Session 26: Emergence",
   "lang": "en",
   "rightsHolder": "Jamey Phoenix Bethea, Conceptual Combat Academy",
   "meta": {
@@ -12,7 +12,7 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
     "week": 9,
     "theme": "Emergence",
     "neighborhood": "Back Pin",
-    "block": "Block 4 — Cleanup, eLearning, IRF",
+    "block": "Block 4: Cleanup, eLearning, IRF",
     "casel": [
       "Responsible Decision-Making"
     ],
@@ -34,7 +34,7 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
     ],
     "connection": "A change that only works when it is easy is not a real change yet. Holding the back against a fighting partner puts it to the test. Who you have become gets proven the same way, by whether it holds up when things get hard.",
     "takeaway": "Tonight you worked from a single leg, open guard, and back control. A change that's only easy isn't real yet, and holding the back against a fighting partner tests it. Who you've become gets tested the same way, when things get hard. You get to trust it once it holds.",
-    "_source": "GWMS Curriculum Guide — Session 26 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
+    "_source": "GWMS Curriculum Guide, Session 26 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
@@ -191,7 +191,7 @@ window.GWMS_COURSE_BUNDLE["session-26"] =
           "sendLabel": "Send it",
           "reflectionFrom": "s26-reflection",
           "body": [],
-          "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
+          "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json; see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]
     }

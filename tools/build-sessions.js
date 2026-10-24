@@ -52,7 +52,12 @@ function pad(n) { return String(n).padStart(2, '0'); }
    parenthetical. Everything else about a KB title, including any dash it
    carries, is kept word for word. */
 function gameTitle(name) {
-  return String(name).replace(/\s*\([^()]*\)\s*$/, '').trim();
+  // The KB titles use em and en dashes; the summary is shown in the engine's
+  // "All sessions" list, so they become colons there.
+  return String(name)
+    .replace(/\s*\([^()]*\)\s*$/, '')
+    .replace(/\s*[–—]\s*/g, ': ')
+    .trim();
 }
 
 /* ------------------------------------------------------------------ screens
@@ -221,7 +226,7 @@ function screenIRF(s, isLast) {
     sendLabel: 'Send it',
     reflectionFrom: `s${pad(s.n)}-reflection`,
     body: isLast ? [{ kind: 'callout', label: 'Last session', text: 'That is all 36.' }] : [],
-    _note: 'Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device.'
+    _note: 'Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json; see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device.'
   };
 }
 
@@ -250,7 +255,7 @@ function buildCourse(s, stage) {
 
   const course = {
     id: `session-${pad(s.n)}`,
-    title: `Session ${s.n} — ${s.theme}`,
+    title: `Session ${s.n}: ${s.theme}`,
     lang: 'en',
     rightsHolder: RIGHTS,
     meta: {
@@ -260,14 +265,14 @@ function buildCourse(s, stage) {
       week: s.week,
       theme: s.theme,
       neighborhood: stage.neighborhood,
-      block: 'Block 4 — Cleanup, eLearning, IRF',
+      block: 'Block 4: Cleanup, eLearning, IRF',
       casel: stage.casel,
       bloom: stage.bloom,
       probingQuestion: s.probingQuestion,
       games: s.golmest ? null : s.games.map((g) => ({ skill: g.skill, title: g.title })),
       connection: s.connection,
       takeaway: s.takeaway,
-      _source: `GWMS Curriculum Guide — Session ${s.n} Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions.`
+      _source: `GWMS Curriculum Guide, Session ${s.n} Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions.`
     },
     _generated: 'Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.',
     scenes
@@ -309,7 +314,7 @@ for (const file of stageFiles) {
     const summaryGame = s.golmest ? 'Orientation night, GOLMEST.' : `Games: ${s.games.map((g) => gameTitle(g.title)).join(', ')}.`;
     index.courses.push({
       id: course.id,
-      title: `${course.title} — ${stage.name}`,
+      title: `${course.title} (${stage.name})`,
       summary: `Week ${s.week}, ${s.theme}. “${s.probingQuestion}” ${summaryGame}`
     });
     written += 1;
@@ -321,7 +326,7 @@ for (const file of stageFiles) {
 if (fs.existsSync(path.join(COURSES, 'engine-demo', 'course.json'))) {
   index.courses.push({
     id: 'engine-demo',
-    title: 'Engine demo — every slide type',
+    title: 'Engine demo: every slide type',
     summary: 'Not course content. Exercises every slide type and assessment strategy.'
   });
 }

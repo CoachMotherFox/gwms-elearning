@@ -2,7 +2,7 @@ window.GWMS_COURSE_BUNDLE = window.GWMS_COURSE_BUNDLE || {};
 window.GWMS_COURSE_BUNDLE["session-16"] =
 {
   "id": "session-16",
-  "title": "Session 16 — Friction",
+  "title": "Session 16: Friction",
   "lang": "en",
   "rightsHolder": "Jamey Phoenix Bethea, Conceptual Combat Academy",
   "meta": {
@@ -12,7 +12,7 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
     "week": 6,
     "theme": "Friction",
     "neighborhood": "Chest Pin",
-    "block": "Block 4 — Cleanup, eLearning, IRF",
+    "block": "Block 4: Cleanup, eLearning, IRF",
     "casel": [
       "Social Awareness",
       "Relationship Skills"
@@ -35,7 +35,7 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
     ],
     "connection": "A partner resisting the pin is pushback made physical. What you do when they fight the pin is usually what you do when people push back in life. Both reward staying calm and adjusting over forcing harder.",
     "takeaway": "Tonight you worked from an underhook tie, open guard, and riding position. A partner fighting your pin is pushback made physical, and staying calm beats forcing harder every time. That is usually true with people too. You get to choose your response to pushback instead of reacting on reflex.",
-    "_source": "GWMS Curriculum Guide — Session 16 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
+    "_source": "GWMS Curriculum Guide, Session 16 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
@@ -192,7 +192,7 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
           "sendLabel": "Send it",
           "reflectionFrom": "s16-reflection",
           "body": [],
-          "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
+          "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json; see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]
     }

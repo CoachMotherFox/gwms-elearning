@@ -1,6 +1,6 @@
 {
   "id": "session-14",
-  "title": "Session 14 — Contact",
+  "title": "Session 14: Contact",
   "lang": "en",
   "rightsHolder": "Jamey Phoenix Bethea, Conceptual Combat Academy",
   "meta": {
@@ -10,7 +10,7 @@
     "week": 5,
     "theme": "Contact",
     "neighborhood": "Chest Pin",
-    "block": "Block 4 — Cleanup, eLearning, IRF",
+    "block": "Block 4: Cleanup, eLearning, IRF",
     "casel": [
       "Social Awareness",
       "Relationship Skills"
@@ -33,7 +33,7 @@
     ],
     "connection": "Keeping a pin means feeling your partner and adjusting to them, not clamping down and ignoring them. Letting someone in works the same way. You hold the connection by reading the other person, not by shutting them out and pushing through alone.",
     "takeaway": "Tonight you worked from the hand fight, closed guard, and a chest-to-chest pin. Keeping a pin means feeling your partner and adjusting, not clamping down and ignoring him. You can turn that same dial with people, instead of shutting them out. Letting someone in is a choice you make.",
-    "_source": "GWMS Curriculum Guide — Session 14 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
+    "_source": "GWMS Curriculum Guide, Session 14 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
@@ -190,7 +190,7 @@
           "sendLabel": "Send it",
           "reflectionFrom": "s14-reflection",
           "body": [],
-          "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
+          "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json; see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]
     }

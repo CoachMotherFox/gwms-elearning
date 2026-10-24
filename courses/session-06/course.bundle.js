@@ -2,7 +2,7 @@ window.GWMS_COURSE_BUNDLE = window.GWMS_COURSE_BUNDLE || {};
 window.GWMS_COURSE_BUNDLE["session-06"] =
 {
   "id": "session-06",
-  "title": "Session 6 — Mask",
+  "title": "Session 6: Mask",
   "lang": "en",
   "rightsHolder": "Jamey Phoenix Bethea, Conceptual Combat Academy",
   "meta": {
@@ -12,7 +12,7 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
     "week": 2,
     "theme": "Mask",
     "neighborhood": "The Paths",
-    "block": "Block 4 — Cleanup, eLearning, IRF",
+    "block": "Block 4: Cleanup, eLearning, IRF",
     "casel": [
       "Self-Awareness",
       "Self-Management"
@@ -35,7 +35,7 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
     ],
     "connection": "Your guard protects the space behind your legs. Your mask protects something too. Naming what the guard defends is the same as naming what the mask hides.",
     "takeaway": "Tonight you worked from the hand fight, open guard, and mount. Your guard protects your legs, and your mask protects something in you. Naming what your mask guards is the same skill as naming what a guard defends. You get to use your mask on purpose.",
-    "_source": "GWMS Curriculum Guide — Session 6 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
+    "_source": "GWMS Curriculum Guide, Session 6 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
@@ -192,7 +192,7 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
           "sendLabel": "Send it",
           "reflectionFrom": "s06-reflection",
           "body": [],
-          "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
+          "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json; see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]
     }

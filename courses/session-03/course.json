@@ -1,6 +1,6 @@
 {
   "id": "session-03",
-  "title": "Session 3 — Arrival",
+  "title": "Session 3: Arrival",
   "lang": "en",
   "rightsHolder": "Jamey Phoenix Bethea, Conceptual Combat Academy",
   "meta": {
@@ -10,7 +10,7 @@
     "week": 1,
     "theme": "Arrival",
     "neighborhood": "The Paths",
-    "block": "Block 4 — Cleanup, eLearning, IRF",
+    "block": "Block 4: Cleanup, eLearning, IRF",
     "casel": [
       "Self-Awareness",
       "Self-Management"
@@ -33,7 +33,7 @@
     ],
     "connection": "Staying safe and guarded on the mat before you trust a partner is the same guard you use before you trust a room. Both are smart. Naming it is the work.",
     "takeaway": "Tonight you worked from the hand fight, open guard, and a chest-to-chest pin. Staying guarded before you trust a partner is smart, the same way it is before you trust a room. You get to decide how much guard to keep, and when to drop it.",
-    "_source": "GWMS Curriculum Guide — Session 3 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
+    "_source": "GWMS Curriculum Guide, Session 3 Grappling Class Guide and Lesson and Intervention Guide (Unit 7), GWMS Game Rulings, GWMS 90-Minute Class: Locked Decisions."
   },
   "_generated": "Written by tools/build-sessions.js from courses/_curriculum/. Re-running overwrites this file.",
   "scenes": [
@@ -189,7 +189,7 @@
           "sendLabel": "Send it",
           "reflectionFrom": "s03-reflection",
           "body": [],
-          "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json — see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
+          "_note": "Unit 4: the IRF is the last screen of the module and no student leaves before completing it. Where this lands is set once in courses/_curriculum/irf.json; see docs/IRF-BACKEND.md. With no destination configured the screen still works and the answers stay on the device."
         }
       ]
     }

@@ -2,7 +2,7 @@ window.GWMS_COURSE_BUNDLE = window.GWMS_COURSE_BUNDLE || {};
 window.GWMS_COURSE_BUNDLE["engine-demo"] =
 {
   "id": "engine-demo",
-  "title": "Engine demo — every slide type",
+  "title": "Engine demo: every slide type",
   "lang": "en",
   "rightsHolder": "Grappling With My Self (GWMS)",
 
