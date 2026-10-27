@@ -86,7 +86,7 @@ A one-off course is a folder with a hand-written `course.json`. Run `node tools/
 ```json
 {
   "id": "session-02",
-  "title": "Session 2 — …",
+  "title": "Session 2: …",
   "lang": "en",
   "rightsHolder": "Grappling With My Self (GWMS)",
   "meta": {

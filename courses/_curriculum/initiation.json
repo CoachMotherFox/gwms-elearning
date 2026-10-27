@@ -17,17 +17,7 @@
     ],
     "grapplingTlo": "By the end of the Initiation, participants will apply chest-pin control and its owned finishes to make contact, hold it under resistance, and reset cleanly after a break, releasing on every tap.",
     "caselTlo": "By the end of the Initiation, participants will apply social awareness and relationship skills to make real contact with others, tolerate friction, own their part in a rupture, and attempt repair.",
-    "connection": "Chest-to-chest contact on the mat is like contact with people. Friction on the mat is like friction with people. A break on the mat is like a rupture between people. A reset on the mat is like repair between people. The Initiation tests the real you against other people.",
-    "wrongAnswers": [
-      {
-        "text": "Holding the finish after your partner taps",
-        "feedback": "Let go the instant he taps."
-      },
-      {
-        "text": "Overpowering your partner with force",
-        "feedback": "Staying calm beats forcing harder."
-      }
-    ]
+    "connection": "Chest-to-chest contact on the mat is like contact with people. Friction on the mat is like friction with people. A break on the mat is like a rupture between people. A reset on the mat is like repair between people. The Initiation tests the real you against other people."
   },
   "sessions": [
     {
