@@ -16,17 +16,7 @@
     ],
     "grapplingTlo": "By the end of the Return, participants will apply and integrate back-pin control and finishing, holding total control without harm, and analyze the distance traveled since Session 1.",
     "caselTlo": "By the end of the Return, participants will apply responsible decision-making to name what changed, contribute to others, set a standard for who comes next, and choose what to carry forward, analyzing the cost and worth of those choices.",
-    "connection": "Total control, plus the choice not to hurt someone, is the heart of the whole program. Now you carry that choice out the door.",
-    "wrongAnswers": [
-      {
-        "text": "Holding the finish after your partner taps",
-        "feedback": "Let go the instant he taps."
-      },
-      {
-        "text": "Hurting your partner because you can",
-        "feedback": "That is the one thing you never do."
-      }
-    ]
+    "connection": "Total control, plus the choice not to hurt someone, is the heart of the whole program. Now you carry that choice out the door."
   },
   "sessions": [
     {
@@ -288,18 +278,18 @@
           "skill": "Entering",
           "title": "Upper vs Lower Body Division Game — Open Hand Connections",
           "start": "Both players stand facing each other, hand fighting range. One is the upper body player, one is the lower body player. Open hands only.",
-          "text": "Upper body player: stay between, outside, or under your partner's arms. Get an underhook, or make his hands touch the mat. You may not touch his legs. Lower body player: touch only the head, hands, and elbows to move them, then touch anywhere behind the leg. You may not go under the arms. Whoever gets there first wins, then you switch roles.",
+          "text": "Upper body player: stay between, outside, or under your partner's arms. Slide an arm under his armpit with your hand on his back, or push his head or arms down until his hands touch the mat. Each one is a score. You may not touch his legs. Lower body player: push his hands, elbows, or head out of the way, then touch behind his knee or thigh, or push his hands to the mat. Each one is a score. You may not go under his arms. Both keep scoring all round, then switch jobs.",
           "win": [
             {
               "role": "The upper body player",
-              "text": "wins with an underhook on the lower body player, or by pushing his hands to the mat."
+              "text": "scores with an arm under his armpit, hand on his back, or by pushing his hands to the mat."
             },
             {
               "role": "The lower body player",
-              "text": "wins with a touch behind the upper body player's leg, or by pushing his hands to the mat."
+              "text": "scores by touching the back of his leg, or by pushing his hands to the mat. Both keep scoring all round."
             }
           ],
-          "reset": "Whoever wins goes first next time, and you switch jobs, the upper body player becoming the lower body player. Then you run it again.",
+          "reset": "No reset. Both keep scoring all round. When time is up, switch jobs, the upper body player becoming the lower body player.",
           "whatItIs": "This is fighting for upper body or legs."
         },
         {
