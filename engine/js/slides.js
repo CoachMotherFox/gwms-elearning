@@ -341,6 +341,69 @@
     isComplete: function (slide, progress) { return revealsComplete(slide, progress); }
   };
 
+  /* ---- shared by quiz, order and match ----
+     One check per session, three ways to answer it. Attempts, the retry
+     rule, the bridge, the feedback box, the saved answer, and the gate are
+     the same for all three, so they live here. settleCheck returns
+     revealAnswer: true once the answer is settled (right, no retry, or out
+     of tries), which is when the caller shows the correct answer on its own
+     controls. ---------------------------------------------------------- */
+  function settleCheck(slide, ctx, host, o) {
+    var attempts = ((ctx.progress.answers[slide.id] || {}).attempts || 0) +
+      (o.state === 'restore' ? 0 : 1);
+    var maxAttempts = slide.maxAttempts || 2;
+
+    // Giving the answer away on the first wrong attempt makes "Try again"
+    // pointless. Hold the correct answer back until they get it or run out
+    // of attempts.
+    var revealAnswer = o.isCorrect || slide.retry === false || attempts >= maxAttempts;
+
+    var head = o.isCorrect ? (slide.correctHead || 'That’s it.') : (slide.incorrectHead || 'Not quite.');
+    var text = o.isCorrect
+      ? (slide.correctText || 'Move on when you’re ready.')
+      : (revealAnswer
+          ? (slide.revealText || o.revealText)
+          : (slide.incorrectText || o.wrongText));
+    // A bridge ties the lesson to the night's question. Every learner sees
+    // it once the answer is settled (right, or out of tries), so the ones
+    // who miss still get the connection. Held back on a first wrong try so
+    // it does not give the answer away.
+    if (slide.bridge && revealAnswer) text = slide.bridge;
+
+    clear(host).appendChild(
+      el('div', { class: 'feedback ' + (o.isCorrect ? 'feedback--ok' : 'feedback--no') }, [
+        el('p.feedback__head', { text: head }),
+        el('p', {}, U.inline(text))
+      ]));
+
+    ctx.progress.answers[slide.id] = { selected: o.selected, correct: o.isCorrect, attempts: attempts };
+    ctx.save();
+    ctx.refreshGate();
+
+    if (o.state !== 'restore') {
+      U.announce((o.isCorrect ? 'Correct. ' : 'Incorrect. ') + text, 'assertive');
+    }
+    return revealAnswer;
+  }
+
+  function checkComplete(slide, progress) {
+    var a = progress.answers[slide.id];
+    if (!a) return false;
+    if (slide.requireCorrect) return !!a.correct;
+    // With a bridge, a first wrong try is not the end: the learner tries
+    // again, so everyone reaches the bridge before moving on.
+    if (slide.bridge && slide.retry !== false) {
+      return !!a.correct || (a.attempts || 0) >= (slide.maxAttempts || 2);
+    }
+    return true;
+  }
+
+  function checkGate(slide) {
+    if (slide.requireCorrect) return 'Answer this check correctly to continue.';
+    if (slide.bridge && slide.retry !== false) return 'Try once more to continue.';
+    return 'Answer this check to continue.';
+  }
+
   /* ---- quiz / knowledge check ---- */
   TYPES.quiz = {
     label: 'Knowledge check',
@@ -409,15 +472,16 @@
         var isCorrect = chosen.length === correctIdx.length &&
           chosen.every(function (x) { return x.opt.correct; });
 
-        var attempts = ((ctx.progress.answers[slide.id] || {}).attempts || 0) +
-          (state === 'restore' ? 0 : 1);
-        var maxAttempts = slide.maxAttempts || 2;
+        var revealAnswer = settleCheck(slide, ctx, feedbackHost, {
+          isCorrect: isCorrect,
+          state: state,
+          selected: chosen.map(function (x) { return x.index; }),
+          wrongText: 'Read the note under your choice, then try again.',
+          revealText: 'The right answer is marked above, with the reasoning.'
+        });
 
-        // Giving the answer away on the first wrong attempt makes "Try again"
-        // pointless. Show only the reasoning for what they picked, and hold the
-        // correct option back until they get it or run out of attempts.
-        var revealAnswer = isCorrect || slide.retry === false || attempts >= maxAttempts;
-
+        // Show only the reasoning for what they picked; the correct option is
+        // held back until the answer is settled.
         inputs.forEach(function (x) {
           x.input.disabled = true;
           var picked = x.input.checked;
@@ -433,38 +497,8 @@
           }
         });
 
-        var head = isCorrect ? (slide.correctHead || 'That’s it.') : (slide.incorrectHead || 'Not quite.');
-        var text = isCorrect
-          ? (slide.correctText || 'Move on when you’re ready.')
-          : (revealAnswer
-              ? (slide.revealText || 'The right answer is marked above, with the reasoning.')
-              : (slide.incorrectText || 'Read the note under your choice, then try again.'));
-        // A bridge ties the lesson to the night's question. Every learner
-        // sees it once the answer is settled (right, or out of tries), so the
-        // ones who miss still get the connection. Held back on a first wrong
-        // try so it does not give the answer away.
-        if (slide.bridge && revealAnswer) text = slide.bridge;
-
-        clear(feedbackHost).appendChild(
-          el('div', { class: 'feedback ' + (isCorrect ? 'feedback--ok' : 'feedback--no') }, [
-            el('p.feedback__head', { text: head }),
-            el('p', {}, U.inline(text))
-          ]));
-
         submitBtn.hidden = true;
         retryBtn.hidden = revealAnswer;
-
-        ctx.progress.answers[slide.id] = {
-          selected: chosen.map(function (x) { return x.index; }),
-          correct: isCorrect,
-          attempts: attempts
-        };
-        ctx.save();
-        ctx.refreshGate();
-
-        if (state !== 'restore') {
-          U.announce((isCorrect ? 'Correct. ' : 'Incorrect. ') + text, 'assertive');
-        }
       }
 
       submitBtn.addEventListener('click', function () { mark('submit'); });
@@ -491,22 +525,303 @@
 
       return section;
     },
-    isComplete: function (slide, progress) {
-      var a = progress.answers[slide.id];
-      if (!a) return false;
-      if (slide.requireCorrect) return !!a.correct;
-      // With a bridge, a first wrong try is not the end: the learner tries
-      // again, so everyone reaches the bridge before moving on.
-      if (slide.bridge && slide.retry !== false) {
-        return !!a.correct || (a.attempts || 0) >= (slide.maxAttempts || 2);
+    isComplete: checkComplete,
+    gateMessage: checkGate
+  };
+
+  /* ---- order (tap the steps in the order they happen) ----
+     Tap-only on purpose: drag and drop fails on a phone with cold hands and
+     fails keyboard and screen-reader use outright. Each step is a button.
+     Tapping gives it the next number; tapping a numbered step takes it
+     back. The steps are shuffled with the same seeded shuffle the quiz
+     uses, so a saved answer restores onto the right step. --------------- */
+  TYPES.order = {
+    label: 'Put in order',
+    body: TYPES['text-image'].body,
+    interactive: function (slide, ctx) {
+      var name = uid('ord');
+      var saved = ctx.progress.answers[slide.id] || null;
+      var section = el('section.assess', { 'aria-labelledby': name + '-q' });
+      section.appendChild(el('p.assess__kind', { text: 'Put in order' }));
+      section.appendChild(el('p.assess__q', { id: name + '-q' }, U.inline(slide.question || '')));
+      section.appendChild(el('p.reflect__hint', {},
+        U.inline(slide.hint || 'Tap the steps in order. Tap again to undo.')));
+
+      // items[i].at is where that step belongs (0-based). Display is shuffled.
+      var items = U.seededShuffle((slide.items || []).map(function (it, i) {
+        return { text: typeof it === 'string' ? it : (it.text || ''), at: i };
+      }), slide.id);
+
+      var picked = [];   // display indices, in the order they were tapped
+      var rows = [];
+      var list = el('ul.order');
+
+      items.forEach(function (it, i) {
+        var num = el('span.order__num', { 'aria-hidden': 'true' });
+        var mk = el('span.check__mark', { 'aria-hidden': 'true', hidden: true });
+        var fix = el('span.order__fix', { hidden: true });
+        var btn = el('button.order__btn', { type: 'button', 'aria-pressed': 'false' }, [
+          num,
+          el('span.order__text', {}, [mk, U.inline(it.text), fix])
+        ]);
+        var li = el('li.order__item', {}, btn);
+        btn.addEventListener('click', function () {
+          var pos = picked.indexOf(i);
+          if (pos === -1) {
+            picked.push(i);
+            U.announce('Step ' + picked.length + ': ' + it.text);
+          } else {
+            picked.splice(pos, 1);
+            U.announce('Took back: ' + it.text);
+          }
+          paint();
+        });
+        rows.push({ btn: btn, num: num, mk: mk, fix: fix, li: li, item: it });
+        list.appendChild(li);
+      });
+      section.appendChild(list);
+
+      var feedbackHost = el('div', { role: 'status', 'aria-live': 'polite' });
+      section.appendChild(feedbackHost);
+
+      var submitBtn = el('button.btn.btn--primary', {
+        type: 'button', disabled: true, text: slide.submitLabel || 'Check my answer'
+      });
+      var retryBtn = el('button.btn', { type: 'button', text: 'Try again', hidden: true });
+      section.appendChild(el('div.assess__actions', {}, [submitBtn, retryBtn]));
+
+      function paint() {
+        rows.forEach(function (r, i) {
+          var pos = picked.indexOf(i);
+          r.num.textContent = pos === -1 ? '' : String(pos + 1);
+          r.btn.setAttribute('aria-pressed', pos === -1 ? 'false' : 'true');
+          r.btn.setAttribute('aria-label', (pos === -1 ? '' : 'Step ' + (pos + 1) + '. ') + r.item.text);
+        });
+        submitBtn.disabled = picked.length !== rows.length;
       }
-      return true;
+
+      function mark(state) {
+        var isCorrect = picked.length === rows.length &&
+          picked.every(function (di, pos) { return items[di].at === pos; });
+
+        var revealAnswer = settleCheck(slide, ctx, feedbackHost, {
+          isCorrect: isCorrect,
+          state: state,
+          selected: picked.slice(),
+          wrongText: 'The steps marked ✕ are out of place. Try again.',
+          revealText: 'The right order is marked above.'
+        });
+
+        rows.forEach(function (r, i) {
+          r.btn.disabled = true;
+          var pos = picked.indexOf(i);
+          var right = pos === r.item.at;
+          r.li.dataset.state = right ? 'correct' : 'incorrect';
+          r.mk.hidden = false;
+          r.mk.textContent = right ? '✓ ' : '✕ ';
+          var label = 'Step ' + (pos + 1) + '. ' + r.item.text + '. ' + (right ? 'Right.' : 'Out of place.');
+          if (!right && revealAnswer) {
+            r.fix.hidden = false;
+            r.fix.textContent = 'Goes at ' + (r.item.at + 1) + '.';
+            label += ' Goes at ' + (r.item.at + 1) + '.';
+          }
+          r.btn.setAttribute('aria-label', label);
+        });
+
+        submitBtn.hidden = true;
+        retryBtn.hidden = revealAnswer;
+      }
+
+      submitBtn.addEventListener('click', function () { mark('submit'); });
+
+      retryBtn.addEventListener('click', function () {
+        picked = [];
+        rows.forEach(function (r) {
+          r.btn.disabled = false;
+          delete r.li.dataset.state;
+          r.mk.hidden = true;
+          r.fix.hidden = true;
+        });
+        clear(feedbackHost);
+        submitBtn.hidden = false;
+        retryBtn.hidden = true;
+        paint();
+        rows[0].btn.focus();
+      });
+
+      if (saved && Array.isArray(saved.selected) && saved.selected.length === rows.length) {
+        picked = saved.selected.filter(function (i) { return rows[i]; });
+        paint();
+        if (picked.length === rows.length) mark('restore');
+      } else {
+        paint();
+      }
+
+      return section;
     },
-    gateMessage: function (slide) {
-      if (slide.requireCorrect) return 'Answer this check correctly to continue.';
-      if (slide.bridge && slide.retry !== false) return 'Try once more to continue.';
-      return 'Answer this check to continue.';
-    }
+    isComplete: checkComplete,
+    gateMessage: checkGate
+  };
+
+  /* ---- match (tap a line, then tap its match) ----
+     Tap-only, same reasons as order. The left side is a list of slots in
+     the authored order; the right side is a pool of chips, shuffled with
+     the seeded shuffle. Tap a slot, then a chip, and the chip moves into
+     the slot. Tap a filled slot to send its chip back to the pool. Phone
+     first: slots stack above the pool rather than sitting in two columns
+     that would be too narrow to read. -------------------------------- */
+  TYPES.match = {
+    label: 'Match',
+    body: TYPES['text-image'].body,
+    interactive: function (slide, ctx) {
+      var name = uid('mt');
+      var saved = ctx.progress.answers[slide.id] || null;
+      var section = el('section.assess', { 'aria-labelledby': name + '-q' });
+      section.appendChild(el('p.assess__kind', { text: 'Match them up' }));
+      section.appendChild(el('p.assess__q', { id: name + '-q' }, U.inline(slide.question || '')));
+      section.appendChild(el('p.reflect__hint', {},
+        U.inline(slide.hint || 'Tap a line, then its match. Tap again to undo.')));
+
+      var pairs = (slide.pairs || []).map(function (p, i) {
+        return { left: (p && p.left) || '', right: (p && p.right) || '', at: i };
+      });
+      // chips[j].at is the slot that chip belongs to. Display is shuffled.
+      var chips = U.seededShuffle(pairs.map(function (p, i) { return { text: p.right, at: i }; }), slide.id);
+
+      var assign = pairs.map(function () { return -1; });   // slot -> chip display index
+      var active = -1;                                       // the slot waiting for a chip
+      var slots = [], chipRows = [];
+
+      var slotList = el('ul.match__slots');
+      pairs.forEach(function (p, i) {
+        var mk = el('span.check__mark', { 'aria-hidden': 'true', hidden: true });
+        var pick = el('span.match__pick');
+        var fix = el('span.match__fix', { hidden: true });
+        var btn = el('button.match__slotbtn', { type: 'button', 'aria-pressed': 'false' }, [
+          el('span.match__left', {}, [mk, U.inline(p.left)]),
+          pick,
+          fix
+        ]);
+        var li = el('li.match__slot', {}, btn);
+        btn.addEventListener('click', function () {
+          if (assign[i] !== -1) {
+            U.announce('Cleared ' + p.left + '.');
+            assign[i] = -1;
+          }
+          active = i;
+          paint();
+        });
+        slots.push({ btn: btn, mk: mk, pick: pick, fix: fix, li: li, pair: p });
+        slotList.appendChild(li);
+      });
+      section.appendChild(slotList);
+
+      section.appendChild(el('p.match__poollabel', { id: name + '-pool', text: 'Choices' }));
+      var pool = el('ul.match__pool', { 'aria-labelledby': name + '-pool' });
+      chips.forEach(function (c, j) {
+        var btn = el('button.match__chip', { type: 'button' }, U.inline(c.text));
+        var li = el('li', {}, btn);
+        btn.addEventListener('click', function () {
+          var target = (active !== -1 && assign[active] === -1) ? active : assign.indexOf(-1);
+          if (target === -1) return;
+          assign[target] = j;
+          U.announce(pairs[target].left + ' matched with: ' + c.text);
+          active = assign.indexOf(-1);
+          paint();
+          if (active !== -1) slots[active].btn.focus();
+        });
+        chipRows.push({ btn: btn, li: li, chip: c });
+        pool.appendChild(li);
+      });
+      section.appendChild(pool);
+
+      var feedbackHost = el('div', { role: 'status', 'aria-live': 'polite' });
+      section.appendChild(feedbackHost);
+
+      var submitBtn = el('button.btn.btn--primary', {
+        type: 'button', disabled: true, text: slide.submitLabel || 'Check my answer'
+      });
+      var retryBtn = el('button.btn', { type: 'button', text: 'Try again', hidden: true });
+      section.appendChild(el('div.assess__actions', {}, [submitBtn, retryBtn]));
+
+      function paint() {
+        slots.forEach(function (s, i) {
+          var ci = assign[i];
+          s.btn.setAttribute('aria-pressed', active === i ? 'true' : 'false');
+          s.li.dataset.filled = ci === -1 ? 'false' : 'true';
+          s.pick.textContent = ci === -1 ? 'Tap to choose' : chips[ci].text;
+          s.btn.setAttribute('aria-label', s.pair.left + '. ' +
+            (ci === -1 ? 'Nothing chosen yet.' : 'Matched with: ' + chips[ci].text));
+        });
+        chipRows.forEach(function (c, j) { c.li.hidden = assign.indexOf(j) !== -1; });
+        submitBtn.disabled = assign.indexOf(-1) !== -1;
+      }
+
+      function mark(state) {
+        var isCorrect = assign.every(function (ci, i) { return ci !== -1 && chips[ci].at === i; });
+
+        var revealAnswer = settleCheck(slide, ctx, feedbackHost, {
+          isCorrect: isCorrect,
+          state: state,
+          selected: assign.slice(),
+          wrongText: 'The pairs marked ✕ are wrong. Try again.',
+          revealText: 'The right pairs are marked above.'
+        });
+
+        slots.forEach(function (s, i) {
+          s.btn.disabled = true;
+          s.btn.setAttribute('aria-pressed', 'false');
+          var ci = assign[i];
+          var right = ci !== -1 && chips[ci].at === i;
+          s.li.dataset.state = right ? 'correct' : 'incorrect';
+          s.mk.hidden = false;
+          s.mk.textContent = right ? '✓ ' : '✕ ';
+          var label = s.pair.left + '. Matched with: ' + (ci === -1 ? 'nothing' : chips[ci].text) + '. ' +
+            (right ? 'Right.' : 'Wrong.');
+          if (!right && revealAnswer) {
+            s.fix.hidden = false;
+            s.fix.textContent = 'Should be: ' + s.pair.right;
+            label += ' Should be: ' + s.pair.right;
+          }
+          s.btn.setAttribute('aria-label', label);
+        });
+        chipRows.forEach(function (c) { c.btn.disabled = true; });
+
+        submitBtn.hidden = true;
+        retryBtn.hidden = revealAnswer;
+      }
+
+      submitBtn.addEventListener('click', function () { mark('submit'); });
+
+      retryBtn.addEventListener('click', function () {
+        assign = pairs.map(function () { return -1; });
+        active = 0;
+        slots.forEach(function (s) {
+          s.btn.disabled = false;
+          delete s.li.dataset.state;
+          s.mk.hidden = true;
+          s.fix.hidden = true;
+        });
+        chipRows.forEach(function (c) { c.btn.disabled = false; });
+        clear(feedbackHost);
+        submitBtn.hidden = false;
+        retryBtn.hidden = true;
+        paint();
+        slots[0].btn.focus();
+      });
+
+      if (saved && Array.isArray(saved.selected) && saved.selected.length === pairs.length) {
+        assign = saved.selected.map(function (j) { return chips[j] ? j : -1; });
+        paint();
+        if (assign.indexOf(-1) === -1) mark('restore');
+      } else {
+        paint();
+      }
+
+      return section;
+    },
+    isComplete: checkComplete,
+    gateMessage: checkGate
   };
 
   /* ---- reflection (captured, never graded) ----
