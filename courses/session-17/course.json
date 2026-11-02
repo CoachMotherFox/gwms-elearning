@@ -106,7 +106,7 @@
         },
         {
           "id": "s17-concept",
-          "type": "quiz",
+          "type": "order",
           "eyebrow": "Tonight's lesson",
           "title": "What made it work?",
           "assessment": {
@@ -114,22 +114,13 @@
             "scored": false
           },
           "required": true,
-          "question": "Tonight you held his waist from behind while he fought to turn. What took him down?",
-          "select": "single",
+          "question": "Tonight you held his waist and put him on his hands. Put the steps in order.",
           "retry": true,
-          "options": [
-            {
-              "text": "Staying on your feet and blocking his leg.",
-              "correct": true
-            },
-            {
-              "text": "Falling down to the mat with him.",
-              "feedback": "If you fall, he can turn and face you."
-            },
-            {
-              "text": "Letting go when he started turning.",
-              "feedback": "Letting go is quitting the round."
-            }
+          "items": [
+            "Lock your hands above his hips, chest on his back.",
+            "Walk him in a circle so he steps.",
+            "Put your shin in front of his shin.",
+            "Drive forward until his hands touch the mat."
           ],
           "bridge": "Staying on your feet when it gets hard is how you stay present."
         }

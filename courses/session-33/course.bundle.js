@@ -106,7 +106,7 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
         },
         {
           "id": "s33-concept",
-          "type": "quiz",
+          "type": "match",
           "eyebrow": "Tonight's lesson",
           "title": "What made it work?",
           "assessment": {
@@ -114,21 +114,20 @@ window.GWMS_COURSE_BUNDLE["session-33"] =
             "scored": false
           },
           "required": true,
-          "question": "Tonight he tried to pull you down from inside his locked legs. What kept you up?",
-          "select": "single",
+          "question": "Each game tonight had one thing. Match them.",
           "retry": true,
-          "options": [
+          "pairs": [
             {
-              "text": "Sitting tall with your back straight.",
-              "correct": true
+              "left": "Game 1: Standing",
+              "right": "Three touches, or an underhook and lock."
             },
             {
-              "text": "Leaning forward onto your hands.",
-              "feedback": "A hand on the mat is what he wants."
+              "left": "Game 2: Guarded",
+              "right": "Pull his hand to the mat."
             },
             {
-              "text": "Reaching up to grab his head.",
-              "feedback": "Reaching gives him your balance."
+              "left": "Game 3: Pinned",
+              "right": "Keep your chest on his back."
             }
           ],
           "bridge": "How you carry yourself shows in how steady you stay."

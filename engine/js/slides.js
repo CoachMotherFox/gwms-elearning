@@ -608,7 +608,7 @@
           isCorrect: isCorrect,
           state: state,
           selected: picked.slice(),
-          wrongText: 'The steps marked ✕ are out of place. Try again.',
+          wrongText: 'Fix the steps marked ✕.',
           revealText: 'The right order is marked above.'
         });
 
@@ -680,7 +680,7 @@
       section.appendChild(el('p.assess__kind', { text: 'Match them up' }));
       section.appendChild(el('p.assess__q', { id: name + '-q' }, U.inline(slide.question || '')));
       section.appendChild(el('p.reflect__hint', {},
-        U.inline(slide.hint || 'Tap a line, then its match. Tap again to undo.')));
+        U.inline(slide.hint || 'Tap a line, then its match.')));
 
       var pairs = (slide.pairs || []).map(function (p, i) {
         return { left: (p && p.left) || '', right: (p && p.right) || '', at: i };
@@ -764,7 +764,7 @@
           isCorrect: isCorrect,
           state: state,
           selected: assign.slice(),
-          wrongText: 'The pairs marked ✕ are wrong. Try again.',
+          wrongText: 'Fix the pairs marked ✕.',
           revealText: 'The right pairs are marked above.'
         });
 

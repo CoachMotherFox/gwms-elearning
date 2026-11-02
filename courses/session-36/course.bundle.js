@@ -106,7 +106,7 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
         },
         {
           "id": "s36-concept",
-          "type": "quiz",
+          "type": "match",
           "eyebrow": "Tonight's lesson",
           "title": "What made it work?",
           "assessment": {
@@ -114,21 +114,20 @@ window.GWMS_COURSE_BUNDLE["session-36"] =
             "scored": false
           },
           "required": true,
-          "question": "Tonight you played the same first game as your second night. What did your hands go for?",
-          "select": "single",
+          "question": "Each game tonight had one thing. Match them.",
           "retry": true,
-          "options": [
+          "pairs": [
             {
-              "text": "His wrists and elbows, on purpose.",
-              "correct": true
+              "left": "Game 1: Standing",
+              "right": "Both arms under his elbows, then lock."
             },
             {
-              "text": "Anything they touched first.",
-              "feedback": "That was the old you."
+              "left": "Game 2: Guarded",
+              "right": "Clear his hands, get under an elbow, lock."
             },
             {
-              "text": "His head, to pull him down.",
-              "feedback": "Pulling his head isn't this game."
+              "left": "Game 3: Pinned",
+              "right": "Chest on his back. Follow him."
             }
           ],
           "bridge": "What you carry out the door is doing it on purpose."

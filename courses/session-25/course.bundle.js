@@ -106,7 +106,7 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
         },
         {
           "id": "s25-concept",
-          "type": "quiz",
+          "type": "order",
           "eyebrow": "Tonight's lesson",
           "title": "What made it work?",
           "assessment": {
@@ -114,22 +114,13 @@ window.GWMS_COURSE_BUNDLE["session-25"] =
             "scored": false
           },
           "required": true,
-          "question": "Tonight you held his back while he moved around. What kept you on him?",
-          "select": "single",
+          "question": "Tonight you held his back and followed him. Put the steps in order.",
           "retry": true,
-          "options": [
-            {
-              "text": "Following him with your chest on his back.",
-              "correct": true
-            },
-            {
-              "text": "Wrapping your legs around him right away.",
-              "feedback": "Reaching with your legs lets your chest come off."
-            },
-            {
-              "text": "Holding still until he stopped.",
-              "feedback": "He won't stop, so you have to follow."
-            }
+          "items": [
+            "One arm over his shoulder, one under his armpit.",
+            "Clasp your hands on his chest.",
+            "Heels inside his thighs.",
+            "Follow him. Keep your chest on his back."
           ],
           "bridge": "What is different now is that you can follow him instead of freezing."
         }

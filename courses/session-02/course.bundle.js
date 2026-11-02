@@ -107,7 +107,7 @@ window.GWMS_COURSE_BUNDLE["session-02"] =
         },
         {
           "id": "s02-concept",
-          "type": "quiz",
+          "type": "match",
           "eyebrow": "Tonight's lesson",
           "title": "What made it work?",
           "assessment": {
@@ -115,21 +115,20 @@ window.GWMS_COURSE_BUNDLE["session-02"] =
             "scored": false
           },
           "required": true,
-          "question": "Tonight you connected to a stranger's wrist, legs, and elbow. What made it hold?",
-          "select": "single",
+          "question": "Each game tonight had one connection. Match them.",
           "retry": true,
-          "options": [
+          "pairs": [
             {
-              "text": "You made it on purpose, then you kept it.",
-              "correct": true
+              "left": "Game 1: Standing",
+              "right": "Both arms under his armpits, then lock."
             },
             {
-              "text": "You grabbed whatever was open and let it go.",
-              "feedback": "Grabbing at random is not the same as making a connection."
+              "left": "Game 2: Guarded",
+              "right": "Clear his hands, get under an elbow, lock."
             },
             {
-              "text": "You waited for him to make the first move.",
-              "feedback": "Waiting is not how you make contact with a stranger."
+              "left": "Game 3: Pinned",
+              "right": "Stay under at least one elbow."
             }
           ],
           "bridge": "A connection made on purpose can hold. One grabbed at random can't."

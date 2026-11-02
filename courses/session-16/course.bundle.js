@@ -108,7 +108,7 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
         },
         {
           "id": "s16-concept",
-          "type": "quiz",
+          "type": "match",
           "eyebrow": "Tonight's lesson",
           "title": "What made it work?",
           "assessment": {
@@ -116,21 +116,20 @@ window.GWMS_COURSE_BUNDLE["session-16"] =
             "scored": false
           },
           "required": true,
-          "question": "Tonight he pushed up hard to stand while you rode on top. What kept him down?",
-          "select": "single",
+          "question": "Each game tonight had one thing. Match them.",
           "retry": true,
-          "options": [
+          "pairs": [
             {
-              "text": "Blocking his hips with your knees and feet.",
-              "correct": true
+              "left": "Game 1: Standing",
+              "right": "Lift the underhook, then grab behind his knee."
             },
             {
-              "text": "Pushing back harder with your arms.",
-              "feedback": "Arms tire out before his legs do."
+              "left": "Game 2: Guarded",
+              "right": "Push one side, pull the other, with your feet."
             },
             {
-              "text": "Jumping off and starting over.",
-              "feedback": "Jumping off lets him stand up."
+              "left": "Game 3: Pinned",
+              "right": "Pull his hips down. Keep him belly down."
             }
           ],
           "bridge": "When someone pushes back, you answer with your body position, not force."

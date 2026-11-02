@@ -107,7 +107,7 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
         },
         {
           "id": "s30-concept",
-          "type": "quiz",
+          "type": "match",
           "eyebrow": "Tonight's lesson",
           "title": "What made it work?",
           "assessment": {
@@ -115,21 +115,20 @@ window.GWMS_COURSE_BUNDLE["session-30"] =
             "scored": false
           },
           "required": true,
-          "question": "Tonight you had full control of his back. What kept him safe?",
-          "select": "single",
+          "question": "Each game tonight had one thing. Match them.",
           "retry": true,
-          "options": [
+          "pairs": [
             {
-              "text": "Keeping your chest on him, not squeezing.",
-              "correct": true
+              "left": "Game 1: Standing",
+              "right": "Block his foot, then move him."
             },
             {
-              "text": "Squeezing him as hard as you can.",
-              "feedback": "Squeezing takes his strength instead of using yours."
+              "left": "Game 2: Guarded",
+              "right": "Get both feet inside his knees."
             },
             {
-              "text": "Wrapping your legs around his waist.",
-              "feedback": "Your legs aren't what kept him safe."
+              "left": "Game 3: Pinned",
+              "right": "Chest on his back, no squeeze."
             }
           ],
           "bridge": "Strength used for control keeps him safe instead of taking from him."

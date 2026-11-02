@@ -108,7 +108,7 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
         },
         {
           "id": "s20-concept",
-          "type": "quiz",
+          "type": "order",
           "eyebrow": "Tonight's lesson",
           "title": "What made it work?",
           "assessment": {
@@ -116,22 +116,13 @@ window.GWMS_COURSE_BUNDLE["session-20"] =
             "scored": false
           },
           "required": true,
-          "question": "Tonight you broke his balance, his lock, and his defense. What made each break work?",
-          "select": "single",
+          "question": "Tonight you trapped his head and arm. Put the steps in order.",
           "retry": true,
-          "options": [
-            {
-              "text": "You did it in order and stopped at the win.",
-              "correct": true
-            },
-            {
-              "text": "You went as hard and as fast as you could.",
-              "feedback": "Speed and force are not what made the break work."
-            },
-            {
-              "text": "You kept going until your partner could not continue.",
-              "feedback": "Not stopping at the win is not the same as winning."
-            }
+          "items": [
+            "Push his arm up next to his ear.",
+            "Put your head on his arm.",
+            "Lock your hands under his head.",
+            "Stop there. Let go when he taps."
           ],
           "bridge": "A break you control can be fixed. A break you leave is the real problem."
         }

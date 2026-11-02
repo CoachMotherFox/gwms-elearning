@@ -105,7 +105,7 @@
         },
         {
           "id": "s28-concept",
-          "type": "quiz",
+          "type": "match",
           "eyebrow": "Tonight's lesson",
           "title": "What made it work?",
           "assessment": {
@@ -113,21 +113,20 @@
             "scored": false
           },
           "required": true,
-          "question": "Tonight you fought for the upper body or legs. How did you score?",
-          "select": "single",
+          "question": "Who scored how tonight? Match them.",
           "retry": true,
-          "options": [
+          "pairs": [
             {
-              "text": "Working from a grip you already had.",
-              "correct": true
+              "left": "Upper body player",
+              "right": "Arm under his armpit."
             },
             {
-              "text": "Diving at his legs with no grip.",
-              "feedback": "No grip leaves you open."
+              "left": "Lower body player",
+              "right": "Touch the back of his leg."
             },
             {
-              "text": "Waiting for him to come to you.",
-              "feedback": "Waiting gives him the first score."
+              "left": "Both players",
+              "right": "Push his hands to the mat."
             }
           ],
           "bridge": "Starting from what you already have is how you help someone newer, too."

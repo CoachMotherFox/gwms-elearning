@@ -108,7 +108,7 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
         },
         {
           "id": "s14-concept",
-          "type": "quiz",
+          "type": "match",
           "eyebrow": "Tonight's lesson",
           "title": "What made it work?",
           "assessment": {
@@ -116,21 +116,20 @@ window.GWMS_COURSE_BUNDLE["session-14"] =
             "scored": false
           },
           "required": true,
-          "question": "Tonight one player tried to get close and one kept him out. What decided how close he got?",
-          "select": "single",
+          "question": "Each game tonight had one thing. Match them.",
           "retry": true,
-          "options": [
+          "pairs": [
             {
-              "text": "Who controlled the hands and elbows.",
-              "correct": true
+              "left": "Game 1: Standing",
+              "right": "Lock your hands, or three touches in a row."
             },
             {
-              "text": "Whoever moved first won the round.",
-              "feedback": "Speed is not what decided this, control was."
+              "left": "Game 2: Guarded",
+              "right": "Pull his wrist so his hand hits the mat."
             },
             {
-              "text": "Whoever wanted it more got through.",
-              "feedback": "Wanting it more is not the same as controlling the hands and elbows."
+              "left": "Game 3: Pinned",
+              "right": "Keep your arms under his elbows."
             }
           ],
           "bridge": "You choose how much of someone you let in. It is not all or nothing."

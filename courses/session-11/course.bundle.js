@@ -107,7 +107,7 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
         },
         {
           "id": "s11-concept",
-          "type": "quiz",
+          "type": "order",
           "eyebrow": "Tonight's lesson",
           "title": "What made it work?",
           "assessment": {
@@ -115,22 +115,13 @@ window.GWMS_COURSE_BUNDLE["session-11"] =
             "scored": false
           },
           "required": true,
-          "question": "Tonight you needed three touches before you could wrap him up. What let you wrap him?",
-          "select": "single",
+          "question": "Tonight you earned three touches before the lock. Put the steps in order.",
           "retry": true,
-          "options": [
-            {
-              "text": "Earning your three touches first.",
-              "correct": true
-            },
-            {
-              "text": "Grabbing for the lock right away.",
-              "feedback": "The lock only counts after three touches."
-            },
-            {
-              "text": "Waiting for him to hold still.",
-              "feedback": "He won't hold still for you."
-            }
+          "items": [
+            "Grab or push his wrists, elbows, and head.",
+            "Get a touch: hand behind his knee, or arm under his armpit.",
+            "Get three touches.",
+            "Lock your hands around him."
           ],
           "bridge": "What is hidden has to be earned, one touch at a time."
         }

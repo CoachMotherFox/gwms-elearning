@@ -107,7 +107,7 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
         },
         {
           "id": "s22-concept",
-          "type": "quiz",
+          "type": "order",
           "eyebrow": "Tonight's lesson",
           "title": "What made it work?",
           "assessment": {
@@ -115,22 +115,13 @@ window.GWMS_COURSE_BUNDLE["session-22"] =
             "scored": false
           },
           "required": true,
-          "question": "Tonight you moved his trapped arm toward the mat. How did you move it?",
-          "select": "single",
+          "question": "Tonight you moved his trapped arm to the mat. Put the steps in order.",
           "retry": true,
-          "options": [
-            {
-              "text": "Slowly, and you stopped at the touch.",
-              "correct": true
-            },
-            {
-              "text": "Fast, before he could fight it.",
-              "feedback": "Fast is how an arm gets hurt."
-            },
-            {
-              "text": "Hard, until he couldn't move.",
-              "feedback": "The win is the touch, not more."
-            }
+          "items": [
+            "Keep your arm under his elbow.",
+            "Move his hand slowly toward the mat.",
+            "Stop at the touch.",
+            "Switch arms and roles."
           ],
           "bridge": "A real apology is like that: slow, clean, and you stop when it is done."
         }
