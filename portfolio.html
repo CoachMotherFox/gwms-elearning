@@ -64,15 +64,15 @@
     <p>This follows Mishra &amp; Koehler's TPACK framework, which argues technology choices can't be made apart from content and pedagogy — the right tool fits the specific teaching context, not the most feature-rich option on the market (Mishra &amp; Koehler, 2006). The content model (<strong>Course → Scenes → Slides → Interactions</strong>) borrows the vocabulary commercial authoring tools converged on, because it's what an instructional designer already reads without explanation — but the code behind it is custom, self-contained, and dependency-free.</p>
 
     <h3 id="assessment">2. Multiple assessment strategies <span class="status status--exceeds">Exceeds</span></h3>
-    <p>Every one of the 36 modules ships four independent strategies:</p>
+    <p>The engine supports five strategies. Each of the 36 modules ships the two that fit a five-minute slot, plus the program's own IRF:</p>
     <table>
       <tr><th>Strategy</th><th>How it behaves</th></tr>
-      <tr><td><strong>Formative check</strong></td><td>Mid-scene quiz with immediate, per-option feedback. A wrong first attempt withholds the correct answer until the learner gets it or exhausts their attempts, so a retry is a real second attempt.</td></tr>
-      <tr><td><strong>Summative check</strong></td><td>End-of-module quiz asking which CASEL target the session was driving at, with plausible same-stage distractors.</td></tr>
-      <tr><td><strong>Spaced retrieval</strong></td><td>Opens each module with an earlier session's probing question on a 1-, 2-, and 4-week lag, asking the learner to recall before revealing.</td></tr>
+      <tr><td><strong>Concept check</strong></td><td>One per session, on a physical thing that night's games taught. It comes in one of three tap-only formats, chosen by what the night taught: a three-option choice, <em>put the steps in order</em> (a sequence), or <em>match them up</em> (who does what). A wrong first attempt withholds the correct answer and gives one more try, so a retry is a real second attempt. Once the answer is settled, every learner sees the <em>bridge</em>: one line tying the lesson to the night's probing question.</td></tr>
       <tr><td><strong>Reflection</strong></td><td>Free-text, autosaved, explicitly ungraded, sent anonymously with the IRF.</td></tr>
+      <tr><td><strong>Instruction Rating Form</strong></td><td>The program's own instrument, on the last screen, required. It evaluates the teaching, not the learner.</td></tr>
+      <tr><td><strong>Summative check, spaced retrieval, branching</strong></td><td>Built into the engine and exercised in the demo course, but cut from the generated modules on September 27, 2026, when the module was reduced to what a boy reading at a 5th grade level can finish in five minutes.</td></tr>
     </table>
-    <p>This mix mirrors named research rather than a general sense of "good practice": the formative/summative split follows Black &amp; Wiliam's finding that frequent, specific, low-stakes feedback is what moves learning (Black &amp; Wiliam, 1998); the spaced, active-recall design of the look-back screen follows Roediger &amp; Karpicke's retrieval-practice research showing that recalling information beats re-reading it, and that spacing attempts over time beats massed review (Roediger &amp; Karpicke, 2006) — which is also why a retry never simply reveals the answer first.</p>
+    <p>This mix mirrors named research rather than a general sense of "good practice": immediate, specific, low-stakes feedback follows Black &amp; Wiliam's finding that this is what moves learning (Black &amp; Wiliam, 1998); the retry that withholds the answer, and the concept check's demand to recall the night's games rather than re-read them, follow Roediger &amp; Karpicke's retrieval-practice research showing that recalling information beats re-reading it (Roediger &amp; Karpicke, 2006).</p>
 
     <h3 id="ethics">3. Ethical use of educational technology <span class="status status--exceeds">Exceeds</span></h3>
     <p>The population is adolescent boys in a trauma-informed program, often on shared devices, many court-referred — so the data model <em>is</em> the ethics position. Exactly one thing leaves the device: the IRF submission on the final screen, sent once on a deliberate press, carrying no name, login, or device id. A failed send queues locally and retries — a learner is never held at the door by a bad connection. There are no accounts, no analytics, no third-party trackers, and no facilitator dashboard of any kind. Every image, video, and audio asset carries a copyright/Fair Use credit or is marked original. The full data-handling model is disclosed to the learner in plain language inside the app itself, under <strong>Contents → Your data</strong>.</p>
@@ -81,7 +81,7 @@
     <p>Differentiation is four independent axes the learner controls, not one accommodation bolted on:</p>
     <ul>
       <li><strong>Format</strong> — any slide can offer a "Take this in" alternate (e.g. Listen instead of Read), following the Universal Design for Learning principle that no single format should gate access to content (CAST, 2018).</li>
-      <li><strong>Pace and route</strong> — a scene menu, branching, and true back-navigation mean no learner is stuck on rails.</li>
+      <li><strong>Pace and route</strong> — a Contents menu that reaches any screen, and true back-navigation, mean no learner is stuck on rails.</li>
       <li><strong>Presentation</strong> — text size, line spacing, a high-legibility typeface, light/dark theme, and reduced motion are all learner-controlled and remembered on-device.</li>
       <li><strong>Input</strong> — full keyboard operation, 44px touch targets, and native form controls throughout.</li>
     </ul>
@@ -105,7 +105,7 @@
 
   <section id="sessions">
     <h2>All 36 sessions</h2>
-    <p>Generated directly from the GWMS curriculum guides — each follows probing question → game → win condition → objectives → connection → reflection → IRF.</p>
+    <p>Generated directly from the GWMS curriculum guides — each follows tonight's question → the three games → the concept check → the takeaway → reflection → IRF. Six screens, under 300 words, built to be finished on a phone in five minutes.</p>
     <div id="session-list"></div>
   </section>
 
@@ -143,7 +143,7 @@ fetch('courses/index.json')
         num.textContent = 'Session ' + n;
         const title = document.createElement('span');
         title.className = 'card__title';
-        title.textContent = c.title.replace(/^Session \d+ — /, '');
+        title.textContent = c.title.replace(/^Session \d+: /, '');
         const summary = document.createElement('span');
         summary.className = 'card__summary';
         summary.textContent = c.summary;

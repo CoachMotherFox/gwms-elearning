@@ -677,7 +677,15 @@
       "takeaway": "Tonight you worked from an underhook tie, closed guard, and mount. On the mat, a finish is only safe if you let go the second your partner taps. Letting go is a choice you control. Fixing something broken between two people is a choice too.",
       "concept": {
         "lesson": "You break something on purpose, in order, with control, and you choose where it stops.",
-        "question": "Tonight you broke his balance, his lock, and his defense. What made each break work?",
+        "format": "order",
+        "question": "Tonight you trapped his head and arm. Put the steps in order.",
+        "steps": [
+          "Push his arm up next to his ear.",
+          "Put your head on his arm.",
+          "Lock your hands under his head.",
+          "Stop there. Let go when he taps."
+        ],
+        "bridge": "A break you control can be fixed. A break you leave is the real problem.",
         "options": [
           {
             "text": "You did it in order and stopped at the win.",
@@ -691,8 +699,7 @@
             "text": "You kept going until your partner could not continue.",
             "feedback": "Not stopping at the win is not the same as winning."
           }
-        ],
-        "bridge": "A break you control can be fixed. A break you leave is the real problem."
+        ]
       }
     },
     {
