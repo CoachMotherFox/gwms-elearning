@@ -105,7 +105,7 @@
         },
         {
           "id": "s04-concept",
-          "type": "quiz",
+          "type": "order",
           "eyebrow": "Tonight's lesson",
           "title": "What made it work?",
           "assessment": {
@@ -113,22 +113,13 @@
             "scored": false
           },
           "required": true,
-          "question": "Tonight you hand fought for the underhook. What did your hands go for?",
-          "select": "single",
+          "question": "Tonight you hand fought for the underhook. Put the steps in order",
           "retry": true,
-          "options": [
-            {
-              "text": "His wrists, elbows, and head, on purpose.",
-              "correct": true
-            },
-            {
-              "text": "Whatever part of him was closest.",
-              "feedback": "Closest is not the same as on purpose."
-            },
-            {
-              "text": "Nothing, until he grabbed you first.",
-              "feedback": "Waiting gives him the first grip."
-            }
+          "items": [
+            "Grab his wrist, elbow, or the back of his head.",
+            "Put both hands on one of his arms.",
+            "Push his elbow up or pull his wrist down.",
+            "Slide your arm under his armpit, palm on his shoulder."
           ],
           "bridge": "Who you are when people watch shows in what you do on purpose."
         }

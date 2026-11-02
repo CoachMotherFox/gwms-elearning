@@ -81,7 +81,15 @@
       "takeaway": "Tonight you worked from the hand fight, open guard, and back control. At Session 1 you could not hold these positions. Now you can. That is proof of change you can feel in your body, not just say out loud. You get to name exactly what changed and show it.",
       "concept": {
         "lesson": "Follow him with your chest on his back instead of reaching with your legs.",
-        "question": "Tonight you held his back while he moved around. What kept you on him?",
+        "format": "order",
+        "question": "Tonight you held his back and followed him. Put the steps in order.",
+        "steps": [
+          "One arm over his shoulder, one under his armpit.",
+          "Clasp your hands on his chest.",
+          "Heels inside his thighs.",
+          "Follow him. Keep your chest on his back."
+        ],
+        "bridge": "What is different now is that you can follow him instead of freezing.",
         "options": [
           {
             "text": "Following him with your chest on his back.",
@@ -95,8 +103,7 @@
             "text": "Holding still until he stopped.",
             "feedback": "He won't stop, so you have to follow."
           }
-        ],
-        "bridge": "What is different now is that you can follow him instead of freezing."
+        ]
       }
     },
     {
@@ -336,7 +343,23 @@
       "takeaway": "Tonight you worked from the hand fight, open guard, and back control. Helping a newer partner instead of tapping him out is the first act of giving on the mat. Turning what you've learned toward someone who needs it works the same way. You get to decide when you're ready.",
       "concept": {
         "lesson": "Score from a grip you already have.",
-        "question": "Tonight you fought for the upper body or legs. How did you score?",
+        "format": "match",
+        "question": "Who scored how tonight? Match them.",
+        "pairs": [
+          {
+            "left": "Upper body player",
+            "right": "Arm under his armpit."
+          },
+          {
+            "left": "Lower body player",
+            "right": "Touch the back of his leg."
+          },
+          {
+            "left": "Both players",
+            "right": "Push his hands to the mat."
+          }
+        ],
+        "bridge": "Starting from what you already have is how you help someone newer, too.",
         "options": [
           {
             "text": "Working from a grip you already had.",
@@ -350,8 +373,7 @@
             "text": "Waiting for him to come to you.",
             "feedback": "Waiting gives him the first score."
           }
-        ],
-        "bridge": "Starting from what you already have is how you help someone newer, too."
+        ]
       }
     },
     {
@@ -508,7 +530,23 @@
       "takeaway": "Tonight you worked from an underhook tie, half guard, and back control. You can control someone's back and still choose not to hurt him. That is the point. Using strength for people, not over them, is the same choice off the mat. You get to hold power and choose mercy.",
       "concept": {
         "lesson": "Hold with your chest on his back, not by squeezing.",
-        "question": "Tonight you had full control of his back. What kept him safe?",
+        "format": "match",
+        "question": "Each game tonight had one thing. Match them.",
+        "pairs": [
+          {
+            "left": "Game 1: Standing",
+            "right": "Block his foot, then move him."
+          },
+          {
+            "left": "Game 2: Guarded",
+            "right": "Get both feet inside his knees."
+          },
+          {
+            "left": "Game 3: Pinned",
+            "right": "Chest on his back, no squeeze."
+          }
+        ],
+        "bridge": "Strength used for control keeps him safe instead of taking from him.",
         "options": [
           {
             "text": "Keeping your chest on him, not squeezing.",
@@ -522,8 +560,7 @@
             "text": "Wrapping your legs around his waist.",
             "feedback": "Your legs aren't what kept him safe."
           }
-        ],
-        "bridge": "Strength used for control keeps him safe instead of taking from him."
+        ]
       }
     },
     {
@@ -591,7 +628,15 @@
       "takeaway": "Tonight you worked from the hand fight, open guard, and back control. A finish gives you real power. Letting go the second he taps is what people remember. Your legacy off the mat works the same way, built from how you treat people when you have the upper hand.",
       "concept": {
         "lesson": "Build the lock one step at a time. Palm on his back comes first.",
-        "question": "Tonight you built a lock from behind, one step at a time. What came first?",
+        "format": "order",
+        "question": "Tonight you built a lock from behind. Put the steps in order.",
+        "steps": [
+          "Chest tight on his back.",
+          "Over arm deep, palm flat on his back.",
+          "Wrist into the bend of that elbow.",
+          "Lock your hands and stop."
+        ],
+        "bridge": "What you leave behind is built one step at a time.",
         "options": [
           {
             "text": "Your palm flat on his back.",
@@ -605,8 +650,7 @@
             "text": "Your legs wrapped around him.",
             "feedback": "This lock starts with your hand, not your legs."
           }
-        ],
-        "bridge": "What you leave behind is built one step at a time."
+        ]
       }
     },
     {
@@ -759,7 +803,23 @@
       "takeaway": "Tonight you worked from the hand fight, closed guard, and back control. Newer people learn more from watching how you roll than from anything you say. You teach people the same way off the mat, by how you act. You get to choose what you teach, since you're teaching anyway.",
       "concept": {
         "lesson": "Sit tall with your back straight so he cannot pull you down.",
-        "question": "Tonight he tried to pull you down from inside his locked legs. What kept you up?",
+        "format": "match",
+        "question": "Each game tonight had one thing. Match them.",
+        "pairs": [
+          {
+            "left": "Game 1: Standing",
+            "right": "Three touches, or an underhook and lock."
+          },
+          {
+            "left": "Game 2: Guarded",
+            "right": "Pull his hand to the mat."
+          },
+          {
+            "left": "Game 3: Pinned",
+            "right": "Keep your chest on his back."
+          }
+        ],
+        "bridge": "How you carry yourself shows in how steady you stay.",
         "options": [
           {
             "text": "Sitting tall with your back straight.",
@@ -773,8 +833,7 @@
             "text": "Reaching up to grab his head.",
             "feedback": "Reaching gives him your balance."
           }
-        ],
-        "bridge": "How you carry yourself shows in how steady you stay."
+        ]
       }
     },
     {
@@ -924,7 +983,15 @@
       "takeaway": "Tonight you worked from the hand fight, open guard, and back control. You are not who walked in on Session 1. You can see it in how you move. Naming who you became is the return itself. You get to claim that person, because you built him.",
       "concept": {
         "lesson": "Earn the touches by gripping wrists and elbows on purpose.",
-        "question": "Tonight you had to earn three touches before the lock. What earned them?",
+        "format": "order",
+        "question": "Tonight you played the three touches game again. Put the steps in order.",
+        "steps": [
+          "Grab or push his wrists, elbows, and head.",
+          "Get a touch: hand behind his knee, or arm under his armpit.",
+          "Get three touches.",
+          "Lock your hands around him."
+        ],
+        "bridge": "Who you became is someone who earns it instead of grabbing.",
         "options": [
           {
             "text": "Gripping his wrists and elbows on purpose.",
@@ -938,8 +1005,7 @@
             "text": "Rushing in for the lock early.",
             "feedback": "The lock only counts after three touches."
           }
-        ],
-        "bridge": "Who you became is someone who earns it instead of grabbing."
+        ]
       }
     },
     {
@@ -1007,7 +1073,23 @@
       "takeaway": "Tonight you worked from the over-under tie, half guard, and back control, the three moves the whole program built toward. The mat was never the destination. What you carry out the door, control, mercy, the ability to stay, the real you, is the point. You get to carry it out.",
       "concept": {
         "lesson": "The same game as your second night, played on purpose.",
-        "question": "Tonight you played the same first game as your second night. What did your hands go for?",
+        "format": "match",
+        "question": "Each game tonight had one thing. Match them.",
+        "pairs": [
+          {
+            "left": "Game 1: Standing",
+            "right": "Both arms under his elbows, then lock."
+          },
+          {
+            "left": "Game 2: Guarded",
+            "right": "Clear his hands, get under an elbow, lock."
+          },
+          {
+            "left": "Game 3: Pinned",
+            "right": "Chest on his back. Follow him."
+          }
+        ],
+        "bridge": "What you carry out the door is doing it on purpose.",
         "options": [
           {
             "text": "His wrists and elbows, on purpose.",
@@ -1021,8 +1103,7 @@
             "text": "His head, to pull him down.",
             "feedback": "Pulling his head isn't this game."
           }
-        ],
-        "bridge": "What you carry out the door is doing it on purpose."
+        ]
       }
     }
   ]

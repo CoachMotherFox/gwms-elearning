@@ -108,7 +108,7 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
         },
         {
           "id": "s07-concept",
-          "type": "quiz",
+          "type": "match",
           "eyebrow": "Tonight's lesson",
           "title": "What made it work?",
           "assessment": {
@@ -116,21 +116,20 @@ window.GWMS_COURSE_BUNDLE["session-07"] =
             "scored": false
           },
           "required": true,
-          "question": "Tonight you held one of his legs while he fought to get it back. What made him fall?",
-          "select": "single",
+          "question": "Each game tonight had one thing. Match them.",
           "retry": true,
-          "options": [
+          "pairs": [
             {
-              "text": "Keeping him moving while you held on.",
-              "correct": true
+              "left": "Game 1: Standing",
+              "right": "Hold his leg and keep him hopping."
             },
             {
-              "text": "Holding still and squeezing harder.",
-              "feedback": "Holding still gives him time to free his leg."
+              "left": "Game 2: Guarded",
+              "right": "Stand up, then push his knees open."
             },
             {
-              "text": "Letting go to grab something else.",
-              "feedback": "Letting go gives the leg back."
+              "left": "Game 3: Pinned",
+              "right": "Pull his hips down and ride."
             }
           ],
           "bridge": "When a round goes bad, keep moving. That is when the real you shows."

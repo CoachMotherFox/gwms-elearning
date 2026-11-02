@@ -138,7 +138,23 @@
       "takeaway": "Tonight you worked from the over-under tie, half guard, and mount. How you make first contact on the mat, careful, rushed, or stiff, is your entrance. You can choose that entrance on purpose instead of by accident. Choosing how you show up works the same way off the mat.",
       "concept": {
         "lesson": "You make the connection on purpose, then you keep it instead of letting go.",
-        "question": "Tonight you connected to a stranger's wrist, legs, and elbow. What made it hold?",
+        "format": "match",
+        "question": "Each game tonight had one connection. Match them.",
+        "pairs": [
+          {
+            "left": "Game 1: Standing",
+            "right": "Both arms under his armpits, then lock."
+          },
+          {
+            "left": "Game 2: Guarded",
+            "right": "Clear his hands, get under an elbow, lock."
+          },
+          {
+            "left": "Game 3: Pinned",
+            "right": "Stay under at least one elbow."
+          }
+        ],
+        "bridge": "A connection made on purpose can hold. One grabbed at random can't.",
         "options": [
           {
             "text": "You made it on purpose, then you kept it.",
@@ -152,8 +168,7 @@
             "text": "You waited for him to make the first move.",
             "feedback": "Waiting is not how you make contact with a stranger."
           }
-        ],
-        "bridge": "A connection made on purpose can hold. One grabbed at random can't."
+        ]
       }
     },
     {
@@ -300,7 +315,15 @@
       "takeaway": "Tonight you worked from the hand fight, open guard, and riding position. Keeping your guard means keeping a boundary, and a mask does that same job with people. You get to choose what your mask protects, and naming it is the first step to owning it.",
       "concept": {
         "lesson": "Grip the wrists, elbows, and head on purpose, even with people watching.",
-        "question": "Tonight you hand fought for the underhook. What did your hands go for?",
+        "format": "order",
+        "question": "Tonight you hand fought for the underhook. Put the steps in order",
+        "steps": [
+          "Grab his wrist, elbow, or the back of his head.",
+          "Put both hands on one of his arms.",
+          "Push his elbow up or pull his wrist down.",
+          "Slide your arm under his armpit, palm on his shoulder."
+        ],
+        "bridge": "Who you are when people watch shows in what you do on purpose.",
         "options": [
           {
             "text": "His wrists, elbows, and head, on purpose.",
@@ -314,8 +337,7 @@
             "text": "Nothing, until he grabbed you first.",
             "feedback": "Waiting gives him the first grip."
           }
-        ],
-        "bridge": "Who you are when people watch shows in what you do on purpose."
+        ]
       }
     },
     {
@@ -470,7 +492,15 @@
       "takeaway": "Tonight you worked from the hand fight, open guard, and mount. Your guard protects your legs, and your mask protects something in you. Naming what your mask guards is the same skill as naming what a guard defends. You get to use your mask on purpose.",
       "concept": {
         "lesson": "His legs guard the space in front of him. Your shin behind his knee gets you past.",
-        "question": "Tonight you got past his legs while he lay on his back. What got you in?",
+        "format": "order",
+        "question": "Tonight you got past his legs. Put the steps in order.",
+        "steps": [
+          "Push his legs to one side.",
+          "Step your shin behind one knee.",
+          "Slide across to his other knee.",
+          "Keep his feet off you."
+        ],
+        "bridge": "His legs protect his body, the way a mask protects what is under it.",
         "options": [
           {
             "text": "Your shin stepping behind his knee.",
@@ -484,8 +514,7 @@
             "text": "Pulling his head toward you.",
             "feedback": "His head is not where the gap is."
           }
-        ],
-        "bridge": "His legs protect his body, the way a mask protects what is under it."
+        ]
       }
     },
     {
@@ -555,7 +584,23 @@
       "takeaway": "Tonight you worked from a single leg, closed guard, and referee position. When your guard gets passed, something real slips out from under the mask. That crack is not failure, it is information. You get to notice what shows up and decide what to do with it.",
       "concept": {
         "lesson": "Keep him moving while you stay on the leg.",
-        "question": "Tonight you held one of his legs while he fought to get it back. What made him fall?",
+        "format": "match",
+        "question": "Each game tonight had one thing. Match them.",
+        "pairs": [
+          {
+            "left": "Game 1: Standing",
+            "right": "Hold his leg and keep him hopping."
+          },
+          {
+            "left": "Game 2: Guarded",
+            "right": "Stand up, then push his knees open."
+          },
+          {
+            "left": "Game 3: Pinned",
+            "right": "Pull his hips down and ride."
+          }
+        ],
+        "bridge": "When a round goes bad, keep moving. That is when the real you shows.",
         "options": [
           {
             "text": "Keeping him moving while you held on.",
@@ -569,8 +614,7 @@
             "text": "Letting go to grab something else.",
             "feedback": "Letting go gives the leg back."
           }
-        ],
-        "bridge": "When a round goes bad, keep moving. That is when the real you shows."
+        ]
       }
     },
     {
@@ -721,7 +765,23 @@
       "takeaway": "Tonight you worked from a single leg, open guard, and a chest-to-chest pin. Every guard has an exact point where it breaks, and so do you. Finding that point is the same skill as knowing the sign you give off, so you can catch yourself before it runs the show.",
       "concept": {
         "lesson": "Stay under at least one elbow. Notice when one cracks free and get it back.",
-        "question": "Tonight he fought to pull his elbows in under you. What kept him down?",
+        "format": "match",
+        "question": "Each game tonight had one thing. Match them.",
+        "pairs": [
+          {
+            "left": "Game 1: Standing",
+            "right": "Hold his leg, keep him moving."
+          },
+          {
+            "left": "Game 2: Guarded",
+            "right": "Step your shin behind his knee."
+          },
+          {
+            "left": "Game 3: Pinned",
+            "right": "Stay under at least one elbow."
+          }
+        ],
+        "bridge": "Noticing the first crack is how you stop it from growing.",
         "options": [
           {
             "text": "Staying under at least one elbow.",
@@ -735,8 +795,7 @@
             "text": "Letting go to grab his head.",
             "feedback": "Letting go frees both elbows."
           }
-        ],
-        "bridge": "Noticing the first crack is how you stop it from growing."
+        ]
       }
     },
     {
@@ -888,7 +947,15 @@
       "takeaway": "Tonight you worked from the hand fight, half guard, and a chest-to-chest pin. Arriving past a guard puts you in touch with what was most protected. Naming the part of yourself you keep hidden works the same way. You get to name it silently, for you, and that is brave.",
       "concept": {
         "lesson": "Earn three touches before you reach for the lock.",
-        "question": "Tonight you needed three touches before you could wrap him up. What let you wrap him?",
+        "format": "order",
+        "question": "Tonight you earned three touches before the lock. Put the steps in order.",
+        "steps": [
+          "Grab or push his wrists, elbows, and head.",
+          "Get a touch: hand behind his knee, or arm under his armpit.",
+          "Get three touches.",
+          "Lock your hands around him."
+        ],
+        "bridge": "What is hidden has to be earned, one touch at a time.",
         "options": [
           {
             "text": "Earning your three touches first.",
@@ -902,8 +969,7 @@
             "text": "Waiting for him to hold still.",
             "feedback": "He won't hold still for you."
           }
-        ],
-        "bridge": "What is hidden has to be earned, one touch at a time."
+        ]
       }
     },
     {
@@ -970,7 +1036,23 @@
       "takeaway": "Tonight you worked from the hand fight, open guard, and riding position, standing to a pin in one round. That is the same trip you have made since Session 1. You showed up, you cracked, and you stayed anyway. You get to keep showing up as that person.",
       "concept": {
         "lesson": "Stay on your feet instead of dropping to your knees.",
-        "question": "Tonight he tried to knock you down from his back. What kept you up?",
+        "format": "match",
+        "question": "Each game tonight had one thing. Match them.",
+        "pairs": [
+          {
+            "left": "Game 1: Standing",
+            "right": "Three touches, or lock your hands."
+          },
+          {
+            "left": "Game 2: Guarded",
+            "right": "Break his grips, then get around his legs."
+          },
+          {
+            "left": "Game 3: Pinned",
+            "right": "Pull his hips down. Keep him belly down."
+          }
+        ],
+        "bridge": "With the mask off, you still stay on your feet.",
         "options": [
           {
             "text": "Staying on your feet, not your knees.",
@@ -984,8 +1066,7 @@
             "text": "Leaning over to grab his head.",
             "feedback": "Leaning over gives him your balance."
           }
-        ],
-        "bridge": "With the mask off, you still stay on your feet."
+        ]
       }
     }
   ]

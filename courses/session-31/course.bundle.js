@@ -106,7 +106,7 @@ window.GWMS_COURSE_BUNDLE["session-31"] =
         },
         {
           "id": "s31-concept",
-          "type": "quiz",
+          "type": "order",
           "eyebrow": "Tonight's lesson",
           "title": "What made it work?",
           "assessment": {
@@ -114,22 +114,13 @@ window.GWMS_COURSE_BUNDLE["session-31"] =
             "scored": false
           },
           "required": true,
-          "question": "Tonight you built a lock from behind, one step at a time. What came first?",
-          "select": "single",
+          "question": "Tonight you built a lock from behind. Put the steps in order.",
           "retry": true,
-          "options": [
-            {
-              "text": "Your palm flat on his back.",
-              "correct": true
-            },
-            {
-              "text": "Your hands locked right away.",
-              "feedback": "Locking first skips the steps that make it work."
-            },
-            {
-              "text": "Your legs wrapped around him.",
-              "feedback": "This lock starts with your hand, not your legs."
-            }
+          "items": [
+            "Chest tight on his back.",
+            "Over arm deep, palm flat on his back.",
+            "Wrist into the bend of that elbow.",
+            "Lock your hands and stop."
           ],
           "bridge": "What you leave behind is built one step at a time."
         }

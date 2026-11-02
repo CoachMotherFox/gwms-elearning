@@ -39,9 +39,17 @@ Win lines use plain words a first-timer can picture. No guard recovery, reversal
 
 ### The concept check
 
-One quiz per session. It asks about a physical thing that night's games taught, built from tonight's thread and the three Conceptualize lines. Three answers of about the same length, one right. Each wrong answer carries a one-line note.
+One check per session. It asks about a physical thing that night's games taught, built from tonight's thread and the three Conceptualize lines. Since November 2026 it comes in one of three formats, chosen by what the night taught, never the same format two sessions in a row:
 
-The right answer has no feedback of its own. Instead the check carries a **bridge**: one line that ties the lesson to the night's probing question. Since October 14, 2026 every learner sees the bridge once the answer is settled. Right the first time: bridge. Wrong the first time: the note under the chosen answer, then one more try, then the right answer and the bridge either way. The screen is `required`, so Next waits for that.
+| Format | `concept.format` | When | What the kid does |
+|---|---|---|---|
+| Choice | (default) | the lesson is one idea | picks one of three answers of about the same length; each wrong answer carries a one-line note |
+| Put in order | `order` | the lesson is a sequence | taps three or four steps in the order they happen (from the game's "How it works"); tap again to undo |
+| Match them up | `match` | the lesson is who does what, or one thing per game | taps a line, then its match from a pool below |
+
+All three are tap-only. No drag and drop: it fails on a phone with cold hands and fails keyboard and screen-reader use. Everything is a button.
+
+The right answer has no feedback of its own. Instead the check carries a **bridge**: one line that ties the lesson to the night's probing question. Since October 14, 2026 every learner sees the bridge once the answer is settled. Right the first time: bridge. Wrong the first time: a short note (under the chosen answer for choice; "the steps marked ✕ are out of place" for order), then one more try, then the right answer and the bridge either way. The screen is `required`, so Next waits for that.
 
 Example, Session 20 ("What breaks first in you?"):
 
@@ -54,7 +62,7 @@ Example, Session 20 ("What breaks first in you?"):
 
 ## The word budget
 
-Count what one kid reads on one pass: every screen's text, each question and all its options, plus one feedback line per question (the longest). The cap is 280 words. A session still over 280 after the takeaway cap may run up to 300. Takeaways are capped at 50 words. Win lines are never thinned to make room.
+Count what one kid reads on one pass: every screen's text, each question and all its answers (options, steps, or pairs), the hint line on an order or match check, plus one feedback line per question (the longest). The cap is 280 words. A session still over 280 after the takeaway cap may run up to 300. Takeaways are capped at 50 words. Win lines are never thinned to make room.
 
 As of October 2026 every session is at or under 300 on the right-first-try path. A kid who misses once reads one wrong note plus the bridge, which puts 17 sessions at 302 to 310; that is accepted under the one-feedback-line rule.
 
@@ -92,7 +100,7 @@ One file per stage: `descent.json` (Sessions 1 to 12), `initiation.json` (13 to 
 |---|---|
 | `n`, `week`, `theme`, `probingQuestion` | the question screen, titles, and `index.json` |
 | `games[]` | the games screen. Each game: `skill`, `title` (KB title, data only), `whatItIs`, `start`, `text`, `win[]` (`role` + `text`), `reset`, optional `note` |
-| `concept` | the concept check: `lesson`, `question`, `options[]` (`text`, `correct`, `feedback`), `bridge` |
+| `concept` | the concept check: `lesson`, `question`, `bridge`, and one of `options[]` (`text`, `correct`, `feedback`), `format: "order"` with `steps[]` in the right order, or `format: "match"` with `pairs[]` (`left`, `right`) |
 | `takeaway` | the takeaway screen, 50 words or fewer |
 | `connection`, `note` | coach context from the Lesson and Intervention Guide; not rendered |
 | `golmest` | Session 1 only: the orientation recap |

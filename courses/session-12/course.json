@@ -105,7 +105,7 @@
         },
         {
           "id": "s12-concept",
-          "type": "quiz",
+          "type": "match",
           "eyebrow": "Tonight's lesson",
           "title": "What made it work?",
           "assessment": {
@@ -113,21 +113,20 @@
             "scored": false
           },
           "required": true,
-          "question": "Tonight he tried to knock you down from his back. What kept you up?",
-          "select": "single",
+          "question": "Each game tonight had one thing. Match them.",
           "retry": true,
-          "options": [
+          "pairs": [
             {
-              "text": "Staying on your feet, not your knees.",
-              "correct": true
+              "left": "Game 1: Standing",
+              "right": "Three touches, or lock your hands."
             },
             {
-              "text": "Dropping to your knees to rest.",
-              "feedback": "On your knees, he can tip you over."
+              "left": "Game 2: Guarded",
+              "right": "Break his grips, then get around his legs."
             },
             {
-              "text": "Leaning over to grab his head.",
-              "feedback": "Leaning over gives him your balance."
+              "left": "Game 3: Pinned",
+              "right": "Pull his hips down. Keep him belly down."
             }
           ],
           "bridge": "With the mask off, you still stay on your feet."

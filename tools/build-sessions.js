@@ -164,24 +164,33 @@ function screenCheck(s) {
    supplies s.concept (every session but Session 1). */
 function screenConcept(s) {
   const c = s.concept;
-  return {
+  // Three formats, one per session, chosen by what that night taught
+  // (October 27, 2026). A sequence gets "order" (c.steps, in the right
+  // order). Who-does-what gets "match" (c.pairs, left and right). One idea
+  // gets the three-option choice (c.options). All three are tap-only and
+  // share the retry, bridge, and gate rules.
+  const format = c.format === 'order' || c.format === 'match' ? c.format : 'quiz';
+  const slide = {
     id: `s${pad(s.n)}-concept`,
-    type: 'quiz',
+    type: format,
     eyebrow: "Tonight's lesson",
     title: 'What made it work?',
     assessment: { role: 'formative', scored: false },
     // Required so every learner reaches the bridge: answer, and if it's wrong,
     // one more try. The answer is shown after the second try either way.
     required: true,
-    question: c.question,
-    select: 'single',
-    retry: true,
-    options: c.options,
-    // The tie from tonight's lesson to tonight's question. Shown to every
-    // learner once the answer is settled, right or wrong, not only to the
-    // ones who pick the right option (October 14, 2026).
-    bridge: c.bridge
+    question: c.question
   };
+  if (format === 'quiz') slide.select = 'single';
+  slide.retry = true;
+  if (format === 'order') slide.items = c.steps;
+  else if (format === 'match') slide.pairs = c.pairs;
+  else slide.options = c.options;
+  // The tie from tonight's lesson to tonight's question. Shown to every
+  // learner once the answer is settled, right or wrong, not only to the
+  // ones who pick the right option (October 14, 2026).
+  slide.bridge = c.bridge;
+  return slide;
 }
 
 function screenTakeaway(s) {

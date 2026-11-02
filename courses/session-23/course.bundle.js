@@ -108,7 +108,7 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
         },
         {
           "id": "s23-concept",
-          "type": "quiz",
+          "type": "match",
           "eyebrow": "Tonight's lesson",
           "title": "What made it work?",
           "assessment": {
@@ -116,21 +116,20 @@ window.GWMS_COURSE_BUNDLE["session-23"] =
             "scored": false
           },
           "required": true,
-          "question": "Tonight he tried to get around your legs while you lay on your back. What kept him in front?",
-          "select": "single",
+          "question": "Each game tonight had one thing. Match them.",
           "retry": true,
-          "options": [
+          "pairs": [
             {
-              "text": "Keeping your feet and a hand on him.",
-              "correct": true
+              "left": "Game 1: Standing",
+              "right": "Grip his wrists, elbows, and head on purpose."
             },
             {
-              "text": "Letting your feet drop to rest.",
-              "feedback": "Resting your feet lets him walk around."
+              "left": "Game 2: Guarded",
+              "right": "Keep your feet and a hand on him."
             },
             {
-              "text": "Rolling away to get some space.",
-              "feedback": "Rolling away gives him your back."
+              "left": "Game 3: Pinned",
+              "right": "Keep something under his elbow."
             }
           ],
           "bridge": "Staying when leaving would be easier is a choice you make."

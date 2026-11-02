@@ -108,7 +108,7 @@ window.GWMS_COURSE_BUNDLE["session-09"] =
         },
         {
           "id": "s09-concept",
-          "type": "quiz",
+          "type": "match",
           "eyebrow": "Tonight's lesson",
           "title": "What made it work?",
           "assessment": {
@@ -116,21 +116,20 @@ window.GWMS_COURSE_BUNDLE["session-09"] =
             "scored": false
           },
           "required": true,
-          "question": "Tonight he fought to pull his elbows in under you. What kept him down?",
-          "select": "single",
+          "question": "Each game tonight had one thing. Match them.",
           "retry": true,
-          "options": [
+          "pairs": [
             {
-              "text": "Staying under at least one elbow.",
-              "correct": true
+              "left": "Game 1: Standing",
+              "right": "Hold his leg, keep him moving."
             },
             {
-              "text": "Lying flat on him with all your weight.",
-              "feedback": "Weight alone won't stop his elbows."
+              "left": "Game 2: Guarded",
+              "right": "Step your shin behind his knee."
             },
             {
-              "text": "Letting go to grab his head.",
-              "feedback": "Letting go frees both elbows."
+              "left": "Game 3: Pinned",
+              "right": "Stay under at least one elbow."
             }
           ],
           "bridge": "Noticing the first crack is how you stop it from growing."

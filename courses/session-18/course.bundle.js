@@ -108,7 +108,7 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
         },
         {
           "id": "s18-concept",
-          "type": "quiz",
+          "type": "match",
           "eyebrow": "Tonight's lesson",
           "title": "What made it work?",
           "assessment": {
@@ -116,21 +116,20 @@ window.GWMS_COURSE_BUNDLE["session-18"] =
             "scored": false
           },
           "required": true,
-          "question": "Tonight you tripped him from the overhook. What made him fall?",
-          "select": "single",
+          "question": "Each game tonight had one thing. Match them.",
           "retry": true,
-          "options": [
+          "pairs": [
             {
-              "text": "Blocking his foot, then pulling.",
-              "correct": true
+              "left": "Game 1: Standing",
+              "right": "Block his foot, then pull."
             },
             {
-              "text": "Kicking his leg out hard.",
-              "feedback": "Kicking hurts. Blocking moves him."
+              "left": "Game 2: Guarded",
+              "right": "Push him flat, then touch your shin to him."
             },
             {
-              "text": "Shoving him straight back.",
-              "feedback": "Shoving just walks him backward."
+              "left": "Game 3: Pinned",
+              "right": "Keep your arm under his elbow."
             }
           ],
           "bridge": "Your friction lands on a real person, so use control, not force."

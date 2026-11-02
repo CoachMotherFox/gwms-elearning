@@ -530,3 +530,45 @@ fieldset.assess__set { border: 0; padding: 0; margin: 0; min-width: 0; }
   body { background: #fff; color: #000; }
   .reveal__panel[hidden] { display: block !important; }
 }
+
+/* Order (tap the steps in order) and Match (tap a line, then its match).
+   Tap-only, no drag: every control is a real button, so keyboard and
+   screen-reader use come for free and cold hands on a phone still work. */
+.order, .match__slots, .match__pool { list-style: none; margin: 0 0 1rem; padding: 0; display: grid; gap: .5rem; }
+.order__btn, .match__slotbtn, .match__chip {
+  width: 100%; text-align: left; min-height: var(--tap);
+  padding: .8rem 1rem; border: 1px solid var(--line-strong); border-radius: var(--radius);
+  background: var(--bg); color: inherit; font: inherit; cursor: pointer;
+  display: flex; align-items: center; gap: .75rem;
+}
+.order__btn:hover:not(:disabled), .match__slotbtn:hover:not(:disabled), .match__chip:hover:not(:disabled) { background: var(--surface-2); }
+.order__btn:focus-visible, .match__slotbtn:focus-visible, .match__chip:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+.order__btn:disabled, .match__slotbtn:disabled, .match__chip:disabled { cursor: default; }
+.order__btn[aria-pressed="true"], .match__slotbtn[aria-pressed="true"] { border-color: var(--accent); background: var(--accent-soft); }
+
+.order__num {
+  flex: 0 0 auto; width: 1.9rem; height: 1.9rem; border-radius: 50%;
+  display: grid; place-items: center; font-size: .85rem; font-weight: 700;
+  background: var(--surface-2); color: var(--ink-muted);
+}
+.order__btn[aria-pressed="true"] .order__num { background: var(--accent); color: var(--accent-ink); }
+.order__text { flex: 1 1 auto; }
+.order__fix, .match__fix { display: block; margin-top: .3rem; font-size: .86rem; color: var(--ink-muted); }
+.check__mark { font-weight: 700; }
+
+.order__item[data-state="correct"] > .order__btn, .match__slot[data-state="correct"] > .match__slotbtn { border-color: var(--ok); background: var(--ok-soft); }
+.order__item[data-state="incorrect"] > .order__btn, .match__slot[data-state="incorrect"] > .match__slotbtn { border-color: var(--no); background: var(--no-soft); }
+.order__item[data-state="correct"] .order__num { background: var(--ok); color: var(--accent-ink); }
+.order__item[data-state="incorrect"] .order__num { background: var(--no); color: var(--accent-ink); }
+.order__item[data-state="correct"] .check__mark, .match__slot[data-state="correct"] .check__mark { color: var(--ok); }
+.order__item[data-state="incorrect"] .check__mark, .match__slot[data-state="incorrect"] .check__mark { color: var(--no); }
+
+.match__slotbtn { flex-direction: column; align-items: flex-start; gap: .2rem; }
+.match__left { font-weight: 700; }
+.match__pick { color: var(--ink-muted); }
+.match__slot[data-filled="true"] .match__pick { color: var(--ink); }
+.match__poollabel {
+  font-size: .68rem; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--ink-muted); font-weight: 700; margin: .25rem 0 .5rem;
+}
+.match__chip { background: var(--surface-2); }

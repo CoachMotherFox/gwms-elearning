@@ -3,20 +3,16 @@
   "title": "Engine demo: every slide type",
   "lang": "en",
   "rightsHolder": "Grappling With My Self (GWMS)",
-
   "_scope": "NOT COURSE CONTENT. This folder is a test harness: it exercises every slide type, every assessment strategy, the gating rule, branching, and the credits panel. It exists so those code paths are demonstrably working without inventing GWMS curriculum. Delete it before handing the engine over if you want, nothing depends on it.",
-
   "meta": {
     "neighborhood": "Engine",
     "theme": "Test harness"
   },
-
   "scenes": [
     {
       "id": "types",
       "title": "Slide types",
       "slides": [
-
         {
           "id": "intro",
           "type": "text-image",
@@ -45,7 +41,10 @@
                 "url": "https://github.com/mdn/shared-assets"
               },
               "transcript": [
-                { "kind": "paragraph", "text": "Demonstration clip with no spoken audio. A closed flower bud opens in time-lapse." }
+                {
+                  "kind": "paragraph",
+                  "text": "Demonstration clip with no spoken audio. A closed flower bud opens in time-lapse."
+                }
               ]
             }
           ],
@@ -53,12 +52,14 @@
             {
               "label": "What a reveal looks like",
               "content": [
-                { "kind": "paragraph", "text": "A reveal is a button with `aria-expanded`, so it works with a mouse, a keyboard, and a screen reader without any special handling. Opening one is recorded, which is what lets a slide require that everything has been opened before Next unlocks." }
+                {
+                  "kind": "paragraph",
+                  "text": "A reveal is a button with `aria-expanded`, so it works with a mouse, a keyboard, and a screen reader without any special handling. Opening one is recorded, which is what lets a slide require that everything has been opened before Next unlocks."
+                }
               ]
             }
           ]
         },
-
         {
           "id": "video-slide",
           "type": "video",
@@ -78,7 +79,10 @@
               "url": "https://github.com/mdn/shared-assets"
             },
             "transcript": [
-              { "kind": "paragraph", "text": "Demonstration clip with no spoken audio. A closed flower bud is held in centre frame, then opens fully in time-lapse." }
+              {
+                "kind": "paragraph",
+                "text": "Demonstration clip with no spoken audio. A closed flower bud is held in centre frame, then opens fully in time-lapse."
+              }
             ]
           },
           "body": [
@@ -88,14 +92,16 @@
             }
           ]
         },
-
         {
           "id": "branch",
           "type": "branch",
           "eyebrow": "Slide type",
           "title": "A branching decision point",
           "body": [
-            { "kind": "paragraph", "text": "The learner's choice decides which slide comes next. Both paths rejoin further on." }
+            {
+              "kind": "paragraph",
+              "text": "The learner's choice decides which slide comes next. Both paths rejoin further on."
+            }
           ],
           "question": "Which path should this demo take?",
           "options": [
@@ -115,7 +121,6 @@
             }
           ]
         },
-
         {
           "id": "outcome-a",
           "type": "text-image",
@@ -123,10 +128,12 @@
           "title": "You chose the short way",
           "next": "reflect",
           "body": [
-            { "kind": "paragraph", "text": "Path B was never shown. Press Back — you return to the decision point you came from, not to whichever slide happens to sit before this one in the file." }
+            {
+              "kind": "paragraph",
+              "text": "Path B was never shown. Press Back — you return to the decision point you came from, not to whichever slide happens to sit before this one in the file."
+            }
           ]
         },
-
         {
           "id": "outcome-b",
           "type": "text-image",
@@ -134,10 +141,12 @@
           "title": "You chose the other way",
           "next": "reflect",
           "body": [
-            { "kind": "paragraph", "text": "Path A was never shown. Both paths rejoin at the next slide." }
+            {
+              "kind": "paragraph",
+              "text": "Path A was never shown. Both paths rejoin at the next slide."
+            }
           ]
         },
-
         {
           "id": "reflect",
           "type": "reflection",
@@ -148,12 +157,14 @@
           "hint": "This slide is set to `required`, so Next stays locked until the box has something in it. Reflections are captured, never scored.",
           "placeholder": "Type a few words…",
           "body": [
-            { "kind": "paragraph", "text": "Nothing typed here leaves the device, and it is gone when the tab closes." }
+            {
+              "kind": "paragraph",
+              "text": "Nothing typed here leaves the device, and it is gone when the tab closes."
+            }
           ]
         }
       ]
     },
-
     {
       "id": "assessment",
       "title": "Assessment strategies",
@@ -163,15 +174,33 @@
           "type": "quiz",
           "eyebrow": "Assessment strategy 2 of 3",
           "title": "Mid-scene knowledge check",
-          "assessment": { "role": "formative", "scored": false },
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
           "question": "Which of these does the engine check on every course load?",
           "select": "multiple",
           "retry": true,
           "options": [
-            { "text": "Alt text on every graphic", "correct": true, "feedback": "Missing or empty-but-not-declared alt text is a hard error." },
-            { "text": "Captions or a transcript on every video", "correct": true, "feedback": "A video slide with no transcript will not pass." },
-            { "text": "That branch targets resolve to real slides", "correct": true, "feedback": "A dead branch target is a hard error, not a runtime surprise." },
-            { "text": "Colour contrast of the learner's chosen theme", "feedback": "Contrast is handled in the stylesheet, not at runtime. Both themes were measured against WCAG AA when the palette was set." }
+            {
+              "text": "Alt text on every graphic",
+              "correct": true,
+              "feedback": "Missing or empty-but-not-declared alt text is a hard error."
+            },
+            {
+              "text": "Captions or a transcript on every video",
+              "correct": true,
+              "feedback": "A video slide with no transcript will not pass."
+            },
+            {
+              "text": "That branch targets resolve to real slides",
+              "correct": true,
+              "feedback": "A dead branch target is a hard error, not a runtime surprise."
+            },
+            {
+              "text": "Colour contrast of the learner's chosen theme",
+              "feedback": "Contrast is handled in the stylesheet, not at runtime. Both themes were measured against WCAG AA when the palette was set."
+            }
           ]
         },
         {
@@ -179,17 +208,78 @@
           "type": "quiz",
           "eyebrow": "Assessment strategy 3 of 3",
           "title": "End-of-scene check",
-          "assessment": { "role": "summative", "scored": true },
+          "assessment": {
+            "role": "summative",
+            "scored": true
+          },
           "question": "Where does a learner's work go?",
           "select": "single",
           "retry": true,
           "options": [
-            { "text": "Into the browser tab, and nowhere else", "correct": true, "feedback": "No server, no account, no analytics. It clears when the tab closes." },
-            { "text": "To a course database", "feedback": "There is no database. That is a deliberate choice, not a missing feature." },
-            { "text": "To the facilitator's dashboard", "feedback": "There is no dashboard. Ratings are collected separately on the IRF." }
+            {
+              "text": "Into the browser tab, and nowhere else",
+              "correct": true,
+              "feedback": "No server, no account, no analytics. It clears when the tab closes."
+            },
+            {
+              "text": "To a course database",
+              "feedback": "There is no database. That is a deliberate choice, not a missing feature."
+            },
+            {
+              "text": "To the facilitator's dashboard",
+              "feedback": "There is no dashboard. Ratings are collected separately on the IRF."
+            }
           ],
           "correctText": "That is the whole data story.",
           "incorrectText": "Check the Contents menu, then 'Your data'."
+        },
+        {
+          "id": "check-order",
+          "type": "order",
+          "eyebrow": "Assessment strategies",
+          "title": "Put the steps in order",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "required": true,
+          "question": "Making a cup of tea. Put the steps in order.",
+          "retry": true,
+          "items": [
+            "Boil the water.",
+            "Put the tea bag in the cup.",
+            "Pour the water over it.",
+            "Wait, then take the bag out."
+          ],
+          "bridge": "Order matters when each step needs the one before it."
+        },
+        {
+          "id": "check-match",
+          "type": "match",
+          "eyebrow": "Assessment strategies",
+          "title": "Match them up",
+          "assessment": {
+            "role": "formative",
+            "scored": false
+          },
+          "required": true,
+          "question": "Match each slide type to what it does.",
+          "retry": true,
+          "pairs": [
+            {
+              "left": "Quiz",
+              "right": "Pick the right answer."
+            },
+            {
+              "left": "Order",
+              "right": "Tap the steps in order."
+            },
+            {
+              "left": "Match",
+              "right": "Pair each line with its match."
+            }
+          ],
+          "bridge": "Three formats, one rule: the answer settles, then the bridge shows."
         }
       ]
     }

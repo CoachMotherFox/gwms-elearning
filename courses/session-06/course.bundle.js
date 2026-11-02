@@ -108,7 +108,7 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
         },
         {
           "id": "s06-concept",
-          "type": "quiz",
+          "type": "order",
           "eyebrow": "Tonight's lesson",
           "title": "What made it work?",
           "assessment": {
@@ -116,22 +116,13 @@ window.GWMS_COURSE_BUNDLE["session-06"] =
             "scored": false
           },
           "required": true,
-          "question": "Tonight you got past his legs while he lay on his back. What got you in?",
-          "select": "single",
+          "question": "Tonight you got past his legs. Put the steps in order.",
           "retry": true,
-          "options": [
-            {
-              "text": "Your shin stepping behind his knee.",
-              "correct": true
-            },
-            {
-              "text": "Jumping over both of his legs.",
-              "feedback": "Jumping gives his feet a chance to push you."
-            },
-            {
-              "text": "Pulling his head toward you.",
-              "feedback": "His head is not where the gap is."
-            }
+          "items": [
+            "Push his legs to one side.",
+            "Step your shin behind one knee.",
+            "Slide across to his other knee.",
+            "Keep his feet off you."
           ],
           "bridge": "His legs protect his body, the way a mask protects what is under it."
         }

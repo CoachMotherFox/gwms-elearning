@@ -106,7 +106,7 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
         },
         {
           "id": "s35-concept",
-          "type": "quiz",
+          "type": "order",
           "eyebrow": "Tonight's lesson",
           "title": "What made it work?",
           "assessment": {
@@ -114,22 +114,13 @@ window.GWMS_COURSE_BUNDLE["session-35"] =
             "scored": false
           },
           "required": true,
-          "question": "Tonight you had to earn three touches before the lock. What earned them?",
-          "select": "single",
+          "question": "Tonight you played the three touches game again. Put the steps in order.",
           "retry": true,
-          "options": [
-            {
-              "text": "Gripping his wrists and elbows on purpose.",
-              "correct": true
-            },
-            {
-              "text": "Grabbing anything you could reach.",
-              "feedback": "Reaching for anything is not on purpose."
-            },
-            {
-              "text": "Rushing in for the lock early.",
-              "feedback": "The lock only counts after three touches."
-            }
+          "items": [
+            "Grab or push his wrists, elbows, and head.",
+            "Get a touch: hand behind his knee, or arm under his armpit.",
+            "Get three touches.",
+            "Lock your hands around him."
           ],
           "bridge": "Who you became is someone who earns it instead of grabbing."
         }

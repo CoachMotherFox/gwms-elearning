@@ -18,7 +18,7 @@
 
   var GWMS = window.GWMS = window.GWMS || {};
 
-  var KNOWN_TYPES = ['text-image', 'video', 'reveal', 'branch', 'quiz', 'reflection'];
+  var KNOWN_TYPES = ['text-image', 'video', 'reveal', 'branch', 'quiz', 'order', 'match', 'reflection'];
 
   function validateCourse(course) {
     var issues = [];
@@ -76,6 +76,7 @@
     var kinds = {};
     allSlides.forEach(function (e) {
       if (e.slide.type === 'quiz') kinds[(e.slide.assessment && e.slide.assessment.role) || 'formative'] = true;
+      if (e.slide.type === 'order' || e.slide.type === 'match') kinds.formative = true;
       if (e.slide.type === 'reflection') kinds.reflection = true;
       if (e.slide.type === 'branch') kinds.scenario = true;
     });
@@ -152,6 +153,35 @@
           if (!o.text) err(where, 'Quiz option ' + (i + 1) + ' has no "text".');
           if (!o.feedback && !(o.correct && slide.bridge)) warn(where, 'Quiz option ' + (i + 1) + ' has no "feedback". Immediate, specific feedback is the point of a knowledge check.');
         });
+      }
+    }
+
+    if (slide.type === 'order') {
+      if (!slide.question) err(where, 'Order slide has no "question".');
+      if (!Array.isArray(slide.items) || slide.items.length < 3) {
+        err(where, 'Order slide needs at least three "items", listed in the correct order.');
+      } else {
+        slide.items.forEach(function (it, i) {
+          var text = typeof it === 'string' ? it : (it && it.text);
+          if (!text) err(where, 'Order item ' + (i + 1) + ' has no text.');
+        });
+        if (slide.items.length > 6) warn(where, 'Order slide has more than six items. That is a lot to hold in your head on a phone.');
+      }
+    }
+
+    if (slide.type === 'match') {
+      if (!slide.question) err(where, 'Match slide has no "question".');
+      if (!Array.isArray(slide.pairs) || slide.pairs.length < 2) {
+        err(where, 'Match slide needs at least two "pairs".');
+      } else {
+        var rights = Object.create(null);
+        slide.pairs.forEach(function (p, i) {
+          if (!p || !p.left) err(where, 'Match pair ' + (i + 1) + ' has no "left".');
+          if (!p || !p.right) err(where, 'Match pair ' + (i + 1) + ' has no "right".');
+          else if (rights[p.right]) err(where, 'Match pairs ' + rights[p.right] + ' and ' + (i + 1) + ' have the same "right" text, so the learner cannot tell them apart.');
+          else rights[p.right] = i + 1;
+        });
+        if (slide.pairs.length > 5) warn(where, 'Match slide has more than five pairs. That is a lot to hold on a phone.');
       }
     }
 
