@@ -1,21 +1,214 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GWMS eLearning</title>
-<meta http-equiv="refresh" content="0; url=engine/index.html">
+<title>Grappling With My Self</title>
+<meta name="description" content="Grappling With My Self (GWMS) is a 36-session youth program that uses grappling to help boys learn who they are. A program of Conceptual Combat Academy.">
+<link rel="icon" href="engine/assets/favicon-192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="engine/assets/favicon-192.png">
+<link rel="stylesheet" href="engine/css/engine.css?v=10">
 <style>
-  body { font: 1rem/1.6 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
-         margin: 0; min-height: 100svh; display: grid; place-items: center;
-         background: #FAFAF6; color: #15170F; padding: 2rem; text-align: center; }
-  a { color: #4E6B1B; }
+  body { display: block; }
+  .wrap { max-width: 46rem; margin: 0 auto; padding: 0 var(--pad); }
+
+  /* Top bar */
+  .top { position: sticky; top: 0; z-index: 5; background: color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+  .top__inner { max-width: 46rem; margin: 0 auto; padding: .6rem var(--pad); display: flex; align-items: center; gap: .75rem; }
+  .top__brand { display: flex; align-items: center; gap: .6rem; text-decoration: none; color: var(--ink); font-weight: 800; }
+  .top__brand img { width: 32px; height: 32px; border-radius: 50%; }
+  .top__cta { margin-left: auto; }
+
+  /* Hero */
+  .hero { padding: 3.5rem 0 2.5rem; }
+  .hero__eyebrow { font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); font-weight: 700; margin: 0 0 .7rem; }
+  .hero h1 { font-size: clamp(2rem, 1.4rem + 2.6vw, 3rem); margin: 0 0 .8rem; }
+  .hero__lead { font-size: 1.15rem; color: var(--ink-muted); max-width: 36rem; margin: 0 0 1.4rem; }
+  .hero__actions { display: flex; flex-wrap: wrap; gap: .6rem; }
+  .hero__actions a { text-decoration: none; }
+
+  /* Sections */
+  section { padding: 2.25rem 0; border-top: 1px solid var(--line); }
+  section h2 { font-size: 1.6rem; margin: 0 0 1rem; }
+  section h3 { font-size: 1.05rem; margin: 1.4rem 0 .4rem; }
+  .lead { font-size: 1.08rem; }
+  .muted { color: var(--ink-muted); }
+  .principle { font-family: var(--font-head); font-weight: 800; font-size: 1.5rem; margin: 1.2rem 0; padding: 1rem 1.2rem; border-left: 4px solid var(--accent); background: var(--surface); border-radius: 0 var(--radius) var(--radius) 0; }
+
+  /* Clock */
+  .clock { list-style: none; margin: 1rem 0 0; padding: 0; display: grid; gap: .5rem; }
+  .clock li { display: grid; grid-template-columns: 4.5rem 1fr; gap: .75rem; padding: .7rem .9rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+  .clock b { color: var(--accent); }
+
+  /* Stages */
+  .stages { display: grid; gap: .75rem; margin-top: 1rem; }
+  @media (min-width: 40rem) { .stages { grid-template-columns: repeat(3, 1fr); } }
+  .stage { border: 1px solid var(--line); border-radius: var(--radius); padding: 1rem 1.1rem; background: var(--surface); }
+  .stage__num { font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); font-weight: 700; margin: 0 0 .3rem; }
+  .stage h3 { margin: 0 0 .4rem; font-size: 1.15rem; }
+  .stage p { margin: 0 0 .5rem; font-size: .95rem; }
+  .stage__themes { font-size: .88rem; color: var(--ink-muted); margin: 0; }
+
+  /* People */
+  .people { display: grid; gap: .75rem; margin-top: 1rem; }
+  @media (min-width: 40rem) { .people { grid-template-columns: 1fr 1fr; } }
+  .person { border: 1px solid var(--line); border-radius: var(--radius); padding: 1rem 1.1rem; background: var(--surface); }
+  .person h3 { margin: 0 0 .15rem; font-size: 1.1rem; }
+  .person__role { font-size: .85rem; color: var(--accent); font-weight: 700; margin: 0 0 .6rem; }
+  .person p { margin: 0 0 .5rem; font-size: .95rem; }
+
+  /* Lists and callouts */
+  .plain { padding-left: 1.2rem; }
+  .plain li { margin: 0 0 .45rem; }
+  .note { border: 1px solid var(--accent); background: var(--accent-soft); border-radius: var(--radius); padding: .9rem 1.1rem; margin: 1rem 0; }
+  .note p { margin: 0 0 .4rem; }
+  .note p:last-child { margin: 0; }
+
+  /* Contact */
+  .contact a { font-weight: 700; }
+
+  footer { border-top: 1px solid var(--line); padding: 2rem 0 3rem; color: var(--ink-muted); font-size: .85rem; }
+  footer a { color: inherit; }
 </style>
 </head>
 <body>
-  <main>
-    <p>Opening the GWMS eLearning course&hellip;</p>
-    <p><a href="engine/index.html">Continue to the course</a></p>
-  </main>
+
+<header class="top">
+  <div class="top__inner">
+    <a class="top__brand" href="#">
+      <img src="engine/assets/brand-mark.png" alt="" width="32" height="32">
+      <span>Grappling With My Self</span>
+    </a>
+    <a class="btn btn--primary top__cta" href="engine/index.html?course=session-01">Open the course</a>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <div class="hero">
+    <p class="hero__eyebrow">A program of Conceptual Combat Academy</p>
+    <h1>You vs You, Together.</h1>
+    <p class="hero__lead">Grappling With My Self is a 36-session program for boys. Three nights a week for twelve weeks, they wrestle, they talk, and they find out who they are when it gets hard.</p>
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="#what">What it is</a>
+      <a class="btn" href="#night">How a night runs</a>
+      <a class="btn" href="#who">Who we are</a>
+      <a class="btn" href="#contact">Contact</a>
+    </div>
+  </div>
+
+  <section id="what">
+    <h2>What GWMS is</h2>
+    <p class="lead">A youth program built on grappling, the kind of wrestling where nobody gets hit. The mat is the place where a boy finds out how he acts under pressure. The rest of the night is about what to do with that.</p>
+    <p>Every session is built around one question. Something like <em>What makes a place feel safe to you?</em> or <em>What do you do when someone pushes back?</em> The boys work the question with their bodies on the mat, talk it through with a counselor afterward, and answer it in their own words on their phone before they leave.</p>
+    <div class="principle">You vs You, Together.</div>
+    <p>That is the whole idea. You learn who you are by bumping into other people. A training partner makes you feel something: frustration, fear, pride, the urge to quit. Those feelings are not a problem to shut down. They are the material. You feel them with a real person in front of you, then you turn inward and work out where they came from. You cannot do that alone, which is why GWMS runs as a group and not a solo class.</p>
+
+    <h3>What GWMS is not</h3>
+    <ul class="plain">
+      <li><b>Not a fight club.</b> No striking. No tournaments. No rankings. Every round ends the instant someone taps, and everyone goes light, always.</li>
+      <li><b>Not a lecture.</b> Coaches do not show a move and have kids copy it. The boys play games with rules, and they figure out the solutions themselves.</li>
+      <li><b>Not therapy.</b> The talking part of each night is run by a licensed clinician or a trained facilitator, and the program's clinical content is reviewed by a licensed therapist. Coaches are coaches. They are not counselors, and they do not pretend to be.</li>
+    </ul>
+  </section>
+
+  <section id="night">
+    <h2>How a night runs</h2>
+    <p>Ninety minutes, the same shape every time. Boys know what is coming, and that matters.</p>
+    <ol class="clock">
+      <li><b>0:00</b><span><b>Warm up.</b> They walk in and play. A coach gives the night's question and the night's three games while they move.</span></li>
+      <li><b>0:05</b><span><b>Three games.</b> Ten minutes each: standing, guarded, pinned. Each game has one win and a few rules. Partners switch roles after every win so every boy plays both sides.</span></li>
+      <li><b>0:35</b><span><b>Cool down.</b> Water, wipe off, sit. The body settles before the talking starts.</span></li>
+      <li><b>0:40</b><span><b>Lesson.</b> Thirty-five minutes with the counselor on the night's question. What happened on the mat, and where that shows up in your life.</span></li>
+      <li><b>1:15</b><span><b>Phone.</b> Five minutes. Each boy scans a code, reads a short recap of the night's lesson, answers one check, and writes his own answer to the question. No name goes with it.</span></li>
+      <li><b>1:20</b><span><b>Clean up.</b> Chore wheel, teams of three. Then the door.</span></li>
+    </ol>
+    <p class="muted">Sites that can give two hours run a longer version with a rolling block added. Same order, same question.</p>
+  </section>
+
+  <section id="arc">
+    <h2>The 36 sessions</h2>
+    <p>Twelve weeks in three stages. Each stage takes the boy one step further, from showing up to carrying something out the door. The weekly themes are the questions the boys actually get asked.</p>
+    <div class="stages">
+      <div class="stage">
+        <p class="stage__num">Weeks 1 to 4</p>
+        <h3>The Descent</h3>
+        <p>Who you are when nobody knows you yet, and what your mask is protecting.</p>
+        <p class="stage__themes">Arrival, Mask, Crack, Reveal</p>
+      </div>
+      <div class="stage">
+        <p class="stage__num">Weeks 5 to 8</p>
+        <h3>The Initiation</h3>
+        <p>What happens when someone makes real contact, pushes back, or breaks something with you.</p>
+        <p class="stage__themes">Contact, Friction, Rupture, Repair</p>
+      </div>
+      <div class="stage">
+        <p class="stage__num">Weeks 9 to 12</p>
+        <h3>The Return</h3>
+        <p>What is different in you now, who needs it, and what you leave behind.</p>
+        <p class="stage__themes">Emergence, Contribution, Legacy, Celebration</p>
+      </div>
+    </div>
+    <p style="margin-top:1rem">The same games come back across the twelve weeks with a harder question each time. By the end, a boy can hold his own in a round, get up when he is down, and tell you in his own words what he does when it gets hard.</p>
+  </section>
+
+  <section id="who">
+    <h2>Who we are</h2>
+    <p>GWMS is a program of <b>Conceptual Combat Academy</b>, a trauma-informed martial arts school. The coaching method underneath it is called C3, Conceptual Close Combat, and it was built for exactly this: people who need the training to be safe before it can be anything else.</p>
+    <div class="people">
+      <div class="person">
+        <h3>Jamey Phoenix Bethea</h3>
+        <p class="person__role">Program Director. Founder, Conceptual Combat Academy.</p>
+        <p>Marine and Army veteran, fourteen years. Certified at the top instructor tier of the Marine Corps Martial Arts Program, the one qualified to train the other instructors. Creator of the C3 system and the GWMS curriculum. Runs the mat.</p>
+      </div>
+      <div class="person">
+        <h3>Haley Bethea, ATR-BC, LPC</h3>
+        <p class="person__role">Clinical Director.</p>
+        <p>Board certified art therapist and licensed professional counselor. Owns the clinical side of the program: the lesson block each night, and every piece of content that touches a boy's history. Runs the room after the mat.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="parents">
+    <h2>For parents</h2>
+    <p>Your son will be on a mat with other boys his size, playing games with rules, under coaches who are watching the whole time. Here is what we want you to know.</p>
+    <ul class="plain">
+      <li><b>The tap is the law.</b> Tap your partner, tap the mat, or say stop. Any one of those ends the round that second. It is the first thing taught, on the first night, and the room agrees to it out loud.</li>
+      <li><b>Nobody gets hit.</b> This is grappling. Holding, moving, getting up. No punches, no kicks, and no squeezing on the neck, ever.</li>
+      <li><b>Everybody goes light.</b> The games are built so that winning takes control, not strength. Coaches stop anything that looks like force.</li>
+      <li><b>The talking is private.</b> What your son says in the lesson block stays there. What he types on his phone goes to the program with no name attached, so nobody can tell which answers are his.</li>
+      <li><b>Three nights a week, twelve weeks.</b> Showing up is most of it. A boy who finishes all 36 gets a completion certificate. One who comes but does not finish gets an attendance certificate.</li>
+    </ul>
+  </section>
+
+  <section id="partners">
+    <h2>For schools, courts, and partners</h2>
+    <p>GWMS runs in three settings with the same 36-session curriculum. What changes is pacing and pairing, not the program.</p>
+    <ul class="plain">
+      <li><b>High school enrichment.</b> An elective or after-school program.</li>
+      <li><b>Community youth programs.</b> Delivered with a local partner organization, with intake and outcome data kept for reporting.</li>
+      <li><b>Juvenile diversion.</b> Court-referred boys. Attendance is documented every night by the program's own rating form, and completion means all 36 sessions.</li>
+    </ul>
+    <p>The design rests on published research: traditional martial arts training built around restraint lowers aggression where stripped-down training raises it (Trulson, 1986; Nosanchuk and MacNeil, 1989); three months of martial arts beat regular gym class on self-regulation and classroom conduct in a randomized study of 207 children (Lakes and Hoyt, 2004); and the two things that separate juvenile programs that work from ones that do not, a therapeutic philosophy and quality of delivery, are both design choices (Lipsey, 2009). GWMS is built on both.</p>
+    <div class="note">
+      <p><b>The full design, for reviewers.</b> How the program's online piece was built, why, and what it collects: <a href="portfolio.html">the eLearning portfolio page</a>.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>To bring GWMS to your school, program, or county, or to ask about enrolling a boy, write to <a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a>.</p>
+    <p class="muted">Based in the Philadelphia area and northern Delaware.</p>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    Grappling With My Self is a program of Conceptual Combat Academy. Conceptual Combat Academy, Conceptual Close Combat, and C3 are trademarks of Conceptual Combat Academy.
+    <br><a href="engine/index.html?course=session-01">Open the course</a> · <a href="portfolio.html">Design portfolio</a>
+  </div>
+</footer>
+
 </body>
 </html>
