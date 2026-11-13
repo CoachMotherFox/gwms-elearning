@@ -39,7 +39,7 @@ Exits non-zero if any course has an accessibility or integrity error. `tools/che
 ## Structure
 
 ```
-index.html            redirect to the engine (so the folder opens by double-click)
+index.html            the main site: what GWMS is, how a night runs, who we are, contact
 /engine
   index.html          loads a course and renders it
   /css/engine.css     one stylesheet, tokenised, light + dark
