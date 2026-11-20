@@ -114,7 +114,7 @@
       }
     });
 
-    // --- Video/audio: a text equivalent is mandatory. ---
+    // --- Video: a text equivalent is mandatory. ---
     if (slide.type === 'video') {
       var v = slide.video || {};
       if (!v.src && !v.embed) err(where, 'Video slide has neither "src" (file) nor "embed" (hosted URL).');
@@ -130,12 +130,8 @@
     }
 
     slide.alternates && slide.alternates.forEach(function (alt, i) {
-      if (!alt.mode) err(where, 'Alternate ' + (i + 1) + ' has no "mode" (audio | video).');
+      if (!alt.mode) err(where, 'Alternate ' + (i + 1) + ' has no "mode" (video).');
       if (!alt.label) warn(where, 'Alternate ' + (i + 1) + ' has no "label" for its control.');
-      if (alt.mode === 'audio' && !alt.src) err(where, 'Audio alternate ' + (i + 1) + ' has no "src".');
-      if (alt.mode === 'audio' && !alt.transcriptIsBody && !alt.transcript) {
-        err(where, 'Audio alternate ' + (i + 1) + ' needs "transcript", or "transcriptIsBody": true if the slide text is the script.', 'WCAG 1.2.1');
-      }
     });
 
     // --- Assessment shape ---
@@ -238,7 +234,7 @@
       (scene.slides || []).forEach(function (slide) {
         collectImages(slide).forEach(function (img) { push(img, slide, 'Image'); });
         if (slide.video) push(slide.video, slide, 'Video');
-        (slide.alternates || []).forEach(function (a) { push(a, slide, a.mode === 'audio' ? 'Audio' : 'Video'); });
+        (slide.alternates || []).forEach(function (a) { push(a, slide, 'Video'); });
       });
     });
     (course.credits || []).forEach(function (c) {

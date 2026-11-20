@@ -319,7 +319,6 @@ body.is-booting .slide { opacity: .6; }
   padding: .8rem 1rem; border-radius: var(--radius);
   background: var(--no-soft); color: var(--no); font-size: .88rem;
 }
-audio { width: 100%; margin-bottom: .75rem; }
 
 /* ---------- Video ---------- */
 .videowrap {

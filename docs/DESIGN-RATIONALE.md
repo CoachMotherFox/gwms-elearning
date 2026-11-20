@@ -94,7 +94,7 @@ Differentiation here is not one accommodation bolted on; it is four independent 
 
 ### Format — the same content, more than one way in
 
-Any slide can declare `alternates`. The learner gets a "Take this in" control offering, for example, **Read** or **Listen**. The written text stays on screen beneath the audio as its transcript, so choosing audio never costs access to the text. Session 1's probing question slide ships with both paths working.
+Any slide can declare `alternates`. The learner gets a "Take this in" control offering, for example, **Read** or **Watch**. Every video carries captions and a transcript, so choosing video never costs access to the text. The engine demo ships with both paths working.
 
 This is the rubric's "alternate representations…a text path and an audio or video path for the same material, not one blanket format for every learner" — implemented as a per-slide capability rather than a course-wide format decision. This is also the core principle of Universal Design for Learning: offer multiple means of representation so no single format gates access to content (CAST, 2018).
 
@@ -121,7 +121,7 @@ Full keyboard operation (arrow keys, Tab, Enter, Escape) alongside touch and mou
 | Requirement | How |
 |---|---|
 | Alt text on every graphic | Mandatory. Missing or undeclared-empty alt is a **hard error**, not a warning. Decorative images must say so. |
-| Captions or transcripts on every video | File-based video requires a `.vtt` captions track; every video requires a transcript. Both are hard errors. Audio alternates require a transcript. |
+| Captions or transcripts on every video | File-based video requires a `.vtt` captions track; every video requires a transcript. Both are hard errors. |
 | Full keyboard navigation | No mouse-only interaction anywhere. Arrow keys page through slides but yield to text fields and media controls. Focus moves to the new slide's heading on change, so keyboard and screen-reader users land in the content. Visible focus rings are never removed. |
 | WCAG AA contrast | Palette measured when chosen; ratios recorded as comments beside the tokens in `engine.css`. A **live audit** re-measures the rendered page in the learner's actual theme and text size—verified passing in light and dark, at all three text sizes, with the high-legibility typeface. |
 | Copyright / CC notice on borrowed assets | Per-asset `credit` block, rendered inline and collected in a credits panel. Warned on if absent. |

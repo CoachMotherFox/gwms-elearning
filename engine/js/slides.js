@@ -7,7 +7,7 @@
 
      header        eyebrow + <h1>              — focus target on slide change
      altbar        "Take this in another way"  — differentiation control
-     body region   swappable: read / listen / watch
+     body region   swappable: read / watch
      interactive   type-specific (quiz, branch, reflection)
      interactions  reveals attached to the slide
 
@@ -136,32 +136,6 @@
 
   function renderAlternateMedia(alt, slide, ctx) {
     var wrap = el('div.alt-media');
-
-    if (alt.mode === 'audio') {
-      var audio = el('audio', {
-        controls: true,
-        preload: 'none',
-        src: U.assetURL(ctx.courseBase, alt.src),
-        'aria-label': alt.label || 'Audio version of this slide'
-      });
-      audio.addEventListener('error', function () {
-        var msg = el('p.media-error', {
-          text: 'This audio has not been recorded yet. The written version below has the same content.'
-        });
-        if (audio.parentNode) audio.parentNode.replaceChild(msg, audio);
-      });
-      wrap.appendChild(audio);
-      U.append(wrap, creditLine(alt));
-      wrap.appendChild(el('p.media-note', {
-        text: alt.transcriptIsBody
-          ? 'Transcript — this is the same wording as the audio.'
-          : 'Transcript below.'
-      }));
-      if (alt.transcript) {
-        wrap.appendChild(renderBlocks(alt.transcript, ctx));
-      }
-      return wrap;
-    }
 
     if (alt.mode === 'video') {
       wrap.appendChild(renderVideoPlayer(alt, ctx));

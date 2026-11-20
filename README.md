@@ -210,11 +210,11 @@ Any slide can offer the same material another way. The learner gets a "Take this
 
 ```json
 "alternates": [
-  { "mode": "audio", "label": "Listen", "src": "assets/x.m4a", "transcriptIsBody": true, "own": true }
+  { "mode": "video", "label": "Watch", "src": "assets/x.mp4", "captions": "assets/x.vtt", "transcript": [ … ], "own": true }
 ]
 ```
 
-`transcriptIsBody: true` means the slide's written text *is* the script, so it stays on screen under the player. Otherwise supply a `transcript` array. If the media file is missing the engine says so in words and leaves the text path intact.
+Every video alternate needs a `.vtt` captions track and a `transcript` array. `transcriptIsBody: true` keeps the slide's written text on screen under the player. If the media file is missing the engine says so in words and leaves the text path intact.
 
 ---
 
