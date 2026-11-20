@@ -68,13 +68,26 @@ function gameTitle(name) {
    Guide and Lesson and Intervention Guide.                                 */
 
 function screenQuestion(s) {
-  return {
+  const slide = {
     id: `s${pad(s.n)}-question`,
     type: 'text-image',
     eyebrow: `Session ${s.n} · Today's question`,
     title: s.probingQuestion,
     body: []
   };
+  if (s.watch) slide.alternates = [watchAlternate(s.watch)];
+  return slide;
+}
+
+/* Watch option for a session, from its "watch" block in the curriculum data.
+   Everything in that block passes straight through, so swapping clips is a
+   one-line change there:
+     local file  "src": "assets/x.mp4", "captions": "assets/x.vtt",
+     YouTube     "embed": "https://youtu.be/ID", "captionsProvided": true,
+   Added November 20, 2026 with a DEMO VERSION placeholder on Session 1. The
+   real clips come from filming the sessions live.                          */
+function watchAlternate(w) {
+  return Object.assign({ mode: 'video', label: 'Watch', own: true }, w);
 }
 
 /* Cut to the bone, per instructor direction September 27, 2026: a boy at a

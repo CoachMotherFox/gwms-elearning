@@ -25,6 +25,14 @@
       "week": 1,
       "theme": "Arrival",
       "probingQuestion": "What makes a place feel safe to you?",
+      "watch": {
+        "src": "assets/demo-version.mp4", "captions": "assets/demo-version.vtt",
+        "transcript": [
+          "Demo version. Session 1 video.",
+          "Demo version. Filmed live. Coming soon.",
+          "Demo version. Captions like this, on screen."
+        ]
+      },
       "golmest": {
         "recapTitle": "What tonight was",
         "recapText": "Orientation night. From now on: warm up, three games, lesson, this phone, cleanup.",

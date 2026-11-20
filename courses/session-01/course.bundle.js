@@ -35,7 +35,21 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
           "type": "text-image",
           "eyebrow": "Session 1 · Today's question",
           "title": "What makes a place feel safe to you?",
-          "body": []
+          "body": [],
+          "alternates": [
+            {
+              "mode": "video",
+              "label": "Watch",
+              "own": true,
+              "src": "assets/demo-version.mp4",
+              "captions": "assets/demo-version.vtt",
+              "transcript": [
+                "Demo version. Session 1 video.",
+                "Demo version. Filmed live. Coming soon.",
+                "Demo version. Captions like this, on screen."
+              ]
+            }
+          ]
         },
         {
           "id": "s01-golmest",
