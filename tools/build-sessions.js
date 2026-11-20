@@ -84,7 +84,7 @@ function screenQuestion(s) {
    one-line change there:
      local file  "src": "assets/x.mp4", "captions": "assets/x.vtt",
      YouTube     "embed": "https://youtu.be/ID", "captionsProvided": true,
-   Added November 20, 2026 with a DEMO VERSION placeholder on Session 1. The
+   Added November 20, 2026 with a DEMO VIDEO placeholder on Session 1. The
    real clips come from filming the sessions live.                          */
 function watchAlternate(w) {
   return Object.assign({ mode: 'video', label: 'Watch', own: true }, w);
