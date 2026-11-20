@@ -140,6 +140,27 @@
     return out;
   }
 
+  /**
+   * Like seededShuffle, but no item is left in its own place. keyOf(item)
+   * gives the index the item started at. A plain shuffle of three items
+   * leaves them all in place one time in six, and that happened on real
+   * match screens: the choices sat in the same order as the answers, so a
+   * learner could match straight across. Same id, same order, every visit.
+   */
+  function derangedShuffle(arr, seedStr, keyOf) {
+    var n = arr.length;
+    if (n < 2) return arr.slice();
+    function clean(list) {
+      return list.every(function (item, i) { return keyOf(item) !== i; });
+    }
+    for (var k = 0; k < 20; k++) {
+      var out = seededShuffle(arr, k ? seedStr + '#' + k : seedStr);
+      if (clean(out)) return out;
+    }
+    // Shifting everything down one is always clean.
+    return arr.slice(1).concat(arr.slice(0, 1));
+  }
+
   var uidCount = 0;
   function uid(prefix) { uidCount += 1; return (prefix || 'u') + '-' + uidCount; }
 
@@ -155,6 +176,7 @@
   GWMS.util = {
     el: el, append: append, clear: clear, $: $, $$: $$,
     inline: inline, announce: announce, slug: slug, uid: uid,
-    isFileProtocol: isFileProtocol, assetURL: assetURL, seededShuffle: seededShuffle
+    isFileProtocol: isFileProtocol, assetURL: assetURL, seededShuffle: seededShuffle,
+    derangedShuffle: derangedShuffle
   };
 })();

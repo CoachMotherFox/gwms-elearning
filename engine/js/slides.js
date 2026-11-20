@@ -351,6 +351,7 @@
       ]));
 
     ctx.progress.answers[slide.id] = { selected: o.selected, correct: o.isCorrect, attempts: attempts };
+    if (o.by) ctx.progress.answers[slide.id].by = o.by;
     ctx.save();
     ctx.refreshGate();
 
@@ -659,8 +660,14 @@
       var pairs = (slide.pairs || []).map(function (p, i) {
         return { left: (p && p.left) || '', right: (p && p.right) || '', at: i };
       });
-      // chips[j].at is the slot that chip belongs to. Display is shuffled.
-      var chips = U.seededShuffle(pairs.map(function (p, i) { return { text: p.right, at: i }; }), slide.id);
+      // chips[j].at is the slot that chip belongs to. Display is shuffled so
+      // that no chip sits across from its own slot.
+      var chipList = pairs.map(function (p, i) { return { text: p.right, at: i }; });
+      var chips = U.derangedShuffle(chipList, slide.id, function (c) { return c.at; });
+      function chipFor(at) {
+        for (var j = 0; j < chips.length; j++) { if (chips[j].at === at) return j; }
+        return -1;
+      }
 
       var assign = pairs.map(function () { return -1; });   // slot -> chip display index
       var active = -1;                                       // the slot waiting for a chip
@@ -737,7 +744,10 @@
         var revealAnswer = settleCheck(slide, ctx, feedbackHost, {
           isCorrect: isCorrect,
           state: state,
-          selected: assign.slice(),
+          // Saved by answer, not by screen position, so a saved answer
+          // still lines up if the display order ever changes.
+          selected: assign.map(function (ci) { return ci === -1 ? -1 : chips[ci].at; }),
+          by: 'answer',
           wrongText: 'Fix the pairs marked ✕.',
           revealText: 'The right pairs are marked above.'
         });
@@ -785,7 +795,12 @@
       });
 
       if (saved && Array.isArray(saved.selected) && saved.selected.length === pairs.length) {
-        assign = saved.selected.map(function (j) { return chips[j] ? j : -1; });
+        // Answers saved before Nov 20 hold positions in the old shuffle.
+        var oldChips = saved.by === 'answer' ? null : U.seededShuffle(chipList, slide.id);
+        assign = saved.selected.map(function (v) {
+          if (oldChips) return oldChips[v] ? chipFor(oldChips[v].at) : -1;
+          return v === -1 ? -1 : chipFor(v);
+        });
         paint();
         if (assign.indexOf(-1) === -1) mark('restore');
       } else {
