@@ -44,9 +44,9 @@ window.GWMS_COURSE_BUNDLE["session-01"] =
               "src": "assets/demo-version.mp4",
               "captions": "assets/demo-version.vtt",
               "transcript": [
-                "Demo version. Session 1 video.",
-                "Demo version. Filmed live. Coming soon.",
-                "Demo version. Captions like this, on screen."
+                "Demo video. Session 1 video.",
+                "Demo video. Filmed live. Coming soon.",
+                "Demo video. Captions like this, on screen."
               ]
             }
           ]

@@ -94,7 +94,7 @@ Differentiation here is not one accommodation bolted on; it is four independent 
 
 ### Format — the same content, more than one way in
 
-Any slide can declare `alternates`. The learner gets a "Take this in" control offering, for example, **Read** or **Watch**. Every video will have sound, captions and a transcript, so choosing video never costs access to the text. Session 1 carries a placeholder clip marked Demo Version until the live footage is filmed. The engine demo ships with both paths working.
+Any slide can declare `alternates`. The learner gets a "Take this in" control offering, for example, **Read** or **Watch**. Every video will have sound, captions and a transcript, so choosing video never costs access to the text. Session 1 carries a placeholder clip marked Demo Video until the live footage is filmed. The engine demo ships with both paths working.
 
 This is the rubric's "alternate representations…a text path and an audio or video path for the same material, not one blanket format for every learner" — implemented as a per-slide capability rather than a course-wide format decision. This is also the core principle of Universal Design for Learning: offer multiple means of representation so no single format gates access to content (CAST, 2018).
 
